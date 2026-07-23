@@ -295,6 +295,7 @@
         .bairros-grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:30px; }
         .bairro-card{ background:var(--areia-soft); border-radius:22px; overflow:hidden; border:1px solid var(--line); }
         .bairro-card img{ width:100%; aspect-ratio:4/3; object-fit:cover; }
+        .bairro-card iframe{ width:100%; aspect-ratio:4/3; border:0; display:block; }
         .bairro-body{ padding:26px; }
         .bairro-body h3{ font-size:1.15rem; color:var(--onix); font-weight:300; margin-bottom:10px; }
         .bairro-body p{ font-size:0.88rem; color:var(--grafite); margin-bottom:20px; }
@@ -346,7 +347,7 @@
 
         /* ---------- print ---------- */
         @media print{
-            #nav,.ticker-wrap,.filter-bar,footer,#lightbox,.back-btn,.action-buttons,.scroll-cue,#scroll-tree,#mobile-menu{ display:none !important; }
+            #nav,.ticker-wrap,.filter-bar,footer,#lightbox,.back-btn,.action-buttons,.scroll-cue,#scroll-tree,#mobile-menu,.similar-props-section{ display:none !important; }
             body{ background:#fff; color:#000; }
         }
 
@@ -632,6 +633,7 @@
 <section id="detail-view" class="view-hidden"></section>
 
 <section id="bairros-view" class="view-hidden page-view">
+    <button class="back-btn" id="bairros-back-btn"><i data-lucide="arrow-left" style="width:14px"></i> Voltar à Home</button>
     <div class="sec-head reveal">
         <span class="eyebrow">Bairros</span>
         <h2>Bairros de Goiânia</h2>
@@ -639,7 +641,7 @@
     </div>
     <div class="bairros-grid">
         <div class="bairro-card">
-            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=900" alt="Setor Bueno">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15286.131956585214!2d-49.28455023831948!3d-16.700237295189496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935ef1377c179b13%3A0xdd0369007eb37f7e!2sSt.%20Bueno%2C%20Goi%C3%A2nia%20-%20GO!5e0!3m2!1spt-BR!2sbr!4v1784836514655!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" title="Mapa Setor Bueno"></iframe>
             <div class="bairro-body">
                 <h3>Setor Bueno</h3>
                 <p>Um dos endereços mais consolidados de Goiânia — comércio de rua forte, prédios de alto padrão e fácil acesso a diversas regiões da cidade. Público que valoriza localização e infraestrutura pronta.</p>
@@ -647,7 +649,7 @@
             </div>
         </div>
         <div class="bairro-card">
-            <img src="https://images.unsplash.com/photo-1613977257363-707ba9348227?q=80&w=900" alt="Alphaville Flamboyant">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3821.2410516815335!2d-49.2045289741334!3d-16.714820134062176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935eefdf69216467%3A0x8c86398b3b21583c!2sAlphaville%20Flamboyant%2C%20Goi%C3%A2nia%20-%20GO!5e0!3m2!1spt-BR!2sbr!4v1784836033527!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" title="Mapa Alphaville Flamboyant"></iframe>
             <div class="bairro-body">
                 <h3>Alphaville Flamboyant</h3>
                 <p>Condomínios fechados, segurança e amplos terrenos. Atrai famílias que buscam tranquilidade e um padrão de vida mais residencial, próximo ao comércio da região sul.</p>
@@ -655,7 +657,7 @@
             </div>
         </div>
         <div class="bairro-card">
-            <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=900" alt="Setor Marista">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30572.093226419875!2d-49.28217383821153!3d-16.701303480689333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935ef11ba7c0de7f%3A0x44cf685a50c00cdd!2sSt.%20Marista%2C%20Goi%C3%A2nia%20-%20GO!5e0!3m2!1spt-BR!2sbr!4v1784835881631!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" title="Mapa Setor Marista"></iframe>
             <div class="bairro-body">
                 <h3>Setor Marista</h3>
                 <p>Bairro nobre e arborizado, com edifícios de alto padrão e proximidade ao centro comercial da cidade. Perfil de morador que busca sofisticação sem abrir mão da centralidade.</p>
@@ -663,7 +665,7 @@
             </div>
         </div>
         <div class="bairro-card">
-            <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=900" alt="Jardim Goiás">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15286.281660940313!2d-49.24816993831997!3d-16.6983668952147!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935ef1a5f78e7ce5%3A0x8b784cafeab76eaf!2sJardim%20Goi%C3%A1s%2C%20Goi%C3%A2nia%20-%20GO!5e0!3m2!1spt-BR!2sbr!4v1784836564336!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" title="Mapa Jardim Goiás"></iframe>
             <div class="bairro-body">
                 <h3>Jardim Goiás</h3>
                 <p>Próximo a parques, shoppings e centros empresariais. Boa relação custo-benefício para quem quer infraestrutura completa sem pagar o preço dos bairros mais tradicionais.</p>
@@ -671,7 +673,7 @@
             </div>
         </div>
         <div class="bairro-card">
-            <img src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?q=80&w=900" alt="Setor Oeste">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7643.712702287306!2d-49.27513405523019!3d-16.68407028635243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935ef15b78ed9581%3A0xaa2d07355c51a564!2sSt.%20Oeste%2C%20Goi%C3%A2nia%20-%20GO!5e0!3m2!1spt-BR!2sbr!4v1784836649154!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" title="Mapa Setor Oeste"></iframe>
             <div class="bairro-body">
                 <h3>Setor Oeste</h3>
                 <p>Um dos bairros mais tradicionais da cidade, com prédios mais antigos ao lado de novos lançamentos. Atrai quem busca praticidade e proximidade ao centro histórico.</p>
@@ -679,7 +681,7 @@
             </div>
         </div>
         <div class="bairro-card">
-            <img src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?q=80&w=900" alt="Setor Sul">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15286.916286757818!2d-49.263140788322346!3d-16.690435645321713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935ef172a7c1ee49%3A0xa6029952d3935d86!2sSt.%20Sul%2C%20Goi%C3%A2nia%20-%20GO!5e0!3m2!1spt-BR!2sbr!4v1784836741940!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" title="Mapa Setor Sul"></iframe>
             <div class="bairro-body">
                 <h3>Setor Sul</h3>
                 <p>Região consolidada, com boa oferta de comércio e serviços do dia a dia. Costuma interessar quem busca imóveis mais em conta sem abrir mão de estar bem localizado.</p>
@@ -690,6 +692,7 @@
 </section>
 
 <section id="jornada-view" class="view-hidden page-view">
+    <button class="back-btn" id="jornada-back-btn"><i data-lucide="arrow-left" style="width:14px"></i> Voltar à Home</button>
     <div class="sec-head reveal">
         <span class="eyebrow">Jornada</span>
         <h2>Como funciona, do início ao fim</h2>
@@ -745,6 +748,7 @@
 </section>
 
 <section id="noticias-view" class="view-hidden page-view">
+    <button class="back-btn" id="noticias-back-btn"><i data-lucide="arrow-left" style="width:14px"></i> Voltar à Home</button>
     <div class="sec-head reveal">
         <span class="eyebrow">Journal Arbor</span>
         <h2>Para decidir com mais segurança</h2>
@@ -824,6 +828,20 @@ const escapeHTML = s => s ? String(s).replace(/[&<>'"]/g, m => ({'&':'&amp;','<'
 const formatBRL = v => v > 0 ? new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL', maximumFractionDigits: 0 }).format(v) : 'Sob Consulta';
 const formatPropertyPrice = p => p.isRentalPrice ? formatBRL(p.price) + '/mês' : formatBRL(p.price);
 const specBox = (icon, label, value) => `<div class="spec-box"><i data-lucide="${icon}" style="width:20px"></i><div class="spec-box-text"><span>${label}</span><span>${value}</span></div></div>`;
+
+const getSimilarProperties = (p, limit = 3) => {
+    const candidates = state.all.filter(x => String(x.id).trim() !== String(p.id).trim());
+    const scored = candidates.map(x => {
+        let score = 0;
+        if (x.hood === p.hood) score += 3;
+        if (x.beds === p.beds && p.beds) score += 1;
+        if (p.price > 0 && x.price > 0 && Math.abs(x.price - p.price) / p.price < 0.25) score += 2;
+        if (x.operacao === p.operacao) score += 1;
+        return { x, score };
+    });
+    scored.sort((a, b) => b.score - a.score);
+    return scored.slice(0, limit).map(s => s.x);
+};
 
 /* ─── FONTE DE DADOS ───
    Ponte via Google Apps Script (projeto "xmlcanalpro"): ele busca o XML do NIDOImóvel
@@ -1032,11 +1050,12 @@ const finishInit = (data) => {
 };
 
 const setupEventListeners = () => {
+    $('logo-btn').addEventListener('click', e => { e.preventDefault(); goHome(); });
     $('hero-explore-btn').addEventListener('click', e => { e.preventDefault(); const t=$('imoveis'); window.scrollTo({top:t.offsetTop-80, behavior:'smooth'}); });
     $('hero-anunciar-btn').addEventListener('click', e => { e.preventDefault(); const t=$('essencia'); window.scrollTo({top:t.offsetTop-80, behavior:'smooth'}); });
-    $('nav-imoveis-btn').addEventListener('click', e => { e.preventDefault(); const t=$('imoveis'); window.scrollTo({top:t.offsetTop-80, behavior:'smooth'}); });
-    $('nav-sobre-btn').addEventListener('click', e => { e.preventDefault(); const t=$('essencia'); window.scrollTo({top:t.offsetTop-80, behavior:'smooth'}); });
-    $('nav-consultoria-btn').addEventListener('click', e => { e.preventDefault(); const t=$('consultoria'); window.scrollTo({top:t.offsetTop-80, behavior:'smooth'}); });
+    $('nav-imoveis-btn').addEventListener('click', e => { e.preventDefault(); goHome('imoveis'); });
+    $('nav-sobre-btn').addEventListener('click', e => { e.preventDefault(); goHome('essencia'); });
+    $('nav-consultoria-btn').addEventListener('click', e => { e.preventDefault(); goHome('consultoria'); });
 
     $('filter-search').addEventListener('input', e => { state.filters.search = e.target.value.toLowerCase(); applyFilters(); });
     $('filter-hood').addEventListener('change', e => { state.filters.hood = e.target.value; applyFilters(); });
@@ -1062,7 +1081,12 @@ const setupEventListeners = () => {
         $('burger').setAttribute('aria-expanded', open);
     });
     document.querySelectorAll('#mobile-menu .mm-link').forEach(a => {
-        a.addEventListener('click', () => document.body.classList.remove('menu-open'));
+        a.addEventListener('click', (e) => {
+            document.body.classList.remove('menu-open');
+            const href = a.getAttribute('href');
+            if (href === '#imoveis') { e.preventDefault(); goHome('imoveis'); }
+            else if (href === '#essencia') { e.preventDefault(); goHome('essencia'); }
+        });
     });
 
     $('lb-close').addEventListener('click', closeLightbox);
@@ -1152,6 +1176,23 @@ const showView = (id) => {
     $(id).querySelectorAll('.reveal').forEach(el => el.classList.add('is-visible'));
 };
 
+/* Volta para a Home a partir de QUALQUER página (Bairros/Jornada/Journal/detalhe)
+   e, opcionalmente, rola até uma seção específica dentro dela. */
+const goHome = (targetId) => {
+    showView('list-view');
+    if (window.location.hash && window.location.hash !== '#') {
+        history.replaceState(null, '', window.location.pathname + window.location.search);
+    }
+    setTimeout(() => {
+        if (targetId) {
+            const t = $(targetId);
+            if (t) window.scrollTo({top: t.offsetTop - 80, behavior: 'smooth'});
+        } else {
+            window.scrollTo({top: 0, behavior: 'smooth'});
+        }
+    }, 0);
+};
+
 const handleRouting = () => {
     const hash = window.location.hash;
     if (hash.startsWith('#id=')) {
@@ -1173,6 +1214,7 @@ const handleRouting = () => {
 
     showView('list-view');
     state.activeProp = null;
+    if (hash === '' || hash === '#') { window.scrollTo({top:0, behavior:'smooth'}); }
 };
 
 const goToHoodFilter = (hood) => {
@@ -1225,11 +1267,40 @@ const renderDetailContent = (p) => {
                 return `<div class="gallery-img-container" data-index="${i}"><img src="${img}" alt="${p.title}">${isLastVisible ? `<div class="gallery-more-overlay">+${p.photos.length - 8}<span>fotos</span></div>` : ''}</div>`;
             }).join('')}
         </div>
+        ${(() => {
+            const similares = getSimilarProperties(p, 3);
+            if (!similares.length) return '';
+            return `
+            <div class="sub-sec similar-props-section" style="margin-top:80px;">
+                <div class="sub-head"><span class="eyebrow">Você também pode gostar</span><h3>Imóveis parecidos</h3></div>
+                <div class="destaque-grid">
+                    ${similares.map(s => `
+                        <a href="#id=${encodeURIComponent(s.id)}" class="p-card">
+                            <div class="p-card-img">
+                                <img src="${s.photos[0]}" loading="lazy" alt="${s.title}">
+                                ${s.operacao && s.operacao !== 'Venda' ? `<span class="p-card-op-badge">${s.operacao}</span>` : ''}
+                            </div>
+                            <div class="p-card-body">
+                                <span class="p-card-hood">${s.hood} · ${s.city}</span>
+                                <h3 class="p-card-title">${s.title}</h3>
+                                <div class="p-card-foot">
+                                    <span class="p-card-price">${formatPropertyPrice(s)}</span>
+                                    <span class="p-card-arrow"><i data-lucide="arrow-up-right" style="width:15px"></i></span>
+                                </div>
+                            </div>
+                        </a>
+                    `).join('')}
+                </div>
+            </div>`;
+        })()}
         <div class="print-footer">Arbor Imóveis</div>
     `;
 
     if (window.lucide) lucide.createIcons();
-    $('detail-back-btn').addEventListener('click', (e) => { e.preventDefault(); window.location.hash = ''; });
+    $('detail-back-btn').addEventListener('click', (e) => { e.preventDefault(); goHome(); });
+    $('bairros-back-btn').addEventListener('click', (e) => { e.preventDefault(); goHome(); });
+    $('jornada-back-btn').addEventListener('click', (e) => { e.preventDefault(); goHome(); });
+    $('noticias-back-btn').addEventListener('click', (e) => { e.preventDefault(); goHome(); });
     $('detail-main-img').addEventListener('click', () => openLightbox(0));
     $('btn-print-doc').addEventListener('click', () => window.print());
     document.querySelectorAll('.gallery-img-container').forEach(el => {
