@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ARBOR IMÓVEIS — Especialistas em Revenda de Imóveis em Goiânia</title>
+    <title>ARBOR IMÓVEIS — Goiânia</title>
     <meta name="description" content="Atendimento consultivo, inteligência de mercado e uma rede sólida de parceiros para as melhores oportunidades de compra e venda em Goiânia — Arbor Imóveis.">
 
     <script src="https://unpkg.com/lucide@latest"></script>
@@ -126,7 +126,8 @@
         .sub-head h3{ font-size:1.4rem; font-weight:300; color:var(--onix); }
 
         .destaque-grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:28px; }
-        .d-card{ position:relative; border-radius:22px; overflow:hidden; aspect-ratio:4/5; }
+        .d-card{ position:relative; border-radius:22px; overflow:hidden; aspect-ratio:4/5; animation:destaqueFade .6s ease; }
+        @keyframes destaqueFade{ from{ opacity:0; } to{ opacity:1; } }
         .d-card img{ width:100%; height:100%; object-fit:cover; transition:transform 1s var(--ease); }
         .d-card:hover img{ transform:scale(1.06); }
         .d-card-overlay{ position:absolute; inset:0; background:linear-gradient(to top, rgba(17,17,17,0.85) 0%, rgba(17,17,17,0.05) 55%); display:flex; flex-direction:column; justify-content:flex-end; padding:26px; }
@@ -263,17 +264,23 @@
         .back-btn:hover{ background:var(--onix); color:var(--areia-soft); border-color:var(--onix); }
         .detail-hero-img{ width:100%; aspect-ratio:16/8; border-radius:28px; overflow:hidden; margin-bottom:56px; cursor:pointer; }
         .detail-hero-img img{ width:100%; height:100%; object-fit:cover; }
-        .detail-main-grid{ display:grid; grid-template-columns:1.1fr 0.9fr; gap:6vw; margin-bottom:70px; }
+        .detail-main-grid{ display:grid; grid-template-columns:0.9fr 1.1fr; gap:6vw; margin-bottom:70px; align-items:start; }
+        .detail-main-grid > div:first-child{ position:sticky; top:110px; align-self:start; }
         .k-tag{ font-size:0.68rem; letter-spacing:0.18em; text-transform:uppercase; color:var(--verde); display:block; margin-bottom:18px; }
         .k-title{ font-size:clamp(1.8rem,3vw,2.6rem); margin-bottom:20px; }
         .k-price{ font-size:1.8rem; color:var(--onix); margin-bottom:30px; }
-        .specs-grid{ display:grid; grid-template-columns:repeat(auto-fill,minmax(130px,1fr)); gap:20px; }
+        .specs-grid{ display:grid; grid-template-columns:repeat(auto-fill,minmax(115px,1fr)); gap:16px; }
         .spec-box{ display:flex; align-items:center; gap:12px; border-top:1px solid var(--line); padding-top:14px; }
         .spec-box svg{ flex-shrink:0; color:var(--verde); }
         .spec-box-text{ display:flex; flex-direction:column; gap:3px; }
         .spec-box-text span:first-child{ font-size:0.6rem; letter-spacing:0.12em; text-transform:uppercase; color:var(--prata); }
         .spec-box-text span:last-child{ font-size:1rem; color:var(--onix); }
-        .k-desc{ font-size:1rem; color:var(--grafite); margin-bottom:34px; }
+        .k-desc{ font-size:1rem; color:var(--grafite); margin-bottom:34px; line-height:1.8; }
+        .k-desc p{ margin-bottom:20px; }
+        .k-desc p:last-child{ margin-bottom:0; }
+        .caracteristicas-section{ margin-bottom:34px; }
+        .caracteristicas-tags{ display:flex; flex-wrap:wrap; gap:10px; }
+        .caract-tag{ font-size:0.78rem; color:var(--onix); background:var(--areia-soft); border:1px solid var(--line); padding:8px 16px; border-radius:999px; }
         .action-buttons{ display:flex; gap:14px; flex-wrap:wrap; }
         .detail-gallery{ display:grid; grid-template-columns:repeat(4,1fr); grid-auto-rows:1fr; gap:14px; }
         .gallery-img-container{ aspect-ratio:1/1; border-radius:16px; overflow:hidden; cursor:pointer; position:relative; }
@@ -283,6 +290,53 @@
         .gallery-more-overlay span{ font-size:0.68rem; letter-spacing:0.16em; text-transform:uppercase; margin-top:4px; font-weight:400; }
         .gallery-img-container:hover .gallery-more-overlay{ background:rgba(17,17,17,0.78); }
         .print-footer{ display:none; }
+
+        /* ---------- Ficha de apresentação (gerador de PDF real, não usa window.print) ---------- */
+        #pdf-render-root{ position:fixed; left:-99999px; top:0; width:0; height:0; overflow:visible; }
+        .pdf-page{ width:1400px; height:990px; background:var(--verde-deep); padding:14px; box-sizing:border-box; font-family:var(--font); position:relative; }
+        .pdf-page-inner{ width:100%; height:100%; background:var(--areia-soft); position:relative; overflow:hidden; box-sizing:border-box; }
+        .pdf-page-inner-dark{ background:var(--verde-deep); }
+        .pdf-photo-inner{ background:#000; }
+        .pdf-photo-inner img{ width:100%; height:100%; object-fit:cover; display:block; }
+        .pdf-watermark{ position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); display:flex; flex-direction:column; align-items:center; gap:10px; color:rgba(255,255,255,0.6); text-shadow:0 1px 6px rgba(0,0,0,0.5); }
+        .pdf-watermark::before{ content:''; display:block; width:64px; height:1px; background:rgba(255,255,255,0.6); }
+        .pdf-watermark span{ font-family:var(--font); font-size:22px; letter-spacing:0.5em; text-transform:uppercase; padding-left:0.5em; }
+        .pdf-cover-tint{ position:absolute; inset:0; background:rgba(46,50,38,0.6); }
+        .pdf-cover-corner{ position:absolute; font-size:13px; letter-spacing:0.32em; text-transform:uppercase; color:#D9C9A0; }
+        .pdf-cover-corner.tl{ top:36px; left:44px; }
+        .pdf-cover-corner.tr{ top:36px; right:44px; }
+        .pdf-cover-bottom{ position:absolute; bottom:32px; left:44px; font-size:14px; letter-spacing:0.4em; text-transform:uppercase; color:#D9C9A0; }
+        .pdf-cover-center{ position:absolute; inset:0; display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; padding:0 90px; }
+        .pdf-cover-title{ font-family:var(--font); font-weight:300; font-size:46px; line-height:1.2; color:#EFE1BE; text-transform:uppercase; margin:0 0 18px; }
+        .pdf-cover-sub{ font-size:14px; letter-spacing:0.32em; text-transform:uppercase; color:#D9C9A0; }
+        .pdf-wave{ position:absolute; left:0; right:0; bottom:0; width:100%; line-height:0; opacity:0.16; }
+        .pdf-content-page{ padding:70px 80px 60px; box-sizing:border-box; display:flex; flex-direction:column; }
+        .pdf-eyebrow{ font-size:13px; letter-spacing:0.34em; text-transform:uppercase; color:var(--verde); margin-bottom:10px; }
+        .pdf-title{ font-family:var(--font); font-weight:300; color:var(--onix); font-size:40px; line-height:1.12; margin:0 0 22px; max-width:980px; }
+        .pdf-desc{ font-size:17px; line-height:1.7; color:var(--grafite); column-count:2; column-gap:48px; max-width:1240px; }
+        .pdf-desc p{ margin:0 0 14px; }
+        .pdf-caract-title{ font-size:13px; letter-spacing:0.3em; text-transform:uppercase; color:var(--verde); margin:22px 0 12px; }
+        .pdf-caract-tags{ display:flex; flex-wrap:wrap; gap:10px; }
+        .pdf-caract-tag{ font-size:14px; color:var(--onix); background:var(--areia); border:1px solid var(--line); padding:8px 18px; border-radius:999px; }
+        .pdf-specs-grid{ display:flex; flex-wrap:wrap; gap:28px; margin:26px 0 30px; }
+        .pdf-spec-item{ display:flex; align-items:center; gap:10px; }
+        .pdf-spec-item svg{ width:22px; height:22px; color:var(--verde); flex-shrink:0; }
+        .pdf-spec-text{ display:flex; flex-direction:column; }
+        .pdf-spec-text span:first-child{ font-size:11px; letter-spacing:0.2em; text-transform:uppercase; color:var(--verde); }
+        .pdf-spec-text span:last-child{ font-size:17px; color:var(--onix); }
+        .pdf-final-page{ display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; padding:60px; box-sizing:border-box; position:relative; }
+        .pdf-final-eyebrow{ font-size:13px; letter-spacing:0.34em; text-transform:uppercase; color:#A9AD8E; margin-bottom:18px; }
+        .pdf-final-logo{ height:64px; margin-top:46px; }
+        .pdf-final-price{ font-family:var(--font); font-weight:300; color:#EFE1BE; font-size:52px; margin:0 0 34px; }
+        .pdf-final-sub{ display:flex; gap:70px; margin-bottom:34px; }
+        .pdf-final-sub-item{ text-align:center; }
+        .pdf-final-sub-item span{ display:block; }
+        .pdf-final-sub-label{ font-size:12px; letter-spacing:0.28em; text-transform:uppercase; color:#A9AD8E; margin-bottom:6px; }
+        .pdf-final-sub-value{ font-size:22px; color:#F2EFE7; font-weight:400; }
+        .pdf-final-divider{ width:70px; height:1px; background:#8A8A5E; }
+        #pdf-loading-overlay{ position:fixed; inset:0; background:rgba(17,17,17,0.86); color:#F2EFE7; z-index:99999; display:flex; flex-direction:column; align-items:center; justify-content:center; font-family:var(--font); }
+        #pdf-loading-overlay .eyebrow{ color:var(--areia); }
+        #pdf-loading-overlay p{ font-size:1rem; margin-top:14px; }
 
         /* ---------- scroll-linked tree (draws in as the page is read: copa → tronco → raiz) ---------- */
         #scroll-tree{ position:fixed; right:26px; bottom:26px; width:64px; height:64px; border-radius:50%; background:var(--areia-soft); border:1px solid var(--line); box-shadow:0 14px 34px rgba(17,17,17,0.16); display:flex; align-items:center; justify-content:center; z-index:900; }
@@ -366,6 +420,7 @@
             .bairros-teaser-list{ grid-template-columns:1fr; }
             .fazemos-list .fazemos-item:nth-child(2n){ padding-left:0; }
             .detail-main-grid{ grid-template-columns:1fr; }
+            .detail-main-grid > div:first-child{ position:static; top:auto; }
             .detail-gallery{ grid-template-columns:repeat(3,1fr); }
             .bairros-grid{ grid-template-columns:repeat(2,1fr); }
             .news-grid{ grid-template-columns:1fr; }
@@ -385,6 +440,8 @@
             .detail-gallery{ grid-template-columns:repeat(2,1fr); }
         }
     </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
 </head>
 <body>
 
@@ -460,7 +517,9 @@
 
             <section class="filter-bar" id="filter-bar">
                 <div class="f-group"><label for="filter-search">Busca livre</label><input type="text" id="filter-search" class="input-minimal" placeholder="Ex: cobertura, Setor Bueno..."></div>
+                <div class="f-group"><label for="filter-codigo">Código</label><input type="text" id="filter-codigo" class="input-minimal" placeholder="Ex: AR01"></div>
                 <div class="f-group"><label for="filter-hood">Bairro</label><select id="filter-hood" class="input-minimal"></select></div>
+                <div class="f-group"><label for="filter-tipo">Tipo</label><select id="filter-tipo" class="input-minimal"><option value="">Qualquer</option></select></div>
                 <div class="f-group">
                     <label for="filter-beds">Quartos</label>
                     <select id="filter-beds" class="input-minimal">
@@ -826,8 +885,278 @@
 const $ = id => document.getElementById(id);
 const escapeHTML = s => s ? String(s).replace(/[&<>'"]/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":"&#39;",'"':"&quot;"}[m])) : '';
 const formatBRL = v => v > 0 ? new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL', maximumFractionDigits: 0 }).format(v) : 'Sob Consulta';
+
+/* Converte valores numéricos vindos do feed em formatos variados (ex: "R$ 1.234,56", "1234.56", "1.234", 1234)
+   para Number. Retorna 0 se não conseguir interpretar, em vez de deixar a ficha vazia sem explicação. */
+const numBR = (v) => {
+    if (v === null || v === undefined || v === '') return 0;
+    if (typeof v === 'number') return v;
+    let s = String(v).trim().replace(/[^\d.,-]/g, '');
+    if (!s) return 0;
+    if (s.includes(',')) {
+        // formato BR: ponto = milhar, vírgula = decimal
+        s = s.replace(/\./g, '').replace(',', '.');
+    }
+    const n = parseFloat(s);
+    return isNaN(n) ? 0 : n;
+};
+
+/* Resolvedor de campos "à prova de feed": em vez de listar toda variação exata de nome
+   (area_total, areaTotal, AreaTotal, area-total...), normaliza as chaves do objeto (minúsculo,
+   sem espaço/underscore/acento) e casa contra uma lista de nomes candidatos, também normalizados.
+   Isso é o que resolve de vez campos que "somem" (IPTU, área, tipo, características) quando o
+   NIDOImóvel manda o campo com uma grafia levemente diferente da que a gente previu. */
+const normKey = (s) => String(s).normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]/g, '');
+
+const pickField = (item, candidates) => {
+    const keys = Object.keys(item || {});
+    const normKeys = keys.map(normKey);
+    for (const cand of candidates) {
+        const idx = normKeys.indexOf(normKey(cand));
+        if (idx === -1) continue;
+        const val = item[keys[idx]];
+        if (val === undefined || val === null) continue;
+        if (Array.isArray(val)) { if (val.length) return val; continue; }
+        if (String(val).trim() !== '') return val;
+    }
+    return '';
+};
+
+const pickArrayField = (item, candidates) => {
+    const raw = pickField(item, candidates);
+    if (Array.isArray(raw)) return raw;
+    if (typeof raw === 'string' && raw.trim()) return raw.split(/[,;|]/).map(s => s.trim()).filter(Boolean);
+    return [];
+};
 const formatPropertyPrice = p => p.isRentalPrice ? formatBRL(p.price) + '/mês' : formatBRL(p.price);
 const specBox = (icon, label, value) => `<div class="spec-box"><i data-lucide="${icon}" style="width:20px"></i><div class="spec-box-text"><span>${label}</span><span>${value}</span></div></div>`;
+
+/* Dicionario de traducao EN -> PT-BR para as caracteristicas vindas do NIDOImovel */
+const CARACTERISTICAS_PT = {
+    'Administration': 'Administração',
+    'Alarm System': 'Sistema de alarme',
+    'Armored Security Cabin': 'Guarita blindada',
+    'Backyard': 'Quintal',
+    'Balcony': 'Varanda',
+    'Band Practice Room': 'Garage band',
+    'Bathtub': 'Banheira',
+    'Bar': 'Bar',
+    'Barbecue Balcony': 'Churrasqueira na varanda',
+    'BBQ': 'Churrasqueira',
+    'Beauty Room': 'Espaço de beleza',
+    'Bicycles Place': 'Bicicletário',
+    'Builtin Wardrobe': 'Armário embutido',
+    'Caretaker': 'Zelador',
+    'Caretaker House': 'Casa de caseiro',
+    'Cable Television': 'TV a cabo',
+    'Close to hospitals': 'Perto de hospitais',
+    'Close to main roads/avenues': 'Perto de vias de acesso',
+    'Close to public transportation': 'Perto de transporte público',
+    'Close to schools': 'Perto de Escolas',
+    'Close to shopping centers': 'Perto de Shopping Center',
+    'Closet': 'Closet',
+    'Controlled Access': 'Vigia',
+    'Cooling': 'Ar condicionado',
+    'Copa': 'Copa',
+    'Digital Locker': 'Fechadura digital',
+    'Dinner Room': 'Sala de jantar',
+    'Eco Condominium': 'Condomínio sustentável',
+    'Eco Garbage Collector': 'Coleta seletiva de lixo',
+    'Edicule': 'Edícula',
+    'Electric Charger': 'Carregador eletrônico para carro e bicicleta',
+    'Elevator': 'Elevador',
+    'Exterior View': 'Vista exterior',
+    'Fenced Yard': 'Condomínio fechado',
+    'Fireplace': 'Lareira',
+    'Fitness Room': 'Espaço fitness',
+    'Fully Wired': 'Cabeamento estruturado',
+    'Furnished': 'Mobiliado',
+    'Game room': 'Salão de jogos',
+    'Garden Area': 'Jardim',
+    'Geminada': 'Geminada',
+    'Generator': 'Gerador elétrico',
+    'Gourmet Area': 'Espaço gourmet',
+    'Gourmet Balcony': 'Varanda gourmet',
+    'Gourmet Kitchen': 'Cozinha Gourmet',
+    'Gravel': 'Cascalho',
+    'Green space / Park': 'Espaço verde / Parque',
+    'Gym': 'Academia',
+    'Heating': 'Aquecimento',
+    'Home Office': 'Escritório',
+    'Indoor Soccer': 'Quadra de futebol',
+    'Integrated Environments': 'Ambientes integrados',
+    'Intercom': 'Interfone',
+    'Internet Connection': 'Conexão à internet',
+    'Jogging track': 'Pista de cooper',
+    'Kitchen': 'Cozinha',
+    'Kitchen Cabinets': 'Armário na cozinha',
+    'Lake View': 'Vista para lago',
+    'Land': 'Terra',
+    'Large Kitchen': 'Cozinha grande',
+    'Large Window': 'Janela grande',
+    'Laundry': 'Lavanderia',
+    'Lawn': 'Gramado',
+    'Lunch Room': 'Sala de almoço',
+    'Maid\'s Quarters': 'Área de serviço',
+    'Massage Room': 'Sala de massagem',
+    'Media Room': 'Cinema',
+    'Meeting Room': 'Sala de reunião',
+    'Mezzanine': 'Mezanino',
+    'Mountain View': 'Vista para a montanha',
+    'Number of stories': 'Mais de um andar',
+    'Ocean View': 'Vista para o mar',
+    'Parking Garage': 'Garagem',
+    'Party Room': 'Salão de Festas',
+    'Patrol': 'Ronda/Vigilância',
+    'Paved Street': 'Rua asfaltada',
+    'Pay-per-use Services': 'Serviço pay per use',
+    'Pets Allowed': 'Permite animais',
+    'Pet Space': 'Espaço Pet',
+    'Playground': 'Playground',
+    'Pool': 'Piscina',
+    'Reception room': 'Recepção',
+    'Recreation Area': 'Área de lazer',
+    'Reflective Pool': 'Espelhos d\'água',
+    'Sand Pit': 'Quadra de areia',
+    'Sauna': 'Sauna',
+    'Security Guard on Duty': 'Segurança 24h',
+    'Semi Olympic Pool': 'Piscina semi-olímpica',
+    'Smart Apartment': 'Apartamento inteligente',
+    'Smart Condominium': 'Condomínio inteligente',
+    'Solar Energy': 'Energia solar',
+    'Spa': 'Spa',
+    'Sports Court': 'Quadra poliesportiva',
+    'Square': 'Praça',
+    'Squash': 'Quadra de squash',
+    'Stair': 'Escada',
+    'Stores': 'Loja',
+    'Tennis court': 'Quadra de tênis',
+    'TV Security': 'Circuito de segurança',
+    'Utilities': 'públicos essenciais',
+    'Valet Parking': 'Manobrista',
+    'Warehouse': 'Depósito',
+    'Water Tank': 'Reservatório de água',
+    'American Kitchen': 'Cozinha americana',
+    'Full Floor': 'Andar inteiro',
+    'Aquarium': 'Aquário',
+    'Bedroom Wardrobe': 'Armário embutido no quarto',
+    'Bathroom Cabinets': 'Armário no banheiro',
+    'Service Bathroom': 'Banheiro de serviço',
+    'Blindex Box': 'Box blindex',
+    'Carpet': 'Capete',
+    'Background House': 'Casa de fundo',
+    'Headquarters': 'Casa sede',
+    'Gas Shower': 'Chuveiro a gás',
+    'Burn Cement': 'Cimento queimado',
+    'Employee Dependency': 'Dependência de empregados',
+    'Pantry': 'Despensa',
+    'Drywall': 'Drywall',
+    'Cooker': 'Fogão',
+    'Pizza Oven': 'Forno de pizza',
+    'Freezer': 'Freezer',
+    'Sanca': 'Gesso - Sanca - Teto Rebaixado',
+    'Whirlpool': 'Hidromassagem',
+    'Corner Property': 'Imóvel de esquina',
+    'Soundproofing': 'Isolamento acústico',
+    'Thermal Insulation': 'Isolamento térmico',
+    'Aluminium Window': 'Janela de alumínio',
+    'Slab': 'Laje',
+    'Lavabo': 'Lavabo',
+    'Half Floor': 'Meio andar',
+    'Planned Furniture': 'Móvel planejado',
+    'Glass Wall': 'Muro de vidro',
+    'Walls Grids': 'Muro e grade',
+    'Hot Tub': 'Ofurô',
+    'High Ceiling Height': 'Pé direito alto',
+    'Private Pool': 'Piscina privativa',
+    'Wood Floor': 'Piso de madeira',
+    'Raised Floor': 'Piso elevado',
+    'Cold Floor': 'Piso frio',
+    'Laminated Floor': 'Piso laminado',
+    'Vinyl Floor': 'Piso vinílico',
+    'Platibanda': 'Platibanda',
+    'Porcelain': 'Porcelanato',
+    'Dividers': 'Possui divisória',
+    'Service Room': 'Quarto de serviço',
+    'Reversible Room': 'Quarto extra reversível',
+    'Large Room': 'Sala grande',
+    'Small Room': 'Sala pequena',
+    'Wall Balcony': 'Varanda fechada com vidro',
+    'Natural Ventilation': 'Ventilação natural',
+    'Panoramic View': 'Vista panorâmica',
+    'Disabled Access': 'Acesso para deficientes',
+    'Coworking': 'Coworking',
+    'Electronic Gate': 'Portão eletrônico',
+    'Fruit Trees': 'Árvore frutífera',
+    'Tree Climbing': 'Arvorismo',
+    'Library': 'Biblioteca',
+    'Toys Place': 'Brinquedoteca',
+    'Security Camera': 'Câmera de segurança',
+    'Dog Kennel': 'Canil',
+    'Barn': 'Celeiro',
+    'Beauty Center': 'Centro de estética',
+    'Fence': 'Cerca',
+    'Children Care': 'Children care',
+    'Coverage': 'Cobertura coletiva',
+    'Corral': 'Curral',
+    'Deck': 'Deck',
+    'Service Entrance': 'Entrada de serviço',
+    'Side Entrance': 'Entrada lateral',
+    'Entrance Hall': 'Hall de entrada',
+    'Vegetable Garden': 'Horta',
+    'Lake': 'Lago',
+    'Marina': 'Marina',
+    'Climbing Wall': 'Muro de escalada',
+    'Orchid Place': 'Orquidário',
+    'Redario': 'Redario',
+    'Restaurant': 'Restaurante',
+    'River': 'Rio',
+    'Convention Hall': 'Salão de convenção',
+    'Solarium': 'Solarium',
+    'Pasture': 'Pasto',
+    'Heated Pool': 'Piscina aquecida',
+    'Covered Pool': 'Piscina coberta',
+    'Skate Lane': 'Pista de skate',
+    'Well': 'Poço',
+    'Artesian Well': 'Poço artesiano',
+    'Pomar': 'Pomar',
+    'Zen Space': 'Espaço zen',
+    'Football Field': 'Campo de futebol',
+    'Golf Field': 'Campo de golfe',
+    'Helipad': 'Heliponto',
+    'Pool Bar': 'Bar na piscina',
+    'Coffee Shop': 'Coffee shop',
+    'Dress Room2': 'Vestiário para diaristas',
+    'Guest Parking': 'Estacionamento para visitante',
+    'Adult Pool': 'Piscina para adulto',
+    'Childrens Pool': 'Piscina infantil',
+    'Concierge 24h': 'Portaria 24h',
+    'Near Shopping Center': 'Perto de Shopping',
+    'Teen Space': 'Espaço teen',
+};
+
+/* Traduz o nome de uma caracteristica vinda do NIDOImovel (geralmente em ingles) para PT-BR.
+   Se nao achar no dicionario, mantem o valor original (nao trava a exibicao). */
+const traduzirCaracteristica = (nome) => {
+    if (!nome) return nome;
+    const limpo = String(nome).trim();
+    if (CARACTERISTICAS_PT[limpo]) return CARACTERISTICAS_PT[limpo];
+    const chave = Object.keys(CARACTERISTICAS_PT).find(k => k.toLowerCase() === limpo.toLowerCase());
+    return chave ? CARACTERISTICAS_PT[chave] : limpo;
+};
+
+
+/* Quebra a descrição (texto corrido, sem parágrafos) em blocos de até 3 frases,
+   pra evitar um bloco único de texto desequilibrado em relação ao resto da ficha. */
+const formatDescricao = (desc) => {
+    if (!desc) return '';
+    const sentences = desc.match(/[^.!?]+[.!?]+(\s+|$)/g) || [desc];
+    const paragraphs = [];
+    for (let i = 0; i < sentences.length; i += 3) {
+        paragraphs.push(sentences.slice(i, i + 3).join('').trim());
+    }
+    return paragraphs.filter(Boolean).map(par => `<p>${par}</p>`).join('');
+};
 
 const getSimilarProperties = (p, limit = 3) => {
     const candidates = state.all.filter(x => String(x.id).trim() !== String(p.id).trim());
@@ -859,12 +1188,12 @@ const getSimilarProperties = (p, limit = 3) => {
 const ARBOR_DATA_URL = "https://script.google.com/macros/s/AKfycbz89pv3Ab4zW0RgenaxZqSOzKzISXPKARcKhRcrs2xGvSGh0r1_x2knHSNXVqc8ZZAa1g/exec";
 
 const ARBOR_SAMPLE_LISTINGS = [
-    { id: "AR01", titulo: "Apartamento Alto Padrão", valor: 1850000, bairro: "Setor Bueno", cidade: "Goiânia", area_privativa: "142", quartos: 3, suites: "1", vagas: "2", mobiliado: "Não", destaque: true, data_adicao: "2026-07-14", descricao: "Amplo apartamento com vista livre, acabamento premium e lazer completo. Ideal para quem busca conforto e localização estratégica.", fotos: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=1200,https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1200" },
-    { id: "AR02", titulo: "Casa em Condomínio Fechado", valor: 2450000, bairro: "Alphaville Flamboyant", cidade: "Goiânia", area_terreno: "450", area_privativa: "320", quartos: 4, suites: "3", vagas: "4", mobiliado: "Não", destaque: true, data_adicao: "2026-07-02", descricao: "Casa térrea com projeto arquitetônico assinado, piscina, área gourmet e segurança 24h. Excelente oportunidade de revenda.", fotos: "https://images.unsplash.com/photo-1613977257363-707ba9348227?q=80&w=1200,https://images.unsplash.com/photo-1580587771525-78b9dba3b914?q=80&w=1200" },
-    { id: "AR03", titulo: "Cobertura Duplex", valor: 3200000, bairro: "Setor Marista", cidade: "Goiânia", area_privativa: "280", quartos: 3, suites: "3", vagas: "3", mobiliado: "Sim", destaque: true, data_adicao: "2026-06-20", descricao: "Cobertura com piscina privativa, terraço gourmet e vista panorâmica da cidade. Mobiliada e decorada por escritório renomado.", fotos: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=1200,https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?q=80&w=1200" },
-    { id: "AR04", titulo: "Apartamento Garden", valor: 980000, bairro: "Jardim Goiás", cidade: "Goiânia", area_privativa: "110", quartos: 2, suites: "1", vagas: "2", mobiliado: "Não", destaque: false, data_adicao: "2026-07-16", descricao: "Unidade térrea com jardim privativo, próxima a shoppings e parques. Ótimo custo-benefício para o padrão da região.", fotos: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=1200,https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?q=80&w=1200" },
-    { id: "AR05", titulo: "Sobrado Contemporâneo", valor: 1650000, bairro: "Setor Bueno", cidade: "Goiânia", area_terreno: "300", area_privativa: "260", quartos: 4, suites: "2", vagas: "3", mobiliado: "Não", destaque: false, data_adicao: "2026-07-10", descricao: "Sobrado reformado com projeto de interiores atual, quintal amplo e localização privilegiada perto de vias principais.", fotos: "https://images.unsplash.com/photo-1568605114967-8130f3a36994?q=80&w=1200,https://images.unsplash.com/photo-1570129477492-45c003edd2be?q=80&w=1200" },
-    { id: "AR06", titulo: "Apartamento Compacto", valor: 620000, bairro: "Setor Oeste", cidade: "Goiânia", area_privativa: "68", quartos: 2, suites: "0", vagas: "1", mobiliado: "Não", destaque: false, data_adicao: "2026-05-30", descricao: "Unidade funcional e bem distribuída, prédio com infraestrutura completa de lazer. Excelente para primeira compra ou investimento.", fotos: "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?q=80&w=1200,https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?q=80&w=1200" }
+    { id: "AR01", tipo: "Residencial", titulo: "Apartamento Alto Padrão", valor: 1850000, bairro: "Setor Bueno", cidade: "Goiânia", area_privativa: "142", quartos: 3, suites: "1", vagas: "2", mobiliado: "Não", destaque: true, data_adicao: "2026-07-14", descricao: "Amplo apartamento com vista livre, acabamento premium e lazer completo. Ideal para quem busca conforto e localização estratégica.", fotos: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=1200,https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1200" },
+    { id: "AR02", tipo: "Residencial", titulo: "Casa em Condomínio Fechado", valor: 2450000, bairro: "Alphaville Flamboyant", cidade: "Goiânia", area_terreno: "450", area_privativa: "320", quartos: 4, suites: "3", vagas: "4", mobiliado: "Não", destaque: true, data_adicao: "2026-07-02", descricao: "Casa térrea com projeto arquitetônico assinado, piscina, área gourmet e segurança 24h. Excelente oportunidade de revenda.", fotos: "https://images.unsplash.com/photo-1613977257363-707ba9348227?q=80&w=1200,https://images.unsplash.com/photo-1580587771525-78b9dba3b914?q=80&w=1200" },
+    { id: "AR03", tipo: "Residencial", titulo: "Cobertura Duplex", valor: 3200000, bairro: "Setor Marista", cidade: "Goiânia", area_privativa: "280", quartos: 3, suites: "3", vagas: "3", mobiliado: "Sim", destaque: true, data_adicao: "2026-06-20", descricao: "Cobertura com piscina privativa, terraço gourmet e vista panorâmica da cidade. Mobiliada e decorada por escritório renomado.", fotos: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=1200,https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?q=80&w=1200" },
+    { id: "AR04", tipo: "Residencial", titulo: "Apartamento Garden", valor: 980000, bairro: "Jardim Goiás", cidade: "Goiânia", area_privativa: "110", quartos: 2, suites: "1", vagas: "2", mobiliado: "Não", destaque: false, data_adicao: "2026-07-16", descricao: "Unidade térrea com jardim privativo, próxima a shoppings e parques. Ótimo custo-benefício para o padrão da região.", fotos: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=1200,https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?q=80&w=1200" },
+    { id: "AR05", tipo: "Residencial", titulo: "Sobrado Contemporâneo", valor: 1650000, bairro: "Setor Bueno", cidade: "Goiânia", area_terreno: "300", area_privativa: "260", quartos: 4, suites: "2", vagas: "3", mobiliado: "Não", destaque: false, data_adicao: "2026-07-10", descricao: "Sobrado reformado com projeto de interiores atual, quintal amplo e localização privilegiada perto de vias principais.", fotos: "https://images.unsplash.com/photo-1568605114967-8130f3a36994?q=80&w=1200,https://images.unsplash.com/photo-1570129477492-45c003edd2be?q=80&w=1200" },
+    { id: "AR06", tipo: "Residencial", titulo: "Apartamento Compacto", valor: 620000, bairro: "Setor Oeste", cidade: "Goiânia", area_privativa: "68", quartos: 2, suites: "0", vagas: "1", mobiliado: "Não", destaque: false, data_adicao: "2026-05-30", descricao: "Unidade funcional e bem distribuída, prédio com infraestrutura completa de lazer. Excelente para primeira compra ou investimento.", fotos: "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?q=80&w=1200,https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?q=80&w=1200" }
 ];
 
 /* Remove menções a unidade, bloco/torre e andar de qualquer texto livre (título, descrição)
@@ -885,8 +1214,8 @@ const normalizeListing = item => {
     photos = photos.filter(p => p.startsWith('http'));
     if (!photos.length) photos = ["https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=1000"];
 
-    const valorVenda = Number(item.valor) || 0;
-    const valorAluguel = Number(item.valor_aluguel || item.valorAluguel) || 0;
+    const valorVenda = numBR(pickField(item, ['valor', 'valorVenda', 'valor_venda', 'preco', 'preço', 'price']));
+    const valorAluguel = numBR(pickField(item, ['valor_aluguel', 'valorAluguel', 'valorLocacao', 'valor_locacao', 'aluguel', 'locacao']));
 
     return {
         id: escapeHTML(String(item.id).trim()),
@@ -896,28 +1225,31 @@ const normalizeListing = item => {
         priceVenda: valorVenda,
         priceAluguel: valorAluguel,
         operacao: escapeHTML(item.operacao || (valorVenda && valorAluguel ? "Venda e Aluguel" : valorAluguel ? "Aluguel" : "Venda")),
+        tipo: escapeHTML(pickField(item, ['tipo', 'tipoImovel', 'tipo_imovel', 'categoria', 'category', 'type', 'propertyType', 'usageType', 'subtipo', 'sub_tipo', 'classe'])),
         hood: escapeHTML(item.bairro || "Goiânia"),
         city: escapeHTML(item.cidade || "Goiás"),
         endereco: escapeHTML(item.endereco || ""),
-        area: escapeHTML(item.area || ""),
-        areaTotal: escapeHTML(item.area_total || item.areaTotal || item.areatotal || ""),
-        areaPrivativa: escapeHTML(item.area_privativa || item.areaPrivativa || item.areaprivativa || ""),
-        areaTerreno: escapeHTML(item.area_terreno || item.areaTerreno || item.areaterreno || ""),
-        beds: Number(item.quartos) || 0,
-        suites: escapeHTML(item.suites || ""),
-        banheiros: escapeHTML(item.banheiros || ""),
-        garage: escapeHTML(item.vagas || item.garagem || ""),
-        condominio: Number(item.condominio) || 0,
-        iptu: Number(item.iptu) || 0,
-        mobiliado: escapeHTML(item.mobiliado || ""),
+        area: escapeHTML(pickField(item, ['area', 'metragem', 'm2', 'areaM2'])),
+        areaTotal: escapeHTML(pickField(item, ['area_total', 'areaTotal', 'areatotal', 'area_construida', 'areaConstruida', 'area_construida_total', 'totalArea', 'builtArea', 'metragem_total'])),
+        areaPrivativa: escapeHTML(pickField(item, ['area_privativa', 'areaPrivativa', 'areaprivativa', 'area_util', 'areaUtil', 'privateArea', 'livingArea'])),
+        areaTerreno: escapeHTML(pickField(item, ['area_terreno', 'areaTerreno', 'areaterreno', 'terreno', 'area_lote', 'areaLote', 'lote', 'lotArea', 'landArea', 'metragem_terreno'])),
+        beds: Number(pickField(item, ['quartos', 'dormitorios', 'bedrooms', 'quarto'])) || 0,
+        suites: escapeHTML(pickField(item, ['suites', 'suítes', 'suite'])),
+        banheiros: escapeHTML(pickField(item, ['banheiros', 'bathrooms', 'banheiro'])),
+        garage: escapeHTML(pickField(item, ['vagas', 'garagem', 'vaga', 'garage', 'parkingSpaces'])),
+        condominio: numBR(pickField(item, ['condominio', 'condomínio', 'valor_condominio', 'valorCondominio', 'taxaCondominio', 'taxa_condominio'])),
+        iptu: numBR(pickField(item, ['iptu', 'valor_iptu', 'valorIptu', 'iptu_anual', 'iptuAnual', 'taxaIptu', 'taxa_iptu', 'iptuValor'])),
+        mobiliado: escapeHTML(pickField(item, ['mobiliado', 'furnished'])),
         photos: photos.map(escapeHTML),
         desc: escapeHTML(ocultarInfoUnidade(item.descricao) || "Consultoria técnica exclusiva."),
+        caracteristicas: pickArrayField(item, ['features', 'caracteristicas', 'características', 'amenities', 'comodidades', 'infraestrutura', 'characteristics', 'diferenciais']).map(traduzirCaracteristica).map(escapeHTML),
+        garantiaLocacao: escapeHTML(item.garantia_locacao || ""),
         destaque: !!item.destaque,
         dataAdicao: item.data_adicao || item.dataAdicao || ""
     };
 };
 
-let state = { all: [], filtered: [], isLoaded: false, activeProp: null, lbIdx: 0, visibleCount: 9, filters: { search: '', hood: '', beds: '', priceRange: '', sort: 'newest' } };
+let state = { all: [], filtered: [], isLoaded: false, activeProp: null, lbIdx: 0, visibleCount: 9, filters: { search: '', codigo: '', hood: '', tipo: '', beds: '', priceRange: '', sort: 'newest' } };
 
 /* Converte um feed de imóveis em XML para o mesmo formato de objeto que normalizeListing()
    já espera. Suporta os dois padrões mais comuns entre CRMs imobiliários brasileiros:
@@ -957,6 +1289,7 @@ const parseVRSyncNodes = (listings) => listings.map(node => {
     return {
         id: top('ListingID') || top('DetailViewUrl') || Math.random().toString(36).slice(2),
         titulo: top('Title'),
+        tipo: d('PropertyType') || d('Category') || d('UsageType') || '',
         valor: parseFloat(d('ListPrice') || d('RentalPrice')) || 0,
         bairro: l('Neighborhood'),
         cidade: l('City'),
@@ -990,6 +1323,7 @@ const parseLegacyZapNodes = (imoveis) => imoveis.map(node => {
     return {
         id: t('CodigoImovel') || Math.random().toString(36).slice(2),
         titulo,
+        tipo,
         valor: precoVenda || precoLocacao,
         bairro,
         cidade: t('Cidade'),
@@ -1006,7 +1340,7 @@ const parseLegacyZapNodes = (imoveis) => imoveis.map(node => {
 
 const init = async () => {
     if (window.lucide) lucide.createIcons();
-    $('ticker').innerHTML = `<div class="ticker-item">${'· RAÍZES PROFUNDAS · PRESENÇA SÓLIDA · CONEXÕES VERDADEIRAS · ESPECIALISTAS EM REVENDA · INTELIGÊNCIA DE MERCADO '.repeat(8)}</div>`;
+    $('ticker').innerHTML = `<div class="ticker-item">${'· RAÍZES PROFUNDAS · PRESENÇA SÓLIDA · CONEXÕES VERDADEIRAS · INTELIGÊNCIA DE MERCADO '.repeat(8)}</div>`;
 
     try {
         let data;
@@ -1038,6 +1372,8 @@ const finishInit = (data) => {
     state.all = data.map(normalizeListing);
     const hoods = [...new Set(state.all.map(p => p.hood))].sort();
     hoods.forEach(h => { if(h) { const opt = document.createElement('option'); opt.value = h; opt.textContent = h; $('filter-hood').appendChild(opt); } });
+    const tipos = [...new Set(state.all.map(p => p.tipo))].filter(Boolean).sort();
+    tipos.forEach(t => { const opt = document.createElement('option'); opt.value = t; opt.textContent = t; $('filter-tipo').appendChild(opt); });
     state.filtered = [...state.all];
     state.isLoaded = true;
     renderDestaque();
@@ -1058,13 +1394,15 @@ const setupEventListeners = () => {
     $('nav-consultoria-btn').addEventListener('click', e => { e.preventDefault(); goHome('consultoria'); });
 
     $('filter-search').addEventListener('input', e => { state.filters.search = e.target.value.toLowerCase(); applyFilters(); });
+    $('filter-codigo').addEventListener('input', e => { state.filters.codigo = e.target.value.toLowerCase().trim(); applyFilters(); });
     $('filter-hood').addEventListener('change', e => { state.filters.hood = e.target.value; applyFilters(); });
+    $('filter-tipo').addEventListener('change', e => { state.filters.tipo = e.target.value; applyFilters(); });
     $('filter-beds').addEventListener('change', e => { state.filters.beds = e.target.value; applyFilters(); });
     $('filter-price').addEventListener('change', e => { state.filters.priceRange = e.target.value; applyFilters(); });
     $('filter-sort').addEventListener('change', e => { state.filters.sort = e.target.value; applyFilters(); });
     $('btn-reset').addEventListener('click', () => {
-        state.filters = { search:'', hood:'', beds:'', priceRange:'', sort:'newest' };
-        $('filter-search').value=''; $('filter-hood').value=''; $('filter-beds').value=''; $('filter-price').value=''; $('filter-sort').value='newest';
+        state.filters = { search:'', codigo:'', hood:'', tipo:'', beds:'', priceRange:'', sort:'newest' };
+        $('filter-search').value=''; $('filter-codigo').value=''; $('filter-hood').value=''; $('filter-tipo').value=''; $('filter-beds').value=''; $('filter-price').value=''; $('filter-sort').value='newest';
         applyFilters();
     });
     $('btn-load-more').addEventListener('click', () => { state.visibleCount += 9; renderGrid(); });
@@ -1105,11 +1443,14 @@ const applyFilters = () => {
     let res = [...state.all];
     const f = state.filters;
     if (f.search) res = res.filter(p => (p.title + p.hood + p.city).toLowerCase().includes(f.search));
+    if (f.codigo) res = res.filter(p => p.id.toLowerCase().includes(f.codigo));
     if (f.hood) res = res.filter(p => p.hood === f.hood);
+    if (f.tipo) res = res.filter(p => p.tipo === f.tipo);
     if (f.beds) res = res.filter(p => p.beds >= Number(f.beds));
     if (f.priceRange) { const [min, max] = f.priceRange.split('-').map(Number); res = res.filter(p => p.price >= min && p.price <= max); }
     if (f.sort === 'price-asc') res.sort((a,b) => a.price - b.price);
     else if (f.sort === 'price-desc') res.sort((a,b) => b.price - a.price);
+    else res.sort((a,b) => (Date.parse(b.dataAdicao) || 0) - (Date.parse(a.dataAdicao) || 0));
     state.filtered = res;
     state.visibleCount = 9;
     renderGrid();
@@ -1117,19 +1458,40 @@ const applyFilters = () => {
 
 const renderDestaque = () => {
     const el = $('destaque-grid');
-    const items = state.all.filter(p => p.destaque).slice(0, 3);
-    if (!items.length) { el.closest('.sub-sec').classList.add('view-hidden'); return; }
-    el.innerHTML = items.map(p => `
-        <a href="#id=${encodeURIComponent(p.id)}" class="d-card">
-            <img src="${p.photos[0]}" loading="lazy" alt="${p.title}">
-            <span class="d-card-badge">Destaque</span>
-            <div class="d-card-overlay">
-                <span class="d-card-hood">${p.hood} · ${p.city}</span>
-                <h3 class="d-card-title">${p.title}</h3>
-                <span class="d-card-price">${formatPropertyPrice(p)}</span>
-            </div>
-        </a>
-    `).join('');
+    const byRecency = (a, b) => (Date.parse(b.dataAdicao) || 0) - (Date.parse(a.dataAdicao) || 0);
+    const destaquePool = state.all.filter(p => p.destaque).sort(byRecency);
+    const fillerPool = state.all.filter(p => !p.destaque).sort(byRecency);
+    /* Se tiver poucos imóveis marcados como destaque, completa com os mais recentes
+       (mesmo sem a flag) para a seção nunca ficar presa mostrando só itens antigos. */
+    const pool = destaquePool.length >= 3 ? destaquePool : [...destaquePool, ...fillerPool];
+    if (!pool.length) { el.closest('.sub-sec').classList.add('view-hidden'); return; }
+
+    const renderSet = (offset) => {
+        const items = [];
+        for (let i = 0; i < Math.min(3, pool.length); i++) items.push(pool[(offset + i) % pool.length]);
+        el.innerHTML = items.map(p => `
+            <a href="#id=${encodeURIComponent(p.id)}" class="d-card">
+                <img src="${p.photos[0]}" loading="lazy" alt="${p.title}">
+                ${p.destaque ? `<span class="d-card-badge">Destaque</span>` : ''}
+                <div class="d-card-overlay">
+                    <span class="d-card-hood">${p.hood} · ${p.city}</span>
+                    <h3 class="d-card-title">${p.title}</h3>
+                    <span class="d-card-price">${formatPropertyPrice(p)}</span>
+                </div>
+            </a>
+        `).join('');
+    };
+
+    let offset = 0;
+    renderSet(offset);
+    /* Com mais de 3 imóveis no pool, gira o trio exibido a cada 7s em vez de travar sempre nos mesmos. */
+    if (pool.length > 3) {
+        clearInterval(window._destaqueRotationTimer);
+        window._destaqueRotationTimer = setInterval(() => {
+            offset = (offset + 3) % pool.length;
+            renderSet(offset);
+        }, 7000);
+    }
 };
 
 const renderUltimos = () => {
@@ -1226,13 +1588,151 @@ const goToHoodFilter = (hood) => {
     requestAnimationFrame(() => { const t = $('imoveis'); window.scrollTo({top:t.offsetTop-80, behavior:'smooth'}); });
 };
 
+/* ---------- Ficha de apresentação em PDF ----------
+   Gera um PDF de verdade (via html2canvas + jsPDF) em vez de usar window.print(), que no Safari/iOS
+   sempre acaba recebendo cabeçalho/rodapé/URL impostos pelo navegador e não pode ser removido pela
+   aplicação. Como aqui o resultado é um arquivo PDF baixado, a identidade visual fica 100% preservada
+   em qualquer navegador ou sistema, sem nenhum elemento injetado.
+   Observação técnica: para incluir a foto na página, o navegador precisa poder ler os pixels dela
+   (CORS). Fotos de hosts que não enviam cabeçalho Access-Control-Allow-Origin (comum em alguns CDNs
+   de imobiliária) podem falhar nessa etapa — a página correspondente é pulada com um aviso no console,
+   as demais páginas seguem normalmente. */
+const PDF_PAGE_W_CM = 29.7, PDF_PAGE_H_CM = 21;
+const PDF_WAVE_SVG = `<svg viewBox="0 0 1440 90" preserveAspectRatio="none" style="display:block; width:100%; height:70px;"><path d="M0,32 C240,80 480,0 720,24 C960,48 1200,88 1440,40 L1440,90 L0,90 Z" fill="#2E3226"></path></svg>`;
+
+const showPdfOverlay = (msg) => {
+    let ov = document.getElementById('pdf-loading-overlay');
+    if (!ov) {
+        ov = document.createElement('div');
+        ov.id = 'pdf-loading-overlay';
+        ov.innerHTML = `<span class="eyebrow">Arbor Imóveis</span><p id="pdf-loading-msg"></p>`;
+        document.body.appendChild(ov);
+    }
+    document.getElementById('pdf-loading-msg').textContent = msg;
+};
+const hidePdfOverlay = () => { const ov = document.getElementById('pdf-loading-overlay'); if (ov) ov.remove(); };
+
+/* Carrega uma imagem tentando preservar CORS (necessário para o html2canvas conseguir ler os pixels
+   e gerar o PDF). Resolve com null em caso de falha, em vez de travar a apresentação inteira. */
+const preloadPdfImage = (url) => new Promise(resolve => {
+    const img = new Image();
+    img.crossOrigin = 'anonymous';
+    img.onload = () => resolve(img);
+    img.onerror = () => resolve(null);
+    img.src = url;
+});
+
+const buildPresentationPDF = async (p) => {
+    if (!p || !window.jspdf || !window.html2canvas) return;
+    showPdfOverlay('Carregando fotos...');
+    const root = document.createElement('div');
+    root.id = 'pdf-render-root';
+    document.body.appendChild(root);
+
+    try {
+        const photoUrls = p.photos.slice(0, 50);
+        const loadedImgs = (await Promise.all(photoUrls.map(preloadPdfImage))).filter(Boolean);
+        const logoSrc = document.querySelector('#logo-btn img')?.src || '';
+
+        const pages = [];
+
+        loadedImgs.forEach((img, idx) => {
+            const page = document.createElement('div');
+            page.className = 'pdf-page';
+            const enderecoLine = [p.endereco, p.hood].filter(Boolean).join(' · ');
+            const cover = idx === 0
+                ? `<div class="pdf-cover-tint"></div>
+                   <div class="pdf-cover-corner tl">Apresentação de imóvel</div>
+                   <div class="pdf-cover-corner tr">Cód. ${p.id}</div>
+                   <div class="pdf-cover-center">
+                       <h1 class="pdf-cover-title">${p.title}</h1>
+                       ${enderecoLine ? `<div class="pdf-cover-sub">${enderecoLine}</div>` : ''}
+                   </div>
+                   <div class="pdf-cover-bottom">ARBOR</div>`
+                : `<div class="pdf-watermark"><span>ARBOR</span></div>`;
+            page.innerHTML = `<div class="pdf-page-inner pdf-photo-inner"><img src="${img.src}">${cover}</div>`;
+            root.appendChild(page);
+            pages.push(page);
+        });
+
+        const pdfSpec = (icon, label, value) => `<div class="pdf-spec-item"><i data-lucide="${icon}"></i><div class="pdf-spec-text"><span>${label}</span><span>${value}</span></div></div>`;
+        const specsHtml = [
+            (p.areaTotal && p.areaTotal !== "0" && p.areaTotal.trim() !== "") ? pdfSpec('ruler', 'Área Terreno', p.areaTotal + 'm²') : '',
+            (!p.areaTotal && p.areaTerreno && p.areaTerreno !== "0" && p.areaTerreno.trim() !== "") ? pdfSpec('ruler', 'Área Terreno', p.areaTerreno + 'm²') : '',
+            (p.areaPrivativa && p.areaPrivativa !== "0" && p.areaPrivativa.trim() !== "") ? pdfSpec('ruler', 'Área Privativa', p.areaPrivativa + 'm²') : '',
+            (!p.areaPrivativa && p.area && p.area !== "0" && p.area.trim() !== "") ? pdfSpec('ruler', 'Área', p.area + 'm²') : '',
+            p.beds ? pdfSpec('bed', 'Quartos', p.beds) : '',
+            (p.suites && p.suites !== "0" && p.suites.trim() !== "") ? pdfSpec('layers', 'Suítes', p.suites) : '',
+            (p.banheiros && p.banheiros !== "0" && p.banheiros.trim() !== "") ? pdfSpec('bath', 'Banheiros', p.banheiros) : '',
+            (p.garage && p.garage !== "0" && p.garage.trim() !== "") ? pdfSpec('car', 'Vagas', p.garage) : '',
+            (p.mobiliado && p.mobiliado.toLowerCase() !== "não" && p.mobiliado.trim() !== "") ? pdfSpec('sofa', 'Mobiliado', 'Sim') : '',
+        ].join('');
+
+        const contentPage = document.createElement('div');
+        contentPage.className = 'pdf-page';
+        contentPage.innerHTML = `<div class="pdf-page-inner pdf-content-page">
+            <span class="pdf-eyebrow">Cód. ${p.id}${p.tipo ? ` &nbsp;|&nbsp; ${p.tipo}` : ''} &nbsp;|&nbsp; ${p.hood} · ${p.city}</span>
+            <h1 class="pdf-title">${p.title}</h1>
+            <div class="pdf-specs-grid">${specsHtml}</div>
+            <div class="pdf-desc">${formatDescricao(p.desc)}</div>
+            ${p.caracteristicas && p.caracteristicas.length ? `
+                <div class="pdf-caract-title">Características</div>
+                <div class="pdf-caract-tags">${p.caracteristicas.map(c => `<span class="pdf-caract-tag">${c}</span>`).join('')}</div>
+            ` : ''}
+            <div class="pdf-wave">${PDF_WAVE_SVG}</div>
+        </div>`;
+        root.appendChild(contentPage);
+        pages.push(contentPage);
+
+        const priceLine = p.priceVenda && p.priceAluguel
+            ? `Venda: ${formatBRL(p.priceVenda)} &nbsp;·&nbsp; Aluguel: ${formatBRL(p.priceAluguel)}/mês`
+            : formatPropertyPrice(p);
+        const finalPage = document.createElement('div');
+        finalPage.className = 'pdf-page';
+        finalPage.innerHTML = `<div class="pdf-page-inner pdf-page-inner-dark pdf-final-page">
+            <span class="pdf-final-eyebrow">${(p.operacao || 'Venda').toUpperCase()}</span>
+            <h2 class="pdf-final-price">${priceLine}</h2>
+            ${(p.condominio || p.iptu) ? `<div class="pdf-final-sub">
+                ${p.condominio ? `<div class="pdf-final-sub-item"><span class="pdf-final-sub-label">Condomínio</span><span class="pdf-final-sub-value">${formatBRL(p.condominio)}</span></div>` : ''}
+                ${p.iptu ? `<div class="pdf-final-sub-item"><span class="pdf-final-sub-label">IPTU Anual</span><span class="pdf-final-sub-value">${formatBRL(p.iptu)}</span></div>` : ''}
+            </div>` : ''}
+            <div class="pdf-final-divider"></div>
+            ${logoSrc ? `<img src="${logoSrc}" class="pdf-final-logo">` : ''}
+        </div>`;
+        root.appendChild(finalPage);
+        pages.push(finalPage);
+
+        if (window.lucide) window.lucide.createIcons();
+
+        const { jsPDF } = window.jspdf;
+        const doc = new jsPDF({ orientation: 'landscape', unit: 'cm', format: 'a4' });
+
+        for (let i = 0; i < pages.length; i++) {
+            showPdfOverlay(`Gerando página ${i + 1} de ${pages.length}...`);
+            const canvas = await window.html2canvas(pages[i], { scale: 1.6, useCORS: true, backgroundColor: null });
+            const dataUrl = canvas.toDataURL('image/jpeg', 0.92);
+            if (i > 0) doc.addPage();
+            doc.addImage(dataUrl, 'JPEG', 0, 0, PDF_PAGE_W_CM, PDF_PAGE_H_CM);
+        }
+
+        const fileName = `arbor-${String(p.id).trim().toLowerCase()}.pdf`;
+        doc.save(fileName);
+    } catch (err) {
+        console.warn('[Ficha PDF] Falhou:', err);
+        alert('Não foi possível gerar a ficha em PDF. Tente novamente.');
+    } finally {
+        root.remove();
+        hidePdfOverlay();
+    }
+};
+
 const renderDetailContent = (p) => {
     $('detail-view').innerHTML = `
         <button class="back-btn" id="detail-back-btn"><i data-lucide="arrow-left" style="width:14px"></i> Voltar ao portfólio</button>
         <div class="detail-hero-img" id="detail-main-img"><img src="${p.photos[0]}" alt="${p.title}"></div>
         <article class="detail-main-grid">
             <div>
-                <span class="k-tag">Cód. ${p.id} &nbsp;|&nbsp; ${p.hood} · ${p.city}${p.operacao && p.operacao !== 'Venda' ? ` &nbsp;|&nbsp; ${p.operacao}` : ''}</span>
+                <span class="k-tag">Cód. ${p.id}${p.tipo ? ` &nbsp;|&nbsp; ${p.tipo}` : ''} &nbsp;|&nbsp; ${p.hood} · ${p.city}${p.operacao && p.operacao !== 'Venda' ? ` &nbsp;|&nbsp; ${p.operacao}` : ''}</span>
                 <h1 class="k-title">${p.title}</h1>
                 ${p.endereco ? `<p style="font-size:0.85rem; color:var(--prata); margin:-14px 0 22px;">${p.endereco}</p>` : ''}
                 ${p.priceVenda && p.priceAluguel
@@ -1251,13 +1751,22 @@ const renderDetailContent = (p) => {
                     ${p.condominio ? specBox('building-2', 'Condomínio', formatBRL(p.condominio) + '/mês') : ''}
                     ${p.iptu ? specBox('receipt', 'IPTU', formatBRL(p.iptu) + '/ano') : ''}
                     ${(p.mobiliado && p.mobiliado.toLowerCase() !== "não" && p.mobiliado.trim() !== "") ? specBox('sofa', 'Mobiliado', 'Sim') : ''}
+                    ${(p.garantiaLocacao && p.garantiaLocacao.trim() !== "" && p.operacao && p.operacao !== 'Venda') ? specBox('shield-check', 'Garantia de Locação', p.garantiaLocacao) : ''}
                 </div>
             </div>
             <div>
-                <p class="k-desc">${p.desc}</p>
+                <span class="eyebrow" style="display:block; margin-bottom:14px;">Descrição</span>
+                <div class="k-desc">${formatDescricao(p.desc)}</div>
+                ${p.caracteristicas && p.caracteristicas.length ? `
+                <div class="caracteristicas-section">
+                    <span class="eyebrow" style="display:block; margin-bottom:14px;">Características</span>
+                    <div class="caracteristicas-tags">
+                        ${p.caracteristicas.map(c => `<span class="caract-tag">${c}</span>`).join('')}
+                    </div>
+                </div>` : ''}
                 <div class="action-buttons">
                     <a href="https://wa.me/5562982495522?text=Interesse no imóvel Cód. ${p.id}: ${encodeURIComponent(p.title)}" target="_blank" class="btn btn-fill">Falar com a Arbor <i data-lucide="message-circle" style="width:16px"></i></a>
-                    <button id="btn-print-doc" class="btn btn-line">Imprimir PDF <i data-lucide="printer" style="width:16px"></i></button>
+                    <button id="btn-print-doc" class="btn btn-line">Gerar ficha em PDF <i data-lucide="file-down" style="width:16px"></i></button>
                 </div>
             </div>
         </article>
@@ -1302,7 +1811,7 @@ const renderDetailContent = (p) => {
     $('jornada-back-btn').addEventListener('click', (e) => { e.preventDefault(); goHome(); });
     $('noticias-back-btn').addEventListener('click', (e) => { e.preventDefault(); goHome(); });
     $('detail-main-img').addEventListener('click', () => openLightbox(0));
-    $('btn-print-doc').addEventListener('click', () => window.print());
+    $('btn-print-doc').addEventListener('click', () => buildPresentationPDF(state.activeProp));
     document.querySelectorAll('.gallery-img-container').forEach(el => {
         el.addEventListener('click', () => openLightbox(parseInt(el.getAttribute('data-index'))));
     });
