@@ -29,6 +29,7 @@
             --line:        rgba(17,17,17,0.09);
             --line-dark:   rgba(227,217,200,0.16);
             --font:        'TT Ramillas', Georgia, serif;
+            --font-ui:     'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
             --ease:        cubic-bezier(.22,1,.36,1);
         }
 
@@ -208,13 +209,11 @@
         .destaque-grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:28px; align-items:start; }
         .d-column{ display:flex; flex-direction:column; gap:16px; }
         .d-column-head{ font-size:0.72rem; letter-spacing:0.18em; text-transform:uppercase; color:var(--verde); padding-bottom:12px; border-bottom:1px solid rgba(32,64,48,.16); }
-        .d-card{ position:relative; display:block; border-radius:22px; overflow:hidden; aspect-ratio:4/5; background:var(--areia-soft); will-change:transform, opacity, filter; }
-        .d-card--residencial{ animation:destaqueSlideLeft .72s cubic-bezier(.22,.61,.36,1); }
-        .d-card--comercial{ animation:destaqueRise .72s cubic-bezier(.22,.61,.36,1); }
-        .d-card--aluguel{ animation:destaqueSlideRight .72s cubic-bezier(.22,.61,.36,1); }
-        @keyframes destaqueSlideLeft{ from{ opacity:0; transform:translateX(-26px) scale(.985); filter:blur(5px); } to{ opacity:1; transform:translateX(0) scale(1); filter:blur(0); } }
-        @keyframes destaqueSlideRight{ from{ opacity:0; transform:translateX(26px) scale(.985); filter:blur(5px); } to{ opacity:1; transform:translateX(0) scale(1); filter:blur(0); } }
-        @keyframes destaqueRise{ from{ opacity:0; transform:translateY(22px) scale(.985); filter:blur(5px); } to{ opacity:1; transform:translateY(0) scale(1); filter:blur(0); } }
+        .d-card-slot{ display:grid; position:relative; isolation:isolate; overflow:hidden; border-radius:22px; }
+        .d-card-slot > .d-card{ grid-area:1 / 1; z-index:1; }
+        .d-card{ position:relative; display:block; border-radius:22px; overflow:hidden; aspect-ratio:4/5; background:var(--areia-soft); opacity:1; transition:opacity .9s cubic-bezier(.4,0,.2,1); will-change:opacity; }
+        .d-card.is-entering{ z-index:2; opacity:0; pointer-events:none; }
+        .d-card.is-leaving{ z-index:1; opacity:0; pointer-events:none; }
         .d-card img{ width:100%; height:100%; object-fit:cover; transition:transform 1s var(--ease); }
         .d-card:hover img{ transform:scale(1.06); }
         .d-card-overlay{ position:absolute; inset:0; background:linear-gradient(to top, rgba(17,17,17,0.85) 0%, rgba(17,17,17,0.05) 55%); display:flex; flex-direction:column; justify-content:flex-end; padding:26px; }
@@ -275,11 +274,11 @@
         /* ---------- sobre ---------- */
         .section-sobre{ padding:82px 0; background:var(--areia-soft); position:relative; overflow:hidden; }
         .sobre-grid{ display:grid; grid-template-columns:0.85fr 1.15fr; gap:6vw; align-items:center; }
-        .sobre-visual{ aspect-ratio:0.85/1; position:relative; }
-        .sobre-visual .blob{ width:100%; height:100%; background:linear-gradient(135deg, #204030 0%, #1B3A2D 100%); border-radius:44% 56% 52% 48% / 38% 38% 62% 62%; display:flex; align-items:center; justify-content:center; padding:16%; box-shadow:0 28px 60px -30px rgba(17,17,17,.32); position:relative; overflow:hidden; }
+        .sobre-visual{ aspect-ratio:1/1; position:relative; }
+        .sobre-visual .blob{ width:100%; height:100%; background:linear-gradient(135deg, #204030 0%, #1B3A2D 100%); border-radius:44% 56% 52% 48% / 38% 38% 62% 62%; display:flex; align-items:center; justify-content:center; padding:11%; box-shadow:0 28px 60px -30px rgba(17,17,17,.32); position:relative; overflow:hidden; }
         .sobre-visual .blob::before{ content:''; position:absolute; width:72%; height:72%; border-radius:50%; background:rgba(227,217,200,.08); inset:auto auto 10% 10%; filter:blur(0.2px); }
         .sobre-visual .blob::after{ content:''; position:absolute; width:54%; height:54%; border-radius:50%; background:rgba(227,217,200,.06); top:10%; right:8%; }
-        .sobre-logo{ position:relative; z-index:1; width:min(60%, 265px); max-width:100%; height:auto; object-fit:contain; transform:none; filter:drop-shadow(0 18px 28px rgba(0,0,0,.18)); }
+        .sobre-visual .blob > .sobre-logo{ position:relative; z-index:1; width:76%; height:76%; max-width:340px; object-fit:contain; transform:none; filter:drop-shadow(0 18px 28px rgba(0,0,0,.18)); }
         .sobre-copy p{ margin-bottom:20px; max-width:560px; color:var(--grafite); }
         .sobre-copy strong{ color:var(--onix); font-weight:400; }
         .pillars{ display:flex; gap:34px; margin-top:44px; flex-wrap:wrap; }
@@ -302,12 +301,17 @@
 
         .section-fazemos{ padding:78px 0; }
         .fazemos-list{ display:grid; grid-template-columns:1fr 1fr 1fr; gap:32px; }
-        .fazemos-item{ padding:28px 4% 28px 0; border-top:1px solid var(--line); display:grid; grid-template-columns:auto 1fr; gap:24px; align-items:baseline; }
+        .fazemos-item{ padding:28px 4% 28px 0; border-top:1px solid var(--line); display:grid; grid-template-columns:auto 1fr; gap:24px; align-items:start; }
         .fazemos-list .fazemos-item:nth-child(2n){ padding-left:4%; padding-right:0; }
         .fazemos-item:nth-last-child(-n+2){ border-bottom:1px solid var(--line); }
         .fazemos-item .tag{ font-size:0.68rem; letter-spacing:0.2em; color:var(--verde); text-transform:uppercase; white-space:nowrap; }
         .fazemos-item h4{ font-size:1.3rem; color:var(--onix); font-weight:300; margin-bottom:8px; }
         .fazemos-item p{ font-size:0.92rem; color:var(--grafite); max-width:400px; }
+        .fazemos-actions{ display:flex; flex-wrap:wrap; gap:10px 18px; margin-top:18px; }
+        .fazemos-action{ display:inline-flex; align-items:center; gap:7px; color:var(--verde); font-size:.66rem; font-weight:600; letter-spacing:.12em; line-height:1; text-decoration:none; text-transform:uppercase; padding:7px 0; border-bottom:1px solid rgba(32,64,48,.3); transition:color .25s, border-color .25s; }
+        .fazemos-action:hover,
+        .fazemos-action:focus-visible{ color:var(--terracota); border-color:var(--terracota); outline:none; }
+        .fazemos-action svg{ width:13px; height:13px; }
 
         /* ---------- por que escolher ---------- */
         .section-nacional{ padding:72px 0 76px; min-height:0; display:flex; align-items:center; background:var(--verde-deep); }
@@ -347,12 +351,6 @@
         .diferenciais-page-note .eyebrow{ color:var(--areia); }
         .diferenciais-page-note p{ font-family:var(--font); font-size:clamp(1.35rem,2.4vw,2rem); line-height:1.45; margin-top:14px; color:var(--areia-clara); }
 
-        .section-journal{ padding:80px 0; background:var(--areia-soft); }
-        .journal-preview-grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:26px; margin-top:20px; }
-        .journal-preview-item{ display:block; background:var(--areia); border:1px solid var(--line); border-radius:18px; padding:28px; text-decoration:none; color:inherit; transition:transform .3s, box-shadow .3s; }
-        .journal-preview-item:hover{ transform:translateY(-4px); box-shadow:0 20px 40px -20px rgba(17,17,17,0.18); }
-        .journal-preview-item h4{ font-size:1rem; font-weight:400; color:var(--onix); margin:10px 0 8px; }
-        .journal-preview-item p{ font-size:0.85rem; color:var(--grafite); }
 
         .section-journey-resumida{ padding:120px 0; }
         .journey-flow{ max-width:760px; }
@@ -464,7 +462,7 @@
         .d-card-badge, .d-card-overlay, .gallery-more-overlay, .p-card-op-badge{ z-index:2; }
         .pdf-photo-inner{ position:relative; }
         .pdf-photo-watermark{ position:absolute; inset:0; display:flex; align-items:center; justify-content:center; pointer-events:none; z-index:1; }
-        .pdf-photo-watermark img{ width:32%; max-width:280px; height:auto; opacity:.16; }
+        .pdf-photo-watermark img{ width:30%; max-width:360px; height:auto; opacity:.2; filter:drop-shadow(0 8px 22px rgba(0,0,0,.3)); }
         .print-footer{ display:none; }
 
         /* ---------- Ficha de apresentação (gerador de PDF real, não usa window.print) ---------- */
@@ -472,8 +470,9 @@
         .pdf-page{ width:1400px; height:990px; background:var(--verde-deep); padding:14px; box-sizing:border-box; font-family:var(--font); position:relative; }
         .pdf-page-inner{ width:100%; height:100%; background:var(--areia-soft); position:relative; overflow:hidden; box-sizing:border-box; }
         .pdf-page-inner-dark{ background:var(--verde-deep); }
-        .pdf-photo-inner{ background:#000; }
-        .pdf-photo-inner img{ width:100%; height:100%; object-fit:cover; display:block; }
+        .pdf-photo-inner{ background:var(--verde-deep); }
+        .pdf-photo-inner > .pdf-photo-image{ width:100%; height:100%; object-fit:contain; display:block; }
+        .pdf-cover-image{ position:absolute; inset:0; width:100%; height:100%; object-fit:cover; display:block; }
         .pdf-watermark{ position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); display:flex; flex-direction:column; align-items:center; gap:10px; color:rgba(255,255,255,0.6); text-shadow:0 1px 6px rgba(0,0,0,0.5); }
         .pdf-watermark::before{ content:''; display:block; width:64px; height:1px; background:rgba(255,255,255,0.6); }
         .pdf-watermark span{ font-family:var(--font); font-size:22px; letter-spacing:0.5em; text-transform:uppercase; padding-left:0.5em; }
@@ -569,10 +568,20 @@
         .jornada-track .j-step:nth-child(4){ transition-delay:.35s; }
         .jornada-track .j-step:nth-child(5){ transition-delay:.45s; }
         .jornada-track .j-step:nth-child(6){ transition-delay:.55s; }
-        .j-step:not(:last-child)::after{ content:''; position:absolute; top:19px; left:50%; width:100%; height:1px; background:var(--line); z-index:0; }
-        .j-num{ width:38px; height:38px; border-radius:50%; background:var(--areia-soft); border:1px solid var(--verde); color:var(--verde); display:flex; align-items:center; justify-content:center; font-size:0.85rem; margin:0 auto 16px; position:relative; z-index:1; font-family:var(--font); }
-        .j-step h4{ font-size:0.92rem; color:var(--onix); font-weight:400; margin-bottom:6px; }
-        .j-step p{ font-size:0.78rem; color:var(--prata); }
+        .j-step:not(:last-child)::after{ content:''; position:absolute; top:21px; left:50%; width:100%; height:1px; background:var(--line); z-index:0; }
+        .j-num{ width:42px; height:42px; border-radius:50%; background:var(--areia-soft); border:1px solid var(--verde); color:var(--verde); display:flex; align-items:center; justify-content:center; font-size:0.85rem; margin:0 auto 16px; position:relative; z-index:1; font-family:var(--font); cursor:pointer; transition:background .28s ease, color .28s ease, transform .28s ease, box-shadow .28s ease; }
+        .j-num:hover{ transform:translateY(-2px); box-shadow:0 8px 20px rgba(32,64,48,.14); }
+        .j-num:focus-visible{ outline:2px solid var(--terracota); outline-offset:4px; }
+        .j-step.is-active .j-num{ background:var(--verde); color:#fff; transform:scale(1.06); box-shadow:0 10px 24px rgba(32,64,48,.2); }
+        .j-step h4{ font-size:0.92rem; color:var(--onix); font-weight:400; margin-bottom:6px; transition:color .28s ease; }
+        .j-step.is-active h4{ color:var(--verde); }
+        .j-step > p{ display:none; font-size:0.82rem; line-height:1.65; color:var(--grafite); }
+        .jornada-detail{ max-width:760px; margin:30px auto 0; padding:22px 26px; border:1px solid rgba(32,64,48,.14); border-left:3px solid var(--verde); border-radius:16px; background:rgba(242,239,231,.72); box-shadow:0 18px 42px -34px rgba(17,17,17,.35); animation:jornadaDetailIn .32s ease both; }
+        .jornada-detail[hidden]{ display:none; }
+        .jornada-detail .j-detail-kicker{ display:block; margin-bottom:7px; font-size:.62rem; letter-spacing:.18em; text-transform:uppercase; color:var(--verde); }
+        .jornada-detail h4{ margin:0 0 7px; font-size:1.04rem; font-weight:400; color:var(--onix); }
+        .jornada-detail p{ margin:0; font-size:.9rem; line-height:1.65; color:var(--grafite); }
+        @keyframes jornadaDetailIn{ from{ opacity:0; transform:translateY(8px); } to{ opacity:1; transform:translateY(0); } }
 
         .temp-bar{ display:flex; gap:2px; border-radius:20px; overflow:hidden; margin-top:36px; }
         .temp-zone{ flex:1; padding:32px 26px; }
@@ -613,7 +622,6 @@
         #imoveis .sub-sec:last-of-type{ margin-bottom:48px; }
         #busca-completa{ margin-top:4px !important; }
         .section-fazemos .sec-head,
-        .section-journal .sec-head{ margin-bottom:34px; }
         .section-sobre .sobre-grid{ min-height:0; }
         .section-nacional .sec-head p{ line-height:1.7; }
         .section-cta .cta-inner{ gap:38px; }
@@ -621,7 +629,7 @@
             .section-imoveis{ padding:58px 0 64px; }
             .sub-sec{ margin-bottom:42px; }
             .section-breather{ min-height:0; padding:50px 6vw; }
-            .section-fazemos,.section-sobre,.section-journal{ padding:64px 0; }
+            .section-fazemos,.section-sobre{ padding:64px 0; }
             .section-nacional{ padding:60px 0 64px; }
             .section-cta{ padding:72px 0; }
             .wave svg{ height:42px; }
@@ -643,9 +651,8 @@
             #properties-grid{ grid-template-columns:repeat(2,1fr); }
             .destaque-grid{ grid-template-columns:repeat(2,1fr); }
             .sobre-grid{ grid-template-columns:1fr; }
-            .sobre-visual{ max-width:360px; margin:0 auto; }
+            .sobre-visual{ max-width:420px; margin:0 auto; }
             .fazemos-list,.porque-grid,.diferenciais-grid,.diferenciais-page-grid{ grid-template-columns:1fr; }
-            .journal-preview-grid{ grid-template-columns:1fr; }
             .bairros-teaser-list{ grid-template-columns:1fr; }
             .fazemos-list .fazemos-item:nth-child(2n){ padding-left:0; }
             .detail-intro-grid,
@@ -659,6 +666,12 @@
             .jornada-track{ flex-direction:column; align-items:flex-start; gap:26px; }
             .j-step{ text-align:left; padding-left:0; width:100%; }
             .j-step:not(:last-child)::after{ display:none; }
+            .j-step{ display:grid; grid-template-columns:48px minmax(0,1fr); column-gap:14px; align-items:center; }
+            .j-num{ grid-column:1; grid-row:1; margin:0; }
+            .j-step h4{ grid-column:2; grid-row:1; margin:0; }
+            .j-step > p{ grid-column:2; grid-row:2; margin:9px 0 0; }
+            .j-step.is-active > p{ display:block; animation:jornadaDetailIn .32s ease both; }
+            .jornada-detail{ display:none !important; }
             .temp-bar{ flex-direction:column; }
         }
         @media (max-width:720px){
@@ -686,6 +699,543 @@
             .detail-quick-item{ grid-template-columns:1fr; gap:6px; }
             .action-buttons .btn{ width:100%; flex-basis:100%; }
         }
+
+
+        /* ---------- Property detail refinement — responsive web / desktop / mobile ---------- */
+        #detail-view{
+            max-width:1440px;
+            padding:124px clamp(22px,4.5vw,72px) 120px;
+            font-family:var(--font-ui);
+        }
+        #detail-view h1,
+        #detail-view h2,
+        #detail-view h3,
+        #detail-view button,
+        #detail-view .btn{ font-family:var(--font-ui); }
+        #detail-view .back-btn{ margin-bottom:26px; }
+        .detail-page-shell{ gap:28px; }
+
+        .detail-property-header{
+            display:grid;
+            grid-template-columns:minmax(0,1fr) auto;
+            gap:36px;
+            align-items:end;
+            padding-bottom:20px;
+            border-bottom:1px solid var(--line);
+        }
+        .detail-heading-main{ max-width:900px; }
+        .detail-heading-meta{
+            display:flex;
+            flex-wrap:wrap;
+            align-items:center;
+            gap:9px;
+            margin-bottom:16px;
+        }
+        .detail-heading-code{
+            font-size:.68rem;
+            letter-spacing:.16em;
+            text-transform:uppercase;
+            color:var(--verde);
+        }
+        .detail-property-header .k-title{
+            max-width:820px;
+            font-size:clamp(1.7rem,2.45vw,2.65rem);
+            font-weight:500;
+            line-height:1.14;
+            letter-spacing:-.022em;
+            margin:0 0 16px;
+            text-wrap:pretty;
+        }
+        .detail-property-header .detail-address{
+            display:flex;
+            align-items:flex-start;
+            gap:8px;
+            margin:0;
+            font-size:.98rem;
+            line-height:1.55;
+            color:rgba(17,17,17,.62);
+        }
+        .detail-property-header .detail-address svg{
+            width:17px;
+            height:17px;
+            color:var(--verde);
+            flex:0 0 auto;
+            margin-top:2px;
+        }
+        .detail-header-side{
+            min-width:220px;
+            text-align:right;
+            padding-bottom:4px;
+        }
+        .detail-header-side .detail-resumo-linha{
+            max-width:330px;
+            font-size:.9rem;
+            line-height:1.65;
+            color:var(--grafite);
+        }
+
+        .detail-property-layout{
+            display:grid;
+            grid-template-columns:minmax(0,1.5fr) minmax(350px,.62fr);
+            gap:22px;
+            align-items:start;
+        }
+        .detail-main-flow,
+        .detail-side-flow{
+            min-width:0;
+            display:flex;
+            flex-direction:column;
+            gap:22px;
+        }
+        .detail-gallery-mosaic{
+            min-width:0;
+            display:block;
+            height:450px;
+            min-height:0;
+        }
+        .detail-gallery-mosaic .detail-hero-card{
+            width:100%;
+            height:100%;
+            padding:0;
+            border-radius:28px;
+            overflow:hidden;
+            background:transparent;
+        }
+        .detail-gallery-mosaic .detail-hero-img{
+            width:100%;
+            height:100%;
+            min-height:0;
+            aspect-ratio:auto;
+            border-radius:28px;
+        }
+        .detail-gallery-mosaic .gallery-img-container{
+            aspect-ratio:auto;
+            min-height:0;
+            border-radius:20px;
+        }
+        .detail-gallery-mosaic .gallery-img-container:nth-of-type(2){ grid-column:2; grid-row:1; }
+        .detail-gallery-mosaic .gallery-img-container:nth-of-type(3){ grid-column:3; grid-row:1; }
+        .detail-gallery-mosaic .gallery-img-container:nth-of-type(4){ grid-column:2; grid-row:2; }
+        .detail-gallery-mosaic .gallery-img-container:nth-of-type(5){ grid-column:3; grid-row:2; }
+        .detail-gallery-mosaic img{ display:block; }
+        .detail-photo-count{
+            position:absolute;
+            right:14px;
+            bottom:14px;
+            z-index:3;
+            display:inline-flex;
+            align-items:center;
+            gap:7px;
+            padding:9px 12px;
+            border-radius:999px;
+            background:rgba(17,17,17,.72);
+            color:#fff;
+            backdrop-filter:blur(8px);
+            -webkit-backdrop-filter:blur(8px);
+            font-size:.72rem;
+            letter-spacing:.04em;
+        }
+        .detail-photo-count svg{ width:15px; height:15px; }
+
+        .detail-summary-card{
+            position:static;
+            padding:24px;
+            border-radius:28px;
+            box-shadow:0 24px 60px rgba(17,17,17,.08);
+        }
+        .detail-summary-card .detail-summary-top{
+            padding-bottom:18px;
+            margin-bottom:22px;
+        }
+        .detail-summary-card .k-price{
+            font-size:clamp(1.75rem,2.5vw,2.45rem);
+            line-height:1.08;
+            margin-bottom:8px;
+        }
+        .detail-summary-card .k-price-dual .k-price{
+            font-size:clamp(1.45rem,2vw,2rem);
+            margin:0;
+        }
+        .detail-summary-card .k-financial-line{
+            display:grid;
+            grid-template-columns:1fr;
+            gap:8px;
+            margin:0 0 22px;
+        }
+        .detail-summary-card .k-financial-item{
+            justify-content:flex-start;
+            border-radius:14px;
+            padding:11px 12px;
+        }
+        .detail-summary-card .specs-grid{
+            grid-template-columns:repeat(2,minmax(0,1fr));
+            gap:9px;
+        }
+        .detail-summary-card .spec-box{
+            min-height:84px;
+            padding:13px 12px;
+            border-radius:15px;
+            background:rgba(227,217,200,.24);
+        }
+        .detail-summary-card .spec-box-icon{
+            width:36px;
+            height:36px;
+            border-radius:10px;
+        }
+        .detail-summary-card .spec-box svg{ width:18px; height:18px; }
+        .detail-summary-card .spec-box-text span:last-child{ font-size:.96rem; }
+        .detail-primary-actions{
+            display:grid;
+            gap:10px;
+            margin-top:22px;
+            padding-top:22px;
+            border-top:1px solid var(--line);
+        }
+        .detail-primary-actions .btn{
+            width:100%;
+            min-height:48px;
+            justify-content:center;
+        }
+        .detail-primary-note{
+            margin-top:10px;
+            font-size:.75rem;
+            line-height:1.55;
+            color:rgba(17,17,17,.52);
+            text-align:center;
+        }
+
+        .detail-info-grid{
+            display:grid;
+            grid-template-columns:minmax(0,1.4fr) minmax(320px,.6fr);
+            gap:26px;
+            align-items:start;
+        }
+        .detail-section-card,
+        .detail-side-panel{
+            border-radius:26px;
+            padding:24px;
+            box-shadow:0 16px 42px rgba(17,17,17,.045);
+        }
+        .detail-description-card .k-desc{
+            max-width:820px;
+            font-size:1.02rem;
+            line-height:1.9;
+        }
+        .detail-facts-panel{
+            background:rgba(227,217,200,.3);
+            display:grid;
+            grid-template-columns:auto minmax(0,1fr);
+            column-gap:12px;
+            align-items:baseline;
+        }
+        .detail-facts-panel > .eyebrow{
+            margin:0;
+            white-space:nowrap;
+            font-size:.58rem;
+            letter-spacing:.16em;
+        }
+        .detail-facts-panel > h3{
+            margin:0;
+            font-size:1.28rem;
+            line-height:1.15;
+        }
+        .detail-facts-panel > .detail-quick-list{
+            grid-column:1 / -1;
+            width:100%;
+            margin-top:10px;
+        }
+        .detail-quick-item{
+            grid-template-columns:88px minmax(0,1fr);
+            gap:10px;
+            align-items:center;
+            padding:10px 0;
+        }
+        .detail-quick-label{
+            font-size:.58rem;
+            letter-spacing:.12em;
+            white-space:nowrap;
+        }
+        .detail-quick-value{
+            min-width:0;
+            font-size:.85rem;
+            line-height:1.35;
+            overflow-wrap:normal;
+            word-break:normal;
+        }
+
+        .caracteristicas-section{
+            padding:24px;
+            border:1px solid var(--line);
+            border-radius:26px;
+            background:rgba(255,255,255,.2);
+        }
+        .caracteristicas-section .detail-section-head{
+            display:grid;
+            grid-template-columns:minmax(0,1fr) auto;
+            gap:8px 28px;
+            align-items:end;
+        }
+        .caracteristicas-section .detail-section-head .eyebrow{ grid-column:1 / -1; }
+        .caracteristicas-section .detail-section-head h2{ margin:0; }
+        .caracteristicas-section .caracteristicas-meta{ text-align:right; }
+        .caracteristicas-tags{
+            grid-template-columns:repeat(3,minmax(0,1fr));
+            gap:10px;
+        }
+        .caract-tag{
+            background:rgba(255,255,255,.34);
+            padding:13px 14px;
+        }
+
+        .detail-gallery-section{
+            overflow:hidden;
+            padding:24px;
+        }
+        .detail-gallery-section .detail-gallery{
+            grid-template-columns:repeat(4,minmax(0,1fr));
+            grid-auto-rows:138px;
+            gap:10px;
+        }
+        .detail-gallery-section .gallery-img-container{
+            grid-column:auto;
+            grid-row:auto;
+            aspect-ratio:auto;
+            border-radius:14px;
+        }
+        .detail-gallery-section .gallery-img-container:nth-child(1),
+        .detail-gallery-section .gallery-img-container:nth-child(6){ grid-column:auto; }
+        .detail-gallery-section .gallery-img-container:nth-child(3),
+        .detail-gallery-section .gallery-img-container:nth-child(5){ grid-row:auto; }
+
+        .mobile-detail-cta{ display:none; }
+
+        @media (max-width:1180px){
+            #detail-view{ padding-left:5vw; padding-right:5vw; }
+            .detail-property-header{ grid-template-columns:1fr; gap:12px; }
+            .detail-header-side{ text-align:left; min-width:0; }
+            .detail-header-side .detail-resumo-linha{ max-width:none; }
+            .detail-property-layout{ grid-template-columns:minmax(0,1.35fr) minmax(310px,.65fr); gap:20px; }
+            .detail-gallery-mosaic{
+                height:400px;
+                min-height:0;
+            }
+            .detail-gallery-mosaic .detail-hero-img{ min-height:0; }
+            .detail-summary-card{ position:static; }
+            .detail-summary-card .specs-grid{ grid-template-columns:repeat(2,minmax(0,1fr)); }
+            .detail-primary-actions{ grid-template-columns:1fr; }
+            .detail-primary-note{ grid-column:auto; }
+            .detail-info-grid{ grid-template-columns:minmax(0,1.25fr) minmax(280px,.75fr); }
+            .caracteristicas-tags{ grid-template-columns:repeat(2,minmax(0,1fr)); }
+        }
+
+        @media (max-width:820px){
+            #detail-view{ padding:112px 5vw 110px; }
+            .detail-page-shell{ gap:30px; }
+            .detail-property-header .k-title{ font-size:clamp(1.6rem,4.4vw,2.2rem); }
+            .detail-property-layout{ display:flex; flex-direction:column; gap:22px; }
+            .detail-main-flow,
+            .detail-side-flow{ display:contents; }
+            .detail-gallery-mosaic{ order:1; }
+            .detail-summary-card{ order:2; }
+            .detail-description-card{ order:3; }
+            .detail-facts-panel{ order:4; }
+            .detail-primary-actions{ grid-template-columns:repeat(2,minmax(0,1fr)); }
+            .detail-primary-note{ grid-column:1 / -1; }
+            .detail-gallery-mosaic{
+                height:auto;
+                min-height:0;
+            }
+            .detail-gallery-mosaic .detail-hero-card{
+                grid-column:1 / -1;
+                grid-row:1;
+            }
+            .detail-gallery-mosaic .detail-hero-img{
+                min-height:0;
+                aspect-ratio:16/10;
+            }
+            .detail-gallery-mosaic .gallery-img-container{
+                min-height:140px;
+            }
+            .detail-gallery-mosaic .gallery-img-container:nth-of-type(n){
+                grid-column:auto;
+                grid-row:2;
+            }
+            .detail-gallery-mosaic .gallery-img-container:nth-of-type(5){ display:none; }
+            .detail-summary-card .specs-grid{ grid-template-columns:repeat(2,minmax(0,1fr)); }
+            .detail-info-grid{ grid-template-columns:1fr; }
+            .detail-gallery-section .detail-gallery{
+                grid-template-columns:repeat(3,minmax(0,1fr));
+                grid-auto-rows:132px;
+            }
+            .detail-gallery-section .gallery-img-container,
+            .detail-gallery-section .gallery-img-container:nth-child(1),
+            .detail-gallery-section .gallery-img-container:nth-child(3),
+            .detail-gallery-section .gallery-img-container:nth-child(5),
+            .detail-gallery-section .gallery-img-container:nth-child(6){
+                grid-column:auto;
+                grid-row:auto;
+                aspect-ratio:auto;
+            }
+        }
+
+        @media (max-width:600px){
+            #detail-view{
+                padding:100px 0 112px;
+                max-width:none;
+            }
+            #detail-view > .back-btn{
+                margin:0 18px 18px;
+                padding:9px 14px;
+                font-size:.68rem;
+            }
+            .detail-page-shell{ gap:24px; }
+            .detail-property-header{
+                margin:0 18px;
+                padding-bottom:20px;
+                gap:10px;
+            }
+            .detail-heading-meta{ gap:7px; margin-bottom:12px; }
+            .detail-chip{ padding:7px 10px; font-size:.6rem; }
+            .detail-property-header .k-title{
+                font-size:clamp(1.45rem,6.2vw,1.85rem);
+                line-height:1.16;
+                margin-bottom:12px;
+            }
+            .detail-property-header .detail-address{ font-size:.88rem; }
+            .detail-header-side .detail-resumo-linha{ font-size:.84rem; }
+
+            .detail-showcase{ gap:0; }
+            .detail-gallery-mosaic{
+                display:block;
+                overflow:visible;
+                padding:0 18px 12px;
+            }
+            .detail-gallery-mosaic .detail-hero-card{
+                display:block;
+                width:100%;
+                height:auto;
+                min-height:0;
+                aspect-ratio:4/3;
+                border-radius:20px;
+                overflow:hidden;
+            }
+            .detail-gallery-mosaic .detail-hero-img{
+                width:100%;
+                height:100%;
+                min-height:0;
+                aspect-ratio:auto;
+                border-radius:20px;
+            }
+            .detail-gallery-mosaic .gallery-img-container:nth-of-type(5){ display:block; }
+            .detail-photo-count{ right:12px; bottom:12px; }
+
+            .detail-summary-card{
+                margin:8px 18px 0;
+                padding:22px 18px 20px;
+                border-radius:22px;
+                box-shadow:0 16px 42px rgba(17,17,17,.065);
+            }
+            .detail-summary-card .k-price{
+                font-size:clamp(1.7rem,8vw,2.15rem);
+            }
+            .detail-summary-card .k-price-dual{ gap:8px; }
+            .detail-summary-card .specs-grid{
+                grid-template-columns:repeat(2,minmax(0,1fr));
+                gap:8px;
+            }
+            .detail-summary-card .spec-box{
+                min-height:74px;
+                padding:11px 10px;
+            }
+            .detail-summary-card .spec-box-icon{ width:32px; height:32px; }
+            .detail-primary-actions{ display:none; }
+
+            .detail-info-grid,
+            .detail-description-card,
+            .detail-facts-panel,
+            .caracteristicas-section,
+            .detail-gallery-section,
+            .similar-props-section{
+                margin-left:18px !important;
+                margin-right:18px !important;
+            }
+            .detail-section-card,
+            .detail-side-panel,
+            .caracteristicas-section{
+                padding:22px 18px;
+                border-radius:22px;
+            }
+            .detail-section-head h2,
+            .detail-side-panel h3{ font-size:1.22rem; }
+            .detail-description-card .k-desc{
+                font-size:.95rem;
+                line-height:1.82;
+            }
+            .detail-facts-panel{
+                grid-template-columns:auto minmax(0,1fr);
+                column-gap:9px;
+            }
+            .detail-facts-panel > .eyebrow{ font-size:.54rem; }
+            .detail-facts-panel > h3{
+                font-size:1.16rem;
+                white-space:nowrap;
+            }
+            .detail-quick-item{
+                grid-template-columns:76px minmax(0,1fr);
+                gap:8px;
+                padding:9px 0;
+            }
+            .detail-quick-label{ font-size:.54rem; }
+            .detail-quick-value{
+                font-size:.8rem;
+                line-height:1.3;
+            }
+            .caracteristicas-section .detail-section-head{
+                display:flex;
+                align-items:flex-start;
+            }
+            .caracteristicas-section .caracteristicas-meta{ text-align:left; }
+            .caracteristicas-tags{ grid-template-columns:1fr; }
+            .detail-gallery-section .detail-gallery{
+                display:flex;
+                overflow-x:auto;
+                gap:9px;
+                scroll-snap-type:x mandatory;
+                scrollbar-width:none;
+            }
+            .detail-gallery-section .detail-gallery::-webkit-scrollbar{ display:none; }
+            .detail-gallery-section .gallery-img-container,
+            .detail-gallery-section .gallery-img-container:nth-child(n){
+                flex:0 0 78%;
+                aspect-ratio:4/3;
+                scroll-snap-align:start;
+            }
+
+            .mobile-detail-cta{
+                position:fixed;
+                left:0;
+                right:0;
+                bottom:0;
+                z-index:80;
+                display:grid;
+                grid-template-columns:minmax(0,1fr) 52px;
+                gap:10px;
+                padding:10px 14px calc(10px + env(safe-area-inset-bottom));
+                background:rgba(242,239,231,.94);
+                border-top:1px solid var(--line);
+                backdrop-filter:blur(16px);
+                -webkit-backdrop-filter:blur(16px);
+                box-shadow:0 -10px 30px rgba(17,17,17,.08);
+            }
+            .mobile-detail-cta .btn{ min-height:48px; justify-content:center; }
+            .mobile-detail-cta .mobile-pdf-btn{
+                width:52px;
+                min-width:52px;
+                padding:0;
+                border-radius:14px;
+            }
+        }
+
     </style>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
@@ -713,7 +1263,7 @@
     <a href="#diferenciais" class="mm-link">Diferenciais</a>
     <a href="#noticias" class="mm-link">Journal</a>
     <a href="#essencia" class="mm-link">Sobre</a>
-    <a href="https://wa.me/5562982495522" target="_blank" class="btn btn-fill">Falar com a Arbor</a>
+    <a href="https://wa.me/5562984854468" target="_blank" class="btn btn-fill">Falar com a Arbor</a>
 </div>
 
 <main id="list-view">
@@ -825,9 +1375,39 @@
                 <h2>Cada momento pede uma decisão diferente</h2>
             </div>
             <div class="fazemos-list reveal">
-                <div class="fazemos-item"><span class="tag">Comprar</span><div><h4>Quero comprar</h4><p>Encontramos oportunidades compatíveis com seu patrimônio, momento e objetivos.</p></div></div>
-                <div class="fazemos-item"><span class="tag">Vender</span><div><h4>Quero vender</h4><p>Posicionamos seu imóvel para alcançar compradores preparados para decidir.</p></div></div>
-                <div class="fazemos-item"><span class="tag">Investir</span><div><h4>Quero investir</h4><p>Analisamos liquidez, potencial de valorização e risco antes de recomendar qualquer ativo.</p></div></div>
+                <div class="fazemos-item">
+                    <span class="tag">Comprar</span>
+                    <div>
+                        <h4>Quero comprar</h4>
+                        <p>Encontramos oportunidades compatíveis com seu patrimônio, momento e objetivos.</p>
+                        <div class="fazemos-actions">
+                            <a class="fazemos-action" href="https://wa.me/5562984854468?text=Ol%C3%A1%2C%20equipe%20Arbor.%20Quero%20receber%20atendimento%20para%20comprar%20um%20im%C3%B3vel." target="_blank" rel="noopener"><i data-lucide="message-circle"></i> WhatsApp</a>
+                            <a class="fazemos-action" href="mailto:contato@arborimoveis.com.br?subject=Quero%20comprar%20um%20im%C3%B3vel%20%E2%80%94%20Site%20Arbor&amp;body=Ol%C3%A1%2C%20equipe%20Arbor.%0A%0AQuero%20receber%20atendimento%20para%20comprar%20um%20im%C3%B3vel.%0A%0ANome%3A%0ATelefone%3A"><i data-lucide="mail"></i> E-mail</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="fazemos-item">
+                    <span class="tag">Vender</span>
+                    <div>
+                        <h4>Quero vender</h4>
+                        <p>Posicionamos seu imóvel para alcançar compradores preparados para decidir.</p>
+                        <div class="fazemos-actions">
+                            <a class="fazemos-action" href="https://wa.me/5562984854468?text=Ol%C3%A1%2C%20equipe%20Arbor.%20Quero%20anunciar%20e%20vender%20meu%20im%C3%B3vel." target="_blank" rel="noopener"><i data-lucide="message-circle"></i> WhatsApp</a>
+                            <a class="fazemos-action" href="mailto:contato@arborimoveis.com.br?subject=Quero%20vender%20meu%20im%C3%B3vel%20%E2%80%94%20Site%20Arbor&amp;body=Ol%C3%A1%2C%20equipe%20Arbor.%0A%0AQuero%20anunciar%20e%20vender%20meu%20im%C3%B3vel.%0A%0ANome%3A%0ATelefone%3A"><i data-lucide="mail"></i> E-mail</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="fazemos-item">
+                    <span class="tag">Investir</span>
+                    <div>
+                        <h4>Quero investir</h4>
+                        <p>Analisamos liquidez, potencial de valorização e risco antes de recomendar qualquer ativo.</p>
+                        <div class="fazemos-actions">
+                            <a class="fazemos-action" href="https://wa.me/5562984854468?text=Ol%C3%A1%2C%20equipe%20Arbor.%20Quero%20conversar%20sobre%20oportunidades%20de%20investimento%20imobili%C3%A1rio." target="_blank" rel="noopener"><i data-lucide="message-circle"></i> WhatsApp</a>
+                            <a class="fazemos-action" href="mailto:contato@arborimoveis.com.br?subject=Quero%20investir%20em%20im%C3%B3veis%20%E2%80%94%20Site%20Arbor&amp;body=Ol%C3%A1%2C%20equipe%20Arbor.%0A%0AQuero%20conversar%20sobre%20oportunidades%20de%20investimento%20imobili%C3%A1rio.%0A%0ANome%3A%0ATelefone%3A"><i data-lucide="mail"></i> E-mail</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -870,30 +1450,6 @@
             </div>
         </div>
     </section>
-    <div class="wave" style="background:var(--verde-deep); transform:rotate(180deg);">
-        <svg viewBox="0 0 1440 90" preserveAspectRatio="none"><path d="M0,32 C240,80 480,0 720,24 C960,48 1200,88 1440,40 L1440,90 L0,90 Z" fill="#F2EFE7"></path></svg>
-    </div>
-
-    <section class="section-journal">
-        <div class="wrap">
-            <div class="sec-head reveal">
-                <span class="eyebrow">Inteligência de mercado</span>
-                <h2>Não publicamos notícias. <em>Publicamos conhecimento para quem toma decisões patrimoniais.</em></h2>
-            </div>
-            <div class="journal-preview-grid reveal">
-                <a href="#noticias" class="journal-preview-item"><span class="news-tag">Guia</span><h4>Documentação para comprar um imóvel usado</h4><p>O que checar antes de assinar, para evitar surpresas depois.</p></a>
-                <a href="#noticias" class="journal-preview-item"><span class="news-tag">Explicação</span><h4>O que é ágio e como funciona a revenda na planta</h4><p>Como o momento da venda muda o valor de um imóvel na planta.</p></a>
-                <a href="#noticias" class="journal-preview-item"><span class="news-tag">Precificação</span><h4>Como saber se o preço está justo</h4><p>Referências simples para avaliar uma proposta antes de decidir.</p></a>
-            </div>
-            <div style="text-align:center; margin-top:40px;">
-                <a href="#noticias" class="btn btn-line">Ver todos <i data-lucide="arrow-right" style="width:14px"></i></a>
-            </div>
-        </div>
-    </section>
-
-    <div class="wave" style="background:var(--areia-soft);">
-        <svg viewBox="0 0 1440 90" preserveAspectRatio="none"><path d="M0,32 C240,80 480,0 720,24 C960,48 1200,88 1440,40 L1440,90 L0,90 Z" fill="#2E3226"></path></svg>
-    </div>
     <section class="section-cta">
         <div class="ambient" style="width:420px; height:420px; background:var(--verde); opacity:.25; top:-120px; left:-100px;"></div>
         <div class="ambient" style="width:340px; height:340px; background:var(--prata); opacity:.12; bottom:-100px; right:-60px;"></div>
@@ -906,7 +1462,7 @@
                     <h3>Arbor Imóveis</h3>
                     <p>Atendimento consultivo para compra, venda e avaliação de imóveis em Goiânia.</p>
                     <div class="cta-actions">
-                        <a href="https://wa.me/5562982495522" target="_blank" class="btn btn-fill">Quero conversar</a>
+                        <a href="https://wa.me/5562984854468" target="_blank" class="btn btn-fill">Quero conversar</a>
                         <a href="mailto:contato@arborimoveis.com.br" class="btn btn-line on-dark">Enviar e-mail</a>
                     </div>
                 </div>
@@ -1052,24 +1608,30 @@
     <div class="jornada-block reveal">
         <div class="sub-head"><span class="eyebrow">Para quem compra</span><h3>Jornada de compra</h3></div>
         <div class="jornada-track">
-            <div class="j-step reveal"><span class="j-num">1</span><h4>Entendendo o objetivo</h4><p>Perfil, momento de vida e o que o imóvel precisa resolver.</p></div>
-            <div class="j-step reveal"><span class="j-num">2</span><h4>Curadoria</h4><p>Seleção de imóveis alinhados ao perfil e ao orçamento.</p></div>
-            <div class="j-step reveal"><span class="j-num">3</span><h4>Visitas</h4><p>Conhecendo os imóveis e comparando as opções de perto.</p></div>
-            <div class="j-step reveal"><span class="j-num">4</span><h4>Proposta</h4><p>Negociação de valor e condições com o vendedor.</p></div>
-            <div class="j-step reveal"><span class="j-num">5</span><h4>Documentação</h4><p>Checagem jurídica e due diligence do imóvel.</p></div>
-            <div class="j-step reveal"><span class="j-num">6</span><h4>Chaves</h4><p>Assinatura de contrato e entrega das chaves.</p></div>
+            <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 1: Entendendo o objetivo">1</button><h4>Entendendo o objetivo</h4><p>Perfil, momento de vida e o que o imóvel precisa resolver.</p></div>
+            <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 2: Curadoria">2</button><h4>Curadoria</h4><p>Seleção de imóveis alinhados ao perfil e ao orçamento.</p></div>
+            <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 3: Visitas">3</button><h4>Visitas</h4><p>Conhecendo os imóveis e comparando as opções de perto.</p></div>
+            <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 4: Proposta">4</button><h4>Proposta</h4><p>Negociação de valor e condições com o vendedor.</p></div>
+            <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 5: Documentação">5</button><h4>Documentação</h4><p>Checagem jurídica e análise dos documentos do imóvel.</p></div>
+            <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 6: Chaves">6</button><h4>Chaves</h4><p>Assinatura do contrato e entrega das chaves.</p></div>
+        </div>
+        <div class="jornada-detail" hidden aria-live="polite">
+            <span class="j-detail-kicker"></span><h4></h4><p></p>
         </div>
     </div>
 
     <div class="jornada-block reveal">
         <div class="sub-head"><span class="eyebrow">Para quem vende</span><h3>Jornada de venda</h3></div>
         <div class="jornada-track">
-            <div class="j-step reveal"><span class="j-num">1</span><h4>Avaliação</h4><p>Precificação com base em dados reais de mercado.</p></div>
-            <div class="j-step reveal"><span class="j-num">2</span><h4>Preparação</h4><p>Fotos, apresentação e posicionamento do imóvel.</p></div>
-            <div class="j-step reveal"><span class="j-num">3</span><h4>Divulgação</h4><p>Anúncio, rede de parceiros e agendamento de visitas.</p></div>
-            <div class="j-step reveal"><span class="j-num">4</span><h4>Negociação</h4><p>Análise de propostas e condução até o acordo.</p></div>
-            <div class="j-step reveal"><span class="j-num">5</span><h4>Contrato</h4><p>Documentação e formalização da venda.</p></div>
-            <div class="j-step reveal"><span class="j-num">6</span><h4>Entrega</h4><p>Registro, repasse de valores e entrega das chaves.</p></div>
+            <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 1: Avaliação">1</button><h4>Avaliação</h4><p>Precificação fundamentada em dados reais, imóveis comparáveis e condições atuais de mercado.</p></div>
+            <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 2: Preparação">2</button><h4>Preparação</h4><p>Organização do imóvel, produção das fotos e construção de uma apresentação coerente com o posicionamento da propriedade.</p></div>
+            <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 3: Divulgação">3</button><h4>Divulgação</h4><p>Publicação nos canais adequados, ativação da rede de parceiros e organização dos agendamentos de visita.</p></div>
+            <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 4: Negociação">4</button><h4>Negociação</h4><p>Análise das propostas, alinhamento de valores e condições e condução das partes até um acordo seguro.</p></div>
+            <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 5: Contrato">5</button><h4>Contrato</h4><p>Conferência da documentação e formalização das condições definidas na negociação.</p></div>
+            <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 6: Entrega">6</button><h4>Entrega</h4><p>Acompanhamento do registro, repasse dos valores e entrega formal das chaves ao comprador.</p></div>
+        </div>
+        <div class="jornada-detail" hidden aria-live="polite">
+            <span class="j-detail-kicker"></span><h4></h4><p></p>
         </div>
     </div>
 
@@ -1145,7 +1707,7 @@
         <a href="#imoveis">Imóveis</a>
         <a href="#essencia">Sobre</a>
         <a href="https://instagram.com/arborimoveis" target="_blank">Instagram</a>
-        <a href="https://wa.me/5562982495522" target="_blank">WhatsApp</a>
+        <a href="https://wa.me/5562984854468" target="_blank">WhatsApp</a>
     </div>
     <a class="foot-email" href="mailto:contato@arborimoveis.com.br"><i data-lucide="mail" style="width:15px"></i> contato@arborimoveis.com.br</a>
     <div class="copy">© 2026 · Arbor Imóveis · Goiânia, Goiás</div>
@@ -1265,7 +1827,7 @@ const getCardSpecs = p => {
     if (p.beds && Number(p.beds) > 0) specs.push(pluralize(p.beds, 'quarto', 'quartos'));
     if (p.suites && String(p.suites).trim() !== '' && String(p.suites) !== '0') specs.push(pluralize(p.suites, 'suíte', 'suítes'));
     if (p.garage && String(p.garage).trim() !== '' && String(p.garage) !== '0') specs.push(pluralize(p.garage, 'vaga', 'vagas'));
-    if (!specs.length && p.tipo) specs.push(p.tipo);
+    if (!specs.length && p.tipo) specs.push(formatTipoImovelBR(p.tipo));
     return specs.slice(0, 4).join(' · ');
 };
 const specBox = (icon, label, value) => `<div class="spec-box"><div class="spec-box-icon"><i data-lucide="${icon}"></i></div><div class="spec-box-text"><span>${label}</span><span>${value}</span></div></div>`;
@@ -1603,6 +2165,28 @@ const ocultarInfoUnidade = (texto) => {
     return t;
 };
 
+/* O título da ficha deve identificar o imóvel, não repetir toda a ficha técnica.
+   Dados como metragem, suítes, vagas e bairro continuam no resumo e na localização. */
+const formatDetailTitle = texto => {
+    const conectivos = new Set(['a', 'à', 'as', 'às', 'de', 'da', 'do', 'das', 'dos', 'e', 'em', 'no', 'na', 'nos', 'nas', 'para', 'com']);
+    let title = ocultarInfoUnidade(texto || 'Imóvel')
+        .split(/\s*\|\s*/)[0]
+        .replace(/\s+/g, ' ')
+        .trim();
+
+    title = title
+        .replace(/(^|\s)(?:a|à|para)\s+venda\b/gi, '$1à venda')
+        .replace(/(^|\s)para\s+aluguel\b/gi, '$1para aluguel')
+        .replace(/\b(?:[A-ZÁÀÂÃÉÈÊÍÌÎÓÒÔÕÚÙÛÇ]{2,})(?:\s+[A-ZÁÀÂÃÉÈÊÍÌÎÓÒÔÕÚÙÛÇ]{2,}){1,}\b/g, bloco =>
+            bloco.toLocaleLowerCase('pt-BR').split(/\s+/).map((palavra, index) => {
+                if (index > 0 && conectivos.has(palavra)) return palavra;
+                return palavra.charAt(0).toLocaleUpperCase('pt-BR') + palavra.slice(1);
+            }).join(' ')
+        );
+
+    return title || 'Imóvel selecionado pela Arbor';
+};
+
 const normalizeListing = item => {
     let photos = Array.isArray(item.fotos) ? item.fotos : (typeof item.fotos === 'string' ? item.fotos.split(',').map(p => p.trim()) : []);
     photos = photos.filter(p => p.startsWith('http'));
@@ -1795,7 +2379,7 @@ const finishInit = (data) => {
     const hoods = [...new Set(state.all.map(p => p.hood))].sort();
     hoods.forEach(h => { if(h) { const opt = document.createElement('option'); opt.value = h; opt.textContent = h; $('filter-hood').appendChild(opt); } });
     const tipos = [...new Set(state.all.map(p => p.tipo))].filter(Boolean).sort();
-    tipos.forEach(t => { const opt = document.createElement('option'); opt.value = t; opt.textContent = t; $('filter-tipo').appendChild(opt); });
+    tipos.forEach(t => { const opt = document.createElement('option'); opt.value = t; opt.textContent = formatTipoImovelBR(t); $('filter-tipo').appendChild(opt); });
     state.filtered = [...state.all];
     state.isLoaded = true;
     renderDestaque();
@@ -1805,6 +2389,48 @@ const finishInit = (data) => {
     handleRouting();
     setupReveal();
     setupScrollTree();
+};
+
+const setupJornadaInteractions = () => {
+    document.querySelectorAll('#jornada-view .jornada-block').forEach(block => {
+        const track = block.querySelector('.jornada-track');
+        const detail = block.querySelector('.jornada-detail');
+        if (!track || !detail) return;
+
+        const detailKicker = detail.querySelector('.j-detail-kicker');
+        const detailTitle = detail.querySelector('h4');
+        const detailText = detail.querySelector('p');
+
+        track.querySelectorAll('.j-step').forEach(step => {
+            const button = step.querySelector('.j-num');
+            const title = step.querySelector('h4');
+            const description = step.querySelector('p');
+            if (!button || !title || !description) return;
+
+            button.addEventListener('click', () => {
+                const wasActive = step.classList.contains('is-active');
+
+                track.querySelectorAll('.j-step').forEach(item => {
+                    item.classList.remove('is-active');
+                    item.querySelector('.j-num')?.setAttribute('aria-expanded', 'false');
+                });
+
+                if (wasActive) {
+                    detail.hidden = true;
+                    return;
+                }
+
+                step.classList.add('is-active');
+                button.setAttribute('aria-expanded', 'true');
+                detailKicker.textContent = `Etapa ${button.textContent.trim()}`;
+                detailTitle.textContent = title.textContent.trim();
+                detailText.textContent = description.textContent.trim();
+
+                detail.hidden = true;
+                requestAnimationFrame(() => { detail.hidden = false; });
+            });
+        });
+    });
 };
 
 const setupEventListeners = () => {
@@ -1836,6 +2462,8 @@ const setupEventListeners = () => {
     document.querySelectorAll('.bairro-btn').forEach(btn => {
         btn.addEventListener('click', () => goToHoodFilter(btn.getAttribute('data-terms') || btn.getAttribute('data-hood'), btn.getAttribute('data-label') || btn.getAttribute('data-hood') || btn.getAttribute('data-terms')));
     });
+
+    setupJornadaInteractions();
 
     window.addEventListener('hashchange', handleRouting);
     window.addEventListener('scroll', () => { $('nav').classList.toggle('scrolled', window.scrollY > 40); });
@@ -1884,24 +2512,87 @@ const applyFilters = () => {
 
 const stripAccents = str => String(str || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '');
 const normalizeCategoryText = str => stripAccents(str).toLowerCase().trim();
+const formatTipoImovelBR = tipo => {
+    const original = String(tipo || '').trim();
+    if (!original) return 'Imóvel';
+
+    const phraseMap = {
+        'residential / apartment': 'Residencial / Apartamento',
+        'residential apartment': 'Residencial / Apartamento',
+        'residential / house': 'Residencial / Casa',
+        'residential house': 'Residencial / Casa',
+        'residential / condominium': 'Residencial / Condomínio',
+        'residential / condo': 'Residencial / Condomínio',
+        'residential / penthouse': 'Residencial / Cobertura',
+        'commercial / office': 'Comercial / Escritório',
+        'commercial / store': 'Comercial / Loja',
+        'commercial / warehouse': 'Comercial / Galpão',
+        'commercial / building': 'Comercial / Prédio',
+        'land / lot': 'Terreno / Lote'
+    };
+    const normalized = normalizeCategoryText(original);
+    if (phraseMap[normalized]) return phraseMap[normalized];
+
+    const wordMap = {
+        'residential': 'Residencial',
+        'apartment': 'Apartamento',
+        'house': 'Casa',
+        'home': 'Casa',
+        'condo': 'Condomínio',
+        'condominium': 'Condomínio',
+        'penthouse': 'Cobertura',
+        'townhouse': 'Sobrado',
+        'commercial': 'Comercial',
+        'office': 'Escritório',
+        'store': 'Loja',
+        'shop': 'Loja',
+        'warehouse': 'Galpão',
+        'building': 'Prédio',
+        'land': 'Terreno',
+        'lot': 'Lote',
+        'farm': 'Fazenda',
+        'rural': 'Rural',
+        'industrial': 'Industrial',
+        'room': 'Sala',
+        'studio': 'Studio',
+        'flat': 'Flat',
+        'loft': 'Loft',
+        'duplex': 'Duplex',
+        'triplex': 'Triplex',
+        'hotel': 'Hotel'
+    };
+
+    return original.split('/').map(part => {
+        const clean = part.trim();
+        const key = normalizeCategoryText(clean);
+        return wordMap[key] || clean;
+    }).join(' / ');
+};
 const isRentalProperty = p => {
     const op = normalizeCategoryText(p.operacao);
     return !!p.isRentalPrice || /alug|loca|for rent|rent/.test(op);
 };
 const isCommercialProperty = p => {
+    /* Correções confirmadas pela Arbor. O AR-6 é residencial; a palavra "office"
+       descreve um cômodo e não transforma o imóvel em comercial. O AR-32 admite
+       uso comercial e deve permanecer na coluna de comerciais. */
+    const id = String(p.id || '').trim().toUpperCase();
+    if (id === 'AR-6') return false;
+    if (id === 'AR-32') return true;
+
     const tipo = normalizeCategoryText(p.tipo || '');
     if (/(comercial|sala comercial|loja|galpao|pavilhao|predio comercial|conjunto comercial|escritorio|office|consultorio|ponto comercial|casa comercial|terreno comercial|laje corporativa|hotel|shop)/.test(tipo)) return true;
     const title = normalizeCategoryText(p.title || '');
-    return /(sala comercial|loja|galpao|pavilhao|predio comercial|conjunto comercial|escritorio|office|consultorio|ponto comercial|casa comercial|terreno comercial|laje corporativa)/.test(title);
+    return /(sala comercial|loja|galpao|pavilhao|predio comercial|conjunto comercial|escritorio|consultorio|ponto comercial|casa comercial|terreno comercial|laje corporativa|residencial ou comercial)/.test(title);
 };
 const destaqueCategoryMeta = [
     { key: 'residencial', label: 'Residenciais', empty: 'Nenhum imóvel residencial disponível no momento.' },
     { key: 'comercial', label: 'Comerciais', empty: 'Nenhum imóvel comercial disponível no momento.' },
     { key: 'aluguel', label: 'Aluguel', empty: 'Nenhum imóvel de aluguel disponível no momento.' }
 ];
-const renderDestaqueCard = (p, variant = 'residencial') => `
-    <a href="#id=${encodeURIComponent(p.id)}" class="d-card d-card--${variant}">
-        <img src="${p.photos[0]}" loading="lazy" alt="${p.title}">
+const renderDestaqueCard = (p, variant = 'residencial', stateClass = '') => `
+    <a href="#id=${encodeURIComponent(p.id)}" class="d-card d-card--${variant} ${stateClass}">
+        <img src="${p.photos[0]}" decoding="async" alt="${p.title}">
         ${renderPhotoWatermark('small')}
         ${p.destaque ? `<span class="d-card-badge">Destaque</span>` : ''}
         <div class="d-card-overlay">
@@ -1915,8 +2606,8 @@ const renderDestaqueCard = (p, variant = 'residencial') => `
         </div>
     </a>
 `;
-const renderEmptyDestaqueCard = (message, variant = 'residencial') => `
-    <div class="d-card d-card-empty d-card--${variant}">
+const renderEmptyDestaqueCard = (message, variant = 'residencial', stateClass = '') => `
+    <div class="d-card d-card-empty d-card--${variant} ${stateClass}">
         <div class="d-card-overlay">
             <span class="d-card-hood">Arbor Imóveis</span>
             <h3 class="d-card-title">Em breve</h3>
@@ -1946,15 +2637,47 @@ const renderDestaque = () => {
 
     const offsets = window._destaqueCategoryOffsets || (window._destaqueCategoryOffsets = { residencial: 0, comercial: 0, aluguel: 0 });
 
+    const getCurrentProperty = (cat, sourceOffsets = offsets) => {
+        const pool = categoryPools[cat.key];
+        const idx = sourceOffsets[cat.key] || 0;
+        return pool.length ? pool[idx % pool.length] : null;
+    };
+
+    const imagePreloadCache = window._destaqueImagePreloadCache || (window._destaqueImagePreloadCache = new Map());
+    const preloadPropertyImage = p => {
+        if (!p || !p.photos || !p.photos[0]) return Promise.resolve(true);
+        const url = p.photos[0];
+        if (imagePreloadCache.has(url)) return imagePreloadCache.get(url);
+        const preloadPromise = new Promise(resolve => {
+        const img = new Image();
+        let finished = false;
+        const done = ok => {
+            if (finished) return;
+            finished = true;
+            resolve(ok);
+        };
+        img.decoding = 'async';
+        img.onload = () => {
+            if (typeof img.decode === 'function') img.decode().then(() => done(true)).catch(() => done(true));
+            else done(true);
+        };
+        img.onerror = () => done(false);
+        img.src = url;
+        if (img.complete && img.naturalWidth > 0) done(true);
+        });
+        imagePreloadCache.set(url, preloadPromise);
+        return preloadPromise;
+    };
+
     const renderColumns = () => {
         el.innerHTML = destaqueCategoryMeta.map(cat => {
-            const pool = categoryPools[cat.key];
-            const idx = offsets[cat.key] || 0;
-            const current = pool.length ? pool[idx % pool.length] : null;
+            const current = getCurrentProperty(cat);
             return `
                 <div class="d-column">
                     <div class="d-column-head">${cat.label}</div>
-                    ${current ? renderDestaqueCard(current, cat.key) : renderEmptyDestaqueCard(cat.empty, cat.key)}
+                    <div class="d-card-slot" data-category="${cat.key}">
+                        ${current ? renderDestaqueCard(current, cat.key) : renderEmptyDestaqueCard(cat.empty, cat.key)}
+                    </div>
                 </div>
             `;
         }).join('');
@@ -1963,13 +2686,72 @@ const renderDestaque = () => {
     renderColumns();
     clearInterval(window._destaqueRotationTimer);
     if (destaqueCategoryMeta.some(cat => categoryPools[cat.key].length > 1)) {
-        window._destaqueRotationTimer = setInterval(() => {
+        const fadeDuration = window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 10 : 900;
+        const rotationInterval = 6000;
+        let isTransitioning = false;
+
+        /* A próxima imagem começa a carregar enquanto o imóvel atual ainda está
+           em leitura. Assim, o dissolver nunca revela um cartão incompleto. */
+        destaqueCategoryMeta.forEach(cat => {
+            const pool = categoryPools[cat.key];
+            if (pool.length > 1) preloadPropertyImage(pool[((offsets[cat.key] || 0) + 1) % pool.length]);
+        });
+
+        window._destaqueRotationTimer = setInterval(async () => {
+            if (isTransitioning) return;
+            isTransitioning = true;
+
+            const nextOffsets = { ...offsets };
             destaqueCategoryMeta.forEach(cat => {
                 const pool = categoryPools[cat.key];
-                if (pool.length > 1) offsets[cat.key] = (offsets[cat.key] + 1) % pool.length;
+                if (pool.length > 1) nextOffsets[cat.key] = (nextOffsets[cat.key] + 1) % pool.length;
             });
-            renderColumns();
-        }, 5000);
+
+            try {
+                const nextItems = destaqueCategoryMeta.map(cat => getCurrentProperty(cat, nextOffsets));
+                const imageReady = await Promise.all(nextItems.map(preloadPropertyImage));
+                const transitions = [];
+
+                destaqueCategoryMeta.forEach((cat, index) => {
+                    const slot = el.querySelector(`.d-card-slot[data-category="${cat.key}"]`);
+                    if (!slot || categoryPools[cat.key].length <= 1 || !imageReady[index]) return;
+                    const next = nextItems[index];
+                    slot.insertAdjacentHTML('beforeend', next
+                        ? renderDestaqueCard(next, cat.key, 'is-entering')
+                        : renderEmptyDestaqueCard(cat.empty, cat.key, 'is-entering'));
+                    transitions.push({ cat, slot });
+                });
+
+                if (!transitions.length) return;
+
+                /* Duas renderizações garantem que o navegador registre a nova
+                   camada transparente antes de iniciar o fade-in/fade-out. */
+                await new Promise(resolve => requestAnimationFrame(() => requestAnimationFrame(() => {
+                    transitions.forEach(({ slot }) => {
+                        const cards = slot.querySelectorAll('.d-card');
+                        cards[0]?.classList.add('is-leaving');
+                        cards[cards.length - 1]?.classList.remove('is-entering');
+                    });
+                    resolve();
+                })));
+
+                await new Promise(resolve => setTimeout(resolve, fadeDuration + 60));
+                transitions.forEach(({ cat, slot }) => {
+                    const cards = slot.querySelectorAll('.d-card');
+                    if (cards.length > 1) cards[0].remove();
+                    offsets[cat.key] = nextOffsets[cat.key];
+                });
+
+                transitions.forEach(({ cat }) => {
+                    const pool = categoryPools[cat.key];
+                    preloadPropertyImage(pool[((offsets[cat.key] || 0) + 1) % pool.length]);
+                });
+            } catch (err) {
+                console.warn('[Arbor destaques] A troca foi mantida no imóvel atual:', err.message);
+            } finally {
+                isTransitioning = false;
+            }
+        }, rotationInterval);
     }
 };
 
@@ -2117,6 +2899,17 @@ const preloadPdfImage = (url) => new Promise(resolve => {
     img.src = url;
 });
 
+const preloadAllPdfImages = async urls => {
+    const loaded = [];
+    const batchSize = 4;
+    for (let i = 0; i < urls.length; i += batchSize) {
+        showPdfOverlay(`Carregando fotos ${i + 1}–${Math.min(i + batchSize, urls.length)} de ${urls.length}...`);
+        const batch = await Promise.all(urls.slice(i, i + batchSize).map(preloadPdfImage));
+        loaded.push(...batch.filter(Boolean));
+    }
+    return loaded;
+};
+
 const buildPresentationPDF = async (p) => {
     if (!p || !window.jspdf || !window.html2canvas) return;
     showPdfOverlay('Carregando fotos...');
@@ -2125,29 +2918,37 @@ const buildPresentationPDF = async (p) => {
     document.body.appendChild(root);
 
     try {
-        const photoUrls = p.photos.slice(0, 50);
-        const loadedImgs = (await Promise.all(photoUrls.map(preloadPdfImage))).filter(Boolean);
+        const photoUrls = (p.photos || []).filter(Boolean);
+        const loadedImgs = await preloadAllPdfImages(photoUrls);
         const logoSrc = document.querySelector('#logo-btn img')?.src || '';
+        const detailTitle = formatDetailTitle(p.title);
+        const enderecoLine = [p.endereco, p.hood].filter(Boolean).join(' · ');
 
         const pages = [];
+        const photoPages = [];
 
-        loadedImgs.forEach((img, idx) => {
+        const coverPage = document.createElement('div');
+        coverPage.className = 'pdf-page';
+        coverPage.innerHTML = `<div class="pdf-page-inner pdf-photo-inner">
+            ${loadedImgs[0] ? `<img class="pdf-cover-image" src="${loadedImgs[0].src}" alt="">` : ''}
+            <div class="pdf-cover-tint"></div>
+            <div class="pdf-cover-corner tl">Apresentação de imóvel</div>
+            <div class="pdf-cover-corner tr">Cód. ${p.id}</div>
+            <div class="pdf-cover-center">
+                <h1 class="pdf-cover-title">${detailTitle}</h1>
+                ${enderecoLine ? `<div class="pdf-cover-sub">${enderecoLine}</div>` : ''}
+            </div>
+            <div class="pdf-cover-bottom">ARBOR</div>
+        </div>`;
+        root.appendChild(coverPage);
+        pages.push(coverPage);
+
+        loadedImgs.forEach(img => {
             const page = document.createElement('div');
             page.className = 'pdf-page';
-            const enderecoLine = [p.endereco, p.hood].filter(Boolean).join(' · ');
-            const cover = idx === 0
-                ? `<div class="pdf-cover-tint"></div>
-                   <div class="pdf-cover-corner tl">Apresentação de imóvel</div>
-                   <div class="pdf-cover-corner tr">Cód. ${p.id}</div>
-                   <div class="pdf-cover-center">
-                       <h1 class="pdf-cover-title">${p.title}</h1>
-                       ${enderecoLine ? `<div class="pdf-cover-sub">${enderecoLine}</div>` : ''}
-                   </div>
-                   <div class="pdf-cover-bottom">ARBOR</div>`
-                : `<div class="pdf-watermark"><span>ARBOR</span></div>`;
-            page.innerHTML = `<div class="pdf-page-inner pdf-photo-inner"><img src="${img.src}">${logoSrc ? `<div class="pdf-photo-watermark"><img src="${logoSrc}" alt=""></div>` : ''}${cover}</div>`;
+            page.innerHTML = `<div class="pdf-page-inner pdf-photo-inner"><img class="pdf-photo-image" src="${img.src}" alt="${detailTitle}">${logoSrc ? `<div class="pdf-photo-watermark"><img src="${logoSrc}" alt=""></div>` : `<div class="pdf-watermark"><span>ARBOR</span></div>`}</div>`;
             root.appendChild(page);
-            pages.push(page);
+            photoPages.push(page);
         });
 
         const pdfSpec = (icon, label, value) => `<div class="pdf-spec-item"><i data-lucide="${icon}"></i><div class="pdf-spec-text"><span>${label}</span><span>${value}</span></div></div>`;
@@ -2186,8 +2987,8 @@ const buildPresentationPDF = async (p) => {
         const contentPage = document.createElement('div');
         contentPage.className = 'pdf-page';
         contentPage.innerHTML = `<div class="pdf-page-inner pdf-content-page">
-            <span class="pdf-eyebrow">Cód. ${p.id}${p.tipo ? ` &nbsp;|&nbsp; ${p.tipo}` : ''} &nbsp;|&nbsp; ${p.hood} · ${p.city}</span>
-            <h1 class="pdf-title">${p.title}</h1>
+            <span class="pdf-eyebrow">Cód. ${p.id}${p.tipo ? ` &nbsp;|&nbsp; ${formatTipoImovelBR(p.tipo)}` : ''} &nbsp;|&nbsp; ${p.hood} · ${p.city}</span>
+            <h1 class="pdf-title">${detailTitle}</h1>
             <div class="pdf-specs-grid">${specsHtml}</div>
             <div class="pdf-desc">${formatDescricao(p.desc)}</div>
             ${p.caracteristicas && p.caracteristicas.length ? `
@@ -2197,7 +2998,7 @@ const buildPresentationPDF = async (p) => {
             <div class="pdf-wave">${PDF_WAVE_SVG}</div>
         </div>`;
         root.appendChild(contentPage);
-        pages.push(contentPage);
+        pages.push(contentPage, ...photoPages);
 
         const priceLine = p.priceVenda && p.priceAluguel
             ? `Venda: ${formatBRL(p.priceVenda)} &nbsp;·&nbsp; Aluguel: ${formatBRL(p.priceAluguel)}/mês`
@@ -2243,9 +3044,10 @@ const buildPresentationPDF = async (p) => {
 
 const renderDetailContent = (p) => {
     const hasField = value => value !== undefined && value !== null && String(value).trim() !== '' && String(value).trim() !== '0';
+    const detailTitle = formatDetailTitle(p.title);
     const operacaoLabel = p.operacao || (p.priceAluguel && !p.priceVenda ? 'Aluguel' : 'Venda');
     const localizacao = [p.hood, p.city].filter(Boolean).join(' · ');
-    const chipList = [p.tipo, operacaoLabel, localizacao, (hasField(p.mobiliado) && String(p.mobiliado).toLowerCase() !== 'não') ? 'Mobiliado' : ''].filter(Boolean);
+    const chipList = [p.tipo ? formatTipoImovelBR(p.tipo) : '', operacaoLabel, (hasField(p.mobiliado) && String(p.mobiliado).toLowerCase() !== 'não') ? 'Mobiliado' : ''].filter(Boolean);
     const resumoLinha = [
         hasField(p.areaPrivativa) ? `${p.areaPrivativa} m² privativos` : '',
         !hasField(p.areaPrivativa) && hasField(p.areaTotal) ? `${p.areaTotal} m² de área total` : '',
@@ -2256,32 +3058,53 @@ const renderDetailContent = (p) => {
     const quickInfo = [
         ['Código', `Cód. ${p.id}`],
         ['Operação', operacaoLabel],
-        ['Tipo', p.tipo || 'Imóvel'],
-        ['Bairro', p.hood || 'Consulte a Arbor'],
-        ['Cidade', p.city || 'Consulte a Arbor'],
+        ['Tipo', formatTipoImovelBR(p.tipo)],
+        ['Localização', localizacao || 'Consulte a Arbor'],
         ['Endereço', p.endereco || 'Endereço sob consulta']
     ].filter(([, value]) => Boolean(value));
+    const whatsappHref = `https://wa.me/5562984854468?text=${encodeURIComponent(`Interesse no imóvel Cód. ${p.id}: ${detailTitle}`)}`;
+    const previewPhotos = (p.photos || []).slice(0, 1);
 
     $('detail-view').innerHTML = `
         <button class="back-btn" id="detail-back-btn"><i data-lucide="arrow-left" style="width:14px"></i> Voltar ao portfólio</button>
         <div class="detail-page-shell">
-            <section class="detail-intro-grid">
-                <div class="detail-media-stack">
-                    <div class="detail-hero-card">
-                        <div class="detail-hero-img" id="detail-main-img"><img src="${p.photos[0]}" alt="${p.title}">${renderPhotoWatermark('large')}</div>
+            <header class="detail-property-header">
+                <div class="detail-heading-main">
+                    <div class="detail-heading-meta">
+                        <span class="detail-heading-code">Cód. ${p.id}</span>
+                        ${chipList.map(item => `<span class="detail-chip">${item}</span>`).join('')}
                     </div>
-                    ${p.photos.length > 1 ? `
-                    <div class="detail-thumb-grid">
-                        ${p.photos.slice(1, 5).map((img, idx) => `<div class="gallery-img-container" data-index="${idx + 1}"><img src="${img}" alt="${p.title}">${renderPhotoWatermark('small')}</div>`).join('')}
-                    </div>` : ''}
+                    <h1 class="k-title">${detailTitle}</h1>
+                    ${(p.endereco || localizacao) ? `<p class="detail-address"><i data-lucide="map-pin"></i><span>${p.endereco || localizacao}</span></p>` : ''}
                 </div>
-                <aside class="detail-summary-card">
+                ${resumoLinha ? `<div class="detail-header-side"><p class="detail-resumo-linha">${resumoLinha}</p></div>` : ''}
+            </header>
+
+            <section class="detail-property-layout">
+                <div class="detail-main-flow">
+                    <div class="detail-gallery-mosaic" aria-label="Prévia das fotos do imóvel">
+                    <div class="detail-hero-card">
+                        <button type="button" class="detail-hero-img" id="detail-main-img" aria-label="Abrir galeria com ${p.photos?.length || 0} fotos">
+                            <img src="${previewPhotos[0] || ''}" alt="${detailTitle}">
+                            ${renderPhotoWatermark('large')}
+                            ${p.photos && p.photos.length ? `<span class="detail-photo-count"><i data-lucide="images"></i>Ver galeria · ${p.photos.length} foto${p.photos.length > 1 ? 's' : ''}</span>` : ''}
+                        </button>
+                    </div>
+                    </div>
+
+                    <div class="detail-section-card detail-description-card">
+                        <div class="detail-section-head">
+                            <span class="eyebrow">Descrição</span>
+                            <h2>Sobre este imóvel</h2>
+                        </div>
+                        <div class="k-desc">${formatDescricao(p.desc || 'Sem descrição detalhada no momento. Fale com a Arbor para receber mais informações sobre este imóvel.')}</div>
+                    </div>
+                </div>
+
+                <aside class="detail-side-flow">
+                <section class="detail-summary-card">
                     <div class="detail-summary-top">
-                        <span class="k-tag">Cód. ${p.id}${p.tipo ? ` &nbsp;|&nbsp; ${p.tipo}` : ''}</span>
-                        ${chipList.length ? `<div class="detail-chip-row">${chipList.map(item => `<span class="detail-chip">${item}</span>`).join('')}</div>` : ''}
-                        <h1 class="k-title">${p.title}</h1>
-                        ${p.endereco ? `<p class="detail-address">${p.endereco}</p>` : ''}
-                        ${resumoLinha ? `<p class="detail-resumo-linha">${resumoLinha}</p>` : ''}
+                        <span class="detail-specs-title">Valor do imóvel</span>
                     </div>
                     <div class="k-price-wrap">
                         ${p.priceVenda && p.priceAluguel
@@ -2305,67 +3128,53 @@ const renderDetailContent = (p) => {
                             ${(hasField(p.garantiaLocacao) && operacaoLabel !== 'Venda') ? specBox('shield-check', 'Garantia de Locação', p.garantiaLocacao) : ''}
                         </div>
                     </div>
+                    <div class="detail-primary-actions">
+                        <a href="${whatsappHref}" target="_blank" class="btn btn-fill">Falar com a Arbor <i data-lucide="message-circle" style="width:16px"></i></a>
+                        <button id="btn-print-doc" class="btn btn-line">Gerar ficha em PDF <i data-lucide="file-down" style="width:16px"></i></button>
+                        <p class="detail-primary-note">Atendimento consultivo para visita, proposta, negociação e documentação.</p>
+                    </div>
+                </section>
+
+                <section class="detail-side-panel detail-facts-panel">
+                    <span class="eyebrow">Ficha rápida</span>
+                    <h3>Informações essenciais</h3>
+                    <div class="detail-quick-list">
+                        ${quickInfo.map(([label, value]) => `<div class="detail-quick-item"><span class="detail-quick-label">${label}</span><div class="detail-quick-value">${value}</div></div>`).join('')}
+                    </div>
+                </section>
                 </aside>
             </section>
 
-            <section class="detail-content-grid">
-                <div class="detail-main-column">
-                    <div class="detail-section-card">
-                        <div class="detail-section-head">
-                            <span class="eyebrow">Descrição</span>
-                            <h2>O que este imóvel entrega</h2>
-                        </div>
-                        <div class="k-desc">${formatDescricao(p.desc || 'Sem descrição detalhada no momento. Fale com a Arbor para receber mais informações sobre este imóvel.')}</div>
-                    </div>
-                    ${p.caracteristicas && p.caracteristicas.length ? `
-                    <div class="detail-section-card caracteristicas-section">
-                        <div class="detail-section-head">
-                            <span class="eyebrow">Características</span>
-                            <h2>Diferenciais do imóvel</h2>
-                            <p class="caracteristicas-meta">${p.caracteristicas.length} característica${p.caracteristicas.length > 1 ? 's' : ''} identificada${p.caracteristicas.length > 1 ? 's' : ''}.</p>
-                        </div>
-                        <div class="caracteristicas-tags">
-                            ${p.caracteristicas.map(c => `<span class="caract-tag">${c}</span>`).join('')}
-                        </div>
-                    </div>` : ''}
-                    <div class="detail-section-card detail-gallery-section">
-                        <div class="detail-section-head">
-                            <span class="eyebrow">Galeria</span>
-                            <h2>Fotos do imóvel</h2>
-                        </div>
-                        <div class="detail-gallery">
-                            ${p.photos.slice(0, 8).map((img, i) => {
-                                const isLastVisible = i === 7 && p.photos.length > 8;
-                                return `<div class="gallery-img-container" data-index="${i}"><img src="${img}" alt="${p.title}">${renderPhotoWatermark()}${isLastVisible ? `<div class="gallery-more-overlay">+${p.photos.length - 8}<span>fotos</span></div>` : ''}</div>`;
-                            }).join('')}
-                        </div>
-                    </div>
+            ${p.caracteristicas && p.caracteristicas.length ? `
+            <section class="detail-section-card caracteristicas-section">
+                <div class="detail-section-head">
+                    <span class="eyebrow">Características</span>
+                    <h2>Diferenciais do imóvel</h2>
+                    <p class="caracteristicas-meta">${p.caracteristicas.length} característica${p.caracteristicas.length > 1 ? 's' : ''} identificada${p.caracteristicas.length > 1 ? 's' : ''}.</p>
                 </div>
-                <aside class="detail-side-column">
-                    <div class="detail-side-panel">
-                        <span class="eyebrow">Leitura rápida</span>
-                        <h3>Informações essenciais</h3>
-                        <div class="detail-quick-list">
-                            ${quickInfo.map(([label, value]) => `<div class="detail-quick-item"><span class="detail-quick-label">${label}</span><div class="detail-quick-value">${value}</div></div>`).join('')}
-                        </div>
-                    </div>
-                    <div class="detail-side-panel">
-                        <span class="eyebrow">Próximo passo</span>
-                        <h3>Se fizer sentido, a Arbor conduz o restante.</h3>
-                        <p class="detail-contact-text">Da análise inicial à negociação e à documentação, o objetivo é dar contexto, clareza e segurança para a decisão.</p>
-                        <div class="action-buttons">
-                            <a href="https://wa.me/5562982495522?text=${encodeURIComponent(`Interesse no imóvel Cód. ${p.id}: ${p.title}`)}" target="_blank" class="btn btn-fill">Falar com a Arbor <i data-lucide="message-circle" style="width:16px"></i></a>
-                            <button id="btn-print-doc" class="btn btn-line">Gerar ficha em PDF <i data-lucide="file-down" style="width:16px"></i></button>
-                        </div>
-                    </div>
-                </aside>
+                <div class="caracteristicas-tags">
+                    ${p.caracteristicas.map(c => `<span class="caract-tag">${c}</span>`).join('')}
+                </div>
+            </section>` : ''}
+
+            <section class="detail-section-card detail-gallery-section">
+                <div class="detail-section-head">
+                    <span class="eyebrow">Galeria</span>
+                    <h2>Veja o imóvel em detalhes</h2>
+                </div>
+                <div class="detail-gallery">
+                    ${(p.photos || []).slice(0, 8).map((img, i) => {
+                        const isLastVisible = i === 7 && p.photos.length > 8;
+                        return `<div class="gallery-img-container" data-index="${i}"><img src="${img}" alt="${detailTitle}">${renderPhotoWatermark()}${isLastVisible ? `<div class="gallery-more-overlay">+${p.photos.length - 8}<span>fotos</span></div>` : ''}</div>`;
+                    }).join('')}
+                </div>
             </section>
 
             ${(() => {
                 const similares = getSimilarProperties(p, 3);
                 if (!similares.length) return '';
                 return `
-                <div class="sub-sec similar-props-section" style="margin-top:8px;">
+                <div class="sub-sec similar-props-section" style="margin-top:0;">
                     <div class="sub-head"><span class="eyebrow">Você também pode gostar</span><h3>Imóveis parecidos</h3></div>
                     <div class="destaque-grid">
                         ${similares.map(s => `
@@ -2390,15 +3199,21 @@ const renderDetailContent = (p) => {
                     </div>
                 </div>`;
             })()}
+
+            <div class="mobile-detail-cta" aria-label="Ações do imóvel">
+                <a href="${whatsappHref}" target="_blank" class="btn btn-fill">Falar com a Arbor <i data-lucide="message-circle" style="width:16px"></i></a>
+                <button id="btn-print-doc-mobile" class="btn btn-line mobile-pdf-btn" aria-label="Gerar ficha em PDF"><i data-lucide="file-down" style="width:18px"></i></button>
+            </div>
             <div class="print-footer">Arbor Imóveis</div>
         </div>
     `;
 
     if (window.lucide) lucide.createIcons();
     $('detail-back-btn').addEventListener('click', (e) => { e.preventDefault(); goHome(); });
-    $('detail-main-img').addEventListener('click', () => openLightbox(0));
-    $('btn-print-doc').addEventListener('click', () => buildPresentationPDF(state.activeProp));
-    document.querySelectorAll('.gallery-img-container').forEach(el => {
+    if ($('detail-main-img')) $('detail-main-img').addEventListener('click', () => openLightbox(0));
+    if ($('btn-print-doc')) $('btn-print-doc').addEventListener('click', () => buildPresentationPDF(state.activeProp));
+    if ($('btn-print-doc-mobile')) $('btn-print-doc-mobile').addEventListener('click', () => buildPresentationPDF(state.activeProp));
+    document.querySelectorAll('#detail-view .gallery-img-container').forEach(el => {
         el.addEventListener('click', () => openLightbox(parseInt(el.getAttribute('data-index'))));
     });
 };
