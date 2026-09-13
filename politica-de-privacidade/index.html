@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de Privacidade — Arbor Imóveis</title>
+    <meta name="description" content="Política de Privacidade e Proteção de Dados da Arbor Imóveis. Conheça as diretrizes de tratamento, segurança e direitos do titular em conformidade com a LGPD.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        :root {
+            --verde: #204030;
+            --verde-deep: #12281e;
+            --areia: #BC9570;
+            --areia-soft: #FAF8F5;
+            --areia-card: #FFFFFF;
+            --onix: #18211D;
+            --grafite: #3A4540;
+            --line: rgba(32, 64, 48, 0.12);
+            --line-strong: rgba(32, 64, 48, 0.24);
+            --font-title: 'Playfair Display', Georgia, serif;
+            --font-body: 'Josefin Sans', 'Segoe UI', sans-serif;
+        }
+        body {
+            background-color: var(--areia-soft);
+            color: var(--grafite);
+            font-family: var(--font-body);
+            font-size: 16px;
+            line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+        }
+        a {
+            color: var(--verde);
+            text-decoration: none;
+            transition: color 0.2s ease, border-color 0.2s ease;
+        }
+        a:hover {
+            color: var(--areia);
+        }
+        .header {
+            background-color: var(--verde);
+            color: var(--areia-soft);
+            padding: 32px 24px;
+            border-bottom: 2px solid var(--areia);
+        }
+        .header-content {
+            max-width: 1040px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .brand {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+        .brand-title {
+            font-family: var(--font-title);
+            font-size: 24px;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            color: var(--areia-soft);
+            font-weight: 600;
+        }
+        .brand-sub {
+            font-size: 12px;
+            letter-spacing: 0.22em;
+            text-transform: uppercase;
+            color: var(--areia);
+        }
+        .header-nav a {
+            display: inline-flex;
+            align-items: center;
+            padding: 8px 18px;
+            border-radius: 999px;
+            border: 1px solid rgba(188, 149, 112, 0.4);
+            color: var(--areia-soft);
+            font-size: 13px;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+        }
+        .header-nav a:hover {
+            background-color: var(--areia);
+            color: var(--verde-deep);
+            border-color: var(--areia);
+        }
+        .legal-nav-bar {
+            background-color: #EFE9DF;
+            border-bottom: 1px solid var(--line);
+            padding: 12px 24px;
+        }
+        .legal-nav-container {
+            max-width: 1040px;
+            margin: 0 auto;
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+        .legal-nav-item {
+            padding: 8px 16px;
+            border-radius: 6px;
+            font-size: 13px;
+            font-weight: 500;
+            color: var(--grafite);
+            background: transparent;
+            border: 1px solid transparent;
+        }
+        .legal-nav-item:hover {
+            border-color: var(--line-strong);
+            color: var(--verde);
+        }
+        .legal-nav-item.active {
+            background-color: var(--verde);
+            color: var(--areia-soft);
+            border-color: var(--verde);
+            font-weight: 600;
+        }
+        .container {
+            max-width: 1040px;
+            margin: 40px auto 80px;
+            padding: 0 24px;
+        }
+        .legal-card {
+            background: var(--areia-card);
+            border: 1px solid var(--line);
+            border-radius: 12px;
+            padding: 56px 48px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
+        }
+        .doc-header {
+            margin-bottom: 40px;
+            padding-bottom: 24px;
+            border-bottom: 1px solid var(--line);
+        }
+        .doc-eyebrow {
+            font-size: 12px;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--areia);
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+        .doc-title {
+            font-family: var(--font-title);
+            font-size: 36px;
+            color: var(--verde);
+            line-height: 1.2;
+            margin-bottom: 12px;
+            font-weight: 600;
+        }
+        .doc-meta {
+            font-size: 13px;
+            color: #7A8580;
+        }
+        .section {
+            margin-bottom: 36px;
+        }
+        .section-title {
+            font-family: var(--font-title);
+            font-size: 22px;
+            color: var(--verde);
+            margin-bottom: 16px;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        .section-title::before {
+            content: '';
+            display: inline-block;
+            width: 4px;
+            height: 18px;
+            background-color: var(--areia);
+            border-radius: 2px;
+        }
+        p {
+            margin-bottom: 14px;
+            color: var(--grafite);
+        }
+        ul, ol {
+            margin: 12px 0 18px 24px;
+            color: var(--grafite);
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .highlight-box {
+            background-color: #F4EFE6;
+            border-left: 4px solid var(--verde);
+            padding: 20px 24px;
+            border-radius: 0 8px 8px 0;
+            margin: 20px 0;
+        }
+        .footer {
+            background-color: var(--verde-deep);
+            color: var(--areia-soft);
+            padding: 56px 24px 36px;
+            border-top: 3px solid var(--areia);
+            font-size: 14px;
+        }
+        .footer-container {
+            max-width: 1040px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 36px;
+            margin-bottom: 40px;
+        }
+        .footer-column h4 {
+            font-family: var(--font-title);
+            font-size: 18px;
+            color: var(--areia);
+            margin-bottom: 16px;
+            letter-spacing: 0.05em;
+        }
+        .footer-column p, .footer-column li {
+            color: #C0CCC6;
+            font-size: 13px;
+            line-height: 1.8;
+        }
+        .footer-column ul {
+            margin: 0;
+            list-style: none;
+        }
+        .footer-column a {
+            color: #E3D9C8;
+        }
+        .footer-column a:hover {
+            color: var(--areia);
+            text-decoration: underline;
+        }
+        .footer-bottom {
+            max-width: 1040px;
+            margin: 0 auto;
+            padding-top: 24px;
+            border-top: 1px solid rgba(227, 217, 200, 0.15);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 16px;
+            font-size: 12px;
+            color: #9AA8A2;
+        }
+        @media (max-width: 768px) {
+            .legal-card {
+                padding: 32px 20px;
+            }
+            .doc-title {
+                font-size: 28px;
+            }
+            .section-title {
+                font-size: 19px;
+            }
+            .header-content {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .footer-bottom {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <div class="header-content">
+            <div class="brand">
+                <a href="/" class="brand-title">Arbor Imóveis</a>
+                <span class="brand-sub">Goiânia — CRECI-GO 14.349</span>
+            </div>
+            <nav class="header-nav">
+                <a href="/">Voltar ao Início</a>
+            </nav>
+        </div>
+    </header>
+
+    <nav class="legal-nav-bar" aria-label="Navegação de Documentos Legais">
+        <div class="legal-nav-container">
+            <a href="/politica-de-privacidade/" class="legal-nav-item active">Política de Privacidade</a>
+            <a href="/termos-de-servico/" class="legal-nav-item">Termos de Serviço</a>
+            <a href="/exclusao-de-dados/" class="legal-nav-item">Instruções de Exclusão de Dados</a>
+        </div>
+    </nav>
+
+    <main class="container">
+        <article class="legal-card">
+            <header class="doc-header">
+                <div class="doc-eyebrow">Transparência e Proteção de Dados</div>
+                <h1 class="doc-title">Política de Privacidade</h1>
+                <div class="doc-meta">Última atualização: Setembro de 2026 | Em conformidade com a Lei Geral de Proteção de Dados (Lei nº 13.709/2018)</div>
+            </header>
+
+            <section class="section">
+                <h2 class="section-title">1. Identificação da Controladora</h2>
+                <p>A <strong>Arbor Imóveis</strong>, inscrita no Conselho Regional de Corretores de Imóveis sob o registro <strong>CRECI-GO nº 14.349</strong>, com sede e atuação na Comarca de Goiânia, Estado de Goiás, atua como Controladora dos dados pessoais tratados no âmbito de suas atividades imobiliárias, website institucional (<code>www.arborimoveis.com.br</code>), canais oficiais de comunicação e plataformas de gestão.</p>
+                <p>Para dúvidas, comunicações ou solicitações relativas à privacidade e proteção de dados, o titular pode entrar em contato com o nosso Encarregado pelo Tratamento de Dados Pessoais (DPO) através do e-mail oficial: <strong>contato@arborimoveis.com.br</strong>.</p>
+            </section>
+
+            <section class="section">
+                <h2 class="section-title">2. Dados Pessoais Coletados</h2>
+                <p>Coletamos e tratamos dados pessoais estritamente necessários para a prestação de serviços imobiliários consultivos, intermediação de compra, venda e locação, e atendimento a clientes e parceiros. As categorias de dados compreendem:</p>
+                <ul>
+                    <li><strong>Dados de Identificação e Contato:</strong> Nome completo, número de telefone celular / WhatsApp, endereço de e-mail e cidade de interesse, fornecidos voluntariamente através de formulários de contato, solicitações de visita ou canais de atendimento.</li>
+                    <li><strong>Dados de Proprietários e Contratantes:</strong> Documentos de identificação pessoal (CPF, RG ou CNH), estado civil, comprovante de endereço, certidão de matrícula do imóvel e autorizações de intermediação de venda, exigidos para a formalização da prestação de serviços imobiliários.</li>
+                    <li><strong>Dados de Interações e Mensagens:</strong> Histórico de conversas comerciais realizadas através do WhatsApp e e-mails de atendimento corporativo, estritamente vinculados ao interesse em imóveis e andamento de propostas.</li>
+                    <li><strong>Dados Técnicos de Navegação:</strong> Endereço IP, tipo de navegador, registros de data/hora de acesso e identificadores de sessão técnica necessários à estabilidade e segurança do website.</li>
+                </ul>
+            </section>
+
+            <section class="section">
+                <h2 class="section-title">3. Finalidades e Bases Legais do Tratamento (LGPD)</h2>
+                <p>O tratamento de dados pessoais pela Arbor Imóveis fundamenta-se nas seguintes bases legais estabelecidas no Artigo 7º da Lei Geral de Proteção de Dados (Lei nº 13.709/2018):</p>
+                <ul>
+                    <li><strong>Execução de Contrato e Procedimentos Preliminares (Art. 7º, V):</strong> Atendimento a solicitações de compradores e proprietários, agendamento de visitas a imóveis, elaboração de fichas de intermediação, cartas-proposta e minutas contratuais.</li>
+                    <li><strong>Cumprimento de Obrigação Legal ou Regulatória (Art. 7º, II):</strong> Manutenção de registros obrigatórios perante o Conselho Regional de Corretores de Imóveis (CRECI), cumprimento de normas fiscais e legislação imobiliária brasileira.</li>
+                    <li><strong>Exercício Regular de Direitos (Art. 7º, VI):</strong> Salvaguarda jurídica e comprovação documental de intermediações imobiliárias em processos judiciais, administrativos ou arbitrais.</li>
+                    <li><strong>Legítimo Interesse (Art. 7º, IX):</strong> Aperfeiçoamento do atendimento ao cliente, garantia da segurança de nossas plataformas digitais e envio de informações imobiliárias correlatas aos interesses previamente manifestados pelo titular.</li>
+                    <li><strong>Consentimento (Art. 7º, I):</strong> Coleta expressa em formulários e canais digitais quando aplicável a comunicações específicas.</li>
+                </ul>
+            </section>
+
+            <section class="section">
+                <h2 class="section-title">4. WhatsApp Business Platform e Serviços da Meta</h2>
+                <p>A Arbor Imóveis utiliza a <strong>WhatsApp Business Platform (Cloud API)</strong>, operada pela Meta Platforms, Inc., como canal oficial e homologado para a prestação de atendimento ágil aos clientes, envio de confirmações de visitas e encaminhamento de propostas solicitadas.</p>
+                <div class="highlight-box">
+                    <p><strong>Compromisso de Uso Responsável:</strong> As interações via WhatsApp ocorrem mediante iniciativa ou consentimento prévio do cliente. Os dados trafegados por meio da WhatsApp Cloud API são protegidos por criptografia e tratados exclusivamente para as finalidades do atendimento imobiliário da Arbor, não sendo comercializados ou compartilhados com terceiros para fins de publicidade não solicitada.</p>
+                </div>
+            </section>
+
+            <section class="section">
+                <h2 class="section-title">5. Prestadores de Infraestrutura e Processamento</h2>
+                <p>Para garantir a segurança, integridade e disponibilidade contínua dos serviços, a Arbor Imóveis contrata provedores de infraestrutura de tecnologia de nível corporativo:</p>
+                <ul>
+                    <li><strong>Google Cloud Platform / Firebase:</strong> Armazenamento de banco de dados em nuvem com criptografia de ponta e controle rígido de acessos.</li>
+                    <li><strong>Cloudflare:</strong> Segurança de borda, proteção contra ataques de negação de serviço e certificados SSL/TLS para tráfego criptografado.</li>
+                    <li><strong>Meta Platforms:</strong> Infraestrutura corporativa de mensageria da WhatsApp Cloud API.</li>
+                </ul>
+                <p>Todos os prestadores de serviços de infraestrutura atuam sob rígidos acordos de confidencialidade e segurança da informação, em conformidade com as diretrizes internacionais de proteção de dados e com a LGPD.</p>
+            </section>
+
+            <section class="section">
+                <h2 class="section-title">6. Compartilhamento de Dados</h2>
+                <p>O compartilhamento de dados pessoais limita-se ao estritamente necessário para o cumprimento das finalidades imobiliárias, ocorrendo exclusivamente com:</p>
+                <ul>
+                    <li>Corretores associados e credenciados da Arbor Imóveis designados para conduzir o atendimento e as visitas ao imóvel;</li>
+                    <li>Cartórios de registro de imóveis, tabelionatos de notas e instituições financeiras, mediante solicitação ou autorização expressa do titular para prosseguimento de escrituras ou financiamentos;</li>
+                    <li>Órgãos públicos, autoridades policiais ou judiciais, exclusivamente quando houver determinação legal ou regulatória formal.</li>
+                </ul>
+            </section>
+
+            <section class="section">
+                <h2 class="section-title">7. Armazenamento, Segurança e Retenção de Dados</h2>
+                <p>Adotamos medidas técnicas e organizacionais adequadas para proteger os dados pessoais contra acessos não autorizados, destruição, perda, alteração ou qualquer forma de tratamento ilícito. As medidas incluem:</p>
+                <ul>
+                    <li>Comunicação 100% criptografada via protocolo HTTPS / TLS;</li>
+                    <li>Controle estrito de privilégios de acesso baseado em funções (RBAC);</li>
+                    <li>Auditoria interna de registros de operações e segurança de servidores.</li>
+                </ul>
+                <p>Os dados são retidos pelo tempo necessário para atingir as finalidades para as quais foram coletados, durante a vigência da relação comercial ou pelos prazos prescricionais exigidos pela legislação civil, tributária e imobiliária brasileira.</p>
+            </section>
+
+            <section class="section">
+                <h2 class="section-title">8. Direitos do Titular de Dados (Art. 18 da LGPD)</h2>
+                <p>Em conformidade com o Artigo 18 da LGPD, o titular de dados pessoais possui o direito de obter da Arbor Imóveis, a qualquer momento e mediante requisição formal:</p>
+                <ol>
+                    <li>Confirmação da existência de tratamento de seus dados;</li>
+                    <li>Acesso aos dados tratados;</li>
+                    <li>Correção de dados incompletos, inexatos ou desatualizados;</li>
+                    <li>Anonimização, bloqueio ou eliminação de dados desnecessários, excessivos ou tratados em desconformidade com a lei;</li>
+                    <li>Portabilidade dos dados a outro fornecedor de serviço, mediante requisição expressa;</li>
+                    <li>Eliminação dos dados pessoais tratados com o consentimento do titular, ressalvadas as hipóteses legais de guarda;</li>
+                    <li>Informação sobre as entidades públicas e privadas com as quais a controladora realizou uso compartilhado de dados;</li>
+                    <li>Informação sobre a possibilidade de não fornecer consentimento e sobre as consequências da negativa;</li>
+                    <li>Revogação do consentimento.</li>
+                </ol>
+                <p>Para exercer qualquer um destes direitos ou solicitar a exclusão de seus dados, consulte nossas <a href="/exclusao-de-dados/">Instruções de Exclusão de Dados</a> ou envie uma solicitação para <strong>contato@arborimoveis.com.br</strong>.</p>
+            </section>
+
+            <section class="section">
+                <h2 class="section-title">9. Cookies e Tecnologias de Navegação</h2>
+                <p>Nosso website utiliza exclusivamente cookies e preferências técnicas estritamente necessárias para a operação da página (como preferências de exibição de tema e persistência de sessão). Não utilizamos cookies invasivos para rastreamento de terceiros sem a devida ciência do usuário.</p>
+            </section>
+
+            <section class="section">
+                <h2 class="section-title">10. Alterações nesta Política</h2>
+                <p>A presente Política de Privacidade poderá ser atualizada periodicamente para refletir aprimoramentos de nossos processos internos, novas funcionalidades ou atualizações legislativas. Qualquer alteração entrará em vigor na data de sua publicação nesta página.</p>
+            </section>
+
+            <section class="section">
+                <h2 class="section-title">11. Canal de Atendimento de Privacidade</h2>
+                <p>Para esclarecimentos, dúvidas ou requisições relativas a esta política, nosso canal permanente de atendimento é:</p>
+                <div class="highlight-box">
+                    <p><strong>Encarregado pelo Tratamento de Dados (DPO):</strong> Arbor Imóveis</p>
+                    <p><strong>E-mail Oficial:</strong> contato@arborimoveis.com.br</p>
+                    <p><strong>Telefone / WhatsApp Comercial:</strong> +55 (62) 98485-4468</p>
+                    <p><strong>Endereço de Atendimento:</strong> Goiânia, Goiás, Brasil</p>
+                </div>
+            </section>
+        </article>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-column">
+                <h4>Arbor Imóveis</h4>
+                <p>Intermediação imobiliária consultiva de alto padrão em Goiânia. Atendimento personalizado e inteligência de mercado.</p>
+                <p style="margin-top: 10px;">CRECI-GO nº 14.349</p>
+            </div>
+            <div class="footer-column">
+                <h4>Documentos Legais</h4>
+                <ul>
+                    <li><a href="/politica-de-privacidade/">Política de Privacidade</a></li>
+                    <li><a href="/termos-de-servico/">Termos de Serviço</a></li>
+                    <li><a href="/exclusao-de-dados/">Instruções de Exclusão de Dados</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Contato</h4>
+                <p>E-mail: <a href="mailto:contato@arborimoveis.com.br">contato@arborimoveis.com.br</a></p>
+                <p>Telefone: +55 (62) 98485-4468</p>
+                <p>Goiânia — GO, Brasil</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div>&copy; 2026 Arbor Imóveis. Todos os direitos reservados.</div>
+            <div>Site Institucional: <a href="https://www.arborimoveis.com.br">www.arborimoveis.com.br</a></div>
+        </div>
+    </footer>
+
+</body>
+</html>

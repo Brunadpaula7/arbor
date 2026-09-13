@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Termos de Serviço — Arbor Imóveis</title>
+    <meta name="description" content="Termos e Condições de Uso do website e dos serviços imobiliários da Arbor Imóveis. Conheça as regras de navegação, responsabilidades e disposições legais.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        :root {
+            --verde: #204030;
+            --verde-deep: #12281e;
+            --areia: #BC9570;
+            --areia-soft: #FAF8F5;
+            --areia-card: #FFFFFF;
+            --onix: #18211D;
+            --grafite: #3A4540;
+            --line: rgba(32, 64, 48, 0.12);
+            --line-strong: rgba(32, 64, 48, 0.24);
+            --font-title: 'Playfair Display', Georgia, serif;
+            --font-body: 'Josefin Sans', 'Segoe UI', sans-serif;
+        }
+        body {
+            background-color: var(--areia-soft);
+            color: var(--grafite);
+            font-family: var(--font-body);
+            font-size: 16px;
+            line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+        }
+        a {
+            color: var(--verde);
+            text-decoration: none;
+            transition: color 0.2s ease, border-color 0.2s ease;
+        }
+        a:hover {
+            color: var(--areia);
+        }
+        .header {
+            background-color: var(--verde);
+            color: var(--areia-soft);
+            padding: 32px 24px;
+            border-bottom: 2px solid var(--areia);
+        }
+        .header-content {
+            max-width: 1040px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .brand {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+        .brand-title {
+            font-family: var(--font-title);
+            font-size: 24px;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            color: var(--areia-soft);
+            font-weight: 600;
+        }
+        .brand-sub {
+            font-size: 12px;
+            letter-spacing: 0.22em;
+            text-transform: uppercase;
+            color: var(--areia);
+        }
+        .header-nav a {
+            display: inline-flex;
+            align-items: center;
+            padding: 8px 18px;
+            border-radius: 999px;
+            border: 1px solid rgba(188, 149, 112, 0.4);
+            color: var(--areia-soft);
+            font-size: 13px;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+        }
+        .header-nav a:hover {
+            background-color: var(--areia);
+            color: var(--verde-deep);
+            border-color: var(--areia);
+        }
+        .legal-nav-bar {
+            background-color: #EFE9DF;
+            border-bottom: 1px solid var(--line);
+            padding: 12px 24px;
+        }
+        .legal-nav-container {
+            max-width: 1040px;
+            margin: 0 auto;
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+        .legal-nav-item {
+            padding: 8px 16px;
+            border-radius: 6px;
+            font-size: 13px;
+            font-weight: 500;
+            color: var(--grafite);
+            background: transparent;
+            border: 1px solid transparent;
+        }
+        .legal-nav-item:hover {
+            border-color: var(--line-strong);
+            color: var(--verde);
+        }
+        .legal-nav-item.active {
+            background-color: var(--verde);
+            color: var(--areia-soft);
+            border-color: var(--verde);
+            font-weight: 600;
+        }
+        .container {
+            max-width: 1040px;
+            margin: 40px auto 80px;
+            padding: 0 24px;
+        }
+        .legal-card {
+            background: var(--areia-card);
+            border: 1px solid var(--line);
+            border-radius: 12px;
+            padding: 56px 48px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
+        }
+        .doc-header {
+            margin-bottom: 40px;
+            padding-bottom: 24px;
+            border-bottom: 1px solid var(--line);
+        }
+        .doc-eyebrow {
+            font-size: 12px;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--areia);
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+        .doc-title {
+            font-family: var(--font-title);
+            font-size: 36px;
+            color: var(--verde);
+            line-height: 1.2;
+            margin-bottom: 12px;
+            font-weight: 600;
+        }
+        .doc-meta {
+            font-size: 13px;
+            color: #7A8580;
+        }
+        .section {
+            margin-bottom: 36px;
+        }
+        .section-title {
+            font-family: var(--font-title);
+            font-size: 22px;
+            color: var(--verde);
+            margin-bottom: 16px;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        .section-title::before {
+            content: '';
+            display: inline-block;
+            width: 4px;
+            height: 18px;
+            background-color: var(--areia);
+            border-radius: 2px;
+        }
+        p {
+            margin-bottom: 14px;
+            color: var(--grafite);
+        }
+        ul, ol {
+            margin: 12px 0 18px 24px;
+            color: var(--grafite);
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .highlight-box {
+            background-color: #F4EFE6;
+            border-left: 4px solid var(--verde);
+            padding: 20px 24px;
+            border-radius: 0 8px 8px 0;
+            margin: 20px 0;
+        }
+        .footer {
+            background-color: var(--verde-deep);
+            color: var(--areia-soft);
+            padding: 56px 24px 36px;
+            border-top: 3px solid var(--areia);
+            font-size: 14px;
+        }
+        .footer-container {
+            max-width: 1040px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 36px;
+            margin-bottom: 40px;
+        }
+        .footer-column h4 {
+            font-family: var(--font-title);
+            font-size: 18px;
+            color: var(--areia);
+            margin-bottom: 16px;
+            letter-spacing: 0.05em;
+        }
+        .footer-column p, .footer-column li {
+            color: #C0CCC6;
+            font-size: 13px;
+            line-height: 1.8;
+        }
+        .footer-column ul {
+            margin: 0;
+            list-style: none;
+        }
+        .footer-column a {
+            color: #E3D9C8;
+        }
+        .footer-column a:hover {
+            color: var(--areia);
+            text-decoration: underline;
+        }
+        .footer-bottom {
+            max-width: 1040px;
+            margin: 0 auto;
+            padding-top: 24px;
+            border-top: 1px solid rgba(227, 217, 200, 0.15);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 16px;
+            font-size: 12px;
+            color: #9AA8A2;
+        }
+        @media (max-width: 768px) {
+            .legal-card {
+                padding: 32px 20px;
+            }
+            .doc-title {
+                font-size: 28px;
+            }
+            .section-title {
+                font-size: 19px;
+            }
+            .header-content {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .footer-bottom {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <div class="header-content">
+            <div class="brand">
+                <a href="/" class="brand-title">Arbor Imóveis</a>
+                <span class="brand-sub">Goiânia — CRECI-GO 14.349</span>
+            </div>
+            <nav class="header-nav">
+                <a href="/">Voltar ao Início</a>
+            </nav>
+        </div>
+    </header>
+
+    <nav class="legal-nav-bar" aria-label="Navegação de Documentos Legais">
+        <div class="legal-nav-container">
+            <a href="/politica-de-privacidade/" class="legal-nav-item">Política de Privacidade</a>
+            <a href="/termos-de-servico/" class="legal-nav-item active">Termos de Serviço</a>
+            <a href="/exclusao-de-dados/" class="legal-nav-item">Instruções de Exclusão de Dados</a>
+        </div>
+    </nav>
+
+    <main class="container">
+        <article class="legal-card">
+            <header class="doc-header">
+                <div class="doc-eyebrow">Condições Gerais de Uso</div>
+                <h1 class="doc-title">Termos de Serviço</h1>
+                <div class="doc-meta">Última atualização: Setembro de 2026 | Arbor Imóveis (CRECI-GO nº 14.349)</div>
+            </header>
+
+            <section class="section">
+                <h2 class="section-title">1. Objeto e Finalidade dos Serviços</h2>
+                <p>Estes Termos de Serviço regulam o acesso e a utilização do website institucional da <strong>Arbor Imóveis</strong> (<code>www.arborimoveis.com.br</code>) e dos canais oficiais de atendimento imobiliário.</p>
+                <p>A Arbor Imóveis é uma imobiliária consultiva especializada no mercado de Goiânia e região metropolitana, atuando na intermediação de compra, venda, locação e divulgação de imóveis residenciais e comerciais, bem como no assessoramento de proprietários e compradores durante todas as fases da negociação imobiliária.</p>
+            </section>
+
+            <section class="section">
+                <h2 class="section-title">2. Condições de Acesso e Regras de Uso</h2>
+                <p>O acesso ao website é público e gratuito. Ao navegar pelas páginas ou enviar formulários de contato, o usuário concorda em utilizar a plataforma de forma ética, lícita e de acordo com estes termos.</p>
+                <p>É expressamente vedado ao usuário:</p>
+                <ul>
+                    <li>Utilizar robôs, ferramentas automatizadas de extração de dados (scraping) ou mecanismos de sobrecarga técnica que possam comprometer a estabilidade do site;</li>
+                    <li>Fornecer dados falsos, incompletos ou de terceiros sem a respectiva autorização legal;</li>
+                    <li>Utilizar as fotografias, textos descritivos ou informações de imóveis para veiculação não autorizada em outros canais ou plataformas concorrentes;</li>
+                    <li>Praticar atos que violem a legislação brasileira ou os direitos de propriedade intelectual da Arbor Imóveis.</li>
+                </ul>
+            </section>
+
+            <section class="section">
+                <h2 class="section-title">3. Caráter Informativo dos Anúncios e Valores</h2>
+                <div class="highlight-box">
+                    <p><strong>Aviso Importante sobre Preços e Disponibilidade:</strong> As informações relativas a valores de venda ou locação, metragens, taxas de condomínio, IPTU e características dos imóveis apresentadas no website possuem caráter meramente informativo e preliminar.</p>
+                </div>
+                <p>Os valores e a disponibilidade dos imóveis estão sujeitos a confirmação e alteração a qualquer momento, sem necessidade de aviso prévio, por decisão exclusiva dos proprietários ou decorrente de novas atualizações cadastrais. A confirmação das condições comerciais definitivas será formalizada mediante atendimento consultivo com um corretor credenciado e validação documental.</p>
+            </section>
+
+            <section class="section">
+                <h2 class="section-title">4. Propriedade Intelectual</h2>
+                <p>Todos os elementos constitutivos deste website — incluindo, mas não se limitando a: marca "Arbor Imóveis", identidade visual, logotipos, fotografias, vídeos, plantas, textos descritivos, layouts e códigos-fonte — são de propriedade exclusiva da Arbor Imóveis ou foram devidamente licenciados por seus respectivos autores.</p>
+                <p>É proibida a reprodução, cópia, distribuição, publicação ou qualquer forma de exploração comercial desses conteúdos sem prévia e expressa autorização por escrito da Arbor Imóveis.</p>
+            </section>
+
+            <section class="section">
+                <h2 class="section-title">5. Responsabilidades do Usuário</h2>
+                <p>O usuário é inteiramente responsável pela veracidade, precisão e autenticidade dos dados fornecidos nos formulários de solicitação de contato, agendamento de visita ou envio de propostas comerciais.</p>
+                <p>A Arbor Imóveis reserva-se o direito de recusar o atendimento ou suspender o contato em caso de identificação de informações fraudulentas, abusivas ou em desconformidade com a legislação vigente.</p>
+            </section>
+
+            <section class="section">
+                <h2 class="section-title">6. Limitações de Responsabilidade</h2>
+                <p>A Arbor Imóveis empenha seus melhores esforços para manter as informações do site sempre atualizadas e corretas. Contudo, não se responsabiliza por eventuais imprecisões decorrentes de alterações não comunicadas tempestivamente pelos proprietários dos imóveis, nem por indisponibilidades temporárias do site causadas por falhas técnicas de provedores de conexão externos.</p>
+            </section>
+
+            <section class="section">
+                <h2 class="section-title">7. Privacidade e Proteção de Dados</h2>
+                <p>A coleta e o tratamento de dados pessoais no âmbito deste website e dos canais de atendimento da Arbor Imóveis regem-se estritamente pela nossa <a href="/politica-de-privacidade/">Política de Privacidade</a>, elaborada em total conformidade com a Lei Geral de Proteção de Dados (Lei nº 13.709/2018).</p>
+            </section>
+
+            <section class="section">
+                <h2 class="section-title">8. Alterações dos Termos de Serviço</h2>
+                <p>A Arbor Imóveis reserva-se o direito de modificar ou atualizar estes Termos de Serviço a qualquer momento. As alterações entrarão em vigor imediatamente após sua veiculação neste endereço eletrônico.</p>
+            </section>
+
+            <section class="section">
+                <h2 class="section-title">9. Legislação Aplicável e Foro</h2>
+                <p>Estes Termos de Serviço são regidos e interpretados em conformidade com as leis da República Federativa do Brasil. Para dirimir quaisquer controvérsias oriundas do uso deste website ou da prestação de serviços imobiliários, fica eleito o <strong>Foro da Comarca de Goiânia, Estado de Goiás</strong>, com expressa renúncia a qualquer outro, por mais privilegiado que seja.</p>
+            </section>
+
+            <section class="section">
+                <h2 class="section-title">10. Atendimento e Informações</h2>
+                <p>Para esclarecimentos sobre estes termos ou sobre os serviços prestados, entre em contato:</p>
+                <div class="highlight-box">
+                    <p><strong>Arbor Imóveis</strong> (CRECI-GO nº 14.349)</p>
+                    <p><strong>E-mail:</strong> contato@arborimoveis.com.br</p>
+                    <p><strong>Telefone / WhatsApp:</strong> +55 (62) 98485-4468</p>
+                    <p><strong>Localização:</strong> Goiânia — GO, Brasil</p>
+                </div>
+            </section>
+        </article>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-column">
+                <h4>Arbor Imóveis</h4>
+                <p>Intermediação imobiliária consultiva de alto padrão em Goiânia. Atendimento personalizado e inteligência de mercado.</p>
+                <p style="margin-top: 10px;">CRECI-GO nº 14.349</p>
+            </div>
+            <div class="footer-column">
+                <h4>Documentos Legais</h4>
+                <ul>
+                    <li><a href="/politica-de-privacidade/">Política de Privacidade</a></li>
+                    <li><a href="/termos-de-servico/">Termos de Serviço</a></li>
+                    <li><a href="/exclusao-de-dados/">Instruções de Exclusão de Dados</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Contato</h4>
+                <p>E-mail: <a href="mailto:contato@arborimoveis.com.br">contato@arborimoveis.com.br</a></p>
+                <p>Telefone: +55 (62) 98485-4468</p>
+                <p>Goiânia — GO, Brasil</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div>&copy; 2026 Arbor Imóveis. Todos os direitos reservados.</div>
+            <div>Site Institucional: <a href="https://www.arborimoveis.com.br">www.arborimoveis.com.br</a></div>
+        </div>
+    </footer>
+
+</body>
+</html>

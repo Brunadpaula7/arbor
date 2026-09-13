@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instruções de Exclusão de Dados — Arbor Imóveis</title>
+    <meta name="description" content="Instruções oficiais de exclusão e anonimização de dados pessoais da Arbor Imóveis. Saiba como solicitar a exclusão de seus dados conforme a LGPD e a Meta Platforms.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        :root {
+            --verde: #204030;
+            --verde-deep: #12281e;
+            --areia: #BC9570;
+            --areia-soft: #FAF8F5;
+            --areia-card: #FFFFFF;
+            --onix: #18211D;
+            --grafite: #3A4540;
+            --line: rgba(32, 64, 48, 0.12);
+            --line-strong: rgba(32, 64, 48, 0.24);
+            --font-title: 'Playfair Display', Georgia, serif;
+            --font-body: 'Josefin Sans', 'Segoe UI', sans-serif;
+        }
+        body {
+            background-color: var(--areia-soft);
+            color: var(--grafite);
+            font-family: var(--font-body);
+            font-size: 16px;
+            line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+        }
+        a {
+            color: var(--verde);
+            text-decoration: none;
+            transition: color 0.2s ease, border-color 0.2s ease;
+        }
+        a:hover {
+            color: var(--areia);
+        }
+        .header {
+            background-color: var(--verde);
+            color: var(--areia-soft);
+            padding: 32px 24px;
+            border-bottom: 2px solid var(--areia);
+        }
+        .header-content {
+            max-width: 1040px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .brand {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+        .brand-title {
+            font-family: var(--font-title);
+            font-size: 24px;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            color: var(--areia-soft);
+            font-weight: 600;
+        }
+        .brand-sub {
+            font-size: 12px;
+            letter-spacing: 0.22em;
+            text-transform: uppercase;
+            color: var(--areia);
+        }
+        .header-nav a {
+            display: inline-flex;
+            align-items: center;
+            padding: 8px 18px;
+            border-radius: 999px;
+            border: 1px solid rgba(188, 149, 112, 0.4);
+            color: var(--areia-soft);
+            font-size: 13px;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+        }
+        .header-nav a:hover {
+            background-color: var(--areia);
+            color: var(--verde-deep);
+            border-color: var(--areia);
+        }
+        .legal-nav-bar {
+            background-color: #EFE9DF;
+            border-bottom: 1px solid var(--line);
+            padding: 12px 24px;
+        }
+        .legal-nav-container {
+            max-width: 1040px;
+            margin: 0 auto;
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+        .legal-nav-item {
+            padding: 8px 16px;
+            border-radius: 6px;
+            font-size: 13px;
+            font-weight: 500;
+            color: var(--grafite);
+            background: transparent;
+            border: 1px solid transparent;
+        }
+        .legal-nav-item:hover {
+            border-color: var(--line-strong);
+            color: var(--verde);
+        }
+        .legal-nav-item.active {
+            background-color: var(--verde);
+            color: var(--areia-soft);
+            border-color: var(--verde);
+            font-weight: 600;
+        }
+        .container {
+            max-width: 1040px;
+            margin: 40px auto 80px;
+            padding: 0 24px;
+        }
+        .legal-card {
+            background: var(--areia-card);
+            border: 1px solid var(--line);
+            border-radius: 12px;
+            padding: 56px 48px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
+        }
+        .doc-header {
+            margin-bottom: 40px;
+            padding-bottom: 24px;
+            border-bottom: 1px solid var(--line);
+        }
+        .doc-eyebrow {
+            font-size: 12px;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--areia);
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+        .doc-title {
+            font-family: var(--font-title);
+            font-size: 36px;
+            color: var(--verde);
+            line-height: 1.2;
+            margin-bottom: 12px;
+            font-weight: 600;
+        }
+        .doc-meta {
+            font-size: 13px;
+            color: #7A8580;
+        }
+        .section {
+            margin-bottom: 36px;
+        }
+        .section-title {
+            font-family: var(--font-title);
+            font-size: 22px;
+            color: var(--verde);
+            margin-bottom: 16px;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        .section-title::before {
+            content: '';
+            display: inline-block;
+            width: 4px;
+            height: 18px;
+            background-color: var(--areia);
+            border-radius: 2px;
+        }
+        p {
+            margin-bottom: 14px;
+            color: var(--grafite);
+        }
+        ul, ol {
+            margin: 12px 0 18px 24px;
+            color: var(--grafite);
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .step-box {
+            background-color: #F8F6F1;
+            border: 1px solid var(--line);
+            border-radius: 8px;
+            padding: 24px;
+            margin: 16px 0 24px;
+        }
+        .step-item {
+            display: flex;
+            gap: 16px;
+            margin-bottom: 16px;
+        }
+        .step-item:last-child {
+            margin-bottom: 0;
+        }
+        .step-number {
+            width: 32px;
+            height: 32px;
+            background-color: var(--verde);
+            color: var(--areia-soft);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 14px;
+            flex-shrink: 0;
+        }
+        .step-text h3 {
+            font-size: 16px;
+            color: var(--verde);
+            font-weight: 600;
+            margin-bottom: 4px;
+        }
+        .step-text p {
+            margin: 0;
+            font-size: 14px;
+        }
+        .highlight-box {
+            background-color: #F4EFE6;
+            border-left: 4px solid var(--verde);
+            padding: 20px 24px;
+            border-radius: 0 8px 8px 0;
+            margin: 20px 0;
+        }
+        .footer {
+            background-color: var(--verde-deep);
+            color: var(--areia-soft);
+            padding: 56px 24px 36px;
+            border-top: 3px solid var(--areia);
+            font-size: 14px;
+        }
+        .footer-container {
+            max-width: 1040px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 36px;
+            margin-bottom: 40px;
+        }
+        .footer-column h4 {
+            font-family: var(--font-title);
+            font-size: 18px;
+            color: var(--areia);
+            margin-bottom: 16px;
+            letter-spacing: 0.05em;
+        }
+        .footer-column p, .footer-column li {
+            color: #C0CCC6;
+            font-size: 13px;
+            line-height: 1.8;
+        }
+        .footer-column ul {
+            margin: 0;
+            list-style: none;
+        }
+        .footer-column a {
+            color: #E3D9C8;
+        }
+        .footer-column a:hover {
+            color: var(--areia);
+            text-decoration: underline;
+        }
+        .footer-bottom {
+            max-width: 1040px;
+            margin: 0 auto;
+            padding-top: 24px;
+            border-top: 1px solid rgba(227, 217, 200, 0.15);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 16px;
+            font-size: 12px;
+            color: #9AA8A2;
+        }
+        @media (max-width: 768px) {
+            .legal-card {
+                padding: 32px 20px;
+            }
+            .doc-title {
+                font-size: 28px;
+            }
+            .section-title {
+                font-size: 19px;
+            }
+            .header-content {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .footer-bottom {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <div class="header-content">
+            <div class="brand">
+                <a href="/" class="brand-title">Arbor Imóveis</a>
+                <span class="brand-sub">Goiânia — CRECI-GO 14.349</span>
+            </div>
+            <nav class="header-nav">
+                <a href="/">Voltar ao Início</a>
+            </nav>
+        </div>
+    </header>
+
+    <nav class="legal-nav-bar" aria-label="Navegação de Documentos Legais">
+        <div class="legal-nav-container">
+            <a href="/politica-de-privacidade/" class="legal-nav-item">Política de Privacidade</a>
+            <a href="/termos-de-servico/" class="legal-nav-item">Termos de Serviço</a>
+            <a href="/exclusao-de-dados/" class="legal-nav-item active">Instruções de Exclusão de Dados</a>
+        </div>
+    </nav>
+
+    <main class="container">
+        <article class="legal-card">
+            <header class="doc-header">
+                <div class="doc-eyebrow">Direitos do Titular & Meta Platforms</div>
+                <h1 class="doc-title">Instruções de Exclusão de Dados</h1>
+                <div class="doc-meta">Última atualização: Setembro de 2026 | Em conformidade com o Art. 18 da LGPD e as diretrizes da WhatsApp Cloud API</div>
+            </header>
+
+            <section class="section">
+                <h2 class="section-title">1. Compromisso com a Autonomia do Titular</h2>
+                <p>A <strong>Arbor Imóveis</strong> respeita integralmente a privacidade e os direitos de autodeterminação informativa dos seus usuários e clientes. Em cumprimento ao Artigo 18, inciso VI da Lei Geral de Proteção de Dados (Lei nº 13.709/2018) e às diretrizes de conformidade para aplicativos integrados à Meta Platforms (WhatsApp Business Platform / Cloud API), disponibilizamos este canal transparente e direto para requisição de exclusão ou anonimização de dados pessoais.</p>
+            </section>
+
+            <section class="section">
+                <h2 class="section-title">2. Como Solicitar a Exclusão de Seus Dados</h2>
+                <p>O titular de dados pessoais poderá solicitar a exclusão de suas informações através de procedimento simples:</p>
+
+                <div class="step-box">
+                    <div class="step-item">
+                        <div class="step-number">1</div>
+                        <div class="step-text">
+                            <h3>Envio do Requerimento</h3>
+                            <p>Envie um e-mail para o canal oficial de privacidade: <strong>contato@arborimoveis.com.br</strong> com o assunto: <code>Solicitação de Exclusão de Dados — LGPD / Meta</code>.</p>
+                        </div>
+                    </div>
+                    <div class="step-item">
+                        <div class="step-number">2</div>
+                        <div class="step-text">
+                            <h3>Informações de Localização do Cadastro</h3>
+                            <p>No corpo do e-mail, informe: (a) Nome completo; (b) Número de telefone / WhatsApp utilizado nas interações; (c) Endereço de e-mail cadastrado.</p>
+                        </div>
+                    </div>
+                    <div class="step-item">
+                        <div class="step-number">3</div>
+                        <div class="step-text">
+                            <h3>Validação de Identidade</h3>
+                            <p>Para proteger os seus dados contra solicitações fraudulentas, nossa equipe poderá solicitar a confirmação de titularidade através de código de validação enviado ao e-mail ou número de WhatsApp cadastrado.</p>
+                        </div>
+                    </div>
+                    <div class="step-item">
+                        <div class="step-number">4</div>
+                        <div class="step-text">
+                            <h3>Processamento e Comprovação</h3>
+                            <p>Após a confirmação da identidade, os dados serão eliminados ou anonimizados, e um comprovante formal de conclusão será enviado por e-mail ao titular.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section">
+                <h2 class="section-title">3. Escopo da Exclusão de Dados</h2>
+                <p>A solicitação de exclusão abrangerá todas as informações pessoais tratadas com base no consentimento ou legítimo interesse, incluindo:</p>
+                <ul>
+                    <li>Histórico de mensagens e conversas mantidas através do WhatsApp oficial da Arbor Imóveis;</li>
+                    <li>Registros de leads, formulários de contato e preferências imobiliárias de busca;</li>
+                    <li>Cadastros de propostas não formalizadas e agendamentos de visitas anteriores;</li>
+                    <li>Subscrições de informativos ou comunicações comerciais.</li>
+                </ul>
+            </section>
+
+            <section class="section">
+                <h2 class="section-title">4. Exceções Legais de Retenção (Art. 16 da LGPD)</h2>
+                <p>Nos termos do Artigo 16 da Lei nº 13.709/2018, alguns dados poderão ser mantidos de forma segura e com acesso restrito, exclusivamente nas seguintes hipóteses:</p>
+                <ul>
+                    <li><strong>Cumprimento de Obrigação Legal ou Regulatória:</strong> Documentação relativa a operações imobiliárias formalizadas, contratos de intermediação com honorários faturados e registros exigidos pelo CRECI e pela legislação tributária brasileira durante os prazos legais de guarda (5 anos);</li>
+                    <li><strong>Exercício Regular de Direitos:</strong> Registros essenciais para a defesa da Arbor Imóveis em eventuais disputas judiciais, administrativas ou arbitrais;</li>
+                    <li><strong>Anonimização para Fins Estatísticos:</strong> Dados técnicos desprovidos de qualquer identificador pessoal, utilizados estritamente para inteligência de mercado interno.</li>
+                </ul>
+            </section>
+
+            <section class="section">
+                <h2 class="section-title">5. Prazo de Resposta</h2>
+                <p>As solicitações de exclusão serão respondidas no prazo máximo de <strong>15 (quinze) dias úteis</strong> a contar da confirmação formal de identidade do titular, conforme prevê a regulamentação da Autoridade Nacional de Proteção de Dados (ANPD).</p>
+            </section>
+
+            <section class="section">
+                <h2 class="section-title">6. Canal Oficial para Exclusão de Dados</h2>
+                <p>Para exercer este direito ou obter mais esclarecimentos sobre a nossa governança de dados:</p>
+                <div class="highlight-box">
+                    <p><strong>Encarregado pelo Tratamento de Dados (DPO):</strong> Arbor Imóveis</p>
+                    <p><strong>E-mail Direto de Solicitação:</strong> contato@arborimoveis.com.br</p>
+                    <p><strong>Telefone / WhatsApp:</strong> +55 (62) 98485-4468</p>
+                    <p><strong>Registro Profissional:</strong> CRECI-GO nº 14.349</p>
+                    <p><strong>Comarca:</strong> Goiânia — GO, Brasil</p>
+                </div>
+            </section>
+        </article>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-column">
+                <h4>Arbor Imóveis</h4>
+                <p>Intermediação imobiliária consultiva de alto padrão em Goiânia. Atendimento personalizado e inteligência de mercado.</p>
+                <p style="margin-top: 10px;">CRECI-GO nº 14.349</p>
+            </div>
+            <div class="footer-column">
+                <h4>Documentos Legais</h4>
+                <ul>
+                    <li><a href="/politica-de-privacidade/">Política de Privacidade</a></li>
+                    <li><a href="/termos-de-servico/">Termos de Serviço</a></li>
+                    <li><a href="/exclusao-de-dados/">Instruções de Exclusão de Dados</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Contato</h4>
+                <p>E-mail: <a href="mailto:contato@arborimoveis.com.br">contato@arborimoveis.com.br</a></p>
+                <p>Telefone: +55 (62) 98485-4468</p>
+                <p>Goiânia — GO, Brasil</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div>&copy; 2026 Arbor Imóveis. Todos os direitos reservados.</div>
+            <div>Site Institucional: <a href="https://www.arborimoveis.com.br">www.arborimoveis.com.br</a></div>
+        </div>
+    </footer>
+
+</body>
+</html>
