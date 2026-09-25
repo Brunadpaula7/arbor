@@ -2263,6 +2263,50 @@ const formatDetailTitle = texto => {
     return title || 'Imóvel selecionado pela Arbor';
 };
 
+/* Nos cards, títulos longos de portal não devem repetir ficha técnica.
+   Quando houver empreendimento, ele vira o nome principal do imóvel.
+   O título comercial/descritivo continua disponível na área de descrição. */
+const getPropertyDisplayName = p => {
+    const explicit = String(p?.empreendimento || '').trim();
+    if (explicit) return formatDetailTitle(explicit);
+
+    const raw = ocultarInfoUnidade(p?.title || '').replace(/\s+/g, ' ').trim();
+    if (!raw) return 'Imóvel selecionado pela Arbor';
+
+    const parts = raw.split(/\s*\|\s*/).map(s => s.trim()).filter(Boolean);
+
+    const enterprisePattern = /^(residencial|condom[ií]nio|edif[ií]cio|residence|residences|village|villas|tower|towers|park|plaza|reserva)\b/i;
+    let enterprisePart = '';
+    for (let i = parts.length - 1; i >= 0; i--) {
+        if (enterprisePattern.test(parts[i])) {
+            enterprisePart = parts[i];
+            break;
+        }
+    }
+    if (enterprisePart) return formatDetailTitle(enterprisePart);
+
+    if (parts.length > 1) {
+        const first = formatDetailTitle(parts[0]);
+        const match = first.match(/\b(?:no|na)\s+(.+?)(?:\s+(?:à venda|a venda|para venda|para aluguel|para locação|à locação))?$/i);
+        if (match && match[1]) {
+            const candidate = match[1].trim();
+            const normCandidate = normalizeCategoryText(candidate);
+            const normHood = normalizeCategoryText(p?.hood || '');
+            const normCity = normalizeCategoryText(p?.city || '');
+            if (candidate && normCandidate !== normHood && normCandidate !== normCity) return candidate;
+        }
+    }
+
+    return formatDetailTitle(raw);
+};
+
+const getCardLocationLabel = (p, displayName = getPropertyDisplayName(p)) => {
+    const hood = String(p?.hood || '').trim();
+    const city = String(p?.city || '').trim();
+    if (hood && normalizeCategoryText(hood) === normalizeCategoryText(displayName)) return city || hood;
+    return [hood, city].filter(Boolean).join(' · ');
+};
+
 const normalizeListing = item => {
     let photos = Array.isArray(item.fotos) ? item.fotos : (typeof item.fotos === 'string' ? item.fotos.split(',').map(p => p.trim()) : []);
     photos = photos.filter(p => p.startsWith('http'));
@@ -2288,6 +2332,7 @@ const normalizeListing = item => {
             return rawOp ? escapeHTML(rawOp) : 'Venda';
         })(),
         tipo: escapeHTML(pickField(item, ['tipo', 'tipoImovel', 'tipo_imovel', 'categoria', 'category', 'type', 'propertyType', 'usageType', 'subtipo', 'sub_tipo', 'classe'])),
+        empreendimento: escapeHTML(pickField(item, ['empreendimento', 'nomeEmpreendimento', 'nome_empreendimento', 'nomeCondominio', 'condominioNome', 'edificio', 'buildingName', 'developmentName', 'development'])),
         hood: escapeHTML(item.bairro || "Goiânia"),
         city: escapeHTML(item.cidade || "Goiás"),
         endereco: escapeHTML(item.endereco || ""),
@@ -2357,6 +2402,7 @@ const parseVRSyncNodes = (listings) => listings.map(node => {
         id: top('ListingID') || top('DetailViewUrl') || Math.random().toString(36).slice(2),
         titulo: top('Title'),
         tipo: d('PropertyType') || d('Category') || d('UsageType') || '',
+        empreendimento: d('DevelopmentName') || d('BuildingName') || d('CondominiumName') || top('DevelopmentName') || top('BuildingName') || '',
         valor: valorVenda,
         valor_aluguel: valorAluguel,
         operacao: operacaoTag || (valorVenda && valorAluguel ? 'Venda e Aluguel' : valorAluguel ? 'Aluguel' : 'Venda'),
@@ -2400,6 +2446,7 @@ const parseLegacyZapNodes = (imoveis) => imoveis.map(node => {
         id: t('CodigoImovel') || Math.random().toString(36).slice(2),
         titulo,
         tipo,
+        empreendimento: t('NomeEmpreendimento') || t('Empreendimento') || t('NomeCondominio') || '',
         valor: t('PrecoVenda') || 0,
         valor_aluguel: t('PrecoLocacao') || 0,
         operacao: (t('PrecoVenda') && t('PrecoLocacao')) ? 'Venda e Aluguel' : t('PrecoLocacao') ? 'Aluguel' : 'Venda',
@@ -2671,12 +2718,12 @@ const destaqueCategoryMeta = [
 ];
 const renderDestaqueCard = (p, variant = 'residencial', stateClass = '') => `
     <a href="#id=${encodeURIComponent(p.id)}" class="d-card d-card--${variant} ${stateClass}">
-        <img src="${p.photos[0]}" decoding="async" alt="${p.title}">
+        <img src="${p.photos[0]}" decoding="async" alt="${getPropertyDisplayName(p)}">
         ${renderPhotoWatermark('small')}
         ${p.destaque ? `<span class="d-card-badge">Destaque</span>` : ''}
         <div class="d-card-overlay">
-            <span class="d-card-hood">${p.hood} · ${p.city}</span>
-            <h3 class="d-card-title">${p.title}</h3>
+            <span class="d-card-hood">${getCardLocationLabel(p)}</span>
+            <h3 class="d-card-title">${getPropertyDisplayName(p)}</h3>
             <div class="d-card-meta">
                 ${getCardCode(p) ? `<span class="d-card-code">${getCardCode(p)}</span>` : ''}
             </div>
@@ -2847,11 +2894,11 @@ const renderUltimos = () => {
         .slice(0, 6);
     el.innerHTML = items.map(p => `
         <a href="#id=${encodeURIComponent(p.id)}" class="u-card">
-            <div class="u-card-img"><img src="${p.photos[0]}" loading="lazy" alt="${p.title}">${renderPhotoWatermark('small')}</div>
+            <div class="u-card-img"><img src="${p.photos[0]}" loading="lazy" alt="${getPropertyDisplayName(p)}">${renderPhotoWatermark('small')}</div>
             <div class="u-card-body">
-                <span class="u-card-new">Novo · ${p.hood}</span>
+                <span class="u-card-new">Novo · ${getCardLocationLabel(p)}</span>
                 ${getCardCode(p) ? `<span class="u-card-code">${getCardCode(p)}</span>` : ''}
-                <h4 class="u-card-title">${p.title}</h4>
+                <h4 class="u-card-title">${getPropertyDisplayName(p)}</h4>
                 ${getCardSpecs(p) ? `<span class="u-card-specs card-spec-list">${getCardSpecs(p)}</span>` : ''}
                 <span class="u-card-price">${formatPropertyPrice(p)}</span>
             </div>
@@ -2865,14 +2912,14 @@ const renderGrid = () => {
     grid.innerHTML = state.filtered.slice(0, state.visibleCount).map(p => `
         <a href="#id=${encodeURIComponent(p.id)}" class="p-card">
             <div class="p-card-img">
-                <img src="${p.photos[0]}" loading="lazy" alt="${p.title}">
+                <img src="${p.photos[0]}" loading="lazy" alt="${getPropertyDisplayName(p)}">
                 ${renderPhotoWatermark('small')}
                 ${p.operacao && p.operacao !== 'Venda' ? `<span class="p-card-op-badge">${p.operacao}</span>` : ''}
             </div>
             <div class="p-card-body">
-                <span class="p-card-hood">${p.hood} · ${p.city}</span>
+                <span class="p-card-hood">${getCardLocationLabel(p)}</span>
                 ${getCardCode(p) ? `<span class="p-card-code">${getCardCode(p)}</span>` : ''}
-                <h3 class="p-card-title">${p.title}</h3>
+                <h3 class="p-card-title">${getPropertyDisplayName(p)}</h3>
                 ${getCardSpecs(p) ? `<div class="p-card-specs card-spec-list">${getCardSpecs(p)}</div>` : ''}
                 <div class="p-card-foot">
                     <span class="p-card-price">${formatPropertyPrice(p)}</span>
@@ -3124,6 +3171,7 @@ const buildPresentationPDF = async (p) => {
 const renderDetailContent = (p) => {
     const hasField = value => value !== undefined && value !== null && String(value).trim() !== '' && String(value).trim() !== '0';
     const detailTitle = formatDetailTitle(p.title);
+    const displayName = getPropertyDisplayName(p);
     const operacaoLabel = p.operacao || (p.priceAluguel && !p.priceVenda ? 'Aluguel' : 'Venda');
     const localizacao = [p.hood, p.city].filter(Boolean).join(' · ');
     const chipList = [p.tipo ? formatTipoImovelBR(p.tipo) : '', operacaoLabel, (hasField(p.mobiliado) && String(p.mobiliado).toLowerCase() !== 'não') ? 'Mobiliado' : ''].filter(Boolean);
@@ -3152,7 +3200,7 @@ const renderDetailContent = (p) => {
                         <span class="detail-heading-code">Cód. ${p.id}</span>
                         ${chipList.map(item => `<span class="detail-chip">${item}</span>`).join('')}
                     </div>
-                    <h1 class="k-title">${detailTitle}</h1>
+                    <h1 class="k-title">${displayName}</h1>
                     ${(p.endereco || localizacao) ? `<p class="detail-address">${arborIcon('location')}<span>${p.endereco || localizacao}</span></p>` : ''}
                 </div>
                 ${resumoLinha ? `<div class="detail-header-side"><p class="detail-resumo-linha">${resumoLinha}</p></div>` : ''}
@@ -3172,8 +3220,8 @@ const renderDetailContent = (p) => {
 
                     <div class="detail-section-card detail-description-card">
                         <div class="detail-section-head">
-                            <span class="eyebrow">Descrição</span>
-                            <h2>Sobre este imóvel</h2>
+                            <span class="eyebrow">Descrição do imóvel</span>
+                            <h2>${normalizeCategoryText(detailTitle) !== normalizeCategoryText(displayName) ? detailTitle : 'Sobre este imóvel'}</h2>
                         </div>
                         <div class="k-desc">${formatDescricao(p.desc || 'Sem descrição detalhada no momento. Fale com a Arbor para receber mais informações sobre este imóvel.')}</div>
                     </div>
@@ -3261,14 +3309,14 @@ const renderDetailContent = (p) => {
                         ${similares.map(s => `
                             <a href="#id=${encodeURIComponent(s.id)}" class="p-card">
                                 <div class="p-card-img">
-                                    <img src="${s.photos[0]}" loading="lazy" alt="${s.title}">
+                                    <img src="${s.photos[0]}" loading="lazy" alt="${getPropertyDisplayName(s)}">
                                     ${renderPhotoWatermark('small')}
                                     ${s.operacao && s.operacao !== 'Venda' ? `<span class="p-card-op-badge">${s.operacao}</span>` : ''}
                                 </div>
                                 <div class="p-card-body">
-                                    <span class="p-card-hood">${s.hood} · ${s.city}</span>
+                                    <span class="p-card-hood">${getCardLocationLabel(s)}</span>
                                     ${getCardCode(s) ? `<span class="p-card-code">${getCardCode(s)}</span>` : ''}
-                                    <h3 class="p-card-title">${s.title}</h3>
+                                    <h3 class="p-card-title">${getPropertyDisplayName(s)}</h3>
                                     ${getCardSpecs(s) ? `<div class="p-card-specs card-spec-list">${getCardSpecs(s)}</div>` : ''}
                                     <div class="p-card-foot">
                                         <span class="p-card-price">${formatPropertyPrice(s)}</span>
