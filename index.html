@@ -28,8 +28,8 @@
             --prata:       #E3D9C8;
             --line:        rgba(17,17,17,0.09);
             --line-dark:   rgba(227,217,200,0.16);
-            --font:        'TT Ramillas', Georgia, serif;
-            --font-ui:     'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+            --font:        'EngraversGothic BT Regular', 'EngraversGothic BT', 'Engravers Gothic BT', 'TT Ramillas', Georgia, serif;
+            --font-ui:     'EngraversGothic BT Regular', 'EngraversGothic BT', 'Engravers Gothic BT', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
             --ease:        cubic-bezier(.22,1,.36,1);
         }
 
@@ -77,8 +77,34 @@
         /* ---------- nav ---------- */
         #nav{ position:fixed; top:0; left:0; width:100%; z-index:1000; display:flex; align-items:center; justify-content:space-between; padding:22px 5vw; transition:background .5s var(--ease), padding .5s var(--ease), box-shadow .5s var(--ease), backdrop-filter .5s; }
         #nav.scrolled{ background:rgba(242,239,231,0.82); backdrop-filter:blur(14px); -webkit-backdrop-filter:blur(14px); padding:14px 5vw; box-shadow:0 1px 0 var(--line); }
-        .nav-logo img{ height:38px; width:auto; transition:height .5s var(--ease); }
-        #nav.scrolled .nav-logo img{ height:32px; }
+        .brand-logo{ display:block; width:auto; flex-shrink:0; color:inherit; }
+        .brand-logo use{ pointer-events:none; }
+        .nav-logo{ display:flex; align-items:center; color:var(--areia-soft); }
+        .nav-logo .brand-logo{ width:108px; height:44px; transition:width .5s var(--ease), height .5s var(--ease), color .4s var(--ease); }
+        #nav.scrolled .nav-logo{ color:var(--verde); }
+        #nav.scrolled .nav-logo .brand-logo{ width:92px; height:38px; }
+        .brand-symbol{ display:block; width:100%; height:100%; color:inherit; }
+        .arbor-attr-icon{ display:block; width:22px; height:22px; color:inherit; flex-shrink:0; }
+        .card-spec-list{ display:flex; flex-wrap:wrap; align-items:center; gap:8px 13px; }
+        .card-spec-item{ display:inline-flex; align-items:center; gap:5px; white-space:nowrap; }
+        .card-spec-item .arbor-attr-icon{ width:16px; height:16px; }
+        .d-card-specs .card-spec-item .arbor-attr-icon{ color:var(--areia); }
+        .u-card-specs .card-spec-item .arbor-attr-icon,
+        .p-card-specs .card-spec-item .arbor-attr-icon{ color:var(--verde); }
+        .detail-address .arbor-attr-icon{ width:18px; height:18px; color:var(--verde); }
+        .detail-value-heading{ display:flex; align-items:center; gap:10px; }
+        .detail-value-heading .arbor-attr-icon{ width:28px; height:28px; color:var(--areia); }
+        .spec-box .arbor-attr-icon{ width:22px; height:22px; color:var(--verde); }
+        .k-financial-item .arbor-attr-icon{ width:18px; height:18px; color:var(--verde); }
+        .footer-brand{ display:flex; justify-content:center; color:var(--areia); margin:0 auto 22px; }
+        .footer-brand .brand-logo{ width:148px; height:112px; color:inherit; }
+        .hero-brand-symbol{ width:68%; height:68%; color:var(--verde); }
+        .sobre-brand-symbol{ width:78%; height:78%; color:var(--areia-soft); position:relative; z-index:1; filter:drop-shadow(0 18px 28px rgba(0,0,0,.18)); }
+        @media (max-width:720px){
+            .nav-logo .brand-logo{ width:92px; height:38px; }
+            #nav.scrolled .nav-logo .brand-logo{ width:82px; height:34px; }
+            .footer-brand .brand-logo{ width:132px; height:100px; }
+        }
         .nav-links{ display:flex; align-items:center; gap:26px; }
         .nav-links a{ font-size:0.78rem; letter-spacing:0.06em; color:var(--onix); position:relative; padding:4px 0; }
         .nav-links a:not(.btn)::after{ content:''; position:absolute; left:0; bottom:0; width:0; height:1px; background:var(--verde); transition:width .4s var(--ease); }
@@ -172,7 +198,6 @@
             display:flex; align-items:center; justify-content:center;
             border:1px solid rgba(227,217,200,.24);
         }
-        .hero-visual .blob img{ width:60%; height:60%; object-fit:contain; }
 
         /* nav sobre o hero verde */
         #nav:not(.scrolled) .nav-links a{ color:var(--areia-soft); }
@@ -180,7 +205,6 @@
         #nav:not(.scrolled) .nav-links .btn{ color:var(--areia-soft); border-color:rgba(227,217,200,.45); }
         #nav:not(.scrolled) .nav-links .btn:hover{ background:var(--areia-soft); color:var(--verde); border-color:var(--areia-soft); }
         #nav:not(.scrolled) #burger span{ background:var(--areia-soft); }
-        #nav:not(.scrolled) .nav-logo img{ filter:brightness(0) invert(1); }
 
         /* ---------- wave dividers ---------- */
         .wave{ display:block; width:100%; line-height:0; position:relative; z-index:1; margin-top:-1px; }
@@ -278,7 +302,6 @@
         .sobre-visual .blob{ width:100%; height:100%; background:linear-gradient(135deg, #204030 0%, #1B3A2D 100%); border-radius:44% 56% 52% 48% / 38% 38% 62% 62%; display:flex; align-items:center; justify-content:center; padding:11%; box-shadow:0 28px 60px -30px rgba(17,17,17,.32); position:relative; overflow:hidden; }
         .sobre-visual .blob::before{ content:''; position:absolute; width:72%; height:72%; border-radius:50%; background:rgba(227,217,200,.08); inset:auto auto 10% 10%; filter:blur(0.2px); }
         .sobre-visual .blob::after{ content:''; position:absolute; width:54%; height:54%; border-radius:50%; background:rgba(227,217,200,.06); top:10%; right:8%; }
-        .sobre-visual .blob > .sobre-logo{ position:relative; z-index:1; width:76%; height:76%; max-width:340px; object-fit:contain; transform:none; filter:drop-shadow(0 18px 28px rgba(0,0,0,.18)); }
         .sobre-copy p{ margin-bottom:20px; max-width:560px; color:var(--grafite); }
         .sobre-copy strong{ color:var(--onix); font-weight:400; }
         .pillars{ display:flex; gap:34px; margin-top:44px; flex-wrap:wrap; }
@@ -369,7 +392,6 @@
 
         /* ---------- footer ---------- */
         footer{ background:var(--verde-deep); color:var(--areia); text-align:center; padding:0 0 48px; }
-        footer .foot-logo{ height:56px; width:auto; margin:0 auto 22px; opacity:.92; }
         footer .slogan{ font-size:1rem; letter-spacing:0.03em; margin-bottom:26px; }
         footer .foot-links{ display:flex; justify-content:center; gap:30px; margin-bottom:26px; font-size:0.78rem; }
         footer .foot-links a{ color:rgba(230,226,214,0.75); transition:color .3s; }
@@ -1243,7 +1265,7 @@
 <body>
 
 <nav id="nav">
-    <a href="#" class="nav-logo" id="logo-btn"><img src="https://i.ibb.co/gZYfdK44/marca-dagua.png" alt="Arbor Imóveis"></a>
+    <a href="#" class="nav-logo" id="logo-btn" aria-label="Arbor Imóveis"><svg class="brand-logo" viewBox="0 0 827 699" aria-hidden="true"><use href="assets/arbor-brand.svg#logo-full"></use></svg></a>
     <ul class="nav-links">
         <li><a href="#imoveis" id="nav-imoveis-btn">Imóveis</a></li>
         <li><a href="#bairros" id="nav-bairros-btn">Bairros</a></li>
@@ -1285,7 +1307,7 @@
             </div>
         </div>
         <div class="hero-visual reveal">
-            <div class="blob"><img src="https://i.ibb.co/gZYfdK44/marca-dagua.png" alt="Símbolo Arbor Imóveis"></div>
+            <div class="blob"><svg class="brand-symbol hero-brand-symbol" viewBox="0 0 542 504" aria-label="Símbolo Arbor Imóveis"><use href="assets/arbor-brand.svg#logo-symbol"></use></svg></div>
         </div>
     </section>
 
@@ -1416,7 +1438,7 @@
         <div class="wrap sobre-grid">
             <div class="sobre-visual reveal">
                 <div class="blob">
-                    <img class="sobre-logo" src="https://i.ibb.co/gZYfdK44/marca-dagua.png" alt="Logo Arbor">
+                    <svg class="brand-symbol sobre-brand-symbol" viewBox="0 0 542 504" aria-label="Símbolo Arbor Imóveis"><use href="assets/arbor-brand.svg#logo-symbol"></use></svg>
                 </div>
             </div>
             <div class="sobre-copy reveal">
@@ -1701,7 +1723,7 @@
 </section>
 
 <footer>
-    <img src="https://i.ibb.co/gZYfdK44/marca-dagua.png" alt="Arbor Imóveis" class="foot-logo">
+    <div class="footer-brand" aria-label="Arbor Imóveis"><svg class="brand-logo" viewBox="0 0 827 699" aria-hidden="true"><use href="assets/arbor-brand.svg#logo-full"></use></svg></div>
     <div class="slogan">Raízes profundas. Presença sólida.</div>
     <div class="foot-links">
         <a href="#imoveis">Imóveis</a>
@@ -1760,7 +1782,7 @@
     <button class="lb-btn" id="lb-prev"><i data-lucide="chevron-left" style="width:22px"></i></button>
     <div class="lb-media">
         <img id="lb-img" src="" alt="">
-        <span class="lb-watermark" aria-hidden="true"><img id="lb-watermark-img" src="https://i.ibb.co/gZYfdK44/marca-dagua.png" alt=""></span>
+        <span class="lb-watermark" aria-hidden="true"><img id="lb-watermark-img" src="assets/arbor-logo-full-copper.svg" alt=""></span>
     </div>
     <button class="lb-btn" id="lb-next"><i data-lucide="chevron-right" style="width:22px"></i></button>
     <div id="lb-counter"></div>
@@ -1820,17 +1842,24 @@ const getCardArea = p => {
     return area ? `${area} m²` : '';
 };
 const pluralize = (num, singular, plural) => `${num} ${Number(num) === 1 ? singular : plural}`;
+const ARBOR_ICON_VIEWS = {
+    bed:'0 0 714 337', car:'0 0 711 287', house:'0 0 592 572', value:'0 0 355 540',
+    building:'0 0 312 715', location:'0 0 384 505', sunrise:'0 0 678 502',
+    sunset:'0 0 678 502', area:'0 0 452 448'
+};
+const arborIcon = (name, className = 'arbor-attr-icon') => `<svg class="${className}" viewBox="${ARBOR_ICON_VIEWS[name] || '0 0 100 100'}" aria-hidden="true"><use href="assets/arbor-brand.svg#icon-${name}"></use></svg>`;
+const cardSpecItem = (icon, value) => `<span class="card-spec-item">${arborIcon(icon)}<span>${value}</span></span>`;
 const getCardSpecs = p => {
     const specs = [];
     const area = getCardArea(p);
-    if (area) specs.push(area);
-    if (p.beds && Number(p.beds) > 0) specs.push(pluralize(p.beds, 'quarto', 'quartos'));
-    if (p.suites && String(p.suites).trim() !== '' && String(p.suites) !== '0') specs.push(pluralize(p.suites, 'suíte', 'suítes'));
-    if (p.garage && String(p.garage).trim() !== '' && String(p.garage) !== '0') specs.push(pluralize(p.garage, 'vaga', 'vagas'));
-    if (!specs.length && p.tipo) specs.push(formatTipoImovelBR(p.tipo));
-    return specs.slice(0, 4).join(' · ');
+    if (area) specs.push(cardSpecItem('area', area));
+    if (p.beds && Number(p.beds) > 0) specs.push(cardSpecItem('bed', pluralize(p.beds, 'quarto', 'quartos')));
+    if (p.suites && String(p.suites).trim() !== '' && String(p.suites) !== '0') specs.push(cardSpecItem('bed', pluralize(p.suites, 'suíte', 'suítes')));
+    if (p.garage && String(p.garage).trim() !== '' && String(p.garage) !== '0') specs.push(cardSpecItem('car', pluralize(p.garage, 'vaga', 'vagas')));
+    if (!specs.length && p.tipo) specs.push(cardSpecItem('house', formatTipoImovelBR(p.tipo)));
+    return specs.slice(0, 4).join('');
 };
-const specBox = (icon, label, value) => `<div class="spec-box"><div class="spec-box-icon"><i data-lucide="${icon}"></i></div><div class="spec-box-text"><span>${label}</span><span>${value}</span></div></div>`;
+const specBox = (icon, label, value, brandIconName = '') => `<div class="spec-box"><div class="spec-box-icon">${brandIconName ? arborIcon(brandIconName) : `<i data-lucide="${icon}"></i>`}</div><div class="spec-box-text"><span>${label}</span><span>${value}</span></div></div>`;
 const renderAreaSpecs = p => {
     const items = [];
     const areaTotal = String(p.areaTotal || '').trim();
@@ -1838,23 +1867,23 @@ const renderAreaSpecs = p => {
     const areaPrivativa = String(p.areaPrivativa || '').trim();
     const areaGenerica = String(p.area || '').trim();
 
-    if (areaPrivativa && areaPrivativa !== '0') items.push(specBox('layout-grid', 'Área Privativa', areaPrivativa + ' m²'));
+    if (areaPrivativa && areaPrivativa !== '0') items.push(specBox('layout-grid', 'Área Privativa', areaPrivativa + ' m²', 'area'));
 
     if (areaTotal && areaTotal !== '0' && areaTerreno && areaTerreno !== '0') {
-        if (areaTotal === areaTerreno) items.push(specBox('ruler', 'Área Total/Terreno', areaTotal + ' m²'));
+        if (areaTotal === areaTerreno) items.push(specBox('ruler', 'Área Total/Terreno', areaTotal + ' m²', 'area'));
         else {
-            items.push(specBox('ruler', 'Área Total', areaTotal + ' m²'));
-            items.push(specBox('map', 'Área Terreno', areaTerreno + ' m²'));
+            items.push(specBox('ruler', 'Área Total', areaTotal + ' m²', 'area'));
+            items.push(specBox('map', 'Área Terreno', areaTerreno + ' m²', 'area'));
         }
     } else {
-        if (areaTotal && areaTotal !== '0') items.push(specBox('ruler', 'Área Total', areaTotal + ' m²'));
-        if (areaTerreno && areaTerreno !== '0') items.push(specBox('map', 'Área Terreno', areaTerreno + ' m²'));
+        if (areaTotal && areaTotal !== '0') items.push(specBox('ruler', 'Área Total', areaTotal + ' m²', 'area'));
+        if (areaTerreno && areaTerreno !== '0') items.push(specBox('map', 'Área Terreno', areaTerreno + ' m²', 'area'));
     }
 
-    if (!items.length && areaGenerica && areaGenerica !== '0') items.push(specBox('ruler', 'Área', areaGenerica + ' m²'));
+    if (!items.length && areaGenerica && areaGenerica !== '0') items.push(specBox('ruler', 'Área', areaGenerica + ' m²', 'area'));
     return items.join('');
 };
-const getWatermarkSrc = () => document.querySelector('#logo-btn img')?.src || 'https://i.ibb.co/gZYfdK44/marca-dagua.png';
+const getWatermarkSrc = () => 'assets/arbor-logo-full-copper.svg';
 const renderPhotoWatermark = (variant = '') => `<span class="photo-watermark${variant ? ` photo-watermark--${variant}` : ''}" aria-hidden="true"><img src="${getWatermarkSrc()}" alt=""></span>`;
 
 /* Dicionario de traducao EN -> PT-BR para as caracteristicas vindas do NIDOImovel */
@@ -2223,6 +2252,7 @@ const normalizeListing = item => {
         suites: escapeHTML(pickField(item, ['suites', 'suítes', 'suite', 'qtdSuites', 'qtd_suites', 'numero_suites', 'numSuites', 'suitemap'])),
         banheiros: escapeHTML(pickField(item, ['banheiros', 'bathrooms', 'banheiro', 'qtdBanheiros', 'qtd_banheiros', 'numBanheiros'])),
         garage: escapeHTML(pickField(item, ['vagas', 'garagem', 'vaga', 'garage', 'parkingSpaces', 'qtdVagas', 'qtd_vagas', 'garageSpaces'])),
+        orientacaoSolar: escapeHTML(pickField(item, ['orientacaoSolar', 'orientacao_solar', 'orientação solar', 'faceSol', 'face_sol', 'posicaoSol', 'posição solar', 'sunFace', 'solarOrientation', 'orientation'])),
         condominio: numBR(pickField(item, ['condominio', 'condomínio', 'valor_condominio', 'valorCondominio', 'taxaCondominio', 'taxa_condominio', 'propertyAdministrationFee', 'maintenanceFee', 'condoFee'])),
         iptu: numBR(pickField(item, ['iptu', 'valor_iptu', 'valorIptu', 'iptu_anual', 'iptuAnual', 'taxaIptu', 'taxa_iptu', 'iptuValor', 'yearlyTax', 'propertyTax', 'propertyTaxValue', 'annualPropertyTax', 'yearlyPropertyTax', 'yearlyTaxes', 'taxes', 'tax', 'municipalTax', 'iptuMensal', 'monthlyTax', 'monthlyPropertyTax'])),
         mobiliado: escapeHTML(pickField(item, ['mobiliado', 'furnished'])),
@@ -2292,6 +2322,7 @@ const parseVRSyncNodes = (listings) => listings.map(node => {
         suites: d('Suites') || d('SuiteCount') || d('NumberOfSuites') || '',
         banheiros: d('Bathrooms') || d('BathroomCount') || '',
         vagas: d('Garage') || d('GarageSpaces') || d('ParkingSpaces') || '',
+        orientacaoSolar: d('SunFace') || d('SolarOrientation') || d('Orientation') || '',
         mobiliado,
         condominio: d('PropertyAdministrationFee') || d('MaintenanceFee') || d('CondoFee') || '',
         iptu: d('YearlyTax') || d('IPTU') || d('PropertyTax') || d('PropertyTaxValue') || d('AnnualPropertyTax') || d('YearlyPropertyTax') || d('YearlyTaxes') || d('Taxes') || d('Tax') || d('MunicipalTax') || d('MonthlyPropertyTax') || '',
@@ -2334,6 +2365,7 @@ const parseLegacyZapNodes = (imoveis) => imoveis.map(node => {
         suites: t('QtdSuites') || t('Suites'),
         banheiros: t('QtdBanheiros') || t('Banheiros'),
         vagas: t('QtdVagas') || t('Vagas'),
+        orientacaoSolar: t('OrientacaoSolar') || t('FaceSol') || t('PosicaoSol') || t('Orientacao') || '',
         condominio: t('Condominio') || t('ValorCondominio') || '',
         iptu: t('IPTU') || t('ValorIPTU') || t('IPTUAnual') || t('ValorIptu') || t('TaxaIPTU') || t('ImpostoPredial') || '',
         mobiliado: t('Mobiliado') === '1' ? 'Sim' : 'Não',
@@ -2601,7 +2633,7 @@ const renderDestaqueCard = (p, variant = 'residencial', stateClass = '') => `
             <div class="d-card-meta">
                 ${getCardCode(p) ? `<span class="d-card-code">${getCardCode(p)}</span>` : ''}
             </div>
-            ${getCardSpecs(p) ? `<span class="d-card-specs">${getCardSpecs(p)}</span>` : ''}
+            ${getCardSpecs(p) ? `<span class="d-card-specs card-spec-list">${getCardSpecs(p)}</span>` : ''}
             <span class="d-card-price">${formatPropertyPrice(p)}</span>
         </div>
     </a>
@@ -2773,7 +2805,7 @@ const renderUltimos = () => {
                 <span class="u-card-new">Novo · ${p.hood}</span>
                 ${getCardCode(p) ? `<span class="u-card-code">${getCardCode(p)}</span>` : ''}
                 <h4 class="u-card-title">${p.title}</h4>
-                ${getCardSpecs(p) ? `<span class="u-card-specs">${getCardSpecs(p)}</span>` : ''}
+                ${getCardSpecs(p) ? `<span class="u-card-specs card-spec-list">${getCardSpecs(p)}</span>` : ''}
                 <span class="u-card-price">${formatPropertyPrice(p)}</span>
             </div>
         </a>
@@ -2794,7 +2826,7 @@ const renderGrid = () => {
                 <span class="p-card-hood">${p.hood} · ${p.city}</span>
                 ${getCardCode(p) ? `<span class="p-card-code">${getCardCode(p)}</span>` : ''}
                 <h3 class="p-card-title">${p.title}</h3>
-                ${getCardSpecs(p) ? `<div class="p-card-specs">${getCardSpecs(p)}</div>` : ''}
+                ${getCardSpecs(p) ? `<div class="p-card-specs card-spec-list">${getCardSpecs(p)}</div>` : ''}
                 <div class="p-card-foot">
                     <span class="p-card-price">${formatPropertyPrice(p)}</span>
                     <span class="p-card-arrow"><i data-lucide="arrow-up-right" style="width:15px"></i></span>
@@ -2920,7 +2952,7 @@ const buildPresentationPDF = async (p) => {
     try {
         const photoUrls = (p.photos || []).filter(Boolean);
         const loadedImgs = await preloadAllPdfImages(photoUrls);
-        const logoSrc = document.querySelector('#logo-btn img')?.src || '';
+        const logoSrc = 'assets/arbor-logo-full-copper.svg';
         const detailTitle = formatDetailTitle(p.title);
         const enderecoLine = [p.endereco, p.hood].filter(Boolean).join(' · ');
 
@@ -3075,7 +3107,7 @@ const renderDetailContent = (p) => {
                         ${chipList.map(item => `<span class="detail-chip">${item}</span>`).join('')}
                     </div>
                     <h1 class="k-title">${detailTitle}</h1>
-                    ${(p.endereco || localizacao) ? `<p class="detail-address"><i data-lucide="map-pin"></i><span>${p.endereco || localizacao}</span></p>` : ''}
+                    ${(p.endereco || localizacao) ? `<p class="detail-address">${arborIcon('location')}<span>${p.endereco || localizacao}</span></p>` : ''}
                 </div>
                 ${resumoLinha ? `<div class="detail-header-side"><p class="detail-resumo-linha">${resumoLinha}</p></div>` : ''}
             </header>
@@ -3103,7 +3135,8 @@ const renderDetailContent = (p) => {
 
                 <aside class="detail-side-flow">
                 <section class="detail-summary-card">
-                    <div class="detail-summary-top">
+                    <div class="detail-summary-top detail-value-heading">
+                        ${arborIcon('value')}
                         <span class="detail-specs-title">Valor do imóvel</span>
                     </div>
                     <div class="k-price-wrap">
@@ -3113,17 +3146,19 @@ const renderDetailContent = (p) => {
                         }
                     </div>
                     ${(p.condominio || p.iptu) ? `<div class="k-financial-line">
-                        ${p.condominio ? `<span class="k-financial-item"><i data-lucide="building-2"></i><span><strong>Condomínio</strong> ${formatBRL(p.condominio)}/mês</span></span>` : ''}
+                        ${p.condominio ? `<span class="k-financial-item">${arborIcon('building')}<span><strong>Condomínio</strong> ${formatBRL(p.condominio)}/mês</span></span>` : ''}
                         ${p.iptu ? `<span class="k-financial-item"><i data-lucide="receipt-text"></i><span><strong>IPTU</strong> ${formatBRL(p.iptu)}/ano</span></span>` : ''}
                     </div>` : ''}
                     <div class="detail-specs-wrap">
                         <span class="detail-specs-title">Resumo do imóvel</span>
                         <div class="specs-grid">
                             ${renderAreaSpecs(p)}
-                            ${hasField(p.beds) ? specBox('bed-single', 'Quartos', p.beds) : ''}
-                            ${hasField(p.suites) ? specBox('bed-double', 'Suítes', p.suites) : ''}
+                            ${hasField(p.beds) ? specBox('bed-single', 'Quartos', p.beds, 'bed') : ''}
+                            ${hasField(p.suites) ? specBox('bed-double', 'Suítes', p.suites, 'bed') : ''}
                             ${hasField(p.banheiros) ? specBox('bath', 'Banheiros', p.banheiros) : ''}
-                            ${hasField(p.garage) ? specBox('car', 'Vagas', p.garage) : ''}
+                            ${hasField(p.garage) ? specBox('car', 'Vagas', p.garage, 'car') : ''}
+                            ${hasField(p.orientacaoSolar) && /nascente/i.test(p.orientacaoSolar) ? specBox('sunrise', 'Sol', 'Nascente', 'sunrise') : ''}
+                            ${hasField(p.orientacaoSolar) && /poente/i.test(p.orientacaoSolar) ? specBox('sunset', 'Sol', 'Poente', 'sunset') : ''}
                             ${(hasField(p.mobiliado) && String(p.mobiliado).toLowerCase() !== 'não') ? specBox('sofa', 'Mobiliado', 'Sim') : ''}
                             ${(hasField(p.garantiaLocacao) && operacaoLabel !== 'Venda') ? specBox('shield-check', 'Garantia de Locação', p.garantiaLocacao) : ''}
                         </div>
@@ -3188,7 +3223,7 @@ const renderDetailContent = (p) => {
                                     <span class="p-card-hood">${s.hood} · ${s.city}</span>
                                     ${getCardCode(s) ? `<span class="p-card-code">${getCardCode(s)}</span>` : ''}
                                     <h3 class="p-card-title">${s.title}</h3>
-                                    ${getCardSpecs(s) ? `<div class="p-card-specs">${getCardSpecs(s)}</div>` : ''}
+                                    ${getCardSpecs(s) ? `<div class="p-card-specs card-spec-list">${getCardSpecs(s)}</div>` : ''}
                                     <div class="p-card-foot">
                                         <span class="p-card-price">${formatPropertyPrice(s)}</span>
                                         <span class="p-card-arrow"><i data-lucide="arrow-up-right" style="width:15px"></i></span>
