@@ -923,12 +923,36 @@
             background:rgba(227,217,200,.24);
         }
         .detail-summary-card .spec-box-icon{
-            width:36px;
-            height:36px;
-            border-radius:10px;
+            width:46px;
+            height:46px;
+            min-width:46px;
+            border-radius:12px;
         }
-        .detail-summary-card .spec-box svg{ width:18px; height:18px; }
+        .detail-summary-card .spec-box svg{
+            width:28px;
+            height:28px;
+        }
+        .detail-summary-card .spec-box .arbor-attr-icon{
+            width:28px;
+            height:28px;
+        }
         .detail-summary-card .spec-box-text span:last-child{ font-size:.96rem; }
+        .detail-summary-card .k-financial-item--plain{
+            gap:0;
+            padding-left:14px;
+        }
+        @media (max-width:720px){
+            .detail-summary-card .spec-box-icon{
+                width:48px;
+                height:48px;
+                min-width:48px;
+            }
+            .detail-summary-card .spec-box svg,
+            .detail-summary-card .spec-box .arbor-attr-icon{
+                width:29px;
+                height:29px;
+            }
+        }
         .detail-primary-actions{
             display:grid;
             gap:10px;
@@ -3168,7 +3192,7 @@ const renderDetailContent = (p) => {
                         }
                     </div>
                     ${(p.condominio || p.iptu) ? `<div class="k-financial-line">
-                        ${p.condominio ? `<span class="k-financial-item">${arborIcon('building')}<span><strong>Condomínio</strong> ${formatBRL(p.condominio)}/mês</span></span>` : ''}
+                        ${p.condominio ? `<span class="k-financial-item k-financial-item--plain"><span><strong>Condomínio</strong> ${formatBRL(p.condominio)}/mês</span></span>` : ''}
                         ${p.iptu ? `<span class="k-financial-item"><i data-lucide="receipt-text"></i><span><strong>IPTU</strong> ${formatBRL(p.iptu)}/ano</span></span>` : ''}
                     </div>` : ''}
                     <div class="detail-specs-wrap">
