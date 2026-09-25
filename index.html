@@ -77,13 +77,16 @@
         /* ---------- nav ---------- */
         #nav{ position:fixed; top:0; left:0; width:100%; z-index:1000; display:flex; align-items:center; justify-content:space-between; padding:22px 5vw; transition:background .5s var(--ease), padding .5s var(--ease), box-shadow .5s var(--ease), backdrop-filter .5s; }
         #nav.scrolled{ background:rgba(242,239,231,0.82); backdrop-filter:blur(14px); -webkit-backdrop-filter:blur(14px); padding:14px 5vw; box-shadow:0 1px 0 var(--line); }
-        .brand-logo{ display:block; width:auto; flex-shrink:0; color:inherit; }
+        .brand-logo{ display:block; width:auto; height:auto; object-fit:contain; flex-shrink:0; color:inherit; }
         .brand-logo use{ pointer-events:none; }
         .nav-logo{ display:flex; align-items:center; color:var(--areia-soft); }
         .nav-logo .brand-logo{ width:108px; height:44px; transition:width .5s var(--ease), height .5s var(--ease), color .4s var(--ease); }
         #nav.scrolled .nav-logo{ color:var(--verde); }
         #nav.scrolled .nav-logo .brand-logo{ width:92px; height:38px; }
         .brand-symbol{ display:block; width:100%; height:100%; color:inherit; }
+        .brand-logo-image{ display:block; object-fit:contain; }
+        .hero-logo-image{ width:68%; height:68%; }
+        .sobre-logo-image{ position:relative; z-index:1; width:78%; height:78%; object-fit:contain; filter:drop-shadow(0 18px 28px rgba(0,0,0,.18)); }
         .arbor-attr-icon{ display:block; width:22px; height:22px; color:inherit; flex-shrink:0; }
         .card-spec-list{ display:flex; flex-wrap:wrap; align-items:center; gap:8px 13px; }
         .card-spec-item{ display:inline-flex; align-items:center; gap:5px; white-space:nowrap; }
@@ -98,8 +101,6 @@
         .k-financial-item .arbor-attr-icon{ width:18px; height:18px; color:var(--verde); }
         .footer-brand{ display:flex; justify-content:center; color:var(--areia); margin:0 auto 22px; }
         .footer-brand .brand-logo{ width:148px; height:112px; color:inherit; }
-        .hero-brand-symbol{ width:68%; height:68%; color:var(--verde); }
-        .sobre-brand-symbol{ width:78%; height:78%; color:var(--areia-soft); position:relative; z-index:1; filter:drop-shadow(0 18px 28px rgba(0,0,0,.18)); }
         @media (max-width:720px){
             .nav-logo .brand-logo{ width:92px; height:38px; }
             #nav.scrolled .nav-logo .brand-logo{ width:82px; height:34px; }
@@ -1265,7 +1266,7 @@
 <body>
 
 <nav id="nav">
-    <a href="#" class="nav-logo" id="logo-btn" aria-label="Arbor Imóveis"><svg class="brand-logo" viewBox="0 0 827 699" aria-hidden="true"><use href="assets/arbor-brand.svg#logo-full"></use></svg></a>
+    <a href="#" class="nav-logo" id="logo-btn" aria-label="Arbor Imóveis"><img class="brand-logo" src="https://i.ibb.co/q3VrngL8/LOGO-ARBOR-13.png" alt="Arbor Imóveis"></a>
     <ul class="nav-links">
         <li><a href="#imoveis" id="nav-imoveis-btn">Imóveis</a></li>
         <li><a href="#bairros" id="nav-bairros-btn">Bairros</a></li>
@@ -1307,7 +1308,7 @@
             </div>
         </div>
         <div class="hero-visual reveal">
-            <div class="blob"><svg class="brand-symbol hero-brand-symbol" viewBox="0 0 542 504" aria-label="Símbolo Arbor Imóveis"><use href="assets/arbor-brand.svg#logo-symbol"></use></svg></div>
+            <div class="blob"><img class="brand-logo-image hero-logo-image" src="https://i.ibb.co/q3VrngL8/LOGO-ARBOR-13.png" alt="Arbor Imóveis"></div>
         </div>
     </section>
 
@@ -1438,7 +1439,7 @@
         <div class="wrap sobre-grid">
             <div class="sobre-visual reveal">
                 <div class="blob">
-                    <svg class="brand-symbol sobre-brand-symbol" viewBox="0 0 542 504" aria-label="Símbolo Arbor Imóveis"><use href="assets/arbor-brand.svg#logo-symbol"></use></svg>
+                    <img class="brand-logo-image sobre-logo-image" src="https://i.ibb.co/q3VrngL8/LOGO-ARBOR-13.png" alt="Arbor Imóveis">
                 </div>
             </div>
             <div class="sobre-copy reveal">
@@ -1723,7 +1724,7 @@
 </section>
 
 <footer>
-    <div class="footer-brand" aria-label="Arbor Imóveis"><svg class="brand-logo" viewBox="0 0 827 699" aria-hidden="true"><use href="assets/arbor-brand.svg#logo-full"></use></svg></div>
+    <div class="footer-brand" aria-label="Arbor Imóveis"><img class="brand-logo" src="https://i.ibb.co/q3VrngL8/LOGO-ARBOR-13.png" alt="Arbor Imóveis"></div>
     <div class="slogan">Raízes profundas. Presença sólida.</div>
     <div class="foot-links">
         <a href="#imoveis">Imóveis</a>
@@ -1782,7 +1783,7 @@
     <button class="lb-btn" id="lb-prev"><i data-lucide="chevron-left" style="width:22px"></i></button>
     <div class="lb-media">
         <img id="lb-img" src="" alt="">
-        <span class="lb-watermark" aria-hidden="true"><img id="lb-watermark-img" src="assets/arbor-logo-full-copper.svg" alt=""></span>
+        <span class="lb-watermark" aria-hidden="true"><img id="lb-watermark-img" src="https://i.ibb.co/q3VrngL8/LOGO-ARBOR-13.png" alt=""></span>
     </div>
     <button class="lb-btn" id="lb-next"><i data-lucide="chevron-right" style="width:22px"></i></button>
     <div id="lb-counter"></div>
@@ -1883,7 +1884,7 @@ const renderAreaSpecs = p => {
     if (!items.length && areaGenerica && areaGenerica !== '0') items.push(specBox('ruler', 'Área', areaGenerica + ' m²', 'area'));
     return items.join('');
 };
-const getWatermarkSrc = () => 'assets/arbor-logo-full-copper.svg';
+const getWatermarkSrc = () => 'https://i.ibb.co/q3VrngL8/LOGO-ARBOR-13.png';
 const renderPhotoWatermark = (variant = '') => `<span class="photo-watermark${variant ? ` photo-watermark--${variant}` : ''}" aria-hidden="true"><img src="${getWatermarkSrc()}" alt=""></span>`;
 
 /* Dicionario de traducao EN -> PT-BR para as caracteristicas vindas do NIDOImovel */
@@ -2952,7 +2953,7 @@ const buildPresentationPDF = async (p) => {
     try {
         const photoUrls = (p.photos || []).filter(Boolean);
         const loadedImgs = await preloadAllPdfImages(photoUrls);
-        const logoSrc = 'assets/arbor-logo-full-copper.svg';
+        const logoSrc = 'https://i.ibb.co/q3VrngL8/LOGO-ARBOR-13.png';
         const detailTitle = formatDetailTitle(p.title);
         const enderecoLine = [p.endereco, p.hood].filter(Boolean).join(' · ');
 
