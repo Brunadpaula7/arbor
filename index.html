@@ -3114,8 +3114,7 @@ const renderDetailContent = (p) => {
         ['Código', `Cód. ${p.id}`],
         ['Operação', operacaoLabel],
         ['Tipo', formatTipoImovelBR(p.tipo)],
-        ['Localização', localizacao || 'Consulte a Arbor'],
-        ['Endereço', p.endereco || 'Endereço sob consulta']
+        ['Localização', localizacao || 'Consulte a Arbor']
     ].filter(([, value]) => Boolean(value));
     const whatsappHref = `https://wa.me/5562984854468?text=${encodeURIComponent(`Interesse no imóvel Cód. ${p.id}: ${detailTitle}`)}`;
     const previewPhotos = (p.photos || []).slice(0, 1);
