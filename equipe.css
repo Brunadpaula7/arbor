@@ -1,0 +1,37 @@
+/* Tipografia: títulos editoriais; leitura e controles em uma sans de sistema. */
+:root {
+    --font-display: 'TT Ramillas', Georgia, serif;
+    --font-text: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    --font: var(--font-display);
+    --font-ui: var(--font-text);
+}
+body { font-family: var(--font-text); }
+h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 400; }
+.hero-copy h1, .sec-head h2 { letter-spacing: -.035em; }
+.hero-body p, .sobre-copy p { line-height: 1.8; }
+.nav-links a, .mm-link, .btn, .eyebrow, input, select, button { font-family: var(--font-text); }
+.nav-links a { letter-spacing: .02em; text-transform: none; }
+.equipe-section { padding: 100px 0; background: var(--areia-soft); scroll-margin-top: 100px; }
+.equipe-section .sec-head { max-width: 760px; }
+.equipe-section .sec-head p { margin-top: 20px; line-height: 1.7; }
+.equipe-bloco { margin-top: 48px; }
+.equipe-bloco > h3 { font-size: 1.7rem; margin-bottom: 24px; }
+.equipe-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 28px; }
+.equipe-card { display: block; color: var(--onix); text-decoration: none; background: rgba(255,255,255,.35); border: 1px solid var(--line); border-radius: 4px; overflow: hidden; }
+a.equipe-card { transition: transform .2s, background .2s; }
+a.equipe-card:hover { transform: translateY(-4px); background: rgba(255,255,255,.6); }
+.equipe-card:focus-visible { outline: 3px solid var(--verde); outline-offset: 4px; }
+.equipe-retrato { position: relative; aspect-ratio: 4 / 4.2; background: var(--verde); display: grid; place-items: center; }
+.equipe-retrato > span { font: 3rem var(--font-display); color: var(--areia-soft); }
+.equipe-retrato img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center top; }
+.equipe-info { padding: 24px; }
+.equipe-info h3 { font-size: 1.5rem; margin: 0 0 8px; }
+.equipe-info p { font-size: .9rem; margin: 0 0 10px; }
+.equipe-info small { display: block; font: .78rem var(--font-text); line-height: 1.5; }
+.equipe-link { display: flex; justify-content: space-between; margin: 24px 0 8px; font: .9rem var(--font-text); color: var(--verde); }
+.equipe-carteira { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 20px; padding: 20px 24px; margin-bottom: 24px; border: 1px solid var(--line); background: var(--areia-soft); }
+.equipe-carteira strong { font-family: var(--font-display); font-weight: 400; font-size: 1.4rem; }
+.equipe-section [hidden], .equipe-carteira[hidden], [data-arbor-equipe][hidden] { display: none !important; }
+#equipe-status { line-height: 1.6; margin-top: 24px; }
+@media (max-width: 900px) { .equipe-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 600px) { .equipe-section { padding: 64px 0; } .equipe-grid { grid-template-columns: 1fr; gap: 24px; } .equipe-retrato { aspect-ratio: 4 / 3.5; } }
