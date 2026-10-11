@@ -8,14 +8,25 @@
     <link rel="canonical" href="https://www.arborimoveis.com.br/">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Arbor Imóveis · Goiânia e região">
-    <meta property="og:description" content="Seu próximo endereço. Uma escolha bem cuidada.">
+    <meta property="og:description" content="Casas contam histórias. Algumas mudam destinos.">
     <meta property="og:url" content="https://www.arborimoveis.com.br/">
     <meta property="og:locale" content="pt_BR">
-    <link rel="icon" type="image/svg+xml" href="assets/arbor-logo-full-copper.svg?v=original-20261011">
-    <link rel="shortcut icon" type="image/svg+xml" href="assets/arbor-logo-full-copper.svg?v=original-20261011">
-    <link rel="apple-touch-icon" href="assets/arbor-logo-full-copper.svg?v=original-20261011">
+    <meta property="og:site_name" content="Arbor Imóveis">
+    <meta property="og:image" content="https://www.arborimoveis.com.br/assets/og-arbor.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Arbor Imóveis: Uma só raiz. Um só propósito.">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Arbor Imóveis · Goiânia e região">
+    <meta name="twitter:description" content="Casas contam histórias. Algumas mudam destinos.">
+    <meta name="twitter:image" content="https://www.arborimoveis.com.br/assets/og-arbor.jpg">
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"RealEstateAgent","name":"Arbor Imóveis","url":"https://www.arborimoveis.com.br/","logo":"https://www.arborimoveis.com.br/assets/arbor-logo-lema-verde.png","image":"https://www.arborimoveis.com.br/assets/og-arbor.jpg","telephone":"+55 62 98485-4468","email":"contato@arborimoveis.com.br","address":{"@type":"PostalAddress","addressLocality":"Goiânia","addressRegion":"GO","addressCountry":"BR"},"areaServed":"Goiânia e região","sameAs":["https://instagram.com/arborimoveis"]}</script>
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/favicon-192.png">
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+    <meta name="theme-color" content="#204030">
 
-    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="vendor/lucide-1.55.0.min.js"></script>
 
     <style>
 
@@ -1698,11 +1709,10 @@
         /* ===== /ARBOR TYPOGRAPHY SYSTEM 2026 ===== */
 
     </style>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script defer src="vendor/jspdf-2.5.1.umd.min.js"></script>
+    <script defer src="vendor/html2canvas-1.4.1.min.js"></script>
     <link rel="preload" href="assets/jost-latin.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="stylesheet" href="equipe.css?v=contatos-20261011">
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="site.css">
     <link rel="stylesheet" href="watercolor.css">
 </head>
@@ -1732,7 +1742,7 @@
     <a href="#noticias" class="mm-link">Journal</a>
     <a href="#essencia" class="mm-link">Sobre</a>
     <a href="#equipe" class="mm-link" data-arbor-equipe hidden>Equipe</a>
-    <a href="https://wa.me/5562984854468" target="_blank" class="btn btn-fill">Falar com a Arbor</a>
+    <a href="https://wa.me/5562984854468" target="_blank" rel="noopener noreferrer" class="btn btn-fill">Falar com a Arbor</a>
 </div>
 
 <main id="list-view">
@@ -1740,7 +1750,7 @@
     <section class="hero" id="home">
         <div class="hero-copy reveal">
             <span class="hero-eyebrow">Arbor Imóveis</span>
-            <h1>Seu próximo endereço.<br><em>Uma escolha bem cuidada.</em></h1>
+            <h1>Casas contam histórias.<br><em>Algumas mudam destinos.</em></h1>
             <p class="hero-intro">Tudo começa com uma sensação.</p>
             <div class="hero-body"><p>Imóveis em Goiânia e região, com atenção à localização, à sua rotina e ao que você quer construir.</p><p>A Arbor acompanha você da primeira conversa à negociação.</p></div>
             <div class="hero-actions">
@@ -1752,8 +1762,6 @@
             <a id="hero-property" class="hero-property is-brand" href="#imoveis" aria-label="Explorar os imóveis da Arbor"><img id="hero-property-img" src="assets/arbor-logo-lema-verde.png" alt="Arbor Imóveis" fetchpriority="high"><span id="hero-property-caption" class="hero-caption"></span></a>
         </div>
     </section>
-
-    <section class="manifesto" aria-label="Manifesto"><p>Casas contam histórias.<span>Algumas mudam destinos.</span></p></section>
 
     <div class="wave" style="background:var(--areia);">
         <svg viewBox="0 0 1440 90" preserveAspectRatio="none"><path d="M0,32 C240,80 480,0 720,24 C960,48 1200,88 1440,40 L1440,90 L0,90 Z" fill="#2E3226"></path></svg>
@@ -1945,7 +1953,7 @@
                     <h3>Arbor Imóveis</h3>
                     <p>Atendimento consultivo para compra, venda e avaliação de imóveis em Goiânia.</p>
                     <div class="cta-actions">
-                        <a href="https://wa.me/5562984854468" target="_blank" class="btn btn-fill">Quero conversar</a>
+                        <a href="https://wa.me/5562984854468" target="_blank" rel="noopener noreferrer" class="btn btn-fill">Quero conversar</a>
                         <a href="mailto:contato@arborimoveis.com.br" class="btn btn-line on-dark">Enviar e-mail</a>
                     </div>
                 </div>
@@ -2198,17 +2206,16 @@
 
 <footer>
     <div class="footer-brand" aria-label="Arbor Imóveis"><img class="brand-logo" src="assets/arbor-logo-lema-creme.png" alt="Arbor Imóveis"></div>
-    <div class="slogan">Raízes profundas. Presença sólida.</div>
     <div class="foot-links">
         <a href="#imoveis">Imóveis</a>
         <a href="#essencia">Sobre</a>
         <a href="/politica-de-privacidade/">Privacidade</a>
         <a href="/termos-de-servico/">Termos</a>
-        <a href="https://instagram.com/arborimoveis" target="_blank">Instagram</a>
-        <a href="https://wa.me/5562984854468" target="_blank">WhatsApp</a>
+        <a href="https://instagram.com/arborimoveis" target="_blank" rel="noopener noreferrer">Instagram</a>
+        <a href="https://wa.me/5562984854468" target="_blank" rel="noopener noreferrer">WhatsApp</a>
     </div>
     <a class="foot-email" href="mailto:contato@arborimoveis.com.br"><i data-lucide="mail" style="width:15px"></i> contato@arborimoveis.com.br</a>
-    <div class="copy">© 2026 · Arbor Imóveis · Goiânia, Goiás</div>
+    <div class="copy">© 2026 · Arbor Imóveis<br>CRECI-GO 14.349 · Goiânia, Goiás</div>
 </footer>
 
 <button id="scroll-tree" type="button" aria-label="Entenda a identidade Arbor" aria-expanded="false" aria-controls="arbor-tree-panel">
@@ -2253,14 +2260,14 @@
     <div class="arbor-tree-signature">Arbor Imóveis · decisões bem conduzidas</div>
 </aside>
 
-<div id="lightbox">
-    <button class="lb-btn" id="lb-close"><i data-lucide="x" style="width:20px"></i></button>
-    <button class="lb-btn" id="lb-prev"><i data-lucide="chevron-left" style="width:22px"></i></button>
+<div id="lightbox" role="dialog" aria-modal="true" aria-label="Galeria de fotos do imóvel">
+    <button class="lb-btn" id="lb-close" type="button" aria-label="Fechar galeria"><i data-lucide="x" style="width:20px"></i></button>
+    <button class="lb-btn" id="lb-prev" type="button" aria-label="Foto anterior"><i data-lucide="chevron-left" style="width:22px"></i></button>
     <div class="lb-media">
-        <img id="lb-img" src="" alt="">
+        <img id="lb-img" alt="Foto do imóvel">
         <span class="lb-watermark" aria-hidden="true"><img id="lb-watermark-img" src="assets/arbor-logo-full-copper.svg?v=original-20261011" alt=""></span>
     </div>
-    <button class="lb-btn" id="lb-next"><i data-lucide="chevron-right" style="width:22px"></i></button>
+    <button class="lb-btn" id="lb-next" type="button" aria-label="Próxima foto"><i data-lucide="chevron-right" style="width:22px"></i></button>
     <div id="lb-counter"></div>
 </div>
 
@@ -2940,17 +2947,7 @@ const finishInit = (data) => {
     tipos.forEach(t => { const opt = document.createElement('option'); opt.value = t; opt.textContent = formatTipoImovelBR(t); $('filter-tipo').appendChild(opt); });
     state.filtered = [...state.all];
     state.isLoaded = true;
-    const hero = $('hero-property'), heroImg = $('hero-property-img');
-    const cover = state.all.find(p => p.photos?.[0] && /^https:\/\//.test(p.photos[0]));
-    if (cover) {
-        hero.href = '#id=' + encodeURIComponent(cover.id);
-        hero.setAttribute('aria-label', 'Ver ' + getPropertyDisplayName(cover));
-        heroImg.alt = getPropertyDisplayName(cover);
-        heroImg.addEventListener('load', () => hero.classList.remove('is-brand'), {once:true});
-        heroImg.addEventListener('error', () => {hero.classList.add('is-brand');heroImg.src='assets/arbor-logo-full-copper.svg?v=original-20261011';}, {once:true});
-        heroImg.src = cover.photos[0];
-        $('hero-property-caption').textContent = getPropertyDisplayName(cover) + ' · ' + getCardLocationLabel(cover);
-    }
+    // O quadro do topo fica sempre com a marca Arbor; imóveis aparecem só nas seções de imóveis.
     $('ultimos-scroll').closest('.sub-sec').classList.toggle('view-hidden', !state.all.length);
     renderDestaque();
     renderUltimos();
@@ -3652,12 +3649,21 @@ const showPdfOverlay = msg => {
     document.getElementById('pdf-loading-msg').textContent = msg;
 };
 const hidePdfOverlay = () => document.getElementById('pdf-loading-overlay')?.remove();
-const preloadPdfImage = url => new Promise(resolve => {
+// As fotos já foram exibidas na página sem CORS e o navegador pode ter guardado essa resposta no cache, o que
+// bloqueia o pedido com CORS usado aqui. Por isso a primeira tentativa usa um parâmetro extra na URL (ignorado
+// pelo servidor) para buscar de novo; a segunda tenta a URL original.
+const loadPdfImageOnce = url => new Promise(resolve => {
     const img = new Image(); img.crossOrigin = 'anonymous';
-    const timer = setTimeout(() => { img.onload = img.onerror = null; resolve(null); }, 10000);
+    const timer = setTimeout(() => { img.onload = img.onerror = null; resolve(null); }, 15000);
     img.onload = () => { clearTimeout(timer); resolve(img); };
     img.onerror = () => { clearTimeout(timer); resolve(null); }; img.src = url;
 });
+const preloadPdfImage = async url => {
+    const busted = url + (url.includes('?') ? '&' : '?') + 'arborpdf=' + Date.now();
+    const img = await loadPdfImageOnce(busted) || await loadPdfImageOnce(url);
+    if (!img) console.warn('[Ficha PDF] Foto não carregou (confira o CORS do armazenamento das fotos):', url.slice(0, 120));
+    return img;
+};
 const pdfEscape = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const pdfPlain = value => { const node=document.createElement('div'); node.innerHTML=String(value||''); return (node.textContent||'').replace(/\s+/g,' ').trim(); };
 // Preferir campos públicos. Nunca usar endereço, título livre ou identificadores de unidade.
@@ -3941,7 +3947,7 @@ const renderDetailContent = (p) => {
                         </div>
                     </div>
                     <div class="detail-primary-actions">
-                        <a href="${whatsappHref}" target="_blank" class="btn btn-fill">Falar com a Arbor <i data-lucide="message-circle" style="width:16px"></i></a>
+                        <a href="${whatsappHref}" target="_blank" rel="noopener noreferrer" class="btn btn-fill">Falar com a Arbor <i data-lucide="message-circle" style="width:16px"></i></a>
                         <button id="btn-print-doc" class="btn btn-line">Gerar ficha em PDF <i data-lucide="file-down" style="width:16px"></i></button>
                         <p class="detail-primary-note">Atendimento consultivo para visita, proposta, negociação e documentação.</p>
                     </div>
@@ -4013,7 +4019,7 @@ const renderDetailContent = (p) => {
             })()}
 
             <div class="mobile-detail-cta" aria-label="Ações do imóvel">
-                <a href="${whatsappHref}" target="_blank" class="btn btn-fill">Falar com a Arbor <i data-lucide="message-circle" style="width:16px"></i></a>
+                <a href="${whatsappHref}" target="_blank" rel="noopener noreferrer" class="btn btn-fill">Falar com a Arbor <i data-lucide="message-circle" style="width:16px"></i></a>
                 <button id="btn-print-doc-mobile" class="btn btn-line mobile-pdf-btn" aria-label="Gerar ficha em PDF"><i data-lucide="file-down" style="width:18px"></i></button>
             </div>
             <div class="print-footer">Arbor Imóveis</div>

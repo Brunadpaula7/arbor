@@ -1,3 +1,4 @@
+@font-face{font-family:'Cormorant Garamond';font-style:italic;font-weight:500;font-display:swap;src:url('assets/fonts/cormorant-garamond-latin-500-italic.woff2') format('woff2')}
 /* Arbor em aquarela: papel, manchas de tinta, itálico serifado nos destaques e botões de traço orgânico. */
 :root{--areia-clara:#f1eadb;--papel:#f6f0e3;--tinta-verde:95,140,110;--tinta-azul:169,200,211;--tinta-ocre:217,178,124;--tinta-rosa:227,165,143;--areia-soft:#f6f0e3;--serif:'Cormorant Garamond',Georgia,serif}
 body{background:var(--papel);position:relative}
@@ -33,11 +34,6 @@ em{font-family:var(--serif);font-style:italic;font-weight:500;color:#974315;lett
 .hero::after{width:36%;height:52%;left:-8%;bottom:-6%;background:radial-gradient(closest-side,rgba(var(--tinta-ocre),.38),transparent 76%)}
 .hero-property{box-shadow:0 30px 60px -36px rgba(32,64,48,.6)}
 
-/* manifesto */
-.manifesto{max-width:1240px;margin:0 auto;padding:30px 5vw 70px;text-align:center}
-.manifesto p{margin:0 auto;max-width:900px;font-family:var(--serif);font-style:italic;font-weight:500;font-size:clamp(2.2rem,5vw,4rem);line-height:1.15;color:var(--verde);letter-spacing:-.005em}
-.manifesto p span{display:block;color:#974315}
-
 /* logo (árvore + ARBOR) */
 .nav-logo .brand-logo,#nav.scrolled .nav-logo .brand-logo{width:66px;height:56px}
 .footer-brand .brand-logo{width:168px;height:161px}
@@ -54,16 +50,16 @@ em{font-family:var(--serif);font-style:italic;font-weight:500;color:#974315;lett
 #bairros-view::after{background:radial-gradient(closest-side,rgba(var(--tinta-rosa),.28),transparent 76%)}
 
 /* painéis escuros com manchas de pigmento */
-.bairro-visual,.diferenciais-page-note,.section-nacional,.section-cta,footer{background-color:var(--verde-deep);background-image:radial-gradient(ellipse 60% 70% at 15% 20%,rgba(143,181,154,.30),transparent 70%),radial-gradient(ellipse 50% 60% at 88% 85%,rgba(217,178,124,.24),transparent 70%)}
+.bairro-visual,.diferenciais-page-note,.section-nacional,.section-cta,body>footer{background-color:var(--verde-deep);background-image:radial-gradient(ellipse 60% 70% at 15% 20%,rgba(143,181,154,.30),transparent 70%),radial-gradient(ellipse 50% 60% at 88% 85%,rgba(217,178,124,.24),transparent 70%)}
 .temp-zone.quente{background-image:radial-gradient(ellipse 60% 70% at 15% 20%,rgba(143,181,154,.30),transparent 70%),radial-gradient(ellipse 50% 60% at 88% 85%,rgba(217,178,124,.24),transparent 70%)}
 .jn-lead{border-radius:28px 10px 26px 12px/12px 26px 10px 28px}
 .bairro-card,.diferenciais-page-note{border-radius:22px 8px 20px 10px/10px 20px 8px 22px}
 
 /* borda de papel rasgado onde começam os blocos verdes */
-.section-nacional,footer{position:relative}
+.section-nacional,body>footer{position:relative}
 .section-cta{overflow:visible}
-.section-nacional::before,.section-cta::before,footer::before{content:"";position:absolute;left:-2%;right:-2%;top:-26px;height:52px;background:var(--verde-deep);filter:url(#wc-edge);pointer-events:none;z-index:0}
-.section-nacional>*,.section-cta>.wrap,footer>*{position:relative;z-index:1}
+.section-nacional::before,.section-cta::before,body>footer::before{content:"";position:absolute;left:-2%;right:-2%;top:-26px;height:52px;background:var(--verde-deep);filter:url(#wc-edge);pointer-events:none;z-index:0}
+.section-nacional>*,.section-cta>.wrap,body>footer>*{position:relative;z-index:1}
 
 /* logo com lema na seção Sobre: caixa quadrada para não cortar */
 .sobre-visual .blob{height:auto;aspect-ratio:1/1;padding:8%}
@@ -95,3 +91,14 @@ em{font-family:var(--serif);font-style:italic;font-weight:500;color:#974315;lett
 @media(prefers-reduced-motion:reduce){.dv-slide.is-active,.dv-slide.is-leaving{animation:none}.dv-slide{transition:opacity .4s}}
 @media(max-width:600px){.dv-ctrl{left:10px;bottom:10px}.dv-track{width:48px}}
 @media(prefers-reduced-motion:reduce){.dv-ctrl{display:none}}
+
+/* alvos de toque de pelo menos 44 px (celular) */
+#burger{position:relative}
+#burger::before{content:"";position:absolute;inset:-7px}
+.fazemos-action{display:inline-flex;align-items:center;min-height:44px}
+body>footer .foot-links a,body>footer .foot-email{display:inline-flex;align-items:center;min-height:44px}
+#mobile-menu .mm-link{display:inline-flex;align-items:center;min-height:44px}
+
+/* menu do celular: o botão fecha o menu e o botão "Falar com a Arbor" fica legível */
+body.menu-open #nav{z-index:1200}
+#mobile-menu .btn-fill{background:var(--verde);color:#f6f0e3}

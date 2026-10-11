@@ -1,5 +1,8 @@
+@font-face{font-family:'Jost';font-style:normal;font-weight:100 900;font-display:swap;src:url('../assets/jost-latin.woff2') format('woff2')}
+@font-face{font-family:'Cormorant Garamond';font-style:italic;font-weight:500;font-display:swap;src:url('../assets/fonts/cormorant-garamond-latin-500-italic.woff2') format('woff2')}
 /* Aquarela nas páginas legais (privacidade, termos, exclusão de dados). */
-:root{--papel:#f6f0e3;--areia-soft:#f6f0e3;--serif:'Cormorant Garamond',Georgia,serif}
+:root{--papel:#f6f0e3;--areia-soft:#f6f0e3;--serif:'Cormorant Garamond',Georgia,serif;--font-title:'Jost',-apple-system,'Segoe UI',Arial,sans-serif;--font-body:'Jost',-apple-system,'Segoe UI',Arial,sans-serif}
+h1,h2,h3{font-weight:400;letter-spacing:-.01em}
 body{background:var(--papel);position:relative}
 body::before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;background:
  radial-gradient(ellipse 46% 38% at 92% 6%,rgba(95,140,110,.20),transparent 70%),
