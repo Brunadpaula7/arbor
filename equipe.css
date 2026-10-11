@@ -54,3 +54,11 @@ a.equipe-card:hover { transform: translateY(-4px); background: rgba(255,255,255,
 .equipe-contatos a:hover { background: rgba(255,255,255,.7); }
 .equipe-contatos a:focus-visible, .equipe-link:focus-visible { outline: 2px solid var(--verde); outline-offset: 3px; }
 .equipe-link { text-decoration: none; }
+
+/* Retratos redondos e texto centralizado: as fotos do ERP chegam em formatos diferentes (algumas já recortadas em círculo). */
+.equipe-card .equipe-retrato { aspect-ratio: 1 / 1; width: min(68%, 210px); margin: 28px auto 0; border-radius: 50%; overflow: hidden; box-shadow: 0 0 0 4px #f6f0e3, 0 0 0 5px rgba(32,64,48,.22); }
+.equipe-card .equipe-retrato img { object-position: center 18%; }
+.equipe-info { text-align: center; padding: 20px 22px 26px; }
+.equipe-contatos { justify-content: center; }
+.equipe-link { justify-content: center; gap: 8px; }
+@media (max-width: 600px) { .equipe-card .equipe-retrato { aspect-ratio: 1 / 1; } }

@@ -1712,7 +1712,7 @@
     <script defer src="vendor/jspdf-2.5.1.umd.min.js"></script>
     <script defer src="vendor/html2canvas-1.4.1.min.js"></script>
     <link rel="preload" href="assets/jost-latin.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="stylesheet" href="equipe.css?v=contatos-20261011">
+    <link rel="stylesheet" href="equipe.css?v=redondas-20261011">
     <link rel="stylesheet" href="site.css">
     <link rel="stylesheet" href="watercolor.css">
 </head>
@@ -3398,6 +3398,7 @@ const renderGrid = () => {
 
 /* ---------- Journal: notícias diárias (lê noticias.json, atualizado pelo GitHub Actions) ---------- */
 const JN_LABEL = { lancamentos:'Lançamentos', financiamento:'Financiamento', regras:'Regras e leis', mercado:'Mercado' };
+const JN_ICON = { lancamentos:'building-2', financiamento:'banknote', regras:'scale', mercado:'trending-up' };
 const jn = { items:[], loaded:false, loading:false, filter:'all', visible:9, search:'' };
 
 const jnTimeAgo = (iso) => {
@@ -3464,6 +3465,7 @@ const jnImg = (it) => {
 
 const jnLink = (it, cls) => {
     const a = jnEl('a', cls);
+    a.dataset.cat = JN_LABEL[it.cat] ? it.cat : 'mercado';
     a.href = /^https:\/\//.test(it.url) ? it.url : '#';
     a.target = '_blank';
     a.rel = 'noopener noreferrer';
@@ -3516,6 +3518,14 @@ const renderJournal = () => {
     const li = jnImg(lead);
     a.appendChild(li.box);
     if (li.has) a.classList.add('has-img');
+    else {
+        // Sem foto da matéria: capa em aquarela com o ícone da categoria.
+        const ico = document.createElement('i');
+        ico.className = 'jn-lead-ico';
+        ico.setAttribute('data-lucide', JN_ICON[lead.cat] || 'newspaper');
+        ico.setAttribute('aria-hidden', 'true');
+        a.appendChild(ico);
+    }
     a.appendChild(jnTags(lead));
     a.appendChild(jnEl('h3', null, lead.title));
     a.appendChild(jnFoot(lead));
@@ -3537,6 +3547,10 @@ const renderJournal = () => {
     board.appendChild(top);
 
     if (feed.length) {
+        const bloco = jnEl('div', 'jn-block-head');
+        bloco.appendChild(jnEl('h3', null, 'Mais notícias'));
+        bloco.appendChild(jnEl('span', null, `${feed.length} matéria${feed.length === 1 ? '' : 's'}`));
+        board.appendChild(bloco);
         const grid = jnEl('div', 'jn-feed');
         feed.slice(0, jn.visible).forEach(it => {
             const c = jnLink(it, 'jn-card');
@@ -3829,17 +3843,17 @@ const buildPresentationPDF = async p => {
 };
 
 /* Fotos do imóvel em apresentação automática, como um vídeo: fade entre fotos com zoom lento.
-   O avanço é guiado pelo fim da animação da barra de progresso, então pausar a animação pausa tudo. */
+   Pausa sozinha com a aba em segundo plano ou com a galeria aberta. Quem reduziu o movimento no aparelho vê só a primeira foto. */
+const DV_INTERVALO = 5000;
+let dvTimer = null;
 const setupDetailSlideshow = () => {
+    clearTimeout(dvTimer);
     const card = document.querySelector('#detail-view .detail-hero-card');
     if (!card) return;
     const slides = [...card.querySelectorAll('.dv-slide')];
-    const fill = card.querySelector('.dv-fill'), toggle = card.querySelector('.dv-toggle'), count = card.querySelector('.dv-count');
-    if (slides.length < 2 || !fill || !toggle) return;
-    const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (slides.length < 2 || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
     let idx = 0;
     const load = i => { const s = slides[i % slides.length]; if (s.dataset.src && !s.getAttribute('src')) s.src = s.dataset.src; };
-    const restartFill = () => { fill.classList.remove('run'); void fill.offsetWidth; fill.classList.add('run'); };
     const show = n => {
         const prev = slides[idx];
         idx = (n + slides.length) % slides.length;
@@ -3849,24 +3863,16 @@ const setupDetailSlideshow = () => {
         cur.classList.remove('is-leaving'); void cur.offsetWidth; cur.classList.add('is-active');
         setTimeout(() => { if (prev !== slides[idx]) prev.classList.remove('is-leaving'); }, 1600);
         load(idx + 1);
-        count.textContent = `${idx + 1} / ${slides.length}`;
         state.dvIdx = idx;
-        restartFill();
     };
-    const setPlaying = on => {
-        card.classList.toggle('dv-paused', !on);
-        toggle.setAttribute('aria-label', on ? 'Pausar apresentação das fotos' : 'Continuar apresentação das fotos');
-        toggle.dataset.playing = on ? '1' : '0';
+    const tick = () => {
+        if (!card.isConnected) return;
+        if (document.hidden || card.classList.contains('dv-lb')) { dvTimer = setTimeout(tick, 500); return; }
+        show(idx + 1);
+        dvTimer = setTimeout(tick, DV_INTERVALO);
     };
-    fill.addEventListener('animationend', () => show(idx + 1));
-    toggle.addEventListener('click', () => setPlaying(card.classList.contains('dv-paused')));
-    if (!document.documentElement.dataset.dvVis) {
-        document.documentElement.dataset.dvVis = '1';
-        document.addEventListener('visibilitychange', () => document.querySelector('#detail-view .detail-hero-card')?.classList.toggle('dv-hidden', document.hidden));
-    }
     load(1);
-    setPlaying(!reduce);
-    restartFill();
+    dvTimer = setTimeout(tick, DV_INTERVALO);
 };
 
 const renderDetailContent = (p) => {
@@ -3919,14 +3925,6 @@ const renderDetailContent = (p) => {
                             ${renderPhotoWatermark('large')}
                             ${p.photos && p.photos.length ? `<span class="detail-photo-count"><i data-lucide="images"></i>Ver galeria · ${p.photos.length} foto${p.photos.length > 1 ? 's' : ''}</span>` : ''}
                         </button>
-                        ${p.photos && p.photos.length > 1 ? `<div class="dv-ctrl" role="group" aria-label="Apresentação das fotos">
-                            <button type="button" class="dv-toggle" aria-label="Pausar apresentação das fotos">
-                                <svg class="dv-ico-pause" viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><rect x="6" y="5" width="4" height="14" rx="1"/><rect x="14" y="5" width="4" height="14" rx="1"/></svg>
-                                <svg class="dv-ico-play" viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13a1 1 0 0 0 1.5.86l10.5-6.5a1 1 0 0 0 0-1.72L9.5 4.64A1 1 0 0 0 8 5.5z"/></svg>
-                            </button>
-                            <span class="dv-track" aria-hidden="true"><span class="dv-fill"></span></span>
-                            <span class="dv-count" aria-live="off">1 / ${p.photos.length}</span>
-                        </div>` : ''}
                     </div>
                     </div>
 

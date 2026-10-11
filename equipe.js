@@ -34,7 +34,7 @@
                 card.className = 'equipe-card';
                 const foto = fotoSegura(m.foto);
                 const iniciais = m.nome.split(/\s+/).filter(Boolean).slice(0, 2).map(n => n[0]).join('');
-                card.innerHTML = `<div class="equipe-retrato"><span aria-hidden="true">${seguro(iniciais)}</span>${foto ? `<img src="${seguro(foto)}" alt="${seguro(m.nome)}" loading="lazy">` : ''}</div><div class="equipe-info"><h3>${seguro(m.nome)}</h3>${m.resumo ? `<p class="equipe-resumo">${seguro(resumoBreve(m.resumo))}</p>` : ''}${m.grupo === 'comercial' && m.creci ? `<small>CRECI ${seguro(m.creci)}</small>` : ''}${m.grupo === 'comercial' ? `<a class="equipe-link" href="#equipe=${encodeURIComponent(m.id)}">Ver imóveis <span aria-hidden="true">↗</span></a><small>${quantidade(m)} imóveis disponíveis</small>` : ''}</div>`;
+                card.innerHTML = `<div class="equipe-retrato"><span aria-hidden="true">${seguro(iniciais)}</span>${foto ? `<img src="${seguro(foto)}" alt="${seguro(m.nome)}" loading="lazy">` : ''}</div><div class="equipe-info"><h3>${seguro(m.nome)}</h3>${m.resumo ? `<p class="equipe-resumo">${seguro(resumoBreve(m.resumo))}</p>` : ''}${m.grupo === 'comercial' && m.creci ? `<small>CRECI ${seguro(m.creci)}</small>` : ''}${quantidade(m) > 0 ? `<a class="equipe-link" href="#equipe=${encodeURIComponent(m.id)}">Ver imóveis <span aria-hidden="true">↗</span></a><small>${quantidade(m)} ${quantidade(m) === 1 ? 'imóvel disponível' : 'imóveis disponíveis'}</small>` : ''}</div>`;
                 const contatos = document.createElement('div');
                 contatos.className = 'equipe-contatos';
                 const links = [];
@@ -74,7 +74,7 @@
         if (!carregou) { el('equipe-status').textContent = 'Carregando equipe…'; requestAnimationFrame(() => el('equipe').scrollIntoView({ behavior: 'smooth' })); return true; }
         let id;
         try { id = decodeURIComponent(hash.slice(8)); } catch { id = ''; }
-        const membro = membros.find(m => m.id === id && m.grupo === 'comercial');
+        const membro = membros.find(m => m.id === id);
         if (!membro) { limpar(); applyFilters(); goHome('equipe'); return true; }
         // Começar a carteira sem filtros antigos evita ocultar imóveis do corretor.
         el('btn-reset').click();
