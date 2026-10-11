@@ -3651,12 +3651,21 @@ const showPdfOverlay = msg => {
     document.getElementById('pdf-loading-msg').textContent = msg;
 };
 const hidePdfOverlay = () => document.getElementById('pdf-loading-overlay')?.remove();
-const preloadPdfImage = url => new Promise(resolve => {
+// As fotos já foram exibidas na página sem CORS e o navegador pode ter guardado essa resposta no cache, o que
+// bloqueia o pedido com CORS usado aqui. Por isso a primeira tentativa usa um parâmetro extra na URL (ignorado
+// pelo servidor) para buscar de novo; a segunda tenta a URL original.
+const loadPdfImageOnce = url => new Promise(resolve => {
     const img = new Image(); img.crossOrigin = 'anonymous';
-    const timer = setTimeout(() => { img.onload = img.onerror = null; resolve(null); }, 10000);
+    const timer = setTimeout(() => { img.onload = img.onerror = null; resolve(null); }, 15000);
     img.onload = () => { clearTimeout(timer); resolve(img); };
     img.onerror = () => { clearTimeout(timer); resolve(null); }; img.src = url;
 });
+const preloadPdfImage = async url => {
+    const busted = url + (url.includes('?') ? '&' : '?') + 'arborpdf=' + Date.now();
+    const img = await loadPdfImageOnce(busted) || await loadPdfImageOnce(url);
+    if (!img) console.warn('[Ficha PDF] Foto não carregou (confira o CORS do armazenamento das fotos):', url.slice(0, 120));
+    return img;
+};
 const pdfEscape = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const pdfPlain = value => { const node=document.createElement('div'); node.innerHTML=String(value||''); return (node.textContent||'').replace(/\s+/g,' ').trim(); };
 // Preferir campos públicos. Nunca usar endereço, título livre ou identificadores de unidade.

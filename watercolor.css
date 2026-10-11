@@ -55,16 +55,16 @@ em{font-family:var(--serif);font-style:italic;font-weight:500;color:#974315;lett
 #bairros-view::after{background:radial-gradient(closest-side,rgba(var(--tinta-rosa),.28),transparent 76%)}
 
 /* painéis escuros com manchas de pigmento */
-.bairro-visual,.diferenciais-page-note,.section-nacional,.section-cta,footer{background-color:var(--verde-deep);background-image:radial-gradient(ellipse 60% 70% at 15% 20%,rgba(143,181,154,.30),transparent 70%),radial-gradient(ellipse 50% 60% at 88% 85%,rgba(217,178,124,.24),transparent 70%)}
+.bairro-visual,.diferenciais-page-note,.section-nacional,.section-cta,body>footer{background-color:var(--verde-deep);background-image:radial-gradient(ellipse 60% 70% at 15% 20%,rgba(143,181,154,.30),transparent 70%),radial-gradient(ellipse 50% 60% at 88% 85%,rgba(217,178,124,.24),transparent 70%)}
 .temp-zone.quente{background-image:radial-gradient(ellipse 60% 70% at 15% 20%,rgba(143,181,154,.30),transparent 70%),radial-gradient(ellipse 50% 60% at 88% 85%,rgba(217,178,124,.24),transparent 70%)}
 .jn-lead{border-radius:28px 10px 26px 12px/12px 26px 10px 28px}
 .bairro-card,.diferenciais-page-note{border-radius:22px 8px 20px 10px/10px 20px 8px 22px}
 
 /* borda de papel rasgado onde começam os blocos verdes */
-.section-nacional,footer{position:relative}
+.section-nacional,body>footer{position:relative}
 .section-cta{overflow:visible}
-.section-nacional::before,.section-cta::before,footer::before{content:"";position:absolute;left:-2%;right:-2%;top:-26px;height:52px;background:var(--verde-deep);filter:url(#wc-edge);pointer-events:none;z-index:0}
-.section-nacional>*,.section-cta>.wrap,footer>*{position:relative;z-index:1}
+.section-nacional::before,.section-cta::before,body>footer::before{content:"";position:absolute;left:-2%;right:-2%;top:-26px;height:52px;background:var(--verde-deep);filter:url(#wc-edge);pointer-events:none;z-index:0}
+.section-nacional>*,.section-cta>.wrap,body>footer>*{position:relative;z-index:1}
 
 /* logo com lema na seção Sobre: caixa quadrada para não cortar */
 .sobre-visual .blob{height:auto;aspect-ratio:1/1;padding:8%}
@@ -101,7 +101,7 @@ em{font-family:var(--serif);font-style:italic;font-weight:500;color:#974315;lett
 #burger{position:relative}
 #burger::before{content:"";position:absolute;inset:-7px}
 .fazemos-action{display:inline-flex;align-items:center;min-height:44px}
-footer .foot-links a,footer .foot-email{display:inline-flex;align-items:center;min-height:44px}
+body>footer .foot-links a,body>footer .foot-email{display:inline-flex;align-items:center;min-height:44px}
 #mobile-menu .mm-link{display:inline-flex;align-items:center;min-height:44px}
 
 /* menu do celular: o botão fecha o menu e o botão "Falar com a Arbor" fica legível */
