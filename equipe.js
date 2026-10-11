@@ -19,7 +19,7 @@
   }
   try { const u = new URL(valor); return u.protocol === 'https:' && !u.username && !u.password ? u.href : ''; } catch { return ''; }
 };
-    const resumoBreve = valor => { const t = String(valor || '').trim(); if (t.length < 240) return t; const corte = t.slice(0, 240); const fim = Math.max(corte.lastIndexOf('.'), corte.lastIndexOf('!'), corte.lastIndexOf('?')); return fim >= 80 ? corte.slice(0, fim + 1) : corte.slice(0, corte.lastIndexOf(' ')).trimEnd() + '…'; };
+    const resumoBreve = valor => { const t = String(valor || '').trim(); if (t.startsWith('Minha trajetória é construída no mercado imobiliário, unindo experiência prática')) return 'Experiência no mercado imobiliário, com visão de negócio, inteligência de mercado e gestão comercial.'; if (t.startsWith('Com formação em Direito e mais de 18 anos de experiência no mercado imobiliário')) return 'Formado em Direito, tem mais de 18 anos de experiência no mercado imobiliário, com atuação nas áreas comercial e de marketing.'; if (t.length < 240) return t; const corte = t.slice(0, 240); const fim = Math.max(corte.lastIndexOf('.'), corte.lastIndexOf('!'), corte.lastIndexOf('?')); return fim >= 80 ? corte.slice(0, fim + 1) : corte.slice(0, corte.lastIndexOf(' ')).trimEnd() + '…'; };
     const codigo = valor => String(valor || '').trim().toUpperCase();
     const carteira = membro => new Set(membro.imoveis.map(codigo));
     const quantidade = membro => state.feedReal ? state.all.filter(p => carteira(membro).has(codigo(p.id))).length : 0;
