@@ -1,0 +1,8 @@
+[
+  {
+    "origin": ["https://www.arborimoveis.com.br", "https://arborimoveis.com.br", "https://brunadpaula7.github.io"],
+    "method": ["GET", "HEAD"],
+    "responseHeader": ["Content-Type"],
+    "maxAgeSeconds": 3600
+  }
+]
