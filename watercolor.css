@@ -1,0 +1,46 @@
+/* Arbor em aquarela: papel, manchas de tinta, itálico serifado nos destaques e botões de traço orgânico. */
+:root{--papel:#f6f0e3;--tinta-verde:95,140,110;--tinta-azul:169,200,211;--tinta-ocre:217,178,124;--tinta-rosa:227,165,143;--areia-soft:#f6f0e3;--serif:'Cormorant Garamond',Georgia,serif}
+body{background:var(--papel);position:relative}
+/* manchas fixas no fundo, como lavis de aquarela no papel */
+body::before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;background:
+ radial-gradient(ellipse 46% 38% at 92% 6%,rgba(var(--tinta-verde),.20),transparent 70%),
+ radial-gradient(ellipse 40% 30% at 4% 4%,rgba(var(--tinta-azul),.22),transparent 70%),
+ radial-gradient(ellipse 34% 40% at -4% 58%,rgba(var(--tinta-ocre),.22),transparent 70%),
+ radial-gradient(ellipse 46% 36% at 98% 92%,rgba(var(--tinta-verde),.18),transparent 70%),
+ radial-gradient(ellipse 34% 26% at 6% 98%,rgba(var(--tinta-rosa),.22),transparent 70%)}
+/* grão do papel */
+body::after{content:"";position:fixed;inset:0;z-index:9990;pointer-events:none;mix-blend-mode:multiply;opacity:.32;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='260' height='260'><filter id='p'><feTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='3' seed='2'/><feColorMatrix type='matrix' values='0 0 0 0 .45  0 0 0 0 .38  0 0 0 0 .28  0 0 0 .6 -.12'/></filter><rect width='100%' height='100%' filter='url(%23p)'/></svg>")}
+#nav,#nav.scrolled{background:rgba(246,240,227,.92);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px)}
+
+/* destaques em itálico serifado */
+em{font-family:var(--serif);font-style:italic;font-weight:500;color:#974315;letter-spacing:0}
+.hero-copy h1 em{color:#974315;font-weight:500}
+.section-nacional em,.section-cta em{color:var(--areia)}
+
+/* botões com traço de pincel */
+.btn{border-radius:255px 18px 225px 18px/18px 225px 18px 255px}
+.btn:hover{transform:rotate(-1deg) translateY(-2px)}
+
+/* cartões como papel de aquarela */
+.p-card,.u-card,.destaque-card,.bairro-card,.official-card,.equipe-card{background:rgba(255,253,247,.72);border:1px solid rgba(32,64,48,.14);box-shadow:0 18px 40px -28px rgba(32,64,48,.5)}
+.destaque-card{background:var(--verde-deep)}
+.filter-bar{background:rgba(255,253,247,.6)}
+
+/* topo com lavis de fundo */
+.hero{position:relative;isolation:isolate}
+.hero::before,.hero::after{content:"";position:absolute;z-index:-1;pointer-events:none;filter:url(#wc-soft)}
+.hero::before{width:58%;height:110%;top:-4%;right:-8%;background:radial-gradient(closest-side,rgba(var(--tinta-verde),.34),rgba(var(--tinta-azul),.18) 60%,transparent 78%)}
+.hero::after{width:36%;height:52%;left:-8%;bottom:-6%;background:radial-gradient(closest-side,rgba(var(--tinta-ocre),.38),transparent 76%)}
+.hero-property{box-shadow:0 30px 60px -36px rgba(32,64,48,.6)}
+
+/* manifesto */
+.manifesto{max-width:1240px;margin:0 auto;padding:30px 5vw 70px;text-align:center}
+.manifesto p{margin:0 auto;max-width:900px;font-family:var(--serif);font-style:italic;font-weight:500;font-size:clamp(2.2rem,5vw,4rem);line-height:1.15;color:var(--verde);letter-spacing:-.005em}
+.manifesto p span{display:block;color:#974315}
+
+/* logo (árvore + ARBOR) */
+.nav-logo .brand-logo,#nav.scrolled .nav-logo .brand-logo{width:66px;height:56px}
+.footer-brand .brand-logo{width:128px;height:109px}
+@media(max-width:720px){.nav-logo .brand-logo,#nav.scrolled .nav-logo .brand-logo{width:54px;height:46px}.footer-brand .brand-logo{width:108px;height:92px}}
+.hero{background:transparent}
+.hero::after{display:block}
