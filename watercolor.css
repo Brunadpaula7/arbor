@@ -34,11 +34,6 @@ em{font-family:var(--serif);font-style:italic;font-weight:500;color:#974315;lett
 .hero::after{width:36%;height:52%;left:-8%;bottom:-6%;background:radial-gradient(closest-side,rgba(var(--tinta-ocre),.38),transparent 76%)}
 .hero-property{box-shadow:0 30px 60px -36px rgba(32,64,48,.6)}
 
-/* manifesto */
-.manifesto{max-width:1240px;margin:0 auto;padding:30px 5vw 70px;text-align:center}
-.manifesto p{margin:0 auto;max-width:900px;font-family:var(--serif);font-style:italic;font-weight:500;font-size:clamp(2.2rem,5vw,4rem);line-height:1.15;color:var(--verde);letter-spacing:-.005em}
-.manifesto p span{display:block;color:#974315}
-
 /* logo (árvore + ARBOR) */
 .nav-logo .brand-logo,#nav.scrolled .nav-logo .brand-logo{width:66px;height:56px}
 .footer-brand .brand-logo{width:168px;height:161px}
