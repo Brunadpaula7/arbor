@@ -3443,7 +3443,8 @@ const renderJournal = () => {
         return;
     }
 
-    const [lead, ...rest] = list;
+    const lead = list.find(i => i.local) || list[0];
+    const rest = list.filter(i => i !== lead);
     const side = rest.slice(0, 4);
     const feed = rest.slice(4);
 
