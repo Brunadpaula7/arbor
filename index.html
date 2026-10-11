@@ -3377,6 +3377,7 @@ const renderGrid = () => {
 
 /* ---------- Journal: notícias diárias (lê noticias.json, atualizado pelo GitHub Actions) ---------- */
 const JN_LABEL = { lancamentos:'Lançamentos', financiamento:'Financiamento', regras:'Regras e leis', mercado:'Mercado' };
+const JN_ICON = { lancamentos:'building-2', financiamento:'banknote', regras:'scale', mercado:'trending-up' };
 const jn = { items:[], loaded:false, loading:false, filter:'all', visible:9, search:'' };
 
 const jnTimeAgo = (iso) => {
@@ -3443,6 +3444,7 @@ const jnImg = (it) => {
 
 const jnLink = (it, cls) => {
     const a = jnEl('a', cls);
+    a.dataset.cat = JN_LABEL[it.cat] ? it.cat : 'mercado';
     a.href = /^https:\/\//.test(it.url) ? it.url : '#';
     a.target = '_blank';
     a.rel = 'noopener noreferrer';
@@ -3495,6 +3497,14 @@ const renderJournal = () => {
     const li = jnImg(lead);
     a.appendChild(li.box);
     if (li.has) a.classList.add('has-img');
+    else {
+        // Sem foto da matéria: capa em aquarela com o ícone da categoria.
+        const ico = document.createElement('i');
+        ico.className = 'jn-lead-ico';
+        ico.setAttribute('data-lucide', JN_ICON[lead.cat] || 'newspaper');
+        ico.setAttribute('aria-hidden', 'true');
+        a.appendChild(ico);
+    }
     a.appendChild(jnTags(lead));
     a.appendChild(jnEl('h3', null, lead.title));
     a.appendChild(jnFoot(lead));
@@ -3516,6 +3526,10 @@ const renderJournal = () => {
     board.appendChild(top);
 
     if (feed.length) {
+        const bloco = jnEl('div', 'jn-block-head');
+        bloco.appendChild(jnEl('h3', null, 'Mais notícias'));
+        bloco.appendChild(jnEl('span', null, `${feed.length} matéria${feed.length === 1 ? '' : 's'}`));
+        board.appendChild(bloco);
         const grid = jnEl('div', 'jn-feed');
         feed.slice(0, jn.visible).forEach(it => {
             const c = jnLink(it, 'jn-card');
