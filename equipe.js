@@ -3,7 +3,22 @@
     let membros = [], selecionado = null, carregando = false, carregou = false;
     const el = id => document.getElementById(id);
     const seguro = valor => String(valor || '').replace(/[&<>"']/g, c => ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;' }[c]));
-    const fotoSegura = valor => { try { const u = new URL(valor); return u.protocol === 'https:' ? u.href : ''; } catch { return ''; } };
+    const fotoSegura = v => {
+  const valor = String(v || '').trim();
+  if (valor.startsWith('data:')) {
+    if (valor.length > 1500000) return '';
+    const m = /^data:image\/(png|jpeg|webp);base64,([A-Za-z0-9+/]+={0,2})$/.exec(valor);
+    if (!m || m[2].length % 4 !== 0) return '';
+    try {
+      const bytes = atob(m[2].slice(0, 16));
+      const png = bytes.startsWith('\x89PNG\r\n\x1a\n');
+      const jpeg = bytes.startsWith('\xff\xd8\xff');
+      const webp = bytes.startsWith('RIFF') && bytes.slice(8, 12) === 'WEBP';
+      return (m[1] === 'png' && png || m[1] === 'jpeg' && jpeg || m[1] === 'webp' && webp) ? valor : '';
+    } catch { return ''; }
+  }
+  try { const u = new URL(valor); return u.protocol === 'https:' && !u.username && !u.password ? u.href : ''; } catch { return ''; }
+};
     const resumoBreve = valor => { const t = String(valor || '').trim(); if (t.length < 240) return t; const corte = t.slice(0, 240); const fim = Math.max(corte.lastIndexOf('.'), corte.lastIndexOf('!'), corte.lastIndexOf('?')); return fim >= 80 ? corte.slice(0, fim + 1) : corte.slice(0, corte.lastIndexOf(' ')).trimEnd() + '…'; };
     const codigo = valor => String(valor || '').trim().toUpperCase();
     const carteira = membro => new Set(membro.imoveis.map(codigo));
