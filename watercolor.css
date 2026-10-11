@@ -4,13 +4,12 @@
 body{background:var(--papel);position:relative}
 /* manchas fixas no fundo, como lavis de aquarela no papel */
 body::before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;background:
+ url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='260' height='260'><filter id='p'><feTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='3' seed='2'/><feColorMatrix type='matrix' values='0 0 0 0 .45  0 0 0 0 .38  0 0 0 0 .28  0 0 0 .38 -.1'/></filter><rect width='100%' height='100%' filter='url(%23p)'/></svg>"),
  radial-gradient(ellipse 46% 38% at 92% 6%,rgba(var(--tinta-verde),.20),transparent 70%),
  radial-gradient(ellipse 40% 30% at 4% 4%,rgba(var(--tinta-azul),.22),transparent 70%),
  radial-gradient(ellipse 34% 40% at -4% 58%,rgba(var(--tinta-ocre),.22),transparent 70%),
  radial-gradient(ellipse 46% 36% at 98% 92%,rgba(var(--tinta-verde),.18),transparent 70%),
  radial-gradient(ellipse 34% 26% at 6% 98%,rgba(var(--tinta-rosa),.22),transparent 70%)}
-/* grão do papel */
-body::after{content:"";position:fixed;inset:0;z-index:9990;pointer-events:none;mix-blend-mode:multiply;opacity:.32;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='260' height='260'><filter id='p'><feTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='3' seed='2'/><feColorMatrix type='matrix' values='0 0 0 0 .45  0 0 0 0 .38  0 0 0 0 .28  0 0 0 .6 -.12'/></filter><rect width='100%' height='100%' filter='url(%23p)'/></svg>")}
 #nav,#nav.scrolled{background:rgba(246,240,227,.92);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px)}
 
 /* destaques em itálico serifado */
@@ -168,3 +167,10 @@ body.menu-open #nav{z-index:1200}
 svg.jn-lead-ico{position:absolute;right:30px;top:34px;width:92px;height:92px;color:rgba(32,64,48,.55);stroke-width:1.1}
 @media (max-width:600px){svg.jn-lead-ico{width:76px;height:76px;right:22px;top:30px}}
 .jn-row:has(> .jn-img.is-empty){display:block}
+
+/* cartões de destaque: texto legível mesmo sobre fotos claras */
+.d-card:not(.d-card-empty) .d-card-overlay{background:linear-gradient(to top,rgba(12,26,19,.94) 0%,rgba(12,26,19,.8) 34%,rgba(12,26,19,.4) 58%,rgba(12,26,19,0) 82%)}
+.d-card:not(.d-card-empty) .d-card-title{font-weight:400}
+.d-card:not(.d-card-empty) .d-card-hood{color:#f1eadb;opacity:.92}
+.d-card:not(.d-card-empty) .d-card-price{color:#e3c9a4}
+.d-card:not(.d-card-empty) .d-card-specs .arbor-attr-icon{filter:brightness(0) invert(1);opacity:.85}
