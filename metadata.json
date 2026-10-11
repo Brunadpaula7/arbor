@@ -1,0 +1,8 @@
+{
+  "name": "ARBOR IMÓVEIS — Goiânia",
+  "description": "Encontre imóveis em Goiânia e região com a Arbor. Explore o portfólio e consulte o Journal sobre cartórios, IPTU e ITBI com fontes oficiais.",
+  "permissions": [],
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
