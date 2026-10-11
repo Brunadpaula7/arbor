@@ -537,14 +537,14 @@
         .art-sheet{width:1120px;height:1584px;box-sizing:border-box;padding:60px 68px 48px;background:#faf7f0;position:relative;font-family:var(--font),sans-serif;color:#243c30;overflow:hidden}
         .art-paper{position:absolute;inset:0;width:100%;height:100%;z-index:0}
         .art-body{position:relative;z-index:1;height:100%;display:flex;flex-direction:column}
-        .art-head{display:flex;justify-content:space-between;align-items:center;margin:0 0 24px;padding:0 0 20px;border-bottom:2px solid #204030;color:#204030}.art-head .art-kicker{color:#974315;font-weight:500}.art-head .art-code{color:#204030;font-weight:500}
-        .art-logo{height:150px;width:auto;object-fit:contain}.art-kicker{font-size:14px;letter-spacing:3px;text-transform:uppercase;color:#77634e}.art-code{text-align:right;font-size:16px;line-height:1.7}
-        .art-sheet h1{font-size:52px;line-height:1.1;font-weight:300;margin:0 0 10px;letter-spacing:-1.5px;color:#204030}.art-location{font-size:21px;color:#657369;margin:0 0 22px}
+        .art-head{display:flex;justify-content:space-between;align-items:center;margin:0 0 14px;padding:0 0 12px;border-bottom:2px solid #204030;color:#204030}.art-head .art-kicker{color:#974315;font-weight:500}.art-head .art-code{color:#204030;font-weight:500}
+        .art-logo{height:92px;width:auto;object-fit:contain}.art-kicker{font-size:14px;letter-spacing:3px;text-transform:uppercase;color:#77634e}.art-code{text-align:right;font-size:16px;line-height:1.7}
+        .art-sheet h1{font-size:46px;line-height:1.1;font-weight:300;margin:0 0 6px;letter-spacing:-1.5px;color:#204030}.art-location{font-size:21px;color:#657369;margin:0 0 16px}
         .art-hero{width:984px;height:440px;object-fit:cover;display:block}.art-film{display:flex;gap:12px;margin-top:12px}.art-film img{height:150px;flex:1;min-width:0;object-fit:cover;width:0}
         .art-no-photo{height:300px;display:flex;align-items:center;justify-content:center;border:1px solid #b7baa9;font-size:22px;color:#617062}
         .art-photo-caption{font-size:12px;letter-spacing:1px;color:#6b7469;margin-top:8px}
         .art-spec{display:flex;align-items:center;gap:12px}.art-ico{width:44px;height:44px;flex:none}.art-chip{display:inline-flex;align-items:center;gap:7px;margin:0 8px 8px 0;padding:6px 12px;border:1px solid #b9beae;border-radius:999px;background:rgba(255,253,247,.7);font-size:14px;color:#204030}.art-chip img{width:26px;height:26px}.art-specs{display:flex;gap:24px;padding:22px 0 18px;border-bottom:1px solid #b9beae}.art-spec{flex:1}.art-spec strong{display:block;font-size:27px;font-weight:400}.art-spec span{font-size:13px;text-transform:uppercase;letter-spacing:1px;color:#6b7469}
-        .art-copy{display:flex;gap:36px;margin-top:22px}.art-summary{flex:1.7}.art-summary p{font-size:18px;line-height:1.55;margin:10px 0 0;color:#405244}.art-finance{flex:1;border-left:1px solid #b9beae;padding-left:26px}.art-price{font-size:30px;font-weight:300;line-height:1.25;margin:10px 0;color:#974315}.art-fees{font-size:14px;line-height:1.7;color:#536152}.art-features{margin-top:16px}
+        .art-copy{display:flex;flex-direction:column;gap:18px;margin-top:20px}.art-summary{flex:none}.art-fin-main{flex:none}.art-extras{display:flex;gap:26px;flex-wrap:wrap;align-items:center;flex:1;justify-content:flex-end}.art-extra{display:flex;align-items:center;gap:10px}.art-extra img{width:34px;height:34px}.art-extra span{display:block;font-size:11px;letter-spacing:1px;text-transform:uppercase;color:#6b7469}.art-extra strong{font-size:17px;font-weight:400;color:#204030}.art-summary-x{}.art-summary p{font-size:18px;line-height:1.55;margin:10px 0 0;color:#405244}.art-finance{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:14px 0;border-bottom:1px solid #b9beae}.art-price{font-size:32px;font-weight:300;line-height:1.2;margin:4px 0 0;color:#974315}.art-fees{font-size:14px;line-height:1.7;color:#536152}.art-features{margin-top:16px}
         .art-sheet .art-foot{background:transparent;color:#204030;text-align:left;margin-top:auto;padding:18px 0 0;border-top:2px solid #204030;display:flex;justify-content:space-between;align-items:end;font-size:14px;line-height:1.6}.art-foot-tag{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:26px;color:#204030}.art-foot small{font-size:11px;color:#536152;display:block;max-width:590px;margin-top:6px}.art-foot-right{text-align:right}.art-foot a{color:inherit;text-decoration:none}
         #pdf-loading-overlay{position:fixed;inset:0;background:rgba(17,17,17,.86);color:#f2efe7;z-index:99999;display:flex;flex-direction:column;align-items:center;justify-content:center;font-family:var(--font)}
         #pdf-loading-overlay .eyebrow{color:#f2efe7}#pdf-loading-overlay p{font-size:1rem;margin-top:14px}
@@ -3767,8 +3767,7 @@ const pdfPublicText = (value,p) => {
 const pdfSummary = p => {
     const text=pdfPublicText(p.desc,p);
     if (!text) return 'Conheça os ambientes, a localização e as características deste imóvel. A equipe Arbor acompanha você na visita e apresenta os detalhes para uma escolha bem cuidada.';
-    if(text.length<=1500)return text;
-    const cut=text.slice(0,1498);return cut.slice(0,cut.lastIndexOf(' '))+'…';
+    return text;
 };
 // Aquarela desenhada em canvas (html2canvas não renderiza filtros SVG): manchas de contorno irregular, camadas translúcidas e borda de tinta seca.
 const pdfRng = seed => () => (seed = (seed * 1664525 + 1013904223) >>> 0) / 4294967296;
@@ -3852,7 +3851,7 @@ const pdfArborLogo = async () => {
     const img=new Image();img.src='data:image/svg+xml;charset=utf-8,'+encodeURIComponent(new XMLSerializer().serializeToString(svg));await img.decode();
     const c=document.createElement('canvas');c.width=480;c.height=Math.round(480*box[3]/box[2]);c.getContext('2d').drawImage(img,0,0,c.width,c.height);return c.toDataURL('image/png');
 };
-// Ícone da marca recortado e pintado em verde Arbor (html2canvas não aplica filtros CSS).
+// Ícone da marca recortado, na cor original (terracota).
 const pdfIcon = async name => {
     const meta=ARBOR_UPLOADED_ICONS[name];if(!meta)return '';
     try{
@@ -3860,7 +3859,7 @@ const pdfIcon = async name => {
         const [vx,vy,vw,vh]=meta.view.split(/\s+/).map(Number),k=img.naturalWidth/meta.width,S=96,s=Math.min(S/vw,S/vh)*.92;
         const c=document.createElement('canvas');c.width=c.height=S;const x=c.getContext('2d');
         x.drawImage(img,vx*k,vy*k,vw*k,vh*k,(S-vw*s)/2,(S-vh*s)/2,vw*s,vh*s);
-        x.globalCompositeOperation='source-in';x.fillStyle='#204030';x.fillRect(0,0,S,S);x.globalCompositeOperation='source-over';x.drawImage(c,0,0);x.drawImage(c,0,0);
+        
         return c.toDataURL('image/png');
     }catch{return '';}
 };
@@ -3887,7 +3886,11 @@ const buildPresentationPDF = async p => {
         const specs=[];const icons={};for(const n of ['area','bed','suite','bath','car','pool','bbq','auditorium','storage','pantry','office','furnished','sunset','sunrise'])icons[n]=await pdfIcon(n);
         const add=(val,label,suffix='',ic='')=>{if(val&&String(val)!=='0')specs.push(`<div class="art-spec">${icons[ic]?`<img class="art-ico" src="${icons[ic]}" alt="">`:''}<div><strong>${e(String(val).slice(0,12))}${suffix}</strong><span>${label}</span></div></div>`);};
         add(p.areaPrivativa||p.areaTotal||p.area,'Área',' m²','area');add(p.beds,'Quartos','','bed');add(p.suites,'Suítes','','suite');add(p.baths||p.bathrooms||p.banheiros,'Banheiros','','bath');add(p.garage,'Vagas','','car');
-        const features=(Array.isArray(p.caracteristicas)?p.caracteristicas:[]).map(v=>publicField(v)).filter(Boolean).slice(0,8).map(v=>`<span class="art-chip">${icons[pdfFeatureKey(v)]?`<img src="${icons[pdfFeatureKey(v)]}" alt="">`:''}${e(v.slice(0,32))}</span>`).join('');
+        const featList=(Array.isArray(p.caracteristicas)?p.caracteristicas:[]).map(v=>publicField(v)).filter(Boolean).slice(0,10);
+        const featIcons=featList.map(v=>icons[pdfFeatureKey(v)]||'');
+        const features=featList.map((v,i)=>`<span class="art-chip">${featIcons[i]?`<img src="${featIcons[i]}" alt="">`:''}${e(v.slice(0,34))}</span>`).join('');
+        const extraIcons={mob:icons.furnished,sol:icons.orientation};
+        const extras=[p.condominio?['cond','Condomínio',formatBRL(p.condominio)]:null,p.iptu?['iptu','IPTU anual',formatBRL(p.iptu)]:null,(p.mobiliado&&String(p.mobiliado).trim()&&String(p.mobiliado).toLowerCase()!=='não')?['mob','Mobiliado','Sim']:null,(p.orientacaoSolar&&String(p.orientacaoSolar).trim())?['sol','Orientação',p.orientacaoSolar]:null].filter(Boolean).map(([k,l,v])=>`<div class="art-extra">${extraIcons[k]?`<img src="${extraIcons[k]}" alt="">`:''}<div><span>${l}</span><strong>${e(String(v).slice(0,24))}</strong></div></div>`).join('');
         const price=p.priceVenda&&p.priceAluguel?`${e(formatBRL(p.priceVenda))}<div class="art-fees">Aluguel ${e(formatBRL(p.priceAluguel))}/mês</div>`:e(formatPropertyPrice(p));
         const page=document.createElement('section');page.className='art-sheet';
         page.innerHTML=`<img class="art-paper" src="${pdfWatercolorPaper()}" alt=""><div class="art-body">
@@ -3896,7 +3899,7 @@ const buildPresentationPDF = async p => {
             ${photos.length?`<img class="art-hero" src="${photos[0]}" alt="Foto principal">${photos.length>1?`<div class="art-film">${photos.slice(1).map(src=>`<img src="${src}" alt="Ambiente do imóvel">`).join('')}</div>`:''}`:'<div class="art-no-photo">Fotos disponíveis com a equipe Arbor</div>'}
             <div class="art-photo-caption">${photos.length?'Fotografias com tratamento artístico em aquarela.':''}${photos.length<urls.length?' Algumas fotos não puderam ser incluídas.':''}</div>
             ${specs.length?`<div class="art-specs">${specs.join('')}</div>`:''}
-            <div class="art-copy"><div class="art-summary"><div class="art-kicker">Um olhar sobre o imóvel</div><p>${e(pdfSummary(p))}</p>${features?`<div class="art-features">${features}</div>`:''}</div><div class="art-finance"><div class="art-kicker">${e(publicField(p.operacao)||'Valor')}</div><div class="art-price">${price}</div><div class="art-fees">${p.condominio?`Condomínio ${e(formatBRL(p.condominio))}<br>`:''}${p.iptu?`IPTU anual ${e(formatBRL(p.iptu))}`:''}</div></div></div>
+            <div class="art-copy"><div class="art-finance"><div class="art-fin-main"><div class="art-kicker">${e(publicField(p.operacao)||'Valor')}</div><div class="art-price">${price}</div></div>${extras?`<div class="art-extras">${extras}</div>`:''}</div><div class="art-summary"><div class="art-kicker">Um olhar sobre o imóvel</div><p>${e(pdfSummary(p))}</p>${features?`<div class="art-features">${features}</div>`:''}</div></div>
             <footer class="art-foot"><div><span class="art-foot-tag">Uma só raiz. Um só propósito.</span><small>Valores e disponibilidade sujeitos a confirmação. Localização apresentada por bairro e cidade.</small></div><div class="art-foot-right">arborimoveis.com.br<br>(62) 98485-4468</div></footer></div>`;
         root.appendChild(page);
         await document.fonts.ready;
@@ -3904,9 +3907,9 @@ const buildPresentationPDF = async p => {
         // Ajustar apenas quando o conteúdo medido exigir; nunca exportar texto cortado.
         {const cp=page.querySelector('.art-copy'),ft=page.querySelector('.art-foot'),sm=page.querySelector('.art-summary p');
         const over=()=>cp.offsetTop+cp.offsetHeight+16>ft.offsetTop||page.querySelector('.art-body').scrollHeight>1584;
-        let fs=18;while(over()&&fs>13){fs--;sm.style.fontSize=fs+'px';}
+        let fs=17;while(over()&&fs>14){fs--;sm.style.fontSize=fs+'px';}
         if(over())page.querySelectorAll('.art-film img').forEach(i=>i.style.setProperty('height','110px'));
-        fs=13;while(over()&&sm.textContent.length>200){sm.textContent=sm.textContent.slice(0,Math.floor(sm.textContent.length*.9)).replace(/\s+\S*$/,'')+'…';}}
+        while(over()&&sm.textContent.length>200){const t=sm.textContent.slice(0,Math.floor(sm.textContent.length*.92));const i=Math.max(t.lastIndexOf('. '),t.lastIndexOf('! '),t.lastIndexOf('? '));sm.textContent=(i>120?t.slice(0,i+1):t.replace(/\s+\S*$/,'')+'…');}}
         showPdfOverlay('Finalizando sua ficha…');
         const canvas=await window.html2canvas(page,{scale:2,useCORS:true,backgroundColor:'#faf7f0',width:1120,height:1584,windowWidth:1280});
         const doc=new window.jspdf.jsPDF({orientation:'portrait',unit:'mm',format:'a4'});
