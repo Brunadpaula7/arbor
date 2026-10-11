@@ -642,6 +642,70 @@
         .temp-zone.quente p{ color:rgba(255,255,255,0.85); }
         .temp-zone.fria p{ color:var(--grafite); }
 
+        /* ---------- Journal (notícias diárias) ---------- */
+        .jn-head{ max-width:820px; margin-bottom:34px; }
+        .jn-head .eyebrow{ display:block; margin-bottom:16px; }
+        .jn-head h2{ font-size:clamp(2rem,3.4vw,3.2rem); margin-bottom:18px; }
+        .jn-lead-text{ font-size:1rem; line-height:1.75; color:var(--grafite); max-width:680px; margin:0 0 20px; }
+        .jn-meta{ display:inline-flex; align-items:center; gap:10px; font-size:.68rem; letter-spacing:.16em; text-transform:uppercase; color:var(--verde); }
+        .jn-dot{ width:8px; height:8px; border-radius:50%; background:var(--verde); box-shadow:0 0 0 0 rgba(32,64,48,.45); animation:jnPulse 2.4s ease-out infinite; }
+        @keyframes jnPulse{ 70%{ box-shadow:0 0 0 9px rgba(32,64,48,0); } 100%{ box-shadow:0 0 0 0 rgba(32,64,48,0); } }
+
+        .jn-filters{ display:flex; gap:10px; overflow-x:auto; padding:2px 0 14px; margin-bottom:26px; scrollbar-width:none; border-bottom:1px solid var(--line); }
+        .jn-filters::-webkit-scrollbar{ display:none; }
+        .jn-chip{ flex:0 0 auto; display:inline-flex; align-items:center; gap:8px; padding:11px 18px; border-radius:999px; border:1px solid rgba(17,17,17,.18); font-size:.7rem; letter-spacing:.12em; text-transform:uppercase; color:var(--onix); transition:background .3s var(--ease), color .3s var(--ease), border-color .3s var(--ease); }
+        .jn-chip:hover{ border-color:var(--verde); color:var(--verde); }
+        .jn-chip:focus-visible{ outline:2px solid var(--terracota); outline-offset:3px; }
+        .jn-chip.is-active{ background:var(--verde); border-color:var(--verde); color:var(--areia-soft); }
+        .jn-count{ font-size:.62rem; opacity:.65; }
+        .jn-count:empty{ display:none; }
+
+        .jn-top{ display:grid; grid-template-columns:minmax(0,1.5fr) minmax(0,1fr); gap:28px; margin-bottom:28px; }
+        .jn-lead{ position:relative; display:flex; flex-direction:column; justify-content:flex-end; min-height:420px; padding:40px; border-radius:24px; background:var(--verde-deep); color:var(--areia-soft); overflow:hidden; transition:transform .5s var(--ease), box-shadow .5s var(--ease); }
+        .jn-lead::before{ content:''; position:absolute; right:-90px; top:-90px; width:340px; height:340px; border-radius:50%; background:radial-gradient(circle, rgba(188,149,112,.34), rgba(188,149,112,0) 68%); pointer-events:none; }
+        .jn-lead:hover{ transform:translateY(-4px); box-shadow:0 26px 50px -30px rgba(17,17,17,.55); }
+        .jn-lead .jn-tags{ position:relative; margin-bottom:auto; }
+        .jn-lead h3{ position:relative; font-size:clamp(1.5rem,2.4vw,2.2rem); line-height:1.18; color:#fff; margin:30px 0 22px; font-weight:300; }
+        .jn-lead .jn-foot{ position:relative; color:rgba(227,217,200,.78); border-top:1px solid var(--line-dark); padding-top:16px; }
+        .jn-lead .jn-tag{ color:var(--areia); }
+        .jn-lead .jn-local{ background:rgba(188,149,112,.18); color:var(--areia); }
+        .jn-lead .jn-arrow{ color:var(--areia); }
+
+        .jn-side{ display:flex; flex-direction:column; border:1px solid var(--line); border-radius:24px; background:rgba(242,239,231,.6); padding:8px 28px; }
+        .jn-side-head{ font-size:.62rem; letter-spacing:.22em; text-transform:uppercase; color:var(--verde); padding:22px 0 12px; }
+        .jn-row{ display:block; padding:18px 0; border-top:1px solid var(--line); transition:padding-left .35s var(--ease); }
+        .jn-row:first-of-type{ border-top:0; }
+        .jn-row:hover{ padding-left:6px; }
+        .jn-row h4{ font-size:.98rem; line-height:1.4; font-weight:300; color:var(--onix); margin:8px 0 10px; }
+        .jn-row:hover h4{ color:var(--verde); }
+
+        .jn-feed{ display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:24px; }
+        .jn-card{ display:flex; flex-direction:column; gap:14px; padding:28px; border:1px solid var(--line); border-radius:20px; background:var(--areia-soft); transition:transform .45s var(--ease), box-shadow .45s var(--ease), border-color .45s var(--ease); }
+        .jn-card:hover{ transform:translateY(-5px); border-color:rgba(32,64,48,.28); box-shadow:0 22px 40px -30px rgba(17,17,17,.45); }
+        .jn-card h4{ font-size:1.02rem; line-height:1.42; font-weight:300; color:var(--onix); display:-webkit-box; -webkit-line-clamp:5; -webkit-box-orient:vertical; overflow:hidden; }
+        .jn-card .jn-foot{ margin-top:auto; padding-top:6px; }
+        .jn-lead:focus-visible,.jn-row:focus-visible,.jn-card:focus-visible{ outline:2px solid var(--terracota); outline-offset:4px; }
+
+        .jn-tags{ display:flex; flex-wrap:wrap; align-items:center; gap:8px; }
+        .jn-tag{ font-size:.6rem; letter-spacing:.16em; text-transform:uppercase; color:var(--verde); }
+        .jn-local{ font-size:.58rem; letter-spacing:.12em; text-transform:uppercase; padding:4px 9px; border-radius:999px; background:rgba(32,64,48,.08); color:var(--verde); }
+        .jn-foot{ display:flex; align-items:center; gap:8px; font-size:.74rem; color:rgba(17,17,17,.6); }
+        .jn-foot .jn-src{ font-weight:400; min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+        .jn-foot .jn-arrow{ margin-left:auto; flex:0 0 auto; width:16px; height:16px; color:var(--verde); transition:transform .35s var(--ease); }
+        a:hover > .jn-foot .jn-arrow, a:hover .jn-foot .jn-arrow{ transform:translate(3px,-3px); }
+
+        .jn-state{ grid-column:1/-1; text-align:center; padding:70px 24px; border:1px dashed rgba(32,64,48,.28); border-radius:24px; color:var(--grafite); }
+        .jn-state strong{ display:block; font-size:1.15rem; font-weight:300; margin-bottom:8px; color:var(--onix); }
+        .jn-state p{ margin:0 auto; max-width:460px; font-size:.9rem; line-height:1.7; }
+        .jn-skel{ min-height:150px; border-radius:20px; background:linear-gradient(100deg, rgba(17,17,17,.05) 30%, rgba(17,17,17,.10) 50%, rgba(17,17,17,.05) 70%); background-size:200% 100%; animation:jnShimmer 1.4s linear infinite; }
+        @keyframes jnShimmer{ to{ background-position:-200% 0; } }
+
+        .jn-more-wrap{ display:flex; justify-content:center; margin:40px 0 0; }
+        .jn-more-wrap .btn[hidden]{ display:none; }
+        .jn-disclaimer{ max-width:640px; margin:30px auto 0; text-align:center; font-size:.74rem; line-height:1.7; color:rgba(17,17,17,.55); }
+        .jn-guides{ margin-top:110px; padding-top:70px; border-top:1px solid var(--line); }
+        .jn-guides-title{ font-size:clamp(1.5rem,2.4vw,2.1rem); }
+
         .news-grid{ display:grid; grid-template-columns:repeat(2,1fr); gap:28px; }
         .news-card{ background:var(--areia-soft); border:1px solid var(--line); border-radius:20px; padding:34px; }
         .news-tag{ font-size:0.6rem; letter-spacing:0.16em; text-transform:uppercase; color:var(--verde); margin-bottom:14px; display:block; }
@@ -708,6 +772,9 @@
             .detail-thumb-grid{ grid-template-columns:repeat(3,1fr); }
             .bairros-grid{ grid-template-columns:repeat(2,1fr); }
             .news-grid{ grid-template-columns:1fr; }
+            .jn-top{ grid-template-columns:1fr; }
+            .jn-lead{ min-height:340px; }
+            .jn-feed{ grid-template-columns:repeat(2,minmax(0,1fr)); }
             .jornada-track{ flex-direction:column; align-items:flex-start; gap:26px; }
             .j-step{ text-align:left; padding-left:0; width:100%; }
             .j-step:not(:last-child)::after{ display:none; }
@@ -718,6 +785,13 @@
             .j-step.is-active > p{ display:block; animation:jornadaDetailIn .32s ease both; }
             .jornada-detail{ display:none !important; }
             .temp-bar{ flex-direction:column; }
+        }
+        @media (max-width:720px){
+            .jn-feed{ grid-template-columns:1fr; }
+            .jn-lead{ padding:28px; min-height:300px; }
+            .jn-side{ padding:4px 22px; }
+            .jn-card{ padding:24px; }
+            .jn-guides{ margin-top:80px; padding-top:50px; }
         }
         @media (max-width:720px){
             .hero{ min-height:auto; padding:106px 6vw 62px; gap:34px; }
@@ -2062,40 +2136,63 @@
 
 <section id="noticias-view" class="view-hidden page-view">
     <button class="back-btn" id="noticias-back-btn"><i data-lucide="arrow-left" style="width:14px"></i> Voltar à Home</button>
-    <div class="sec-head reveal">
+
+    <header class="jn-head reveal">
         <span class="eyebrow">Journal Arbor</span>
-        <h2>Para decidir com mais segurança</h2>
+        <h2>O mercado imobiliário de Goiânia, <em>todos os dias</em></h2>
+        <p class="jn-lead-text">Curadoria diária do que move o setor em Goiânia e região: lançamentos das incorporadoras, financiamento, mudanças de regras e os números do mercado.</p>
+        <div class="jn-meta" aria-live="polite"><span class="jn-dot" aria-hidden="true"></span><span id="jn-updated">Carregando notícias…</span></div>
+    </header>
+
+    <div class="jn-filters" id="jn-filters" role="group" aria-label="Filtrar notícias">
+        <button type="button" class="jn-chip is-active" data-filter="all" aria-pressed="true">Tudo <span class="jn-count"></span></button>
+        <button type="button" class="jn-chip" data-filter="local" aria-pressed="false">Goiânia e região <span class="jn-count"></span></button>
+        <button type="button" class="jn-chip" data-filter="lancamentos" aria-pressed="false">Lançamentos <span class="jn-count"></span></button>
+        <button type="button" class="jn-chip" data-filter="financiamento" aria-pressed="false">Financiamento <span class="jn-count"></span></button>
+        <button type="button" class="jn-chip" data-filter="regras" aria-pressed="false">Regras e leis <span class="jn-count"></span></button>
+        <button type="button" class="jn-chip" data-filter="mercado" aria-pressed="false">Mercado <span class="jn-count"></span></button>
     </div>
-    <div class="news-grid reveal">
-        <div class="news-card">
-            <span class="news-tag">Guia</span>
-            <h3>Documentação para comprar um imóvel usado</h3>
-            <p>Antes de fechar negócio, vale checar a matrícula atualizada, certidões negativas do vendedor e do imóvel, e a situação do IPTU. Esses documentos evitam surpresas depois da assinatura.</p>
+
+    <div id="jn-board" class="jn-board"></div>
+    <div class="jn-more-wrap"><button type="button" class="btn btn-line" id="jn-more" hidden>Ver mais notícias</button></div>
+    <p class="jn-disclaimer">Manchetes reunidas automaticamente de veículos de imprensa. Ao clicar, você acessa a matéria no site original; o conteúdo é de responsabilidade de cada veículo.</p>
+
+    <div class="jn-guides">
+        <div class="sec-head">
+            <span class="eyebrow">Guias Arbor</span>
+            <h3 class="jn-guides-title">Para decidir com mais segurança</h3>
         </div>
-        <div class="news-card">
-            <span class="news-tag">Explicação</span>
-            <h3>O que é ágio e como funciona a revenda na planta</h3>
-            <p>Ágio é a diferença entre o valor pago na planta e o valor de mercado do imóvel em um momento posterior. A revenda costuma ser mais fácil no lançamento e na entrega — no meio da obra, tende a exigir um preço mais competitivo.</p>
-        </div>
-        <div class="news-card">
-            <span class="news-tag">Custos</span>
-            <h3>IPTU, condomínio e o que pesa na decisão</h3>
-            <p>Além do valor do imóvel, vale considerar o custo mensal de condomínio e o IPTU anual — eles impactam diretamente o orçamento de quem vai morar ou o retorno de quem vai alugar.</p>
-        </div>
-        <div class="news-card">
-            <span class="news-tag">Financiamento</span>
-            <h3>Pontos de atenção antes de financiar</h3>
-            <p>Comparar taxas entre bancos, entender o sistema de amortização e simular o valor final com juros ajuda a evitar comprometer a renda além do confortável.</p>
-        </div>
-        <div class="news-card">
-            <span class="news-tag">Precificação</span>
-            <h3>Como saber se o preço está justo</h3>
-            <p>Comparar imóveis semelhantes na mesma região, considerar o estado de conservação e o tempo médio de venda do bairro são bons pontos de partida antes de fazer uma proposta.</p>
-        </div>
-        <div class="news-card">
-            <span class="news-tag">Planejamento</span>
-            <h3>Quando vale esperar para vender</h3>
-            <p>Se o imóvel foi comprado na planta e ainda está em obras, esperar pela entrega das chaves costuma trazer mais liquidez — a não ser que o valor oferecido hoje já esteja bastante atrativo.</p>
+        <div class="news-grid">
+            <div class="news-card">
+                <span class="news-tag">Guia</span>
+                <h3>Documentação para comprar um imóvel usado</h3>
+                <p>Antes de fechar negócio, vale checar a matrícula atualizada, certidões negativas do vendedor e do imóvel, e a situação do IPTU. Esses documentos evitam surpresas depois da assinatura.</p>
+            </div>
+            <div class="news-card">
+                <span class="news-tag">Explicação</span>
+                <h3>O que é ágio e como funciona a revenda na planta</h3>
+                <p>Ágio é a diferença entre o valor pago na planta e o valor de mercado do imóvel em um momento posterior. A revenda costuma ser mais fácil no lançamento e na entrega — no meio da obra, tende a exigir um preço mais competitivo.</p>
+            </div>
+            <div class="news-card">
+                <span class="news-tag">Custos</span>
+                <h3>IPTU, condomínio e o que pesa na decisão</h3>
+                <p>Além do valor do imóvel, vale considerar o custo mensal de condomínio e o IPTU anual — eles impactam diretamente o orçamento de quem vai morar ou o retorno de quem vai alugar.</p>
+            </div>
+            <div class="news-card">
+                <span class="news-tag">Financiamento</span>
+                <h3>Pontos de atenção antes de financiar</h3>
+                <p>Comparar taxas entre bancos, entender o sistema de amortização e simular o valor final com juros ajuda a evitar comprometer a renda além do confortável.</p>
+            </div>
+            <div class="news-card">
+                <span class="news-tag">Precificação</span>
+                <h3>Como saber se o preço está justo</h3>
+                <p>Comparar imóveis semelhantes na mesma região, considerar o estado de conservação e o tempo médio de venda do bairro são bons pontos de partida antes de fazer uma proposta.</p>
+            </div>
+            <div class="news-card">
+                <span class="news-tag">Planejamento</span>
+                <h3>Quando vale esperar para vender</h3>
+                <p>Se o imóvel foi comprado na planta e ainda está em obras, esperar pela entrega das chaves costuma trazer mais liquidez — a não ser que o valor oferecido hoje já esteja bastante atrativo.</p>
+            </div>
         </div>
     </div>
 </section>
@@ -3263,6 +3360,162 @@ const renderGrid = () => {
     if (window.lucide) lucide.createIcons();
 };
 
+/* ---------- Journal: notícias diárias (lê noticias.json, atualizado pelo GitHub Actions) ---------- */
+const JN_LABEL = { lancamentos:'Lançamentos', financiamento:'Financiamento', regras:'Regras e leis', mercado:'Mercado' };
+const jn = { items:[], loaded:false, loading:false, filter:'all', visible:9 };
+
+const jnTimeAgo = (iso) => {
+    const d = new Date(iso), diff = (Date.now() - d.getTime()) / 36e5;
+    if (diff < 1) return 'agora há pouco';
+    if (diff < 24) return `há ${Math.floor(diff)} h`;
+    const days = Math.floor(diff / 24);
+    if (days === 1) return 'ontem';
+    if (days < 7) return `há ${days} dias`;
+    return d.toLocaleDateString('pt-BR', { day:'2-digit', month:'short' }).replace('.', '');
+};
+
+const jnEl = (tag, cls, text) => {
+    const e = document.createElement(tag);
+    if (cls) e.className = cls;
+    if (text != null) e.textContent = text;
+    return e;
+};
+
+const jnTags = (it) => {
+    const w = jnEl('div', 'jn-tags');
+    w.appendChild(jnEl('span', 'jn-tag', JN_LABEL[it.cat] || 'Mercado'));
+    if (it.local) w.appendChild(jnEl('span', 'jn-local', 'Goiânia e região'));
+    return w;
+};
+
+const jnFoot = (it) => {
+    const f = jnEl('div', 'jn-foot');
+    f.appendChild(jnEl('span', 'jn-src', it.source));
+    f.appendChild(jnEl('span', null, '·'));
+    const t = jnEl('time', null, jnTimeAgo(it.date));
+    t.dateTime = it.date;
+    f.appendChild(t);
+    const ic = document.createElement('i');
+    ic.className = 'jn-arrow';
+    ic.setAttribute('data-lucide', 'arrow-up-right');
+    f.appendChild(ic);
+    return f;
+};
+
+const jnLink = (it, cls) => {
+    const a = jnEl('a', cls);
+    a.href = /^https:\/\//.test(it.url) ? it.url : '#';
+    a.target = '_blank';
+    a.rel = 'noopener noreferrer';
+    a.setAttribute('aria-label', `${it.title} — ${it.source} (abre em nova aba)`);
+    return a;
+};
+
+const jnState = (title, text) => {
+    const d = jnEl('div', 'jn-state');
+    d.appendChild(jnEl('strong', null, title));
+    d.appendChild(jnEl('p', null, text));
+    return d;
+};
+
+const jnFiltered = () => jn.items.filter(i => jn.filter === 'all' ? true : jn.filter === 'local' ? i.local : i.cat === jn.filter);
+
+const renderJournal = () => {
+    const board = $('jn-board');
+    const list = jnFiltered();
+    board.replaceChildren();
+
+    document.querySelectorAll('.jn-chip').forEach(c => {
+        const f = c.dataset.filter;
+        const n = jn.items.filter(i => f === 'all' ? true : f === 'local' ? i.local : i.cat === f).length;
+        c.querySelector('.jn-count').textContent = jn.loaded && n ? n : '';
+        const on = f === jn.filter;
+        c.classList.toggle('is-active', on);
+        c.setAttribute('aria-pressed', on);
+    });
+
+    if (!list.length) {
+        board.appendChild(jnState(
+            jn.items.length ? 'Nada nesta categoria por enquanto' : 'Estamos reunindo as primeiras notícias',
+            jn.items.length ? 'Escolha outra categoria ou volte mais tarde — o Journal é atualizado várias vezes ao dia.'
+                            : 'O Journal é atualizado automaticamente todos os dias. Volte em instantes para ver as manchetes do mercado.'));
+        $('jn-more').hidden = true;
+        return;
+    }
+
+    const [lead, ...rest] = list;
+    const side = rest.slice(0, 4);
+    const feed = rest.slice(4);
+
+    const top = jnEl('div', 'jn-top');
+    const a = jnLink(lead, 'jn-lead');
+    a.appendChild(jnTags(lead));
+    a.appendChild(jnEl('h3', null, lead.title));
+    a.appendChild(jnFoot(lead));
+    top.appendChild(a);
+
+    if (side.length) {
+        const col = jnEl('div', 'jn-side');
+        col.appendChild(jnEl('div', 'jn-side-head', 'Também em destaque'));
+        side.forEach(it => {
+            const r = jnLink(it, 'jn-row');
+            r.appendChild(jnTags(it));
+            r.appendChild(jnEl('h4', null, it.title));
+            r.appendChild(jnFoot(it));
+            col.appendChild(r);
+        });
+        top.appendChild(col);
+    }
+    board.appendChild(top);
+
+    if (feed.length) {
+        const grid = jnEl('div', 'jn-feed');
+        feed.slice(0, jn.visible).forEach(it => {
+            const c = jnLink(it, 'jn-card');
+            c.appendChild(jnTags(it));
+            c.appendChild(jnEl('h4', null, it.title));
+            c.appendChild(jnFoot(it));
+            grid.appendChild(c);
+        });
+        board.appendChild(grid);
+    }
+    $('jn-more').hidden = feed.length <= jn.visible;
+    if (window.lucide) lucide.createIcons();
+};
+
+const loadJournal = async () => {
+    if (jn.loaded || jn.loading) return;
+    jn.loading = true;
+    const board = $('jn-board');
+    board.replaceChildren();
+    const sk = jnEl('div', 'jn-feed');
+    for (let i = 0; i < 6; i++) sk.appendChild(jnEl('div', 'jn-skel'));
+    board.appendChild(sk);
+    try {
+        const r = await fetch('noticias.json?v=' + Math.floor(Date.now() / 6e5), { cache:'no-cache' });
+        if (!r.ok) throw new Error(r.status);
+        const data = await r.json();
+        jn.items = (data.items || []).filter(i => i && i.title && i.url).sort((a, b) => b.date.localeCompare(a.date));
+        jn.loaded = true;
+        const u = data.updated ? new Date(data.updated) : null;
+        $('jn-updated').textContent = u && !isNaN(u)
+            ? 'Atualizado em ' + u.toLocaleDateString('pt-BR', { day:'2-digit', month:'long' }) + ' às ' + u.toLocaleTimeString('pt-BR', { hour:'2-digit', minute:'2-digit' })
+            : 'Atualizado diariamente';
+        renderJournal();
+    } catch (e) {
+        $('jn-updated').textContent = 'Atualizado diariamente';
+        board.replaceChildren(jnState('Não foi possível carregar as notícias agora', 'Verifique sua conexão e tente novamente em instantes.'));
+    } finally {
+        jn.loading = false;
+    }
+};
+
+document.addEventListener('click', (e) => {
+    const chip = e.target.closest('.jn-chip');
+    if (chip) { jn.filter = chip.dataset.filter; jn.visible = 9; renderJournal(); return; }
+    if (e.target.closest('#jn-more')) { jn.visible += 9; renderJournal(); }
+});
+
 const ALL_VIEWS = ['list-view', 'detail-view', 'bairros-view', 'jornada-view', 'diferenciais-view', 'noticias-view'];
 const showView = (id) => {
     ALL_VIEWS.forEach(v => $(v).classList.toggle('view-hidden', v !== id));
@@ -3304,7 +3557,7 @@ const handleRouting = () => {
     if (hash === '#bairros') { showView('bairros-view'); window.scrollTo(0,0); if (window.lucide) lucide.createIcons(); return; }
     if (hash === '#jornada') { showView('jornada-view'); window.scrollTo(0,0); return; }
     if (hash === '#diferenciais') { showView('diferenciais-view'); window.scrollTo(0,0); if (window.lucide) lucide.createIcons(); return; }
-    if (hash === '#noticias') { showView('noticias-view'); window.scrollTo(0,0); return; }
+    if (hash === '#noticias') { showView('noticias-view'); window.scrollTo(0,0); loadJournal(); if (window.lucide) lucide.createIcons(); return; }
 
     showView('list-view');
     state.activeProp = null;
