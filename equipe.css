@@ -48,3 +48,9 @@ a.equipe-card:hover { transform: translateY(-4px); background: rgba(255,255,255,
 @media (max-width: 900px) { .equipe-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 600px) { .equipe-section { padding: 64px 0; } .equipe-grid { grid-template-columns: 1fr; gap: 24px; } .equipe-retrato { aspect-ratio: 4 / 3.5; } }
 
+
+.equipe-contatos { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 20px; }
+.equipe-contatos a { display: inline-flex; padding: 8px 12px; border: 1px solid var(--line); border-radius: 3px; font-size: .8rem; color: var(--verde); text-decoration: none; }
+.equipe-contatos a:hover { background: rgba(255,255,255,.7); }
+.equipe-contatos a:focus-visible, .equipe-link:focus-visible { outline: 2px solid var(--verde); outline-offset: 3px; }
+.equipe-link { text-decoration: none; }

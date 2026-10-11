@@ -14,12 +14,19 @@
             const lista = membros.filter(m => m.grupo === grupo);
             el('equipe-' + grupo).replaceChildren();
             lista.forEach(m => {
-                const card = document.createElement(m.grupo === 'comercial' ? 'a' : 'article');
+                const card = document.createElement('article');
                 card.className = 'equipe-card';
-                if (m.grupo === 'comercial') card.href = '#equipe=' + encodeURIComponent(m.id);
                 const foto = fotoSegura(m.foto);
                 const iniciais = m.nome.split(/\s+/).filter(Boolean).slice(0, 2).map(n => n[0]).join('');
-                card.innerHTML = `<div class="equipe-retrato"><span aria-hidden="true">${seguro(iniciais)}</span>${foto ? `<img src="${seguro(foto)}" alt="${seguro(m.nome)}" loading="lazy">` : ''}</div><div class="equipe-info"><h3>${seguro(m.nome)}</h3><p>${seguro(m.cargo)}</p>${m.grupo === 'comercial' && m.creci ? `<small>CRECI ${seguro(m.creci)}</small>` : ''}${m.grupo === 'comercial' ? `<span class="equipe-link">Ver imóveis <span aria-hidden="true">↗</span></span><small>${quantidade(m)} imóveis disponíveis</small>` : ''}</div>`;
+                card.innerHTML = `<div class="equipe-retrato"><span aria-hidden="true">${seguro(iniciais)}</span>${foto ? `<img src="${seguro(foto)}" alt="${seguro(m.nome)}" loading="lazy">` : ''}</div><div class="equipe-info"><h3>${seguro(m.nome)}</h3>${m.resumo ? `<p class="equipe-resumo">${seguro(String(m.resumo).slice(0,240))}</p>` : ''}${m.grupo === 'comercial' && m.creci ? `<small>CRECI ${seguro(m.creci)}</small>` : ''}${m.grupo === 'comercial' ? `<a class="equipe-link" href="#equipe=${encodeURIComponent(m.id)}">Ver imóveis <span aria-hidden="true">↗</span></a><small>${quantidade(m)} imóveis disponíveis</small>` : ''}</div>`;
+                const contatos = document.createElement('div');
+                contatos.className = 'equipe-contatos';
+                const links = [];
+                try { const u = new URL(m.instagram); if (u.protocol === 'https:' && ['instagram.com','www.instagram.com'].includes(u.hostname) && /^\/[a-zA-Z0-9._]{1,30}\/$/.test(u.pathname) && !u.username && !u.password) links.push(['Instagram', u.href]); } catch {}
+                if (/^https:\/\/wa\.me\/55[1-9]\d{9,10}$/.test(m.whatsapp || '')) links.push(['WhatsApp', m.whatsapp]);
+                if (/^[a-z0-9.!#$%&'*+/=?^_`{|}~-]+@arborimoveis\.com\.br$/i.test(m.email || '')) links.push(['E-mail', 'mailto:' + m.email]);
+                contatos.innerHTML = links.map(([label, href]) => `<a href="${seguro(href)}"${label === 'E-mail' ? '' : ' target="_blank" rel="noopener noreferrer"'} aria-label="${seguro(label + ' de ' + m.nome)}">${label}</a>`).join('');
+                if (links.length) card.querySelector('.equipe-info')?.appendChild(contatos);
                 card.querySelector('img')?.addEventListener('error', e => e.target.remove());
                 el('equipe-' + grupo).appendChild(card);
             });
