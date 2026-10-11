@@ -520,12 +520,12 @@
         .art-body{position:relative;z-index:1;height:100%;display:flex;flex-direction:column}
         .art-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:20px;border-bottom:1px solid #b89b7a;padding-bottom:18px}
         .art-logo{width:120px;height:114.65px;object-fit:contain}.art-kicker{font-size:14px;letter-spacing:3px;text-transform:uppercase;color:#77634e}.art-code{text-align:right;font-size:16px;line-height:1.7}
-        .art-sheet h1{font-size:48px;line-height:1.12;font-weight:300;margin:0 0 10px;letter-spacing:-1px}.art-location{font-size:21px;color:#657369;margin:0 0 22px}
-        .art-hero{width:984px;height:440px;object-fit:cover;display:block;background:#e6e7dc}.art-film{display:flex;gap:12px;margin-top:12px}.art-film img{height:150px;flex:1;min-width:0;object-fit:cover;width:0}
+        .art-sheet h1{font-size:52px;line-height:1.1;font-weight:300;margin:0 0 10px;letter-spacing:-1.5px;color:#204030}.art-location{font-size:21px;color:#657369;margin:0 0 22px}
+        .art-hero{width:984px;height:440px;object-fit:cover;display:block}.art-film{display:flex;gap:12px;margin-top:12px}.art-film img{height:150px;flex:1;min-width:0;object-fit:cover;width:0}
         .art-no-photo{height:300px;display:flex;align-items:center;justify-content:center;border:1px solid #b7baa9;font-size:22px;color:#617062}
         .art-photo-caption{font-size:12px;letter-spacing:1px;color:#6b7469;margin-top:8px}
         .art-specs{display:flex;gap:24px;padding:22px 0 18px;border-bottom:1px solid #b9beae}.art-spec{flex:1}.art-spec strong{display:block;font-size:27px;font-weight:400}.art-spec span{font-size:13px;text-transform:uppercase;letter-spacing:1px;color:#6b7469}
-        .art-copy{display:flex;gap:36px;margin-top:22px}.art-summary{flex:1.7}.art-summary p{font-size:18px;line-height:1.55;margin:10px 0 0;color:#405244}.art-finance{flex:1;border-left:1px solid #b9beae;padding-left:26px}.art-price{font-size:30px;font-weight:300;line-height:1.25;margin:10px 0}.art-fees{font-size:14px;line-height:1.7;color:#536152}.art-features{font-size:15px;line-height:1.5;color:#657369;margin-top:14px}
+        .art-copy{display:flex;gap:36px;margin-top:22px}.art-summary{flex:1.7}.art-summary p{font-size:18px;line-height:1.55;margin:10px 0 0;color:#405244}.art-finance{flex:1;border-left:1px solid #b9beae;padding-left:26px}.art-price{font-size:30px;font-weight:300;line-height:1.25;margin:10px 0;color:#974315}.art-fees{font-size:14px;line-height:1.7;color:#536152}.art-features{font-size:15px;line-height:1.5;color:#657369;margin-top:14px}
         .art-sheet .art-foot{background:transparent;color:#243c30;text-align:left;margin-top:auto;padding:16px 0 0;border-top:1px solid #b89b7a;display:flex;justify-content:space-between;align-items:end;font-size:14px;line-height:1.6}.art-foot small{font-size:11px;color:#687267;display:block;max-width:590px;margin-top:6px}.art-foot-right{text-align:right}.art-foot a{color:inherit;text-decoration:none}
         #pdf-loading-overlay{position:fixed;inset:0;background:rgba(17,17,17,.86);color:#f2efe7;z-index:99999;display:flex;flex-direction:column;align-items:center;justify-content:center;font-family:var(--font)}
         #pdf-loading-overlay .eyebrow{color:#f2efe7}#pdf-loading-overlay p{font-size:1rem;margin-top:14px}
@@ -3669,21 +3669,79 @@ const pdfSummary = p => {
     if(text.length<=570)return text;
     const cut=text.slice(0,568);return cut.slice(0,cut.lastIndexOf(' '))+'…';
 };
-// Pigmentos translúcidos e grão de papel, reproduzíveis também no PDF.
-const pdfWatercolorPaper = () => {
-    const c=document.createElement('canvas');c.width=1120;c.height=1584;const x=c.getContext('2d');x.fillStyle='#faf7f0';x.fillRect(0,0,c.width,c.height);
-    let seed=42;const rand=()=>{seed=(seed*1664525+1013904223)>>>0;return seed/4294967296;};
-    for(const [cx,cy,r,color] of [[1030,150,370,'95,123,94'],[30,760,240,'172,137,100'],[950,1390,420,'110,134,100'],[120,1520,260,'188,150,116']]){
-        for(let j=0;j<34;j++){const a=rand()*Math.PI*2;const rr=r*(.38+rand()*.6);const gx=cx+Math.cos(a)*r*.22,gy=cy+Math.sin(a)*r*.22;const g=x.createRadialGradient(gx,gy,0,gx,gy,rr);g.addColorStop(0,`rgba(${color},.016)`);g.addColorStop(.68,`rgba(${color},.012)`);g.addColorStop(1,`rgba(${color},0)`);x.fillStyle=g;x.fillRect(gx-rr,gy-rr,rr*2,rr*2);}
-    }
-    const d=x.getImageData(0,0,c.width,c.height);for(let i=0;i<d.data.length;i+=4){const n=(rand()-.5)*7;for(let k=0;k<3;k++)d.data[i+k]=Math.max(0,Math.min(255,d.data[i+k]+n));}x.putImageData(d,0,0);return c.toDataURL('image/png');
+// Aquarela desenhada em canvas (html2canvas não renderiza filtros SVG): manchas de contorno irregular, camadas translúcidas e borda de tinta seca.
+const pdfRng = seed => () => (seed = (seed * 1664525 + 1013904223) >>> 0) / 4294967296;
+const pdfSmoothClosed = (x, pts) => {
+    const n = pts.length, mid = (a, b) => [(a[0] + b[0]) / 2, (a[1] + b[1]) / 2];
+    const s = mid(pts[n - 1], pts[0]);
+    x.beginPath(); x.moveTo(s[0], s[1]);
+    for (let i = 0; i < n; i++) { const m = mid(pts[i], pts[(i + 1) % n]); x.quadraticCurveTo(pts[i][0], pts[i][1], m[0], m[1]); }
+    x.closePath();
 };
-const pdfWatercolorPhoto = img => {
-    const c=document.createElement('canvas');const ratio=Math.min(1,1400/img.naturalWidth);c.width=Math.round(img.naturalWidth*ratio);c.height=Math.round(img.naturalHeight*ratio);const x=c.getContext('2d');
-    x.filter='saturate(.78) contrast(.94) brightness(1.04)';x.drawImage(img,0,0,c.width,c.height);x.filter='none';
-    const d=x.getImageData(0,0,c.width,c.height);for(let i=0;i<d.data.length;i+=4){const grain=((i*13%37)/37-.5)*9;for(let k=0;k<3;k++)d.data[i+k]=Math.min(255,Math.max(0,d.data[i+k]+grain));}x.putImageData(d,0,0);
-    // Bordas lavadas, como pigmento absorvido pelo papel; preservar arquitetura e proporções.
-    for(let i=0;i<10;i++){x.strokeStyle=`rgba(250,247,240,${.045+(10-i)*.007})`;x.lineWidth=2;x.strokeRect(i,i,c.width-i*2,c.height-i*2);}return c.toDataURL('image/jpeg',.94);
+const pdfBlobPoints = (cx, cy, rx, ry, rand, n = 34, jit = .24) => {
+    const ph = [rand() * 6.28, rand() * 6.28, rand() * 6.28], pts = [];
+    for (let i = 0; i < n; i++) {
+        const a = i / n * Math.PI * 2;
+        const k = 1 + jit * (Math.sin(a * 2 + ph[0]) * .5 + Math.sin(a * 3 + ph[1]) * .35 + Math.sin(a * 5 + ph[2]) * .25) + (rand() - .5) * jit * .3;
+        pts.push([cx + Math.cos(a) * rx * k, cy + Math.sin(a) * ry * k]);
+    }
+    return pts;
+};
+const pdfWatercolorPaper = () => {
+    const c = document.createElement('canvas'); c.width = 1120; c.height = 1584;
+    const x = c.getContext('2d'), rand = pdfRng(42);
+    x.fillStyle = '#faf7f0'; x.fillRect(0, 0, c.width, c.height);
+    const wash = (cx, cy, rx, ry, rgb, a) => {
+        x.save();
+        for (let l = 0; l < 4; l++) {
+            x.filter = `blur(${10 + l * 4}px)`;
+            pdfSmoothClosed(x, pdfBlobPoints(cx, cy, rx * (1 - l * .13), ry * (1 - l * .13), rand));
+            x.fillStyle = `rgba(${rgb},${a})`; x.fill();
+        }
+        // borda onde o pigmento seca, um pouco mais escura que o miolo
+        x.filter = 'blur(1.4px)';
+        pdfSmoothClosed(x, pdfBlobPoints(cx, cy, rx * .95, ry * .95, rand));
+        x.strokeStyle = `rgba(${rgb},${a * 1.5})`; x.lineWidth = 3; x.stroke();
+        x.restore();
+    };
+    wash(1050, 130, 400, 300, '95,140,110', .13);
+    wash(60, 50, 280, 170, '169,200,211', .12);
+    wash(-10, 830, 230, 320, '217,178,124', .15);
+    wash(970, 1430, 440, 290, '143,181,154', .14);
+    wash(1060, 1510, 210, 130, '201,116,63', .1);
+    wash(150, 1520, 330, 170, '227,165,143', .15);
+    // respingos de tinta nos cantos
+    for (const [cx, cy, rgb, spread] of [[1010, 330, '151,67,21', 60], [90, 210, '63,122,87', 50], [1030, 1250, '63,122,87', 60], [70, 1330, '151,67,21', 50]]) {
+        for (let i = 0; i < 9; i++) {
+            x.beginPath(); x.arc(cx + (rand() - .5) * spread * 2, cy + (rand() - .5) * spread * 2, 1.5 + rand() * 5, 0, 7);
+            x.fillStyle = `rgba(${rgb},${.18 + rand() * .2})`; x.fill();
+        }
+    }
+    // grão do papel
+    const d = x.getImageData(0, 0, c.width, c.height);
+    for (let i = 0; i < d.data.length; i += 4) { const n = (rand() - .5) * 7; for (let k = 0; k < 3; k++) d.data[i + k] = Math.max(0, Math.min(255, d.data[i + k] + n)); }
+    x.putImageData(d, 0, 0); return c.toDataURL('image/png');
+};
+// Foto recortada em borda irregular (PNG com transparência), com tom lavado e borda de pigmento.
+const pdfWatercolorPhoto = (img, w, h) => {
+    const c = document.createElement('canvas'); c.width = w; c.height = h;
+    const x = c.getContext('2d'), rand = pdfRng(7 + w), m = Math.round(Math.min(w, h) * .035), step = Math.max(22, Math.round(w / 34));
+    const pts = [];
+    const edge = (x0, y0, x1, y1, nx, ny) => { const len = Math.hypot(x1 - x0, y1 - y0), n = Math.max(2, Math.round(len / step)); for (let i = 0; i < n; i++) { const t = i / n, j = (rand() * .9) * m; pts.push([x0 + (x1 - x0) * t + nx * j, y0 + (y1 - y0) * t + ny * j]); } };
+    edge(m, m, w - m, m, 0, 1); edge(w - m, m, w - m, h - m, -1, 0); edge(w - m, h - m, m, h - m, 0, -1); edge(m, h - m, m, m, 1, 0);
+    const shape = () => pdfSmoothClosed(x, pts);
+    const s = Math.max(w / img.naturalWidth, h / img.naturalHeight), dw = img.naturalWidth * s, dh = img.naturalHeight * s;
+    x.save(); shape(); x.clip();
+    x.filter = 'saturate(.78) contrast(.94) brightness(1.04)'; x.drawImage(img, (w - dw) / 2, (h - dh) / 2, dw, dh); x.filter = 'none';
+    x.restore();
+    const d = x.getImageData(0, 0, w, h);
+    for (let i = 0; i < d.data.length; i += 4) { if (!d.data[i + 3]) continue; const grain = ((i * 13 % 37) / 37 - .5) * 9; for (let k = 0; k < 3; k++) d.data[i + k] = Math.min(255, Math.max(0, d.data[i + k] + grain)); }
+    x.putImageData(d, 0, 0);
+    x.save(); shape(); x.clip();
+    x.strokeStyle = 'rgba(250,247,240,.35)'; x.lineWidth = m * 2.4; shape(); x.stroke();
+    x.strokeStyle = 'rgba(36,60,48,.34)'; x.lineWidth = 5; shape(); x.stroke();
+    x.restore();
+    return c.toDataURL('image/png');
 };
 const pdfArborLogo = async () => {
     const response=await fetch('assets/arbor-logo-full-copper.svg?v=original-20261011');if(!response.ok)throw new Error('Logo indisponível');
@@ -3701,7 +3759,7 @@ const buildPresentationPDF = async p => {
     try{
         const urls=[...new Set((Array.isArray(p.photos)?p.photos:[]).filter(u=>typeof u==='string'&&/^https?:\/\//i.test(u)))].slice(0,5);
         const imgs=await Promise.all(urls.map(preloadPdfImage));
-        const photos=imgs.filter(Boolean).map(img=>{try{return pdfWatercolorPhoto(img);}catch{return null;}}).filter(Boolean);
+        const photos=imgs.filter(Boolean).map((img,i)=>{try{return pdfWatercolorPhoto(img,i?640:1400,i?405:626);}catch{return null;}}).filter(Boolean);
         const logo=await pdfArborLogo();
         const e=pdfEscape;const publicField=v=>pdfPublicText(v,p).slice(0,90);
         const type=publicField(formatTipoImovelBR(p.tipo))||'Imóvel';
@@ -3725,7 +3783,7 @@ const buildPresentationPDF = async p => {
         await document.fonts.ready;
         await Promise.all([...page.querySelectorAll('img')].map(img=>img.decode().catch(()=>{})));
         // Ajustar apenas quando o conteúdo medido exigir; nunca exportar texto cortado.
-        if(page.querySelector('.art-foot').offsetTop+page.querySelector('.art-foot').offsetHeight>1476){page.querySelector('.art-summary p').style.fontSize='16px';page.querySelector('.art-hero')?.style.setProperty('height','390px');}
+        if(page.querySelector('.art-foot').offsetTop+page.querySelector('.art-foot').offsetHeight>1476){page.querySelector('.art-summary p').style.fontSize='16px';page.querySelectorAll('.art-film img').forEach(i=>i.style.setProperty('height','120px'));}
         showPdfOverlay('Finalizando sua ficha…');
         const canvas=await window.html2canvas(page,{scale:1.6,useCORS:true,backgroundColor:'#faf7f0',width:1120,height:1584,windowWidth:1280});
         const doc=new window.jspdf.jsPDF({orientation:'portrait',unit:'mm',format:'a4'});
