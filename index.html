@@ -694,6 +694,19 @@
         .jn-foot .jn-arrow{ margin-left:auto; flex:0 0 auto; width:16px; height:16px; color:var(--verde); transition:transform .35s var(--ease); }
         a:hover > .jn-foot .jn-arrow, a:hover .jn-foot .jn-arrow{ transform:translate(3px,-3px); }
 
+        /* imagens das notícias */
+        .jn-img{ position:relative; overflow:hidden; background:var(--verde-deep) url('assets/arbor-logo-full-copper.svg') center/34% no-repeat; }
+        .jn-img img{ position:absolute; inset:0; width:100%; height:100%; object-fit:cover; transition:transform .8s var(--ease); }
+        a:hover > .jn-img img{ transform:scale(1.04); }
+        .jn-card .jn-img{ aspect-ratio:16/10; border-radius:14px; margin:-6px -6px 2px; }
+        .jn-row{ display:grid; grid-template-columns:minmax(0,1fr) 92px; column-gap:16px; align-items:start; }
+        .jn-row > .jn-tags, .jn-row > h4, .jn-row > .jn-foot{ grid-column:1; }
+        .jn-row > .jn-img{ grid-column:2; grid-row:1 / span 3; width:92px; height:92px; border-radius:12px; margin-top:4px; background-size:46%; }
+        .jn-lead > .jn-img{ position:absolute; inset:0; z-index:0; background-size:150px; background-position:right 40px top 40px; }
+        .jn-lead.has-img::before{ display:none; }
+        .jn-lead.has-img::after{ content:''; position:absolute; inset:0; z-index:0; background:linear-gradient(180deg, rgba(17,17,17,.15) 0%, rgba(17,40,30,.55) 45%, rgba(17,32,25,.94) 100%); }
+        .jn-lead > .jn-tags, .jn-lead > h3, .jn-lead > .jn-foot{ position:relative; z-index:1; }
+
         .jn-state{ grid-column:1/-1; text-align:center; padding:70px 24px; border:1px dashed rgba(32,64,48,.28); border-radius:24px; color:var(--grafite); }
         .jn-state strong{ display:block; font-size:1.15rem; font-weight:300; margin-bottom:8px; color:var(--onix); }
         .jn-state p{ margin:0 auto; max-width:460px; font-size:.9rem; line-height:1.7; }
@@ -788,6 +801,8 @@
         }
         @media (max-width:720px){
             .jn-feed{ grid-template-columns:1fr; }
+            .jn-row{ grid-template-columns:minmax(0,1fr) 76px; }
+            .jn-row > .jn-img{ width:76px; height:76px; }
             .jn-lead{ padding:28px; min-height:300px; }
             .jn-side{ padding:4px 22px; }
             .jn-card{ padding:24px; }
@@ -3402,6 +3417,27 @@ const jnFoot = (it) => {
     return f;
 };
 
+const jnImg = (it) => {
+    const box = jnEl('div', 'jn-img');
+    box.setAttribute('aria-hidden', 'true');
+    if (it.img && /^https:\/\//.test(it.img)) {
+        const im = document.createElement('img');
+        im.loading = 'lazy';
+        im.decoding = 'async';
+        im.alt = '';
+        im.referrerPolicy = 'no-referrer';
+        im.addEventListener('error', () => {
+            im.remove();
+            const lead = box.closest('.jn-lead');
+            if (lead) lead.classList.remove('has-img');
+        });
+        im.src = it.img;
+        box.appendChild(im);
+        return { box, has:true };
+    }
+    return { box, has:false };
+};
+
 const jnLink = (it, cls) => {
     const a = jnEl('a', cls);
     a.href = /^https:\/\//.test(it.url) ? it.url : '#';
@@ -3450,6 +3486,9 @@ const renderJournal = () => {
 
     const top = jnEl('div', 'jn-top');
     const a = jnLink(lead, 'jn-lead');
+    const li = jnImg(lead);
+    a.appendChild(li.box);
+    if (li.has) a.classList.add('has-img');
     a.appendChild(jnTags(lead));
     a.appendChild(jnEl('h3', null, lead.title));
     a.appendChild(jnFoot(lead));
@@ -3463,6 +3502,7 @@ const renderJournal = () => {
             r.appendChild(jnTags(it));
             r.appendChild(jnEl('h4', null, it.title));
             r.appendChild(jnFoot(it));
+            r.appendChild(jnImg(it).box);
             col.appendChild(r);
         });
         top.appendChild(col);
@@ -3473,6 +3513,7 @@ const renderJournal = () => {
         const grid = jnEl('div', 'jn-feed');
         feed.slice(0, jn.visible).forEach(it => {
             const c = jnLink(it, 'jn-card');
+            c.appendChild(jnImg(it).box);
             c.appendChild(jnTags(it));
             c.appendChild(jnEl('h4', null, it.title));
             c.appendChild(jnFoot(it));

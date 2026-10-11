@@ -7,6 +7,8 @@ Uso: python3 scripts/update_news.py            (rede real)
      python3 scripts/update_news.py --offline arquivo.xml   (teste com RSS local)
 Somente biblioteca padrão.
 """
+import base64
+import html
 import json
 import re
 import sys
@@ -14,6 +16,7 @@ import unicodedata
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 from pathlib import Path
@@ -23,6 +26,8 @@ MAX_AGE_DAYS = 30      # idade máxima de uma notícia nova
 KEEP_DAYS = 45         # quanto tempo manter no histórico
 MAX_ITEMS = 150
 PER_QUERY = 25
+IMG_PER_RUN = 80       # quantas matérias novas tentamos enriquecer por execução
+UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36"
 
 # (consulta, janela)
 QUERIES = [
@@ -132,6 +137,69 @@ def classify(title, source):
     return cat, local
 
 
+# ---------- imagem de capa da matéria ----------
+def http_get(url, limit=400_000, timeout=8):
+    req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept-Language": "pt-BR,pt;q=0.9"})
+    with urllib.request.urlopen(req, timeout=timeout) as r:
+        return r.geturl(), r.read(limit).decode("utf-8", "ignore")
+
+
+def gnews_real_url(url):
+    """O RSS do Google News traz um link intermediário; descobre o endereço real da matéria."""
+    m = re.search(r"/(?:rss/)?articles/([^?/]+)", url)
+    if not m:
+        return url
+    art = m.group(1)
+    try:  # formato antigo: o endereço vai codificado dentro do próprio id
+        raw = base64.urlsafe_b64decode(art + "=" * (-len(art) % 4))
+        found = re.search(rb"https?://[\x21-\x7e]+", raw)
+        if found:
+            return found.group(0).decode()
+    except Exception:
+        pass
+    _, page = http_get(f"https://news.google.com/rss/articles/{art}")
+    sig = re.search(r'data-n-a-sg="([^"]+)"', page)
+    ts = re.search(r'data-n-a-ts="([^"]+)"', page)
+    if not (sig and ts):
+        raise ValueError("parâmetros do Google News não encontrados")
+    inner = ('["garturlreq",[["X","X",["X","X"],null,null,1,1,"US:en",null,1,null,null,null,null,null,0,1],'
+             f'"X","X",1,[1,1,1],1,1,null,0,0,null,0],"{art}",{ts.group(1)},"{sig.group(1)}"]')
+    body = "f.req=" + urllib.parse.quote(json.dumps([[["Fbv4je", inner]]]))
+    req = urllib.request.Request(
+        "https://news.google.com/_/DotsSplashUi/data/batchexecute", data=body.encode(),
+        headers={"User-Agent": UA, "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8"})
+    with urllib.request.urlopen(req, timeout=10) as r:
+        txt = r.read().decode("utf-8", "ignore")
+    return json.loads(json.loads(txt.split("\n\n")[1])[0][2])[1]
+
+
+def og_image(page, base):
+    for rx in (
+        r'<meta[^>]+(?:property|name)=["\'](?:og:image(?::secure_url)?|twitter:image(?::src)?)["\'][^>]*content=["\']([^"\']+)',
+        r'<meta[^>]+content=["\']([^"\']+)["\'][^>]*(?:property|name)=["\'](?:og:image|twitter:image)["\']',
+    ):
+        m = re.search(rx, page, re.I)
+        if m:
+            img = urllib.parse.urljoin(base, html.unescape(m.group(1).strip()))
+            if img.startswith("https://") and not re.search(r"logo|favicon|placeholder|default", img, re.I):
+                return img
+    return ""
+
+
+def enrich(item):
+    """Preenche item['img'] (e troca o link pelo endereço real, se descoberto). Nunca levanta erro."""
+    item["img"] = ""
+    try:
+        real = gnews_real_url(item["url"]) if "news.google.com" in item["url"] else item["url"]
+        if real.startswith("https://") and "news.google.com" not in real:
+            item["url"] = real
+            base, page = http_get(real)
+            item["img"] = og_image(page, base)
+    except Exception as e:
+        print(f"aviso: sem imagem para '{item['title'][:50]}': {e}", file=sys.stderr)
+    return item
+
+
 def key(title):
     return re.sub(r"[^a-z0-9]+", " ", norm(title)).strip()[:90]
 
@@ -186,6 +254,11 @@ def main():
             pass
     cutoff = (now - timedelta(days=KEEP_DAYS)).strftime("%Y-%m-%dT%H:%M:%SZ")
     final = sorted((i for i in items.values() if i["date"] >= cutoff), key=lambda i: i["date"], reverse=True)[:MAX_ITEMS]
+    pending = [i for i in final if "img" not in i][:IMG_PER_RUN]
+    if pending and "--offline" not in sys.argv:
+        with ThreadPoolExecutor(max_workers=8) as ex:
+            list(ex.map(enrich, pending))
+        print(f"imagens: {sum(1 for i in pending if i['img'])}/{len(pending)} encontradas")
     OUT.write_text(
         json.dumps({"updated": now.strftime("%Y-%m-%dT%H:%M:%SZ"), "items": final}, ensure_ascii=False, indent=1) + "\n",
         "utf-8",
