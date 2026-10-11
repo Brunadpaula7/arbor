@@ -27,6 +27,11 @@ PER_QUERY = 25
 # (consulta, janela)
 QUERIES = [
     '"mercado imobiliário" Goiânia',
+    '"mercado imobiliário" Goiás',
+    'Setor Marista OR "Setor Bueno" OR "Jardim Goiás" imóveis',
+    'incorporadora Goiás lançamento',
+    'Sinduscon-GO OR Secovi-GO OR Creci-GO',
+    'financiamento imobiliário Goiás',
     'imóveis Goiânia lançamento',
     'construção civil Goiás',
     'incorporadora Goiânia lançamento empreendimento',
@@ -55,6 +60,28 @@ CATEGORIES = [  # ordem = prioridade
     ("financiamento", re.compile(r"financ|credito|juros|selic|fgts|caixa|minha casa|taxa|consorcio|sbpe|poupanca|parcela")),
     ("regras", re.compile(r"\blei\b|decreto|plano diretor|itbi|iptu|regra|norma|reforma tributaria|stj|stf|cartorio|resolucao|mudanc|projeto de lei|tributa|imposto")),
 ]
+
+
+# manchetes que não interessam ao leitor da Arbor
+EXCLUDE = re.compile(r"leilao|leiloa|leiloes|arremat|cargos e salarios|vagas? de emprego|curso gratuito")
+EXCLUDE_SOURCES = re.compile(r"instagram|facebook|youtube|tiktok|linkedin|kwai|portal salario|pinterest|reddit")
+# estados/capitais de fora: só descartam notícia que NÃO é de Goiás
+OTHER_PLACES = re.compile(
+    r"rondonia|acre\b|amazonas|roraima|amapa|para\b|tocantins|maranhao|piaui|ceara|rio grande do norte|paraiba|pernambuco|"
+    r"alagoas|sergipe|bahia|minas gerais|espirito santo|parana|santa catarina|rio grande do sul|mato grosso|"
+    r"porto velho|manaus|belem|fortaleza|recife|salvador|natal|joao pessoa|maceio|aracaju|teresina|sao luis|curitiba|"
+    r"florianopolis|porto alegre|belo horizonte|vitoria|cuiaba|campo grande|palmas|boa vista|macapa|rio branco|"
+    r"rio de janeiro|florianopolis|balneario|camboriu"
+)
+
+
+def clean_source(src):
+    """Google às vezes devolve o domínio no lugar do nome do veículo."""
+    src = src.strip()
+    if " " not in src and "." in src:
+        host = re.sub(r"^www\.", "", src.lower()).split(".")[0]
+        return host.replace("-", " ").title()
+    return src
 
 
 def norm(s):
@@ -92,7 +119,7 @@ def parse(xml_bytes):
 
 def classify(title, source):
     t, s = norm(title), norm(source)
-    if not RELEVANT.search(t):
+    if not RELEVANT.search(t) or EXCLUDE.search(t) or EXCLUDE_SOURCES.search(s):
         return None
     cat = "mercado"
     for name, rx in CATEGORIES:
@@ -100,6 +127,8 @@ def classify(title, source):
             cat = name
             break
     local = bool(LOCAL_TITLE.search(t) or LOCAL_SOURCES.search(s))
+    if not local and OTHER_PLACES.search(t):
+        return None
     return cat, local
 
 
@@ -136,7 +165,7 @@ def main():
             if k in items:
                 continue
             items[k] = {
-                "title": n["title"], "url": n["url"], "source": n["source"],
+                "title": n["title"], "url": n["url"], "source": clean_source(n["source"]),
                 "date": n["date"].strftime("%Y-%m-%dT%H:%M:%SZ"),
                 "cat": c[0], "local": c[1],
             }
@@ -148,6 +177,10 @@ def main():
     if OUT.exists():
         try:
             for old in json.loads(OUT.read_text("utf-8")).get("items", []):
+                c = classify(old["title"], old["source"])
+                if not c:
+                    continue
+                old.update(cat=c[0], local=c[1], source=clean_source(old["source"]))
                 items.setdefault(key(old["title"]), old)
         except Exception:
             pass

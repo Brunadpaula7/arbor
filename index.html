@@ -2140,7 +2140,7 @@
     <header class="jn-head reveal">
         <span class="eyebrow">Journal Arbor</span>
         <h2>O mercado imobiliário de Goiânia, <em>todos os dias</em></h2>
-        <p class="jn-lead-text">Curadoria diária do que move o setor em Goiânia e região: lançamentos das incorporadoras, financiamento, mudanças de regras e os números do mercado.</p>
+        <p class="jn-lead-text">As notícias do dia sobre o setor em Goiânia e região: lançamentos das incorporadoras, financiamento, mudanças de regras e os números do mercado.</p>
         <div class="jn-meta" aria-live="polite"><span class="jn-dot" aria-hidden="true"></span><span id="jn-updated">Carregando notícias…</span></div>
     </header>
 
@@ -3443,7 +3443,8 @@ const renderJournal = () => {
         return;
     }
 
-    const [lead, ...rest] = list;
+    const lead = list.find(i => i.local) || list[0];
+    const rest = list.filter(i => i !== lead);
     const side = rest.slice(0, 4);
     const feed = rest.slice(4);
 
