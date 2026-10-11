@@ -3851,7 +3851,7 @@ const pdfArborLogo = async () => {
     const img=new Image();img.src='data:image/svg+xml;charset=utf-8,'+encodeURIComponent(new XMLSerializer().serializeToString(svg));await img.decode();
     const c=document.createElement('canvas');c.width=480;c.height=Math.round(480*box[3]/box[2]);c.getContext('2d').drawImage(img,0,0,c.width,c.height);return c.toDataURL('image/png');
 };
-// Ícone da marca recortado e pintado em verde Arbor (html2canvas não aplica filtros CSS).
+// Ícone da marca recortado, na cor original (terracota).
 const pdfIcon = async name => {
     const meta=ARBOR_UPLOADED_ICONS[name];if(!meta)return '';
     try{
@@ -3859,7 +3859,7 @@ const pdfIcon = async name => {
         const [vx,vy,vw,vh]=meta.view.split(/\s+/).map(Number),k=img.naturalWidth/meta.width,S=96,s=Math.min(S/vw,S/vh)*.92;
         const c=document.createElement('canvas');c.width=c.height=S;const x=c.getContext('2d');
         x.drawImage(img,vx*k,vy*k,vw*k,vh*k,(S-vw*s)/2,(S-vh*s)/2,vw*s,vh*s);
-        x.globalCompositeOperation='source-in';x.fillStyle='#204030';x.fillRect(0,0,S,S);x.globalCompositeOperation='source-over';x.drawImage(c,0,0);x.drawImage(c,0,0);
+        
         return c.toDataURL('image/png');
     }catch{return '';}
 };
