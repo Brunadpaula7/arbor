@@ -537,9 +537,9 @@
         .art-sheet{width:1120px;height:1584px;box-sizing:border-box;padding:60px 68px 48px;background:#faf7f0;position:relative;font-family:var(--font),sans-serif;color:#243c30;overflow:hidden}
         .art-paper{position:absolute;inset:0;width:100%;height:100%;z-index:0}
         .art-body{position:relative;z-index:1;height:100%;display:flex;flex-direction:column}
-        .art-head{display:flex;justify-content:space-between;align-items:center;margin:0 0 24px;padding:0 0 20px;border-bottom:2px solid #204030;color:#204030}.art-head .art-kicker{color:#974315;font-weight:500}.art-head .art-code{color:#204030;font-weight:500}
-        .art-logo{height:150px;width:auto;object-fit:contain}.art-kicker{font-size:14px;letter-spacing:3px;text-transform:uppercase;color:#77634e}.art-code{text-align:right;font-size:16px;line-height:1.7}
-        .art-sheet h1{font-size:52px;line-height:1.1;font-weight:300;margin:0 0 10px;letter-spacing:-1.5px;color:#204030}.art-location{font-size:21px;color:#657369;margin:0 0 22px}
+        .art-head{display:flex;justify-content:space-between;align-items:center;margin:0 0 14px;padding:0 0 12px;border-bottom:2px solid #204030;color:#204030}.art-head .art-kicker{color:#974315;font-weight:500}.art-head .art-code{color:#204030;font-weight:500}
+        .art-logo{height:92px;width:auto;object-fit:contain}.art-kicker{font-size:14px;letter-spacing:3px;text-transform:uppercase;color:#77634e}.art-code{text-align:right;font-size:16px;line-height:1.7}
+        .art-sheet h1{font-size:46px;line-height:1.1;font-weight:300;margin:0 0 6px;letter-spacing:-1.5px;color:#204030}.art-location{font-size:21px;color:#657369;margin:0 0 16px}
         .art-hero{width:984px;height:440px;object-fit:cover;display:block}.art-film{display:flex;gap:12px;margin-top:12px}.art-film img{height:150px;flex:1;min-width:0;object-fit:cover;width:0}
         .art-no-photo{height:300px;display:flex;align-items:center;justify-content:center;border:1px solid #b7baa9;font-size:22px;color:#617062}
         .art-photo-caption{font-size:12px;letter-spacing:1px;color:#6b7469;margin-top:8px}
@@ -3907,7 +3907,6 @@ const buildPresentationPDF = async p => {
         // Ajustar apenas quando o conteúdo medido exigir; nunca exportar texto cortado.
         {const cp=page.querySelector('.art-copy'),ft=page.querySelector('.art-foot'),sm=page.querySelector('.art-summary p');
         const over=()=>cp.offsetTop+cp.offsetHeight+16>ft.offsetTop||page.querySelector('.art-body').scrollHeight>1584;
-        if(over()){const hero=page.querySelector('.art-hero');if(hero)hero.style.height='360px';page.querySelectorAll('.art-film img').forEach(i=>i.style.setProperty('height','115px'));}
         let fs=17;while(over()&&fs>14){fs--;sm.style.fontSize=fs+'px';}
         if(over())page.querySelectorAll('.art-film img').forEach(i=>i.style.setProperty('height','110px'));
         while(over()&&sm.textContent.length>200){const t=sm.textContent.slice(0,Math.floor(sm.textContent.length*.92));const i=Math.max(t.lastIndexOf('. '),t.lastIndexOf('! '),t.lastIndexOf('? '));sm.textContent=(i>120?t.slice(0,i+1):t.replace(/\s+\S*$/,'')+'…');}}
