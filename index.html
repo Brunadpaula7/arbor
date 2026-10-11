@@ -2343,16 +2343,10 @@ const arborIcon = (name, className = 'arbor-attr-icon') => {
     const icon=ARBOR_UPLOADED_ICONS[name];
     return icon ? `<svg class="${className}" viewBox="${icon.view}" aria-hidden="true"><image href="assets/icons/${name}.png" width="${icon.width}" height="${icon.height}"/></svg>` : `<svg class="${className}" viewBox="${ARBOR_ICON_VIEWS[name] || '0 0 100 100'}" aria-hidden="true"><use href="assets/arbor-brand.svg#icon-${name}"></use></svg>`;
 };
-const featureLucide = text => {
-    const t=String(text).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
-    const map=[[/academia|fitness|musculacao/,'Dumbbell'],[/portaria|seguranca|vigilancia|guarita/,'ShieldCheck'],[/varanda|sacada|terraco/,'Sun'],[/brinquedoteca|playground|infantil/,'Baby'],[/elevador/,'ArrowUpDown'],[/ar condicionado|climatiz|split/,'Snowflake'],[/salao de festas|festas|espaco gourmet|gourmet/,'PartyPopper'],[/jardim|area verde|paisagismo|bosque/,'Trees'],[/quadra|esporte|tenis|beach|futebol/,'Trophy'],[/sauna|lareira|spa/,'Flame'],[/camera|monitoramento|cftv|alarme/,'Camera'],[/fechadura|digital|acesso|portao/,'KeyRound'],[/acabamento|reforma|moderni|planejad|armario/,'Sparkles'],[/fogao|cozinha|cooktop/,'CookingPot'],[/box|ducha|banheira|hidromassagem|lavabo/,'Droplets'],[/vaga|garagem|estacionamento/,'Car'],[/pet|animais/,'PawPrint'],[/coworking|home office|escritorio/,'Briefcase'],[/lavanderia|area de servico/,'WashingMachine'],[/wifi|internet|fibra/,'Wifi'],[/vista|panoram|mar\b/,'Mountain'],[/solar|energia/,'Zap']];
-    const hit=map.find(([re])=>re.test(t));return hit?hit[1]:'Check';
-};
-const lucideKebab = n => n.replace(/([a-z0-9])([A-Z])/g,'$1-$2').toLowerCase();
 const featureIcon = text => {
     const t=String(text).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
     const key=/piscina/.test(t)?'pool':/churrasqueira/.test(t)?'bbq':/auditorio/.test(t)?'auditorium':/escaninho/.test(t)?'storage':/copa/.test(t)?'pantry':/escritorio|sala comercial/.test(t)?'office':/mobiliad/.test(t)?'furnished':'';
-    return key?arborIcon(key):`<i data-lucide="${lucideKebab(featureLucide(text))}" class="caract-ico"></i>`;
+    return key?arborIcon(key):'';
 };
 const cardSpecItem = (icon, value) => `<span class="card-spec-item">${arborIcon(icon)}<span>${value}</span></span>`;
 const getCardSpecs = p => {
@@ -3869,15 +3863,6 @@ const pdfIcon = async name => {
         return c.toDataURL('image/png');
     }catch{return '';}
 };
-const pdfLucideIcon = async name => {
-    try{
-        const node=window.lucide?.icons?.[name];if(!node)return '';
-        const inner=(Array.isArray(node)?node:[]).map(([tag,attrs])=>`<${tag} ${Object.entries(attrs||{}).filter(([k])=>k!=='key').map(([k,v])=>`${k}="${v}"`).join(' ')}/>`).join('');
-        const svg=`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="96" height="96" fill="none" stroke="#204030" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">${inner}</svg>`;
-        const img=new Image();img.src='data:image/svg+xml;charset=utf-8,'+encodeURIComponent(svg);await img.decode();
-        const c=document.createElement('canvas');c.width=c.height=96;c.getContext('2d').drawImage(img,0,0,96,96);return c.toDataURL('image/png');
-    }catch{return '';}
-};
 const pdfFeatureKey = text => { const t=String(text).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase(); return /piscina/.test(t)?'pool':/churrasqueira/.test(t)?'bbq':/auditorio/.test(t)?'auditorium':/escaninho/.test(t)?'storage':/copa/.test(t)?'pantry':/escritorio|sala comercial/.test(t)?'office':/mobiliad/.test(t)?'furnished':/poente/.test(t)?'sunset':/nascente/.test(t)?'sunrise':''; };
 const buildPresentationPDF = async p => {
     if(!p||document.getElementById('pdf-loading-overlay'))return;
@@ -3902,9 +3887,9 @@ const buildPresentationPDF = async p => {
         const add=(val,label,suffix='',ic='')=>{if(val&&String(val)!=='0')specs.push(`<div class="art-spec">${icons[ic]?`<img class="art-ico" src="${icons[ic]}" alt="">`:''}<div><strong>${e(String(val).slice(0,12))}${suffix}</strong><span>${label}</span></div></div>`);};
         add(p.areaPrivativa||p.areaTotal||p.area,'Área',' m²','area');add(p.beds,'Quartos','','bed');add(p.suites,'Suítes','','suite');add(p.baths||p.bathrooms||p.banheiros,'Banheiros','','bath');add(p.garage,'Vagas','','car');
         const featList=(Array.isArray(p.caracteristicas)?p.caracteristicas:[]).map(v=>publicField(v)).filter(Boolean).slice(0,10);
-        const featIcons=await Promise.all(featList.map(async v=>icons[pdfFeatureKey(v)]||await pdfLucideIcon(featureLucide(v))));
+        const featIcons=featList.map(v=>icons[pdfFeatureKey(v)]||'');
         const features=featList.map((v,i)=>`<span class="art-chip">${featIcons[i]?`<img src="${featIcons[i]}" alt="">`:''}${e(v.slice(0,34))}</span>`).join('');
-        const extraIcons={cond:await pdfLucideIcon('Building2'),iptu:await pdfLucideIcon('Receipt'),mob:icons.furnished,sol:icons.orientation};
+        const extraIcons={mob:icons.furnished,sol:icons.orientation};
         const extras=[p.condominio?['cond','Condomínio',formatBRL(p.condominio)]:null,p.iptu?['iptu','IPTU anual',formatBRL(p.iptu)]:null,(p.mobiliado&&String(p.mobiliado).trim()&&String(p.mobiliado).toLowerCase()!=='não')?['mob','Mobiliado','Sim']:null,(p.orientacaoSolar&&String(p.orientacaoSolar).trim())?['sol','Orientação',p.orientacaoSolar]:null].filter(Boolean).map(([k,l,v])=>`<div class="art-extra">${extraIcons[k]?`<img src="${extraIcons[k]}" alt="">`:''}<div><span>${l}</span><strong>${e(String(v).slice(0,24))}</strong></div></div>`).join('');
         const price=p.priceVenda&&p.priceAluguel?`${e(formatBRL(p.priceVenda))}<div class="art-fees">Aluguel ${e(formatBRL(p.priceAluguel))}/mês</div>`:e(formatPropertyPrice(p));
         const page=document.createElement('section');page.className='art-sheet';
