@@ -1713,6 +1713,7 @@
     </style>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <link rel="stylesheet" href="equipe.css">
 </head>
 <body>
 
@@ -1725,6 +1726,7 @@
         <li><a href="#diferenciais" id="nav-diferenciais-btn">Diferenciais</a></li>
         <li><a href="#noticias" id="nav-noticias-btn">Journal</a></li>
         <li><a href="#essencia" id="nav-sobre-btn">Sobre</a></li>
+        <li><a href="#equipe" id="nav-equipe-btn">Equipe</a></li>
         <li><a href="#consultoria" id="nav-consultoria-btn" class="btn btn-line">Anunciar meu imóvel</a></li>
     </ul>
     <button id="burger" aria-label="Abrir menu" aria-expanded="false"><span></span><span></span><span></span></button>
@@ -1737,6 +1739,7 @@
     <a href="#diferenciais" class="mm-link">Diferenciais</a>
     <a href="#noticias" class="mm-link">Journal</a>
     <a href="#essencia" class="mm-link">Sobre</a>
+    <a href="#equipe" class="mm-link">Equipe</a>
     <a href="https://wa.me/5562984854468" target="_blank" class="btn btn-fill">Falar com a Arbor</a>
 </div>
 
@@ -1790,6 +1793,10 @@
 
             <div class="sub-head" id="busca-completa" style="margin-bottom:26px; scroll-margin-top:100px;"><span class="eyebrow">Busca completa</span><h3>Todos os imóveis</h3></div>
 
+            <div id="equipe-carteira" class="equipe-carteira" hidden>
+                <strong id="equipe-carteira-nome"></strong>
+                <button id="equipe-ver-todos" type="button" class="btn btn-line">Ver todos os imóveis</button>
+            </div>
             <section class="filter-bar" id="filter-bar">
                 <div class="f-group"><label for="filter-search">Busca livre</label><input type="text" id="filter-search" class="input-minimal" placeholder="Ex: cobertura, Setor Bueno..."></div>
                 <div class="f-group"><label for="filter-codigo">Código</label><input type="text" id="filter-codigo" class="input-minimal" placeholder="Ex: AR01"></div>
@@ -1883,6 +1890,20 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <section id="equipe" class="equipe-section">
+        <div class="wrap">
+            <div class="sec-head">
+                <span class="eyebrow">Nossa equipe</span>
+                <h2>Pessoas que cuidam <em>de cada decisão.</em></h2>
+                <p>Conheça quem faz parte da Arbor. Escolha um corretor para explorar os imóveis sob sua responsabilidade.</p>
+            </div>
+            <p id="equipe-status" role="status" aria-live="polite">Carregando equipe…</p>
+            <button id="equipe-retry" type="button" class="btn btn-line" hidden>Tentar novamente</button>
+            <div id="equipe-comercial-bloco" class="equipe-bloco" hidden><h3>Corretores</h3><div id="equipe-comercial" class="equipe-grid"></div></div>
+            <div id="equipe-administrativo-bloco" class="equipe-bloco" hidden><h3>Time administrativo</h3><div id="equipe-administrativo" class="equipe-grid"></div></div>
         </div>
     </section>
 
@@ -2140,7 +2161,7 @@
     <header class="jn-head reveal">
         <span class="eyebrow">Journal Arbor</span>
         <h2>O mercado imobiliário de Goiânia, <em>todos os dias</em></h2>
-        <p class="jn-lead-text">Curadoria diária do que move o setor em Goiânia e região: lançamentos das incorporadoras, financiamento, mudanças de regras e os números do mercado.</p>
+        <p class="jn-lead-text">As notícias do dia sobre o setor em Goiânia e região: lançamentos das incorporadoras, financiamento, mudanças de regras e os números do mercado.</p>
         <div class="jn-meta" aria-live="polite"><span class="jn-dot" aria-hidden="true"></span><span id="jn-updated">Carregando notícias…</span></div>
     </header>
 
@@ -2785,7 +2806,7 @@ const normalizeListing = item => {
     };
 };
 
-let state = { all: [], filtered: [], isLoaded: false, activeProp: null, lbIdx: 0, visibleCount: 9, filters: { search: '', codigo: '', hood: '', tipo: '', beds: '', priceRange: '', sort: 'newest' } };
+let state = { all: [], filtered: [], isLoaded: false, feedReal: false, activeProp: null, lbIdx: 0, visibleCount: 9, filters: { search: '', codigo: '', hood: '', tipo: '', beds: '', priceRange: '', sort: 'newest' } };
 
 /* Converte um feed de imóveis em XML para o mesmo formato de objeto que normalizeListing()
    já espera. Suporta os dois padrões mais comuns entre CRMs imobiliários brasileiros:
@@ -2921,6 +2942,7 @@ const init = async () => {
         } else {
             data = ARBOR_SAMPLE_LISTINGS;
         }
+        state.feedReal = !!ARBOR_DATA_URL;
         finishInit(data);
     } catch (err) {
         console.warn('[Arbor feed] Falhou, usando imóveis de exemplo. Motivo:', err.message);
@@ -2943,6 +2965,7 @@ const finishInit = (data) => {
     handleRouting();
     setupReveal();
     setupScrollTree();
+    window.ArborEquipe?.atualizar();
 };
 
 const setupJornadaInteractions = () => {
@@ -3007,6 +3030,7 @@ const setupEventListeners = () => {
     $('filter-price').addEventListener('change', e => { state.filters.priceRange = e.target.value; applyFilters(); });
     $('filter-sort').addEventListener('change', e => { state.filters.sort = e.target.value; applyFilters(); });
     $('btn-reset').addEventListener('click', () => {
+        window.ArborEquipe?.limpar();
         state.filters = { search:'', codigo:'', hood:'', tipo:'', beds:'', priceRange:'', sort:'newest' };
         $('filter-search').value=''; $('filter-codigo').value=''; $('filter-hood').value=''; $('filter-tipo').value=''; $('filter-beds').value=''; $('filter-price').value=''; $('filter-sort').value='newest';
         applyFilters();
@@ -3050,6 +3074,7 @@ const setupEventListeners = () => {
 const applyFilters = () => {
     let res = [...state.all];
     const f = state.filters;
+    if (window.ArborEquipe) res = window.ArborEquipe.filtrar(res);
     if (f.search) res = res.filter(p => normalizeCategoryText([p.title, p.hood, p.city, p.tipo].join(' ')).includes(normalizeCategoryText(f.search)));
     if (f.codigo) res = res.filter(p => normalizeCategoryText(p.id).includes(normalizeCategoryText(f.codigo)));
     if (f.hood) res = res.filter(p => normalizeCategoryText(p.hood) === normalizeCategoryText(f.hood));
@@ -3443,7 +3468,8 @@ const renderJournal = () => {
         return;
     }
 
-    const [lead, ...rest] = list;
+    const lead = list.find(i => i.local) || list[0];
+    const rest = list.filter(i => i !== lead);
     const side = rest.slice(0, 4);
     const feed = rest.slice(4);
 
@@ -3541,6 +3567,7 @@ const goHome = (targetId) => {
 
 const handleRouting = () => {
     const hash = window.location.hash;
+    if (window.ArborEquipe?.rotear(hash)) return;
     if (hash.startsWith('#id=')) {
         const idParam = decodeURIComponent(hash.replace('#id=', ''));
         if (state.isLoaded) {
@@ -4031,5 +4058,7 @@ const setupScrollTree = () => {
 
 window.addEventListener('DOMContentLoaded', init);
 </script>
+<script src="equipe.js"></script>
 </body>
 </html>
+
