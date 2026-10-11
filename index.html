@@ -272,7 +272,15 @@
         .d-column-head{ font-size:0.72rem; letter-spacing:0.18em; text-transform:uppercase; color:var(--verde); padding-bottom:12px; border-bottom:1px solid rgba(32,64,48,.16); }
         .d-card-slot{ display:grid; position:relative; isolation:isolate; overflow:hidden; border-radius:22px; }
         .d-card-slot > .d-card{ grid-area:1 / 1; z-index:1; }
-        .d-card{ position:relative; display:block; border-radius:22px; overflow:hidden; aspect-ratio:4/5; background:var(--areia-soft); opacity:1; transition:opacity .9s cubic-bezier(.4,0,.2,1); will-change:opacity; }
+        .d-card{ position:relative; display:block; border-radius:22px; overflow:hidden; aspect-ratio:4/5; background:var(--areia-soft); opacity:1; transition:opacity 1.7s cubic-bezier(.4,0,.2,1); will-change:opacity; }
+        /* Efeito de vídeo: zoom lento (Ken Burns) e dissolver nas fotos */
+        .d-card > img{ position:absolute; inset:0; width:100%; height:100%; object-fit:cover; }
+        .d-card img.kb, .u-card-img img.kb{ animation:kbZoom 18s ease-in-out infinite alternate; transform-origin:55% 45%; }
+        .d-card img.ph-in{ opacity:0; transition:opacity 1.8s ease; }
+        .d-card img.ph-in.is-on{ opacity:1; }
+        @keyframes kbZoom{ from{ transform:scale(1.02); } to{ transform:scale(1.14); } }
+        .ultimos-scroll{ scroll-behavior:smooth; }
+        @media (prefers-reduced-motion: reduce){ .d-card img.kb,.u-card-img img.kb{ animation:none } }
         .d-card.is-entering{ z-index:2; opacity:0; pointer-events:none; }
         .d-card.is-leaving{ z-index:1; opacity:0; pointer-events:none; }
         .d-card img{ width:100%; height:100%; object-fit:cover; transition:transform 1s var(--ease); }
@@ -1752,7 +1760,7 @@
             <span class="hero-eyebrow">Arbor Imóveis</span>
             <h1>Casas contam histórias.<br><em>Algumas mudam destinos.</em></h1>
             <p class="hero-intro">Tudo começa com uma sensação.</p>
-            <div class="hero-body"><p>Imóveis em Goiânia e região, com atenção à localização, à sua rotina e ao que você quer construir.</p><p>A Arbor acompanha você da primeira conversa à negociação.</p></div>
+            <div class="hero-body"><p>Imóveis em Goiânia e região, com atenção à localização, à sua rotina e ao que você quer construir.</p></div>
             <div class="hero-actions">
                 <a href="#imoveis" class="btn btn-fill" id="hero-explore-btn">Ver imóveis <i data-lucide="arrow-down-right" style="width:16px"></i></a>
                 <a href="#essencia" class="btn btn-line" id="hero-anunciar-btn">Conheça a Arbor</a>
@@ -1776,7 +1784,7 @@
             <div class="sec-head reveal">
                 <span class="eyebrow">Imóveis em destaque</span>
                 <h2>Encontre um imóvel que faça sentido.</h2>
-                <p style="margin-top:18px; max-width:640px; color:var(--grafite);">Explore o portfólio, compare características e filtre por bairro, tipo ou valor. Os anúncios são sincronizados com o sistema da Arbor.</p>
+                <p style="margin-top:18px; max-width:640px; color:var(--grafite);">Uma seleção dos nossos imóveis. Para ver todos, use a busca logo abaixo.</p>
             </div>
 
             <div class="sub-sec reveal">
@@ -3179,8 +3187,8 @@ const destaqueCategoryMeta = [
     { key: 'aluguel', label: 'Aluguel', empty: 'Nenhum imóvel de aluguel disponível no momento.' }
 ];
 const renderDestaqueCard = (p, variant = 'residencial', stateClass = '') => `
-    <a href="#id=${encodeURIComponent(p.id)}" class="d-card d-card--${variant} ${stateClass}">
-        <img src="${p.photos[0]}" decoding="async" alt="${getPropertyDisplayName(p)}">
+    <a href="#id=${encodeURIComponent(p.id)}" class="d-card d-card--${variant} ${stateClass}" data-pid="${encodeURIComponent(p.id)}">
+        <img class="kb" src="${p.photos[0]}" decoding="async" alt="${getPropertyDisplayName(p)}">
         ${renderPhotoWatermark('small')}
         ${p.destaque ? `<span class="d-card-badge">Destaque</span>` : ''}
         <div class="d-card-overlay">
@@ -3272,10 +3280,11 @@ const renderDestaque = () => {
     };
 
     renderColumns();
+    startCardPhotoVideo();
     clearInterval(window._destaqueRotationTimer);
     if (destaqueCategoryMeta.some(cat => categoryPools[cat.key].length > 1)) {
-        const fadeDuration = window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 10 : 900;
-        const rotationInterval = 6000;
+        const fadeDuration = window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 10 : 1700;
+        const rotationInterval = 9000;
         let isTransitioning = false;
 
         /* A próxima imagem começa a carregar enquanto o imóvel atual ainda está
@@ -3356,7 +3365,7 @@ const renderUltimos = () => {
         .slice(0, 6);
     el.innerHTML = items.map(p => `
         <a href="#id=${encodeURIComponent(p.id)}" class="u-card">
-            <div class="u-card-img"><img src="${p.photos[0]}" loading="lazy" alt="${getPropertyDisplayName(p)}">${renderPhotoWatermark('small')}</div>
+            <div class="u-card-img"><img class="kb" src="${p.photos[0]}" loading="lazy" alt="${getPropertyDisplayName(p)}">${renderPhotoWatermark('small')}</div>
             <div class="u-card-body">
                 <span class="u-card-new">Novo · ${getCardLocationLabel(p)}</span>
                 ${getCardCode(p) ? `<span class="u-card-code">${getCardCode(p)}</span>` : ''}
@@ -3366,6 +3375,52 @@ const renderUltimos = () => {
             </div>
         </a>
     `).join('');
+    startUltimosAutoplay(el);
+};
+
+/* Efeito de vídeo: carrossel dos novos imóveis gira sozinho; fotos dos cartões trocam em dissolver lento. */
+const startUltimosAutoplay = el => {
+    clearInterval(window._ultimosTimer);
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    let paused = false;
+    ['mouseenter','touchstart','focusin'].forEach(ev => el.addEventListener(ev, () => { paused = true; }, { passive: true }));
+    ['mouseleave','focusout'].forEach(ev => el.addEventListener(ev, () => { paused = false; }));
+    el.addEventListener('touchend', () => setTimeout(() => { paused = false; }, 4000), { passive: true });
+    window._ultimosTimer = setInterval(() => {
+        if (paused || document.hidden || !el.offsetParent) return;
+        const cards = el.querySelectorAll('.u-card');
+        if (cards.length < 2) return;
+        const step = cards[1].offsetLeft - cards[0].offsetLeft;
+        if (el.scrollLeft + el.clientWidth >= el.scrollWidth - 8) el.scrollTo({ left: 0, behavior: 'smooth' });
+        else el.scrollBy({ left: step, behavior: 'smooth' });
+    }, 4500);
+};
+const startCardPhotoVideo = () => {
+    clearInterval(window._cardPhotoTimer);
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    const tick = () => {
+        if (document.hidden) return;
+        document.querySelectorAll('.d-card[data-pid]:not(.is-leaving):not(.is-entering)').forEach((card, i) => {
+            const p = state.all.find(x => encodeURIComponent(x.id) === card.dataset.pid);
+            if (!p || !p.photos || p.photos.length < 2) return;
+            setTimeout(() => {
+                const cur = card.querySelectorAll('img.kb');
+                const last = cur[cur.length - 1];
+                const nextIdx = ((+card.dataset.ph || 0) + 1) % p.photos.length;
+                const im = new Image();
+                im.onload = () => {
+                    if (!card.isConnected) return;
+                    card.dataset.ph = nextIdx;
+                    im.className = 'kb ph-in'; im.alt = last ? last.alt : ''; im.decoding = 'async';
+                    last ? last.after(im) : card.prepend(im);
+                    requestAnimationFrame(() => requestAnimationFrame(() => im.classList.add('is-on')));
+                    setTimeout(() => card.querySelectorAll('img.kb').forEach(x => { if (x !== im) x.remove(); }), 2000);
+                };
+                im.src = p.photos[nextIdx];
+            }, i * 1500);
+        });
+    };
+    window._cardPhotoTimer = setInterval(tick, 8000);
 };
 
 const renderGrid = () => {
@@ -4056,12 +4111,36 @@ const renderDetailContent = (p) => {
         openLightbox(state.dvIdx || 0);
     });
     setupDetailSlideshow();
+    renderResponsavel(p);
     if ($('btn-print-doc')) $('btn-print-doc').addEventListener('click', () => buildPresentationPDF(state.activeProp));
     if ($('btn-print-doc-mobile')) $('btn-print-doc-mobile').addEventListener('click', () => buildPresentationPDF(state.activeProp));
     document.querySelectorAll('#detail-view .gallery-img-container').forEach(el => {
         el.addEventListener('click', () => openLightbox(parseInt(el.getAttribute('data-index'))));
     });
 };
+
+/* Responsável pelo imóvel (carteira vinda do ERP) + WhatsApp flutuante do responsável */
+const renderResponsavel = p => {
+    const view = $('detail-view');
+    if (!view || !p) return;
+    view.querySelectorAll('#resp-card,#wa-float').forEach(n => n.remove());
+    const r = window.ArborEquipe?.responsavel?.(p.id);
+    const base = r?.whatsapp || 'https://wa.me/5562984854468';
+    const texto = encodeURIComponent(`Olá${r ? ', ' + r.nome.split(/\s+/)[0] : ''}! Tenho interesse no imóvel Cód. ${p.id}: ${getPropertyDisplayName(p)}`);
+    const esc = v => String(v || '').replace(/[&<>"']/g, c => ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;' }[c]));
+    const href = `${base}?text=${texto}`;
+    const wa = `<svg viewBox="0 0 32 32" width="28" height="28" aria-hidden="true"><path fill="currentColor" d="M16 3C9 3 3.4 8.6 3.4 15.5c0 2.3.6 4.4 1.7 6.3L3 29l7.4-2c1.8 1 3.800 1.500 5.600 1.500 7 0 12.600-5.600 12.600-12.500S23 3 16 3zm0 22.800c-1.800 0-3.500-.5-5-1.400l-.4-.2-4.400 1.200 1.200-4.300-.3-.4a10.200 10.200 0 0 1-1.600-5.500C5.500 9.700 10.200 5.200 16 5.200s10.500 4.500 10.500 10.300S21.800 25.800 16 25.800zm5.800-7.600c-.3-.2-1.900-.9-2.200-1-.3-.1-.5-.2-.7.200-.2.300-.8 1-1 1.200-.2.200-.4.200-.7.100-.3-.2-1.400-.5-2.600-1.600-1-.9-1.600-1.900-1.800-2.200-.2-.3 0-.5.100-.7l.5-.5c.2-.2.200-.3.300-.5.100-.2.100-.4 0-.5l-1-2.300c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.100-.8.400-.3.300-1 1-1 2.400s1 2.800 1.200 3c.1.200 2 3.100 4.900 4.300.7.300 1.200.5 1.700.6.700.2 1.300.2 1.800.1.600-.1 1.900-.8 2.100-1.500.3-.7.300-1.400.2-1.500-.1-.2-.3-.2-.6-.4z"/></svg>`;
+    const card = `<div id="resp-card" class="resp-card">
+        ${r && r.foto ? `<img src="${esc(r.foto)}" alt="${esc(r.nome)}">` : `<span class="resp-ini" aria-hidden="true">${esc((r ? r.nome : 'Arbor').split(/\s+/).slice(0, 2).map(n => n[0]).join(''))}</span>`}
+        <div><small>Responsável pelo imóvel</small><strong>${esc(r ? r.nome : 'Equipe Arbor')}</strong>${r && r.creci ? `<em>CRECI ${esc(r.creci)}</em>` : ''}</div>
+        <a href="${href}" target="_blank" rel="noopener noreferrer" aria-label="Chamar no WhatsApp">${wa}</a>
+    </div>`;
+    const actions = view.querySelector('.detail-primary-actions');
+    if (actions) actions.insertAdjacentHTML('beforebegin', card);
+    view.insertAdjacentHTML('beforeend', `<a id="wa-float" class="wa-float" href="${href}" target="_blank" rel="noopener noreferrer" aria-label="Chamar ${esc(r ? r.nome : 'a Arbor')} no WhatsApp">${wa}<span>${r ? 'Falar com ' + esc(r.nome.split(/\s+/)[0]) : 'WhatsApp'}</span></a>`);
+    view.querySelector('#resp-card img')?.addEventListener('error', e => e.target.remove());
+};
+document.addEventListener('arbor:equipe', () => { if (state.activeProp && $('detail-view') && $('detail-view').children.length) renderResponsavel(state.activeProp); });
 
 const updateLbCounter = () => {
     if (!state.activeProp) return;

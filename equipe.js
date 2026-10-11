@@ -100,13 +100,20 @@
             membros = data.membros.filter(m => m && typeof m.id === 'string' && typeof m.nome === 'string' && Array.isArray(m.imoveis) && m.imoveis.every(c => typeof c === 'string') && ['comercial','administrativo'].includes(m.grupo));
             carregou = true;
             renderizar();
+            document.dispatchEvent(new Event('arbor:equipe'));
             if (location.hash.startsWith('#equipe=')) rotear(location.hash);
         } catch {
             el('equipe-status').textContent = 'Não foi possível carregar a equipe. Tente novamente em instantes.';
             el('equipe-retry').hidden = false;
         } finally { clearTimeout(timeout); carregando = false; }
     }
-    window.ArborEquipe = { filtrar, limpar, rotear, atualizar: () => { if (carregou) { renderizar(); if (selecionado) applyFilters(); } } };
+    const responsavel = id => {
+        const c = codigo(id);
+        const m = membros.find(x => x.grupo === 'comercial' && carteira(x).has(c)) || membros.find(x => carteira(x).has(c));
+        if (!m) return null;
+        return { nome: m.nome, foto: fotoSegura(m.foto), creci: m.grupo === 'comercial' ? m.creci || '' : '', whatsapp: /^https:\/\/wa\.me\/55[1-9]\d{9,10}$/.test(m.whatsapp || '') ? m.whatsapp : '' };
+    };
+    window.ArborEquipe = { responsavel, filtrar, limpar, rotear, atualizar: () => { if (carregou) { renderizar(); if (selecionado) applyFilters(); } } };
     document.addEventListener('DOMContentLoaded', () => {
         el('equipe-retry').addEventListener('click', carregar);
         el('equipe-ver-todos').addEventListener('click', () => { limpar(); applyFilters(); });
