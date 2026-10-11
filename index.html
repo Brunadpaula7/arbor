@@ -2702,9 +2702,22 @@ const formatDetailTitle = texto => {
 /* Nos cards, títulos longos de portal não devem repetir ficha técnica.
    Quando houver empreendimento, ele vira o nome principal do imóvel.
    O título comercial/descritivo continua disponível na área de descrição. */
+function nomeEmpreendimentoPublico(valor) {
+  let nome = String(valor ?? '').replace(/<[^>]*>/g, '').replace(/\s+/g, ' ').trim();
+  // Identificadores adicionados ao nome não fazem parte da apresentação pública.
+  nome = nome.split(/(?:^|[\s,;|–—-])(?:apartamento|apto?\.?|ap\.?|unidade|unid\.?|un\.?|quadra|qd\.?|q\.?|lote|lt\.?)\s*(?:n[º°o.]?\s*)?(?:[:#-]\s*)?(?=[\da-z])/iu)[0];
+  nome = nome.replace(/\b(?:bloco|torre)\s+(?:\d+[a-z]?|[a-z])\b/giu, '').replace(/\b(?:andar\s*\d+|\d+\s*[º°o]?\s*andar)\b/giu, '');
+  return nome.replace(/^[\s,;|–—-]+|[\s,;|–—-]+$/g, '').replace(/\s+/g, ' ').slice(0, 160).trim();
+}
+const decodeEnterpriseText = valor => { const node = document.createElement('textarea'); node.innerHTML = String(valor || ''); return node.value; };
+const getPropertyEnterpriseName = p => {
+    const codigo = String(p?.id || '').trim().toUpperCase();
+    const nome = window.ArborEmpreendimentos?.nomes?.[codigo] || decodeEnterpriseText(p?.empreendimento || '');
+    return escapeHTML(nomeEmpreendimentoPublico(nome));
+};
 const getPropertyDisplayName = p => {
-    const explicit = String(p?.empreendimento || '').trim();
-    if (explicit) return formatDetailTitle(explicit);
+    const explicit = getPropertyEnterpriseName(p);
+    if (explicit) return explicit;
 
     const raw = ocultarInfoUnidade(p?.title || '').replace(/\s+/g, ' ').trim();
     if (!raw) return 'Imóvel selecionado pela Arbor';
@@ -3063,7 +3076,7 @@ const applyFilters = () => {
     let res = [...state.all];
     const f = state.filters;
     if (window.ArborEquipe) res = window.ArborEquipe.filtrar(res);
-    if (f.search) res = res.filter(p => normalizeCategoryText([p.title, p.hood, p.city, p.tipo].join(' ')).includes(normalizeCategoryText(f.search)));
+    if (f.search) res = res.filter(p => normalizeCategoryText([p.title, getPropertyEnterpriseName(p), p.hood, p.city, p.tipo].join(' ')).includes(normalizeCategoryText(f.search)));
     if (f.codigo) res = res.filter(p => normalizeCategoryText(p.id).includes(normalizeCategoryText(f.codigo)));
     if (f.hood) res = res.filter(p => normalizeCategoryText(p.hood) === normalizeCategoryText(f.hood));
     if (f.tipo) res = res.filter(p => p.tipo === f.tipo);
@@ -3768,6 +3781,7 @@ const buildPresentationPDF = async p => {
     showPdfOverlay('Preparando sua ficha em aquarela…');
     const root=document.createElement('div');root.id='pdf-render-root';document.body.appendChild(root);
     try{
+        await window.ArborEmpreendimentos?.pronto;
         const urls=[...new Set((Array.isArray(p.photos)?p.photos:[]).filter(u=>typeof u==='string'&&/^https?:\/\//i.test(u)))].slice(0,5);
         const imgs=await Promise.all(urls.map(preloadPdfImage));
         const photos=imgs.filter(Boolean).map((img,i)=>{try{return pdfWatercolorPhoto(img,i?640:1400,i?405:626);}catch{return null;}}).filter(Boolean);
@@ -3775,7 +3789,8 @@ const buildPresentationPDF = async p => {
         const e=pdfEscape;const publicField=v=>pdfPublicText(v,p).slice(0,90);
         const type=publicField(formatTipoImovelBR(p.tipo))||'Imóvel';
         const hood=publicField(p.hood),city=publicField(p.city);
-        const title=hood?`${type} em ${hood}`:type;
+        const enterprise=publicField(getPropertyEnterpriseName(p));
+        const title=enterprise || (hood?`${type} em ${hood}`:type);
         const location=[hood,city].filter(Boolean).join(' · ');
         const specs=[];const add=(val,label,suffix='')=>{if(val&&String(val)!=='0')specs.push(`<div class="art-spec"><strong>${e(String(val).slice(0,12))}${suffix}</strong><span>${label}</span></div>`);};
         add(p.areaPrivativa||p.areaTotal||p.area,'Área',' m²');add(p.beds,'Quartos');add(p.suites,'Suítes');add(p.garage,'Vagas');
@@ -3848,7 +3863,7 @@ const setupDetailSlideshow = () => {
 
 const renderDetailContent = (p) => {
     const hasField = value => value !== undefined && value !== null && String(value).trim() !== '' && String(value).trim() !== '0';
-    const detailTitle = formatDetailTitle(p.title);
+    const detailTitle = getPropertyDisplayName(p);
     const displayName = getPropertyDisplayName(p);
     const operacaoLabel = p.operacao || (p.priceAluguel && !p.priceVenda ? 'Aluguel' : 'Venda');
     const localizacao = [p.hood, p.city].filter(Boolean).join(' · ');
@@ -3864,6 +3879,7 @@ const renderDetailContent = (p) => {
         ['Código', `Cód. ${p.id}`],
         ['Operação', operacaoLabel],
         ['Tipo', formatTipoImovelBR(p.tipo)],
+        ['Empreendimento', getPropertyEnterpriseName(p)],
         ['Localização', localizacao || 'Consulte a Arbor']
     ].filter(([, value]) => Boolean(value));
     const whatsappHref = `https://wa.me/5562984854468?text=${encodeURIComponent(`Interesse no imóvel Cód. ${p.id}: ${detailTitle}`)}`;
@@ -4142,9 +4158,23 @@ const setupScrollTree = () => {
     document.addEventListener('keydown', (e) => { if (e.key === 'Escape') setTreePanel(false); });
 };
 
+window.ArborAtualizarEmpreendimentos = () => {
+    if (!state.isLoaded) return;
+    renderDestaque(); renderUltimos(); applyFilters();
+    if (state.activeProp) renderDetailContent(state.activeProp);
+    const cover = state.all.find(p => p.photos?.[0] && /^https:\/\//.test(p.photos[0]));
+    if (cover) {
+        const name = decodeEnterpriseText(getPropertyDisplayName(cover));
+        $('hero-property').setAttribute('aria-label', 'Ver ' + name);
+        $('hero-property-img').alt = name;
+        $('hero-property-caption').textContent = name + ' · ' + getCardLocationLabel(cover);
+    }
+};
+
 window.addEventListener('DOMContentLoaded', init);
 </script>
 <script src="equipe.js?v=resumos-20261011"></script>
+<script src="empreendimentos.js?v=20261011"></script>
 <script src="journal-services.js"></script>
 </body>
 </html>
