@@ -11,11 +11,22 @@
     <meta property="og:description" content="Seu próximo endereço. Uma escolha bem cuidada.">
     <meta property="og:url" content="https://www.arborimoveis.com.br/">
     <meta property="og:locale" content="pt_BR">
-    <link rel="icon" type="image/svg+xml" href="assets/arbor-logo-full-copper.svg?v=original-20261011">
-    <link rel="shortcut icon" type="image/svg+xml" href="assets/arbor-logo-full-copper.svg?v=original-20261011">
-    <link rel="apple-touch-icon" href="assets/arbor-logo-full-copper.svg?v=original-20261011">
+    <meta property="og:site_name" content="Arbor Imóveis">
+    <meta property="og:image" content="https://www.arborimoveis.com.br/assets/og-arbor.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Arbor Imóveis: Uma só raiz. Um só propósito.">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Arbor Imóveis · Goiânia e região">
+    <meta name="twitter:description" content="Seu próximo endereço. Uma escolha bem cuidada.">
+    <meta name="twitter:image" content="https://www.arborimoveis.com.br/assets/og-arbor.jpg">
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"RealEstateAgent","name":"Arbor Imóveis","url":"https://www.arborimoveis.com.br/","logo":"https://www.arborimoveis.com.br/assets/arbor-logo-lema-verde.png","image":"https://www.arborimoveis.com.br/assets/og-arbor.jpg","telephone":"+55 62 98485-4468","email":"contato@arborimoveis.com.br","address":{"@type":"PostalAddress","addressLocality":"Goiânia","addressRegion":"GO","addressCountry":"BR"},"areaServed":"Goiânia e região","sameAs":["https://instagram.com/arborimoveis"]}</script>
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/favicon-192.png">
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+    <meta name="theme-color" content="#204030">
 
-    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="vendor/lucide-1.55.0.min.js"></script>
 
     <style>
 
@@ -1698,11 +1709,10 @@
         /* ===== /ARBOR TYPOGRAPHY SYSTEM 2026 ===== */
 
     </style>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script defer src="vendor/jspdf-2.5.1.umd.min.js"></script>
+    <script defer src="vendor/html2canvas-1.4.1.min.js"></script>
     <link rel="preload" href="assets/jost-latin.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="stylesheet" href="equipe.css?v=contatos-20261011">
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="site.css">
     <link rel="stylesheet" href="watercolor.css">
 </head>
@@ -1732,7 +1742,7 @@
     <a href="#noticias" class="mm-link">Journal</a>
     <a href="#essencia" class="mm-link">Sobre</a>
     <a href="#equipe" class="mm-link" data-arbor-equipe hidden>Equipe</a>
-    <a href="https://wa.me/5562984854468" target="_blank" class="btn btn-fill">Falar com a Arbor</a>
+    <a href="https://wa.me/5562984854468" target="_blank" rel="noopener noreferrer" class="btn btn-fill">Falar com a Arbor</a>
 </div>
 
 <main id="list-view">
@@ -1945,7 +1955,7 @@
                     <h3>Arbor Imóveis</h3>
                     <p>Atendimento consultivo para compra, venda e avaliação de imóveis em Goiânia.</p>
                     <div class="cta-actions">
-                        <a href="https://wa.me/5562984854468" target="_blank" class="btn btn-fill">Quero conversar</a>
+                        <a href="https://wa.me/5562984854468" target="_blank" rel="noopener noreferrer" class="btn btn-fill">Quero conversar</a>
                         <a href="mailto:contato@arborimoveis.com.br" class="btn btn-line on-dark">Enviar e-mail</a>
                     </div>
                 </div>
@@ -2204,11 +2214,11 @@
         <a href="#essencia">Sobre</a>
         <a href="/politica-de-privacidade/">Privacidade</a>
         <a href="/termos-de-servico/">Termos</a>
-        <a href="https://instagram.com/arborimoveis" target="_blank">Instagram</a>
-        <a href="https://wa.me/5562984854468" target="_blank">WhatsApp</a>
+        <a href="https://instagram.com/arborimoveis" target="_blank" rel="noopener noreferrer">Instagram</a>
+        <a href="https://wa.me/5562984854468" target="_blank" rel="noopener noreferrer">WhatsApp</a>
     </div>
     <a class="foot-email" href="mailto:contato@arborimoveis.com.br"><i data-lucide="mail" style="width:15px"></i> contato@arborimoveis.com.br</a>
-    <div class="copy">© 2026 · Arbor Imóveis · Goiânia, Goiás</div>
+    <div class="copy">© 2026 · Arbor Imóveis<br>CRECI-GO 14.349 · Goiânia, Goiás</div>
 </footer>
 
 <button id="scroll-tree" type="button" aria-label="Entenda a identidade Arbor" aria-expanded="false" aria-controls="arbor-tree-panel">
@@ -2253,14 +2263,14 @@
     <div class="arbor-tree-signature">Arbor Imóveis · decisões bem conduzidas</div>
 </aside>
 
-<div id="lightbox">
-    <button class="lb-btn" id="lb-close"><i data-lucide="x" style="width:20px"></i></button>
-    <button class="lb-btn" id="lb-prev"><i data-lucide="chevron-left" style="width:22px"></i></button>
+<div id="lightbox" role="dialog" aria-modal="true" aria-label="Galeria de fotos do imóvel">
+    <button class="lb-btn" id="lb-close" type="button" aria-label="Fechar galeria"><i data-lucide="x" style="width:20px"></i></button>
+    <button class="lb-btn" id="lb-prev" type="button" aria-label="Foto anterior"><i data-lucide="chevron-left" style="width:22px"></i></button>
     <div class="lb-media">
-        <img id="lb-img" src="" alt="">
+        <img id="lb-img" alt="Foto do imóvel">
         <span class="lb-watermark" aria-hidden="true"><img id="lb-watermark-img" src="assets/arbor-logo-full-copper.svg?v=original-20261011" alt=""></span>
     </div>
-    <button class="lb-btn" id="lb-next"><i data-lucide="chevron-right" style="width:22px"></i></button>
+    <button class="lb-btn" id="lb-next" type="button" aria-label="Próxima foto"><i data-lucide="chevron-right" style="width:22px"></i></button>
     <div id="lb-counter"></div>
 </div>
 
@@ -3941,7 +3951,7 @@ const renderDetailContent = (p) => {
                         </div>
                     </div>
                     <div class="detail-primary-actions">
-                        <a href="${whatsappHref}" target="_blank" class="btn btn-fill">Falar com a Arbor <i data-lucide="message-circle" style="width:16px"></i></a>
+                        <a href="${whatsappHref}" target="_blank" rel="noopener noreferrer" class="btn btn-fill">Falar com a Arbor <i data-lucide="message-circle" style="width:16px"></i></a>
                         <button id="btn-print-doc" class="btn btn-line">Gerar ficha em PDF <i data-lucide="file-down" style="width:16px"></i></button>
                         <p class="detail-primary-note">Atendimento consultivo para visita, proposta, negociação e documentação.</p>
                     </div>
@@ -4013,7 +4023,7 @@ const renderDetailContent = (p) => {
             })()}
 
             <div class="mobile-detail-cta" aria-label="Ações do imóvel">
-                <a href="${whatsappHref}" target="_blank" class="btn btn-fill">Falar com a Arbor <i data-lucide="message-circle" style="width:16px"></i></a>
+                <a href="${whatsappHref}" target="_blank" rel="noopener noreferrer" class="btn btn-fill">Falar com a Arbor <i data-lucide="message-circle" style="width:16px"></i></a>
                 <button id="btn-print-doc-mobile" class="btn btn-line mobile-pdf-btn" aria-label="Gerar ficha em PDF"><i data-lucide="file-down" style="width:18px"></i></button>
             </div>
             <div class="print-footer">Arbor Imóveis</div>

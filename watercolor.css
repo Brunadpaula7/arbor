@@ -1,3 +1,4 @@
+@font-face{font-family:'Cormorant Garamond';font-style:italic;font-weight:500;font-display:swap;src:url('assets/fonts/cormorant-garamond-latin-500-italic.woff2') format('woff2')}
 /* Arbor em aquarela: papel, manchas de tinta, itálico serifado nos destaques e botões de traço orgânico. */
 :root{--areia-clara:#f1eadb;--papel:#f6f0e3;--tinta-verde:95,140,110;--tinta-azul:169,200,211;--tinta-ocre:217,178,124;--tinta-rosa:227,165,143;--areia-soft:#f6f0e3;--serif:'Cormorant Garamond',Georgia,serif}
 body{background:var(--papel);position:relative}
@@ -95,3 +96,14 @@ em{font-family:var(--serif);font-style:italic;font-weight:500;color:#974315;lett
 @media(prefers-reduced-motion:reduce){.dv-slide.is-active,.dv-slide.is-leaving{animation:none}.dv-slide{transition:opacity .4s}}
 @media(max-width:600px){.dv-ctrl{left:10px;bottom:10px}.dv-track{width:48px}}
 @media(prefers-reduced-motion:reduce){.dv-ctrl{display:none}}
+
+/* alvos de toque de pelo menos 44 px (celular) */
+#burger{position:relative}
+#burger::before{content:"";position:absolute;inset:-7px}
+.fazemos-action{display:inline-flex;align-items:center;min-height:44px}
+footer .foot-links a,footer .foot-email{display:inline-flex;align-items:center;min-height:44px}
+#mobile-menu .mm-link{display:inline-flex;align-items:center;min-height:44px}
+
+/* menu do celular: o botão fecha o menu e o botão "Falar com a Arbor" fica legível */
+body.menu-open #nav{z-index:1200}
+#mobile-menu .btn-fill{background:var(--verde);color:#f6f0e3}
