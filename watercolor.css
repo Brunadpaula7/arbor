@@ -1,5 +1,5 @@
 /* Arbor em aquarela: papel, manchas de tinta, itálico serifado nos destaques e botões de traço orgânico. */
-:root{--papel:#f6f0e3;--tinta-verde:95,140,110;--tinta-azul:169,200,211;--tinta-ocre:217,178,124;--tinta-rosa:227,165,143;--areia-soft:#f6f0e3;--serif:'Cormorant Garamond',Georgia,serif}
+:root{--areia-clara:#f1eadb;--papel:#f6f0e3;--tinta-verde:95,140,110;--tinta-azul:169,200,211;--tinta-ocre:217,178,124;--tinta-rosa:227,165,143;--areia-soft:#f6f0e3;--serif:'Cormorant Garamond',Georgia,serif}
 body{background:var(--papel);position:relative}
 /* manchas fixas no fundo, como lavis de aquarela no papel */
 body::before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;background:
@@ -44,3 +44,23 @@ em{font-family:var(--serif);font-style:italic;font-weight:500;color:#974315;lett
 @media(max-width:720px){.nav-logo .brand-logo,#nav.scrolled .nav-logo .brand-logo{width:54px;height:46px}.footer-brand .brand-logo{width:108px;height:92px}}
 .hero{background:transparent}
 .hero::after{display:block}
+
+/* ---- todas as abas: bairros, jornada, diferenciais, journal e ficha do imóvel ---- */
+.page-view,.detail-main{position:relative;isolation:isolate}
+.page-view::before,.detail-main::before{content:"";position:absolute;z-index:-1;pointer-events:none;filter:url(#wc-soft);top:40px;right:-6%;width:54%;height:460px;background:radial-gradient(closest-side,rgba(var(--tinta-verde),.30),rgba(var(--tinta-azul),.16) 60%,transparent 78%)}
+.page-view::after,.detail-main::after{content:"";position:absolute;z-index:-1;pointer-events:none;filter:url(#wc-soft);bottom:8%;left:-8%;width:40%;height:360px;background:radial-gradient(closest-side,rgba(var(--tinta-ocre),.28),transparent 76%)}
+#jornada-view::before{background:radial-gradient(closest-side,rgba(var(--tinta-azul),.36),rgba(var(--tinta-rosa),.16) 60%,transparent 78%)}
+#diferenciais-view::before{background:radial-gradient(closest-side,rgba(var(--tinta-ocre),.34),rgba(var(--tinta-rosa),.14) 60%,transparent 78%)}
+#bairros-view::after{background:radial-gradient(closest-side,rgba(var(--tinta-rosa),.28),transparent 76%)}
+
+/* painéis escuros com manchas de pigmento */
+.bairro-visual,.diferenciais-page-note,.section-nacional,.section-cta,footer{background-color:var(--verde-deep);background-image:radial-gradient(ellipse 60% 70% at 15% 20%,rgba(143,181,154,.30),transparent 70%),radial-gradient(ellipse 50% 60% at 88% 85%,rgba(217,178,124,.24),transparent 70%)}
+.temp-zone.quente{background-image:radial-gradient(ellipse 60% 70% at 15% 20%,rgba(143,181,154,.30),transparent 70%),radial-gradient(ellipse 50% 60% at 88% 85%,rgba(217,178,124,.24),transparent 70%)}
+.jn-lead{border-radius:28px 10px 26px 12px/12px 26px 10px 28px}
+.bairro-card,.diferenciais-page-note{border-radius:22px 8px 20px 10px/10px 20px 8px 22px}
+
+/* borda de papel rasgado onde começam os blocos verdes */
+.section-nacional,footer{position:relative}
+.section-cta{overflow:visible}
+.section-nacional::before,.section-cta::before,footer::before{content:"";position:absolute;left:-2%;right:-2%;top:-26px;height:52px;background:var(--verde-deep);filter:url(#wc-edge);pointer-events:none;z-index:0}
+.section-nacional>*,.section-cta>.wrap,footer>*{position:relative;z-index:1}
