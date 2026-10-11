@@ -31,7 +31,7 @@ a.equipe-card:hover { transform: translateY(-4px); background: rgba(255,255,255,
 .equipe-link { display: flex; justify-content: space-between; margin: 24px 0 8px; font: .9rem var(--font-text); color: var(--verde); }
 .equipe-carteira { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 20px; padding: 20px 24px; margin-bottom: 24px; border: 1px solid var(--line); background: var(--areia-soft); }
 .equipe-carteira strong { font-family: var(--font-display); font-weight: 400; font-size: 1.4rem; }
-.equipe-section [hidden], .equipe-carteira[hidden] { display: none; }
+.equipe-section [hidden], .equipe-carteira[hidden], [data-arbor-equipe][hidden] { display: none !important; }
 #equipe-status { line-height: 1.6; margin-top: 24px; }
 @media (max-width: 900px) { .equipe-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 600px) { .equipe-section { padding: 64px 0; } .equipe-grid { grid-template-columns: 1fr; gap: 24px; } .equipe-retrato { aspect-ratio: 4 / 3.5; } }

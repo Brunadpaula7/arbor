@@ -10,7 +10,7 @@ let iniciar, aplicacoes=0, erro=false;
 const equipe={membros:[{id:'v',nome:'Vinicius',cargo:'Corretor',grupo:'comercial',imoveis:['AR-1']},{id:'b',nome:'Bruna de Paula',cargo:'Administrativo',grupo:'administrativo',imoveis:[]},{id:'c',nome:'Bruna Chaene',cargo:'Administrativo',grupo:'administrativo',imoveis:[]}]};
 const state={feedReal:true,all:[{id:'AR-1'},{id:'AR-2'}]};
 const location={hash:''};
-const contexto={console,URL,AbortController,setTimeout,clearTimeout,state,location,ARBOR_DATA_URL:'https://example.com/feed/vrsync.xml',window:{},document:{getElementById:elemento,createElement(){return {...elemento('template'),children:[],querySelector(){return null}}},addEventListener(e,fn){if(e==='DOMContentLoaded')iniciar=fn}},history:{replaceState(a,b,h){location.hash=h}},requestAnimationFrame(fn){fn()},showView(){},goHome(){location.hash=''},applyFilters(){aplicacoes++},fetch:async()=>({ok:!erro,json:async()=>equipe})};
+const contexto={console,URL,AbortController,setTimeout,clearTimeout,state,location,ARBOR_DATA_URL:'https://example.com/feed/vrsync.xml',window:{},document:{getElementById:elemento,querySelectorAll(){return [elemento('equipe-section')]},createElement(){return {...elemento('template'),children:[],querySelector(){return null}}},addEventListener(e,fn){if(e==='DOMContentLoaded')iniciar=fn}},history:{replaceState(a,b,h){location.hash=h}},requestAnimationFrame(fn){fn()},showView(){},goHome(){location.hash=''},applyFilters(){aplicacoes++},fetch:async()=>({ok:!erro,json:async()=>equipe})};
 vm.runInNewContext(fs.readFileSync(require('node:path').join(__dirname,'../equipe.js'),'utf8'),contexto);
 const ui=contexto.window.ArborEquipe;
 elemento('btn-reset').events.click=()=>ui.limpar();

@@ -9,6 +9,7 @@
     const quantidade = membro => state.feedReal ? state.all.filter(p => carteira(membro).has(codigo(p.id))).length : 0;
 
     function renderizar() {
+        document.querySelectorAll('[data-arbor-equipe]').forEach(item => { item.hidden = !membros.length; });
         for (const grupo of ['comercial', 'administrativo']) {
             const lista = membros.filter(m => m.grupo === grupo);
             el('equipe-' + grupo).replaceChildren();
