@@ -3742,17 +3742,54 @@ const hidePdfOverlay = () => document.getElementById('pdf-loading-overlay')?.rem
 // As fotos já foram exibidas na página sem CORS e o navegador pode ter guardado essa resposta no cache, o que
 // bloqueia o pedido com CORS usado aqui. Por isso a primeira tentativa usa um parâmetro extra na URL (ignorado
 // pelo servidor) para buscar de novo; a segunda tenta a URL original.
-const loadPdfImageOnce = url => new Promise(resolve => {
+const pdfPhotoUrl = value => {
+    if (typeof value !== 'string') return '';
+    // photos guarda valores escapados para HTML; Image.src precisa do link real.
+    const node = document.createElement('textarea');
+    node.innerHTML = value;
+    try {
+        const url = new URL(node.value.trim());
+        return /^https?:$/.test(url.protocol) && !url.username && !url.password ? url.href : '';
+    } catch { return ''; }
+};
+const loadPdfImageOnce = (url, timeoutMs = 15000) => new Promise(resolve => {
     const img = new Image(); img.crossOrigin = 'anonymous';
-    const timer = setTimeout(() => { img.onload = img.onerror = null; resolve(null); }, 15000);
+    const timer = setTimeout(() => { img.onload = img.onerror = null; resolve(null); }, timeoutMs);
     img.onload = () => { clearTimeout(timer); resolve(img); };
     img.onerror = () => { clearTimeout(timer); resolve(null); }; img.src = url;
 });
-const preloadPdfImage = async url => {
-    const busted = url + (url.includes('?') ? '&' : '?') + 'arborpdf=' + Date.now();
-    const img = await loadPdfImageOnce(busted) || await loadPdfImageOnce(url);
-    if (!img) console.warn('[Ficha PDF] Foto não carregou (confira o CORS do armazenamento das fotos):', url.slice(0, 120));
+const preloadPdfImage = async (url, deadline = Date.now() + 30000) => {
+    let remaining = deadline - Date.now();
+    if (remaining <= 0) return null;
+    // O link original primeiro preserva parâmetros e assinaturas de acesso.
+    let img = await loadPdfImageOnce(url, Math.min(15000, remaining));
+    remaining = deadline - Date.now();
+    if (!img && remaining > 0) {
+        const retry = new URL(url);
+        retry.searchParams.set('arborpdf', String(Date.now()));
+        img = await loadPdfImageOnce(retry.href, Math.min(15000, remaining));
+    }
+    if (!img) console.warn('[Ficha PDF] Não foi possível carregar uma foto.');
     return img;
+};
+const collectPdfPhotos = async values => {
+    const urls = [...new Set((Array.isArray(values) ? values : []).map(pdfPhotoUrl).filter(Boolean))];
+    const photos = [];
+    const deadline = Date.now() + 60000;
+    // Preservar a ordem da galeria e tentar outras quando uma foto falhar.
+    for (let cursor = 0; cursor < urls.length && photos.length < 5 && Date.now() < deadline;) {
+        const batch = urls.slice(cursor, cursor + 5 - photos.length);
+        cursor += batch.length;
+        const imgs = await Promise.all(batch.map(url => preloadPdfImage(url, deadline)));
+        for (const img of imgs) {
+            if (!img) continue;
+            try {
+                const photo = pdfWatercolorPhoto(img, photos.length ? 640 : 1400, photos.length ? 405 : 626);
+                if (photo) photos.push(photo);
+            } catch { /* Falhas de leitura/conversão também permitem tentar a próxima foto. */ }
+        }
+    }
+    return photos;
 };
 const pdfEscape = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const pdfPlain = value => { const node=document.createElement('div'); node.innerHTML=String(value||''); return (node.textContent||'').replace(/\s+/g,' ').trim(); };
@@ -3871,9 +3908,7 @@ const buildPresentationPDF = async p => {
     const root=document.createElement('div');root.id='pdf-render-root';document.body.appendChild(root);
     try{
         await window.ArborEmpreendimentos?.pronto;
-        const urls=[...new Set((Array.isArray(p.photos)?p.photos:[]).filter(u=>typeof u==='string'&&/^https?:\/\//i.test(u)))].slice(0,5);
-        const imgs=await Promise.all(urls.map(preloadPdfImage));
-        const photos=imgs.filter(Boolean).map((img,i)=>{try{return pdfWatercolorPhoto(img,i?640:1400,i?405:626);}catch{return null;}}).filter(Boolean);
+        const photos=await collectPdfPhotos(p.photos);
         const logo=await pdfArborLogo();
         const logoImg=new Image();logoImg.src='assets/arbor-logo-lema-verde.png';await logoImg.decode().catch(()=>{});
         const logoSrc=logoImg.naturalWidth?logoImg.src:logo;
