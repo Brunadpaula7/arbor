@@ -2703,7 +2703,7 @@ const formatDetailTitle = texto => {
    Quando houver empreendimento, ele vira o nome principal do imóvel.
    O título comercial/descritivo continua disponível na área de descrição. */
 function nomeEmpreendimentoPublico(valor) {
-  let nome = String(valor ?? '').replace(/<[^>]*>/g, '').replace(/\s+/g, ' ').trim();
+  let nome = limparMarcaAntigaImovel(valor).replace(/<[^>]*>/g, '').replace(/\s+/g, ' ').trim();
   // Identificadores adicionados ao nome não fazem parte da apresentação pública.
   nome = nome.split(/(?:^|[\s,;|–—-])(?:apartamento|apto?\.?|ap\.?|unidade|unid\.?|un\.?|quadra|qd\.?|q\.?|lote|lt\.?)\s*(?:n[º°o.]?\s*)?(?:[:#-]\s*)?(?=[\da-z])/iu)[0];
   nome = nome.replace(/\b(?:bloco|torre)\s+(?:\d+[a-z]?|[a-z])\b/giu, '').replace(/\b(?:andar\s*\d+|\d+\s*[º°o]?\s*andar)\b/giu, '');
@@ -2756,6 +2756,14 @@ const getCardLocationLabel = (p, displayName = getPropertyDisplayName(p)) => {
     return [hood, city].filter(Boolean).join(' · ');
 };
 
+/* Corrige referências de marcas antigas nos textos públicos dos imóveis. */
+function limparMarcaAntigaImovel(valor) {
+    return String(valor ?? '')
+        .replace(/\bHAUT\b(?:\s*[-–—|,:]\s*|\s+)im[oó]veis\s+sob\s+medida\b/giu, 'Arbor')
+        .replace(/\bHAUT\b/giu, 'Arbor')
+        .replace(/\bim[oó]veis\s+sob\s+medida\b/giu, 'Arbor');
+}
+
 const normalizeListing = item => {
     let photos = Array.isArray(item.fotos) ? item.fotos : (typeof item.fotos === 'string' ? item.fotos.split(',').map(p => p.trim()) : []);
     photos = photos.filter(p => p.startsWith('http'));
@@ -2766,7 +2774,7 @@ const normalizeListing = item => {
 
     return {
         id: escapeHTML(String(item.id).trim()),
-        title: escapeHTML(ocultarInfoUnidade(item.titulo) || "Imóvel Arbor"),
+        title: escapeHTML(ocultarInfoUnidade(limparMarcaAntigaImovel(item.titulo)) || "Imóvel Arbor"),
         price: valorVenda || valorAluguel,
         isRentalPrice: !valorVenda && !!valorAluguel,
         priceVenda: valorVenda,
@@ -2798,8 +2806,8 @@ const normalizeListing = item => {
         iptu: numBR(pickField(item, ['iptu', 'valor_iptu', 'valorIptu', 'iptu_anual', 'iptuAnual', 'taxaIptu', 'taxa_iptu', 'iptuValor', 'yearlyTax', 'propertyTax', 'propertyTaxValue', 'annualPropertyTax', 'yearlyPropertyTax', 'yearlyTaxes', 'taxes', 'tax', 'municipalTax', 'iptuMensal', 'monthlyTax', 'monthlyPropertyTax'])),
         mobiliado: escapeHTML(pickField(item, ['mobiliado', 'furnished'])),
         photos: photos.map(escapeHTML),
-        desc: escapeHTML(ocultarInfoUnidade(item.descricao) || "Consultoria técnica exclusiva."),
-        caracteristicas: normalizarListaCaracteristicas(pickArrayField(item, ['features', 'caracteristicas', 'características', 'amenities', 'comodidades', 'infraestrutura', 'characteristics', 'diferenciais'])).map(escapeHTML),
+        desc: escapeHTML(ocultarInfoUnidade(limparMarcaAntigaImovel(item.descricao)) || "Consultoria técnica exclusiva."),
+        caracteristicas: normalizarListaCaracteristicas(pickArrayField(item, ['features', 'caracteristicas', 'características', 'amenities', 'comodidades', 'infraestrutura', 'characteristics', 'diferenciais'])).map(limparMarcaAntigaImovel).map(escapeHTML),
         garantiaLocacao: escapeHTML(item.garantia_locacao || ""),
         destaque: !!item.destaque,
         dataAdicao: item.data_adicao || item.dataAdicao || ""
