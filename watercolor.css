@@ -187,7 +187,6 @@ svg.jn-lead-ico{position:absolute;right:30px;top:34px;width:92px;height:92px;col
 
 /* ---- Página inicial mais enxuta: menos blocos repetidos e menos peso nas seções secundárias ---- */
 /* "Últimos imóveis" repetia os mesmos cartões do destaque e da lista completa */
-.sub-sec:has(#ultimos-scroll){display:none!important}
 .section-imoveis{padding-bottom:56px}
 
 /* equipe compacta: retratos menores, quatro por linha */

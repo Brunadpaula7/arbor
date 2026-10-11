@@ -272,7 +272,15 @@
         .d-column-head{ font-size:0.72rem; letter-spacing:0.18em; text-transform:uppercase; color:var(--verde); padding-bottom:12px; border-bottom:1px solid rgba(32,64,48,.16); }
         .d-card-slot{ display:grid; position:relative; isolation:isolate; overflow:hidden; border-radius:22px; }
         .d-card-slot > .d-card{ grid-area:1 / 1; z-index:1; }
-        .d-card{ position:relative; display:block; border-radius:22px; overflow:hidden; aspect-ratio:4/5; background:var(--areia-soft); opacity:1; transition:opacity .9s cubic-bezier(.4,0,.2,1); will-change:opacity; }
+        .d-card{ position:relative; display:block; border-radius:22px; overflow:hidden; aspect-ratio:4/5; background:var(--areia-soft); opacity:1; transition:opacity 1.7s cubic-bezier(.4,0,.2,1); will-change:opacity; }
+        /* Efeito de vídeo: zoom lento (Ken Burns) e dissolver nas fotos */
+        .d-card > img{ position:absolute; inset:0; width:100%; height:100%; object-fit:cover; }
+        .d-card img.kb, .u-card-img img.kb{ animation:kbZoom 18s ease-in-out infinite alternate; transform-origin:55% 45%; }
+        .d-card img.ph-in{ opacity:0; transition:opacity 1.8s ease; }
+        .d-card img.ph-in.is-on{ opacity:1; }
+        @keyframes kbZoom{ from{ transform:scale(1.02); } to{ transform:scale(1.14); } }
+        .ultimos-scroll{ scroll-behavior:smooth; }
+        @media (prefers-reduced-motion: reduce){ .d-card img.kb,.u-card-img img.kb{ animation:none } }
         .d-card.is-entering{ z-index:2; opacity:0; pointer-events:none; }
         .d-card.is-leaving{ z-index:1; opacity:0; pointer-events:none; }
         .d-card img{ width:100%; height:100%; object-fit:cover; transition:transform 1s var(--ease); }
@@ -3179,8 +3187,8 @@ const destaqueCategoryMeta = [
     { key: 'aluguel', label: 'Aluguel', empty: 'Nenhum imóvel de aluguel disponível no momento.' }
 ];
 const renderDestaqueCard = (p, variant = 'residencial', stateClass = '') => `
-    <a href="#id=${encodeURIComponent(p.id)}" class="d-card d-card--${variant} ${stateClass}">
-        <img src="${p.photos[0]}" decoding="async" alt="${getPropertyDisplayName(p)}">
+    <a href="#id=${encodeURIComponent(p.id)}" class="d-card d-card--${variant} ${stateClass}" data-pid="${encodeURIComponent(p.id)}">
+        <img class="kb" src="${p.photos[0]}" decoding="async" alt="${getPropertyDisplayName(p)}">
         ${renderPhotoWatermark('small')}
         ${p.destaque ? `<span class="d-card-badge">Destaque</span>` : ''}
         <div class="d-card-overlay">
@@ -3272,10 +3280,11 @@ const renderDestaque = () => {
     };
 
     renderColumns();
+    startCardPhotoVideo();
     clearInterval(window._destaqueRotationTimer);
     if (destaqueCategoryMeta.some(cat => categoryPools[cat.key].length > 1)) {
-        const fadeDuration = window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 10 : 900;
-        const rotationInterval = 6000;
+        const fadeDuration = window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 10 : 1700;
+        const rotationInterval = 9000;
         let isTransitioning = false;
 
         /* A próxima imagem começa a carregar enquanto o imóvel atual ainda está
@@ -3356,7 +3365,7 @@ const renderUltimos = () => {
         .slice(0, 6);
     el.innerHTML = items.map(p => `
         <a href="#id=${encodeURIComponent(p.id)}" class="u-card">
-            <div class="u-card-img"><img src="${p.photos[0]}" loading="lazy" alt="${getPropertyDisplayName(p)}">${renderPhotoWatermark('small')}</div>
+            <div class="u-card-img"><img class="kb" src="${p.photos[0]}" loading="lazy" alt="${getPropertyDisplayName(p)}">${renderPhotoWatermark('small')}</div>
             <div class="u-card-body">
                 <span class="u-card-new">Novo · ${getCardLocationLabel(p)}</span>
                 ${getCardCode(p) ? `<span class="u-card-code">${getCardCode(p)}</span>` : ''}
@@ -3366,6 +3375,52 @@ const renderUltimos = () => {
             </div>
         </a>
     `).join('');
+    startUltimosAutoplay(el);
+};
+
+/* Efeito de vídeo: carrossel dos novos imóveis gira sozinho; fotos dos cartões trocam em dissolver lento. */
+const startUltimosAutoplay = el => {
+    clearInterval(window._ultimosTimer);
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    let paused = false;
+    ['mouseenter','touchstart','focusin'].forEach(ev => el.addEventListener(ev, () => { paused = true; }, { passive: true }));
+    ['mouseleave','focusout'].forEach(ev => el.addEventListener(ev, () => { paused = false; }));
+    el.addEventListener('touchend', () => setTimeout(() => { paused = false; }, 4000), { passive: true });
+    window._ultimosTimer = setInterval(() => {
+        if (paused || document.hidden || !el.offsetParent) return;
+        const cards = el.querySelectorAll('.u-card');
+        if (cards.length < 2) return;
+        const step = cards[1].offsetLeft - cards[0].offsetLeft;
+        if (el.scrollLeft + el.clientWidth >= el.scrollWidth - 8) el.scrollTo({ left: 0, behavior: 'smooth' });
+        else el.scrollBy({ left: step, behavior: 'smooth' });
+    }, 4500);
+};
+const startCardPhotoVideo = () => {
+    clearInterval(window._cardPhotoTimer);
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    const tick = () => {
+        if (document.hidden) return;
+        document.querySelectorAll('.d-card[data-pid]:not(.is-leaving):not(.is-entering)').forEach((card, i) => {
+            const p = state.all.find(x => encodeURIComponent(x.id) === card.dataset.pid);
+            if (!p || !p.photos || p.photos.length < 2) return;
+            setTimeout(() => {
+                const cur = card.querySelectorAll('img.kb');
+                const last = cur[cur.length - 1];
+                const nextIdx = ((+card.dataset.ph || 0) + 1) % p.photos.length;
+                const im = new Image();
+                im.onload = () => {
+                    if (!card.isConnected) return;
+                    card.dataset.ph = nextIdx;
+                    im.className = 'kb ph-in'; im.alt = last ? last.alt : ''; im.decoding = 'async';
+                    last ? last.after(im) : card.prepend(im);
+                    requestAnimationFrame(() => requestAnimationFrame(() => im.classList.add('is-on')));
+                    setTimeout(() => card.querySelectorAll('img.kb').forEach(x => { if (x !== im) x.remove(); }), 2000);
+                };
+                im.src = p.photos[nextIdx];
+            }, i * 1500);
+        });
+    };
+    window._cardPhotoTimer = setInterval(tick, 8000);
 };
 
 const renderGrid = () => {
