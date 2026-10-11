@@ -537,15 +537,15 @@
         .art-sheet{width:1120px;height:1584px;box-sizing:border-box;padding:60px 68px 48px;background:#faf7f0;position:relative;font-family:var(--font),sans-serif;color:#243c30;overflow:hidden}
         .art-paper{position:absolute;inset:0;width:100%;height:100%;z-index:0}
         .art-body{position:relative;z-index:1;height:100%;display:flex;flex-direction:column}
-        .art-head{display:flex;justify-content:space-between;align-items:center;margin:-60px -68px 30px;padding:34px 68px 30px;background:linear-gradient(115deg,#1b3628 0%,#204030 55%,#2c5440 100%);border-bottom:6px solid #974315;color:#e3d9c8}.art-head .art-kicker{color:#bc9570}.art-head .art-code{color:#e3d9c8}
-        .art-logo{height:132px;width:auto;object-fit:contain}.art-kicker{font-size:14px;letter-spacing:3px;text-transform:uppercase;color:#77634e}.art-code{text-align:right;font-size:16px;line-height:1.7}
+        .art-head{display:flex;justify-content:space-between;align-items:center;margin:0 0 24px;padding:0 0 20px;border-bottom:2px solid #204030;color:#204030}.art-head .art-kicker{color:#974315;font-weight:500}.art-head .art-code{color:#204030;font-weight:500}
+        .art-logo{height:150px;width:auto;object-fit:contain}.art-kicker{font-size:14px;letter-spacing:3px;text-transform:uppercase;color:#77634e}.art-code{text-align:right;font-size:16px;line-height:1.7}
         .art-sheet h1{font-size:52px;line-height:1.1;font-weight:300;margin:0 0 10px;letter-spacing:-1.5px;color:#204030}.art-location{font-size:21px;color:#657369;margin:0 0 22px}
         .art-hero{width:984px;height:440px;object-fit:cover;display:block}.art-film{display:flex;gap:12px;margin-top:12px}.art-film img{height:150px;flex:1;min-width:0;object-fit:cover;width:0}
         .art-no-photo{height:300px;display:flex;align-items:center;justify-content:center;border:1px solid #b7baa9;font-size:22px;color:#617062}
         .art-photo-caption{font-size:12px;letter-spacing:1px;color:#6b7469;margin-top:8px}
         .art-spec{display:flex;align-items:center;gap:12px}.art-ico{width:44px;height:44px;flex:none}.art-chip{display:inline-flex;align-items:center;gap:7px;margin:0 8px 8px 0;padding:6px 12px;border:1px solid #b9beae;border-radius:999px;background:rgba(255,253,247,.7);font-size:14px;color:#204030}.art-chip img{width:26px;height:26px}.art-specs{display:flex;gap:24px;padding:22px 0 18px;border-bottom:1px solid #b9beae}.art-spec{flex:1}.art-spec strong{display:block;font-size:27px;font-weight:400}.art-spec span{font-size:13px;text-transform:uppercase;letter-spacing:1px;color:#6b7469}
         .art-copy{display:flex;gap:36px;margin-top:22px}.art-summary{flex:1.7}.art-summary p{font-size:18px;line-height:1.55;margin:10px 0 0;color:#405244}.art-finance{flex:1;border-left:1px solid #b9beae;padding-left:26px}.art-price{font-size:30px;font-weight:300;line-height:1.25;margin:10px 0;color:#974315}.art-fees{font-size:14px;line-height:1.7;color:#536152}.art-features{margin-top:16px}
-        .art-sheet .art-foot{background:#204030;color:#e3d9c8;text-align:left;margin:auto -68px -48px;padding:22px 68px 26px;border-top:6px solid #bc9570;display:flex;justify-content:space-between;align-items:end;font-size:14px;line-height:1.6}.art-foot-tag{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:24px;color:#e3d9c8}.art-foot small{font-size:11px;color:#bcb6a4;display:block;max-width:590px;margin-top:6px}.art-foot-right{text-align:right}.art-foot a{color:inherit;text-decoration:none}
+        .art-sheet .art-foot{background:transparent;color:#204030;text-align:left;margin-top:auto;padding:18px 0 0;border-top:2px solid #204030;display:flex;justify-content:space-between;align-items:end;font-size:14px;line-height:1.6}.art-foot-tag{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:26px;color:#204030}.art-foot small{font-size:11px;color:#536152;display:block;max-width:590px;margin-top:6px}.art-foot-right{text-align:right}.art-foot a{color:inherit;text-decoration:none}
         #pdf-loading-overlay{position:fixed;inset:0;background:rgba(17,17,17,.86);color:#f2efe7;z-index:99999;display:flex;flex-direction:column;align-items:center;justify-content:center;font-family:var(--font)}
         #pdf-loading-overlay .eyebrow{color:#f2efe7}#pdf-loading-overlay p{font-size:1rem;margin-top:14px}
 
@@ -3876,7 +3876,7 @@ const buildPresentationPDF = async p => {
         const imgs=await Promise.all(urls.map(preloadPdfImage));
         const photos=imgs.filter(Boolean).map((img,i)=>{try{return pdfWatercolorPhoto(img,i?640:1400,i?405:626);}catch{return null;}}).filter(Boolean);
         const logo=await pdfArborLogo();
-        const logoImg=new Image();logoImg.src='assets/arbor-logo-lema-creme.png';await logoImg.decode().catch(()=>{});
+        const logoImg=new Image();logoImg.src='assets/arbor-logo-lema-verde.png';await logoImg.decode().catch(()=>{});
         const logoSrc=logoImg.naturalWidth?logoImg.src:logo;
         const e=pdfEscape;const publicField=v=>pdfPublicText(v,p).slice(0,90);
         const type=publicField(formatTipoImovelBR(p.tipo))||'Imóvel';
