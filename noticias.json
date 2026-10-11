@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-11T15:08:08Z",
+ "updated": "2026-10-11T15:17:29Z",
  "items": [
   {
    "title": "Imóvel do Pão de Açúcar em Goiânia é vendido por R$ 41 milhões",
@@ -7,7 +7,8 @@
    "source": "Poder Goiás",
    "date": "2026-10-11T12:15:00Z",
    "cat": "mercado",
-   "local": true
+   "local": true,
+   "img": ""
   },
   {
    "title": "Juiz afasta cobrança de IPTU sobre terreiro em construção",
@@ -15,7 +16,8 @@
    "source": "Consultor Jurídico",
    "date": "2026-10-11T10:52:39Z",
    "cat": "regras",
-   "local": false
+   "local": false,
+   "img": ""
   },
   {
    "title": "Atlético-GO: Serra Dourada ganha novidades milionárias e construção",
@@ -23,7 +25,8 @@
    "source": "Dragão Goiano",
    "date": "2026-10-09T20:02:00Z",
    "cat": "mercado",
-   "local": false
+   "local": false,
+   "img": ""
   },
   {
    "title": "Greve da Caixa: como a paralisação impactou os financiamentos imobiliários de Tenda, Cury e MRV",
@@ -31,7 +34,17 @@
    "source": "Portas",
    "date": "2026-10-09T19:19:48Z",
    "cat": "financiamento",
-   "local": false
+   "local": false,
+   "img": ""
+  },
+  {
+   "title": "Campanha Aceita BB permite lances digitais para imóveis em municípios goianos vizinhos de Brasília",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQaDNoT25YaHdtRm0xZjNKOTMwb0hUYmRpVVVocngxU1FyTGw5aWZKNTNrNnVfQWFrV19SR2JfblU2WVB4czMzMkxhR01LLU1mOVF6UVpRT3hTUHRDeGphLW81M21Gb2FLNWd1WGd3TVQxb1FaUHMzM1E5Q0g5a0pnT1c4UHNueDFpemM0cVFha3Vzcy1wSmFFR0hlcnFha2VZMkw1cTIwRDYxZ1o0MFVTbjUtRUFuVi04N2VPN2d5Y9IBxAFBVV95cUxNUFlVem9nVHJXWllxXzlPbFdLTkZyQ2R0a0laeUdNWlBPSTlyLXhlNWpza2g0SWEzSk9sRjJ3RWlhSURXY2JvRHN5dTdpVzFKT3MzSEZnU0ZZZ0dpSmhOWU9jUGF3SWo3dlJwYmhrVEZlOFdwRDN2dExndmliTF92VmYzVHhWN2dKdEJEVW5Ta2pFc2wwQllybXRiblVQNW9CeklrZWdHUjJ0bFpscWZnS0pmcWdqTDNkTHdYNTRjYWU3VmV4?oc=5",
+   "source": "PDNews",
+   "date": "2026-10-09T18:46:23Z",
+   "cat": "lancamentos",
+   "local": true,
+   "img": ""
   },
   {
    "title": "Poupança do SBPE tem saída de R$ 6,19 bilhões em setembro",
@@ -39,7 +52,8 @@
    "source": "Portas",
    "date": "2026-10-09T13:38:29Z",
    "cat": "financiamento",
-   "local": false
+   "local": false,
+   "img": ""
   },
   {
    "title": "Contornos da base de cálculo do ITBI na incorporação imobiliária direta",
@@ -47,7 +61,8 @@
    "source": "JOTA Jornalismo",
    "date": "2026-10-09T13:00:23Z",
    "cat": "regras",
-   "local": false
+   "local": false,
+   "img": ""
   },
   {
    "title": "STF volta a julgar imunidade de ITBI em capital social de imobiliárias",
@@ -55,7 +70,8 @@
    "source": "Migalhas",
    "date": "2026-10-09T09:30:35Z",
    "cat": "regras",
-   "local": false
+   "local": false,
+   "img": ""
   },
   {
    "title": "STF volta a discutir IPTU por área: levantamento do g1 mostra como capitais usam a metragem",
@@ -63,7 +79,8 @@
    "source": "G1",
    "date": "2026-10-09T08:00:00Z",
    "cat": "regras",
-   "local": false
+   "local": false,
+   "img": ""
   },
   {
    "title": "A contratação de alienação fiduciária de bens imóveis por instrumento particular",
@@ -71,7 +88,8 @@
    "source": "Migalhas",
    "date": "2026-10-09T07:00:00Z",
    "cat": "mercado",
-   "local": false
+   "local": false,
+   "img": ""
   },
   {
    "title": "Secovi-SP apresenta diagnóstico das imobiliárias brasileiras no Encontro das Imobiliárias",
@@ -79,7 +97,8 @@
    "source": "SECOVI-SP",
    "date": "2026-10-08T23:17:06Z",
    "cat": "mercado",
-   "local": false
+   "local": false,
+   "img": ""
   },
   {
    "title": "Secovi-SP e Insper discutem agenda comum em pesquisa, dados e desenvolvimento urbano",
@@ -87,7 +106,8 @@
    "source": "SECOVI-SP",
    "date": "2026-10-08T21:58:17Z",
    "cat": "mercado",
-   "local": false
+   "local": false,
+   "img": ""
   },
   {
    "title": "CII realiza Rodada de Negócios do Mercado Imobiliário em São Paulo",
@@ -95,7 +115,8 @@
    "source": "CBIC - Câmara Brasileira da Indústria da Construção",
    "date": "2026-10-08T20:32:03Z",
    "cat": "mercado",
-   "local": false
+   "local": false,
+   "img": ""
   },
   {
    "title": "GO: DPE garante concessão provisória de moradia e impede demolição de casa em Aparecida de Goiânia",
@@ -103,7 +124,8 @@
    "source": "ANADEP",
    "date": "2026-10-08T14:10:12Z",
    "cat": "mercado",
-   "local": true
+   "local": true,
+   "img": ""
   },
   {
    "title": "PF mira desembargador do RJ por venda de sentenças do mercado imobiliário",
@@ -111,7 +133,8 @@
    "source": "Gazeta do Povo",
    "date": "2026-10-08T14:05:00Z",
    "cat": "mercado",
-   "local": false
+   "local": false,
+   "img": ""
   },
   {
    "title": "R$ 207,9 mil a mais em juros: financiamento imobiliário de R$ 400 mil em 30 anos sai mais caro no Itaú do que na Caixa, pela taxa média do Banco Central",
@@ -119,7 +142,8 @@
    "source": "CPG Click Petróleo e Gás",
    "date": "2026-10-08T13:04:00Z",
    "cat": "financiamento",
-   "local": false
+   "local": false,
+   "img": ""
   },
   {
    "title": "Feira de Imóveis da Ademi-PR retorna após cinco anos em novo formato com ação integrada de incorporadoras e imobiliárias",
@@ -127,7 +151,8 @@
    "source": "RIC Mais",
    "date": "2026-10-07T21:45:36Z",
    "cat": "lancamentos",
-   "local": false
+   "local": false,
+   "img": ""
   },
   {
    "title": "Secovi-SP reúne diretores das regionais do Interior e debate mercado de loteamentos e pauta legislativa",
@@ -135,7 +160,8 @@
    "source": "SECOVI-SP",
    "date": "2026-10-07T21:34:49Z",
    "cat": "mercado",
-   "local": false
+   "local": false,
+   "img": ""
   },
   {
    "title": "IHGG comemora 94 anos com exposição de aquarelas e lançamento de livro",
@@ -143,7 +169,8 @@
    "source": "A Redação",
    "date": "2026-10-07T21:25:49Z",
    "cat": "lancamentos",
-   "local": false
+   "local": false,
+   "img": ""
   },
   {
    "title": "Cade nega consulta da Abrainc sobre dispensa de notificação prévia na compra de imóveis",
@@ -151,7 +178,8 @@
    "source": "BOL",
    "date": "2026-10-07T20:18:00Z",
    "cat": "mercado",
-   "local": false
+   "local": false,
+   "img": ""
   },
   {
    "title": "Redução da jornada de trabalho: CBIC intensifica diálogo e defende debate técnico no Senado",
@@ -159,7 +187,8 @@
    "source": "CBIC - Câmara Brasileira da Indústria da Construção",
    "date": "2026-10-07T19:27:10Z",
    "cat": "mercado",
-   "local": false
+   "local": false,
+   "img": ""
   },
   {
    "title": "O ITBI nasce no registro do imóvel, não na Junta Comercial",
@@ -167,7 +196,8 @@
    "source": "Migalhas",
    "date": "2026-10-07T19:20:40Z",
    "cat": "regras",
-   "local": false
+   "local": false,
+   "img": ""
   },
   {
    "title": "Mercado imobiliário aquecido exige inteligência, não euforia",
@@ -175,7 +205,8 @@
    "source": "ES Brasil",
    "date": "2026-10-07T18:06:30Z",
    "cat": "mercado",
-   "local": false
+   "local": false,
+   "img": ""
   },
   {
    "title": "Juros altos atrapalham setor e sufocam a economia, diz Abrainc",
@@ -183,7 +214,8 @@
    "source": "CNN Brasil",
    "date": "2026-10-07T18:01:00Z",
    "cat": "financiamento",
-   "local": false
+   "local": false,
+   "img": ""
   },
   {
    "title": "Banco do Brasil coloca 75 imóveis à venda e pretende comercializar até 800 até o fim do ano",
@@ -191,7 +223,8 @@
    "source": "Tribuna do Sertão",
    "date": "2026-10-07T15:00:00Z",
    "cat": "mercado",
-   "local": false
+   "local": false,
+   "img": ""
   },
   {
    "title": "Consulta da ABRAINC sobre compra de imóveis é indeferida pelo Cade",
@@ -199,7 +232,8 @@
    "source": "Governo Federal",
    "date": "2026-10-07T14:46:37Z",
    "cat": "mercado",
-   "local": false
+   "local": false,
+   "img": ""
   },
   {
    "title": "Minha Casa, Minha Vida: prefeitura divulga lista de contemplados e próximos passos",
@@ -207,7 +241,8 @@
    "source": "Primeira Página",
    "date": "2026-10-07T12:39:18Z",
    "cat": "financiamento",
-   "local": false
+   "local": false,
+   "img": ""
   },
   {
    "title": "Quanto custa financiar a casa própria em outubro? Compare juros cobrados pelos bancos",
@@ -215,7 +250,8 @@
    "source": "Exame",
    "date": "2026-10-07T08:02:21Z",
    "cat": "financiamento",
-   "local": false
+   "local": false,
+   "img": ""
   },
   {
    "title": "Crédito imobiliário cresce apesar dos saques de poupança e FGTS",
@@ -223,7 +259,8 @@
    "source": "Imobi Report",
    "date": "2026-10-07T07:00:00Z",
    "cat": "financiamento",
-   "local": false
+   "local": false,
+   "img": ""
   },
   {
    "title": "CBIC e Abrace Energia discutem agendas comuns e ampliam diálogo institucional",
@@ -231,7 +268,8 @@
    "source": "CBIC - Câmara Brasileira da Indústria da Construção",
    "date": "2026-10-06T20:55:48Z",
    "cat": "mercado",
-   "local": false
+   "local": false,
+   "img": ""
   },
   {
    "title": "STJ afasta IPTU sobre mais de mil lotes em área de preservação",
@@ -239,7 +277,8 @@
    "source": "Migalhas",
    "date": "2026-10-06T19:51:00Z",
    "cat": "regras",
-   "local": false
+   "local": false,
+   "img": ""
   },
   {
    "title": "SindExpert debate a experiência do morador após a entrega do empreendimento",
@@ -247,7 +286,8 @@
    "source": "SECOVI-SP",
    "date": "2026-10-06T16:01:59Z",
    "cat": "lancamentos",
-   "local": false
+   "local": false,
+   "img": ""
   },
   {
    "title": "Guia do corretor de imóveis: como atuar no mercado imobiliário brasileiro?",
@@ -255,7 +295,8 @@
    "source": "Portas",
    "date": "2026-10-06T14:38:24Z",
    "cat": "mercado",
-   "local": false
+   "local": false,
+   "img": ""
   },
   {
    "title": "Prefeitura de Bandeirantes prorroga prazo de inscrição do Programa Minha Casa, Minha Vida",
@@ -263,7 +304,17 @@
    "source": "Bandeirantes – MS",
    "date": "2026-10-06T12:22:58Z",
    "cat": "financiamento",
-   "local": false
+   "local": false,
+   "img": ""
+  },
+  {
+   "title": "Prêmio Top Imobiliário volta em 2026",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9abVRtOG9yNTBEZERsckhRTEpwdURvZWtVX29qQzhucXFvU254WmlpOTdEdG02MHc5UDdYN1ZVbnVFRklqZG5FazlfZ2IzZkpWcEkxNjVjdHV4YnUwYkh6Y1pjTWJVbmgyRU5Xd3VaYlMyUHFqZV80eGg1eHBzQQ?oc=5",
+   "source": "Arroz de Fyesta",
+   "date": "2026-10-06T09:07:40Z",
+   "cat": "mercado",
+   "local": false,
+   "img": ""
   },
   {
    "title": "Bancos automatizarão financiamento de imóvel",
@@ -271,7 +322,8 @@
    "source": "Valor Econômico",
    "date": "2026-10-06T08:00:01Z",
    "cat": "financiamento",
-   "local": false
+   "local": false,
+   "img": ""
   },
   {
    "title": "SINDUSCON Joinville: vendas superam lançamentos no mercado imobiliário da cidade",
@@ -279,7 +331,8 @@
    "source": "CBIC - Câmara Brasileira da Indústria da Construção",
    "date": "2026-10-06T02:40:18Z",
    "cat": "lancamentos",
-   "local": false
+   "local": false,
+   "img": ""
   },
   {
    "title": "Eleições 2026 e mercado imobiliário: o caminho entre as urnas, os juros, o crédito e a compra do imóvel",
@@ -287,7 +340,8 @@
    "source": "ABC da Comunicação",
    "date": "2026-10-05T21:21:58Z",
    "cat": "financiamento",
-   "local": false
+   "local": false,
+   "img": ""
   },
   {
    "title": "STF e ITBI na Integralização: Entenda o Julgamento Crucial",
@@ -295,7 +349,8 @@
    "source": "Portal Contabeis",
    "date": "2026-10-05T21:00:02Z",
    "cat": "regras",
-   "local": false
+   "local": false,
+   "img": ""
   },
   {
    "title": "Redução do ITBI em Aparecida começou nesta segunda-feira com alíquota de 1,5%",
@@ -303,7 +358,8 @@
    "source": "Prefeitura de Aparecida de Goiânia",
    "date": "2026-10-05T20:44:46Z",
    "cat": "regras",
-   "local": false
+   "local": false,
+   "img": ""
   },
   {
    "title": "Minha Casa, Minha Vida: \"inscrições abertas em todo o Brasil\"; veja quem pode ter isenção integral",
@@ -311,7 +367,8 @@
    "source": "ISTOÉ DINHEIRO",
    "date": "2026-10-05T19:51:01Z",
    "cat": "financiamento",
-   "local": false
+   "local": false,
+   "img": ""
   },
   {
    "title": "Jovens respondem por mais da metade das vendas do Minha Casa, Minha Vida no ES",
@@ -319,7 +376,8 @@
    "source": "A Gazeta",
    "date": "2026-10-05T18:41:00Z",
    "cat": "financiamento",
-   "local": false
+   "local": false,
+   "img": ""
   },
   {
    "title": "Vendas financiadas de casas crescem 11,8% no Brasil e superam avanço dos apartamentos em 2026",
@@ -327,7 +385,8 @@
    "source": "Portal Revista Kdea 360",
    "date": "2026-10-05T14:22:44Z",
    "cat": "financiamento",
-   "local": false
+   "local": false,
+   "img": ""
   },
   {
    "title": "Consórcios respondem por 21,8% dos imóveis financiados no País",
@@ -335,7 +394,8 @@
    "source": "A Tribuna",
    "date": "2026-10-03T23:35:00Z",
    "cat": "financiamento",
-   "local": false
+   "local": false,
+   "img": ""
   },
   {
    "title": "Pet places ganham espaço nos empreendimentos e acompanham nova relação das famílias com os pets",
@@ -343,7 +403,8 @@
    "source": "Zelo - Portal de Noticias",
    "date": "2026-10-02T23:58:00Z",
    "cat": "lancamentos",
-   "local": false
+   "local": false,
+   "img": ""
   },
   {
    "title": "Diferença de preço de imóveis em Goiânia chega a 40%, a depender do bairro | SEGS Portal Nacional de...",
@@ -351,7 +412,8 @@
    "source": "SEGS Portal Nacional",
    "date": "2026-10-02T21:55:32Z",
    "cat": "mercado",
-   "local": true
+   "local": true,
+   "img": ""
   },
   {
    "title": "Isenção de IPTU é estendida a imóveis de associações de delegados",
@@ -359,7 +421,8 @@
    "source": "Portal CMBH |",
    "date": "2026-10-02T19:46:48Z",
    "cat": "regras",
-   "local": false
+   "local": false,
+   "img": ""
   },
   {
    "title": "Prefeitura de Goiânia autua construtora e intensifica fiscalização em canteiros de obras",
@@ -367,7 +430,8 @@
    "source": "Panoramagocomunicacao",
    "date": "2026-10-02T18:12:12Z",
    "cat": "lancamentos",
-   "local": true
+   "local": true,
+   "img": ""
   },
   {
    "title": "Construtora é autuada após concreto entupir bueiro e galeria pluvial em Goiânia",
@@ -375,7 +439,8 @@
    "source": "GYN Noticias",
    "date": "2026-10-02T17:42:00Z",
    "cat": "mercado",
-   "local": true
+   "local": true,
+   "img": ""
   },
   {
    "title": "Semana CANPAT Construção 2026 começa nesta segunda-feira com debates sobre segurança nos canteiros",
@@ -383,7 +448,8 @@
    "source": "CBIC - Câmara Brasileira da Indústria da Construção",
    "date": "2026-10-02T17:10:43Z",
    "cat": "lancamentos",
-   "local": false
+   "local": false,
+   "img": ""
   },
   {
    "title": "Sustentabilidade no mercado imobiliário: valorização e economia real",
@@ -391,7 +457,8 @@
    "source": "Portas",
    "date": "2026-10-02T17:00:00Z",
    "cat": "mercado",
-   "local": false
+   "local": false,
+   "img": ""
   },
   {
    "title": "Comissão Municipal do Minha Casa Minha Vida é empossada",
@@ -399,7 +466,8 @@
    "source": "Prefeitura de Pelotas",
    "date": "2026-10-02T15:24:00Z",
    "cat": "financiamento",
-   "local": false
+   "local": false,
+   "img": ""
   },
   {
    "title": "Mercado imobiliário do ABC reage e vendas sobem 14,82%",
@@ -407,7 +475,8 @@
    "source": "Portal ABC do ABC",
    "date": "2026-10-02T13:50:00Z",
    "cat": "mercado",
-   "local": false
+   "local": false,
+   "img": ""
   },
   {
    "title": "Paralisada desde 2025, Casa da Mulher Brasileira terá nova construtora em Goiânia",
@@ -415,7 +484,8 @@
    "source": "Jornal Opção",
    "date": "2026-10-02T11:47:00Z",
    "cat": "mercado",
-   "local": true
+   "local": true,
+   "img": ""
   },
   {
    "title": "STF pode definir alcance de imunidade de ITBI na integralização de capital",
@@ -423,7 +493,8 @@
    "source": "Valor Econômico",
    "date": "2026-10-02T07:00:00Z",
    "cat": "regras",
-   "local": false
+   "local": false,
+   "img": ""
   },
   {
    "title": "Encontro CBIC de Construtores e Incorporadores reúne setor da construção em Goiânia",
@@ -431,7 +502,8 @@
    "source": "CBIC - Câmara Brasileira da Indústria da Construção",
    "date": "2026-10-01T20:59:57Z",
    "cat": "mercado",
-   "local": true
+   "local": true,
+   "img": ""
   },
   {
    "title": "IHGG lembra seus 94 anos com exposição de aquarelas e lançamento de livro",
@@ -439,7 +511,26 @@
    "source": "A Redação",
    "date": "2026-10-01T19:16:00Z",
    "cat": "lancamentos",
-   "local": false
+   "local": false,
+   "img": ""
+  },
+  {
+   "title": "Redução do ITBI em Aparecida começa 5 de outubro",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNdU1MMWNLYjMybjhrNnIxTnh6RThKM1Q5OFhrMkNVTHB0bHBJaUxhR0dTRVB1aDR4aEtsaFFMcHlqeVM1RUpoUGYxaTRUamQzNS16WVdKS0RkSXdEVGN0M2JjNnpPU0dZUWcxanhvSmdDZGhHd1I0SHN0ZmxWMmdKdjNfdV9hVHF4V2xNMWFOTlNzdndCbUNQT0dZRXA?oc=5",
+   "source": "Prefeitura de Aparecida de Goiânia",
+   "date": "2026-10-01T07:00:00Z",
+   "cat": "regras",
+   "local": false,
+   "img": ""
+  },
+  {
+   "title": "Construtora de Goiás dá um salto no ranking das maiores empresas do Brasil",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPZVk0b0FpREIzWmpmMkR4aVhGMlViTlRIQVFSUVlMcktieE9fb3NCZmM0TWFwWlp3SGlpU1hSMFhJcXByNTU5bmRpdmZ5VjJIenl6OTN1VXhnc3FuN2o3ZUtGWFBPNFFncG9LUVY1c3VTVWN1Mkd2b2FKRU52MVJkazJjUmx5V1drZGlUWVBYNFVVc3ZOZGo2VWxyMDFIZDhxd3pPNW5LWWJYVjNyTmpSNG1RSUZjdWJq?oc=5",
+   "source": "Bra1",
+   "date": "2026-10-01T07:00:00Z",
+   "cat": "mercado",
+   "local": true,
+   "img": ""
   },
   {
    "title": "Disparada nas taxas dos títulos afeta acesso a imóveis nos EUA",
@@ -447,7 +538,8 @@
    "source": "O GLOBO",
    "date": "2026-10-01T07:00:00Z",
    "cat": "financiamento",
-   "local": false
+   "local": false,
+   "img": ""
   },
   {
    "title": "ADU promove reunião para discutir novo Plano diretor de Aparecida de Goiânia",
@@ -455,7 +547,8 @@
    "source": "Expresso 360 |",
    "date": "2026-09-30T18:01:00Z",
    "cat": "regras",
-   "local": true
+   "local": true,
+   "img": ""
   },
   {
    "title": "Cidade vizinha a Goiânia vira aposta do mercado imobiliário de luxo",
@@ -463,7 +556,17 @@
    "source": "Bra1",
    "date": "2026-09-30T11:23:00Z",
    "cat": "mercado",
-   "local": true
+   "local": true,
+   "img": ""
+  },
+  {
+   "title": "Advogado pega 22 anos de prisão por prometer reduzir financiamentos e ficar com dinheiro de clientes em Goiás",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQc01iRVA4VEZDN2REV2x0eGFSUGhBMU9zaUJ2WndfLWtzZTl1WWN0eE5weHVKc2JQYWs1Ni1laWszNjVXLUZ1Q1VpaF82Y1VyRzFENmxvRUFqdkREcmxaeDYyRnRoQ2FiRnAxeDhOZGlxVzVRUFU2SmVpdWdWR3hYd29LR25ONkNXMDdPNHViTGo4cVlBQWNDMHY5dnpUVU10VnBBaHJCVFc3VnBUdGpUdjRrcE1nU0tIbUR6b244UVFmekc3?oc=5",
+   "source": "Mais Goiás",
+   "date": "2026-09-30T07:00:00Z",
+   "cat": "financiamento",
+   "local": true,
+   "img": ""
   },
   {
    "title": "Marketplace do QuintoAndar cresce mais de 100% e avança sobre aluguel",
@@ -471,7 +574,8 @@
    "source": "VEJA",
    "date": "2026-09-30T07:00:00Z",
    "cat": "mercado",
-   "local": false
+   "local": false,
+   "img": ""
   },
   {
    "title": "Financiamento imobiliário com recursos da poupança cresce 46,6% em agosto, diz Abecip",
@@ -479,7 +583,8 @@
    "source": "Valor Econômico",
    "date": "2026-09-30T07:00:00Z",
    "cat": "financiamento",
-   "local": false
+   "local": false,
+   "img": ""
   },
   {
    "title": "Financiamento imobiliário na Caixa: o que fazer após a greve?",
@@ -487,7 +592,8 @@
    "source": "Portas",
    "date": "2026-09-30T07:00:00Z",
    "cat": "financiamento",
-   "local": false
+   "local": false,
+   "img": ""
   },
   {
    "title": "Financiamento imobiliário com recursos da poupança cresce em 2026 apesar de saques",
@@ -495,7 +601,8 @@
    "source": "Folha de S.Paulo",
    "date": "2026-09-30T07:00:00Z",
    "cat": "financiamento",
-   "local": false
+   "local": false,
+   "img": ""
   },
   {
    "title": "Crédito imobiliário via poupança soma R$ 17 bi e tem 3º melhor agosto",
@@ -503,7 +610,8 @@
    "source": "UOL Economia",
    "date": "2026-09-30T07:00:00Z",
    "cat": "financiamento",
-   "local": false
+   "local": false,
+   "img": ""
   },
   {
    "title": "Greve da Caixa, que teve fim decretado pelo TST, já atrasou concessão de crédito imobiliário",
@@ -511,7 +619,8 @@
    "source": "O GLOBO",
    "date": "2026-09-30T07:00:00Z",
    "cat": "financiamento",
-   "local": false
+   "local": false,
+   "img": ""
   },
   {
    "title": "Consórcio imobiliário com menor taxa: opções com 9,5% [2026]",
@@ -519,7 +628,8 @@
    "source": "iDinheiro",
    "date": "2026-09-30T07:00:00Z",
    "cat": "financiamento",
-   "local": false
+   "local": false,
+   "img": ""
   },
   {
    "title": "Coexistência entre IBS e ITBI e os desafios da tributação imobiliária são tema de artigo do CTAT",
@@ -527,7 +637,8 @@
    "source": "LegisWeb",
    "date": "2026-09-29T14:11:49Z",
    "cat": "regras",
-   "local": false
+   "local": false,
+   "img": ""
   },
   {
    "title": "O boom dos condomínios em Goiânia e o futuro do mercado imobiliário",
@@ -535,7 +646,44 @@
    "source": "R7",
    "date": "2026-09-29T07:00:00Z",
    "cat": "mercado",
-   "local": true
+   "local": true,
+   "img": ""
+  },
+  {
+   "title": "Fogo em apartamento de luxo começou em celular carregando próximo a colchão, dizem bombeiros",
+   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQelMxSl9SZUdfRGJiQVdVaUx3OEZQeXVaSk9UaGZGQk1JUnplSHF3djVHSnR0NmNNNFlvc29QZGZvUDZxczJJQmdiTklMTHBULXpEblhxUEIxc1JhWW9CWi1INXVLaUs5MG1HR1NNT21ZQjE1SDdTVDBQQ1A5V1c0bUJoYVJyenp6QktWY2diU0RiSkJKX3dleG9mRHRJUDZ0SDdrUW03OTJIdU1zSXpmMlk0UGVtQW00ejNwVTJKU3RPcVVqeHpuM3lyWUpVTDM3bllZWHdLVGNvTTdNWXJv0gHuAUFVX3lxTE5UUnJ6bFpPX1ViUDlPUklKQ1B4UkVjX3lwQmxjWkVvWDVKWVFsVU03dWNfeG1qYWFlV0k3bjlKTjhFejJCdmt2Q1hlOVJDbUZ2NzljOENNMHZ0c3dhME5OTTJxZ21VUzZEMUE0cjF4SFNSYW5DSXMxNWstVXJ0bU9JMFFQLVBGelpzcXRnRXJkMzdsbXppNDR4QS0zSE1tRHM0ZDFsSGZTa3QtTDhYTkxDS0prS2MzdldJRnVCTEVxRnRzNjRhZzJPYWs3Vkc0XzhsdUo5Q3lrQnNsbktjLUYtRjhacWZaVTUtMnp3MHc?oc=5",
+   "source": "G1",
+   "date": "2026-09-29T07:00:00Z",
+   "cat": "mercado",
+   "local": false,
+   "img": ""
+  },
+  {
+   "title": "Celular na tomada teria iniciado incêndio em apartamento no Setor Marista, em Goiânia",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQakhYVGQwUzZuQ296NEdkeDZsSE84a1RfbVdWUjBFM2gydmRvWFphdV9VdURjMmNKYW8wa0l4d3NVZ0JxNmhWWldrMDJ1S3NKYXBoRjd4VkUtVkQyWFltMktKZ0FBTWhoMk1tQk9adWVzS3g4bUFySU85aUNxVm1HQ2p3T2tRak9EaFlqSUR5eHRZY3RiakdERG5HSGNYQTlVZFhGbW85ZkdadGJZZ21rWmlaMHpWQTlkRmpzODY0NUI1NEpCVkxzRG1n?oc=5",
+   "source": "Mais Goiás",
+   "date": "2026-09-29T07:00:00Z",
+   "cat": "mercado",
+   "local": true,
+   "img": ""
+  },
+  {
+   "title": "Moradores deixam prédio às pressas após incêndio em apartamento no Setor Marista",
+   "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNOS1EX3FHR1FLOGRHbGFOSUU0aExkZDVCQ1VpcEY2RzhadjlDV1VSNWhNTll1WEdzdk1DNXdjMjg3alNHOTRlckxwaDdVdDNxR2tlMnZXS3lMd0FWWTFXZjdmc3AwdTk1aEJoRzVKSW1ZNHN4MkIxZUVHV0NFVXMta1NBTmdvZmZSSUcxQnU3Y0hfWXB2cnREVHZtNVhBWENQQW1SZHhMdVVkcXYtbzFBRXBac1l2WHdjZlZIYW1NWlNPbERaT29OTEZocXJCcnlLNGFSdzJ1YXBqSnI0NFFjcGRmTdIB8gFBVV95cUxOY2w2Y2dPT1VXemZqSTZRUDNVcHlmclpWalh0V3otQWtqVmR1YmFvYnJYSDgxaGJDWURDSWRDWFc1OHR2eXNOanlMZVlQbUs4RjZRcjVELWg1bFFha1gyUTk1azNvQW9QSHNYaFhZcEtSRnZVMFdnLVpUWXJ3WUxrTC1TRWJiNlF4RGsya3RHNm5vdnBoWDlCVGpDRHpidGxwR2FoVWhpOE9aaXpYZHFyako0bFktMWdJU1VhaWhjVHB5Y3lIN0JlUlBYZ0hzelNDMF9GSmdLYklOQTQ0eE1iSE9US0hpWHhnNVA1TGVTLXVIUQ?oc=5",
+   "source": "G1",
+   "date": "2026-09-29T07:00:00Z",
+   "cat": "mercado",
+   "local": false,
+   "img": ""
+  },
+  {
+   "title": "Antes da prisão, CRECI já havia cassado registro de corretor acusado de golpes",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNZWlyMm1SXzBzVC03bnlWVWdxUVJJcVFYUjdyZUFkcWY5RzlmTW5WZGJwYlNYTnpTT1hHRmhQbVhqLTFjQ2lPWUVCZWgzenR6MWZ4VGsyV2FCVXdBdzZrYkNQY2FsZk1BRFlrZzdnLXBNZFVDV0swMElRTTAzaUNJbEJjMG4zeTQtLVItY2UzdmJGdTUxRUpVd1BUd1d1bEh0ZnZadXdmQ0NWcTE2SkhER3VOUE4wVHRRTG83OEFTajE5NGxFeW44?oc=5",
+   "source": "Mais Goiás",
+   "date": "2026-09-29T07:00:00Z",
+   "cat": "mercado",
+   "local": true,
+   "img": ""
   },
   {
    "title": "Polícia descobre 'construtora fantasma' que movimentou R$ 10 milhões para o tráfico de drogas em Goiás",
@@ -543,7 +691,26 @@
    "source": "Jornal Opção",
    "date": "2026-09-29T07:00:00Z",
    "cat": "mercado",
-   "local": true
+   "local": true,
+   "img": ""
+  },
+  {
+   "title": "Minha Casa, Minha Vida: somente candidatos que mudaram de endereço ou telefone devem atualizar dados até sexta, 2",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQNDFFaFJ2b0Zxc2psN1k0Und2YmZXaUZnUEZzbDJDSE1FOGJtRXkxV1JKTkFrWUJUTGszUGNpUjZueUxlMkVMdWRVS0s4ZnlSR3ZrTEh0UTJyVmNRYkl6TDVmOW0zaFlWc0t5ampaSk1UNGdnaHV3SFJaS1hWb1E1NDZJY2JPTl9mLVNrd3JVTDdXaVJBSHJmcFRXMHYzYVVDNHRuaEpmdkhJSkYzOVd1VHAzUlIzaUl4MEJobzN1akpOYmY1VEp1eWI0WndEVFJ2aHRxeg?oc=5",
+   "source": "Prefeitura Municipal de Vitória da Conquista - PMVC",
+   "date": "2026-09-29T07:00:00Z",
+   "cat": "financiamento",
+   "local": false,
+   "img": ""
+  },
+  {
+   "title": "Dono de imobiliária é preso suspeito de causar prejuízo de mais de R$ 1 milhão com golpes em GO",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOaFJNdHJhQ3ozajIzN3RPdk5ZMDYwR1lCV3hodjJON0c4aWxtX2JoeFBTZkh1cWdmS3h1Z0tBSkJlV3djeWYtZ254SXNwdDNXMWFJWEdsaXphWnU4bXF6OHVERUVSTVhjeGVVZGRRRzVHY0xvR3lBVjVPN3A5TF9veHlJWXl3YmJ6QnJ1bjZXaEU5elRMdmFUVFMxMzlYUldzUDlobTlCZXNnMmlMdFZITlNTaW5nWHZTalJrbHFTS1luQQ?oc=5",
+   "source": "Araguaia Notícia",
+   "date": "2026-09-28T18:03:51Z",
+   "cat": "mercado",
+   "local": false,
+   "img": ""
   },
   {
    "title": "Excelsior Seguros destaca oportunidades no Seguro Habitacional e aproximação com corretores em Goiás",
@@ -551,12 +718,29 @@
    "source": "CQCS",
    "date": "2026-09-28T12:39:51Z",
    "cat": "mercado",
-   "local": true
+   "local": true,
+   "img": ""
   },
   {
    "title": "Imóvel do Pão de Açúcar no Setor Bueno muda de dono após venda de R$ 41 milhões",
    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPazNmWFB4QlFob08xbXFhNVd5NzFEUVhzTTJlQ2ZubHFfSVVWeFdPVGdSYlpnMnJFU0tjLVBXMzBoVXJaSVFQSE9FYWY5bHBLM183VDZzY2tTVnlreFJrbU9obE5jUkY5REFGMUd6czYtdUFkUUw0UmRLUkFXOE03cUt6am1FQlJET0N4bzVUTFNCTjdHbFp4eTY0ZEYtOGoybzhLUVhrR2hwbTFHSnRhd1JhOUxzVnBjQzNGZw?oc=5",
    "source": "Mais Goiás",
+   "date": "2026-09-28T07:00:00Z",
+   "cat": "mercado",
+   "local": true
+  },
+  {
+   "title": "Incêndio atinge apartamento de prédio no setor Marista, em Goiânia",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNOFRvdHJkVmRhTFVYMEVaS24xUUhldVRoY0VYQW1iTGQzY0JYNnJCc0lNR21hUUJOcTJidG1aREl0ZTQyc19CbzJ3Zjl2NGtJQUxlM05SUWVPRzRIWXBnbG03TTZHQ3ctLWFOblRiYUNid3ZpQ2hWR3V3WGtwZEY3aURLNjRzazl2U2wxeUxrTmRoR3JZOEFVaVpGY2ZvSFczdW1IUkRrQ1JRYVZFbWpUdQ?oc=5",
+   "source": "Mais Goiás",
+   "date": "2026-09-28T07:00:00Z",
+   "cat": "mercado",
+   "local": true
+  },
+  {
+   "title": "Apartamento de luxo pega fogo, moradores fogem por janela e prédio é evacuado, em Goiânia; vídeo",
+   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOTTJBRVZlNEZWclB5MkpuWVRLRk91b29YQVVpZWdXSkdrVlJOUVh1WDRKd0tFVGlZUFRIQ1h3dVBLQ3J4VWJCdmFLSGx1b3d4U3FoMDh6TThmVVZjQkpDUjl1R3VXN2JKWVJtM1NEVkFnZ0xTc0VhWVFoYk1fRVBaQ3FpeUlXbGhpS0V6N1ZydjdjT2RyOXNyZ3E5Y0pBak9zUUlNTVNVdUlPY3Z6TG9XakFoTkpqV09wM3FkbkFibWlNNkIwZ1plWm4ySWpfcVBGVklqZjN6TUd1WXlXdGVWYlNn0gHwAUFVX3lxTE1NV2dPVHU5VVNUbGlxOGtpTExxbWhXY2NrMTg5bnhLUGZTYjhTc3BZeWZEeWo5OXdWSUYxMERDemRsVTRMVlBkcW5CSXpaYjdNdmRSSGMzd3g0bUNGc1VBMzYyS25zSG9ra1NsM2dIdmZQYXZ4d3lSWklGa3lDNDduTi1raHlfTENXWXlTU2dzVnlqM1JGOUVxS1VHX254VXRjMlJKZEdoLVBKRm4zNHFvekFzUGlyd29yR0FSXzlBWnk2Vms1MVlCdDNqbFktNDlUN2w5VFFHZ1VwWGpHZlJNQTZ1VGpucDZ5VS1CelVsUQ?oc=5",
+   "source": "G1",
    "date": "2026-09-28T07:00:00Z",
    "cat": "mercado",
    "local": true
@@ -698,6 +882,22 @@
    "local": false
   },
   {
+   "title": "Sophia Martins analisa imóveis menores e o m² cada vez mais valorizado no Brasil",
+   "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPdUN1enNhZ3p4WFFia3NOUGpNOVp4UTc4MkVyc0Q3aDBSdVpOdTI0aV8zRkoyMElscUtFd1dsLU9ob1p4VlRuT3FnWlhRRjhsWk1PbE9aUjdFWC1Za1BWOWxwbkhwOW45dkNVdVA3c3g4eVhiM1NzMnVkQ2dEUmlsLThZaVhFLXZoWVpwMXRsdGxiQ1FvVGJYcGkzU1ZSdnZyOURKM0NlU2o5eG5Sd0dpaWhFdzAyZ0FzRFVqT3VnSm9YeGVnd0pMWm9kVnhsRzZ6XzREV0xxODgwY3djSEp0YXEtdWV2bEtiVUlPTdIB-wFBVV95cUxQNEZRb055VjhudFlCcnYzd1QzcTU0RDlPT3NMdkEtY0t5QkVqMExLazIzWUxqRFhuNHpFZGVoeE8zdHhoR1dPRmxDSHVSUWtzczlCcTc5UWNkaUVoT0pId3FFaG4zWWhhUlpGRFlkRTdJM19PVUNRQUR4TWtOUW1wWDJPb2NYblVCVmJYLWJWVmhNS1h0R2Y5TzN5QWdjMWxISmFvOGhaMk5yVUxTZFBaazRRamluaEhiaVBGSjdMdDRJc0FhdExhUzVlVG1HZkJ3ZDR4NkJ3UldQa1Vnbno5MUxZRmI4dDhyOGlSZzB6Q2xWcFZlVnFDenhyOA?oc=5",
+   "source": "O GLOBO",
+   "date": "2026-09-24T07:00:00Z",
+   "cat": "mercado",
+   "local": false
+  },
+  {
+   "title": "Além da estética, usabilidade ganha espaço nos apartamentos de alto padrão",
+   "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxORzYtWEF1Ync1bGF3TEN0RGRaOEFHcTAtOEdzSWdzWS1rTm1COWZxLUhJbTJTQjZRWDJPMWE0OHlqdVJLcjl6VmZDN0hJYkFSUWg1Yml4T3htVzRzLVN3Q2lrRU92c3dPV0RrWWlXSmJ6MjFZcHZzOWI5aUxWSGdsXzlGNjlpV0VZUFMwWkIxcUthZnk3LVBWemxoTk9iZjVCQl9iNGJkYVdWaVNIM2JDTmtLb0ZRa3JIR3NqQlBOOEo2RXlVeWZsRzc1OUJMa2V3R2Q0UlE5LWF1a2RXTW1Gb08xZnRWd3NTamFiZHJoWklHeHRYbm84XzdZM0hVRzQ1VjhZNHNTdnhoSTktZk82SXQ5QzE1cFpk0gGnAkFVX3lxTE40QV9Fc2ZCZjdmYjhjaThQWExEell4WlozVWprY1FYdWZFYmpoeTdqa1V1cDhicUt5c3NIam85b1FPWi1DX0ZpSm5vRGNxSmRFRVpKWXY1OTdMaTh3SGVlV0RzXzFFdmtiNk5uM3NxNWl1YUpPbGxTM3dmSkxWNHpUSlloc1hlbUd4SE1aLXdfeHI4VkxadWp2eHZFM0VUOURTQURvdkNMQ1ZaOExXVjRzeG1UdF96MGwweW1VTmJDRk5BcGJ1cXloLUpzWVloTzUyQkFMX3RucUFpQ19qMHpNd1VOaXg1SER3NDJSRVhHa1FYb3E4YkxIWlp2dF8wTFZQTmdGdDdiTVMwV19WU2FKUTdzak84U0docmdTWk9PRjdTWHZjQlU?oc=5",
+   "source": "G1",
+   "date": "2026-09-24T07:00:00Z",
+   "cat": "mercado",
+   "local": false
+  },
+  {
    "title": "Greve da Caixa trava financiamentos e deixa corretores sem receber comissões",
    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQc3RYMlVXTHZrVXctMElHSW9CbkZiYXJiSi1EMHJteEF2b0phbE9scXRhLWpTS0tsYmlDUmx3bk1lalJjTmVMSHJRczl2Zm04MVhZQl9Tb0JaTTNXZVVfb1RaV0R3WGxDWGEzTDQwZnJXS1RUYWhpNS1DbTBsc0hQSFhjU2VESzZNck52YmdZdVp3dEZIdG9FR2lXRXBxUXB5UU8tZFVTWC1oTU5vN2dWc3VB?oc=5",
    "source": "VEJA",
@@ -815,6 +1015,270 @@
    "source": "Folha de S.Paulo",
    "date": "2026-09-23T07:00:00Z",
    "cat": "financiamento",
+   "local": false
+  },
+  {
+   "title": "Confiança e expectativas da construção pioram em setembro, aponta Sondagem da CNI",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNUHpWcVdISFFvMW91VndyQnpTTndicGY1Umk0ZVNoNGl6Q1NZejREMEFDdkdXUzRrZFRxWkE0NG5rRU5PQm1zZlBnZUoyTXJNWi1Sdl93MzNYUTBqSWJ0VGcxM2dIc08tbHF6bjdMTS1pQWxlTVkzZGFENzlvTFJtSFFEMjQ1cmdLc1dMd3dBOWZEY29URUNOQlNpTE0xbFAwejVN?oc=5",
+   "source": "CBIC - Câmara Brasileira da Indústria da Construção",
+   "date": "2026-09-23T07:00:00Z",
+   "cat": "mercado",
+   "local": false
+  },
+  {
+   "title": "CBIC participa de seminário “Pense nas Pequenas Primeiro” promovido pela CNI e o Sebrae",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxORnc2dm8yeDFDOXZPc1ZTbUpJRklOWjc1X3hNUXYwVThUNnhGbWdrcllPbGlZT0hxQldtNWwxVnJnS1ozQ2N0RUx5Tmx0cDdHYXpDTWFMNkNBUDltMVZpenhqVjV3S0djaldjckU5QmcwbWhPaElFU08xcWl3NnFSQ3dTNTNablYwYXMzdGNfTG1mcXFaTjl2dWxXME0wUTVidHBHcEVKR2dEUQ?oc=5",
+   "source": "CBIC - Câmara Brasileira da Indústria da Construção",
+   "date": "2026-09-23T07:00:00Z",
+   "cat": "mercado",
+   "local": false
+  },
+  {
+   "title": "Mercado imobiliário de Goiânia movimenta R$ 4,1 bilhões, mas burocracia trava habitação popular",
+   "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNZG5IYXVpWmxoUkxLOU1GTG1DRWxYVjRJNXlDMVMxdm9nUXRTMVMwUEVMeTM3enZwdTFUQTZEemxTTjVSSlJUSGhBVUs1dkRWcDFpT0dsWm5pcHd6WG9iVUZpUFJwSDBQbmdHV085YUJhWGcxOXNzS2ZkOFFMNmdtZHI1XzI1dkI5OWNkeEItM1JEZXRfTjVDRVkyZXJYdkhPZnJkWk1scExFYmVtc2hBcXlDSmFwUlN6cXAzVEFzVW96TE41TWJWdzlXVmp5NzhCYW1mVkU4RXhYRk9EUDAwVkgxWGJ6a2hObENyM2l4S0lUVFZhaUZFSmtjRmJsWG1RTE94UnlmNFkxQlU?oc=5",
+   "source": "Jornal Opção",
+   "date": "2026-09-22T07:00:00Z",
+   "cat": "mercado",
+   "local": true
+  },
+  {
+   "title": "Apartamentos lideram valorização em Goiânia, enquanto excesso de oferta pressiona preços dos lotes",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPeDBIWGJLS0ZGR2JWUXVqQnJOZWFfNTd0ZVJNT2dmZzZldWNVRHBKQXFIN3YxeXlQTjh5RGpRUUN5blR3ckpwVVY5Z2gtVUtfSmc1RlJ6TTVqUE9WT09kR2RhS05kZzI4empNclg4dkZROWV0aFN2TWF4azdZUWJpQ3RiZUI3MjBhWTFvUUp0c3VSbmptelprQlVsN2JSQ2pycVF4MU9DZmtMRmpOVVBISVl4elhqakhxMDZmbGJWZ1Vtdw?oc=5",
+   "source": "Jornal Opção",
+   "date": "2026-09-22T07:00:00Z",
+   "cat": "mercado",
+   "local": true
+  },
+  {
+   "title": "Vilela envia à Câmara projeto para reduzir ITBI em Aparecida por um mês",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOb19iNHBCZmVRbjJEdjVHSXBrNEM3a2pLb2dYSUV4azdkREExVXN1dGU0S2VkdnhEd01WU21ORU1MNkREekNzSm5nVEdCeXpDdzFFelJPMG5kMmhwVkdhakVSMGhuM0d2WlhfcEpQTF9ZYXpETERnWDlkUGlnNWxGRnU3Y1hWUmlJRENBRExOZkhmWV9vTG1SaUw0R19MVmZmYk5KUFFMNWlGTjNDdVg0?oc=5",
+   "source": "Mais Goiás",
+   "date": "2026-09-22T07:00:00Z",
+   "cat": "regras",
+   "local": true
+  },
+  {
+   "title": "Greve da Caixa: Financiamento imobiliário e direitos do consumidor",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQLUlKbjhfTmpmalRrblotSmd3QkNaOU9VSl9KblRtYTBFeS1Xcnp0dEp5T2hyNEhUVzFLNzRWX0FnZGczRG8yd0Nsc0lweGRiQjJyOFNGdjl4ZElUdURqdWZodzM4eHd0U2FmcXViTHFMRjZtcDlJOUhSWEV1RGdiMVZTYzUyWmlCZmFWR1JVaw?oc=5",
+   "source": "ISTOÉ DINHEIRO",
+   "date": "2026-09-22T07:00:00Z",
+   "cat": "financiamento",
+   "local": false
+  },
+  {
+   "title": "Greve da Caixa é mantida e trava financiamento da casa própria: o que fazer?",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPRElJaGhybEdVSnJtdGd4bHFnSkxKcllYVm4wS2NjQ0U5c2VzN2xPU0RWTHFqTXVnQjBSakNYczZpXzlJS2hTbzN6TmJoaFY1MUc5ZHRTQmVNN2prRjd6UmlNSHlRd2RqdDRjQ1BfcVJxN0xlYi1GSThFUmdYQUZLNzZ4RWVCbld6dklaZmNHNEt2YmVscWo5dTlnc3VUc21vMG1qeGQzVWk1MFlqMkpWYTFfVQ?oc=5",
+   "source": "Exame",
+   "date": "2026-09-22T07:00:00Z",
+   "cat": "financiamento",
+   "local": false
+  },
+  {
+   "title": "XP vê freada no crédito imobiliário como temporária e mantém aposta em baixa renda",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQUjNJelFTRnVybkhrdnFNVnZZRWlCNHV3dzhmTVN1RHY3Y0UyY2xQWkNTdFhMaHdpNEgyNkh6bV9lR0ktS3ZvN3ExNmFTdms1X19LSTMyVWFoM2tVMy1SNV96a0ltT0ZqdmRMaENBdXIyR2dyS0hoV3g3S0JTT3lGR0ZnWFNCd3J3ZkEtb1RfRkF5UmYyaHhXU3cxMzZJbHV0OUlGek8wcmNBTzE0ajJtaWhEOHBYam5ySmQ0a2ZR0gHDAUFVX3lxTE9hMUtRV0ZoSFVwTkZNMURxMkRQODE4bUdyQXRmV25iMDJuZS11OEhwMjN5MXhvYWVpcTl6R2N3TkVrbUJFZkZkNUI0OFpSUGNsbVpWU2JVVlc4dnl3eW1GLUlKRFJXSzQxVDY2QkVqSjRORzlFejhZS0t4bE5TdURwUllkN281aGVhNlgwSDY5dl9GbTRTNHQyMTJlVGlJSExmb0gtRVROVnpzVV9MRWlMVVQ5azhVV2dGZm1PUm9Ec2JfNA?oc=5",
+   "source": "InfoMoney",
+   "date": "2026-09-22T07:00:00Z",
+   "cat": "financiamento",
+   "local": false
+  },
+  {
+   "title": "A nova estratégia do mercado em ofertas de imóveis de luxo no Brasil",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQVo3UmpRRlhqcUhOT3h0SWZ0MzlOdW9SbFZ3V256aGVPZzY4eEsyNFIwMENrc3JFUzA1aEpiT25PUXVJOURvQnlHblFkQkM1cGFscDVJZzlTV2pCbXlnd0cwaVBVYkU0N1RwU1A0VDNVd056YmZwbDNSQkVjU1JtYUNyY21OSkU1Ym9CelQxbGlac2MtUkU3a2NySmp0elFsZTlaZzdkODA0UG5QdWthVlBn?oc=5",
+   "source": "VEJA",
+   "date": "2026-09-22T07:00:00Z",
+   "cat": "mercado",
+   "local": false
+  },
+  {
+   "title": "STF expõe luta por imunidade de ITBI contra 'sanha arrecadatória'",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZGpoajRJRzBzcG51RnRBNjZJa0sxNi1WZEFIMjJTR1A4czhUeDlmZE40cUQxUldnUXd4WEkxRERuZHFwYm90Ti1GekN0UEROaEZnalVncnlQUDM0MjlkUE5UeDg0NW1md0ZtVHluZ2lyNkJVZjI4UkpfU1gwV0Y2b1RuTkVsRDM1eGhQZk4wZDBRZlJRdFJDV2hjWEtmVmRsdmdBNmpYdlFNVjJDTkNDUHlXem1Cdw?oc=5",
+   "source": "Consultor Jurídico",
+   "date": "2026-09-22T07:00:00Z",
+   "cat": "regras",
+   "local": false
+  },
+  {
+   "title": "Tenda amplia projetos nas faixas mais altas do Minha Casa, Minha Vida",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNeEFscXQ4XzBabmpjYjlQbHRRUjdZY25NWGRBcGMxR0VDNDdqU3ZRTm9Rem91eF9NVkRIWVJ5X21OS3RWcWR6b2djS05GdzZMa3BsRHByWWpoQmZ0M0FNanNzWVhYdDcyb1BwbVYtblRKSTJobmpkZ2lZMUo0RXN3Xy1SX2dLN3R5Q09BS3NqM2phTlJhR0x0NTJyZWUwRDlGX0FPSEptSVpsZ19MNFdPdG5UOWtldUw4TlZmQl9R0gHDAUFVX3lxTE5nVjgzZEpOVHNYRThKYlZ5emFOMndsRkplcTM2ejVXY0praVlwbHNPZllXc043SzlrUlhGVDFVSTFrQVpRa2U3TDduSlpvVkJseHVONl82c3NtT1R4M3JxYk00SjRpU0RDeDF3SWhPTkREczladm1SeXl5enF5YTRqcHVvTnMtMTd4WWk2ZWdJUXB4Q3hnRnlxNDZ0dVp4TC1UekZMR00yby1sWV9IUEd2OG1IVkJrZTYxM1pCMWNtVlF2MA?oc=5",
+   "source": "Estadão",
+   "date": "2026-09-21T07:00:00Z",
+   "cat": "financiamento",
+   "local": false
+  },
+  {
+   "title": "Setor imobiliário pede adiamento da próxima etapa da reforma tributária",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSl9QVlU3TWgyX2lNNXdObmJJbjdjdUpvSDA3MDlqYjdvN2dWU1NEMW9MZXVyYVF5dXFFUTFpN2lTZF9Cc3dWb1hsYlpHOWE0amRxTkVCTDhZWFBFMFp2YzVSaXpicy1QSFplUmlIckhuTUQwSHZVSjhpdnJGMmc1eklKQ0lnVmdNZ040YTNMQ2lxWkdrMWV4M3VtSFJZYnFrQzZpT29B?oc=5",
+   "source": "Paraíba Business",
+   "date": "2026-09-21T07:00:00Z",
+   "cat": "regras",
+   "local": false
+  },
+  {
+   "title": "ITBI: nova redação do art. 38 do CTN exige revisão da legislação municipal",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQck4xS2V5ZmZkWHpSb3NPSnpQc3l4M1oyXzVGcVM5OFFqWldwOHVSdFM2OWZGTEJFdldiYlBKRDlYcURoM2l3UmI0Wjkwb2VRcENWNXJqRHA3dXF5b2tSWnhKWjFUNk1hejBEUkYwREVEdzdtb3JhUjItdmlRaEhIc1ZvOFJzWnpzaE81MDZkakxPZFVLcnp3Q0hfSlVER3Ixb2dtcGQ2Yk1STjQ?oc=5",
+   "source": "Consultor Jurídico",
+   "date": "2026-09-21T07:00:00Z",
+   "cat": "regras",
+   "local": false
+  },
+  {
+   "title": "FGTS completa 60 anos: saiba o que mudou e como gerir o dinheiro do fundo sem sair de casa",
+   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxORUdhZGlEYkRvR2dNWDl5X0JSZzk5a1MzWTY5dmxCUlF0aXMtblJUb0lUOUZHYm5fVXZjWUJHOXVXb1pjS19hTDFVRWtpaWM2Vy1MODYweGYtUzhOVWZfdGdtbVBzRExJeXBCTFUxMnhkLXQzcGVsaDkydm9qb3NkMXNSU3JaOUpGVDB1c0RmLXB2elhMVGU0MVFkYzVrVVhwdGNnTXc2QkU0ZFNFN29yY3FqNWxVLXBRY3JXVC01R3FnNzliQXVSWWxqWkdUbk5NOWVvemZDZnc1RFQ00gHrAUFVX3lxTE12MEhrZWhwTmNWMDZFemhqSUZhNDFEcHZmT2pOcy1kZnAzNC1UdVJ1eUtzOExieUlveFR5cTV3dWk5ZVRDczQ5TVRmU2Zkdnk3UGlkeDEyT19UdDNWT1N3c0pSQmFwem9EVk5Ba2J1SDBRNXdCYThQYWtEaldValk2VHI0UDlJeHpIcVJkako2Vm03UG5SVU16OEdwbDR2cEVGVUdzb3hoLWFyNFVEZEFNLUkyb2lBSDlNbGZsSXNRQ09JNzBlNXQ5TXllX1NmQnVVU3VjR2JxYUlobDlZZHM4VjBTc2dJQXU0YzA?oc=5",
+   "source": "Extra online",
+   "date": "2026-09-20T07:00:00Z",
+   "cat": "financiamento",
+   "local": false
+  },
+  {
+   "title": "Começa a construção de 160 unidades habitacionais no Jardim Oratório em Mauá",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1fZmZEV2FYQy1ybkpxdk9tM3U4OHFQUkZNOWgzSE1PVEVLVjVJTGFzOThmSmVLWTZ1NDZmVmY2OWVFWWhJaGlfaGlJbFdKVUFkS0dpckVn?oc=5",
+   "source": "Prefeitura de Mauá",
+   "date": "2026-09-19T18:54:36Z",
+   "cat": "mercado",
+   "local": false
+  },
+  {
+   "title": "Apartamentos de até 34 m² já são maioria entre os lançamentos em São Paulo; entenda",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQWkJDZ2EyOHR1WE5sUU16MWRMa19fMTR3elBIT2dUdG1IcWhRN0FfLVQ1UjZ5QVlKVGpkbW9OcnIxR1k2VGk0dDA3S1RMWDVISmx3T3JLT1liOWtFVVo0NDV4bWg1NExiWEsxeUNLYkZJdE5lVldqaVIyUkZhQzc5X2x2bkhnZWoxbVdwTzN6eWNCU3UxMm1tTlQ4M2l6QnROd2IycXlaT0RQVUFCSDkxR19wRjZUSDY5Y08zdzZ0Tk41SlBtUnfSAcsBQVVfeXFMT1h5NEdTX0RmakVEM1NJN1pOMVhTUmxsamxROGkzUVJITE15Z1p2NThnaDlwWk9RWHRTR0tONXpueE0zUHlNZ1VVdlh4NDNGUUJqWk4zZ2ZxR1FfclZleTZ3SlVCeGxpdVRteVNJSElCd0pjSkJuNEpqUnpRenM5MXFvX3hHeVVGSkdZUUNOT2tKaHRjZGZZZ3RfcC1BeGlHWkt1ajd5OXktMkpzdFphTV9fQkVOY2o0dFhDLXdEWHd4b3JhR0JkWkZKWDg?oc=5",
+   "source": "Estadão",
+   "date": "2026-09-19T07:00:00Z",
+   "cat": "lancamentos",
+   "local": false
+  },
+  {
+   "title": "Goiânia redesenha o luxo imobiliário",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNZWtzcTRLbk1kZkR5dmRIMVA3a1Z2MnlON0N1YnYxTDVsbjluelJ1dFNWZlo3YjlTQktGQ1pQQ3d5VllDNTFaVjlCYktoR3V5NXltYzRkZDZHQUQwVm5FSWVJV3VXUzcxR0Z4RTNLZm5xM0UyRFF5ZDFPTDBicFAxSTlRZHEtaS16UnIzZGlqNVdaS2RlbXVTelZ1aS0tc2RrOHRHeVFWcGl1WkRud0lwZjF4SlnSAcMBQVVfeXFMTkU2QjN6bUQxMnFtSTRRWnVwbk9SS21xb1dEOHRCMmRIX3IwRjNKOW9oaHJvOVNHSF94bXhXblJrVGNmQm8zcmJoUVlXN0IzaFYyblhvelktcUp5SlhRTGdkVjJOUF9PVVpPalYwU1laclUydUpTT1B1cXctRUFKVDhXQjlQYTdubkFjSFd3SEh5R3ZmRzNQMEI3blFyTXhqLWJsenBpTU5HajcySmUtMzRTdm9IcWZFcGFiWjk0Z0wwaHFN?oc=5",
+   "source": "Valor Econômico",
+   "date": "2026-09-18T07:00:00Z",
+   "cat": "mercado",
+   "local": true
+  },
+  {
+   "title": "“Não se torna proprietário só porque pagou”: advogado explica o que fazer com imóvel quitado e sem escritura",
+   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOdlNrdGRNQXBEMXBFdF9PMTlNUmVza0JLRXZ1R0dkNVFISFFnTHZ1aEc4VWxOMkw4MjVPTVUwMi1Td3RiNkM1T3RQVG1Fb2hmSk9oQ2NCaEtKWU9ubGc1Z18tM1lmZXMtSmNyVjBLMDUxaWhoOS1lcGFDTjRNeDR6NFlld01TeGZsdW5PZzdPY0xuZ09KYjBaV0Fqd2hvYjNRZkpEcU9aZXN6UXlkQVhmcC1Fb2dzdGh6dDJnb19rUHc5OHJKZ0hnbFVfUG9rOURSalhFM2VyMEtvU0g0c2VINw?oc=5",
+   "source": "Jornal Opção",
+   "date": "2026-09-18T07:00:00Z",
+   "cat": "mercado",
+   "local": true
+  },
+  {
+   "title": "Goiânia: Jóquei Clube alega tombamento do Hipódromo da Lagoinha para isenção do IPTU cobrado pela prefeitura",
+   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNMnFtNVdMRDR4TVdlVmE2LVVUMlg5TmszZkMycmJrci1rVjZfY3BjR1djREFtSUJoSTlhdG9wSlRFWlVrbmlWTlFlY2E1RnVFd1NOVFRzc0NzcVdpckxfdWI0Qm52TWZtSHZkLUI1MUljRWJuWExkZnRzQmxyTmlpMTh5M2JPU3lPLURrUUV6NU83WkJuZnlSQmZLUllZTmxDbTZrR1BINUlRV2tqSHN4VzJXS250bTNaWU51ZWtXLS1KYjFkZEItNjFyaVY4aDh4eWRqWWVlTWs?oc=5",
+   "source": "Portal Serra Dourada News",
+   "date": "2026-09-18T07:00:00Z",
+   "cat": "regras",
+   "local": true
+  },
+  {
+   "title": "O que o valor de R$ 1 trilhão em crédito imobiliário diz sobre o Brasil",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQMjJhMElGNkxtTmhsLXdnclZhZU1rSUY5RFdhQWduTFlTcHV1WUdtdGJyTG5HLXZQUTVPWG1Sd2c4d2RwclltZ2FhNml4c3EzNTNXRGRwdkFWSEhNRDViUmIzUWg3RU13SVI1UUJEelVOd3dlYmt1ZktpN1VoVGcwNHZuTkgtbXd1SWJvU3ZPV3JxOEo1WnNxRFg3VjdycWdBM3ZpcmhwSFZORjlXRzhZ?oc=5",
+   "source": "A Gazeta",
+   "date": "2026-09-18T07:00:00Z",
+   "cat": "financiamento",
+   "local": false
+  },
+  {
+   "title": "Minha Casa Minha Vida terá 2.574 novas moradias em 8 estados",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZXJfSzVVdDB6NkViYmplOXFLQUxmQ3BXU2VKcjJsb083LTVFdHJUQ1ZMU0pQRzBCSE9RTmRxeGRnMFBjb0VWNVBJVU85NnNwVzVKNWIyVUo5LVJIMGs1S2hFTGJCYVRiRGVlcldaWUVVMWhXV0VvQUY0Q2pGZUg1U2pnRm8?oc=5",
+   "source": "ISTOÉ DINHEIRO",
+   "date": "2026-09-18T07:00:00Z",
+   "cat": "financiamento",
+   "local": false
+  },
+  {
+   "title": "Eleições: mercado imobiliário é mais afetado pelos juros do que pelas urnas, segundo levantamento",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPNWQ0MGxEUWdnMU1KVWZaWm4yamlSazJPYklvNkUyUW5pdDBmZ0hoWXRnS3JYSndzZ2liRWFNUnl6YzBNN1JYdjdNbzhNV1dMVTR5VXQwYjgzQUJWN2J1SERidEU4LWRmczhxaEF5Yklpc3laZGxmVW5qQ2ExVUdURXVKRzdoWVIyWGt0T3R1VGMyTjZuS082VkpPRFF4X0laU0QyQVdGcTk2d1lza1ZZNF90YndlcDRnZ29XbG9tZk9pY3YyQUMwQzRXMFlTNjhfaUY3Mw?oc=5",
+   "source": "R7",
+   "date": "2026-09-18T07:00:00Z",
+   "cat": "financiamento",
+   "local": false
+  },
+  {
+   "title": "Fundo Casca do TRXF11 Vende Imóvel locado para o Pão de Açúcar em Goiânia por R$ 41 Milhões",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPXzhFSmpmVzlYbEhWNXp5XzU5RXZoSnI5NzFaNnBTQ0FyRjNXOTJFR0pRUnJRVzlPQzQ5cklIWEE0SW9iMWRsd2V4SDZWTlBoSTJzTkRPVWpwVVRpYWdtMktwdloxWllndHY0VEpUOFJlR0M0aERCdjhoVEdPTTY1LVpUdTdFVElzTURWdXM1bVlnVFZzS1pFMm8yeXFzUQ?oc=5",
+   "source": "Forbes Brasil",
+   "date": "2026-09-17T07:00:00Z",
+   "cat": "mercado",
+   "local": true
+  },
+  {
+   "title": "Como ficam os juros da compra da casa própria com a Selic em 13,75%",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOeWthbUVWMWp4WVV0NTYySG9YSkRiNkZQOU5MT0cyZ0x2OHNXUzI1S1prOHMwRmRZUWVPUVRHci1haGZhdkt1RUJMUHdxQUU0ZDlTZkdLNmVNQVdXbzNweGRTRW1hSW93MnZXQUxfU090WG1qbFNHNFVORVFzZlpjVXJkNGh6al90NW9BR21oZ21vMFRYYzBHZjI0Y3dHT1JKb01EalF5WQ?oc=5",
+   "source": "Exame",
+   "date": "2026-09-17T07:00:00Z",
+   "cat": "financiamento",
+   "local": false
+  },
+  {
+   "title": "Selic caiu, mas sua prestação no financiamento não vai diminuir já — eis o porquê",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPUWU0dDdqd3RNV0I1Q1VSOV9meHM5cnhVN25VaEhVT01JallTWWNZQ3BGX25BX2NQdk5KZEFxQ2xvclE1dDB1Z3Q3V2t2TkJlLUtvNkFHMHNtODFKNG1XcEVCQU1WZF8zX1cwWUVYTU10UjBuQnd4RG9pZ1QxX1lFb0xPdnd2VDhFWW9rV1dMZjNPdC11RTFWNGFxaWpvcTg1bi1YX0x1cVQyeWpBSDJUUjlUa3BQTGhJQTBaMmpR0gHDAUFVX3lxTE50YW84WVpWQ3FwRlNLMDdNUW4tc1drUzhReldBU01UakFWVm80SkpxLVlsSmh1dzlYajZfbkdWY0s4YzZWRlROaVZBN1ZYS3c5UUF6MXNFZ3JLXzFIbXJiN0dsazlIMjhxX3hiUjN0T051VDdtTUlnR0lUNkRoSEE1RXRrd2NNTEJyQlVudURpcG1tZk5uTVVjMkNkWC1oS2JEaGJ6X2dGLWlUaGl2WE9KQXJqNHJaYWxIMFY0b3p2T3ZDRQ?oc=5",
+   "source": "InfoMoney",
+   "date": "2026-09-17T07:00:00Z",
+   "cat": "financiamento",
+   "local": false
+  },
+  {
+   "title": "'Corrente de oração': como a greve da Caixa impacta os corretores de imóveis",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQellDdENyLVMtbmthR01VLURLMnZQRFVmaWd6T0Z1Z2ZrNkZlNFlTUkRkUldDRFNscG9YejVMelMwN1NndmJoSGd0elBReDJhTlJZajhJdDJZdkVBUDUzcGJOQ2YzT0kzaUp5QXhKSU95M2pOSi0tSnlKUnhQWHZJelVSTHVQVEhCSTNjUDV2cmVINTJLeU8wWUtpcEpnclZIQTlsNktodnNQeDdCcGdHX0Zn?oc=5",
+   "source": "Exame",
+   "date": "2026-09-17T07:00:00Z",
+   "cat": "financiamento",
+   "local": false
+  },
+  {
+   "title": "Greve da Caixa atrasa crédito do programa Move Brasil e financiamentos imobiliários",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQbS1QZXdGcGdTUmp6dEJ5N29Wdm9lZm9YVDFFMDNKOFlrRnBVYl83OEhqMGtQemxCd2kzY1Zyc21fUXo3R3ZKZ1A2SmJHOUwwanZYNU1MZG9RNFRCczhvU0N0V0pvdDZkcFE4d0U0Z0VFa2JIbFIyeWczbjdzV29VbW13Z25oNldKTXA5R0VacHpMLTY4MFNYTzlvWkNpY1dNcFdvWU9sVWVrXzBXMWIzc3NkRnlHT3FVV1Z0dUlZdzAzZjNuUmZLNjRFbG54UHl3?oc=5",
+   "source": "Folha de S.Paulo",
+   "date": "2026-09-17T07:00:00Z",
+   "cat": "financiamento",
+   "local": false
+  },
+  {
+   "title": "Greve da Caixa atrasa financiamento imobiliário; saiba o que fazer",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQQVRnLUMwYkNETjIteUdyeHUwdUJUM2pMUjBETDFWZHRYaWZCZnRIcktTSDZic2otemY1ZVBielQ1aFo1Rk9PSWVxNUlSSTRCOVJTLUJxUm56V0VSWDBIOThsTGdvX1V4S3NwUUpldjNGWHhneS05X0o2YVdjMUhnVVhsaTJLd0gwakFrYzJQS3FoaVJmY1dmOFF1eGVacUlIYmFRd0lhMFRGRjRERnNmY1A0OTA5YzlJRlFxMA?oc=5",
+   "source": "Correio Braziliense",
+   "date": "2026-09-17T07:00:00Z",
+   "cat": "financiamento",
+   "local": false
+  },
+  {
+   "title": "Enxame de abelhas africanizadas assusta moradores de condomínio no Setor Marista",
+   "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxObjNWUFE0czlDcjdOM1VZOFNvX0k5ckNmNzFkTFVQbmw4ellVdnhJcmFkb0FnVm5JbFR2MmVaU1JETWRJaS03SXBaV1hrVHpKc0JicENoWS0zZFJwR2g4ajA5ZUgtb1UwT3dmRGZuNGVfRVVjSC1FVkFJWnFQLVdIZmZLdW5faHdjTUN6SUJBQnlZTU1UVkJ2c0dmLXNjXzhCQlc4UVZBY29POUVOdGJmeDdrc3EzRzZiMzdKdUYwZXktYmZuekZJU2phNDFpdFlQRDFMN0FQV0tZRFd0MjE4SVRxNNIB8gFBVV95cUxQeHhZN0Nnc1lBTmVLWTZIenNxYjdQUERReUJqeWoyaUhWS1dOd3VMQmF6VlFhb09PT1RFT0xnZXlnRnUxVDRseVhEZGcxM1JuUGs5eXFZVjBRWEdsLTNKdUtiaEtJU2hOX2x5M0JsRmgteHhfRlVIdFRCTU5lUTZ5UHRUb2Z0VHQ5SXh2WUZ4TndqcDRVNlZSRkszTjZYT0ZPZnAwbHVoRUNrWWNwYlg4Yjg5Q1BUWmhFdWltQWpkcTkzUTVxdC1oajBiQWV4TlNWNFZEeEdFOWxBdVVIN3ZWRkktd0RHUHpKS3ByS0pjRFc5UQ?oc=5",
+   "source": "G1",
+   "date": "2026-09-16T07:00:00Z",
+   "cat": "mercado",
+   "local": false
+  },
+  {
+   "title": "Riscos do setor imobiliário: crédito em foco",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPUlRWMF9WRzVQZ1R0dm5MMUpRY0tYV2d6T0hLa1c0MXFKRjR1eWlMZ0NUMHo3NEVwZThsUnlyWjNOVF9TRFlvekxNVi1lQ3diQjhBQmhoTkRJY2dYbmdGb2VhOEVBZDM4NHdjV21XMTkyQ3ZNMjI4bFFUQmM5aVRkZ2RGN29GTnpxUjhYbXVCNmJCUQ?oc=5",
+   "source": "Safra",
+   "date": "2026-09-16T07:00:00Z",
+   "cat": "financiamento",
+   "local": false
+  },
+  {
+   "title": "Tecnologia dos games revoluciona o mercado imobiliário",
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQbXZUSmkyWElXaUhBd1k4T0oySGFta2lRTTd4eTFUWFRYT0pGWTFvVVA0RjdXaGNjR0FWd3FZbGhKUjBLLXprZ0p1dDhwRmZoRVZEaldQU1F3SGNWWnk2VHppSlhmRE5OMmIwVzNINUFiZkNQaEdpblhxSEJXdTFiOWx5dklwSXVWbG9kU0FiTWE1Rkoya2trUWxzNkRsT0l0Mkd1TE1CNXpHZzMyOGJhZV93cW0zNm95QUVXRTdrYkRLaUUzekZVNno1S21nNU0?oc=5",
+   "source": "Terra",
+   "date": "2026-09-16T07:00:00Z",
+   "cat": "mercado",
+   "local": false
+  },
+  {
+   "title": "Vendas de imóveis novos em SP avançam 67,4% em julho, puxadas pelo MCMV",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPc2toU3BzazRHU3NjX3VEUTlEVkVQSWJkOEdKYW1hSkQ0dmJ2Q2hUTEFha0pKOW12TDlGVm1PbUVGVVROdHhTTFI1MTZXZTI2VzBUXzlGdmEtUHhhVHpGUF9hN0JvMTVzRGpONVJ4b0VEMUEtclBFRC1UM3hMdHFTNWlDSXdIS3NGSDRocmQ3ZHEwdzhTY19mODJsMGVwWmZfX3c?oc=5",
+   "source": "Portas",
+   "date": "2026-09-16T07:00:00Z",
+   "cat": "mercado",
+   "local": false
+  },
+  {
+   "title": "STF tem 5 votos por imunidade de ITBI a imobiliárias; Moraes pede vista",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZVRBMzJ0S3Z0c29jQ1RxdDB4VXZZUEVFb0J6TW1zRGoxbTNfcllRakFLbDJUUlE3R1hQWHBHR1otZkFVUnRrelNkT0FxM2tqYzZQUm1jVFhpRUVBa2RFNmFETjMyc3VRUkFIcjJjUWdnaHJYUVhzN2k5cElTRnhpTVFsbjBoN2RkNEU4Q3ExQm81bmdNWXZuQlluSWFRQ3duN0JDMG5hQVhXem10MkM5X0FR?oc=5",
+   "source": "Migalhas",
+   "date": "2026-09-16T07:00:00Z",
+   "cat": "regras",
    "local": false
   }
  ]
