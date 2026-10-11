@@ -4,6 +4,7 @@
     const el = id => document.getElementById(id);
     const seguro = valor => String(valor || '').replace(/[&<>"']/g, c => ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;' }[c]));
     const fotoSegura = valor => { try { const u = new URL(valor); return u.protocol === 'https:' ? u.href : ''; } catch { return ''; } };
+    const resumoBreve = valor => { const t = String(valor || '').trim(); if (t.length < 240) return t; const corte = t.slice(0, 240); const fim = Math.max(corte.lastIndexOf('.'), corte.lastIndexOf('!'), corte.lastIndexOf('?')); return fim >= 80 ? corte.slice(0, fim + 1) : corte.slice(0, corte.lastIndexOf(' ')).trimEnd() + '…'; };
     const codigo = valor => String(valor || '').trim().toUpperCase();
     const carteira = membro => new Set(membro.imoveis.map(codigo));
     const quantidade = membro => state.feedReal ? state.all.filter(p => carteira(membro).has(codigo(p.id))).length : 0;
@@ -18,7 +19,7 @@
                 card.className = 'equipe-card';
                 const foto = fotoSegura(m.foto);
                 const iniciais = m.nome.split(/\s+/).filter(Boolean).slice(0, 2).map(n => n[0]).join('');
-                card.innerHTML = `<div class="equipe-retrato"><span aria-hidden="true">${seguro(iniciais)}</span>${foto ? `<img src="${seguro(foto)}" alt="${seguro(m.nome)}" loading="lazy">` : ''}</div><div class="equipe-info"><h3>${seguro(m.nome)}</h3>${m.resumo ? `<p class="equipe-resumo">${seguro(String(m.resumo).slice(0,240))}</p>` : ''}${m.grupo === 'comercial' && m.creci ? `<small>CRECI ${seguro(m.creci)}</small>` : ''}${m.grupo === 'comercial' ? `<a class="equipe-link" href="#equipe=${encodeURIComponent(m.id)}">Ver imóveis <span aria-hidden="true">↗</span></a><small>${quantidade(m)} imóveis disponíveis</small>` : ''}</div>`;
+                card.innerHTML = `<div class="equipe-retrato"><span aria-hidden="true">${seguro(iniciais)}</span>${foto ? `<img src="${seguro(foto)}" alt="${seguro(m.nome)}" loading="lazy">` : ''}</div><div class="equipe-info"><h3>${seguro(m.nome)}</h3>${m.resumo ? `<p class="equipe-resumo">${seguro(resumoBreve(m.resumo))}</p>` : ''}${m.grupo === 'comercial' && m.creci ? `<small>CRECI ${seguro(m.creci)}</small>` : ''}${m.grupo === 'comercial' ? `<a class="equipe-link" href="#equipe=${encodeURIComponent(m.id)}">Ver imóveis <span aria-hidden="true">↗</span></a><small>${quantidade(m)} imóveis disponíveis</small>` : ''}</div>`;
                 const contatos = document.createElement('div');
                 contatos.className = 'equipe-contatos';
                 const links = [];
