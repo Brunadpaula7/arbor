@@ -40,8 +40,8 @@ em{font-family:var(--serif);font-style:italic;font-weight:500;color:#974315;lett
 
 /* logo (árvore + ARBOR) */
 .nav-logo .brand-logo,#nav.scrolled .nav-logo .brand-logo{width:66px;height:56px}
-.footer-brand .brand-logo{width:128px;height:109px}
-@media(max-width:720px){.nav-logo .brand-logo,#nav.scrolled .nav-logo .brand-logo{width:54px;height:46px}.footer-brand .brand-logo{width:108px;height:92px}}
+.footer-brand .brand-logo{width:168px;height:161px}
+@media(max-width:720px){.nav-logo .brand-logo,#nav.scrolled .nav-logo .brand-logo{width:54px;height:46px}.footer-brand .brand-logo{width:140px;height:134px}}
 .hero{background:transparent}
 .hero::after{display:block}
 
@@ -64,3 +64,7 @@ em{font-family:var(--serif);font-style:italic;font-weight:500;color:#974315;lett
 .section-cta{overflow:visible}
 .section-nacional::before,.section-cta::before,footer::before{content:"";position:absolute;left:-2%;right:-2%;top:-26px;height:52px;background:var(--verde-deep);filter:url(#wc-edge);pointer-events:none;z-index:0}
 .section-nacional>*,.section-cta>.wrap,footer>*{position:relative;z-index:1}
+
+/* logo com lema na seção Sobre: caixa quadrada para não cortar */
+.sobre-visual .blob{height:auto;aspect-ratio:1/1;padding:8%}
+.sobre-visual .blob .sobre-logo-image{object-fit:contain!important;width:82%!important;height:auto!important;max-height:none!important}
