@@ -2949,17 +2949,7 @@ const finishInit = (data) => {
     tipos.forEach(t => { const opt = document.createElement('option'); opt.value = t; opt.textContent = formatTipoImovelBR(t); $('filter-tipo').appendChild(opt); });
     state.filtered = [...state.all];
     state.isLoaded = true;
-    const hero = $('hero-property'), heroImg = $('hero-property-img');
-    const cover = state.all.find(p => p.photos?.[0] && /^https:\/\//.test(p.photos[0]));
-    if (cover) {
-        hero.href = '#id=' + encodeURIComponent(cover.id);
-        hero.setAttribute('aria-label', 'Ver ' + getPropertyDisplayName(cover));
-        heroImg.alt = getPropertyDisplayName(cover);
-        heroImg.addEventListener('load', () => hero.classList.remove('is-brand'), {once:true});
-        heroImg.addEventListener('error', () => {hero.classList.add('is-brand');heroImg.src='assets/arbor-logo-full-copper.svg?v=original-20261011';}, {once:true});
-        heroImg.src = cover.photos[0];
-        $('hero-property-caption').textContent = getPropertyDisplayName(cover) + ' · ' + getCardLocationLabel(cover);
-    }
+    // O quadro do topo fica sempre com a marca Arbor; imóveis aparecem só nas seções de imóveis.
     $('ultimos-scroll').closest('.sub-sec').classList.toggle('view-hidden', !state.all.length);
     renderDestaque();
     renderUltimos();
