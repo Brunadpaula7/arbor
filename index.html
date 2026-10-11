@@ -513,53 +513,22 @@
         .pdf-photo-watermark img{ width:30%; max-width:360px; height:auto; opacity:.2; filter:drop-shadow(0 8px 22px rgba(0,0,0,.3)); }
         .print-footer{ display:none; }
 
-        /* ---------- Ficha de apresentação (gerador de PDF real, não usa window.print) ---------- */
-        #pdf-render-root{ position:fixed; left:-99999px; top:0; width:0; height:0; overflow:visible; }
-        .pdf-page{ width:1400px; height:990px; background:var(--verde-deep); padding:14px; box-sizing:border-box; font-family:var(--font); position:relative; }
-        .pdf-page-inner{ width:100%; height:100%; background:var(--areia-soft); position:relative; overflow:hidden; box-sizing:border-box; }
-        .pdf-page-inner-dark{ background:var(--verde-deep); }
-        .pdf-photo-inner{ background:var(--verde-deep); }
-        .pdf-photo-inner > .pdf-photo-image{ width:100%; height:100%; object-fit:contain; display:block; }
-        .pdf-cover-image{ position:absolute; inset:0; width:100%; height:100%; object-fit:cover; display:block; }
-        .pdf-watermark{ position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); display:flex; flex-direction:column; align-items:center; gap:10px; color:rgba(255,255,255,0.6); text-shadow:0 1px 6px rgba(0,0,0,0.5); }
-        .pdf-watermark::before{ content:''; display:block; width:64px; height:1px; background:rgba(255,255,255,0.6); }
-        .pdf-watermark span{ font-family:var(--font); font-size:22px; letter-spacing:0.5em; text-transform:uppercase; padding-left:0.5em; }
-        .pdf-cover-tint{ position:absolute; inset:0; background:rgba(46,50,38,0.6); }
-        .pdf-cover-corner{ position:absolute; font-size:13px; letter-spacing:0.32em; text-transform:uppercase; color:#D9C9A0; }
-        .pdf-cover-corner.tl{ top:36px; left:44px; }
-        .pdf-cover-corner.tr{ top:36px; right:44px; }
-        .pdf-cover-bottom{ position:absolute; bottom:32px; left:44px; font-size:14px; letter-spacing:0.4em; text-transform:uppercase; color:#D9C9A0; }
-        .pdf-cover-center{ position:absolute; inset:0; display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; padding:0 90px; }
-        .pdf-cover-title{ font-family:var(--font); font-weight:300; font-size:46px; line-height:1.2; color:#EFE1BE; text-transform:uppercase; margin:0 0 18px; }
-        .pdf-cover-sub{ font-size:14px; letter-spacing:0.32em; text-transform:uppercase; color:#D9C9A0; }
-        .pdf-wave{ position:absolute; left:0; right:0; bottom:0; width:100%; line-height:0; opacity:0.16; }
-        .pdf-content-page{ padding:70px 80px 60px; box-sizing:border-box; display:flex; flex-direction:column; }
-        .pdf-eyebrow{ font-size:13px; letter-spacing:0.34em; text-transform:uppercase; color:var(--verde); margin-bottom:10px; }
-        .pdf-title{ font-family:var(--font); font-weight:300; color:var(--onix); font-size:40px; line-height:1.12; margin:0 0 22px; max-width:980px; }
-        .pdf-desc{ font-size:17px; line-height:1.7; color:var(--grafite); column-count:2; column-gap:48px; max-width:1240px; }
-        .pdf-desc p{ margin:0 0 14px; }
-        .pdf-caract-title{ font-size:13px; letter-spacing:0.3em; text-transform:uppercase; color:var(--verde); margin:22px 0 12px; }
-        .pdf-caract-tags{ display:flex; flex-wrap:wrap; gap:10px; }
-        .pdf-caract-tag{ font-size:14px; color:var(--onix); background:var(--areia); border:1px solid var(--line); padding:8px 18px; border-radius:999px; }
-        .pdf-specs-grid{ display:flex; flex-wrap:wrap; gap:28px; margin:26px 0 30px; }
-        .pdf-spec-item{ display:flex; align-items:center; gap:10px; }
-        .pdf-spec-item svg{ width:22px; height:22px; color:var(--verde); flex-shrink:0; }
-        .pdf-spec-text{ display:flex; flex-direction:column; }
-        .pdf-spec-text span:first-child{ font-size:11px; letter-spacing:0.2em; text-transform:uppercase; color:var(--verde); }
-        .pdf-spec-text span:last-child{ font-size:17px; color:var(--onix); }
-        .pdf-final-page{ display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; padding:60px; box-sizing:border-box; position:relative; }
-        .pdf-final-eyebrow{ font-size:13px; letter-spacing:0.34em; text-transform:uppercase; color:#A9AD8E; margin-bottom:18px; }
-        .pdf-final-logo{ height:64px; margin-top:46px; }
-        .pdf-final-price{ font-family:var(--font); font-weight:300; color:#EFE1BE; font-size:52px; margin:0 0 34px; }
-        .pdf-final-sub{ display:flex; gap:70px; margin-bottom:34px; }
-        .pdf-final-sub-item{ text-align:center; }
-        .pdf-final-sub-item span{ display:block; }
-        .pdf-final-sub-label{ font-size:12px; letter-spacing:0.28em; text-transform:uppercase; color:#A9AD8E; margin-bottom:6px; }
-        .pdf-final-sub-value{ font-size:22px; color:#F2EFE7; font-weight:400; }
-        .pdf-final-divider{ width:70px; height:1px; background:#8A8A5E; }
-        #pdf-loading-overlay{ position:fixed; inset:0; background:rgba(17,17,17,0.86); color:#F2EFE7; z-index:99999; display:flex; flex-direction:column; align-items:center; justify-content:center; font-family:var(--font); }
-        #pdf-loading-overlay .eyebrow{ color:var(--areia); }
-        #pdf-loading-overlay p{ font-size:1rem; margin-top:14px; }
+        /* Ficha editorial A4: uma página, cinco imagens e localização pública. */
+        #pdf-render-root{position:absolute;left:-14000px;top:0;width:1120px;pointer-events:none}
+        .art-sheet{width:1120px;height:1584px;box-sizing:border-box;padding:60px 68px 48px;background:#faf7f0;position:relative;font-family:var(--font),sans-serif;color:#243c30;overflow:hidden}
+        .art-paper{position:absolute;inset:0;width:100%;height:100%;z-index:0}
+        .art-body{position:relative;z-index:1;height:100%;display:flex;flex-direction:column}
+        .art-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:20px;border-bottom:1px solid #b89b7a;padding-bottom:18px}
+        .art-logo{width:150px;height:92px;object-fit:contain}.art-kicker{font-size:14px;letter-spacing:3px;text-transform:uppercase;color:#77634e}.art-code{text-align:right;font-size:16px;line-height:1.7}
+        .art-sheet h1{font-size:48px;line-height:1.12;font-weight:300;margin:0 0 10px;letter-spacing:-1px}.art-location{font-size:21px;color:#657369;margin:0 0 22px}
+        .art-hero{width:984px;height:440px;object-fit:cover;display:block;background:#e6e7dc}.art-film{display:flex;gap:12px;margin-top:12px}.art-film img{height:150px;flex:1;min-width:0;object-fit:cover;width:0}
+        .art-no-photo{height:300px;display:flex;align-items:center;justify-content:center;border:1px solid #b7baa9;font-size:22px;color:#617062}
+        .art-photo-caption{font-size:12px;letter-spacing:1px;color:#6b7469;margin-top:8px}
+        .art-specs{display:flex;gap:24px;padding:22px 0 18px;border-bottom:1px solid #b9beae}.art-spec{flex:1}.art-spec strong{display:block;font-size:27px;font-weight:400}.art-spec span{font-size:13px;text-transform:uppercase;letter-spacing:1px;color:#6b7469}
+        .art-copy{display:flex;gap:36px;margin-top:22px}.art-summary{flex:1.7}.art-summary p{font-size:18px;line-height:1.55;margin:10px 0 0;color:#405244}.art-finance{flex:1;border-left:1px solid #b9beae;padding-left:26px}.art-price{font-size:30px;font-weight:300;line-height:1.25;margin:10px 0}.art-fees{font-size:14px;line-height:1.7;color:#536152}.art-features{font-size:15px;line-height:1.5;color:#657369;margin-top:14px}
+        .art-sheet .art-foot{background:transparent;color:#243c30;text-align:left;margin-top:auto;padding:16px 0 0;border-top:1px solid #b89b7a;display:flex;justify-content:space-between;align-items:end;font-size:14px;line-height:1.6}.art-foot small{font-size:11px;color:#687267;display:block;max-width:590px;margin-top:6px}.art-foot-right{text-align:right}.art-foot a{color:inherit;text-decoration:none}
+        #pdf-loading-overlay{position:fixed;inset:0;background:rgba(17,17,17,.86);color:#f2efe7;z-index:99999;display:flex;flex-direction:column;align-items:center;justify-content:center;font-family:var(--font)}
+        #pdf-loading-overlay .eyebrow{color:#f2efe7}#pdf-loading-overlay p{font-size:1rem;margin-top:14px}
 
         /* ---------- scroll-linked tree + Arbor identity panel ---------- */
         #scroll-tree{ position:fixed; right:26px; bottom:26px; width:64px; height:64px; border-radius:50%; background:var(--areia-soft); border:1px solid var(--line); box-shadow:0 14px 34px rgba(17,17,17,0.16); display:flex; align-items:center; justify-content:center; z-index:902; cursor:pointer; transition:transform .35s var(--ease), background .35s var(--ease), box-shadow .35s var(--ease); padding:0; }
@@ -3671,181 +3640,99 @@ const goToHoodFilter = (terms, label = '') => {
     requestAnimationFrame(() => { const t = $('imoveis'); window.scrollTo({top:t.offsetTop-80, behavior:'smooth'}); });
 };
 
-/* ---------- Ficha de apresentação em PDF ----------
-   Gera um PDF de verdade (via html2canvas + jsPDF) em vez de usar window.print(), que no Safari/iOS
-   sempre acaba recebendo cabeçalho/rodapé/URL impostos pelo navegador e não pode ser removido pela
-   aplicação. Como aqui o resultado é um arquivo PDF baixado, a identidade visual fica 100% preservada
-   em qualquer navegador ou sistema, sem nenhum elemento injetado.
-   Observação técnica: para incluir a foto na página, o navegador precisa poder ler os pixels dela
-   (CORS). Fotos de hosts que não enviam cabeçalho Access-Control-Allow-Origin (comum em alguns CDNs
-   de imobiliária) podem falhar nessa etapa — a página correspondente é pulada com um aviso no console,
-   as demais páginas seguem normalmente. */
-const PDF_PAGE_W_CM = 29.7, PDF_PAGE_H_CM = 21;
-const PDF_WAVE_SVG = `<svg viewBox="0 0 1440 90" preserveAspectRatio="none" style="display:block; width:100%; height:70px;"><path d="M0,32 C240,80 480,0 720,24 C960,48 1200,88 1440,40 L1440,90 L0,90 Z" fill="#2E3226"></path></svg>`;
-
-const showPdfOverlay = (msg) => {
+/* ---------- Ficha A4 em aquarela ---------- */
+const showPdfOverlay = msg => {
     let ov = document.getElementById('pdf-loading-overlay');
-    if (!ov) {
-        ov = document.createElement('div');
-        ov.id = 'pdf-loading-overlay';
-        ov.innerHTML = `<span class="eyebrow">Arbor Imóveis</span><p id="pdf-loading-msg"></p>`;
-        document.body.appendChild(ov);
-    }
+    if (!ov) { ov = document.createElement('div'); ov.id = 'pdf-loading-overlay'; ov.setAttribute('role','status'); ov.innerHTML='<span class="eyebrow">Arbor Imóveis</span><p id="pdf-loading-msg"></p>'; document.body.appendChild(ov); }
     document.getElementById('pdf-loading-msg').textContent = msg;
 };
-const hidePdfOverlay = () => { const ov = document.getElementById('pdf-loading-overlay'); if (ov) ov.remove(); };
-
-/* Carrega uma imagem tentando preservar CORS (necessário para o html2canvas conseguir ler os pixels
-   e gerar o PDF). Resolve com null em caso de falha, em vez de travar a apresentação inteira. */
-const preloadPdfImage = (url) => new Promise(resolve => {
-    const img = new Image();
-    img.crossOrigin = 'anonymous';
-    img.onload = () => resolve(img);
-    img.onerror = () => resolve(null);
-    img.src = url;
+const hidePdfOverlay = () => document.getElementById('pdf-loading-overlay')?.remove();
+const preloadPdfImage = url => new Promise(resolve => {
+    const img = new Image(); img.crossOrigin = 'anonymous';
+    const timer = setTimeout(() => { img.onload = img.onerror = null; resolve(null); }, 10000);
+    img.onload = () => { clearTimeout(timer); resolve(img); };
+    img.onerror = () => { clearTimeout(timer); resolve(null); }; img.src = url;
 });
-
-const preloadAllPdfImages = async urls => {
-    const loaded = [];
-    const batchSize = 4;
-    for (let i = 0; i < urls.length; i += batchSize) {
-        showPdfOverlay(`Carregando fotos ${i + 1}–${Math.min(i + batchSize, urls.length)} de ${urls.length}...`);
-        const batch = await Promise.all(urls.slice(i, i + batchSize).map(preloadPdfImage));
-        loaded.push(...batch.filter(Boolean));
-    }
-    return loaded;
+const pdfEscape = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const pdfPlain = value => { const node=document.createElement('div'); node.innerHTML=String(value||''); return (node.textContent||'').replace(/\s+/g,' ').trim(); };
+// Preferir campos públicos. Nunca usar endereço, título livre ou identificadores de unidade.
+const pdfPrivatePattern = /\b(?:apartamento|apto?\.?|aptº|unidade|unid\.?|quadra|qd\.?|q\.?|lote|lt\.?)\s*(?:(?:n[º°o.]?|n[uú]mero)\s*)?[:#-]?\s*\d+[\w/-]*|\b(?:quadra|lote|unidade)\b/iu;
+const pdfPublicText = (value,p) => {
+    let text=pdfPlain(value).replace(/\b(apto?|unid|qd|lt)\.\s*/gi,'$1 ');
+    const privateValues=['endereco','apartamento','numero_apartamento','unidade','numero_unidade','quadra','lote','complemento'].map(k=>String(p[k]??'').trim()).filter(Boolean);
+    // Descartar a frase inteira evita fragmentos de localização privada.
+    return text.split(/(?<=[.!?;])\s+|[\r\n]+/).filter(s=>!pdfPrivatePattern.test(s)&&!privateValues.some(v=>s.toLocaleLowerCase().includes(v.toLocaleLowerCase()))).join(' ').trim();
 };
-
-const buildPresentationPDF = async (p) => {
-    if (!p || !window.jspdf || !window.html2canvas) return;
-    showPdfOverlay('Carregando fotos...');
-    const root = document.createElement('div');
-    root.id = 'pdf-render-root';
-    document.body.appendChild(root);
-
-    try {
-        const photoUrls = (p.photos || []).filter(Boolean);
-        const loadedImgs = await preloadAllPdfImages(photoUrls);
-        const logoSrc = 'assets/arbor-logo-full-copper.svg';
-        const detailTitle = formatDetailTitle(p.title);
-        const enderecoLine = [p.endereco, p.hood].filter(Boolean).join(' · ');
-
-        const pages = [];
-        const photoPages = [];
-
-        const coverPage = document.createElement('div');
-        coverPage.className = 'pdf-page';
-        coverPage.innerHTML = `<div class="pdf-page-inner pdf-photo-inner">
-            ${loadedImgs[0] ? `<img class="pdf-cover-image" src="${loadedImgs[0].src}" alt="">` : ''}
-            <div class="pdf-cover-tint"></div>
-            <div class="pdf-cover-corner tl">Apresentação de imóvel</div>
-            <div class="pdf-cover-corner tr">Cód. ${p.id}</div>
-            <div class="pdf-cover-center">
-                <h1 class="pdf-cover-title">${detailTitle}</h1>
-                ${enderecoLine ? `<div class="pdf-cover-sub">${enderecoLine}</div>` : ''}
-            </div>
-            <div class="pdf-cover-bottom">ARBOR</div>
-        </div>`;
-        root.appendChild(coverPage);
-        pages.push(coverPage);
-
-        loadedImgs.forEach(img => {
-            const page = document.createElement('div');
-            page.className = 'pdf-page';
-            page.innerHTML = `<div class="pdf-page-inner pdf-photo-inner"><img class="pdf-photo-image" src="${img.src}" alt="${detailTitle}">${logoSrc ? `<div class="pdf-photo-watermark"><img src="${logoSrc}" alt=""></div>` : `<div class="pdf-watermark"><span>ARBOR</span></div>`}</div>`;
-            root.appendChild(page);
-            photoPages.push(page);
-        });
-
-        const pdfSpec = (icon, label, value) => `<div class="pdf-spec-item"><i data-lucide="${icon}"></i><div class="pdf-spec-text"><span>${label}</span><span>${value}</span></div></div>`;
-        const pdfAreaSpecs = (() => {
-            const items = [];
-            const areaTotal = String(p.areaTotal || '').trim();
-            const areaTerreno = String(p.areaTerreno || '').trim();
-            const areaPrivativa = String(p.areaPrivativa || '').trim();
-            const areaGenerica = String(p.area || '').trim();
-
-            if (areaTotal && areaTotal !== '0' && areaTerreno && areaTerreno !== '0') {
-                if (areaTotal === areaTerreno) items.push(pdfSpec('ruler', 'Área Total/Terreno', areaTotal + 'm²'));
-                else {
-                    items.push(pdfSpec('ruler', 'Área Total', areaTotal + 'm²'));
-                    items.push(pdfSpec('map', 'Área Terreno', areaTerreno + 'm²'));
-                }
-            } else {
-                if (areaTotal && areaTotal !== '0') items.push(pdfSpec('ruler', 'Área Total', areaTotal + 'm²'));
-                if (areaTerreno && areaTerreno !== '0') items.push(pdfSpec('map', 'Área Terreno', areaTerreno + 'm²'));
-            }
-
-            if (areaPrivativa && areaPrivativa !== '0') items.push(pdfSpec('layout-grid', 'Área Privativa', areaPrivativa + 'm²'));
-            if (!items.length && areaGenerica && areaGenerica !== '0') items.push(pdfSpec('ruler', 'Área', areaGenerica + 'm²'));
-            return items;
-        })();
-
-        const specsHtml = [
-            ...pdfAreaSpecs,
-            p.beds ? pdfSpec('bed-single', 'Quartos', p.beds) : '',
-            (p.suites && p.suites !== "0" && p.suites.trim() !== "") ? pdfSpec('bed-double', 'Suítes', p.suites) : '',
-            (p.banheiros && p.banheiros !== "0" && p.banheiros.trim() !== "") ? pdfSpec('bath', 'Banheiros', p.banheiros) : '',
-            (p.garage && p.garage !== "0" && p.garage.trim() !== "") ? pdfSpec('car', 'Vagas', p.garage) : '',
-            (p.mobiliado && p.mobiliado.toLowerCase() !== "não" && p.mobiliado.trim() !== "") ? pdfSpec('sofa', 'Mobiliado', 'Sim') : '',
-        ].join('');
-
-        const contentPage = document.createElement('div');
-        contentPage.className = 'pdf-page';
-        contentPage.innerHTML = `<div class="pdf-page-inner pdf-content-page">
-            <span class="pdf-eyebrow">Cód. ${p.id}${p.tipo ? ` &nbsp;|&nbsp; ${formatTipoImovelBR(p.tipo)}` : ''} &nbsp;|&nbsp; ${p.hood} · ${p.city}</span>
-            <h1 class="pdf-title">${detailTitle}</h1>
-            <div class="pdf-specs-grid">${specsHtml}</div>
-            <div class="pdf-desc">${formatDescricao(p.desc)}</div>
-            ${p.caracteristicas && p.caracteristicas.length ? `
-                <div class="pdf-caract-title">Características</div>
-                <div class="pdf-caract-tags">${p.caracteristicas.map(c => `<span class="pdf-caract-tag">${c}</span>`).join('')}</div>
-            ` : ''}
-            <div class="pdf-wave">${PDF_WAVE_SVG}</div>
-        </div>`;
-        root.appendChild(contentPage);
-        pages.push(contentPage, ...photoPages);
-
-        const priceLine = p.priceVenda && p.priceAluguel
-            ? `Venda: ${formatBRL(p.priceVenda)} &nbsp;·&nbsp; Aluguel: ${formatBRL(p.priceAluguel)}/mês`
-            : formatPropertyPrice(p);
-        const finalPage = document.createElement('div');
-        finalPage.className = 'pdf-page';
-        finalPage.innerHTML = `<div class="pdf-page-inner pdf-page-inner-dark pdf-final-page">
-            <span class="pdf-final-eyebrow">${(p.operacao || 'Venda').toUpperCase()}</span>
-            <h2 class="pdf-final-price">${priceLine}</h2>
-            ${(p.condominio || p.iptu) ? `<div class="pdf-final-sub">
-                ${p.condominio ? `<div class="pdf-final-sub-item"><span class="pdf-final-sub-label">Condomínio</span><span class="pdf-final-sub-value">${formatBRL(p.condominio)}</span></div>` : ''}
-                ${p.iptu ? `<div class="pdf-final-sub-item"><span class="pdf-final-sub-label">IPTU Anual</span><span class="pdf-final-sub-value">${formatBRL(p.iptu)}</span></div>` : ''}
-            </div>` : ''}
-            <div class="pdf-final-divider"></div>
-            ${logoSrc ? `<img src="${logoSrc}" class="pdf-final-logo">` : ''}
-        </div>`;
-        root.appendChild(finalPage);
-        pages.push(finalPage);
-
-        if (window.lucide) window.lucide.createIcons();
-
-        const { jsPDF } = window.jspdf;
-        const doc = new jsPDF({ orientation: 'landscape', unit: 'cm', format: 'a4' });
-
-        for (let i = 0; i < pages.length; i++) {
-            showPdfOverlay(`Gerando página ${i + 1} de ${pages.length}...`);
-            const canvas = await window.html2canvas(pages[i], { scale: 1.6, useCORS: true, backgroundColor: null });
-            const dataUrl = canvas.toDataURL('image/jpeg', 0.92);
-            if (i > 0) doc.addPage();
-            doc.addImage(dataUrl, 'JPEG', 0, 0, PDF_PAGE_W_CM, PDF_PAGE_H_CM);
-        }
-
-        const fileName = `arbor-${String(p.id).trim().toLowerCase()}.pdf`;
-        doc.save(fileName);
-    } catch (err) {
-        console.warn('[Ficha PDF] Falhou:', err);
-        alert('Não foi possível gerar a ficha em PDF. Tente novamente.');
-    } finally {
-        root.remove();
-        hidePdfOverlay();
+const pdfSummary = p => {
+    const text=pdfPublicText(p.desc,p);
+    if (!text) return 'Conheça os ambientes, a localização e as características deste imóvel. A equipe Arbor acompanha você na visita e apresenta os detalhes para uma escolha bem cuidada.';
+    if(text.length<=570)return text;
+    const cut=text.slice(0,568);return cut.slice(0,cut.lastIndexOf(' '))+'…';
+};
+// Pigmentos translúcidos e grão de papel, reproduzíveis também no PDF.
+const pdfWatercolorPaper = () => {
+    const c=document.createElement('canvas');c.width=1120;c.height=1584;const x=c.getContext('2d');x.fillStyle='#faf7f0';x.fillRect(0,0,c.width,c.height);
+    let seed=42;const rand=()=>{seed=(seed*1664525+1013904223)>>>0;return seed/4294967296;};
+    for(const [cx,cy,r,color] of [[1030,150,370,'95,123,94'],[30,760,240,'172,137,100'],[950,1390,420,'110,134,100'],[120,1520,260,'188,150,116']]){
+        for(let j=0;j<34;j++){const a=rand()*Math.PI*2;const rr=r*(.38+rand()*.6);const gx=cx+Math.cos(a)*r*.22,gy=cy+Math.sin(a)*r*.22;const g=x.createRadialGradient(gx,gy,0,gx,gy,rr);g.addColorStop(0,`rgba(${color},.016)`);g.addColorStop(.68,`rgba(${color},.012)`);g.addColorStop(1,`rgba(${color},0)`);x.fillStyle=g;x.fillRect(gx-rr,gy-rr,rr*2,rr*2);}
     }
+    const d=x.getImageData(0,0,c.width,c.height);for(let i=0;i<d.data.length;i+=4){const n=(rand()-.5)*7;for(let k=0;k<3;k++)d.data[i+k]=Math.max(0,Math.min(255,d.data[i+k]+n));}x.putImageData(d,0,0);return c.toDataURL('image/png');
+};
+const pdfWatercolorPhoto = img => {
+    const c=document.createElement('canvas');const ratio=Math.min(1,1400/img.naturalWidth);c.width=Math.round(img.naturalWidth*ratio);c.height=Math.round(img.naturalHeight*ratio);const x=c.getContext('2d');
+    x.filter='saturate(.78) contrast(.94) brightness(1.04)';x.drawImage(img,0,0,c.width,c.height);x.filter='none';
+    const d=x.getImageData(0,0,c.width,c.height);for(let i=0;i<d.data.length;i+=4){const grain=((i*13%37)/37-.5)*9;for(let k=0;k<3;k++)d.data[i+k]=Math.min(255,Math.max(0,d.data[i+k]+grain));}x.putImageData(d,0,0);
+    // Bordas lavadas, como pigmento absorvido pelo papel; preservar arquitetura e proporções.
+    for(let i=0;i<10;i++){x.strokeStyle=`rgba(250,247,240,${.045+(10-i)*.007})`;x.lineWidth=2;x.strokeRect(i,i,c.width-i*2,c.height-i*2);}return c.toDataURL('image/jpeg',.94);
+};
+const pdfArborLogo = async () => {
+    const response=await fetch('assets/arbor-logo-full-copper.svg');if(!response.ok)throw new Error('Logo indisponível');
+    const svg=new DOMParser().parseFromString(await response.text(),'image/svg+xml').documentElement;
+    svg.setAttribute('width','827');svg.setAttribute('height','699');
+    const img=new Image();img.src='data:image/svg+xml;charset=utf-8,'+encodeURIComponent(new XMLSerializer().serializeToString(svg));await img.decode();
+    const c=document.createElement('canvas');c.width=480;c.height=406;c.getContext('2d').drawImage(img,0,0,480,406);return c.toDataURL('image/png');
+};
+const buildPresentationPDF = async p => {
+    if(!p||document.getElementById('pdf-loading-overlay'))return;
+    if(!window.jspdf||!window.html2canvas){alert('O gerador de PDF ainda não carregou. Aguarde e tente novamente.');return;}
+    showPdfOverlay('Preparando sua ficha em aquarela…');
+    const root=document.createElement('div');root.id='pdf-render-root';document.body.appendChild(root);
+    try{
+        const urls=[...new Set((Array.isArray(p.photos)?p.photos:[]).filter(u=>typeof u==='string'&&/^https?:\/\//i.test(u)))].slice(0,5);
+        const imgs=await Promise.all(urls.map(preloadPdfImage));
+        const photos=imgs.filter(Boolean).map(img=>{try{return pdfWatercolorPhoto(img);}catch{return null;}}).filter(Boolean);
+        const logo=await pdfArborLogo();
+        const e=pdfEscape;const publicField=v=>pdfPublicText(v,p).slice(0,90);
+        const type=publicField(formatTipoImovelBR(p.tipo))||'Imóvel';
+        const hood=publicField(p.hood),city=publicField(p.city);
+        const title=hood?`${type} em ${hood}`:type;
+        const location=[hood,city].filter(Boolean).join(' · ');
+        const specs=[];const add=(val,label,suffix='')=>{if(val&&String(val)!=='0')specs.push(`<div class="art-spec"><strong>${e(String(val).slice(0,12))}${suffix}</strong><span>${label}</span></div>`);};
+        add(p.areaPrivativa||p.areaTotal||p.area,'Área',' m²');add(p.beds,'Quartos');add(p.suites,'Suítes');add(p.garage,'Vagas');
+        const features=(Array.isArray(p.caracteristicas)?p.caracteristicas:[]).map(v=>publicField(v)).filter(Boolean).slice(0,6).join(' · ').slice(0,140);
+        const price=p.priceVenda&&p.priceAluguel?`${e(formatBRL(p.priceVenda))}<div class="art-fees">Aluguel ${e(formatBRL(p.priceAluguel))}/mês</div>`:e(formatPropertyPrice(p));
+        const page=document.createElement('section');page.className='art-sheet';
+        page.innerHTML=`<img class="art-paper" src="${pdfWatercolorPaper()}" alt=""><div class="art-body">
+            <header class="art-head"><img class="art-logo" src="${logo}" alt="Arbor Imóveis"><div class="art-code"><div class="art-kicker">Coleção de imóveis</div>Cód. ${e(String(p.id||'').slice(0,30))}</div></header>
+            <h1>${e(title)}</h1><p class="art-location">${e(location)}</p>
+            ${photos.length?`<img class="art-hero" src="${photos[0]}" alt="Foto principal">${photos.length>1?`<div class="art-film">${photos.slice(1).map(src=>`<img src="${src}" alt="Ambiente do imóvel">`).join('')}</div>`:''}`:'<div class="art-no-photo">Fotos disponíveis com a equipe Arbor</div>'}
+            <div class="art-photo-caption">${photos.length?'Fotografias com tratamento artístico em aquarela.':''}${photos.length<urls.length?' Algumas fotos não puderam ser incluídas.':''}</div>
+            ${specs.length?`<div class="art-specs">${specs.join('')}</div>`:''}
+            <div class="art-copy"><div class="art-summary"><div class="art-kicker">Um olhar sobre o imóvel</div><p>${e(pdfSummary(p))}</p>${features?`<div class="art-features">${e(features)}</div>`:''}</div><div class="art-finance"><div class="art-kicker">${e(publicField(p.operacao)||'Valor')}</div><div class="art-price">${price}</div><div class="art-fees">${p.condominio?`Condomínio ${e(formatBRL(p.condominio))}<br>`:''}${p.iptu?`IPTU anual ${e(formatBRL(p.iptu))}`:''}</div></div></div>
+            <footer class="art-foot"><div>Uma escolha bem cuidada.<small>Valores e disponibilidade sujeitos a confirmação. Localização apresentada por bairro e cidade.</small></div><div class="art-foot-right">arborimoveis.com.br<br>(62) 98485-4468</div></footer></div>`;
+        root.appendChild(page);
+        await document.fonts.ready;
+        await Promise.all([...page.querySelectorAll('img')].map(img=>img.decode().catch(()=>{})));
+        // Ajustar apenas quando o conteúdo medido exigir; nunca exportar texto cortado.
+        if(page.querySelector('.art-foot').offsetTop+page.querySelector('.art-foot').offsetHeight>1476){page.querySelector('.art-summary p').style.fontSize='16px';page.querySelector('.art-hero')?.style.setProperty('height','390px');}
+        showPdfOverlay('Finalizando sua ficha…');
+        const canvas=await window.html2canvas(page,{scale:1.6,useCORS:true,backgroundColor:'#faf7f0',width:1120,height:1584,windowWidth:1280});
+        const doc=new window.jspdf.jsPDF({orientation:'portrait',unit:'mm',format:'a4'});
+        doc.addImage(canvas.toDataURL('image/jpeg',.95),'JPEG',0,0,210,297);
+        doc.setProperties({title:`Arbor · ${type}`,subject:'Ficha de apresentação de imóvel',author:'Arbor Imóveis'});
+        doc.save(`arbor-${String(p.id||'imovel').replace(/[^a-z0-9-]/gi,'').toLowerCase()}.pdf`);
+    }catch(err){console.warn('[Ficha PDF]',err);alert('Não foi possível gerar a ficha. Tente novamente.');}
+    finally{root.remove();hidePdfOverlay();}
 };
 
 const renderDetailContent = (p) => {
