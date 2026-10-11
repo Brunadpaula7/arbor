@@ -50,17 +50,25 @@ QUERIES = [
     'mercado imobiliário Brasil vendas',
     'Secovi OR Abrainc OR CBIC OR Fipezap',
     'ITBI OR IPTU OR "reforma tributária" imóveis',
+    'IPTU OR ITBI OR ISTI site:goiania.go.gov.br',
+    'IPTU OR ITBI site:senadorcanedo.go.gov.br',
+    'IPTU OR ITBI site:hidrolandia.go.gov.br',
+    'IPTU OR ITBI site:aparecida.go.gov.br',
+    'IPTU OR ITBI site:anapolis.go.gov.br',
+    'IPTU OR ITBI site:trindade.go.gov.br',
+    'registro de imóveis cartórios Goiás ONR',
 ]
 
 RELEVANT = re.compile(
-    r"imobili|imovel|imoveis|apartament|moradia|habitac|construcao|construtora|incorporad|"
-    r"lancamento|empreendimento|financiamento|credito|casa propria|minha casa|fgts|selic|"
+    r"imobili|imovel|imoveis|apartament|moradia|habitac|construcao civil|construtora|incorporad|"
+    r"empreendimento residencial|casa propria|minha casa minha vida|"
     r"aluguel|loteamento|condominio|residencial|cyrela|mrv|tenda|direcional|secovi|abrainc|"
-    r"cbic|fipezap|creci|itbi|iptu|plano diretor|alto padrao|vgv|sbpe|poupanca"
+    r"cbic|fipezap|creci|itbi|isti|iptu|plano diretor|alto padrao|vgv|sbpe|registro de imoveis"
 )
-LOCAL_TITLE = re.compile(r"goiania|goias|goiano|aparecida de goiania|anapolis|senador canedo|trindade|goianira|brasilia")
-LOCAL_SOURCES = re.compile(r"o popular|jornal opcao|mais goias|diario de goias|goias|sebrae go|sinduscon-go|secovi-go|creci-go")
+LOCAL_TITLE = re.compile(r"goiania|goias|goiano|aparecida de goiania|anapolis|senador canedo|hidrolandia|trindade|goianira")
+LOCAL_SOURCES = re.compile(r"o popular|jornal opcao|mais goias|diario de goias|goias|sebrae go|sinduscon-go|secovi-go|creci-go|goiania|senador canedo|hidrolandia|anapolis|trindade")
 CATEGORIES = [  # ordem = prioridade
+    ("regras", re.compile(r"\blei\b|decreto|plano diretor|itbi|isti|iptu|regra|norma|reforma tributaria|stj|stf|cartorio|registro de imoveis|resolucao|projeto de lei|tributa|imposto")),
     ("lancamentos", re.compile(r"lanc|empreendimento|incorporadora|novo residencial|vgv|entrega de obra|canteiro")),
     ("financiamento", re.compile(r"financ|credito|juros|selic|fgts|caixa|minha casa|taxa|consorcio|sbpe|poupanca|parcela")),
     ("regras", re.compile(r"\blei\b|decreto|plano diretor|itbi|iptu|regra|norma|reforma tributaria|stj|stf|cartorio|resolucao|mudanc|projeto de lei|tributa|imposto")),
@@ -68,7 +76,7 @@ CATEGORIES = [  # ordem = prioridade
 
 
 # manchetes que não interessam ao leitor da Arbor
-EXCLUDE = re.compile(r"leilao|leiloa|leiloes|arremat|cargos e salarios|vagas? de emprego|curso gratuito")
+EXCLUDE = re.compile(r"leilao|leiloa|leiloes|arremat|lances digitais|cargos e salarios|vagas? de emprego|curso gratuito|futebol|atletico-go|serra dourada|estadio|financiamento de veiculo|credito consignado|lancamento de album")
 EXCLUDE_SOURCES = re.compile(r"instagram|facebook|youtube|tiktok|linkedin|kwai|portal salario|pinterest|reddit")
 # estados/capitais de fora: só descartam notícia que NÃO é de Goiás
 OTHER_PLACES = re.compile(
@@ -269,3 +277,4 @@ def main():
 
 if __name__ == "__main__":
     sys.exit(main())
+

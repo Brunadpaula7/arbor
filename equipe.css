@@ -1,13 +1,25 @@
-/* Tipografia: títulos editoriais; leitura e controles em uma sans de sistema. */
+/* Jost: mesma família da referência Victor Bueno, hospedada com o site. */
+@font-face {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+    src: url('assets/jost-latin.woff2') format('woff2');
+}
 :root {
-    --font-display: 'TT Ramillas', Georgia, serif;
-    --font-text: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    --font-display: 'Jost', -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+    --font-text: var(--font-display);
     --font: var(--font-display);
     --font-ui: var(--font-text);
 }
 body { font-family: var(--font-text); }
-h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 400; }
-.hero-copy h1, .sec-head h2 { letter-spacing: -.035em; }
+h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 300; }
+.hero-copy h1, .hero-copy h1 em, .sec-head h2, .sub-head h3,
+.p-card-title, .u-card-title, .d-card-title, .detail-property-header .k-title,
+.equipe-info h3, .equipe-bloco > h3 { font-weight: 300; }
+h1 em, h2 em, h3 em, h4 em, .breather-quote em { font-style: normal; font-weight: inherit; }
+body, input, select, button { font-weight: 400; }
+.hero-copy h1, .sec-head h2 { letter-spacing: -.012em; }
 .hero-body p, .sobre-copy p { line-height: 1.8; }
 .nav-links a, .mm-link, .btn, .eyebrow, input, select, button { font-family: var(--font-text); }
 .nav-links a { letter-spacing: .02em; text-transform: none; }
@@ -35,3 +47,4 @@ a.equipe-card:hover { transform: translateY(-4px); background: rgba(255,255,255,
 #equipe-status { line-height: 1.6; margin-top: 24px; }
 @media (max-width: 900px) { .equipe-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 600px) { .equipe-section { padding: 64px 0; } .equipe-grid { grid-template-columns: 1fr; gap: 24px; } .equipe-retrato { aspect-ratio: 4 / 3.5; } }
+
