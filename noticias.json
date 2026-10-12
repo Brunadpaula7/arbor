@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-12T14:07:08Z",
+ "updated": "2026-10-12T14:10:04Z",
  "items": [
   {
    "title": "Prefeitura de Goiânia entrega revitalização de monumentos históricos no Bosque dos Buritis",
@@ -9,15 +9,6 @@
    "cat": "cidade",
    "local": true,
    "img": "https://www.goiania.go.gov.br/wp-content/uploads/2026/10/IMG-20261012-WA0077-scaled.jpg"
-  },
-  {
-   "title": "Ala do TSE vê “engajamento” de Nunes Marques na campanha de Flávio; entenda a polêmica",
-   "url": "https://www.jornalopcao.com.br/ultimas-noticias/ministros-do-tse-veem-engajamento-de-nunes-marques-na-campanha-de-flavio-entenda-a-polemica-878192/",
-   "source": "Jornal Opção",
-   "date": "2026-10-12T12:12:11Z",
-   "cat": "mercado",
-   "local": true,
-   "img": "https://cdn.jornalopcao.com.br/assets/2022/11/indicado-por-bolsonaro-o-ministro-kassio-nunes-marques-e-o-proximo-a-votar-sobre-o-marco-temporal.jpg"
   },
   {
    "title": "Justiça impede demolição de imóvel ocupado há 20 anos em Aparecida de Goiânia",
@@ -36,15 +27,6 @@
    "cat": "cidade",
    "local": true,
    "img": "https://www.goiania.go.gov.br/wp-content/uploads/2026/10/IMG-20261011-WA01041.jpg"
-  },
-  {
-   "title": "Lula pede mobilização de eleitores que não votaram no primeiro turno durante ato na Avenida Paulista",
-   "url": "https://www.jornalopcao.com.br/ultimas-noticias/lula-pede-mobilizacao-de-eleitores-que-nao-votaram-no-primeiro-turno-durante-ato-na-avenida-paulista-878140/",
-   "source": "Jornal Opção",
-   "date": "2026-10-11T19:23:40Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://cdn.jornalopcao.com.br/assets/2026/10/11192146/1791746506-qq-lula-paulista-frame-4379.webp"
   },
   {
    "title": "Semáforos substituem rotatória no Parque Amazônia, em Goiânia",
@@ -371,15 +353,6 @@
    "img": ""
   },
   {
-   "title": "Redução da jornada de trabalho: CBIC intensifica diálogo e defende debate técnico no Senado",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQV1c5bTFRQXhIRzgySXE5UUJfejBEQ21lXzBNYkZrT1JNTExkMlNRR1o3Q3h6elpEbERNWW5KTUFRVXFEWUpmTkZQdVVRdmQwTXBHdVVvRjh1dk1CQkJvX1pJTXNrS1JkbTltZzV6MWgzM3c3UWw0QTBUaktJcVk3TjZ2SmY2ZkdUczNUVHpmUHI3SXFHbE1WZktpV1BOVDZ5WnM2QkFpT0NpVlZnZFQ2dg?oc=5",
-   "source": "CBIC - Câmara Brasileira da Indústria da Construção",
-   "date": "2026-10-07T19:27:10Z",
-   "cat": "mercado",
-   "local": false,
-   "img": ""
-  },
-  {
    "title": "O ITBI nasce no registro do imóvel, não na Junta Comercial",
    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdmRPRFlVdjdWY0hGc284c20wTTk3Wk5VcHNEZ2kwaUpmaDhwNFhBalg3T1NwZVpKTW5aa09ZZW5yTzItRnloSktOU25JbG1FbWZUazhJcjlhZ2VtVTFPemticWZPbFFWZVF4WEF3aDF1Z1JHeGxjWDlvWnJFRmx3clZBZTE2MU43UW1maUFKMmotQmVKVVRqdTN1X2tDSXZD?oc=5",
    "source": "Migalhas",
@@ -422,6 +395,15 @@
    "date": "2026-10-07T15:00:00Z",
    "cat": "mercado",
    "local": false,
+   "img": ""
+  },
+  {
+   "title": "Barras de proteção do BRT quebradas oferecem risco na Avenida Anhanguera, em Goiânia",
+   "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQWG5jUHBtc09tMXlJbm9UdUtjZ0dfdV9KUWdHZm0ta1Zra3lvT2JrOERBLWRpZE81amFOZ0o0SHZZLVpRZGkzUE0wWHdIbTZYZWJQQWw4ZGpERkNrRFZadkltazNka2hqNkFMX3RWUnJuWW5QRnZMMV9kaGNUMUphcGFlX1BTdmlBbW54M0U0c2t3RXRKMWlZeXNINV9fZ3E4czFoRWY1Vm82MGViT000SGNZWnR0Ym5PaHl1N3h6MmZXd1p2WVAxWkI5ejdHTzlFNzBBdzJOaTlGS3VHNmZoQXZXOTVqc2PSAfYBQVVfeXFMTnNGZHBhMjB0UDlScjZiSFl0UkE0QkZIRUhxQnp1NjU2R1pBY0lNYW5IOE1kS0NUZUs2ZEMtQU1ja253b215TjZjSG9pM0JFdTdtS2tyQjlteFVFT0JwWi1qZjdDWmQ0b3JfUzZwTXliUWMxVnFRa2pkTUpLczd1WVB2YWpUOEdrV2lxOG9hM1JLU0taNTJPQVJhV3FnYXh5Wmd1d3o5ZGx3WTRaMWNzTFQzTWRWdGk1eWlPSWF6dFVydnlia005QzNZNnRjZnVQN2RqLWVicXREeEE0WFg1czdFcllqcnNJa09NeUNZVkdpdVBtVmx3?oc=5",
+   "source": "G1",
+   "date": "2026-10-07T14:47:37Z",
+   "cat": "cidade",
+   "local": true,
    "img": ""
   },
   {
@@ -808,8 +790,7 @@
    "source": "O GLOBO",
    "date": "2026-09-30T07:00:00Z",
    "cat": "financiamento",
-   "local": false,
-   "img": ""
+   "local": false
   },
   {
    "title": "Consórcio imobiliário com menor taxa: opções com 9,5% [2026]",
@@ -868,46 +849,6 @@
    "local": false
   },
   {
-   "title": "Celular na tomada teria iniciado incêndio em apartamento no Setor Marista, em Goiânia",
-   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQakhYVGQwUzZuQ296NEdkeDZsSE84a1RfbVdWUjBFM2gydmRvWFphdV9VdURjMmNKYW8wa0l4d3NVZ0JxNmhWWldrMDJ1S3NKYXBoRjd4VkUtVkQyWFltMktKZ0FBTWhoMk1tQk9adWVzS3g4bUFySU85aUNxVm1HQ2p3T2tRak9EaFlqSUR5eHRZY3RiakdERG5HSGNYQTlVZFhGbW85ZkdadGJZZ21rWmlaMHpWQTlkRmpzODY0NUI1NEpCVkxzRG1n?oc=5",
-   "source": "Mais Goiás",
-   "date": "2026-09-29T07:00:00Z",
-   "cat": "mercado",
-   "local": true
-  },
-  {
-   "title": "Moradores deixam prédio às pressas após incêndio em apartamento no Setor Marista",
-   "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNOS1EX3FHR1FLOGRHbGFOSUU0aExkZDVCQ1VpcEY2RzhadjlDV1VSNWhNTll1WEdzdk1DNXdjMjg3alNHOTRlckxwaDdVdDNxR2tlMnZXS3lMd0FWWTFXZjdmc3AwdTk1aEJoRzVKSW1ZNHN4MkIxZUVHV0NFVXMta1NBTmdvZmZSSUcxQnU3Y0hfWXB2cnREVHZtNVhBWENQQW1SZHhMdVVkcXYtbzFBRXBac1l2WHdjZlZIYW1NWlNPbERaT29OTEZocXJCcnlLNGFSdzJ1YXBqSnI0NFFjcGRmTdIB8gFBVV95cUxOY2w2Y2dPT1VXemZqSTZRUDNVcHlmclpWalh0V3otQWtqVmR1YmFvYnJYSDgxaGJDWURDSWRDWFc1OHR2eXNOanlMZVlQbUs4RjZRcjVELWg1bFFha1gyUTk1azNvQW9QSHNYaFhZcEtSRnZVMFdnLVpUWXJ3WUxrTC1TRWJiNlF4RGsya3RHNm5vdnBoWDlCVGpDRHpidGxwR2FoVWhpOE9aaXpYZHFyako0bFktMWdJU1VhaWhjVHB5Y3lIN0JlUlBYZ0hzelNDMF9GSmdLYklOQTQ0eE1iSE9US0hpWHhnNVA1TGVTLXVIUQ?oc=5",
-   "source": "G1",
-   "date": "2026-09-29T07:00:00Z",
-   "cat": "mercado",
-   "local": false
-  },
-  {
-   "title": "Incêndio em apartamento mobiliza bombeiros e provoca evacuação de prédio no Setor Marista",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbUdPWGJXdXFaX1MwU3N6eDBhc1JmMTBhTnJFbmJTMktBS01wb1pKczdKdnNUbUVSM2tJczVtbllVeWk1ZmRsUVFqQU9yYVZ1SnE5ZWxuODBvTWI0bF9DaW5ZUE9FR05oOG93a3lUV25ndmI1Uzl0UHVNM3VjSEtObnBacVBDNHgyd09lYkgxYU14UjZDd2poWmdpdzJoMEpjaFVvS1VKMnZOTllsdXhTQWF3NG4?oc=5",
-   "source": "A Redação",
-   "date": "2026-09-29T07:00:00Z",
-   "cat": "mercado",
-   "local": false
-  },
-  {
-   "title": "Antes da prisão, CRECI já havia cassado registro de corretor acusado de golpes",
-   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNZWlyMm1SXzBzVC03bnlWVWdxUVJJcVFYUjdyZUFkcWY5RzlmTW5WZGJwYlNYTnpTT1hHRmhQbVhqLTFjQ2lPWUVCZWgzenR6MWZ4VGsyV2FCVXdBdzZrYkNQY2FsZk1BRFlrZzdnLXBNZFVDV0swMElRTTAzaUNJbEJjMG4zeTQtLVItY2UzdmJGdTUxRUpVd1BUd1d1bEh0ZnZadXdmQ0NWcTE2SkhER3VOUE4wVHRRTG83OEFTajE5NGxFeW44?oc=5",
-   "source": "Mais Goiás",
-   "date": "2026-09-29T07:00:00Z",
-   "cat": "mercado",
-   "local": true
-  },
-  {
-   "title": "Polícia descobre 'construtora fantasma' que movimentou R$ 10 milhões para o tráfico de drogas em Goiás",
-   "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNVFhqSmkyeHVETFdTZGVrUFB0cWxsMkZyM2RPb1pEQUpIZnh3SjJUUWxjWnA2bDhGS2cxSkMxNm55NWJTakNGM1Etejg2TXg2Q1NZYjZRaEJDRnp5V3F4amlnNF9BdDZGZ1pXbjMtQjRYZ0F5a3RHYmtlSXA3cEFqOFNXd29CaUlYQ2hGZGliT3IxbjBxNTkxSjVkcVlyR3VnZXdPbTFxZzdwbHJELUdEQlNMUk9ETG1tVHNYQlkxeC1jTXRIOWtiNnlYZE1OS3p0dmtJQXA1RkROdTdVQWI4MXp5Zw?oc=5",
-   "source": "Jornal Opção",
-   "date": "2026-09-29T07:00:00Z",
-   "cat": "mercado",
-   "local": true
-  },
-  {
    "title": "Trindade recebe programa de recapeamento urbano com quase 40 ruas contempladas",
    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOUFE3ZllWLXhkRkZIQ0lla2JncnpoQ1cwSkFaSXBpNDNDcHE1NE1HcFlFRDFvdG9fYkhZdmVWbk5aMWpIRGN5d2ZCM3Z5VG9qdjFjNXR5WFZoZTBMNEFSVDVGN0dqVGQ3VllLMldmdnhWNWt2cUxIanlzdGNsa1RFT3VNQU9xSGt5ZkVlZXpSOGl6clNoQUNfRnlYVWlvUmZqYXI4YXZzWjN1dw?oc=5",
    "source": "Prefeitura Municipal de Trindade",
@@ -940,44 +881,12 @@
    "local": true
   },
   {
-   "title": "Dono de imobiliária é preso suspeito de causar prejuízo de mais de R$ 1 milhão com golpes em GO",
-   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOaFJNdHJhQ3ozajIzN3RPdk5ZMDYwR1lCV3hodjJON0c4aWxtX2JoeFBTZkh1cWdmS3h1Z0tBSkJlV3djeWYtZ254SXNwdDNXMWFJWEdsaXphWnU4bXF6OHVERUVSTVhjeGVVZGRRRzVHY0xvR3lBVjVPN3A5TF9veHlJWXl3YmJ6QnJ1bjZXaEU5elRMdmFUVFMxMzlYUldzUDlobTlCZXNnMmlMdFZITlNTaW5nWHZTalJrbHFTS1luQQ?oc=5",
-   "source": "Araguaia Notícia",
-   "date": "2026-09-28T18:03:51Z",
-   "cat": "mercado",
-   "local": false
-  },
-  {
    "title": "Imóvel do Pão de Açúcar no Setor Bueno muda de dono após venda de R$ 41 milhões",
    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPazNmWFB4QlFob08xbXFhNVd5NzFEUVhzTTJlQ2ZubHFfSVVWeFdPVGdSYlpnMnJFU0tjLVBXMzBoVXJaSVFQSE9FYWY5bHBLM183VDZzY2tTVnlreFJrbU9obE5jUkY5REFGMUd6czYtdUFkUUw0UmRLUkFXOE03cUt6am1FQlJET0N4bzVUTFNCTjdHbFp4eTY0ZEYtOGoybzhLUVhrR2hwbTFHSnRhd1JhOUxzVnBjQzNGZw?oc=5",
    "source": "Mais Goiás",
    "date": "2026-09-28T07:00:00Z",
    "cat": "mercado",
    "local": true
-  },
-  {
-   "title": "Incêndio atinge apartamento de prédio no setor Marista, em Goiânia",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNOFRvdHJkVmRhTFVYMEVaS24xUUhldVRoY0VYQW1iTGQzY0JYNnJCc0lNR21hUUJOcTJidG1aREl0ZTQyc19CbzJ3Zjl2NGtJQUxlM05SUWVPRzRIWXBnbG03TTZHQ3ctLWFOblRiYUNid3ZpQ2hWR3V3WGtwZEY3aURLNjRzazl2U2wxeUxrTmRoR3JZOEFVaVpGY2ZvSFczdW1IUkRrQ1JRYVZFbWpUdQ?oc=5",
-   "source": "Mais Goiás",
-   "date": "2026-09-28T07:00:00Z",
-   "cat": "mercado",
-   "local": true
-  },
-  {
-   "title": "Apartamento de luxo pega fogo, moradores fogem por janela e prédio é evacuado, em Goiânia; vídeo",
-   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOTTJBRVZlNEZWclB5MkpuWVRLRk91b29YQVVpZWdXSkdrVlJOUVh1WDRKd0tFVGlZUFRIQ1h3dVBLQ3J4VWJCdmFLSGx1b3d4U3FoMDh6TThmVVZjQkpDUjl1R3VXN2JKWVJtM1NEVkFnZ0xTc0VhWVFoYk1fRVBaQ3FpeUlXbGhpS0V6N1ZydjdjT2RyOXNyZ3E5Y0pBak9zUUlNTVNVdUlPY3Z6TG9XakFoTkpqV09wM3FkbkFibWlNNkIwZ1plWm4ySWpfcVBGVklqZjN6TUd1WXlXdGVWYlNn0gHwAUFVX3lxTE1NV2dPVHU5VVNUbGlxOGtpTExxbWhXY2NrMTg5bnhLUGZTYjhTc3BZeWZEeWo5OXdWSUYxMERDemRsVTRMVlBkcW5CSXpaYjdNdmRSSGMzd3g0bUNGc1VBMzYyS25zSG9ra1NsM2dIdmZQYXZ4d3lSWklGa3lDNDduTi1raHlfTENXWXlTU2dzVnlqM1JGOUVxS1VHX254VXRjMlJKZEdoLVBKRm4zNHFvekFzUGlyd29yR0FSXzlBWnk2Vms1MVlCdDNqbFktNDlUN2w5VFFHZ1VwWGpHZlJNQTZ1VGpucDZ5VS1CelVsUQ?oc=5",
-   "source": "G1",
-   "date": "2026-09-28T07:00:00Z",
-   "cat": "mercado",
-   "local": true
-  },
-  {
-   "title": "Dono de imobiliária é preso suspeito de causar prejuízo de mais de R$ 1 milhão com golpes",
-   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPb3pxdFdwdnh0SFJZYmZEUUdSSGdwVXdTNXNoWndzUjRUa1JyQkpfcW1tUkRvV2k0QjczLXNySXY1RklFQjlLUGk2QW9uWkcwdHVDVWJ3bEZGdWVtaEFTdlh0N0lzZkdSMjRsOGVlOGVXcnZiWWpRdGNubHduUElqSVRscTNqaGU3a0xRdjdZM0FzeFY0MThCbVlwY1lmZnF6NTJtQkItZ3BNeHh2NEpON1JHMzJ0S3FSU2VSSFM2dUJWTHZWbXpwSXp0Y3TSAdsBQVVfeXFMTWkya3RjMTF4X2RZMmlzZG8zeTJmbDQ3SzFpRFlPWEZIQU9wcThXLThJWmVFMVVURlpaQTI1Mm93Vld5WVM1N2UtMDJNMlRXX1VOb1A2V2dVWm0xb0V6bHJUQ0xldE1CRkhKSFlCY294RE1nRWtEaVlKbm5xUmw3R2ZURDBEMkMxVTB1V1VnMjEwUVBKc19UMTdmOGt3ay1DSXNKaE1xYnp4QmpTblJMTC1LTld5b0ZRRmJtQnJMTFZhRGtoUTczN1Rjb1BWRXBhZ3RhWnNiUllCZmdJ?oc=5",
-   "source": "G1",
-   "date": "2026-09-28T07:00:00Z",
-   "cat": "mercado",
-   "local": false
   },
   {
    "title": "Greve na Caixa trava mercado de financiamento imobiliário no Brasil",
@@ -1020,14 +929,6 @@
    "local": false
   },
   {
-   "title": "Prefeitura de Goiânia terá de depositar R$ 55,4 milhões para assumir posse do Jóquei Clube; entenda decisão",
-   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNRmZxOTJua1dCcWxhTG5vdjNjMWE5d2ZiQWttVTY5LW9UelhqQmpHUnQwX1lHZDV0YTZtTWZibW44dUtBd1VfMFRpVmw3MHRqbFdleUhWQTBPTTNLS1FrZjI3UUdLRjNIakpWdk1XUWpaLVN2UDI4UWlrdGZfRkdkeS1HQVFQZnEyRkJXQkdWaEx0S1NmNklGU3BjMkt6TGxWX0I2VUZrYWZ3cTFxcGpPbXhtTmcwd3hEaGEtMERFZUh6ZFdQS05vMHNBX3YzNFBFWE1hd2lYbDlRcDNSVkM2bFVIRzU?oc=5",
-   "source": "Mais Goiás",
-   "date": "2026-09-27T07:00:00Z",
-   "cat": "mercado",
-   "local": true
-  },
-  {
    "title": "Obra muda acesso entre Rua 240 e T-2 para reduzir congestionamento em Goiânia",
    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOcmgzdW5kMGpfQllaTW5ZTmxvS19NZjZGakRmS09PRHlGdVE5cDk3TGxRa3F6M3RWNDlQWFZJVnJOck9EYUJBZll6TjRBS3U2WDh0Q3BoSjEtd0NwODFhbFh6YXY1X3VMdTN2bjFOVUg1ZENhMk50eVdTOXdBZzd6THZIMWJtUUZyc3d5WG1qbE94QWxXZVJ2MnFoNmhDTk94Z3FqZ2d2dTZqT0FPVU5sUjZadzEzX0ZuSmdrTm55U21yQQ?oc=5",
    "source": "Jornal Opção",
@@ -1068,14 +969,6 @@
    "local": true
   },
   {
-   "title": "MP-GO exige suspensão de projeto do Fundo Imobiliário e cobra lista de imóveis da Prefeitura de Goiânia",
-   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOSjRvSDlNU2VySHJORUJOR1A0N0ItUW5uVXpWcE8wQVZ4WUE1WlU0QkhMNDlVMkR4V1hMWm1FbEw0QXpXZ0h3cTN4engxQVhiRWozNkR6V3VVa0NVRlpYSnQ0a0lMcl9PVWNfXzNJdDZCb2JCWVVCT3R6bFFTX2pHbWk1V1llVllmemhQdE9CVGppWVh6NVEtUVN4NlNhYXVlVXp3b0VpR1F0QzI1TzQweXZHazBlWk1xcFRnVlY5ZHVKcEdJLUVUZ1h6RDhwbUlJWXdnMEU0bw?oc=5",
-   "source": "Diário de Goiás",
-   "date": "2026-09-25T07:00:00Z",
-   "cat": "mercado",
-   "local": true
-  },
-  {
    "title": "Após representação de Aava, MP-GO recomenda mudanças em projeto de fundo imobiliário",
    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVU9yQXEzX194QnZPeHE5ZmxOZC1lNHdZQXVQY3VoSU9RSnpVQm9pMkl2MWlCQzZSSmlZaDV6RUhfZjdRVGNhQzRhWU9qUkxrUWx2QlAwWVBsbHVwV3Bpa0tMYXo4SmI1Y0cwa0xhYmt4aFNUaU5iVnVjNFhVNjV1cURwUW1kazNWLWdZOFlxVVpGZXJ4RUlNTXAyOVNiaFBrNHJuMU56R2hUZzg?oc=5",
    "source": "Transmissão Política",
@@ -1108,20 +1001,20 @@
    "local": true
   },
   {
+   "title": "MP-GO exige suspensão de projeto do Fundo Imobiliário e cobra lista de imóveis da Prefeitura de Goiânia",
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOSjRvSDlNU2VySHJORUJOR1A0N0ItUW5uVXpWcE8wQVZ4WUE1WlU0QkhMNDlVMkR4V1hMWm1FbEw0QXpXZ0h3cTN4engxQVhiRWozNkR6V3VVa0NVRlpYSnQ0a0lMcl9PVWNfXzNJdDZCb2JCWVVCT3R6bFFTX2pHbWk1V1llVllmemhQdE9CVGppWVh6NVEtUVN4NlNhYXVlVXp3b0VpR1F0QzI1TzQweXZHazBlWk1xcFRnVlY5ZHVKcEdJLUVUZ1h6RDhwbUlJWXdnMEU0bw?oc=5",
+   "source": "Diário de Goiás",
+   "date": "2026-09-25T07:00:00Z",
+   "cat": "mercado",
+   "local": true
+  },
+  {
    "title": "Prefeitura de Goiânia formaliza obra de nova UPA no Cidade Jardim por R$ 15,4 milhões",
    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOMjQwQnhKVXlEMHNVVkVRbGxrZWNEMThPMEdKRkVTdGFiOXRINHo4NXpSUHVjbElkRGxoaWRKNm5YUXZtZ2luQWpSbEVaZFNjcFdvV0VYUHgxNG9QMlFPZ1pFN29OYTNVa1pfajhxbVpfSWR5UkpveE1WYkpyOW9wZ3JyN3M0MWpQZHIyXzhZUGxZY0pUVl91cVVOdEFRb21RWG1FRlkyb1RPUFdUTWJuRHVqNjc?oc=5",
    "source": "Diário da Manhã",
    "date": "2026-09-25T00:21:00Z",
    "cat": "cidade",
    "local": true
-  },
-  {
-   "title": "Secovi-SP e SindusCon-SP unem forças e mostram mercado imobiliário do interior resiliente à taxa de juros, mas à espera de definições eleitoral e tributária",
-   "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPMVFHWl9yd2xOM2RhcmxvQ2JTamtKZnlXeE43ckxtOFQ3S0xBY1FXX0xPeWVESGlwVEpiS2g4SjBoTDAxSGktLUVWNnpiXzRvMm41VE9DdGRGWVlhQ2ZpZGZXd1lKVldfZml3UllGbzdsekN3NnFuQW42SDhaSUJKZ1dBdWFvRzBpcGxRSWxOTWkzejYxQnJUbEpmbnBVZ1J4MHJwSGgwMFdVamVrLUhpcV9yU3RyWFh2WlFjbE85blc2ZHE5WkRyakF5OUNQNU9uTmZhOGtBZnRsUjZGZGk0blpBRjhOakEtdjc5M0pJdGZ2eFJTNGx5MVJaU0t1UVNhSG91Z24zUjBOdw?oc=5",
-   "source": "SECOVI-SP",
-   "date": "2026-09-24T19:52:38Z",
-   "cat": "regras",
-   "local": false
   },
   {
    "title": "Plano&Plano sai de São Paulo pela primeira vez e escolhe Goiânia para expansão",
@@ -1268,14 +1161,6 @@
    "local": true
   },
   {
-   "title": "Habitação: propostas dos candidatos ao governo de Goiás vão de reforma urbana a aluguel social",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPU1NTa1ZkTWdHeG9ZeksySUJlbVhXMGhKd19ENnB5RU1yQUd0TEMyNERQQ2RmeERLWW1GQnRWNWo1QmYwV19GNHRmTXB6VFBCS2p5bktUelAyTWRLN0dWSzd4MG1GdW5wRTJDMHZvelp1aUtZb0o5Y1BDZ2E2S2kwT1J2MF91WGM3OHRxSXh3b2lDaXZ0OGF6bDNBOWtkMnVNUVJWcVYzWjQzRWJaaWZUSEtsQnB3X0I3Y0E?oc=5",
-   "source": "A Redação",
-   "date": "2026-09-23T07:00:00Z",
-   "cat": "mercado",
-   "local": true
-  },
-  {
    "title": "Greve da Caixa afeta vendas de imóveis e financiamento de obras",
    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQb2RIWkdGRWRHd0tYUDE3RnNiRm1Pc0txcU52ZWh5TGFFdVJPc3Z6NmQtUllwQXpsNnAySFNpZWtoQllPdjdKVUdwQ3d6azlkaDNjWE9jMGM5c0xobERYUHVJUThLVzJjb2pXM2FkR0dId1hXcWVfWTlUUzU5a0FoT2ljX1VBQjQ1SmlWVjZFV2xNTVdZb2pyd0I5YlluMHoxSVQydlcyWm1LU294VktNMDVyeW8zRjjSAbwBQVVfeXFMTUs0azBNOW9nZUU0eXFETFF6RzFkNjRONFdsVkRaVlRXRS1semFjWWdUTmdjR09yNHlHd1UwOEJFNzA1RU5xVXoyWTJRQ3VSUmRfcWZIUGh5OHY3dTVIWTBTMU53bnJqZ0dKa05Eb2lLcktCZVcxTTR1Y1Z4a2FGNEhGNzBkNXRoNEQ5dXhsS2poc0h6dmN5ZnR2ckRNNEdWU3c5VEt0ZWxyZ05jM25YS1U5Y1B5blpZRnNUZW8?oc=5",
    "source": "Estadão",
@@ -1289,6 +1174,118 @@
    "source": "Rádio Bandeirantes Goiânia",
    "date": "2026-09-22T15:07:41Z",
    "cat": "regras",
+   "local": true
+  },
+  {
+   "title": "Mercado imobiliário de Goiânia movimenta R$ 4,1 bilhões, mas burocracia trava habitação popular",
+   "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNZG5IYXVpWmxoUkxLOU1GTG1DRWxYVjRJNXlDMVMxdm9nUXRTMVMwUEVMeTM3enZwdTFUQTZEemxTTjVSSlJUSGhBVUs1dkRWcDFpT0dsWm5pcHd6WG9iVUZpUFJwSDBQbmdHV085YUJhWGcxOXNzS2ZkOFFMNmdtZHI1XzI1dkI5OWNkeEItM1JEZXRfTjVDRVkyZXJYdkhPZnJkWk1scExFYmVtc2hBcXlDSmFwUlN6cXAzVEFzVW96TE41TWJWdzlXVmp5NzhCYW1mVkU4RXhYRk9EUDAwVkgxWGJ6a2hObENyM2l4S0lUVFZhaUZFSmtjRmJsWG1RTE94UnlmNFkxQlU?oc=5",
+   "source": "Jornal Opção",
+   "date": "2026-09-22T07:00:00Z",
+   "cat": "mercado",
+   "local": true
+  },
+  {
+   "title": "Apartamentos lideram valorização em Goiânia, enquanto excesso de oferta pressiona preços dos lotes",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPeDBIWGJLS0ZGR2JWUXVqQnJOZWFfNTd0ZVJNT2dmZzZldWNVRHBKQXFIN3YxeXlQTjh5RGpRUUN5blR3ckpwVVY5Z2gtVUtfSmc1RlJ6TTVqUE9WT09kR2RhS05kZzI4empNclg4dkZROWV0aFN2TWF4azdZUWJpQ3RiZUI3MjBhWTFvUUp0c3VSbmptelprQlVsN2JSQ2pycVF4MU9DZmtMRmpOVVBISVl4elhqakhxMDZmbGJWZ1Vtdw?oc=5",
+   "source": "Jornal Opção",
+   "date": "2026-09-22T07:00:00Z",
+   "cat": "mercado",
+   "local": true
+  },
+  {
+   "title": "Greve da Caixa: Financiamento imobiliário e direitos do consumidor",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQLUlKbjhfTmpmalRrblotSmd3QkNaOU9VSl9KblRtYTBFeS1Xcnp0dEp5T2hyNEhUVzFLNzRWX0FnZGczRG8yd0Nsc0lweGRiQjJyOFNGdjl4ZElUdURqdWZodzM4eHd0U2FmcXViTHFMRjZtcDlJOUhSWEV1RGdiMVZTYzUyWmlCZmFWR1JVaw?oc=5",
+   "source": "ISTOÉ DINHEIRO",
+   "date": "2026-09-22T07:00:00Z",
+   "cat": "financiamento",
+   "local": false
+  },
+  {
+   "title": "Greve da Caixa é mantida e trava financiamento da casa própria: o que fazer?",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPRElJaGhybEdVSnJtdGd4bHFnSkxKcllYVm4wS2NjQ0U5c2VzN2xPU0RWTHFqTXVnQjBSakNYczZpXzlJS2hTbzN6TmJoaFY1MUc5ZHRTQmVNN2prRjd6UmlNSHlRd2RqdDRjQ1BfcVJxN0xlYi1GSThFUmdYQUZLNzZ4RWVCbld6dklaZmNHNEt2YmVscWo5dTlnc3VUc21vMG1qeGQzVWk1MFlqMkpWYTFfVQ?oc=5",
+   "source": "Exame",
+   "date": "2026-09-22T07:00:00Z",
+   "cat": "financiamento",
+   "local": false
+  },
+  {
+   "title": "XP vê freada no crédito imobiliário como temporária e mantém aposta em baixa renda",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQUjNJelFTRnVybkhrdnFNVnZZRWlCNHV3dzhmTVN1RHY3Y0UyY2xQWkNTdFhMaHdpNEgyNkh6bV9lR0ktS3ZvN3ExNmFTdms1X19LSTMyVWFoM2tVMy1SNV96a0ltT0ZqdmRMaENBdXIyR2dyS0hoV3g3S0JTT3lGR0ZnWFNCd3J3ZkEtb1RfRkF5UmYyaHhXU3cxMzZJbHV0OUlGek8wcmNBTzE0ajJtaWhEOHBYam5ySmQ0a2ZR0gHDAUFVX3lxTE9hMUtRV0ZoSFVwTkZNMURxMkRQODE4bUdyQXRmV25iMDJuZS11OEhwMjN5MXhvYWVpcTl6R2N3TkVrbUJFZkZkNUI0OFpSUGNsbVpWU2JVVlc4dnl3eW1GLUlKRFJXSzQxVDY2QkVqSjRORzlFejhZS0t4bE5TdURwUllkN281aGVhNlgwSDY5dl9GbTRTNHQyMTJlVGlJSExmb0gtRVROVnpzVV9MRWlMVVQ5azhVV2dGZm1PUm9Ec2JfNA?oc=5",
+   "source": "InfoMoney",
+   "date": "2026-09-22T07:00:00Z",
+   "cat": "financiamento",
+   "local": false
+  },
+  {
+   "title": "A nova estratégia do mercado em ofertas de imóveis de luxo no Brasil",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQVo3UmpRRlhqcUhOT3h0SWZ0MzlOdW9SbFZ3V256aGVPZzY4eEsyNFIwMENrc3JFUzA1aEpiT25PUXVJOURvQnlHblFkQkM1cGFscDVJZzlTV2pCbXlnd0cwaVBVYkU0N1RwU1A0VDNVd056YmZwbDNSQkVjU1JtYUNyY21OSkU1Ym9CelQxbGlac2MtUkU3a2NySmp0elFsZTlaZzdkODA0UG5QdWthVlBn?oc=5",
+   "source": "VEJA",
+   "date": "2026-09-22T07:00:00Z",
+   "cat": "mercado",
+   "local": false
+  },
+  {
+   "title": "STF expõe luta por imunidade de ITBI contra 'sanha arrecadatória'",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZGpoajRJRzBzcG51RnRBNjZJa0sxNi1WZEFIMjJTR1A4czhUeDlmZE40cUQxUldnUXd4WEkxRERuZHFwYm90Ti1GekN0UEROaEZnalVncnlQUDM0MjlkUE5UeDg0NW1md0ZtVHluZ2lyNkJVZjI4UkpfU1gwV0Y2b1RuTkVsRDM1eGhQZk4wZDBRZlJRdFJDV2hjWEtmVmRsdmdBNmpYdlFNVjJDTkNDUHlXem1Cdw?oc=5",
+   "source": "Consultor Jurídico",
+   "date": "2026-09-22T07:00:00Z",
+   "cat": "regras",
+   "local": false
+  },
+  {
+   "title": "Setor imobiliário pede adiamento da próxima etapa da reforma tributária",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSl9QVlU3TWgyX2lNNXdObmJJbjdjdUpvSDA3MDlqYjdvN2dWU1NEMW9MZXVyYVF5dXFFUTFpN2lTZF9Cc3dWb1hsYlpHOWE0amRxTkVCTDhZWFBFMFp2YzVSaXpicy1QSFplUmlIckhuTUQwSHZVSjhpdnJGMmc1eklKQ0lnVmdNZ040YTNMQ2lxWkdrMWV4M3VtSFJZYnFrQzZpT29B?oc=5",
+   "source": "Paraíba Business",
+   "date": "2026-09-21T07:00:00Z",
+   "cat": "regras",
+   "local": false
+  },
+  {
+   "title": "ITBI: nova redação do art. 38 do CTN exige revisão da legislação municipal",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQck4xS2V5ZmZkWHpSb3NPSnpQc3l4M1oyXzVGcVM5OFFqWldwOHVSdFM2OWZGTEJFdldiYlBKRDlYcURoM2l3UmI0Wjkwb2VRcENWNXJqRHA3dXF5b2tSWnhKWjFUNk1hejBEUkYwREVEdzdtb3JhUjItdmlRaEhIc1ZvOFJzWnpzaE81MDZkakxPZFVLcnp3Q0hfSlVER3Ixb2dtcGQ2Yk1STjQ?oc=5",
+   "source": "Consultor Jurídico",
+   "date": "2026-09-21T07:00:00Z",
+   "cat": "regras",
+   "local": false
+  },
+  {
+   "title": "Prefeitura de Goiânia retira muretas e readequa circulação na Rua 83, no entorno da Praça Cívica",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPVVFQcEFyOGxZRlB4NXk5WnNYVS0wUGVyUVc3dnN4M2xkalBqeW1QRW1iSUdtbVR5OXhWVnY3ZU9ialg0SUhIb0g1ck5ocnZYdVhfaUhwYlQ4Q2w0dlYxbXVOWWpwbVpfcF9odTgyTjEtT29oNWs3Y0hYalgyX1ZxWW45ckxEb3VpS0JUTHVyeGprVUwzSVRJX1Bn?oc=5",
+   "source": "Revista Factual",
+   "date": "2026-09-21T07:00:00Z",
+   "cat": "cidade",
+   "local": true
+  },
+  {
+   "title": "Por que a avenida Goiás termina na Estação Ferroviária? Resposta está no projeto original de Goiânia",
+   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPa2J4d0RERDlSOHdZMFNLTUJ5b0l1Ul83ckRMa1B6TmRsUUhHMDJ3VzhiUVNlZGhJREJ3eFEtWHh1YzJoYTVKVjBPeFVyLW1QT2N5NGRaYmlfUFBvbnhKZTlvTE1JRFJHV21pNnRudndFQllMQVNXNHF3N053N2NBeUM0ZWVHRlgtZnVUNE9KRXJUX3VVcnc0TlJ6YTNOcmhkWEhubXNtbE9aTlVaVkozaFJFNUdweTJDREI0ZkxqZTZlM3dJbDRPdUl2X0Y3ZmUxZ3Fjc2EzSUNSX3JJdWc?oc=5",
+   "source": "Mais Goiás",
+   "date": "2026-09-20T07:00:00Z",
+   "cat": "cidade",
+   "local": true
+  },
+  {
+   "title": "Começa a construção de 160 unidades habitacionais no Jardim Oratório em Mauá",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1fZmZEV2FYQy1ybkpxdk9tM3U4OHFQUkZNOWgzSE1PVEVLVjVJTGFzOThmSmVLWTZ1NDZmVmY2OWVFWWhJaGlfaGlJbFdKVUFkS0dpckVn?oc=5",
+   "source": "Prefeitura de Mauá",
+   "date": "2026-09-19T18:54:36Z",
+   "cat": "mercado",
+   "local": false
+  },
+  {
+   "title": "Apartamentos de até 34 m² já são maioria entre os lançamentos em São Paulo; entenda",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQWkJDZ2EyOHR1WE5sUU16MWRMa19fMTR3elBIT2dUdG1IcWhRN0FfLVQ1UjZ5QVlKVGpkbW9OcnIxR1k2VGk0dDA3S1RMWDVISmx3T3JLT1liOWtFVVo0NDV4bWg1NExiWEsxeUNLYkZJdE5lVldqaVIyUkZhQzc5X2x2bkhnZWoxbVdwTzN6eWNCU3UxMm1tTlQ4M2l6QnROd2IycXlaT0RQVUFCSDkxR19wRjZUSDY5Y08zdzZ0Tk41SlBtUnfSAcsBQVVfeXFMT1h5NEdTX0RmakVEM1NJN1pOMVhTUmxsamxROGkzUVJITE15Z1p2NThnaDlwWk9RWHRTR0tONXpueE0zUHlNZ1VVdlh4NDNGUUJqWk4zZ2ZxR1FfclZleTZ3SlVCeGxpdVRteVNJSElCd0pjSkJuNEpqUnpRenM5MXFvX3hHeVVGSkdZUUNOT2tKaHRjZGZZZ3RfcC1BeGlHWkt1ajd5OXktMkpzdFphTV9fQkVOY2o0dFhDLXdEWHd4b3JhR0JkWkZKWDg?oc=5",
+   "source": "Estadão",
+   "date": "2026-09-19T07:00:00Z",
+   "cat": "lancamentos",
+   "local": false
+  },
+  {
+   "title": "Goiânia redesenha o luxo imobiliário",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNZWtzcTRLbk1kZkR5dmRIMVA3a1Z2MnlON0N1YnYxTDVsbjluelJ1dFNWZlo3YjlTQktGQ1pQQ3d5VllDNTFaVjlCYktoR3V5NXltYzRkZDZHQUQwVm5FSWVJV3VXUzcxR0Z4RTNLZm5xM0UyRFF5ZDFPTDBicFAxSTlRZHEtaS16UnIzZGlqNVdaS2RlbXVTelZ1aS0tc2RrOHRHeVFWcGl1WkRud0lwZjF4SlnSAcMBQVVfeXFMTkU2QjN6bUQxMnFtSTRRWnVwbk9SS21xb1dEOHRCMmRIX3IwRjNKOW9oaHJvOVNHSF94bXhXblJrVGNmQm8zcmJoUVlXN0IzaFYyblhvelktcUp5SlhRTGdkVjJOUF9PVVpPalYwU1laclUydUpTT1B1cXctRUFKVDhXQjlQYTdubkFjSFd3SEh5R3ZmRzNQMEI3blFyTXhqLWJsenBpTU5HajcySmUtMzRTdm9IcWZFcGFiWjk0Z0wwaHFN?oc=5",
+   "source": "Valor Econômico",
+   "date": "2026-09-18T07:00:00Z",
+   "cat": "mercado",
    "local": true
   }
  ]
