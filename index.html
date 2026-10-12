@@ -3404,23 +3404,23 @@ const jnImg = (it) => {
         im.decoding = 'async';
         im.alt = '';
         im.referrerPolicy = 'no-referrer';
-        im.addEventListener('error', () => {
-            im.remove();
-            box.classList.add('is-empty');
-            const lead = box.closest('.jn-lead');
-            if (lead) lead.classList.remove('has-img');
-        });
+        // foto bloqueada pelo site do jornal: cai na ilustração da categoria
+        im.addEventListener('error', () => { im.remove(); jnIlus(box, it); }, { once:true });
         im.src = it.img;
         box.appendChild(im);
         return { box, has:true };
     }
-    // Sem foto da matéria: ilustração em traço da categoria.
+    jnIlus(box, it);
+    return { box, has:true };
+};
+
+// Sem foto da matéria: ilustração em traço da categoria.
+const jnIlus = (box, it) => {
     const cat = ['mercado','financiamento','regras','lancamentos','cidade'].includes(it.cat) ? it.cat : 'mercado';
     const il = document.createElement('img');
     il.src = `assets/ilustracoes/jn-${cat}.svg`; il.alt = ''; il.loading = 'lazy'; il.className = 'jn-ilus';
     box.classList.add('is-ilus');
     box.appendChild(il);
-    return { box, has:true };
 };
 
 const jnLink = (it, cls) => {
