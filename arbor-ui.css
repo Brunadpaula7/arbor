@@ -273,3 +273,15 @@ body.filtros-open #scroll-tree{display:none!important}
 
 @media(max-width:900px){.ui-ajuda-grid{grid-template-columns:minmax(0,1fr);gap:18px}.ui-ajuda-card{display:grid;grid-template-columns:120px minmax(0,1fr);column-gap:18px;align-items:start}.ui-ajuda-img{grid-row:1/5;max-width:120px;margin:0}.ui-ajuda-card .ui-eyebrow{grid-column:2}.ui-ajuda-card h3,.ui-ajuda-card p,.ui-ajuda-acoes{grid-column:2}}
 @media(max-width:520px){.ui-ajuda-card{display:flex}.ui-ajuda-img{max-width:200px;margin:0 0 10px}.ui-convite-acoes .ui-btn{flex:1 1 100%}}
+
+/* Ilustrações em traço nas faixas das páginas internas */
+#bairros-view>.sec-head::after{background-image:url("assets/ilustracoes/bairros-claro.svg")!important}
+#jornada-view>.sec-head::after{background-image:url("assets/ilustracoes/jornada-claro.svg")!important}
+#diferenciais-view>.diferenciais-page-intro::after{background-image:url("assets/ilustracoes/diferenciais-claro.svg")!important}
+#noticias-view>.jn-head::after{background-image:url("assets/ilustracoes/journal-claro.svg")!important}
+#equipe-view .sec-head::after{background-image:url("assets/ilustracoes/equipe-claro.svg")!important}
+#sobre-view>.sec-head::after{background-image:url("assets/ilustracoes/sobre-claro.svg")!important}
+#bairros-view>.sec-head::after,#jornada-view>.sec-head::after,#diferenciais-view>.diferenciais-page-intro::after,#noticias-view>.jn-head::after,#equipe-view .sec-head::after,#sobre-view>.sec-head::after{aspect-ratio:340/196!important;width:min(30vw,340px)!important;opacity:1!important;filter:none!important;bottom:72px!important}
+@media(max-width:700px){
+ #bairros-view>.sec-head::after,#jornada-view>.sec-head::after,#diferenciais-view>.diferenciais-page-intro::after,#noticias-view>.jn-head::after,#equipe-view .sec-head::after,#sobre-view>.sec-head::after{display:block!important;position:relative!important;right:auto!important;bottom:auto!important;width:min(78%,300px)!important;margin:22px auto 0}
+}
