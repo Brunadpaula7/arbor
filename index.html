@@ -1738,7 +1738,7 @@
         <li><a href="#jornada" id="nav-jornada-btn">Jornada</a></li>
         <li><a href="#diferenciais" id="nav-diferenciais-btn">Diferenciais</a></li>
         <li><a href="#noticias" id="nav-noticias-btn">Journal</a></li>
-        <li><a href="#essencia" id="nav-sobre-btn">Sobre</a></li>
+        <li><a href="#sobre" id="nav-sobre-btn">Sobre</a></li>
         <li data-arbor-equipe hidden><a href="#equipe" id="nav-equipe-btn">Equipe</a></li>
         <li><a href="#consultoria" id="nav-consultoria-btn" class="btn btn-line">Anunciar meu imóvel</a></li>
     </ul>
@@ -1751,7 +1751,7 @@
     <a href="#jornada" class="mm-link">Jornada</a>
     <a href="#diferenciais" class="mm-link">Diferenciais</a>
     <a href="#noticias" class="mm-link">Journal</a>
-    <a href="#essencia" class="mm-link">Sobre</a>
+    <a href="#sobre" class="mm-link">Sobre</a>
     <a href="#equipe" class="mm-link" data-arbor-equipe hidden>Equipe</a>
     <a href="https://wa.me/5562984854468" target="_blank" rel="noopener noreferrer" class="btn btn-fill">Falar com a Arbor</a>
 </div>
@@ -1766,7 +1766,7 @@
             <div class="hero-body"><p>Imóveis selecionados em Goiânia e região.</p></div>
             <div class="hero-actions">
                 <a href="#imoveis" class="btn btn-fill" id="hero-explore-btn">Ver imóveis <i data-lucide="arrow-down-right" style="width:16px"></i></a>
-                <a href="#essencia" class="btn btn-line" id="hero-anunciar-btn">Conheça a Arbor</a>
+                <a href="#sobre" class="btn btn-line" id="hero-anunciar-btn">Conheça a Arbor</a>
             </div>
         </div>
         <div class="hero-visual reveal">
@@ -1833,22 +1833,6 @@
         </div>
     </section>
 
-
-    <section class="section-sobre" id="essencia">
-        <div class="wrap sobre-grid">
-            <div class="sobre-visual reveal">
-                <div class="blob">
-                    <img class="brand-logo-image sobre-logo-image" src="assets/arbor-arvore-areia.png" alt="Árvore da Arbor: uma só raiz">
-                </div>
-            </div>
-            <div class="sobre-copy reveal">
-                <span class="eyebrow">Nossa essência</span>
-                <h2>Presença e cuidado.<br><em>Em cada escolha.</em></h2>
-                <p>A Arbor aproxima pessoas e imóveis com uma leitura cuidadosa de localização, características e objetivos.</p>
-                <p>Nosso trabalho é organizar as informações, acompanhar visitas e conduzir a negociação com clareza. Para quem compra, vende ou busca uma nova forma de morar.</p>
-            </div>
-        </div>
-    </section>
 
     <section class="section-fazemos" id="consultoria">
         <div class="wrap">
@@ -1930,14 +1914,6 @@
         </div>
     </section>
 
-    <section class="home-journal"><div class="wrap">
-        <span class="eyebrow">Journal Arbor</span><h2>Informação para escolher melhor.</h2>
-        <div class="home-journal-links">
-            <a href="#noticias"><small>Prefeituras e tributos</small>IPTU e ITBI em Goiânia e região ↗</a>
-            <a href="#noticias"><small>Documentação</small>Cartórios, matrícula e registro de imóveis ↗</a>
-            <a href="#noticias"><small>Atualidades</small>Notícias e mudanças no mercado imobiliário ↗</a>
-        </div><a href="#noticias" class="btn btn-line">Explorar o Journal</a>
-    </div></section>
 </main>
 
 <section id="detail-view" class="view-hidden"></section>
@@ -2024,6 +2000,22 @@
 
     <div id="properties-grid" class="ui-cards"><div class="system-msg">Sincronizando portfólio…</div></div>
     <div class="load-more-wrap view-hidden" id="load-more-container"><button class="ui-btn ui-btn-outline" id="btn-load-more">Ver mais imóveis</button></div>
+</section>
+
+<section id="sobre-view" class="view-hidden page-view">
+    <button class="back-btn" id="sobre-back-btn"><i data-lucide="arrow-left" style="width:14px"></i> Voltar à Home</button>
+    <div class="sec-head">
+        <span class="eyebrow">Nossa essência</span>
+        <h2>Presença e cuidado. <em>Em cada escolha.</em></h2>
+        <p>A Arbor aproxima pessoas e imóveis com uma leitura cuidadosa de localização, características e objetivos.</p>
+    </div>
+    <div class="ui-sobre">
+        <p>Nosso trabalho é organizar as informações, acompanhar visitas e conduzir a negociação com clareza. Para quem compra, vende ou busca uma nova forma de morar.</p>
+        <div class="ui-sobre-acoes">
+            <a class="ui-btn ui-btn-primary" href="#imoveis">Ver imóveis</a>
+            <a class="ui-btn ui-btn-outline" href="https://wa.me/5562984854468" target="_blank" rel="noopener noreferrer">Falar com a Arbor</a>
+        </div>
+    </div>
 </section>
 
 <section id="diferenciais-view" class="view-hidden page-view">
@@ -2261,7 +2253,7 @@
     <div class="footer-brand" aria-label="Arbor Imóveis"><img class="brand-logo" src="assets/arbor-logo-lema-creme.png" alt="Arbor Imóveis"></div>
     <div class="foot-links">
         <a href="#imoveis">Imóveis</a>
-        <a href="#essencia">Sobre</a>
+        <a href="#sobre">Sobre</a>
         <a href="/politica-de-privacidade/">Privacidade</a>
         <a href="/termos-de-servico/">Termos</a>
         <a href="https://instagram.com/arborimoveis" target="_blank" rel="noopener noreferrer">Instagram</a>
@@ -3072,12 +3064,10 @@ const setupJornadaInteractions = () => {
 const setupEventListeners = () => {
     $('logo-btn').addEventListener('click', e => { e.preventDefault(); goHome(); });
     $('hero-explore-btn').addEventListener('click', e => { e.preventDefault(); goCatalogo(); });
-    $('hero-anunciar-btn').addEventListener('click', e => { e.preventDefault(); const t=$('essencia'); window.scrollTo({top:t.offsetTop-80, behavior:'smooth'}); });
     $('nav-imoveis-btn').addEventListener('click', e => { e.preventDefault(); goCatalogo(); });
     setupCatalogoUI();
-    $('nav-sobre-btn').addEventListener('click', e => { e.preventDefault(); goHome('essencia'); });
     $('nav-consultoria-btn').addEventListener('click', e => { e.preventDefault(); goHome('consultoria'); });
-    ['bairros-back-btn','jornada-back-btn','diferenciais-back-btn','noticias-back-btn'].forEach(id => {
+    ['bairros-back-btn','jornada-back-btn','diferenciais-back-btn','noticias-back-btn','sobre-back-btn'].forEach(id => {
         const btn = $(id);
         if (btn) btn.addEventListener('click', (e) => { e.preventDefault(); goHome(); });
     });
@@ -3116,7 +3106,6 @@ const setupEventListeners = () => {
             document.body.classList.remove('menu-open');
             const href = a.getAttribute('href');
             if (href === '#imoveis') { e.preventDefault(); goCatalogo(); }
-            else if (href === '#essencia') { e.preventDefault(); goHome('essencia'); }
         });
     });
 
@@ -3647,7 +3636,7 @@ document.addEventListener('click', (e) => {
 
 $('jn-search').addEventListener('input', e => { jn.search=e.target.value; jn.visible=9; if(jn.loaded) renderJournal(); });
 
-const ALL_VIEWS = ['list-view', 'catalogo-view', 'detail-view', 'bairros-view', 'jornada-view', 'diferenciais-view', 'noticias-view','equipe-view'];
+const ALL_VIEWS = ['list-view', 'catalogo-view', 'detail-view', 'bairros-view', 'jornada-view', 'diferenciais-view', 'noticias-view','equipe-view','sobre-view'];
 const showView = (id) => {
     state.curView = id;
     ALL_VIEWS.forEach(v => $(v).classList.toggle('view-hidden', v !== id));
@@ -3694,6 +3683,7 @@ const handleRouting = () => {
         state.keepFilters = false;
         showView('catalogo-view'); state.fromHash = '#imoveis'; window.scrollTo(0,0); if (window.lucide) lucide.createIcons(); return;
     }
+    if (hash === '#sobre' || hash === '#essencia') { showView('sobre-view'); window.scrollTo(0,0); if (window.lucide) lucide.createIcons(); return; }
     if (hash === '#bairros') { showView('bairros-view'); window.scrollTo(0,0); if (window.lucide) lucide.createIcons(); return; }
     if (hash === '#jornada') { showView('jornada-view'); window.scrollTo(0,0); return; }
     if (hash === '#diferenciais') { showView('diferenciais-view'); window.scrollTo(0,0); if (window.lucide) lucide.createIcons(); return; }
