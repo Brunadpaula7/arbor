@@ -85,7 +85,7 @@ CONTENT_NS = "{http://purl.org/rss/1.0/modules/content/}"
 RELEVANT = re.compile(
     r"imobili|imovel|imoveis|apartament|moradia|habitac|construcao civil|construtora|incorporad|"
     r"empreendimento residencial|casa propria|minha casa minha vida|"
-    r"aluguel|loteamento|condominio|residencial|cyrela|mrv|tenda|direcional|secovi|abrainc|"
+    r"aluguel|loteamento|condominio|residencial|cyrela|\bmrv\b|\btenda\b|direcional|secovi|abrainc|"
     r"cbic|fipezap|creci|itbi|isti|iptu|plano diretor|alto padrao|vgv|sbpe|registro de imoveis"
 )
 LOCAL_TITLE = re.compile(r"goiania|goias|goiano|aparecida de goiania|anapolis|senador canedo|hidrolandia|trindade|goianira")
@@ -111,6 +111,12 @@ CATEGORIES = [  # ordem = prioridade
 
 # manchetes que não interessam ao leitor da Arbor
 EXCLUDE = re.compile(r"leilao|leiloa|leiloes|arremat|lances digitais|cargos e salarios|vagas? de emprego|curso gratuito|futebol|atletico-go|serra dourada|estadio|financiamento de veiculo|credito consignado|lancamento de album")
+# pauta política, policial e de tragédia: nunca entra no Journal, mesmo citando imóvel ou avenida
+NOISE = re.compile(
+    r"\blula\b|bolsonar|eleitor|\bturno\b|campanha|\btse\b|\btre\b|candidat|partido|senador\b|senado\b|ministro do|"
+    r"polic|prisao|\bpres[oa]s?\b|\bprende|golpe|trafico|crime|criminos|investigad|morte|morre|assassin|homicid|"
+    r"incendi|pega fogo|explos|desaba|acidente|atropel|tiroteio"
+)
 EXCLUDE_SOURCES = re.compile(r"instagram|facebook|youtube|tiktok|linkedin|kwai|portal salario|pinterest|reddit")
 # estados/capitais de fora: só descartam notícia que NÃO é de Goiás
 OTHER_PLACES = re.compile(
@@ -196,7 +202,7 @@ def parse_local(xml_bytes, source):
 
 def classify(title, source):
     t, s = norm(title), norm(source)
-    if EXCLUDE.search(t) or EXCLUDE_SOURCES.search(s):
+    if EXCLUDE.search(t) or NOISE.search(t) or EXCLUDE_SOURCES.search(s):
         return None
     local_title = bool(LOCAL_TITLE.search(t))
     if not RELEVANT.search(t):
@@ -310,7 +316,7 @@ def main():
         if not c:
             t = norm(n["title"])
             # veículo local: mudança da cidade entra mesmo sem citar Goiânia no título
-            if CITY.search(t) and not CITY_EXCLUDE.search(t) and not EXCLUDE.search(t) and not OTHER_PLACES.search(t):
+            if CITY.search(t) and not CITY_EXCLUDE.search(t) and not EXCLUDE.search(t) and not NOISE.search(t) and not OTHER_PLACES.search(t):
                 c = ("cidade", True)
             else:
                 continue
