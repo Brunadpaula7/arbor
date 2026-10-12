@@ -26,4 +26,13 @@ class EditorialTests(unittest.TestCase):
         for title in ['Polícia prende suspeito em avenida de Goiânia', 'Acidente no Eixo Anhanguera em Goiânia', 'Obras em Curitiba avançam', 'Carro invade área de proteção do Eixo Anhanguera, em Goiânia', 'Goiânia já soma mais de 500 placas de trânsito danificadas ou furtadas em 2026']:
             with self.subTest(title=title): self.assertIsNone(classify(title,'Mais Goiás'))
 
+    def test_politics_and_police(self):
+        for title in ['Ala do TSE vê “engajamento” de Nunes Marques na campanha de Flávio; entenda a polêmica',
+                      'Lula pede mobilização de eleitores durante ato na Avenida Paulista',
+                      'Incêndio atinge apartamento de prédio no setor Marista, em Goiânia',
+                      'Polícia descobre construtora fantasma que movimentou R$ 10 milhões em Goiânia',
+                      'Antes da prisão, CRECI já havia cassado registro de corretor acusado de golpes']:
+            with self.subTest(title=title): self.assertIsNone(classify(title,'Jornal Opção'))
+        self.assertEqual(classify('Tenda lança residencial em Goiânia','Mais Goiás'),('lancamentos',True))
+
 if __name__ == '__main__': unittest.main()
