@@ -285,3 +285,6 @@ body.filtros-open #scroll-tree{display:none!important}
 @media(max-width:700px){
  #bairros-view>.sec-head::after,#jornada-view>.sec-head::after,#diferenciais-view>.diferenciais-page-intro::after,#noticias-view>.jn-head::after,#equipe-view .sec-head::after,#sobre-view>.sec-head::after{display:block!important;position:relative!important;right:auto!important;bottom:auto!important;width:min(78%,300px)!important;margin:22px auto 0}
 }
+#catalogo-view>.sec-head::after{background-image:url("assets/ilustracoes/catalogo-claro.svg")!important;aspect-ratio:300/200!important;width:min(26vw,300px)!important;opacity:1!important;filter:none!important;bottom:70px!important}
+.ui-catalogo--resp .ui-perfil-card::after{background-image:url("assets/ilustracoes/responsavel-claro.svg")!important;aspect-ratio:300/200!important;width:min(24vw,280px)!important;opacity:1!important;bottom:62px!important}
+@media(max-width:700px){#catalogo-view>.sec-head::after{display:block!important;position:relative!important;right:auto!important;bottom:auto!important;width:min(70%,260px)!important;margin:18px auto 0}.ui-catalogo--resp .ui-perfil-card::after{display:none!important}}
