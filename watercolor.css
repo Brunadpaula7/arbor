@@ -309,3 +309,24 @@ svg.jn-lead-ico{position:absolute;right:30px;top:34px;width:92px;height:92px;col
 .hero-visual{max-width:470px!important}
 @media(max-width:900px){.hero-visual{max-width:330px!important}}
 #equipe-view .equipe-section{background:transparent!important;padding:0!important;box-shadow:none!important}#equipe-view .equipe-section>.wrap{padding:0}
+
+/* ===== Visual simples: creme liso, verde Arbor e terracota; sem aquarela, brilho ou granulado ===== */
+body{background:#f6f0e3}
+body::before{display:none!important}
+.hero{background:#204030!important}
+.hero::before,.hero::after{display:none!important}
+.hero{padding-bottom:72px}
+.hero-property img{filter:none!important}
+.hero-visual .hero-roots g{stroke:#bc9570}
+.bairro-visual,.diferenciais-page-note,.section-nacional,.section-cta,body>footer{background:#204030!important;background-image:none!important}
+.section-cta{background:#183326!important}
+.section-nacional::before,.section-cta::before,body>footer::before{display:none!important}
+.page-view>.sec-head:not(.jn-block-head),.diferenciais-page-intro,.page-view>.jn-head,#equipe-view .sec-head{background:#204030!important;border-radius:14px!important}
+.page-view>.sec-head::after,.diferenciais-page-intro::after,.page-view>.jn-head::after,#equipe-view .sec-head::after{filter:none!important}
+.section-sobre .sobre-visual .blob{background:transparent!important}
+.section-sobre .sobre-logo-image{filter:none!important}
+.btn,.btn-fill,.btn-line,.jn-jump a{border-radius:8px!important}
+.p-card,.u-card,.destaque-card,.bairro-card,.official-card,.equipe-card{box-shadow:0 1px 3px rgba(32,64,48,.08)!important;background:#fffdf8}
+.jn-lead{background-image:none!important;background-color:#204030!important}
+.section-sobre .blob,.section-sobre .sobre-visual{background:none!important;box-shadow:none!important;border:0!important}
+.section-sobre .blob::before,.section-sobre .blob::after,.section-sobre .sobre-visual::before,.section-sobre .sobre-visual::after{display:none!important}
