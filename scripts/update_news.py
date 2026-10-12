@@ -378,7 +378,13 @@ def main():
                 if not c:
                     continue
                 old.update(cat=c[0], local=c[1], source=clean_source(old["source"]))
-                items.setdefault(key(old["title"]), old)
+                k = key(old["title"])
+                cur = items.get(k)
+                if cur is None:
+                    items[k] = old
+                elif "img" not in cur and old.get("img"):
+                    # matéria que voltou no feed: reaproveita o link real e a foto já encontrados
+                    cur.update(url=old["url"], img=old["img"])
         except Exception:
             pass
     cutoff = (now - timedelta(days=KEEP_DAYS)).strftime("%Y-%m-%dT%H:%M:%SZ")
