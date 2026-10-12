@@ -151,3 +151,46 @@ body.filtros-open #scroll-tree{display:none!important}
  .page-view>.sec-head:not(.jn-block-head),.diferenciais-page-intro,.page-view>.jn-head,#equipe-view .sec-head{padding:30px 22px 32px!important}
  .page-view>.sec-head::after,.diferenciais-page-intro::after,.page-view>.jn-head::after,#equipe-view .sec-head::after{display:none!important}
 }
+
+/* ---------- responsável na ficha ---------- */
+.resp-card .resp-avatar{display:block;flex:0 0 54px;width:54px;height:54px;border-radius:50%;overflow:hidden;text-decoration:none}
+.resp-card .resp-avatar img,.resp-card .resp-avatar .resp-ini{width:54px;height:54px;border-radius:50%;object-fit:cover}
+.resp-card .resp-nome{text-decoration:none;color:inherit}
+.resp-card .resp-nome:hover strong{color:var(--ui-terracota)}
+.resp-card .resp-ver{margin-top:4px;font-size:.78rem;font-weight:500;color:var(--ui-terracota);text-decoration:none}
+.resp-card .resp-ver:hover{text-decoration:underline}
+
+/* ---------- página do responsável ---------- */
+.ui-catalogo--resp>.sec-head{display:none!important}
+.ui-catalogo--resp #equipe-carteira{display:none!important}
+.ui-perfil[hidden]{display:none!important}
+.ui-perfil-card{position:relative;overflow:hidden;display:flex;align-items:center;gap:clamp(22px,4vw,48px);padding:clamp(26px,4vw,48px);border-radius:14px;background:#204030;color:#f1eadb;isolation:isolate}
+.ui-perfil-card::after{content:"";position:absolute;right:3%;bottom:-18%;width:min(28%,250px);aspect-ratio:566/528;background:url("assets/arbor-arvore-creme.png") center/contain no-repeat;opacity:.16;z-index:-1;pointer-events:none}
+.ui-perfil-foto{position:relative;flex:0 0 clamp(120px,16vw,176px);width:clamp(120px,16vw,176px);aspect-ratio:1/1;border-radius:50%;overflow:hidden;border:3px solid #bc9570;background:#2c5440;display:grid;place-items:center}
+.ui-perfil-foto span{font-size:clamp(2.2rem,5vw,3.4rem);font-weight:300;color:#f1eadb}
+.ui-perfil-foto img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.ui-perfil-info{min-width:0}
+.ui-perfil-eyebrow{display:block;font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;color:#d9b27c}
+.ui-perfil-info h1{margin:8px 0 6px;font-size:clamp(2rem,4.4vw,3.2rem);font-weight:300;line-height:1.08;color:#f6f0e3;letter-spacing:-.01em}
+.ui-perfil-meta{margin:0;font-size:.92rem;letter-spacing:.06em;color:#d9b27c}
+.ui-perfil-resumo{margin:16px 0 0;max-width:640px;font-size:1rem;line-height:1.65;color:rgba(246,240,227,.9)}
+.ui-perfil-acoes{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
+.ui-btn-light{background:#f6f0e3;border:1px solid #f6f0e3;color:#204030}
+.ui-btn-light:hover{background:#fff}
+.ui-btn-ghost{background:transparent;border:1px solid rgba(246,240,227,.5);color:#f6f0e3}
+.ui-btn-ghost:hover{background:rgba(246,240,227,.12)}
+.ui-perfil-voltar{margin:16px 0 0}
+.ui-perfil-voltar a{color:var(--ui-suave);font-size:.9rem;text-decoration:none;border-bottom:1px solid var(--ui-areia)}
+.ui-perfil-voltar a:hover{color:var(--ui-terracota)}
+.ui-perfil-titulo{margin:34px 0 18px;font-size:clamp(1.6rem,3vw,2.2rem);font-weight:300;color:var(--ui-verde)}
+@media(max-width:700px){
+ .ui-perfil-card{flex-direction:column;align-items:flex-start;text-align:left}
+ .ui-perfil-acoes .ui-btn{flex:1 1 100%}
+ .ui-perfil-card::after{width:44%;right:-6%}
+}
+.ui-resp-carregando #busca-form,.ui-resp-carregando #filtros-aplicados,.ui-resp-carregando .ui-resultbar,.ui-resp-carregando #properties-grid,.ui-resp-carregando #load-more-container{display:none!important}
+.ui-resp-vazio #busca-form,.ui-resp-vazio #filtros-aplicados,.ui-resp-vazio .ui-resultbar,.ui-resp-vazio .ui-perfil-voltar+.ui-perfil-titulo{display:none!important}
+.ui-resp-vazio #properties-grid{margin-top:26px}
+.system-msg .ui-btn{margin:6px 4px 0}
+.system-msg a.ui-btn-outline{background:transparent!important;color:var(--ui-verde)!important;border:1px solid rgba(32,64,48,.45)!important}
+.system-msg a.ui-btn-primary{background:var(--ui-verde)!important;color:var(--ui-creme)!important}

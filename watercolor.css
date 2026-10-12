@@ -238,8 +238,8 @@ svg.jn-lead-ico{position:absolute;right:30px;top:34px;width:92px;height:92px;col
 .resp-card small{font-size:.62rem;letter-spacing:.14em;text-transform:uppercase;color:#6b6a5f}
 .resp-card strong{font-weight:500;font-size:1.02rem;color:#204030}
 .resp-card em{font-style:normal;font-size:.72rem;color:#6b6a5f}
-.resp-card>a{flex:0 0 44px;width:44px;height:44px;border-radius:50%;display:grid;place-items:center;background:#25d366;color:#fff}
-.resp-card>a svg{width:24px;height:24px}
+.resp-card>.resp-wa{flex:0 0 44px;width:44px;height:44px;border-radius:50%;display:grid;place-items:center;background:#25d366;color:#fff}
+.resp-card>.resp-wa svg{width:24px;height:24px}
 .wa-float{position:fixed;right:16px;bottom:22px;z-index:90;display:flex;align-items:center;gap:8px;padding:12px 18px 12px 14px;border-radius:999px;background:#25d366;color:#fff;font-size:.82rem;font-weight:500;text-decoration:none;box-shadow:0 12px 28px -8px rgba(12,26,19,.55)}
 .wa-float svg{width:26px;height:26px;flex:none}
 @media (max-width:900px){.wa-float{bottom:86px}.wa-float span{display:none}.wa-float{padding:13px}}
