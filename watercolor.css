@@ -255,3 +255,26 @@ svg.jn-lead-ico{position:absolute;right:30px;top:34px;width:92px;height:92px;col
 .hero .hero-actions .btn-fill{background:#f6f0e3;color:#204030;border-color:#f6f0e3}
 .hero .hero-actions .btn-line{color:#f6f0e3;border-color:rgba(246,240,227,.55)}
 .hero-property{background:#f6f0e3;box-shadow:0 30px 60px -30px rgba(0,0,0,.5)}
+
+/* Início: raízes e aquarela pintadas */
+.hero{min-height:0;padding-bottom:110px}
+.hero::before{display:block!important;content:"";position:absolute;inset:-10%;width:auto!important;height:auto!important;z-index:-1;pointer-events:none;filter:blur(18px);
+ background:
+ radial-gradient(ellipse 30% 46% at 72% 46%,rgba(217,166,121,.55),rgba(151,67,21,.28) 58%,transparent 78%),
+ radial-gradient(ellipse 26% 36% at 94% 14%,rgba(95,140,110,.55),transparent 74%),
+ radial-gradient(ellipse 30% 30% at 6% 94%,rgba(151,67,21,.38),transparent 74%),
+ radial-gradient(ellipse 24% 26% at 38% 8%,rgba(95,140,110,.30),transparent 74%)}
+.hero::after{display:block!important;content:"";position:absolute;left:0;right:0;bottom:-1px;height:70px;width:auto!important;border:0!important;border-radius:0!important;z-index:2;pointer-events:none;filter:none!important;
+ background:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 70' preserveAspectRatio='none'><path fill='%23f6f0e3' d='M0 38 C90 18 170 52 290 34 S470 8 600 36 S840 62 980 30 S1200 6 1320 34 S1410 40 1440 28 L1440 70 L0 70 Z'/></svg>") bottom/100% 100% no-repeat}
+.hero-roots{position:absolute;left:0;right:0;bottom:56px;width:100%;height:260px;z-index:0;pointer-events:none}
+.hero-visual{aspect-ratio:auto;max-width:560px;justify-self:end;position:relative;z-index:1}
+.hero-property{background:transparent!important;box-shadow:none!important;aspect-ratio:auto!important;border-radius:0!important;display:block}
+.hero-property img{width:100%;height:auto;object-fit:contain;filter:drop-shadow(0 0 36px rgba(217,166,121,.35))}
+.hero-property .hero-caption{display:none}
+.hero-copy h1{font-size:clamp(3rem,5.6vw,6.2rem)}
+.hero-eyebrow{letter-spacing:.3em}
+@media(max-width:900px){.hero{padding-bottom:90px}.hero-visual{max-width:340px;justify-self:center;margin-top:6px}.hero-roots{bottom:30px;height:200px}.hero::after{height:44px}}
+@media(max-width:900px){.hero::before{background:
+ radial-gradient(ellipse 60% 26% at 50% 80%,rgba(217,166,121,.55),rgba(151,67,21,.26) 58%,transparent 78%),
+ radial-gradient(ellipse 50% 22% at 96% 8%,rgba(95,140,110,.55),transparent 74%),
+ radial-gradient(ellipse 50% 20% at 4% 98%,rgba(151,67,21,.36),transparent 74%)}}
