@@ -2189,6 +2189,7 @@
     <div class="jn-filters" id="jn-filters" role="group" aria-label="Filtrar notícias">
         <button type="button" class="jn-chip is-active" data-filter="all" aria-pressed="true">Tudo <span class="jn-count"></span></button>
         <button type="button" class="jn-chip" data-filter="local" aria-pressed="false">Goiânia e região <span class="jn-count"></span></button>
+        <button type="button" class="jn-chip" data-filter="cidade" aria-pressed="false">Cidade <span class="jn-count"></span></button>
         <button type="button" class="jn-chip" data-filter="lancamentos" aria-pressed="false">Lançamentos <span class="jn-count"></span></button>
         <button type="button" class="jn-chip" data-filter="financiamento" aria-pressed="false">Financiamento <span class="jn-count"></span></button>
         <button type="button" class="jn-chip" data-filter="regras" aria-pressed="false">Regras e leis <span class="jn-count"></span></button>
@@ -3351,8 +3352,8 @@ const setupCatalogoUI = () => {
 };
 
 /* ---------- Journal: notícias diárias (lê noticias.json, atualizado pelo GitHub Actions) ---------- */
-const JN_LABEL = { lancamentos:'Lançamentos', financiamento:'Financiamento', regras:'Regras e leis', mercado:'Mercado' };
-const JN_ICON = { lancamentos:'building-2', financiamento:'banknote', regras:'scale', mercado:'trending-up' };
+const JN_LABEL = { cidade:'Cidade', lancamentos:'Lançamentos', financiamento:'Financiamento', regras:'Regras e leis', mercado:'Mercado' };
+const JN_ICON = { cidade:'map', lancamentos:'building-2', financiamento:'banknote', regras:'scale', mercado:'trending-up' };
 const jn = { items:[], loaded:false, loading:false, filter:'all', visible:9, search:'' };
 
 const jnTimeAgo = (iso) => {
@@ -3414,7 +3415,7 @@ const jnImg = (it) => {
         return { box, has:true };
     }
     // Sem foto da matéria: ilustração em traço da categoria.
-    const cat = ['mercado','financiamento','regras','lancamentos'].includes(it.cat) ? it.cat : 'mercado';
+    const cat = ['mercado','financiamento','regras','lancamentos','cidade'].includes(it.cat) ? it.cat : 'mercado';
     const il = document.createElement('img');
     il.src = `assets/ilustracoes/jn-${cat}.svg`; il.alt = ''; il.loading = 'lazy'; il.className = 'jn-ilus';
     box.classList.add('is-ilus');
@@ -3467,10 +3468,13 @@ const renderJournal = () => {
         return;
     }
 
-    const lead = list[0];
+    // Goiânia primeiro: o destaque e o bloco "Goiânia em movimento" priorizam notícias locais.
+    const lead = list.find(i => i.local) || list[0];
     const rest = list.filter(i => i !== lead);
     const side = rest.slice(0, 3);
-    const feed = rest.slice(3);
+    const geral = jn.filter === 'all' && !jn.search;
+    const cidade = geral ? rest.slice(3).filter(i => i.local).slice(0, 4) : [];
+    const feed = rest.slice(3).filter(i => !cidade.includes(i));
 
     const top = jnEl('div', 'jn-top');
     const a = jnLink(lead, 'jn-lead');
@@ -3504,6 +3508,26 @@ const renderJournal = () => {
         top.appendChild(col);
     }
     board.appendChild(top);
+
+    if (cidade.length) {
+        const cab = jnEl('div', 'jn-block-head jn-cidade-head');
+        cab.appendChild(jnEl('h3', null, 'Goiânia em movimento'));
+        const ver = jnEl('button', 'jn-cidade-ver', 'Ver todas de Goiânia');
+        ver.type = 'button';
+        ver.addEventListener('click', () => document.querySelector('.jn-chip[data-filter="local"]')?.click());
+        cab.appendChild(ver);
+        board.appendChild(cab);
+        const g = jnEl('div', 'jn-feed jn-cidade');
+        cidade.forEach(it => {
+            const c = jnLink(it, 'jn-card');
+            c.appendChild(jnImg(it).box);
+            c.appendChild(jnTags(it));
+            c.appendChild(jnEl('h4', null, it.title));
+            c.appendChild(jnFoot(it));
+            g.appendChild(c);
+        });
+        board.appendChild(g);
+    }
 
     if (feed.length) {
         const bloco = jnEl('div', 'jn-block-head');
