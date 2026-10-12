@@ -23,7 +23,7 @@ class EditorialTests(unittest.TestCase):
     def test_city_changes(self):
         for title in ['Prefeitura de Goiânia inicia obras do viaduto da T-63', 'BRT Norte-Sul de Goiânia tem novo trecho liberado', 'Parque Macambira Anicuns recebe revitalização em Goiânia']:
             with self.subTest(title=title): self.assertEqual(classify(title,'Mais Goiás'),('cidade',True))
-        for title in ['Polícia prende suspeito em avenida de Goiânia', 'Acidente no Eixo Anhanguera em Goiânia', 'Obras em Curitiba avançam']:
+        for title in ['Polícia prende suspeito em avenida de Goiânia', 'Acidente no Eixo Anhanguera em Goiânia', 'Obras em Curitiba avançam', 'Carro invade área de proteção do Eixo Anhanguera, em Goiânia', 'Goiânia já soma mais de 500 placas de trânsito danificadas ou furtadas em 2026']:
             with self.subTest(title=title): self.assertIsNone(classify(title,'Mais Goiás'))
 
 if __name__ == '__main__': unittest.main()
