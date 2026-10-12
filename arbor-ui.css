@@ -127,7 +127,8 @@
   body.filtros-open{overflow:hidden}
 }
 @media(prefers-reduced-motion:reduce){.pc,.pc:hover,.ui-dest,.ui-dest:hover{transform:none;transition:none}}
-.page-view{overflow-x:clip}
+.page-view{overflow-x:visible}
+html,body{overflow-x:clip}
 .page-view::before,.page-view::after{display:none!important}
 body.filtros-open #scroll-tree{display:none!important}
 
@@ -205,3 +206,37 @@ body.filtros-open #scroll-tree{display:none!important}
  background:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 72' preserveAspectRatio='none'><path fill='%23f6f0e3' d='M0 72 L0 46 C240 6 520 4 760 26 C1000 48 1220 58 1440 22 L1440 72 Z'/></svg>") bottom/100% 100% no-repeat}
 @media(max-width:700px){.hero{padding-bottom:70px!important}.ui-selecao::before{top:-35px;height:36px}}
 @media(max-width:900px){.hero{background:radial-gradient(ellipse 90% 45% at 50% 82%,#2b5440 0%,#224634 50%,#1b3a2b 100%)!important}}
+
+/* ===== Faixa verde de topo em todas as páginas (mesmo tratamento do início) ===== */
+.page-view{padding-top:80px!important}
+.page-view>.back-btn{display:flex!important;width:max-content;position:relative;z-index:3;margin:26px 0 -74px!important;color:#f6f0e3!important;border-color:rgba(246,240,227,.45)!important;background:transparent!important}
+.page-view>.back-btn:hover{background:#f6f0e3!important;color:#204030!important}
+.page-view>.sec-head:not(.jn-block-head),.page-view>.diferenciais-page-intro,.page-view>.jn-head,#equipe-view .sec-head,.ui-catalogo--resp .ui-perfil-card{
+  width:100vw!important;max-width:none!important;box-sizing:border-box!important;
+  margin:0 calc(50% - 50vw) 44px!important;border-radius:0!important;
+  padding:112px calc((100vw - 100%) / 2 + 34%) 118px calc((100vw - 100%) / 2)!important;
+  background:radial-gradient(ellipse 48% 95% at 80% 42%,#2b5440 0%,#224634 45%,#1b3a2b 100%)!important}
+.page-view>.sec-head:not(.jn-block-head)::after,.page-view>.diferenciais-page-intro::after,.page-view>.jn-head::after,#equipe-view .sec-head::after{
+  right:max(5vw,calc(50vw - 620px))!important;left:auto!important;bottom:60px!important;width:min(24vw,250px)!important;transform:none!important}
+.page-view>.sec-head:not(.jn-block-head)::before,.page-view>.diferenciais-page-intro::before,.page-view>.jn-head::before,#equipe-view .sec-head::before,.ui-catalogo--resp .ui-perfil-card::before{
+  content:"";display:block!important;position:absolute;left:0;right:0;bottom:-1px;height:64px;z-index:1;pointer-events:none;
+  background:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 72' preserveAspectRatio='none'><path fill='%23f6f0e3' d='M0 72 L0 46 C240 6 520 4 760 26 C1000 48 1220 58 1440 22 L1440 72 Z'/></svg>") bottom/100% 100% no-repeat}
+/* catálogo e equipe não têm botão de voltar: a faixa começa logo abaixo do menu */
+#catalogo-view>.sec-head,#equipe-view .sec-head,.ui-catalogo--resp .ui-perfil-card{padding-top:72px!important}
+#equipe-view .equipe-section{padding-top:0!important}
+/* perfil do responsável */
+.ui-catalogo--resp .ui-perfil-card{padding-right:calc((100vw - 100%) / 2 + 20%)!important;padding-bottom:104px!important}
+.ui-catalogo--resp .ui-perfil-card::after{right:max(5vw,calc(50vw - 620px))!important;bottom:56px!important;opacity:.14}
+@media(max-width:900px){
+  .page-view>.sec-head:not(.jn-block-head),.page-view>.diferenciais-page-intro,.page-view>.jn-head,#equipe-view .sec-head{padding-right:calc((100vw - 100%) / 2 + 30%)!important}
+}
+@media(max-width:700px){
+  .page-view{padding-top:70px!important}
+  .page-view>.back-btn{margin:18px 0 -66px!important}
+  .page-view>.sec-head:not(.jn-block-head),.page-view>.diferenciais-page-intro,.page-view>.jn-head,#equipe-view .sec-head,.ui-catalogo--resp .ui-perfil-card{
+    padding:84px calc((100vw - 100%) / 2) 66px!important;margin-bottom:30px!important}
+  #catalogo-view>.sec-head,#equipe-view .sec-head,.ui-catalogo--resp .ui-perfil-card{padding-top:40px!important}
+  .page-view>.sec-head:not(.jn-block-head)::before,.page-view>.diferenciais-page-intro::before,.page-view>.jn-head::before,#equipe-view .sec-head::before,.ui-catalogo--resp .ui-perfil-card::before{height:34px}
+}
+.jn-head .jn-jump a{background:transparent!important;border-color:rgba(246,240,227,.45)!important;color:#f6f0e3!important}
+.jn-head .jn-jump a:hover{background:#f6f0e3!important;color:#204030!important}
