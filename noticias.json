@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-12T14:10:04Z",
+ "updated": "2026-10-12T14:11:35Z",
  "items": [
   {
    "title": "Prefeitura de Goiânia entrega revitalização de monumentos históricos no Bosque dos Buritis",
@@ -790,7 +790,8 @@
    "source": "O GLOBO",
    "date": "2026-09-30T07:00:00Z",
    "cat": "financiamento",
-   "local": false
+   "local": false,
+   "img": ""
   },
   {
    "title": "Consórcio imobiliário com menor taxa: opções com 9,5% [2026]",
@@ -969,6 +970,14 @@
    "local": true
   },
   {
+   "title": "MP-GO exige suspensão de projeto do Fundo Imobiliário e cobra lista de imóveis da Prefeitura de Goiânia",
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOSjRvSDlNU2VySHJORUJOR1A0N0ItUW5uVXpWcE8wQVZ4WUE1WlU0QkhMNDlVMkR4V1hMWm1FbEw0QXpXZ0h3cTN4engxQVhiRWozNkR6V3VVa0NVRlpYSnQ0a0lMcl9PVWNfXzNJdDZCb2JCWVVCT3R6bFFTX2pHbWk1V1llVllmemhQdE9CVGppWVh6NVEtUVN4NlNhYXVlVXp3b0VpR1F0QzI1TzQweXZHazBlWk1xcFRnVlY5ZHVKcEdJLUVUZ1h6RDhwbUlJWXdnMEU0bw?oc=5",
+   "source": "Diário de Goiás",
+   "date": "2026-09-25T07:00:00Z",
+   "cat": "mercado",
+   "local": true
+  },
+  {
    "title": "Após representação de Aava, MP-GO recomenda mudanças em projeto de fundo imobiliário",
    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVU9yQXEzX194QnZPeHE5ZmxOZC1lNHdZQXVQY3VoSU9RSnpVQm9pMkl2MWlCQzZSSmlZaDV6RUhfZjdRVGNhQzRhWU9qUkxrUWx2QlAwWVBsbHVwV3Bpa0tMYXo4SmI1Y0cwa0xhYmt4aFNUaU5iVnVjNFhVNjV1cURwUW1kazNWLWdZOFlxVVpGZXJ4RUlNTXAyOVNiaFBrNHJuMU56R2hUZzg?oc=5",
    "source": "Transmissão Política",
@@ -998,14 +1007,6 @@
    "source": "Mais Goiás",
    "date": "2026-09-25T07:00:00Z",
    "cat": "cidade",
-   "local": true
-  },
-  {
-   "title": "MP-GO exige suspensão de projeto do Fundo Imobiliário e cobra lista de imóveis da Prefeitura de Goiânia",
-   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOSjRvSDlNU2VySHJORUJOR1A0N0ItUW5uVXpWcE8wQVZ4WUE1WlU0QkhMNDlVMkR4V1hMWm1FbEw0QXpXZ0h3cTN4engxQVhiRWozNkR6V3VVa0NVRlpYSnQ0a0lMcl9PVWNfXzNJdDZCb2JCWVVCT3R6bFFTX2pHbWk1V1llVllmemhQdE9CVGppWVh6NVEtUVN4NlNhYXVlVXp3b0VpR1F0QzI1TzQweXZHazBlWk1xcFRnVlY5ZHVKcEdJLUVUZ1h6RDhwbUlJWXdnMEU0bw?oc=5",
-   "source": "Diário de Goiás",
-   "date": "2026-09-25T07:00:00Z",
-   "cat": "mercado",
    "local": true
   },
   {
