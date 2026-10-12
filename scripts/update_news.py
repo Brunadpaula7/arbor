@@ -85,7 +85,8 @@ CITY = re.compile(
     r"loteamento|expansao|inaugur|praca|terminal|metropolitan|zoneamento|calcada"
 )
 CITY_EXCLUDE = re.compile(
-    r"polic|crime|preso|presa|morte|morre|assassin|acidente|homicid|tiroteio|roubo|furto|eleic|vereador|deputad|"
+    r"polic|crime|preso|presa|morte|morre|assassin|acidente|homicid|tiroteio|roub|furt|invad|invas|batida|colis|capot|atropel|"
+    r"ferid|vitima|bandid|suspeit|incendi|eleic|vereador|deputad|"
     r"candidat|prefeito eleito|velorio|enterro|show|festival|futebol|jogo"
 )
 CATEGORIES = [  # ordem = prioridade
