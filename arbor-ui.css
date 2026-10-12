@@ -197,3 +197,11 @@ body.filtros-open #scroll-tree{display:none!important}
 .ui-sobre{max-width:720px;font-size:1.08rem;line-height:1.8;color:var(--ui-suave)}
 .ui-sobre-acoes{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}
 @media(max-width:700px){.ui-sobre-acoes .ui-btn{flex:1 1 100%}}
+
+/* Início: verde com profundidade suave e base em curva (sem bordas irregulares) */
+.hero{background:radial-gradient(ellipse 55% 75% at 76% 42%,#2b5440 0%,#224634 45%,#1b3a2b 100%)!important;padding-bottom:110px!important}
+.ui-selecao{position:relative}
+.ui-selecao::before{content:"";position:absolute;left:0;right:0;top:-71px;height:72px;pointer-events:none;
+ background:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 72' preserveAspectRatio='none'><path fill='%23f6f0e3' d='M0 72 L0 46 C240 6 520 4 760 26 C1000 48 1220 58 1440 22 L1440 72 Z'/></svg>") bottom/100% 100% no-repeat}
+@media(max-width:700px){.hero{padding-bottom:70px!important}.ui-selecao::before{top:-35px;height:36px}}
+@media(max-width:900px){.hero{background:radial-gradient(ellipse 90% 45% at 50% 82%,#2b5440 0%,#224634 50%,#1b3a2b 100%)!important}}
