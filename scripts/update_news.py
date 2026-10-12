@@ -222,7 +222,6 @@ def classify(title, source):
 
 # ---------- imagem de capa da matéria ----------
 # evita a tela de consentimento de cookies do Google (runner fora do Brasil)
-GNEWS_DEBUG = []
 GNEWS_COOKIE = "CONSENT=YES+cb.20240101-00-p0.pt+FX+000; SOCS=CAESEwgDEgk0ODE3Nzk3MjQaAnB0IAEaBgiA_LyaBg"
 
 
@@ -252,7 +251,8 @@ def gnews_real_url(url):
     landed = ""
     for page_url in (f"https://news.google.com/articles/{art}", f"https://news.google.com/rss/articles/{art}"):
         try:
-            landed, page = http_get(page_url, cookie=GNEWS_COOKIE)
+            # a página passa de 1 MB e os parâmetros ficam no fim
+            landed, page = http_get(page_url, limit=6_000_000, timeout=12, cookie=GNEWS_COOKIE)
         except Exception as e:
             landed = f"{page_url} ({e})"
             continue
@@ -260,12 +260,6 @@ def gnews_real_url(url):
         ts = re.search(r'data-n-a-ts="([^"]+)"', page)
         if sig and ts:
             break
-        if not GNEWS_DEBUG:
-            GNEWS_DEBUG.append(1)
-            tags = re.findall(r"<(?:c-wiz|div)[^>]{0,40}data-n-[^>]{0,300}>", page)[:3]
-            print(f"debug gnews: {page_url} -> {landed} | {len(page)} bytes | data-n-: {page.count('data-n-')} | "
-                  f"consent: {'consent' in page.lower()} | title: {re.findall(r'<title>([^<]*)', page)[:1]} | tags: {tags} | "
-                  f"inicio: {re.sub(r'\\s+', ' ', page[:300])}", file=sys.stderr)
     if not (sig and ts):
         raise ValueError(f"parâmetros do Google News não encontrados (página: {landed[:90]})")
     inner = ('["garturlreq",[["X","X",["X","X"],null,null,1,1,"US:en",null,1,null,null,null,null,null,0,1],'
