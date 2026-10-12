@@ -266,7 +266,6 @@ svg.jn-lead-ico{position:absolute;right:30px;top:34px;width:92px;height:92px;col
  radial-gradient(ellipse 24% 26% at 38% 8%,rgba(95,140,110,.30),transparent 74%)}
 .hero::after{display:block!important;content:"";position:absolute;left:0;right:0;bottom:-1px;height:70px;width:auto!important;border:0!important;border-radius:0!important;z-index:2;pointer-events:none;filter:none!important;
  background:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 70' preserveAspectRatio='none'><path fill='%23f6f0e3' d='M0 38 C90 18 170 52 290 34 S470 8 600 36 S840 62 980 30 S1200 6 1320 34 S1410 40 1440 28 L1440 70 L0 70 Z'/></svg>") bottom/100% 100% no-repeat}
-.hero-roots{position:absolute;left:0;right:0;bottom:56px;width:100%;height:260px;z-index:0;pointer-events:none}
 .hero-visual{aspect-ratio:auto;max-width:560px;justify-self:end;position:relative;z-index:1}
 .hero-property{background:transparent!important;box-shadow:none!important;aspect-ratio:auto!important;border-radius:0!important;display:block}
 .hero-property img{width:100%;height:auto;object-fit:contain;filter:drop-shadow(0 0 36px rgba(217,166,121,.35))}
@@ -278,3 +277,35 @@ svg.jn-lead-ico{position:absolute;right:30px;top:34px;width:92px;height:92px;col
  radial-gradient(ellipse 60% 26% at 50% 80%,rgba(217,166,121,.55),rgba(151,67,21,.26) 58%,transparent 78%),
  radial-gradient(ellipse 50% 22% at 96% 8%,rgba(95,140,110,.55),transparent 74%),
  radial-gradient(ellipse 50% 20% at 4% 98%,rgba(151,67,21,.36),transparent 74%)}}
+
+/* raízes ligadas à árvore */
+.hero-visual{overflow:visible}
+.hero-visual .hero-roots{position:absolute;left:-100%;top:62.5%;width:300%;height:170.5%;z-index:-1;pointer-events:none;overflow:visible}
+/* essência: árvore em areia com mancha de aquarela */
+.section-sobre .sobre-visual .blob{background:radial-gradient(ellipse 60% 55% at 50% 52%,rgba(217,166,121,.5),rgba(151,67,21,.18) 62%,transparent 78%)!important;border:0!important;box-shadow:none!important;filter:none}
+.section-sobre .sobre-logo-image{width:min(82%,380px)!important;max-height:none!important;filter:drop-shadow(0 8px 18px rgba(32,64,48,.25))}
+/* divisor de raízes sob títulos de seção */
+.sec-head::after,.sub-head::after{content:"";display:block;width:150px;height:22px;margin-top:14px;background:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 150 22' fill='none' stroke='%23bc9570' stroke-width='1.4' stroke-linecap='round'><path d='M2 11 H62'/><path d='M88 11 H148'/><path d='M75 3 V10'/><path d='M75 11 C70 15 64 16 58 20 M75 11 C80 15 86 16 92 20 M75 11 V21 M75 11 C72 16 70 18 68 21 M75 11 C78 16 80 18 82 21'/></svg>") left center/contain no-repeat}
+.jn-head.sec-head::after,.hero .sec-head::after{display:none}
+/* faixa verde com árvore em todas as páginas internas */
+.page-view>.sec-head:not(.jn-block-head),.diferenciais-page-intro,.page-view>.jn-head,#equipe-view .sec-head{position:relative;overflow:hidden;isolation:isolate;margin-bottom:34px;padding:46px 40% 46px 5vw;border-radius:30px 10px 34px 12px;color:#f1eadb;
+ background:radial-gradient(ellipse 34% 90% at 88% 54%,rgba(217,166,121,.5),rgba(151,67,21,.24) 58%,transparent 78%),radial-gradient(ellipse 30% 70% at 100% 0,rgba(95,140,110,.5),transparent 72%),linear-gradient(135deg,#183326 0%,#204030 58%,#2c5440 100%)}
+.page-view>.sec-head::after,.diferenciais-page-intro::after,.page-view>.jn-head::after,#equipe-view .sec-head::after{content:"";position:absolute;right:4%;bottom:-6%;top:auto;width:min(34%,300px);height:auto;aspect-ratio:566/528;margin:0;background:url("assets/arbor-arvore-creme.png") center/contain no-repeat;opacity:.92;z-index:-1;pointer-events:none;filter:drop-shadow(0 0 28px rgba(217,166,121,.35));display:block}
+.page-view>.sec-head .eyebrow,.diferenciais-page-intro .eyebrow,.jn-head .eyebrow,#equipe-view .sec-head .eyebrow{color:#d9b27c}
+.page-view>.sec-head h2,.diferenciais-page-intro h2,.jn-head h2,#equipe-view .sec-head h2{color:#f6f0e3}
+.page-view>.sec-head h2 em,.diferenciais-page-intro h2 em,.jn-head h2 em,#equipe-view .sec-head h2 em{color:#d9a679}
+.page-view>.sec-head p,.diferenciais-page-intro p,.jn-head p,.jn-head .jn-lead-text,#equipe-view .sec-head p{color:rgba(246,240,227,.86)!important}
+.jn-head .jn-meta,.jn-head .jn-meta *{color:rgba(246,240,227,.8)}
+.jn-jump a{color:#f6f0e3;border-color:rgba(246,240,227,.45)}
+@media(max-width:700px){.page-view>.sec-head:not(.jn-block-head),.diferenciais-page-intro,.page-view>.jn-head,#equipe-view .sec-head{padding:34px 22px 150px}
+ .page-view>.sec-head::after,.diferenciais-page-intro::after,.page-view>.jn-head::after,#equipe-view .sec-head::after{width:150px;right:50%;transform:translateX(50%);bottom:-10px}}
+
+.hero-property{position:relative;line-height:0}
+.hero-property img{display:block}
+.hero-visual .hero-roots{top:62.5%}
+.page-view>.sec-head:not(.jn-block-head),.diferenciais-page-intro,.page-view>.jn-head,#equipe-view .sec-head{max-width:none!important;width:100%}
+.hero-property.is-brand>img{padding:0!important;opacity:1!important;height:auto!important;object-fit:contain}
+.hero-property{overflow:visible!important}
+.hero-visual{max-width:470px!important}
+@media(max-width:900px){.hero-visual{max-width:330px!important}}
+#equipe-view .equipe-section{background:transparent!important;padding:0!important;box-shadow:none!important}#equipe-view .equipe-section>.wrap{padding:0}
