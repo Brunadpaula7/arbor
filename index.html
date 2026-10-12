@@ -1756,6 +1756,7 @@
 <nav id="nav">
     <a href="#" class="nav-logo" id="logo-btn" aria-label="Arbor Imóveis"><img class="brand-logo" src="assets/arbor-logo-verde.png" alt="Arbor Imóveis"></a>
     <ul class="nav-links">
+        <li><a href="#" id="nav-inicio-btn">Início</a></li>
         <li><a href="#imoveis" id="nav-imoveis-btn">Imóveis</a></li>
         <li><a href="#bairros" id="nav-bairros-btn">Bairros</a></li>
         <li><a href="#jornada" id="nav-jornada-btn">Jornada</a></li>
@@ -1769,6 +1770,7 @@
 </nav>
 
 <div id="mobile-menu">
+    <a href="#" class="mm-link" data-inicio>Início</a>
     <a href="#imoveis" class="mm-link">Imóveis</a>
     <a href="#bairros" class="mm-link">Bairros</a>
     <a href="#jornada" class="mm-link">Jornada</a>
@@ -2992,6 +2994,7 @@ const setupJornadaInteractions = () => {
 const setupEventListeners = () => {
     $('logo-btn').addEventListener('click', e => { e.preventDefault(); goHome(); });
     $('hero-explore-btn').addEventListener('click', e => { e.preventDefault(); goCatalogo(); });
+    $('nav-inicio-btn').addEventListener('click', e => { e.preventDefault(); goHome(); });
     $('nav-imoveis-btn').addEventListener('click', e => { e.preventDefault(); goCatalogo(); });
     setupCatalogoUI();
     $('nav-consultoria-btn').addEventListener('click', e => { e.preventDefault(); goHome('consultoria'); });
@@ -3033,7 +3036,8 @@ const setupEventListeners = () => {
         a.addEventListener('click', (e) => {
             document.body.classList.remove('menu-open');
             const href = a.getAttribute('href');
-            if (href === '#imoveis') { e.preventDefault(); goCatalogo(); }
+            if (a.hasAttribute('data-inicio')) { e.preventDefault(); goHome(); }
+            else if (href === '#imoveis') { e.preventDefault(); goCatalogo(); }
         });
     });
 
