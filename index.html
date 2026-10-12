@@ -548,6 +548,29 @@
         .art-spec{display:flex;align-items:center;gap:12px}.art-ico{width:44px;height:44px;flex:none}.art-chip{display:inline-flex;align-items:center;gap:7px;margin:0 8px 8px 0;padding:6px 12px;border:1px solid #b9beae;border-radius:999px;background:rgba(255,253,247,.7);font-size:14px;color:#204030}.art-chip img{width:26px;height:26px}.art-specs{display:flex;gap:24px;padding:22px 0 18px;border-bottom:1px solid #b9beae}.art-spec{flex:1}.art-spec strong{display:block;font-size:27px;font-weight:400}.art-spec span{font-size:13px;text-transform:uppercase;letter-spacing:1px;color:#6b7469}
         .art-copy{display:flex;flex-direction:column;gap:18px;margin-top:20px}.art-summary{flex:none}.art-fin-main{flex:none}.art-extras{display:flex;gap:26px;flex-wrap:wrap;align-items:center;flex:1;justify-content:flex-end}.art-extra{display:flex;align-items:center;gap:10px}.art-extra img{width:34px;height:34px}.art-extra span{display:block;font-size:11px;letter-spacing:1px;text-transform:uppercase;color:#6b7469}.art-extra strong{font-size:17px;font-weight:400;color:#204030}.art-summary-x{}.art-summary p{font-size:18px;line-height:1.55;margin:10px 0 0;color:#405244}.art-finance{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:14px 0;border-bottom:1px solid #b9beae}.art-price{font-size:32px;font-weight:300;line-height:1.2;margin:4px 0 0;color:#974315}.art-fees{font-size:14px;line-height:1.7;color:#536152}.art-features{margin-top:16px}
         .art-sheet .art-foot{background:transparent;color:#204030;text-align:left;margin-top:auto;padding:18px 0 0;border-top:2px solid #204030;display:flex;justify-content:space-between;align-items:end;font-size:14px;line-height:1.6}.art-foot-tag{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:26px;color:#204030}.art-foot small{font-size:11px;color:#536152;display:block;max-width:590px;margin-top:6px}.art-foot-right{text-align:right}.art-foot a{color:inherit;text-decoration:none}
+        .art-v2{padding:0!important;background:#f6f0e3!important}
+        .art-v2 .art-body{padding:44px 68px 0}
+        .art-v2 .art-head{border:0;margin:0;padding:0;height:232px;align-items:flex-start;color:#f6f0e3}
+        .art-v2 .art-head-txt{max-width:740px}
+        .art-v2 .art-head .art-kicker{color:#d9b27c;font-weight:500;font-size:13px;letter-spacing:3px}
+        .art-v2 h1{color:#f6f0e3!important;font-size:44px!important;margin:14px 0 8px!important;letter-spacing:-1px!important}
+        .art-v2 .art-location{color:rgba(246,240,227,.82)!important;font-size:19px!important;margin:0!important}
+        .art-v2 .art-logo{height:150px}
+        .art-v2 .art-hero{width:984px;height:410px;border-radius:0;margin-top:40px}
+        .art-v2 .art-film img{height:142px}
+        .art-v2 .art-photo-caption:empty{display:none}
+        .art-v2 .art-specs{border-bottom:1px solid #d6cdb8;padding:20px 0 16px}
+        .art-v2 .art-spec strong{color:#204030}
+        .art-v2 .art-finance{border-bottom:1px solid #d6cdb8}
+        .art-v2 .art-price{color:#204030!important;font-weight:500!important}
+        .art-v2 .art-kicker{color:#974315}
+        .art-v2 .art-features{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+        .art-v2 .art-chip{display:inline-block;margin:0;height:38px;line-height:38px;box-sizing:border-box;padding:0 14px 0 8px;background:#fffdf8;border-color:#d6cdb8;font-size:14px;white-space:nowrap}
+        .art-v2 .art-chip img{display:inline-block;width:26px;height:26px;vertical-align:middle;margin:-4px 8px 0 0}
+        .art-v2 .art-chip-t{display:inline-block;position:relative;top:-7px}
+        .art-v2 .art-foot{position:absolute;left:68px;right:68px;bottom:28px;margin:0;padding:0;border:0!important;color:#f6f0e3!important}
+        .art-v2 .art-foot-tag{color:#f6f0e3!important}
+        .art-v2 .art-foot small{color:rgba(246,240,227,.72)!important}
         #pdf-loading-overlay{position:fixed;inset:0;background:rgba(17,17,17,.86);color:#f2efe7;z-index:99999;display:flex;flex-direction:column;align-items:center;justify-content:center;font-family:var(--font)}
         #pdf-loading-overlay .eyebrow{color:#f2efe7}#pdf-loading-overlay p{font-size:1rem;margin-top:14px}
 
@@ -3667,7 +3690,7 @@ const collectPdfPhotos = async values => {
         for (const img of imgs) {
             if (!img) continue;
             try {
-                const photo = pdfWatercolorPhoto(img, photos.length ? 640 : 1400, photos.length ? 405 : 626);
+                const photo = pdfCleanPhoto(img, photos.length ? 560 : 1968, photos.length ? 300 : 820, photos.length ? 20 : 28);
                 if (photo) photos.push(photo);
             } catch { /* Falhas de leitura/conversão também permitem tentar a próxima foto. */ }
         }
@@ -3784,16 +3807,42 @@ const pdfIcon = async name => {
     }catch{return '';}
 };
 const pdfFeatureKey = text => { const t=String(text).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase(); return /piscina/.test(t)?'pool':/churrasqueira/.test(t)?'bbq':/auditorio/.test(t)?'auditorium':/escaninho/.test(t)?'storage':/copa/.test(t)?'pantry':/escritorio|sala comercial/.test(t)?'office':/mobiliad/.test(t)?'furnished':/poente/.test(t)?'sunset':/nascente/.test(t)?'sunrise':''; };
+// Ficha no visual do site: creme liso, faixa verde de topo com base curva e rodapé verde.
+const pdfSitePaper = () => {
+    const W = 1120, H = 1584, c = document.createElement('canvas'); c.width = W; c.height = H;
+    const x = c.getContext('2d');
+    x.fillStyle = '#f6f0e3'; x.fillRect(0, 0, W, H);
+    const green = (cx, cy, r) => { const g = x.createRadialGradient(cx, cy, 20, cx, cy, r); g.addColorStop(0, '#2b5440'); g.addColorStop(.45, '#224634'); g.addColorStop(1, '#1b3a2b'); return g; };
+    const top = 300;
+    x.beginPath(); x.moveTo(0, 0); x.lineTo(W, 0); x.lineTo(W, top - 30);
+    x.bezierCurveTo(W * .85, top + 6, W * .69, top - 8, W * .53, top - 26);
+    x.bezierCurveTo(W * .36, top - 44, W * .17, top - 46, 0, top - 4); x.closePath();
+    x.fillStyle = green(W * .78, 120, 640); x.fill();
+    const fy = H - 128;
+    x.beginPath(); x.moveTo(0, H); x.lineTo(0, fy + 20);
+    x.bezierCurveTo(W * .2, fy - 10, W * .45, fy - 12, W * .62, fy + 6);
+    x.bezierCurveTo(W * .78, fy + 22, W * .9, fy + 14, W, fy - 4); x.lineTo(W, H); x.closePath();
+    x.fillStyle = green(W * .2, H, 700); x.fill();
+    return c.toDataURL('image/png');
+};
+const pdfCleanPhoto = (img, w, h, r = 16) => {
+    const c = document.createElement('canvas'); c.width = w; c.height = h;
+    const x = c.getContext('2d');
+    x.beginPath(); x.moveTo(r, 0); x.arcTo(w, 0, w, h, r); x.arcTo(w, h, 0, h, r); x.arcTo(0, h, 0, 0, r); x.arcTo(0, 0, w, 0, r); x.closePath(); x.clip();
+    const s = Math.max(w / img.naturalWidth, h / img.naturalHeight), dw = img.naturalWidth * s, dh = img.naturalHeight * s;
+    x.drawImage(img, (w - dw) / 2, (h - dh) / 2, dw, dh);
+    return c.toDataURL('image/jpeg', .92);
+};
 const buildPresentationPDF = async p => {
     if(!p||document.getElementById('pdf-loading-overlay'))return;
     if(!window.jspdf||!window.html2canvas){alert('O gerador de PDF ainda não carregou. Aguarde e tente novamente.');return;}
-    showPdfOverlay('Preparando sua ficha em aquarela…');
+    showPdfOverlay('Preparando a ficha do imóvel…');
     const root=document.createElement('div');root.id='pdf-render-root';document.body.appendChild(root);
     try{
         await window.ArborEmpreendimentos?.pronto;
         const photos=await collectPdfPhotos(p.photos);
         const logo=await pdfArborLogo();
-        const logoImg=new Image();logoImg.src='assets/arbor-logo-lema-verde.png';await logoImg.decode().catch(()=>{});
+        const logoImg=new Image();logoImg.src='assets/arbor-logo-lema-creme.png';await logoImg.decode().catch(()=>{});
         const logoSrc=logoImg.naturalWidth?logoImg.src:logo;
         const e=pdfEscape;const publicField=v=>pdfPublicText(v,p).slice(0,90);
         const type=publicField(formatTipoImovelBR(p.tipo))||'Imóvel';
@@ -3806,16 +3855,15 @@ const buildPresentationPDF = async p => {
         add(p.areaPrivativa||p.areaTotal||p.area,'Área',' m²','area');add(p.beds,'Quartos','','bed');add(p.suites,'Suítes','','suite');add(p.baths||p.bathrooms||p.banheiros,'Banheiros','','bath');add(p.garage,'Vagas','','car');
         const featList=(Array.isArray(p.caracteristicas)?p.caracteristicas:[]).map(v=>publicField(v)).filter(Boolean).slice(0,10);
         const featIcons=featList.map(v=>icons[pdfFeatureKey(v)]||'');
-        const features=featList.map((v,i)=>`<span class="art-chip">${featIcons[i]?`<img src="${featIcons[i]}" alt="">`:''}${e(v.slice(0,34))}</span>`).join('');
+        const features=featList.map((v,i)=>`<span class="art-chip">${featIcons[i]?`<img src="${featIcons[i]}" alt="">`:''}<span class="art-chip-t">${e(v.slice(0,34))}</span></span>`).join('');
         const extraIcons={mob:icons.furnished,sol:icons.orientation};
         const extras=[p.condominio?['cond','Condomínio',formatBRL(p.condominio)]:null,p.iptu?['iptu','IPTU anual',formatBRL(p.iptu)]:null,(p.mobiliado&&String(p.mobiliado).trim()&&String(p.mobiliado).toLowerCase()!=='não')?['mob','Mobiliado','Sim']:null,(p.orientacaoSolar&&String(p.orientacaoSolar).trim())?['sol','Orientação',p.orientacaoSolar]:null].filter(Boolean).map(([k,l,v])=>`<div class="art-extra">${extraIcons[k]?`<img src="${extraIcons[k]}" alt="">`:''}<div><span>${l}</span><strong>${e(String(v).slice(0,24))}</strong></div></div>`).join('');
         const price=p.priceVenda&&p.priceAluguel?`${e(formatBRL(p.priceVenda))}<div class="art-fees">Aluguel ${e(formatBRL(p.priceAluguel))}/mês</div>`:e(formatPropertyPrice(p));
-        const page=document.createElement('section');page.className='art-sheet';
-        page.innerHTML=`<img class="art-paper" src="${pdfWatercolorPaper()}" alt=""><div class="art-body">
-            <header class="art-head"><img class="art-logo" src="${logoSrc}" alt="Arbor Imóveis"><div class="art-code"><div class="art-kicker">Coleção de imóveis</div>Cód. ${e(String(p.id||'').slice(0,30))}</div></header>
-            <h1>${e(title)}</h1><p class="art-location">${e(location)}</p>
+        const page=document.createElement('section');page.className='art-sheet art-v2';
+        page.innerHTML=`<img class="art-paper" src="${pdfSitePaper()}" alt=""><div class="art-body">
+            <header class="art-head"><div class="art-head-txt"><div class="art-kicker">Coleção de imóveis · Cód. ${e(String(p.id||'').slice(0,30))}</div><h1>${e(title)}</h1><p class="art-location">${e(location)}</p></div><img class="art-logo" src="${logoSrc}" alt="Arbor Imóveis"></header>
             ${photos.length?`<img class="art-hero" src="${photos[0]}" alt="Foto principal">${photos.length>1?`<div class="art-film">${photos.slice(1).map(src=>`<img src="${src}" alt="Ambiente do imóvel">`).join('')}</div>`:''}`:'<div class="art-no-photo">Fotos disponíveis com a equipe Arbor</div>'}
-            <div class="art-photo-caption">${photos.length?'Fotografias com tratamento artístico em aquarela.':''}${photos.length<Math.min(5,(Array.isArray(p.photos)?p.photos.length:0))?' Algumas fotos não puderam ser incluídas.':''}</div>
+            <div class="art-photo-caption">${photos.length<Math.min(5,(Array.isArray(p.photos)?p.photos.length:0))?' Algumas fotos não puderam ser incluídas.':''}</div>
             ${specs.length?`<div class="art-specs">${specs.join('')}</div>`:''}
             <div class="art-copy"><div class="art-finance"><div class="art-fin-main"><div class="art-kicker">${e(publicField(p.operacao)||'Valor')}</div><div class="art-price">${price}</div></div>${extras?`<div class="art-extras">${extras}</div>`:''}</div><div class="art-summary"><div class="art-kicker">Um olhar sobre o imóvel</div><p>${e(pdfSummary(p))}</p>${features?`<div class="art-features">${features}</div>`:''}</div></div>
             <footer class="art-foot"><div><span class="art-foot-tag">Uma só raiz. Um só propósito.</span><small>Valores e disponibilidade sujeitos a confirmação. Localização apresentada por bairro e cidade.</small></div><div class="art-foot-right">arborimoveis.com.br<br>(62) 98485-4468</div></footer></div>`;
@@ -3824,7 +3872,7 @@ const buildPresentationPDF = async p => {
         await Promise.all([...page.querySelectorAll('img')].map(img=>img.decode().catch(()=>{})));
         // Ajustar apenas quando o conteúdo medido exigir; nunca exportar texto cortado.
         {const cp=page.querySelector('.art-copy'),ft=page.querySelector('.art-foot'),sm=page.querySelector('.art-summary p');
-        const over=()=>cp.offsetTop+cp.offsetHeight+16>ft.offsetTop||page.querySelector('.art-body').scrollHeight>1584;
+        const over=()=>cp.offsetTop+cp.offsetHeight>1420||page.querySelector('.art-body').scrollHeight>1584;
         let fs=17;while(over()&&fs>14){fs--;sm.style.fontSize=fs+'px';}
         if(over())page.querySelectorAll('.art-film img').forEach(i=>i.style.setProperty('height','110px'));
         while(over()&&sm.textContent.length>200){const t=sm.textContent.slice(0,Math.floor(sm.textContent.length*.92));const i=Math.max(t.lastIndexOf('. '),t.lastIndexOf('! '),t.lastIndexOf('? '));sm.textContent=(i>120?t.slice(0,i+1):t.replace(/\s+\S*$/,'')+'…');}}
