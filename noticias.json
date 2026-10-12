@@ -1,6 +1,24 @@
 {
- "updated": "2026-10-12T14:05:23Z",
+ "updated": "2026-10-12T14:07:08Z",
  "items": [
+  {
+   "title": "Prefeitura de Goiânia entrega revitalização de monumentos históricos no Bosque dos Buritis",
+   "url": "https://www.goiania.go.gov.br/agora/prefeitura-de-goiania-entrega-revitalizacao-de-monumentos-historicos-no-bosque-dos-buritis",
+   "source": "Goiânia (Prefeitura)",
+   "date": "2026-10-12T13:29:35Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://www.goiania.go.gov.br/wp-content/uploads/2026/10/IMG-20261012-WA0077-scaled.jpg"
+  },
+  {
+   "title": "Ala do TSE vê “engajamento” de Nunes Marques na campanha de Flávio; entenda a polêmica",
+   "url": "https://www.jornalopcao.com.br/ultimas-noticias/ministros-do-tse-veem-engajamento-de-nunes-marques-na-campanha-de-flavio-entenda-a-polemica-878192/",
+   "source": "Jornal Opção",
+   "date": "2026-10-12T12:12:11Z",
+   "cat": "mercado",
+   "local": true,
+   "img": "https://cdn.jornalopcao.com.br/assets/2022/11/indicado-por-bolsonaro-o-ministro-kassio-nunes-marques-e-o-proximo-a-votar-sobre-o-marco-temporal.jpg"
+  },
   {
    "title": "Justiça impede demolição de imóvel ocupado há 20 anos em Aparecida de Goiânia",
    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPcVBjemowelVjQjdyTC1DaThaNllBNHBhbDZuOTVJdElKWXdQZ1F0STY3bTE2UjdNUlhENEtYWmR1Yk1WbjBvenVLWmlxcm1aLW96Z2dDeVdrZjE1b09jREFOTXNsTEhEcWVBcjF0ekFOa211ZU5XcmwzOGI5M2ZWb3BrOHdyaHRRUngyMlR4MU4yUWwtcHNWa3E5QTBvYkhSMUZmMVd4cC1sUm42MUNV?oc=5",
@@ -9,6 +27,24 @@
    "cat": "mercado",
    "local": true,
    "img": ""
+  },
+  {
+   "title": "Prefeitura de Goiânia retira barreira de concreto de cruzamento entre Av. 85 e Praça Cívica",
+   "url": "https://www.goiania.go.gov.br/agora/prefeitura-de-goiania-retira-barreira-de-concreto-de-cruzamento-entre-av-85-e-praca-civica",
+   "source": "Goiânia (Prefeitura)",
+   "date": "2026-10-11T23:47:55Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://www.goiania.go.gov.br/wp-content/uploads/2026/10/IMG-20261011-WA01041.jpg"
+  },
+  {
+   "title": "Lula pede mobilização de eleitores que não votaram no primeiro turno durante ato na Avenida Paulista",
+   "url": "https://www.jornalopcao.com.br/ultimas-noticias/lula-pede-mobilizacao-de-eleitores-que-nao-votaram-no-primeiro-turno-durante-ato-na-avenida-paulista-878140/",
+   "source": "Jornal Opção",
+   "date": "2026-10-11T19:23:40Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://cdn.jornalopcao.com.br/assets/2026/10/11192146/1791746506-qq-lula-paulista-frame-4379.webp"
   },
   {
    "title": "Semáforos substituem rotatória no Parque Amazônia, em Goiânia",
@@ -772,7 +808,8 @@
    "source": "O GLOBO",
    "date": "2026-09-30T07:00:00Z",
    "cat": "financiamento",
-   "local": false
+   "local": false,
+   "img": ""
   },
   {
    "title": "Consórcio imobiliário com menor taxa: opções com 9,5% [2026]",
@@ -1253,38 +1290,6 @@
    "date": "2026-09-22T15:07:41Z",
    "cat": "regras",
    "local": true
-  },
-  {
-   "title": "Mercado imobiliário de Goiânia movimenta R$ 4,1 bilhões, mas burocracia trava habitação popular",
-   "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNZG5IYXVpWmxoUkxLOU1GTG1DRWxYVjRJNXlDMVMxdm9nUXRTMVMwUEVMeTM3enZwdTFUQTZEemxTTjVSSlJUSGhBVUs1dkRWcDFpT0dsWm5pcHd6WG9iVUZpUFJwSDBQbmdHV085YUJhWGcxOXNzS2ZkOFFMNmdtZHI1XzI1dkI5OWNkeEItM1JEZXRfTjVDRVkyZXJYdkhPZnJkWk1scExFYmVtc2hBcXlDSmFwUlN6cXAzVEFzVW96TE41TWJWdzlXVmp5NzhCYW1mVkU4RXhYRk9EUDAwVkgxWGJ6a2hObENyM2l4S0lUVFZhaUZFSmtjRmJsWG1RTE94UnlmNFkxQlU?oc=5",
-   "source": "Jornal Opção",
-   "date": "2026-09-22T07:00:00Z",
-   "cat": "mercado",
-   "local": true
-  },
-  {
-   "title": "Apartamentos lideram valorização em Goiânia, enquanto excesso de oferta pressiona preços dos lotes",
-   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPeDBIWGJLS0ZGR2JWUXVqQnJOZWFfNTd0ZVJNT2dmZzZldWNVRHBKQXFIN3YxeXlQTjh5RGpRUUN5blR3ckpwVVY5Z2gtVUtfSmc1RlJ6TTVqUE9WT09kR2RhS05kZzI4empNclg4dkZROWV0aFN2TWF4azdZUWJpQ3RiZUI3MjBhWTFvUUp0c3VSbmptelprQlVsN2JSQ2pycVF4MU9DZmtMRmpOVVBISVl4elhqakhxMDZmbGJWZ1Vtdw?oc=5",
-   "source": "Jornal Opção",
-   "date": "2026-09-22T07:00:00Z",
-   "cat": "mercado",
-   "local": true
-  },
-  {
-   "title": "Greve da Caixa: Financiamento imobiliário e direitos do consumidor",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQLUlKbjhfTmpmalRrblotSmd3QkNaOU9VSl9KblRtYTBFeS1Xcnp0dEp5T2hyNEhUVzFLNzRWX0FnZGczRG8yd0Nsc0lweGRiQjJyOFNGdjl4ZElUdURqdWZodzM4eHd0U2FmcXViTHFMRjZtcDlJOUhSWEV1RGdiMVZTYzUyWmlCZmFWR1JVaw?oc=5",
-   "source": "ISTOÉ DINHEIRO",
-   "date": "2026-09-22T07:00:00Z",
-   "cat": "financiamento",
-   "local": false
-  },
-  {
-   "title": "Greve da Caixa é mantida e trava financiamento da casa própria: o que fazer?",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPRElJaGhybEdVSnJtdGd4bHFnSkxKcllYVm4wS2NjQ0U5c2VzN2xPU0RWTHFqTXVnQjBSakNYczZpXzlJS2hTbzN6TmJoaFY1MUc5ZHRTQmVNN2prRjd6UmlNSHlRd2RqdDRjQ1BfcVJxN0xlYi1GSThFUmdYQUZLNzZ4RWVCbld6dklaZmNHNEt2YmVscWo5dTlnc3VUc21vMG1qeGQzVWk1MFlqMkpWYTFfVQ?oc=5",
-   "source": "Exame",
-   "date": "2026-09-22T07:00:00Z",
-   "cat": "financiamento",
-   "local": false
   }
  ]
 }
