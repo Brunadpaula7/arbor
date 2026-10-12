@@ -2803,6 +2803,10 @@ const parseFeedXML = (xmlText) => {
     }
 
     const listings = [...doc.querySelectorAll('Listing')];
+    // PublishDate do feed: é a referência da rotação diária das fotos. A ficha PDF a
+    // envia ao backend para receber as fotos na mesma ordem que esta página exibe.
+    const publishDate = (doc.querySelector('Header > PublishDate')?.textContent || '').trim();
+    state.feedPublishDate = /^\d{4}-\d{2}-\d{2}T[\d:.]+Z$/.test(publishDate) ? publishDate : '';
     if (listings.length) return parseVRSyncNodes(listings);
 
     const imoveis = [...doc.querySelectorAll('Imovel')];
@@ -3710,11 +3714,12 @@ const preloadPdfImage = async (url, deadline = Date.now() + 30000) => {
     return img;
 };
 // Fotos pelo backend da Arbor: só código do imóvel publicado + posição da foto (na ordem
-// do feed), com CORS liberado para o canvas do PDF. Se o backend não tiver a rota ou
+// do feed que esta página exibiu, identificada pelo PublishDate), com CORS liberado para o canvas do PDF. Se o backend não tiver a rota ou
 // recusar, a ficha tenta o link original da foto.
 const pdfBackendPhotoUrl = (codigo, posicao) => {
     if (!ARBOR_DATA_URL || !/^AR-\d{1,6}$/i.test(String(codigo || '')) || posicao > 99) return '';
-    return `${new URL(ARBOR_DATA_URL).origin}/api/site/foto/${encodeURIComponent(String(codigo).toUpperCase())}/${posicao}`;
+    const ref = state.feedPublishDate ? `?ref=${encodeURIComponent(state.feedPublishDate)}` : '';
+    return `${new URL(ARBOR_DATA_URL).origin}/api/site/foto/${encodeURIComponent(String(codigo).toUpperCase())}/${posicao}${ref}`;
 };
 const loadPdfPhoto = async ({ url, posicao }, codigo, deadline) => {
     const viaBackend = pdfBackendPhotoUrl(codigo, posicao);
