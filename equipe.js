@@ -65,12 +65,12 @@
     function limpar() {
         selecionado = null;
         atualizarFaixa();
-        if (location.hash.startsWith('#equipe=')) history.replaceState(null, '', '#busca-completa');
+        if (location.hash.startsWith('#equipe=')) history.replaceState(null, '', '#imoveis');
     }
     function rotear(hash) {
         if (hash === '#equipe') { limpar(); applyFilters(); showView('equipe-view'); window.scrollTo(0, 0); return true; }
         if (!hash.startsWith('#equipe=')) return false;
-        showView('list-view');
+        showView('catalogo-view');
         if (!carregou) { el('equipe-status').textContent = 'Carregando equipe…'; return true; }
         let id;
         try { id = decodeURIComponent(hash.slice(8)); } catch { id = ''; }
@@ -82,7 +82,7 @@
         selecionado = membro;
         atualizarFaixa();
         applyFilters();
-        requestAnimationFrame(() => el('busca-completa').scrollIntoView({ behavior: 'smooth', block: 'start' }));
+        requestAnimationFrame(() => el('catalogo-resultados').scrollIntoView({ behavior: 'smooth', block: 'start' }));
         return true;
     }
     async function carregar() {

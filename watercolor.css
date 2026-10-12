@@ -330,3 +330,7 @@ body::before{display:none!important}
 .jn-lead{background-image:none!important;background-color:#204030!important}
 .section-sobre .blob,.section-sobre .sobre-visual{background:none!important;box-shadow:none!important;border:0!important}
 .section-sobre .blob::before,.section-sobre .blob::after,.section-sobre .sobre-visual::before,.section-sobre .sobre-visual::after{display:none!important}
+.page-view>.sec-head:not(.jn-block-head),.diferenciais-page-intro,.page-view>.jn-head,#equipe-view .sec-head{box-sizing:border-box!important}
+
+.page-view>.sec-head:not(.jn-block-head),.diferenciais-page-intro,.page-view>.jn-head,#equipe-view .sec-head{box-shadow:none!important}
+.page-view>.sec-head::after,.diferenciais-page-intro::after,.page-view>.jn-head::after,#equipe-view .sec-head::after{width:min(30%,260px)!important;bottom:-14%!important}
