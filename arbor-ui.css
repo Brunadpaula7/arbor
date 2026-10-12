@@ -288,3 +288,34 @@ body.filtros-open #scroll-tree{display:none!important}
 #catalogo-view>.sec-head::after{background-image:url("assets/ilustracoes/catalogo-claro.svg")!important;aspect-ratio:300/200!important;width:min(26vw,300px)!important;opacity:1!important;filter:none!important;bottom:70px!important}
 .ui-catalogo--resp .ui-perfil-card::after{background-image:url("assets/ilustracoes/responsavel-claro.svg")!important;aspect-ratio:300/200!important;width:min(24vw,280px)!important;opacity:1!important;bottom:62px!important}
 @media(max-width:700px){#catalogo-view>.sec-head::after{display:block!important;position:relative!important;right:auto!important;bottom:auto!important;width:min(70%,260px)!important;margin:18px auto 0}.ui-catalogo--resp .ui-perfil-card::after{display:none!important}}
+
+/* ===== Journal: cartões claros com imagem (foto da matéria ou ilustração da categoria) ===== */
+#noticias-view .jn-lead,#noticias-view .jn-lead.has-img{display:flex!important;flex-direction:column;min-height:0!important;padding:0!important;background:var(--ui-papel)!important;border:1px solid var(--ui-linha)!important;border-radius:14px!important;overflow:hidden;color:var(--ui-verde)!important;box-shadow:none!important}
+#noticias-view .jn-lead::before,#noticias-view .jn-lead::after{display:none!important}
+#noticias-view .jn-lead .jn-lead-ico{display:none!important}
+#noticias-view .jn-lead>.jn-img{display:block!important;position:relative!important;inset:auto!important;width:100%;aspect-ratio:16/9;height:auto!important;margin:0!important;background:#efe7d6;border-radius:0!important;opacity:1!important}
+#noticias-view .jn-lead>.jn-img img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:1!important;filter:none!important}
+#noticias-view .jn-img.is-ilus{background:#f3ecdd!important}
+#noticias-view .jn-img.is-ilus img.jn-ilus{object-fit:contain!important;padding:4% 8%;box-sizing:border-box}
+#noticias-view .jn-lead>.jn-tags,#noticias-view .jn-lead>h3,#noticias-view .jn-lead>.jn-foot{position:relative!important;padding:0 26px;margin:0}
+#noticias-view .jn-lead>.jn-tags{padding-top:22px}
+#noticias-view .jn-lead>h3{color:var(--ui-verde)!important;font-size:clamp(1.4rem,2.6vw,2rem)!important;font-weight:400!important;line-height:1.25!important;margin:12px 0 14px!important}
+#noticias-view .jn-lead>.jn-foot{padding-bottom:24px;color:var(--ui-suave)!important}
+#noticias-view .jn-lead .jn-tags *,#noticias-view .jn-lead .jn-foot *{color:inherit}
+#noticias-view .jn-lead .jn-tags{color:var(--ui-suave)!important}
+/* cartões da lista */
+#noticias-view .jn-card{display:flex!important;flex-direction:column;padding:0!important;overflow:hidden;border-radius:12px!important;background:var(--ui-papel)!important;border:1px solid var(--ui-linha)!important;border-top:1px solid var(--ui-linha)!important}
+#noticias-view .jn-card>.jn-img{display:block!important;order:-1;position:relative;width:100%;aspect-ratio:16/9;height:auto!important;margin:0!important;border-radius:0!important;background:#f3ecdd}
+#noticias-view .jn-card>.jn-img img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+#noticias-view .jn-card>*:not(.jn-img){padding-left:20px;padding-right:20px}
+#noticias-view .jn-card>.jn-tags{padding-top:16px}
+#noticias-view .jn-card>:last-child{padding-bottom:18px}
+#noticias-view .jn-row>.jn-img{display:none!important}
+#noticias-view .jn-row{display:block!important;grid-template-columns:none!important}
+
+[data-cat="cidade"]{--cat:#2c5440;--cat-wash:44,84,64}
+#noticias-view .jn-cidade-head h3::before{content:"";display:inline-block;width:10px;height:10px;margin-right:10px;border-radius:50%;background:var(--ui-terracota);vertical-align:middle}
+#noticias-view .jn-cidade-ver{background:none;border:0;padding:6px 0;font:500 .86rem 'Jost',sans-serif;color:var(--ui-terracota);border-bottom:1px solid var(--ui-areia);cursor:pointer}
+#noticias-view .jn-feed.jn-cidade{grid-template-columns:repeat(4,minmax(0,1fr))}
+@media(max-width:1000px){#noticias-view .jn-feed.jn-cidade{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:700px){#noticias-view .jn-feed.jn-cidade{grid-template-columns:minmax(0,1fr)}}
