@@ -3413,8 +3413,13 @@ const jnImg = (it) => {
         box.appendChild(im);
         return { box, has:true };
     }
-    box.classList.add('is-empty');
-    return { box, has:false };
+    // Sem foto da matéria: ilustração em traço da categoria.
+    const cat = ['mercado','financiamento','regras','lancamentos'].includes(it.cat) ? it.cat : 'mercado';
+    const il = document.createElement('img');
+    il.src = `assets/ilustracoes/jn-${cat}.svg`; il.alt = ''; il.loading = 'lazy'; il.className = 'jn-ilus';
+    box.classList.add('is-ilus');
+    box.appendChild(il);
+    return { box, has:true };
 };
 
 const jnLink = (it, cls) => {
