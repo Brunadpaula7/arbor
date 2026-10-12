@@ -275,12 +275,14 @@
         .d-card{ position:relative; display:block; border-radius:22px; overflow:hidden; aspect-ratio:4/5; background:var(--areia-soft); opacity:1; transition:opacity 1.7s cubic-bezier(.4,0,.2,1); will-change:opacity; }
         /* Efeito de vídeo: zoom lento (Ken Burns) e dissolver nas fotos */
         .d-card > img{ position:absolute; inset:0; width:100%; height:100%; object-fit:cover; }
-        .d-card img.kb, .u-card-img img.kb{ animation:kbZoom 18s ease-in-out infinite alternate; transform-origin:55% 45%; }
-        .d-card img.ph-in{ opacity:0; transition:opacity 1.8s ease; }
-        .d-card img.ph-in.is-on{ opacity:1; }
+        .d-card img.kb, .u-card-img img.kb, .p-card-img img.kb{ animation:kbZoom 18s ease-in-out infinite alternate; transform-origin:55% 45%; }
+        .d-card img.ph-in,.p-card-img img.ph-in,.u-card-img img.ph-in{ opacity:0; transition:opacity 1.8s ease; }
+        .p-card-img img.ph-in,.u-card-img img.ph-in{ position:absolute; inset:0; width:100%; height:100%; object-fit:cover; }
+        .d-card img.ph-in.is-on,.p-card-img img.ph-in.is-on,.u-card-img img.ph-in.is-on{ opacity:1; }
+        .p-card-img{ overflow:hidden; }
         @keyframes kbZoom{ from{ transform:scale(1.02); } to{ transform:scale(1.14); } }
         .ultimos-scroll{ scroll-behavior:smooth; }
-        @media (prefers-reduced-motion: reduce){ .d-card img.kb,.u-card-img img.kb{ animation:none } }
+        @media (prefers-reduced-motion: reduce){ .d-card img.kb,.u-card-img img.kb,.p-card-img img.kb{ animation:none } }
         .d-card.is-entering{ z-index:2; opacity:0; pointer-events:none; }
         .d-card.is-leaving{ z-index:1; opacity:0; pointer-events:none; }
         .d-card img{ width:100%; height:100%; object-fit:cover; transition:transform 1s var(--ease); }
@@ -1760,7 +1762,7 @@
             <span class="hero-eyebrow">Arbor Imóveis</span>
             <h1>Casas contam histórias.<br><em>Algumas mudam destinos.</em></h1>
             <p class="hero-intro">Tudo começa com uma sensação.</p>
-            <div class="hero-body"><p>Imóveis em Goiânia e região, com atenção à localização, à sua rotina e ao que você quer construir.</p></div>
+            <div class="hero-body"><p>Imóveis selecionados em Goiânia e região.</p></div>
             <div class="hero-actions">
                 <a href="#imoveis" class="btn btn-fill" id="hero-explore-btn">Ver imóveis <i data-lucide="arrow-down-right" style="width:16px"></i></a>
                 <a href="#essencia" class="btn btn-line" id="hero-anunciar-btn">Conheça a Arbor</a>
@@ -1898,19 +1900,6 @@
         </div>
     </section>
 
-    <section id="equipe" class="equipe-section" data-arbor-equipe hidden>
-        <div class="wrap">
-            <div class="sec-head">
-                <span class="eyebrow">Nossa equipe</span>
-                <h2>Pessoas que cuidam <em>de cada decisão.</em></h2>
-                <p>Conheça quem faz parte da Arbor e explore os imóveis acompanhados pela nossa equipe.</p>
-            </div>
-            <p id="equipe-status" role="status" aria-live="polite">Carregando equipe…</p>
-            <button id="equipe-retry" type="button" class="btn btn-line" hidden>Tentar novamente</button>
-            <div id="equipe-comercial-bloco" class="equipe-bloco" hidden><div id="equipe-comercial" class="equipe-grid"></div></div>
-            <div id="equipe-administrativo-bloco" class="equipe-bloco" hidden><h3>Time administrativo</h3><div id="equipe-administrativo" class="equipe-grid"></div></div>
-        </div>
-    </section>
 
     <section class="section-sobre" id="essencia">
         <div class="wrap sobre-grid">
@@ -1980,6 +1969,22 @@
 </main>
 
 <section id="detail-view" class="view-hidden"></section>
+
+<section id="equipe-view" class="view-hidden page-view">
+    <section id="equipe" class="equipe-section" data-arbor-equipe hidden>
+        <div class="wrap">
+            <div class="sec-head">
+                <span class="eyebrow">Nossa equipe</span>
+                <h2>Pessoas que cuidam <em>de cada decisão.</em></h2>
+                <p>Conheça quem faz parte da Arbor e explore os imóveis acompanhados pela nossa equipe.</p>
+            </div>
+            <p id="equipe-status" role="status" aria-live="polite">Carregando equipe…</p>
+            <button id="equipe-retry" type="button" class="btn btn-line" hidden>Tentar novamente</button>
+            <div id="equipe-comercial-bloco" class="equipe-bloco" hidden><div id="equipe-comercial" class="equipe-grid"></div></div>
+            <div id="equipe-administrativo-bloco" class="equipe-bloco" hidden><h3>Time administrativo</h3><div id="equipe-administrativo" class="equipe-grid"></div></div>
+        </div>
+    </section>
+</section>
 
 <section id="diferenciais-view" class="view-hidden page-view">
     <button class="back-btn" id="diferenciais-back-btn"><i data-lucide="arrow-left" style="width:14px"></i> Voltar à Home</button>
@@ -3364,7 +3369,7 @@ const renderUltimos = () => {
         .sort((a, b) => getPropertyCodeNumber(b) - getPropertyCodeNumber(a))
         .slice(0, 6);
     el.innerHTML = items.map(p => `
-        <a href="#id=${encodeURIComponent(p.id)}" class="u-card">
+        <a href="#id=${encodeURIComponent(p.id)}" class="u-card" data-pid="${encodeURIComponent(p.id)}">
             <div class="u-card-img"><img class="kb" src="${p.photos[0]}" loading="lazy" alt="${getPropertyDisplayName(p)}">${renderPhotoWatermark('small')}</div>
             <div class="u-card-body">
                 <span class="u-card-new">Novo · ${getCardLocationLabel(p)}</span>
@@ -3376,6 +3381,7 @@ const renderUltimos = () => {
         </a>
     `).join('');
     startUltimosAutoplay(el);
+    startCardPhotoVideo();
 };
 
 /* Efeito de vídeo: carrossel dos novos imóveis gira sozinho; fotos dos cartões trocam em dissolver lento. */
@@ -3396,31 +3402,43 @@ const startUltimosAutoplay = el => {
     }, 4500);
 };
 const startCardPhotoVideo = () => {
-    clearInterval(window._cardPhotoTimer);
-    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
-    const tick = () => {
-        if (document.hidden) return;
-        document.querySelectorAll('.d-card[data-pid]:not(.is-leaving):not(.is-entering)').forEach((card, i) => {
-            const p = state.all.find(x => encodeURIComponent(x.id) === card.dataset.pid);
-            if (!p || !p.photos || p.photos.length < 2) return;
-            setTimeout(() => {
-                const cur = card.querySelectorAll('img.kb');
-                const last = cur[cur.length - 1];
-                const nextIdx = ((+card.dataset.ph || 0) + 1) % p.photos.length;
-                const im = new Image();
-                im.onload = () => {
-                    if (!card.isConnected) return;
-                    card.dataset.ph = nextIdx;
-                    im.className = 'kb ph-in'; im.alt = last ? last.alt : ''; im.decoding = 'async';
-                    last ? last.after(im) : card.prepend(im);
-                    requestAnimationFrame(() => requestAnimationFrame(() => im.classList.add('is-on')));
-                    setTimeout(() => card.querySelectorAll('img.kb').forEach(x => { if (x !== im) x.remove(); }), 2000);
-                };
-                im.src = p.photos[nextIdx];
-            }, i * 1500);
-        });
+    const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    window._cardTimers = window._cardTimers || new Map();
+    if (window._cardIO) window._cardIO.disconnect();
+    window._cardTimers.forEach(t => clearTimeout(t)); window._cardTimers.clear();
+    if (reduced || !('IntersectionObserver' in window)) return;
+    const box = card => card.matches('.d-card') ? card : card.querySelector('.p-card-img,.u-card-img');
+    const swap = card => {
+        const wrap = box(card);
+        const p = state.all.find(x => encodeURIComponent(x.id) === card.dataset.pid);
+        if (!wrap || !p || !p.photos || p.photos.length < 2) return;
+        const cur = wrap.querySelectorAll('img.kb');
+        const last = cur[cur.length - 1];
+        const nextIdx = ((+card.dataset.ph || 0) + 1) % p.photos.length;
+        const im = new Image();
+        im.onload = () => {
+            if (!card.isConnected) return;
+            card.dataset.ph = nextIdx;
+            im.className = 'kb ph-in'; im.alt = last ? last.alt : ''; im.decoding = 'async';
+            last ? last.after(im) : wrap.prepend(im);
+            requestAnimationFrame(() => requestAnimationFrame(() => im.classList.add('is-on')));
+            setTimeout(() => wrap.querySelectorAll('img.kb').forEach(x => { if (x !== im) x.remove(); }), 2200);
+        };
+        im.src = p.photos[nextIdx];
     };
-    window._cardPhotoTimer = setInterval(tick, 8000);
+    const loop = card => {
+        window._cardTimers.set(card, setTimeout(() => {
+            if (!card.isConnected) return;
+            if (!document.hidden && !card.classList.contains('is-leaving') && !card.classList.contains('is-entering')) swap(card);
+            loop(card);
+        }, 6500 + Math.random() * 3000));
+    };
+    window._cardIO = new IntersectionObserver(entries => entries.forEach(en => {
+        const card = en.target;
+        if (en.isIntersecting) { if (!window._cardTimers.has(card)) window._cardTimers.set(card, setTimeout(() => loop(card), 800 + Math.random() * 3500)); }
+        else { clearTimeout(window._cardTimers.get(card)); window._cardTimers.delete(card); }
+    }), { rootMargin: '80px' });
+    document.querySelectorAll('.d-card[data-pid], .p-card[data-pid], .u-card[data-pid]').forEach(c => window._cardIO.observe(c));
 };
 
 const renderGrid = () => {
@@ -3429,9 +3447,9 @@ const renderGrid = () => {
         ? `<div class="system-msg" role="status"><strong>O portfólio está temporariamente indisponível.</strong><p>Tente novamente ou converse com a equipe para consultar os imóveis.</p><button class="btn btn-line" type="button" onclick="location.reload()">Tentar novamente</button> <a class="btn btn-fill" href="https://wa.me/5562984854468" target="_blank" rel="noopener">Falar com a Arbor</a></div>`
         : `<div class="system-msg" role="status">${state.all.length ? 'Nenhum imóvel encontrado com esses filtros.' : 'Nenhum imóvel disponível no portfólio neste momento.'}</div>`; $('load-more-container').classList.add('view-hidden'); return; }
     grid.innerHTML = state.filtered.slice(0, state.visibleCount).map(p => `
-        <a href="#id=${encodeURIComponent(p.id)}" class="p-card">
+        <a href="#id=${encodeURIComponent(p.id)}" class="p-card" data-pid="${encodeURIComponent(p.id)}">
             <div class="p-card-img">
-                <img src="${p.photos[0]}" loading="lazy" alt="${getPropertyDisplayName(p)}">
+                <img class="kb" src="${p.photos[0]}" loading="lazy" alt="${getPropertyDisplayName(p)}">
                 ${renderPhotoWatermark('small')}
                 ${p.operacao && p.operacao !== 'Venda' ? `<span class="p-card-op-badge">${p.operacao}</span>` : ''}
             </div>
@@ -3449,6 +3467,7 @@ const renderGrid = () => {
     `).join('');
     $('load-more-container').classList.toggle('view-hidden', state.visibleCount >= state.filtered.length);
     if (window.lucide) lucide.createIcons();
+    startCardPhotoVideo();
 };
 
 /* ---------- Journal: notícias diárias (lê noticias.json, atualizado pelo GitHub Actions) ---------- */
@@ -3667,7 +3686,7 @@ document.addEventListener('click', (e) => {
 
 $('jn-search').addEventListener('input', e => { jn.search=e.target.value; jn.visible=9; if(jn.loaded) renderJournal(); });
 
-const ALL_VIEWS = ['list-view', 'detail-view', 'bairros-view', 'jornada-view', 'diferenciais-view', 'noticias-view'];
+const ALL_VIEWS = ['list-view', 'detail-view', 'bairros-view', 'jornada-view', 'diferenciais-view', 'noticias-view','equipe-view'];
 const showView = (id) => {
     ALL_VIEWS.forEach(v => $(v).classList.toggle('view-hidden', v !== id));
     $(id).querySelectorAll('.reveal').forEach(el => el.classList.add('is-visible'));
@@ -4316,7 +4335,7 @@ window.ArborAtualizarEmpreendimentos = () => {
 
 window.addEventListener('DOMContentLoaded', init);
 </script>
-<script src="equipe.js?v=resumos-20261011"></script>
+<script src="equipe.js?v=aba-20261012"></script>
 <script src="empreendimentos.js?v=20261011"></script>
 <script src="journal-services.js"></script>
 </body>

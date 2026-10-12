@@ -68,14 +68,14 @@
         if (location.hash.startsWith('#equipe=')) history.replaceState(null, '', '#busca-completa');
     }
     function rotear(hash) {
-        if (hash === '#equipe') { limpar(); applyFilters(); showView('list-view'); requestAnimationFrame(() => el('equipe').scrollIntoView({ behavior: 'smooth' })); return true; }
+        if (hash === '#equipe') { limpar(); applyFilters(); showView('equipe-view'); window.scrollTo(0, 0); return true; }
         if (!hash.startsWith('#equipe=')) return false;
         showView('list-view');
-        if (!carregou) { el('equipe-status').textContent = 'Carregando equipe…'; requestAnimationFrame(() => el('equipe').scrollIntoView({ behavior: 'smooth' })); return true; }
+        if (!carregou) { el('equipe-status').textContent = 'Carregando equipe…'; return true; }
         let id;
         try { id = decodeURIComponent(hash.slice(8)); } catch { id = ''; }
         const membro = membros.find(m => m.id === id);
-        if (!membro) { limpar(); applyFilters(); goHome('equipe'); return true; }
+        if (!membro) { limpar(); applyFilters(); goHome(); return true; }
         // Começar a carteira sem filtros antigos evita ocultar imóveis do corretor.
         el('btn-reset').click();
         history.replaceState(null, '', hash);

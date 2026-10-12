@@ -4,7 +4,6 @@
 body{background:var(--papel);position:relative}
 /* manchas fixas no fundo, como lavis de aquarela no papel */
 body::before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;background:
- url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='260' height='260'><filter id='p'><feTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='3' seed='2'/><feColorMatrix type='matrix' values='0 0 0 0 .45  0 0 0 0 .38  0 0 0 0 .28  0 0 0 .38 -.1'/></filter><rect width='100%' height='100%' filter='url(%23p)'/></svg>"),
  radial-gradient(ellipse 46% 38% at 92% 6%,rgba(var(--tinta-verde),.20),transparent 70%),
  radial-gradient(ellipse 40% 30% at 4% 4%,rgba(var(--tinta-azul),.22),transparent 70%),
  radial-gradient(ellipse 34% 40% at -4% 58%,rgba(var(--tinta-ocre),.22),transparent 70%),
@@ -245,3 +244,14 @@ svg.jn-lead-ico{position:absolute;right:30px;top:34px;width:92px;height:92px;col
 .wa-float svg{width:26px;height:26px;flex:none}
 @media (max-width:900px){.wa-float{bottom:86px}.wa-float span{display:none}.wa-float{padding:13px}}
 @media print{.wa-float,.resp-card>a{display:none!important}}
+
+/* Início em verde Arbor, sem granulado */
+.hero{background:linear-gradient(135deg,#183326 0%,#204030 55%,#2c5440 100%);color:#f1eadb;box-shadow:0 0 0 100vmax #204030;clip-path:inset(0 -100vmax);position:relative;isolation:isolate}
+.hero::before,.hero::after{display:none!important}
+.hero-eyebrow{color:#d9b27c}.hero-eyebrow::before{background:#d9b27c}
+.hero-copy h1{color:#f6f0e3}
+.hero-copy h1 em{color:#d9a679;font-weight:500}
+.hero-copy .hero-body p{color:rgba(246,240,227,.86)}
+.hero .hero-actions .btn-fill{background:#f6f0e3;color:#204030;border-color:#f6f0e3}
+.hero .hero-actions .btn-line{color:#f6f0e3;border-color:rgba(246,240,227,.55)}
+.hero-property{background:#f6f0e3;box-shadow:0 30px 60px -30px rgba(0,0,0,.5)}
