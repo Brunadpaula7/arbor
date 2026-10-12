@@ -383,7 +383,10 @@ def main():
             pass
     cutoff = (now - timedelta(days=KEEP_DAYS)).strftime("%Y-%m-%dT%H:%M:%SZ")
     final = sorted((i for i in items.values() if i["date"] >= cutoff), key=lambda i: i["date"], reverse=True)[:MAX_ITEMS]
-    pending = [i for i in final if "img" not in i or (not i["img"] and "news.google.com" not in i["url"] and not i.get("img_tried"))][:IMG_PER_RUN]
+    # novas primeiro; links do Google ainda não resolvidos voltam a ser tentados a cada execução
+    novas = [i for i in final if "img" not in i]
+    antigas = [i for i in final if "img" in i and not i["img"] and ("news.google.com" in i["url"] or not i.get("img_tried"))]
+    pending = (novas + antigas)[:IMG_PER_RUN]
     for i in pending:
         if "news.google.com" not in i["url"]:
             i["img_tried"] = True
