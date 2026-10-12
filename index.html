@@ -1725,6 +1725,7 @@
     <link rel="stylesheet" href="equipe.css?v=redondas-20261011">
     <link rel="stylesheet" href="site.css">
     <link rel="stylesheet" href="watercolor.css">
+    <link rel="stylesheet" href="arbor-ui.css?v=1">
 </head>
 <body>
 <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs><filter id="wc-soft" x="-30%" y="-30%" width="160%" height="160%"><feTurbulence type="fractalNoise" baseFrequency="0.008 0.011" numOctaves="3" seed="11" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="70" xChannelSelector="R" yChannelSelector="G" result="d"/><feGaussianBlur in="d" stdDeviation="9"/></filter><filter id="wc-edge" x="-5%" y="-100%" width="110%" height="300%"><feTurbulence type="fractalNoise" baseFrequency="0.012 0.09" numOctaves="3" seed="4" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="34" xChannelSelector="R" yChannelSelector="G"/></filter></defs></svg>
@@ -1737,7 +1738,7 @@
         <li><a href="#jornada" id="nav-jornada-btn">Jornada</a></li>
         <li><a href="#diferenciais" id="nav-diferenciais-btn">Diferenciais</a></li>
         <li><a href="#noticias" id="nav-noticias-btn">Journal</a></li>
-        <li><a href="#essencia" id="nav-sobre-btn">Sobre</a></li>
+        <li><a href="#sobre" id="nav-sobre-btn">Sobre</a></li>
         <li data-arbor-equipe hidden><a href="#equipe" id="nav-equipe-btn">Equipe</a></li>
         <li><a href="#consultoria" id="nav-consultoria-btn" class="btn btn-line">Anunciar meu imóvel</a></li>
     </ul>
@@ -1750,7 +1751,7 @@
     <a href="#jornada" class="mm-link">Jornada</a>
     <a href="#diferenciais" class="mm-link">Diferenciais</a>
     <a href="#noticias" class="mm-link">Journal</a>
-    <a href="#essencia" class="mm-link">Sobre</a>
+    <a href="#sobre" class="mm-link">Sobre</a>
     <a href="#equipe" class="mm-link" data-arbor-equipe hidden>Equipe</a>
     <a href="https://wa.me/5562984854468" target="_blank" rel="noopener noreferrer" class="btn btn-fill">Falar com a Arbor</a>
 </div>
@@ -1765,172 +1766,78 @@
             <div class="hero-body"><p>Imóveis selecionados em Goiânia e região.</p></div>
             <div class="hero-actions">
                 <a href="#imoveis" class="btn btn-fill" id="hero-explore-btn">Ver imóveis <i data-lucide="arrow-down-right" style="width:16px"></i></a>
-                <a href="#essencia" class="btn btn-line" id="hero-anunciar-btn">Conheça a Arbor</a>
+                <a href="#sobre" class="btn btn-line" id="hero-anunciar-btn">Conheça a Arbor</a>
             </div>
         </div>
-        <svg class="hero-roots" viewBox="0 0 1440 260" preserveAspectRatio="none" aria-hidden="true">
-            <g fill="none" stroke="#bc9570" stroke-linecap="round">
-                <path d="M1010 0 C990 60 930 90 820 110 S560 120 380 160 S120 230 -20 250" stroke-width="1.6" opacity=".55"/>
-                <path d="M1030 0 C1030 70 1000 110 930 150 S780 200 640 215 S300 250 120 262" stroke-width="1.2" opacity=".4"/>
-                <path d="M1050 0 C1070 60 1120 100 1210 130 S1380 170 1470 200" stroke-width="1.6" opacity=".55"/>
-                <path d="M1020 0 C1000 80 1040 140 1010 220 S980 250 960 262" stroke-width="1.2" opacity=".4"/>
-                <path d="M900 120 C860 150 760 150 700 185" stroke-width="1" opacity=".35"/>
-                <path d="M1150 125 C1200 160 1290 160 1350 215" stroke-width="1" opacity=".35"/>
-            </g>
-        </svg>
         <div class="hero-visual reveal">
             <a id="hero-property" class="hero-property is-brand" href="#imoveis" aria-label="Explorar os imóveis da Arbor"><img id="hero-property-img" src="assets/arbor-arvore-creme.png" alt="Árvore da Arbor: uma só raiz" fetchpriority="high"><span id="hero-property-caption" class="hero-caption"></span></a>
+        
         </div>
     </section>
+
+    <section id="selecao" class="ui-section ui-selecao" aria-labelledby="selecao-titulo">
+        <div class="ui-wrap">
+            <header class="ui-head">
+                <div>
+                    <span class="ui-eyebrow">Seleção Arbor</span>
+                    <h2 id="selecao-titulo">Imóveis para conhecer de perto</h2>
+                    <p>Uma seleção dos imóveis acompanhados pela nossa equipe.</p>
+                </div>
+                <a class="ui-link" href="#imoveis">Ver todos os imóveis <span aria-hidden="true">→</span></a>
+            </header>
+            <form id="quick-search" class="ui-search ui-search--quick" role="search">
+                <div class="ui-search-field"><i data-lucide="search" aria-hidden="true"></i><input type="search" id="quick-search-input" placeholder="Bairro, empreendimento ou código" aria-label="Buscar imóveis" autocomplete="off"></div>
+                <button type="submit" class="ui-btn ui-btn-primary">Buscar</button>
+            </form>
+            <div id="selecao-grid" class="ui-cards ui-cards--strip" aria-live="polite"><div class="system-msg">Carregando imóveis…</div></div>
+            <div class="ui-more"><a class="ui-btn ui-btn-outline" href="#imoveis">Ver todos os imóveis</a></div>
+        </div>
+    </section>
+
+
+    <section class="ui-section ui-ajuda" id="consultoria" aria-labelledby="ajuda-titulo">
+        <div class="ui-wrap">
+            <header class="ui-head ui-head--center">
+                <div>
+                    <span class="ui-eyebrow">Como podemos ajudar</span>
+                    <h2 id="ajuda-titulo">Cada momento pede <em>uma decisão diferente.</em></h2>
+                </div>
+            </header>
+            <div class="ui-ajuda-grid">
+            <article class="ui-ajuda-card">
+                <img class="ui-ajuda-img" src="assets/ilustracoes/comprar.svg" alt="" loading="lazy" width="260" height="196">
+                <span class="ui-eyebrow">Comprar</span>
+                <h3>Quero comprar</h3>
+                <p>Encontramos oportunidades compatíveis com seu patrimônio, momento e objetivos.</p>
+                <div class="ui-ajuda-acoes"><a class="fazemos-action" href="https://wa.me/5562984854468?text=Ol%C3%A1%2C%20equipe%20Arbor.%20Quero%20receber%20atendimento%20para%20comprar%20um%20im%C3%B3vel." target="_blank" rel="noopener"><i data-lucide="message-circle"></i> WhatsApp</a>
+                            <a class="fazemos-action" href="mailto:contato@arborimoveis.com.br?subject=Quero%20comprar%20um%20im%C3%B3vel%20%E2%80%94%20Site%20Arbor&amp;body=Ol%C3%A1%2C%20equipe%20Arbor.%0A%0AQuero%20receber%20atendimento%20para%20comprar%20um%20im%C3%B3vel.%0A%0ANome%3A%0ATelefone%3A"><i data-lucide="mail"></i> E-mail</a></div>
+            </article>
+            <article class="ui-ajuda-card">
+                <img class="ui-ajuda-img" src="assets/ilustracoes/vender.svg" alt="" loading="lazy" width="260" height="196">
+                <span class="ui-eyebrow">Vender</span>
+                <h3>Quero vender</h3>
+                <p>Posicionamos seu imóvel para alcançar compradores preparados para decidir.</p>
+                <div class="ui-ajuda-acoes"><a class="fazemos-action" href="https://wa.me/5562984854468?text=Ol%C3%A1%2C%20equipe%20Arbor.%20Quero%20anunciar%20e%20vender%20meu%20im%C3%B3vel." target="_blank" rel="noopener"><i data-lucide="message-circle"></i> WhatsApp</a>
+                            <a class="fazemos-action" href="mailto:contato@arborimoveis.com.br?subject=Quero%20vender%20meu%20im%C3%B3vel%20%E2%80%94%20Site%20Arbor&amp;body=Ol%C3%A1%2C%20equipe%20Arbor.%0A%0AQuero%20anunciar%20e%20vender%20meu%20im%C3%B3vel.%0A%0ANome%3A%0ATelefone%3A"><i data-lucide="mail"></i> E-mail</a></div>
+            </article>
+            <article class="ui-ajuda-card">
+                <img class="ui-ajuda-img" src="assets/ilustracoes/investir.svg" alt="" loading="lazy" width="260" height="196">
+                <span class="ui-eyebrow">Investir</span>
+                <h3>Quero investir</h3>
+                <p>Compare localização, custos e possibilidades de uso com acompanhamento da nossa equipe.</p>
+                <div class="ui-ajuda-acoes"><a class="fazemos-action" href="https://wa.me/5562984854468?text=Ol%C3%A1%2C%20equipe%20Arbor.%20Quero%20conversar%20sobre%20oportunidades%20de%20investimento%20imobili%C3%A1rio." target="_blank" rel="noopener"><i data-lucide="message-circle"></i> WhatsApp</a>
+                            <a class="fazemos-action" href="mailto:contato@arborimoveis.com.br?subject=Quero%20investir%20em%20im%C3%B3veis%20%E2%80%94%20Site%20Arbor&amp;body=Ol%C3%A1%2C%20equipe%20Arbor.%0A%0AQuero%20conversar%20sobre%20oportunidades%20de%20investimento%20imobili%C3%A1rio.%0A%0ANome%3A%0ATelefone%3A"><i data-lucide="mail"></i> E-mail</a></div>
+            </article>
+            </div>
+        </div>
+    </section>
+
+
 
     <div class="wave" style="background:var(--areia);">
         <svg viewBox="0 0 1440 90" preserveAspectRatio="none"><path d="M0,32 C240,80 480,0 720,24 C960,48 1200,88 1440,40 L1440,90 L0,90 Z" fill="#2E3226"></path></svg>
     </div>
-    <div class="ticker-wrap"><div class="ticker-track" id="ticker"></div></div>
-    <div class="wave" style="background:var(--verde-deep); transform:rotate(180deg);">
-        <svg viewBox="0 0 1440 90" preserveAspectRatio="none"><path d="M0,32 C240,80 480,0 720,24 C960,48 1200,88 1440,40 L1440,90 L0,90 Z" fill="#E6E2D6"></path></svg>
-    </div>
-
-    <div id="imoveis" class="section-imoveis">
-        <div class="wrap">
-            <div class="sec-head reveal">
-                <span class="eyebrow">Imóveis em destaque</span>
-                <h2>Encontre um imóvel que faça sentido.</h2>
-                <p style="margin-top:18px; max-width:640px; color:var(--grafite);">Uma seleção dos nossos imóveis. Para ver todos, use a busca logo abaixo.</p>
-            </div>
-
-            <div class="sub-sec reveal">
-                <div id="destaque-grid" class="destaque-grid"></div>
-            </div>
-
-            <div class="sub-sec reveal">
-                <div class="sub-head"><span class="eyebrow">Novidades</span><h3>Últimos imóveis adicionados</h3></div>
-                <div id="ultimos-scroll" class="ultimos-scroll"></div>
-            </div>
-
-            <div class="sub-head" id="busca-completa" style="margin-bottom:26px; scroll-margin-top:100px;"><span class="eyebrow">Busca completa</span><h3>Todos os imóveis</h3></div>
-
-            <div id="equipe-carteira" class="equipe-carteira" hidden>
-                <strong id="equipe-carteira-nome"></strong>
-                <button id="equipe-ver-todos" type="button" class="btn btn-line">Ver todos os imóveis</button>
-            </div>
-            <section class="filter-bar" id="filter-bar">
-                <div class="f-group"><label for="filter-search">Busca livre</label><input type="text" id="filter-search" class="input-minimal" placeholder="Ex: cobertura, Setor Bueno..."></div>
-                <div class="f-group"><label for="filter-codigo">Código</label><input type="text" id="filter-codigo" class="input-minimal" placeholder="Ex: AR01"></div>
-                <div class="f-group"><label for="filter-hood">Bairro</label><select id="filter-hood" class="input-minimal"></select></div>
-                <div class="f-group"><label for="filter-tipo">Tipo</label><select id="filter-tipo" class="input-minimal"><option value="">Qualquer</option></select></div>
-                <div class="f-group">
-                    <label for="filter-beds">Quartos</label>
-                    <select id="filter-beds" class="input-minimal">
-                        <option value="">Qualquer</option>
-                        <option value="1">1+ Quarto</option>
-                        <option value="2">2+ Quartos</option>
-                        <option value="3">3+ Quartos</option>
-                    </select>
-                </div>
-                <div class="f-group">
-                    <label for="filter-price">Faixa de preço</label>
-                    <select id="filter-price" class="input-minimal">
-                        <option value="">Qualquer valor</option>
-                        <option value="0-1000000">Até R$ 1 Mi</option>
-                        <option value="1000000-3000000">R$ 1 Mi – 3 Mi</option>
-                        <option value="3000000-5000000">R$ 3 Mi – 5 Mi</option>
-                        <option value="5000000-9999999999">Acima de R$ 5 Mi</option>
-                    </select>
-                </div>
-                <div class="f-group">
-                    <label for="filter-sort">Ordem</label>
-                    <select id="filter-sort" class="input-minimal">
-                        <option value="newest">Mais recentes</option>
-                        <option value="price-asc">Menor preço</option>
-                        <option value="price-desc">Maior preço</option>
-                    </select>
-                </div>
-                <button class="btn-reset" id="btn-reset" title="Limpar filtros"><i data-lucide="rotate-ccw" size="16"></i></button>
-            </section>
-
-            <div id="properties-grid"><div class="system-msg">Sincronizando portfólio...</div></div>
-            <div class="load-more-wrap view-hidden" id="load-more-container"><button class="btn btn-line" id="btn-load-more">Ver mais imóveis</button></div>
-        </div>
-    </div>
-
-    <div class="wave" style="background:var(--areia);">
-        <svg viewBox="0 0 1440 90" preserveAspectRatio="none"><path d="M0,32 C240,80 480,0 720,24 C960,48 1200,88 1440,40 L1440,90 L0,90 Z" fill="#2E3226"></path></svg>
-    </div>
-    <section class="section-breather">
-        <div class="wrap">
-            <p class="breather-quote reveal"><span class="quote-main">Casas contam histórias.</span><em>Algumas mudam destinos</em></p>
-        </div>
-    </section>
-    <div class="wave" style="background:var(--verde-deep); transform:rotate(180deg);">
-        <svg viewBox="0 0 1440 90" preserveAspectRatio="none"><path d="M0,32 C240,80 480,0 720,24 C960,48 1200,88 1440,40 L1440,90 L0,90 Z" fill="#E6E2D6"></path></svg>
-    </div>
-
-    <section class="section-fazemos" id="consultoria">
-        <div class="wrap">
-            <div class="sec-head reveal">
-                <span class="eyebrow">Como podemos ajudar</span>
-                <h2>Cada momento pede uma decisão diferente</h2>
-            </div>
-            <div class="fazemos-list reveal">
-                <div class="fazemos-item">
-                    <span class="tag">Comprar</span>
-                    <div>
-                        <h4>Quero comprar</h4>
-                        <p>Encontramos oportunidades compatíveis com seu patrimônio, momento e objetivos.</p>
-                        <div class="fazemos-actions">
-                            <a class="fazemos-action" href="https://wa.me/5562984854468?text=Ol%C3%A1%2C%20equipe%20Arbor.%20Quero%20receber%20atendimento%20para%20comprar%20um%20im%C3%B3vel." target="_blank" rel="noopener"><i data-lucide="message-circle"></i> WhatsApp</a>
-                            <a class="fazemos-action" href="mailto:contato@arborimoveis.com.br?subject=Quero%20comprar%20um%20im%C3%B3vel%20%E2%80%94%20Site%20Arbor&amp;body=Ol%C3%A1%2C%20equipe%20Arbor.%0A%0AQuero%20receber%20atendimento%20para%20comprar%20um%20im%C3%B3vel.%0A%0ANome%3A%0ATelefone%3A"><i data-lucide="mail"></i> E-mail</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="fazemos-item">
-                    <span class="tag">Vender</span>
-                    <div>
-                        <h4>Quero vender</h4>
-                        <p>Posicionamos seu imóvel para alcançar compradores preparados para decidir.</p>
-                        <div class="fazemos-actions">
-                            <a class="fazemos-action" href="https://wa.me/5562984854468?text=Ol%C3%A1%2C%20equipe%20Arbor.%20Quero%20anunciar%20e%20vender%20meu%20im%C3%B3vel." target="_blank" rel="noopener"><i data-lucide="message-circle"></i> WhatsApp</a>
-                            <a class="fazemos-action" href="mailto:contato@arborimoveis.com.br?subject=Quero%20vender%20meu%20im%C3%B3vel%20%E2%80%94%20Site%20Arbor&amp;body=Ol%C3%A1%2C%20equipe%20Arbor.%0A%0AQuero%20anunciar%20e%20vender%20meu%20im%C3%B3vel.%0A%0ANome%3A%0ATelefone%3A"><i data-lucide="mail"></i> E-mail</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="fazemos-item">
-                    <span class="tag">Investir</span>
-                    <div>
-                        <h4>Quero investir</h4>
-                        <p>Compare localização, custos e possibilidades de uso com acompanhamento da nossa equipe.</p>
-                        <div class="fazemos-actions">
-                            <a class="fazemos-action" href="https://wa.me/5562984854468?text=Ol%C3%A1%2C%20equipe%20Arbor.%20Quero%20conversar%20sobre%20oportunidades%20de%20investimento%20imobili%C3%A1rio." target="_blank" rel="noopener"><i data-lucide="message-circle"></i> WhatsApp</a>
-                            <a class="fazemos-action" href="mailto:contato@arborimoveis.com.br?subject=Quero%20investir%20em%20im%C3%B3veis%20%E2%80%94%20Site%20Arbor&amp;body=Ol%C3%A1%2C%20equipe%20Arbor.%0A%0AQuero%20conversar%20sobre%20oportunidades%20de%20investimento%20imobili%C3%A1rio.%0A%0ANome%3A%0ATelefone%3A"><i data-lucide="mail"></i> E-mail</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <section class="section-sobre" id="essencia">
-        <div class="wrap sobre-grid">
-            <div class="sobre-visual reveal">
-                <div class="blob">
-                    <img class="brand-logo-image sobre-logo-image" src="assets/arbor-logo-lema-verde.png" alt="Arbor Imóveis">
-                </div>
-            </div>
-            <div class="sobre-copy reveal">
-                <span class="eyebrow">Nossa essência</span>
-                <h2>Presença e cuidado.<br><em>Em cada escolha.</em></h2>
-                <p>A Arbor aproxima pessoas e imóveis com uma leitura cuidadosa de localização, características e objetivos.</p>
-                <p>Nosso trabalho é organizar as informações, acompanhar visitas e conduzir a negociação com clareza. Para quem compra, vende ou busca uma nova forma de morar.</p>
-            </div>
-        </div>
-    </section>
-
-    <div class="wave" style="background:var(--areia);">
-        <svg viewBox="0 0 1440 90" preserveAspectRatio="none"><path d="M0,32 C240,80 480,0 720,24 C960,48 1200,88 1440,40 L1440,90 L0,90 Z" fill="#2E3226"></path></svg>
-    </div>
-    <section class="section-nacional">
+    <section class="section-nacional" id="nacional" hidden>
         <div class="wrap">
             <div class="sec-head reveal" style="margin-bottom:0; max-width:760px;">
                 <span class="eyebrow">Atuação nacional</span>
@@ -1938,44 +1845,23 @@
                 <p style="margin-top:16px; max-width:720px;">Conheça os destinos e projetos acompanhados pela Arbor. Consulte a equipe sobre o portfólio disponível em cada região.</p>
             </div>
 
-            <div class="nacional-grid reveal">
-                <div class="nacional-item"><span>Alagoas</span><h4>São Miguel dos Milagres · Cocoon</h4><p>Presença em um dos destinos mais desejados do litoral alagoano.</p></div>
-                <div class="nacional-item"><span>Bahia</span><h4>Trancoso</h4><p>Oportunidades em um mercado marcado por exclusividade, turismo e patrimônio.</p></div>
-                <div class="nacional-item"><span>Goiás</span><h4>Pirenópolis · Fazenda da Matta</h4><p>Projetos ligados à natureza, segunda residência e novos modos de morar.</p></div>
-                <div class="nacional-item"><span>Goiás</span><h4>Aldeia do Vale</h4><p>Imóveis selecionados em um dos endereços residenciais mais consolidados da região.</p></div>
-                <div class="nacional-item"><span>São Paulo</span><h4>São Paulo</h4><p>Atuação conectada a oportunidades e parceiros no principal mercado imobiliário do país.</p></div>
-                <div class="nacional-item"><span>Corumbá IV</span><h4>Fazenda Canoa</h4><p>Oportunidades vinculadas a lazer, natureza e patrimônio fora dos grandes centros urbanos.</p></div>
-            </div>
+            <div id="destinos-grid" class="ui-destinos"></div>
         </div>
     </section>
-    <section class="section-cta">
-        <div class="ambient" style="width:420px; height:420px; background:var(--verde); opacity:.25; top:-120px; left:-100px;"></div>
-        <div class="ambient" style="width:340px; height:340px; background:var(--prata); opacity:.12; bottom:-100px; right:-60px;"></div>
-        <div class="wrap">
-            <div class="cta-inner reveal">
-                <h2 style="margin:18px 0 20px;">Vamos encontrar seu próximo endereço?</h2>
+    <section class="ui-section ui-convite" aria-labelledby="convite-titulo">
+        <div class="ui-wrap">
+            <div class="ui-convite-box">
+                <img class="ui-convite-img" src="assets/ilustracoes/convite.svg" alt="" loading="lazy" width="640" height="220">
+                <h2 id="convite-titulo">Vamos encontrar <em>seu próximo endereço?</em></h2>
                 <p>Conte o que você procura. Nossa equipe ajuda a organizar os próximos passos.</p>
-                <div class="cta-card">
-                    <span class="eyebrow">Arbor Contato</span>
-                    <h3>Arbor Imóveis</h3>
-                    <p>Atendimento consultivo para compra, venda e avaliação de imóveis em Goiânia.</p>
-                    <div class="cta-actions">
-                        <a href="https://wa.me/5562984854468" target="_blank" rel="noopener noreferrer" class="btn btn-fill">Quero conversar</a>
-                        <a href="mailto:contato@arborimoveis.com.br" class="btn btn-line on-dark">Enviar e-mail</a>
-                    </div>
+                <div class="ui-convite-acoes">
+                    <a href="https://wa.me/5562984854468" target="_blank" rel="noopener noreferrer" class="ui-btn ui-btn-primary">Falar no WhatsApp</a>
+                    <a href="mailto:contato@arborimoveis.com.br" class="ui-btn ui-btn-outline">Enviar e-mail</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="home-journal"><div class="wrap">
-        <span class="eyebrow">Journal Arbor</span><h2>Informação para escolher melhor.</h2>
-        <div class="home-journal-links">
-            <a href="#noticias"><small>Prefeituras e tributos</small>IPTU e ITBI em Goiânia e região ↗</a>
-            <a href="#noticias"><small>Documentação</small>Cartórios, matrícula e registro de imóveis ↗</a>
-            <a href="#noticias"><small>Atualidades</small>Notícias e mudanças no mercado imobiliário ↗</a>
-        </div><a href="#noticias" class="btn btn-line">Explorar o Journal</a>
-    </div></section>
 </main>
 
 <section id="detail-view" class="view-hidden"></section>
@@ -1994,6 +1880,90 @@
             <div id="equipe-administrativo-bloco" class="equipe-bloco" hidden><h3>Time administrativo</h3><div id="equipe-administrativo" class="equipe-grid"></div></div>
         </div>
     </section>
+</section>
+
+<section id="catalogo-view" class="view-hidden page-view ui-catalogo">
+    <div class="sec-head">
+        <span class="eyebrow">Imóveis</span>
+        <h2>Encontre o imóvel <em>que faz sentido.</em></h2>
+        <p>Busque por bairro, empreendimento, tipo ou código. Use os filtros para refinar o resultado.</p>
+    </div>
+
+    <section id="resp-perfil" class="ui-perfil" hidden aria-label="Perfil do responsável"></section>
+
+    <form id="busca-form" class="ui-search" role="search">
+        <div class="ui-search-field"><i data-lucide="search" aria-hidden="true"></i><input type="search" id="filter-search" placeholder="Bairro, empreendimento ou código" aria-label="Buscar imóveis" autocomplete="off"></div>
+        <button type="submit" class="ui-btn ui-btn-primary">Buscar</button>
+        <button type="button" class="ui-btn ui-btn-outline" id="btn-filtros" aria-expanded="false" aria-controls="filtros-painel"><i data-lucide="sliders-horizontal" aria-hidden="true"></i> Filtros <span id="filtros-count" class="ui-badge" hidden></span></button>
+    </form>
+    <div id="filtros-overlay" class="ui-overlay" hidden></div>
+    <section id="filtros-painel" class="ui-filtros" hidden role="dialog" aria-label="Filtros de busca">
+        <div class="ui-filtros-head"><strong>Filtros</strong><button type="button" id="filtros-fechar" aria-label="Fechar filtros">×</button></div>
+        <div class="ui-filtros-grid">
+            <div class="f-group"><label for="filter-codigo">Código</label><input type="text" id="filter-codigo" class="input-minimal" placeholder="Ex.: AR-39"></div>
+            <div class="f-group"><label for="filter-hood">Bairro</label><select id="filter-hood" class="input-minimal"></select></div>
+            <div class="f-group"><label for="filter-tipo">Tipo</label><select id="filter-tipo" class="input-minimal"><option value="">Qualquer</option></select></div>
+            <div class="f-group">
+                <label for="filter-beds">Quartos</label>
+                <select id="filter-beds" class="input-minimal">
+                    <option value="">Qualquer</option>
+                    <option value="1">1 ou mais</option>
+                    <option value="2">2 ou mais</option>
+                    <option value="3">3 ou mais</option>
+                </select>
+            </div>
+            <div class="f-group">
+                <label for="filter-price">Faixa de preço</label>
+                <select id="filter-price" class="input-minimal">
+                    <option value="">Qualquer valor</option>
+                    <option value="0-1000000">Até R$ 1 mi</option>
+                    <option value="1000000-3000000">R$ 1 mi a R$ 3 mi</option>
+                    <option value="3000000-5000000">R$ 3 mi a R$ 5 mi</option>
+                    <option value="5000000-9999999999">Acima de R$ 5 mi</option>
+                </select>
+            </div>
+        </div>
+        <div class="ui-filtros-foot">
+            <button type="button" class="ui-link-btn" id="btn-reset">Limpar filtros</button>
+            <button type="button" class="ui-btn ui-btn-primary" id="filtros-aplicar">Ver resultados</button>
+        </div>
+    </section>
+    <div id="filtros-aplicados" class="ui-chips" aria-label="Filtros aplicados"></div>
+
+    <div id="equipe-carteira" class="equipe-carteira" hidden>
+        <strong id="equipe-carteira-nome"></strong>
+        <button id="equipe-ver-todos" type="button" class="btn btn-line">Ver todos os imóveis</button>
+    </div>
+
+    <div class="ui-resultbar" id="catalogo-resultados">
+        <p id="resultado-qtd" aria-live="polite">Carregando imóveis…</p>
+        <label class="ui-sort"><span>Ordenar por</span>
+            <select id="filter-sort" class="input-minimal">
+                <option value="newest">Mais recentes</option>
+                <option value="price-asc">Menor preço</option>
+                <option value="price-desc">Maior preço</option>
+            </select>
+        </label>
+    </div>
+
+    <div id="properties-grid" class="ui-cards"><div class="system-msg">Sincronizando portfólio…</div></div>
+    <div class="load-more-wrap view-hidden" id="load-more-container"><button class="ui-btn ui-btn-outline" id="btn-load-more">Ver mais imóveis</button></div>
+</section>
+
+<section id="sobre-view" class="view-hidden page-view">
+    <button class="back-btn" id="sobre-back-btn"><i data-lucide="arrow-left" style="width:14px"></i> Voltar à Home</button>
+    <div class="sec-head">
+        <span class="eyebrow">Nossa essência</span>
+        <h2>Presença e cuidado. <em>Em cada escolha.</em></h2>
+        <p>A Arbor aproxima pessoas e imóveis com uma leitura cuidadosa de localização, características e objetivos.</p>
+    </div>
+    <div class="ui-sobre">
+        <p>Nosso trabalho é organizar as informações, acompanhar visitas e conduzir a negociação com clareza. Para quem compra, vende ou busca uma nova forma de morar.</p>
+        <div class="ui-sobre-acoes">
+            <a class="ui-btn ui-btn-primary" href="#imoveis">Ver imóveis</a>
+            <a class="ui-btn ui-btn-outline" href="https://wa.me/5562984854468" target="_blank" rel="noopener noreferrer">Falar com a Arbor</a>
+        </div>
+    </div>
 </section>
 
 <section id="diferenciais-view" class="view-hidden page-view">
@@ -2231,7 +2201,7 @@
     <div class="footer-brand" aria-label="Arbor Imóveis"><img class="brand-logo" src="assets/arbor-logo-lema-creme.png" alt="Arbor Imóveis"></div>
     <div class="foot-links">
         <a href="#imoveis">Imóveis</a>
-        <a href="#essencia">Sobre</a>
+        <a href="#sobre">Sobre</a>
         <a href="/politica-de-privacidade/">Privacidade</a>
         <a href="/termos-de-servico/">Termos</a>
         <a href="https://instagram.com/arborimoveis" target="_blank" rel="noopener noreferrer">Instagram</a>
@@ -2240,48 +2210,6 @@
     <a class="foot-email" href="mailto:contato@arborimoveis.com.br"><i data-lucide="mail" style="width:15px"></i> contato@arborimoveis.com.br</a>
     <div class="copy">© 2026 · Arbor Imóveis<br>CRECI-GO 14.349 · Goiânia, Goiás</div>
 </footer>
-
-<button id="scroll-tree" type="button" aria-label="Entenda a identidade Arbor" aria-expanded="false" aria-controls="arbor-tree-panel">
-    <svg viewBox="0 0 100 150" width="34" height="51" aria-hidden="true">
-        <g class="st-canopy">
-            <circle cx="37" cy="39" r="15" fill="var(--verde)"/>
-            <circle cx="59" cy="37" r="16" fill="var(--verde)"/>
-            <circle cx="48" cy="23" r="14" fill="var(--verde)"/>
-        </g>
-        <g class="st-trunk">
-            <path d="M46 53 L54 53 L52 78 L48 78 Z" fill="var(--verde)"/>
-            <line x1="27" y1="78" x2="73" y2="78" stroke="var(--verde)" stroke-width="2"/>
-        </g>
-        <path class="st-roots" d="M50 78 Q41 96 33 117 M50 78 Q59 96 67 117 M50 78 Q47 103 45 131 M50 78 Q53 103 55 131 M43 89 Q34 98 28 106 M57 89 Q66 98 72 106" fill="none" stroke="var(--verde)" stroke-width="2.1" stroke-linecap="round"/>
-    </svg>
-</button>
-
-<div id="arbor-tree-backdrop" aria-hidden="true"></div>
-<aside id="arbor-tree-panel" role="dialog" aria-modal="false" aria-labelledby="arbor-tree-title" aria-hidden="true">
-    <div class="arbor-tree-panel-head">
-        <div>
-            <span class="eyebrow">Identidade Arbor</span>
-            <h3 id="arbor-tree-title">Uma escolha também cria raízes.</h3>
-        </div>
-        <button type="button" class="arbor-tree-close" id="arbor-tree-close" aria-label="Fechar"><i data-lucide="x" style="width:16px"></i></button>
-    </div>
-    <p class="arbor-tree-intro">A árvore não está aqui apenas como símbolo. Ela traduz a maneira como enxergamos uma decisão imobiliária: entender bem a base, conduzir o processo com consistência e abrir espaço para aquilo que vem depois.</p>
-    <div class="arbor-tree-points">
-        <div class="arbor-tree-point">
-            <div class="arbor-tree-symbol"><i data-lucide="sprout" style="width:20px"></i></div>
-            <div><h4>Raízes</h4><p>Informação, contexto e compreensão do seu momento. Uma boa decisão começa antes da visita e muito antes da assinatura.</p></div>
-        </div>
-        <div class="arbor-tree-point">
-            <div class="arbor-tree-symbol"><i data-lucide="git-branch" style="width:20px"></i></div>
-            <div><h4>Tronco</h4><p>Clareza para comparar caminhos, avaliar riscos e conduzir cada etapa com segurança, sem transformar a escolha em pressão.</p></div>
-        </div>
-        <div class="arbor-tree-point">
-            <div class="arbor-tree-symbol"><i data-lucide="trees" style="width:20px"></i></div>
-            <div><h4>Copa</h4><p>As possibilidades que surgem quando imóvel, rotina, investimento e planos futuros passam a fazer sentido juntos.</p></div>
-        </div>
-    </div>
-    <div class="arbor-tree-signature">Arbor Imóveis · decisões bem conduzidas</div>
-</aside>
 
 <div id="lightbox" role="dialog" aria-modal="true" aria-label="Galeria de fotos do imóvel">
     <button class="lb-btn" id="lb-close" type="button" aria-label="Fechar galeria"><i data-lucide="x" style="width:20px"></i></button>
@@ -2837,7 +2765,7 @@ const normalizeListing = item => {
     };
 };
 
-let state = { all: [], filtered: [], isLoaded: false, feedReal: false, activeProp: null, lbIdx: 0, visibleCount: 9, filters: { search: '', codigo: '', hood: '', tipo: '', beds: '', priceRange: '', sort: 'newest' } };
+let state = { all: [], filtered: [], isLoaded: false, feedReal: false, activeProp: null, lbIdx: 0, visibleCount: 12, filters: { search: '', codigo: '', hood: '', tipo: '', beds: '', priceRange: '', sort: 'newest' } };
 
 /* Converte um feed de imóveis em XML para o mesmo formato de objeto que normalizeListing()
    já espera. Suporta os dois padrões mais comuns entre CRMs imobiliários brasileiros:
@@ -2952,11 +2880,8 @@ const parseLegacyZapNodes = (imoveis) => imoveis.map(node => {
 const init = async () => {
     setupEventListeners();
     setupReveal();
-    setupScrollTree();
     handleRouting();
     if (window.lucide) lucide.createIcons();
-    const tickerText = '· CLAREZA PARA ESCOLHER · CUIDADO EM CADA DETALHE · IMÓVEIS QUE FAZEM SENTIDO · DECISÕES BEM CONDUZIDAS '.repeat(4);
-    $('ticker').innerHTML = `<div class="ticker-item">${tickerText}</div><div class="ticker-item" aria-hidden="true">${tickerText}</div>`;
 
     try {
         let data;
@@ -2992,9 +2917,8 @@ const finishInit = (data) => {
     state.filtered = [...state.all];
     state.isLoaded = true;
     // O quadro do topo fica sempre com a marca Arbor; imóveis aparecem só nas seções de imóveis.
-    $('ultimos-scroll').closest('.sub-sec').classList.toggle('view-hidden', !state.all.length);
-    renderDestaque();
-    renderUltimos();
+    renderSelecao();
+    renderDestinos();
     applyFilters();
     if (location.hash.startsWith('#id=') || location.hash.startsWith('#equipe=')) handleRouting();
     window.ArborEquipe?.atualizar();
@@ -3044,12 +2968,11 @@ const setupJornadaInteractions = () => {
 
 const setupEventListeners = () => {
     $('logo-btn').addEventListener('click', e => { e.preventDefault(); goHome(); });
-    $('hero-explore-btn').addEventListener('click', e => { e.preventDefault(); const t=$('imoveis'); window.scrollTo({top:t.offsetTop-80, behavior:'smooth'}); });
-    $('hero-anunciar-btn').addEventListener('click', e => { e.preventDefault(); const t=$('essencia'); window.scrollTo({top:t.offsetTop-80, behavior:'smooth'}); });
-    $('nav-imoveis-btn').addEventListener('click', e => { e.preventDefault(); goHome('imoveis'); });
-    $('nav-sobre-btn').addEventListener('click', e => { e.preventDefault(); goHome('essencia'); });
+    $('hero-explore-btn').addEventListener('click', e => { e.preventDefault(); goCatalogo(); });
+    $('nav-imoveis-btn').addEventListener('click', e => { e.preventDefault(); goCatalogo(); });
+    setupCatalogoUI();
     $('nav-consultoria-btn').addEventListener('click', e => { e.preventDefault(); goHome('consultoria'); });
-    ['bairros-back-btn','jornada-back-btn','diferenciais-back-btn','noticias-back-btn'].forEach(id => {
+    ['bairros-back-btn','jornada-back-btn','diferenciais-back-btn','noticias-back-btn','sobre-back-btn'].forEach(id => {
         const btn = $(id);
         if (btn) btn.addEventListener('click', (e) => { e.preventDefault(); goHome(); });
     });
@@ -3062,12 +2985,13 @@ const setupEventListeners = () => {
     $('filter-price').addEventListener('change', e => { state.filters.priceRange = e.target.value; applyFilters(); });
     $('filter-sort').addEventListener('change', e => { state.filters.sort = e.target.value; applyFilters(); });
     $('btn-reset').addEventListener('click', () => {
+        const q = $('quick-search-input'); if (q) q.value = '';
         window.ArborEquipe?.limpar();
         state.filters = { search:'', codigo:'', hood:'', tipo:'', beds:'', priceRange:'', sort:'newest' };
         $('filter-search').value=''; $('filter-codigo').value=''; $('filter-hood').value=''; $('filter-tipo').value=''; $('filter-beds').value=''; $('filter-price').value=''; $('filter-sort').value='newest';
         applyFilters();
     });
-    $('btn-load-more').addEventListener('click', () => { state.visibleCount += 9; renderGrid(); });
+    $('btn-load-more').addEventListener('click', () => { state.visibleCount += 12; renderGrid(); });
 
     document.querySelectorAll('.bairro-btn').forEach(btn => {
         btn.addEventListener('click', () => goToHoodFilter(btn.getAttribute('data-terms') || btn.getAttribute('data-hood'), btn.getAttribute('data-label') || btn.getAttribute('data-hood') || btn.getAttribute('data-terms')));
@@ -3086,8 +3010,7 @@ const setupEventListeners = () => {
         a.addEventListener('click', (e) => {
             document.body.classList.remove('menu-open');
             const href = a.getAttribute('href');
-            if (href === '#imoveis') { e.preventDefault(); goHome('imoveis'); }
-            else if (href === '#essencia') { e.preventDefault(); goHome('essencia'); }
+            if (href === '#imoveis') { e.preventDefault(); goCatalogo(); }
         });
     });
 
@@ -3117,7 +3040,7 @@ const applyFilters = () => {
     else if (f.sort === 'price-desc') res.sort((a,b) => b.price - a.price);
     else res.sort((a,b) => (Date.parse(b.dataAdicao) || 0) - (Date.parse(a.dataAdicao) || 0));
     state.filtered = res;
-    state.visibleCount = 9;
+    state.visibleCount = 12;
     renderGrid();
 };
 
@@ -3201,223 +3124,89 @@ const destaqueCategoryMeta = [
     { key: 'comercial', label: 'Comerciais', empty: 'Nenhum imóvel comercial disponível no momento.' },
     { key: 'aluguel', label: 'Aluguel', empty: 'Nenhum imóvel de aluguel disponível no momento.' }
 ];
-const renderDestaqueCard = (p, variant = 'residencial', stateClass = '') => `
-    <a href="#id=${encodeURIComponent(p.id)}" class="d-card d-card--${variant} ${stateClass}" data-pid="${encodeURIComponent(p.id)}">
-        <img class="kb" src="${p.photos[0]}" decoding="async" alt="${getPropertyDisplayName(p)}">
-        ${renderPhotoWatermark('small')}
-        ${p.destaque ? `<span class="d-card-badge">Destaque</span>` : ''}
-        <div class="d-card-overlay">
-            <span class="d-card-hood">${getCardLocationLabel(p)}</span>
-            <h3 class="d-card-title">${getPropertyDisplayName(p)}</h3>
-            <div class="d-card-meta">
-                ${getCardCode(p) ? `<span class="d-card-code">${getCardCode(p)}</span>` : ''}
+const escHtml = v => String(v ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+
+/* Cartão único de imóvel (Home, catálogo e imóveis parecidos):
+   localização, nome, características, preço em destaque e ação; o código fica discreto. */
+const propertyCard = p => {
+    const href = `#id=${encodeURIComponent(p.id)}`;
+    const name = getPropertyDisplayName(p);
+    const op = p.operacao && p.operacao !== 'Venda' ? `<span class="pc-op">${escHtml(p.operacao)}</span>` : '';
+    const specs = getCardSpecs(p);
+    return `
+        <article class="pc p-card" data-pid="${encodeURIComponent(p.id)}">
+            <a class="pc-img p-card-img" href="${href}" tabindex="-1" aria-hidden="true"><img class="kb" src="${p.photos[0]}" loading="lazy" decoding="async" alt="">${renderPhotoWatermark('small')}</a>
+            <div class="pc-body">
+                <p class="pc-loc"><span>${getCardLocationLabel(p)}</span>${op}</p>
+                <h3 class="pc-title"><a href="${href}">${name}</a></h3>
+                <div class="pc-specs card-spec-list">${specs}</div>
+                <div class="pc-foot">
+                    <span class="pc-price">${formatPropertyPrice(p)}</span>
+                    <a class="pc-cta" href="${href}" aria-label="Ver imóvel ${escHtml(name)}">Ver imóvel</a>
+                </div>
+                ${getCardCode(p) ? `<p class="pc-code">${getCardCode(p)}</p>` : ''}
             </div>
-            ${getCardSpecs(p) ? `<span class="d-card-specs card-spec-list">${getCardSpecs(p)}</span>` : ''}
-            <span class="d-card-price">${formatPropertyPrice(p)}</span>
-        </div>
-    </a>
-`;
-const renderEmptyDestaqueCard = (message, variant = 'residencial', stateClass = '') => `
-    <div class="d-card d-card-empty d-card--${variant} ${stateClass}">
-        <div class="d-card-overlay">
-            <span class="d-card-hood">Arbor Imóveis</span>
-            <h3 class="d-card-title">Em breve</h3>
-            <span class="d-card-price">${message}</span>
-        </div>
-    </div>
-`;
-const renderDestaque = () => {
-    const el = $('destaque-grid');
+        </article>`;
+};
+
+/* Home: seleção curta (destaques primeiro, depois os mais recentes). */
+const renderSelecao = () => {
+    const el = $('selecao-grid');
+    if (!el) return;
     const byRecency = (a, b) => (Date.parse(b.dataAdicao) || 0) - (Date.parse(a.dataAdicao) || 0);
-    const destaquePool = state.all.filter(p => p.destaque).sort(byRecency);
-    const fillerPool = state.all.filter(p => !p.destaque).sort(byRecency);
-    const combinedPool = destaquePool.length ? [...destaquePool, ...fillerPool] : [...fillerPool];
-
-    const categoryPools = {
-        residencial: combinedPool.filter(p => !isRentalProperty(p) && !isCommercialProperty(p)),
-        comercial: combinedPool.filter(p => !isRentalProperty(p) && isCommercialProperty(p)),
-        aluguel: combinedPool.filter(p => isRentalProperty(p))
-    };
-
-    const hasAny = destaqueCategoryMeta.some(cat => categoryPools[cat.key].length);
-    if (!hasAny) {
-        el.closest('.sub-sec').classList.add('view-hidden');
+    const comFoto = state.all.filter(p => p.photos && p.photos[0]);
+    const lista = [...comFoto.filter(p => p.destaque).sort(byRecency), ...comFoto.filter(p => !p.destaque).sort(byRecency)].slice(0, 6);
+    if (!lista.length) {
+        el.innerHTML = `<div class="system-msg" role="status">${state.feedError ? 'O portfólio está temporariamente indisponível. Tente novamente em instantes ou fale com a equipe.' : 'Os imóveis aparecem aqui assim que o portfólio carregar.'}</div>`;
         return;
     }
-    el.closest('.sub-sec').classList.remove('view-hidden');
-
-    const offsets = window._destaqueCategoryOffsets || (window._destaqueCategoryOffsets = { residencial: 0, comercial: 0, aluguel: 0 });
-
-    const getCurrentProperty = (cat, sourceOffsets = offsets) => {
-        const pool = categoryPools[cat.key];
-        const idx = sourceOffsets[cat.key] || 0;
-        return pool.length ? pool[idx % pool.length] : null;
-    };
-
-    const imagePreloadCache = window._destaqueImagePreloadCache || (window._destaqueImagePreloadCache = new Map());
-    const preloadPropertyImage = p => {
-        if (!p || !p.photos || !p.photos[0]) return Promise.resolve(true);
-        const url = p.photos[0];
-        if (imagePreloadCache.has(url)) return imagePreloadCache.get(url);
-        const preloadPromise = new Promise(resolve => {
-        const img = new Image();
-        let finished = false;
-        const done = ok => {
-            if (finished) return;
-            finished = true;
-            resolve(ok);
-        };
-        img.decoding = 'async';
-        img.onload = () => {
-            if (typeof img.decode === 'function') img.decode().then(() => done(true)).catch(() => done(true));
-            else done(true);
-        };
-        img.onerror = () => done(false);
-        img.src = url;
-        if (img.complete && img.naturalWidth > 0) done(true);
-        });
-        imagePreloadCache.set(url, preloadPromise);
-        return preloadPromise;
-    };
-
-    const renderColumns = () => {
-        el.innerHTML = destaqueCategoryMeta.filter(cat => categoryPools[cat.key].length).map(cat => {
-            const current = getCurrentProperty(cat);
-            return `
-                <div class="d-column">
-                    <div class="d-column-head">${cat.label}</div>
-                    <div class="d-card-slot" data-category="${cat.key}">
-                        ${current ? renderDestaqueCard(current, cat.key) : renderEmptyDestaqueCard(cat.empty, cat.key)}
-                    </div>
-                </div>
-            `;
-        }).join('');
-    };
-
-    renderColumns();
-    startCardPhotoVideo();
-    clearInterval(window._destaqueRotationTimer);
-    if (destaqueCategoryMeta.some(cat => categoryPools[cat.key].length > 1)) {
-        const fadeDuration = window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 10 : 1700;
-        const rotationInterval = 9000;
-        let isTransitioning = false;
-
-        /* A próxima imagem começa a carregar enquanto o imóvel atual ainda está
-           em leitura. Assim, o dissolver nunca revela um cartão incompleto. */
-        destaqueCategoryMeta.forEach(cat => {
-            const pool = categoryPools[cat.key];
-            if (pool.length > 1) preloadPropertyImage(pool[((offsets[cat.key] || 0) + 1) % pool.length]);
-        });
-
-        window._destaqueRotationTimer = setInterval(async () => {
-            if (isTransitioning) return;
-            isTransitioning = true;
-
-            const nextOffsets = { ...offsets };
-            destaqueCategoryMeta.forEach(cat => {
-                const pool = categoryPools[cat.key];
-                if (pool.length > 1) nextOffsets[cat.key] = (nextOffsets[cat.key] + 1) % pool.length;
-            });
-
-            try {
-                const nextItems = destaqueCategoryMeta.map(cat => getCurrentProperty(cat, nextOffsets));
-                const imageReady = await Promise.all(nextItems.map(preloadPropertyImage));
-                const transitions = [];
-
-                destaqueCategoryMeta.forEach((cat, index) => {
-                    const slot = el.querySelector(`.d-card-slot[data-category="${cat.key}"]`);
-                    if (!slot || categoryPools[cat.key].length <= 1 || !imageReady[index]) return;
-                    const next = nextItems[index];
-                    slot.insertAdjacentHTML('beforeend', next
-                        ? renderDestaqueCard(next, cat.key, 'is-entering')
-                        : renderEmptyDestaqueCard(cat.empty, cat.key, 'is-entering'));
-                    transitions.push({ cat, slot });
-                });
-
-                if (!transitions.length) return;
-
-                /* Duas renderizações garantem que o navegador registre a nova
-                   camada transparente antes de iniciar o fade-in/fade-out. */
-                await new Promise(resolve => requestAnimationFrame(() => requestAnimationFrame(() => {
-                    transitions.forEach(({ slot }) => {
-                        const cards = slot.querySelectorAll('.d-card');
-                        cards[0]?.classList.add('is-leaving');
-                        cards[cards.length - 1]?.classList.remove('is-entering');
-                    });
-                    resolve();
-                })));
-
-                await new Promise(resolve => setTimeout(resolve, fadeDuration + 60));
-                transitions.forEach(({ cat, slot }) => {
-                    const cards = slot.querySelectorAll('.d-card');
-                    if (cards.length > 1) cards[0].remove();
-                    offsets[cat.key] = nextOffsets[cat.key];
-                });
-
-                transitions.forEach(({ cat }) => {
-                    const pool = categoryPools[cat.key];
-                    preloadPropertyImage(pool[((offsets[cat.key] || 0) + 1) % pool.length]);
-                });
-            } catch (err) {
-                console.warn('[Arbor destaques] A troca foi mantida no imóvel atual:', err.message);
-            } finally {
-                isTransitioning = false;
-            }
-        }, rotationInterval);
-    }
-};
-
-const getPropertyCodeNumber = p => {
-    const raw = String(p?.id || '');
-    const matches = raw.match(/\d+/g);
-    return matches?.length ? Number(matches[matches.length - 1]) : -1;
-};
-
-const renderUltimos = () => {
-    const el = $('ultimos-scroll');
-    const items = [...state.all]
-        .sort((a, b) => getPropertyCodeNumber(b) - getPropertyCodeNumber(a))
-        .slice(0, 6);
-    el.innerHTML = items.map(p => `
-        <a href="#id=${encodeURIComponent(p.id)}" class="u-card" data-pid="${encodeURIComponent(p.id)}">
-            <div class="u-card-img"><img class="kb" src="${p.photos[0]}" loading="lazy" alt="${getPropertyDisplayName(p)}">${renderPhotoWatermark('small')}</div>
-            <div class="u-card-body">
-                <span class="u-card-new">Novo · ${getCardLocationLabel(p)}</span>
-                ${getCardCode(p) ? `<span class="u-card-code">${getCardCode(p)}</span>` : ''}
-                <h4 class="u-card-title">${getPropertyDisplayName(p)}</h4>
-                ${getCardSpecs(p) ? `<span class="u-card-specs card-spec-list">${getCardSpecs(p)}</span>` : ''}
-                <span class="u-card-price">${formatPropertyPrice(p)}</span>
-            </div>
-        </a>
-    `).join('');
-    startUltimosAutoplay(el);
+    el.innerHTML = lista.map(propertyCard).join('');
     startCardPhotoVideo();
 };
 
-/* Efeito de vídeo: carrossel dos novos imóveis gira sozinho; fotos dos cartões trocam em dissolver lento. */
-const startUltimosAutoplay = el => {
-    clearInterval(window._ultimosTimer);
-    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
-    let paused = false;
-    ['mouseenter','touchstart','focusin'].forEach(ev => el.addEventListener(ev, () => { paused = true; }, { passive: true }));
-    ['mouseleave','focusout'].forEach(ev => el.addEventListener(ev, () => { paused = false; }));
-    el.addEventListener('touchend', () => setTimeout(() => { paused = false; }, 4000), { passive: true });
-    window._ultimosTimer = setInterval(() => {
-        if (paused || document.hidden || !el.offsetParent) return;
-        const cards = el.querySelectorAll('.u-card');
-        if (cards.length < 2) return;
-        const step = cards[1].offsetLeft - cards[0].offsetLeft;
-        if (el.scrollLeft + el.clientWidth >= el.scrollWidth - 8) el.scrollTo({ left: 0, behavior: 'smooth' });
-        else el.scrollBy({ left: step, behavior: 'smooth' });
-    }, 4500);
+/* Atuação nacional: só destinos com imóveis reais no portfólio, com foto e link para a busca. */
+const DESTINOS = [
+    { regiao: 'Alagoas', nome: 'São Miguel dos Milagres · Cocoon', termos: ['são miguel dos milagres', 'cocoon'], texto: 'Presença em um dos destinos mais desejados do litoral alagoano.' },
+    { regiao: 'Bahia', nome: 'Trancoso', termos: ['trancoso'], texto: 'Oportunidades em um mercado marcado por exclusividade, turismo e patrimônio.' },
+    { regiao: 'Goiás', nome: 'Pirenópolis · Fazenda da Matta', termos: ['pirenópolis', 'fazenda da matta'], texto: 'Projetos ligados à natureza, segunda residência e novos modos de morar.' },
+    { regiao: 'Goiás', nome: 'Aldeia do Vale', termos: ['aldeia do vale'], texto: 'Imóveis selecionados em um dos endereços residenciais mais consolidados da região.' },
+    { regiao: 'São Paulo', nome: 'São Paulo', termos: ['são paulo'], texto: 'Atuação conectada a oportunidades e parceiros no principal mercado imobiliário do país.' },
+    { regiao: 'Corumbá IV', nome: 'Fazenda Canoa', termos: ['fazenda canoa'], texto: 'Oportunidades vinculadas a lazer, natureza e patrimônio fora dos grandes centros urbanos.' }
+];
+const propertySearchText = p => normalizeCategoryText([p.title, getPropertyEnterpriseName(p), p.hood, p.city, p.tipo].join(' '));
+const renderDestinos = () => {
+    const sec = $('nacional'), grid = $('destinos-grid');
+    if (!sec || !grid) return;
+    const cards = DESTINOS.map(d => {
+        const termo = d.termos.find(t => state.all.some(p => propertySearchText(p).includes(normalizeCategoryText(t))));
+        if (!termo) return '';
+        const achados = state.all.filter(p => propertySearchText(p).includes(normalizeCategoryText(termo)));
+        const capa = achados.find(p => p.destaque && p.photos && p.photos[0]) || achados.find(p => p.photos && p.photos[0]);
+        if (!capa) return '';
+        return `
+            <a class="ui-dest" href="#imoveis" data-term="${escHtml(termo)}">
+                <span class="ui-dest-img"><img src="${capa.photos[0]}" loading="lazy" decoding="async" alt="Imóvel em ${escHtml(d.nome)}"></span>
+                <span class="ui-dest-body">
+                    <span class="ui-dest-reg">${escHtml(d.regiao)}</span>
+                    <strong class="ui-dest-nome">${escHtml(d.nome)}</strong>
+                    <span class="ui-dest-txt">${escHtml(d.texto)}</span>
+                    <span class="ui-dest-cta">${pluralize(achados.length, 'imóvel', 'imóveis')} · Ver imóveis <span aria-hidden="true">→</span></span>
+                </span>
+            </a>`;
+    }).join('');
+    grid.innerHTML = cards;
+    const n = grid.children.length;
+    grid.style.setProperty('--cols', n <= 3 ? Math.max(n, 1) : n === 4 ? 4 : 3);
+    sec.hidden = !cards;
 };
+
 const startCardPhotoVideo = () => {
     const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     window._cardTimers = window._cardTimers || new Map();
     if (window._cardIO) window._cardIO.disconnect();
     window._cardTimers.forEach(t => clearTimeout(t)); window._cardTimers.clear();
     if (reduced || !('IntersectionObserver' in window)) return;
-    const box = card => card.matches('.d-card') ? card : card.querySelector('.p-card-img,.u-card-img');
+    const box = card => card.querySelector('.pc-img,.p-card-img,.u-card-img') || card;
     const swap = card => {
         const wrap = box(card);
         const p = state.all.find(x => encodeURIComponent(x.id) === card.dataset.pid);
@@ -3448,36 +3237,92 @@ const startCardPhotoVideo = () => {
         if (en.isIntersecting) { if (!window._cardTimers.has(card)) window._cardTimers.set(card, setTimeout(() => loop(card), 800 + Math.random() * 3500)); }
         else { clearTimeout(window._cardTimers.get(card)); window._cardTimers.delete(card); }
     }), { rootMargin: '80px' });
-    document.querySelectorAll('.d-card[data-pid], .p-card[data-pid], .u-card[data-pid]').forEach(c => window._cardIO.observe(c));
+    document.querySelectorAll('.pc[data-pid]').forEach(c => window._cardIO.observe(c));
+};
+
+const filtrosAtivos = () => {
+    const f = state.filters, chips = [];
+    if (f.search) chips.push(['search', `Busca: ${$('filter-search').value.trim() || f.search}`]);
+    if (f.codigo) chips.push(['codigo', `Código: ${$('filter-codigo').value.trim() || f.codigo}`]);
+    if (f.hood) chips.push(['hood', f.hood]);
+    if (f.tipo) chips.push(['tipo', formatTipoImovelBR(f.tipo)]);
+    if (f.beds) chips.push(['beds', `${f.beds} ou mais quartos`]);
+    if (f.priceRange) chips.push(['priceRange', $('filter-price').selectedOptions[0]?.textContent || 'Faixa de preço']);
+    return chips;
+};
+const renderFiltrosAplicados = () => {
+    const chips = filtrosAtivos();
+    const avancados = chips.filter(([k]) => k !== 'search').length;
+    const badge = $('filtros-count');
+    badge.textContent = avancados; badge.hidden = !avancados;
+    $('filtros-aplicados').innerHTML = chips.length
+        ? chips.map(([k, label]) => `<span class="ui-chip">${escHtml(label)}<button type="button" data-chip="${k}" aria-label="Remover filtro: ${escHtml(label)}">×</button></span>`).join('') + `<button type="button" class="ui-link-btn" data-chip="all">Limpar tudo</button>`
+        : '';
+};
+const limparFiltro = key => {
+    const map = { search: ['filter-search', 'search'], codigo: ['filter-codigo', 'codigo'], hood: ['filter-hood', 'hood'], tipo: ['filter-tipo', 'tipo'], beds: ['filter-beds', 'beds'], priceRange: ['filter-price', 'priceRange'] };
+    if (key === 'all') { $('btn-reset').click(); return; }
+    const [id, prop] = map[key] || [];
+    if (!id) return;
+    $(id).value = ''; state.filters[prop] = '';
+    applyFilters();
 };
 
 const renderGrid = () => {
     const grid = $('properties-grid');
-    if (!state.filtered.length) { grid.innerHTML = state.feedError
-        ? `<div class="system-msg" role="status"><strong>O portfólio está temporariamente indisponível.</strong><p>Tente novamente ou converse com a equipe para consultar os imóveis.</p><button class="btn btn-line" type="button" onclick="location.reload()">Tentar novamente</button> <a class="btn btn-fill" href="https://wa.me/5562984854468" target="_blank" rel="noopener">Falar com a Arbor</a></div>`
-        : `<div class="system-msg" role="status">${state.all.length ? 'Nenhum imóvel encontrado com esses filtros.' : 'Nenhum imóvel disponível no portfólio neste momento.'}</div>`; $('load-more-container').classList.add('view-hidden'); return; }
-    grid.innerHTML = state.filtered.slice(0, state.visibleCount).map(p => `
-        <a href="#id=${encodeURIComponent(p.id)}" class="p-card" data-pid="${encodeURIComponent(p.id)}">
-            <div class="p-card-img">
-                <img class="kb" src="${p.photos[0]}" loading="lazy" alt="${getPropertyDisplayName(p)}">
-                ${renderPhotoWatermark('small')}
-                ${p.operacao && p.operacao !== 'Venda' ? `<span class="p-card-op-badge">${p.operacao}</span>` : ''}
-            </div>
-            <div class="p-card-body">
-                <span class="p-card-hood">${getCardLocationLabel(p)}</span>
-                ${getCardCode(p) ? `<span class="p-card-code">${getCardCode(p)}</span>` : ''}
-                <h3 class="p-card-title">${getPropertyDisplayName(p)}</h3>
-                ${getCardSpecs(p) ? `<div class="p-card-specs card-spec-list">${getCardSpecs(p)}</div>` : ''}
-                <div class="p-card-foot">
-                    <span class="p-card-price">${formatPropertyPrice(p)}</span>
-                    <span class="p-card-arrow"><i data-lucide="arrow-up-right" style="width:15px"></i></span>
-                </div>
-            </div>
-        </a>
-    `).join('');
+    renderFiltrosAplicados();
+    const qtd = $('resultado-qtd');
+    if (!state.filtered.length) {
+        qtd.textContent = state.isLoaded ? 'Nenhum imóvel encontrado' : 'Carregando imóveis…';
+        const vazioResp = state.isLoaded && !state.feedError && !filtrosAtivos().length ? (window.ArborEquipe?.mensagemVazia?.() || '') : '';
+        $('catalogo-view').classList.toggle('ui-resp-vazio', !!vazioResp);
+        grid.innerHTML = vazioResp ? vazioResp : state.feedError
+            ? `<div class="system-msg" role="status"><strong>O portfólio está temporariamente indisponível.</strong><p>Tente novamente ou converse com a equipe para consultar os imóveis.</p><button class="ui-btn ui-btn-outline" type="button" onclick="location.reload()">Tentar novamente</button> <a class="ui-btn ui-btn-primary" href="https://wa.me/5562984854468" target="_blank" rel="noopener">Falar com a Arbor</a></div>`
+            : `<div class="system-msg" role="status">${state.all.length ? 'Nenhum imóvel encontrado com esses filtros. Remova algum filtro ou tente outro termo.' : 'Nenhum imóvel disponível no portfólio neste momento.'}</div>`;
+        $('load-more-container').classList.add('view-hidden');
+        return;
+    }
+    $('catalogo-view').classList.remove('ui-resp-vazio');
+    const n = state.filtered.length;
+    qtd.textContent = `${n} ${n === 1 ? 'imóvel encontrado' : 'imóveis encontrados'}`;
+    grid.innerHTML = state.filtered.slice(0, state.visibleCount).map(propertyCard).join('');
     $('load-more-container').classList.toggle('view-hidden', state.visibleCount >= state.filtered.length);
     if (window.lucide) lucide.createIcons();
     startCardPhotoVideo();
+};
+
+/* Navegação para o catálogo (menu, "Ver todos os imóveis", busca rápida, destinos). */
+const goCatalogo = (opts = {}) => {
+    if (opts.search !== undefined) state.keepFilters = true;
+    if (opts.search !== undefined) {
+        state.filters.search = String(opts.search).toLowerCase();
+        $('filter-search').value = opts.search;
+        applyFilters();
+    }
+    if (location.hash === '#imoveis') handleRouting(); else location.hash = '#imoveis';
+};
+const abrirFiltros = open => {
+    const painel = $('filtros-painel'), botao = $('btn-filtros');
+    painel.hidden = !open; $('filtros-overlay').hidden = !open;
+    botao.setAttribute('aria-expanded', String(open));
+    document.body.classList.toggle('filtros-open', open);
+};
+const setupCatalogoUI = () => {
+    $('busca-form').addEventListener('submit', e => {
+        e.preventDefault();
+        state.filters.search = $('filter-search').value.toLowerCase();
+        applyFilters();
+        abrirFiltros(false);
+        $('catalogo-resultados').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+    $('quick-search').addEventListener('submit', e => { e.preventDefault(); goCatalogo({ search: $('quick-search-input').value.trim() }); });
+    $('btn-filtros').addEventListener('click', () => abrirFiltros($('filtros-painel').hidden));
+    $('filtros-fechar').addEventListener('click', () => abrirFiltros(false));
+    $('filtros-aplicar').addEventListener('click', () => { abrirFiltros(false); $('catalogo-resultados').scrollIntoView({ behavior: 'smooth', block: 'start' }); });
+    $('filtros-overlay').addEventListener('click', () => abrirFiltros(false));
+    document.addEventListener('keydown', e => { if (e.key === 'Escape' && !$('filtros-painel').hidden) abrirFiltros(false); });
+    $('filtros-aplicados').addEventListener('click', e => { const b = e.target.closest('[data-chip]'); if (b) limparFiltro(b.dataset.chip); });
+    $('destinos-grid').addEventListener('click', e => { const a = e.target.closest('.ui-dest'); if (a) { e.preventDefault(); goCatalogo({ search: a.dataset.term }); } });
 };
 
 /* ---------- Journal: notícias diárias (lê noticias.json, atualizado pelo GitHub Actions) ---------- */
@@ -3696,8 +3541,9 @@ document.addEventListener('click', (e) => {
 
 $('jn-search').addEventListener('input', e => { jn.search=e.target.value; jn.visible=9; if(jn.loaded) renderJournal(); });
 
-const ALL_VIEWS = ['list-view', 'detail-view', 'bairros-view', 'jornada-view', 'diferenciais-view', 'noticias-view','equipe-view'];
+const ALL_VIEWS = ['list-view', 'catalogo-view', 'detail-view', 'bairros-view', 'jornada-view', 'diferenciais-view', 'noticias-view','equipe-view','sobre-view'];
 const showView = (id) => {
+    state.curView = id;
     ALL_VIEWS.forEach(v => $(v).classList.toggle('view-hidden', v !== id));
     $(id).querySelectorAll('.reveal').forEach(el => el.classList.add('is-visible'));
 };
@@ -3735,6 +3581,14 @@ const handleRouting = () => {
             }
         }
     }
+    if (['#imoveis', '#busca-completa', '#catalogo'].includes(hash)) {
+        window.ArborEquipe?.sairDoPerfil?.();
+        const veioDe = state.curView;
+        if (veioDe && !['catalogo-view', 'detail-view'].includes(veioDe) && !state.keepFilters) $('btn-reset').click();
+        state.keepFilters = false;
+        showView('catalogo-view'); state.fromHash = '#imoveis'; window.scrollTo(0,0); if (window.lucide) lucide.createIcons(); return;
+    }
+    if (hash === '#sobre' || hash === '#essencia') { showView('sobre-view'); window.scrollTo(0,0); if (window.lucide) lucide.createIcons(); return; }
     if (hash === '#bairros') { showView('bairros-view'); window.scrollTo(0,0); if (window.lucide) lucide.createIcons(); return; }
     if (hash === '#jornada') { showView('jornada-view'); window.scrollTo(0,0); return; }
     if (hash === '#diferenciais') { showView('diferenciais-view'); window.scrollTo(0,0); if (window.lucide) lucide.createIcons(); return; }
@@ -3747,18 +3601,18 @@ const handleRouting = () => {
 
     showView('list-view');
     state.activeProp = null;
+    state.fromHash = '';
     if (hash === '' || hash === '#') { window.scrollTo({top:0, behavior:'smooth'}); }
 };
 
 const goToHoodFilter = (terms, label = '') => {
-    window.location.hash = '';
-    showView('list-view');
     $('filter-hood').value = '';
     state.filters.hood = '';
     $('filter-search').value = label || terms || '';
     state.filters.search = terms || '';
     applyFilters();
-    requestAnimationFrame(() => { const t = $('imoveis'); window.scrollTo({top:t.offsetTop-80, behavior:'smooth'}); });
+    state.keepFilters = true;
+    if (location.hash === '#imoveis') handleRouting(); else location.hash = '#imoveis';
 };
 
 /* ---------- Ficha A4 em aquarela ---------- */
@@ -4042,7 +3896,7 @@ const renderDetailContent = (p) => {
     const previewPhotos = (p.photos || []).slice(0, 1);
 
     $('detail-view').innerHTML = `
-        <button class="back-btn" id="detail-back-btn"><i data-lucide="arrow-left" style="width:14px"></i> Voltar ao portfólio</button>
+        <button class="back-btn" id="detail-back-btn"><i data-lucide="arrow-left" style="width:14px"></i> Voltar aos imóveis</button>
         <div class="detail-page-shell">
             <header class="detail-property-header">
                 <div class="detail-heading-main">
@@ -4077,6 +3931,13 @@ const renderDetailContent = (p) => {
                         </div>
                         <div class="k-desc">${formatDescricao(p.desc || 'Sem descrição detalhada no momento. Fale com a Arbor para receber mais informações sobre este imóvel.')}</div>
                     </div>
+                <section class="detail-side-panel detail-facts-panel">
+                    <span class="eyebrow">Ficha rápida</span>
+                    <h3>Informações essenciais</h3>
+                    <div class="detail-quick-list">
+                        ${quickInfo.map(([label, value]) => `<div class="detail-quick-item"><span class="detail-quick-label">${label}</span><div class="detail-quick-value">${value}</div></div>`).join('')}
+                    </div>
+                </section>
                 </div>
 
                 <aside class="detail-side-flow">
@@ -4117,13 +3978,6 @@ const renderDetailContent = (p) => {
                     </div>
                 </section>
 
-                <section class="detail-side-panel detail-facts-panel">
-                    <span class="eyebrow">Ficha rápida</span>
-                    <h3>Informações essenciais</h3>
-                    <div class="detail-quick-list">
-                        ${quickInfo.map(([label, value]) => `<div class="detail-quick-item"><span class="detail-quick-label">${label}</span><div class="detail-quick-value">${value}</div></div>`).join('')}
-                    </div>
-                </section>
                 </aside>
             </section>
 
@@ -4158,27 +4012,7 @@ const renderDetailContent = (p) => {
                 return `
                 <div class="sub-sec similar-props-section" style="margin-top:0;">
                     <div class="sub-head"><span class="eyebrow">Você também pode gostar</span><h3>Imóveis parecidos</h3></div>
-                    <div class="destaque-grid">
-                        ${similares.map(s => `
-                            <a href="#id=${encodeURIComponent(s.id)}" class="p-card">
-                                <div class="p-card-img">
-                                    <img src="${s.photos[0]}" loading="lazy" alt="${getPropertyDisplayName(s)}">
-                                    ${renderPhotoWatermark('small')}
-                                    ${s.operacao && s.operacao !== 'Venda' ? `<span class="p-card-op-badge">${s.operacao}</span>` : ''}
-                                </div>
-                                <div class="p-card-body">
-                                    <span class="p-card-hood">${getCardLocationLabel(s)}</span>
-                                    ${getCardCode(s) ? `<span class="p-card-code">${getCardCode(s)}</span>` : ''}
-                                    <h3 class="p-card-title">${getPropertyDisplayName(s)}</h3>
-                                    ${getCardSpecs(s) ? `<div class="p-card-specs card-spec-list">${getCardSpecs(s)}</div>` : ''}
-                                    <div class="p-card-foot">
-                                        <span class="p-card-price">${formatPropertyPrice(s)}</span>
-                                        <span class="p-card-arrow"><i data-lucide="arrow-up-right" style="width:15px"></i></span>
-                                    </div>
-                                </div>
-                            </a>
-                        `).join('')}
-                    </div>
+                    <div class="ui-cards">${similares.map(propertyCard).join('')}</div>
                 </div>`;
             })()}
 
@@ -4191,7 +4025,7 @@ const renderDetailContent = (p) => {
     `;
 
     if (window.lucide) lucide.createIcons();
-    $('detail-back-btn').addEventListener('click', (e) => { e.preventDefault(); goHome(); });
+    $('detail-back-btn').addEventListener('click', (e) => { e.preventDefault(); if (state.fromHash === '#imoveis') goCatalogo(); else if (state.fromHash) location.hash = state.fromHash; else goHome(); });
     state.dvIdx = 0;
     if ($('detail-main-img')) $('detail-main-img').addEventListener('click', () => {
         document.querySelector('#detail-view .detail-hero-card')?.classList.add('dv-lb');
@@ -4217,10 +4051,13 @@ const renderResponsavel = p => {
     const esc = v => String(v || '').replace(/[&<>"']/g, c => ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;' }[c]));
     const href = `${base}?text=${texto}`;
     const wa = `<svg viewBox="0 0 32 32" width="28" height="28" aria-hidden="true"><path fill="currentColor" d="M16 3C9 3 3.4 8.6 3.4 15.5c0 2.3.6 4.4 1.7 6.3L3 29l7.4-2c1.8 1 3.800 1.500 5.600 1.500 7 0 12.600-5.600 12.600-12.500S23 3 16 3zm0 22.800c-1.800 0-3.500-.5-5-1.400l-.4-.2-4.400 1.200 1.200-4.300-.3-.4a10.200 10.200 0 0 1-1.600-5.500C5.500 9.700 10.200 5.200 16 5.200s10.500 4.500 10.500 10.300S21.800 25.800 16 25.800zm5.800-7.600c-.3-.2-1.900-.9-2.200-1-.3-.1-.5-.2-.7.200-.2.300-.8 1-1 1.200-.2.200-.4.200-.7.100-.3-.2-1.400-.5-2.600-1.600-1-.9-1.600-1.900-1.800-2.200-.2-.3 0-.5.100-.7l.5-.5c.2-.2.200-.3.300-.5.100-.2.100-.4 0-.5l-1-2.300c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.100-.8.400-.3.300-1 1-1 2.400s1 2.800 1.200 3c.1.200 2 3.100 4.900 4.300.7.300 1.200.5 1.700.6.700.2 1.300.2 1.800.1.600-.1 1.900-.8 2.100-1.500.3-.7.300-1.400.2-1.500-.1-.2-.3-.2-.6-.4z"/></svg>`;
+    const perfil = r && r.id ? `#equipe=${encodeURIComponent(r.id)}` : '';
+    const ini = esc((r ? r.nome : 'Arbor').split(/\s+/).slice(0, 2).map(n => n[0]).join(''));
+    const avatar = r && r.foto ? `<img src="${esc(r.foto)}" alt="${esc(r.nome)}">` : `<span class="resp-ini" aria-hidden="true">${ini}</span>`;
     const card = `<div id="resp-card" class="resp-card">
-        ${r && r.foto ? `<img src="${esc(r.foto)}" alt="${esc(r.nome)}">` : `<span class="resp-ini" aria-hidden="true">${esc((r ? r.nome : 'Arbor').split(/\s+/).slice(0, 2).map(n => n[0]).join(''))}</span>`}
-        <div><small>Responsável pelo imóvel</small><strong>${esc(r ? r.nome : 'Equipe Arbor')}</strong>${r && r.creci ? `<em>CRECI ${esc(r.creci)}</em>` : ''}</div>
-        <a href="${href}" target="_blank" rel="noopener noreferrer" aria-label="Chamar no WhatsApp">${wa}</a>
+        ${perfil ? `<a class="resp-avatar" href="${perfil}" aria-label="Ver imóveis de ${esc(r.nome)}">${avatar}</a>` : avatar}
+        <div><small>Responsável pelo imóvel</small>${perfil ? `<a class="resp-nome" href="${perfil}"><strong>${esc(r.nome)}</strong></a>` : `<strong>${esc(r ? r.nome : 'Equipe Arbor')}</strong>`}${r && r.creci ? `<em>CRECI ${esc(r.creci)}</em>` : ''}${perfil ? `<a class="resp-ver" href="${perfil}">Ver imóveis deste responsável →</a>` : ''}</div>
+        <a class="resp-wa" href="${href}" target="_blank" rel="noopener noreferrer" aria-label="Chamar no WhatsApp">${wa}</a>
     </div>`;
     const actions = view.querySelector('.detail-primary-actions');
     if (actions) actions.insertAdjacentHTML('beforebegin', card);
@@ -4332,7 +4169,7 @@ const setupScrollTree = () => {
 
 window.ArborAtualizarEmpreendimentos = () => {
     if (!state.isLoaded) return;
-    renderDestaque(); renderUltimos(); applyFilters();
+    renderSelecao(); renderDestinos(); applyFilters();
     if (state.activeProp) renderDetailContent(state.activeProp);
     const cover = state.all.find(p => p.photos?.[0] && /^https:\/\//.test(p.photos[0]));
     if (cover) {
@@ -4345,7 +4182,7 @@ window.ArborAtualizarEmpreendimentos = () => {
 
 window.addEventListener('DOMContentLoaded', init);
 </script>
-<script src="equipe.js?v=aba-20261012"></script>
+<script src="equipe.js?v=catalogo-20261012"></script>
 <script src="empreendimentos.js?v=20261011"></script>
 <script src="journal-services.js"></script>
 </body>
