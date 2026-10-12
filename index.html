@@ -2211,48 +2211,6 @@
     <div class="copy">© 2026 · Arbor Imóveis<br>CRECI-GO 14.349 · Goiânia, Goiás</div>
 </footer>
 
-<button id="scroll-tree" type="button" aria-label="Entenda a identidade Arbor" aria-expanded="false" aria-controls="arbor-tree-panel">
-    <svg viewBox="0 0 100 150" width="34" height="51" aria-hidden="true">
-        <g class="st-canopy">
-            <circle cx="37" cy="39" r="15" fill="var(--verde)"/>
-            <circle cx="59" cy="37" r="16" fill="var(--verde)"/>
-            <circle cx="48" cy="23" r="14" fill="var(--verde)"/>
-        </g>
-        <g class="st-trunk">
-            <path d="M46 53 L54 53 L52 78 L48 78 Z" fill="var(--verde)"/>
-            <line x1="27" y1="78" x2="73" y2="78" stroke="var(--verde)" stroke-width="2"/>
-        </g>
-        <path class="st-roots" d="M50 78 Q41 96 33 117 M50 78 Q59 96 67 117 M50 78 Q47 103 45 131 M50 78 Q53 103 55 131 M43 89 Q34 98 28 106 M57 89 Q66 98 72 106" fill="none" stroke="var(--verde)" stroke-width="2.1" stroke-linecap="round"/>
-    </svg>
-</button>
-
-<div id="arbor-tree-backdrop" aria-hidden="true"></div>
-<aside id="arbor-tree-panel" role="dialog" aria-modal="false" aria-labelledby="arbor-tree-title" aria-hidden="true">
-    <div class="arbor-tree-panel-head">
-        <div>
-            <span class="eyebrow">Identidade Arbor</span>
-            <h3 id="arbor-tree-title">Uma escolha também cria raízes.</h3>
-        </div>
-        <button type="button" class="arbor-tree-close" id="arbor-tree-close" aria-label="Fechar"><i data-lucide="x" style="width:16px"></i></button>
-    </div>
-    <p class="arbor-tree-intro">A árvore não está aqui apenas como símbolo. Ela traduz a maneira como enxergamos uma decisão imobiliária: entender bem a base, conduzir o processo com consistência e abrir espaço para aquilo que vem depois.</p>
-    <div class="arbor-tree-points">
-        <div class="arbor-tree-point">
-            <div class="arbor-tree-symbol"><i data-lucide="sprout" style="width:20px"></i></div>
-            <div><h4>Raízes</h4><p>Informação, contexto e compreensão do seu momento. Uma boa decisão começa antes da visita e muito antes da assinatura.</p></div>
-        </div>
-        <div class="arbor-tree-point">
-            <div class="arbor-tree-symbol"><i data-lucide="git-branch" style="width:20px"></i></div>
-            <div><h4>Tronco</h4><p>Clareza para comparar caminhos, avaliar riscos e conduzir cada etapa com segurança, sem transformar a escolha em pressão.</p></div>
-        </div>
-        <div class="arbor-tree-point">
-            <div class="arbor-tree-symbol"><i data-lucide="trees" style="width:20px"></i></div>
-            <div><h4>Copa</h4><p>As possibilidades que surgem quando imóvel, rotina, investimento e planos futuros passam a fazer sentido juntos.</p></div>
-        </div>
-    </div>
-    <div class="arbor-tree-signature">Arbor Imóveis · decisões bem conduzidas</div>
-</aside>
-
 <div id="lightbox" role="dialog" aria-modal="true" aria-label="Galeria de fotos do imóvel">
     <button class="lb-btn" id="lb-close" type="button" aria-label="Fechar galeria"><i data-lucide="x" style="width:20px"></i></button>
     <button class="lb-btn" id="lb-prev" type="button" aria-label="Foto anterior"><i data-lucide="chevron-left" style="width:22px"></i></button>
@@ -2922,7 +2880,6 @@ const parseLegacyZapNodes = (imoveis) => imoveis.map(node => {
 const init = async () => {
     setupEventListeners();
     setupReveal();
-    setupScrollTree();
     handleRouting();
     if (window.lucide) lucide.createIcons();
 
