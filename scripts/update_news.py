@@ -70,6 +70,18 @@ QUERIES = [
     'Aparecida de Goiânia obras prefeitura',
 ]
 
+# Feeds diretos de veículos de Goiás: trazem o link real da matéria e, em geral, a foto.
+LOCAL_FEEDS = [
+    ("Jornal Opção", "https://www.jornalopcao.com.br/feed/"),
+    ("Mais Goiás", "https://www.maisgoias.com.br/feed/"),
+    ("Diário de Goiás", "https://diariodegoias.com.br/feed/"),
+    ("A Redação", "https://www.aredacao.com.br/feed"),
+    ("DM", "https://www.dm.com.br/feed/"),
+    ("Goiânia (Prefeitura)", "https://www.goiania.go.gov.br/feed/"),
+]
+MEDIA_NS = "{http://search.yahoo.com/mrss/}"
+CONTENT_NS = "{http://purl.org/rss/1.0/modules/content/}"
+
 RELEVANT = re.compile(
     r"imobili|imovel|imoveis|apartament|moradia|habitac|construcao civil|construtora|incorporad|"
     r"empreendimento residencial|casa propria|minha casa minha vida|"
@@ -150,6 +162,36 @@ def parse(xml_bytes):
             continue
         if title and link.startswith("https://"):
             yield {"title": title, "url": link, "source": source or "Fonte", "date": dt}
+
+
+def fetch_url(url):
+    req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "application/rss+xml, application/xml, text/xml"})
+    with urllib.request.urlopen(req, timeout=20) as r:
+        return r.read()
+
+
+def parse_local(xml_bytes, source):
+    """RSS de veículo (WordPress e similares): título, link real, data e foto quando houver."""
+    root = ET.fromstring(xml_bytes)
+    for it in list(root.iterfind(".//item"))[:40]:
+        title = html.unescape((it.findtext("title") or "").strip())
+        link = (it.findtext("link") or "").strip()
+        try:
+            dt = parsedate_to_datetime(it.findtext("pubDate")).astimezone(timezone.utc)
+        except Exception:
+            continue
+        img = ""
+        for tag in (MEDIA_NS + "content", MEDIA_NS + "thumbnail", "enclosure"):
+            el = it.find(tag)
+            if el is not None and (el.get("url") or "").startswith("https://") and (tag != "enclosure" or (el.get("type") or "image").startswith("image")):
+                img = el.get("url"); break
+        if not img:
+            body = (it.findtext(CONTENT_NS + "encoded") or "") + (it.findtext("description") or "")
+            m = re.search(r'<img[^>]+src=["\'](https://[^"\']+)', body)
+            if m:
+                img = html.unescape(m.group(1))
+        if title and link.startswith("https://"):
+            yield {"title": title, "url": link, "source": source, "date": dt, "img": img}
 
 
 def classify(title, source):
@@ -251,6 +293,35 @@ def main():
                 feeds.append(fetch(q))
             except Exception as e:  # uma consulta falhar não derruba as outras
                 print(f"aviso: '{q}' falhou: {e}", file=sys.stderr)
+    local_items = []
+    if "--offline" not in sys.argv:
+        for name, url in LOCAL_FEEDS:
+            try:
+                got = list(parse_local(fetch_url(url), name))
+                local_items += got
+                ok += 1
+                print(f"{name}: {len(got)} itens no feed")
+            except Exception as e:
+                print(f"aviso: feed {name} falhou: {e}", file=sys.stderr)
+    for n in local_items:
+        if now - n["date"] > timedelta(days=MAX_AGE_DAYS) or n["date"] > now + timedelta(hours=2):
+            continue
+        c = classify(n["title"], n["source"])
+        if not c:
+            t = norm(n["title"])
+            # veículo local: mudança da cidade entra mesmo sem citar Goiânia no título
+            if CITY.search(t) and not CITY_EXCLUDE.search(t) and not EXCLUDE.search(t) and not OTHER_PLACES.search(t):
+                c = ("cidade", True)
+            else:
+                continue
+        k = key(n["title"])
+        if k in items:
+            continue
+        items[k] = {
+            "title": n["title"], "url": n["url"], "source": n["source"],
+            "date": n["date"].strftime("%Y-%m-%dT%H:%M:%SZ"),
+            "cat": c[0], "local": True, "img": n["img"],
+        }
     for raw in feeds:
         try:
             parsed = list(parse(raw))
@@ -289,7 +360,10 @@ def main():
             pass
     cutoff = (now - timedelta(days=KEEP_DAYS)).strftime("%Y-%m-%dT%H:%M:%SZ")
     final = sorted((i for i in items.values() if i["date"] >= cutoff), key=lambda i: i["date"], reverse=True)[:MAX_ITEMS]
-    pending = [i for i in final if "img" not in i][:IMG_PER_RUN]
+    pending = [i for i in final if "img" not in i or (not i["img"] and "news.google.com" not in i["url"] and not i.get("img_tried"))][:IMG_PER_RUN]
+    for i in pending:
+        if "news.google.com" not in i["url"]:
+            i["img_tried"] = True
     if pending and "--offline" not in sys.argv:
         with ThreadPoolExecutor(max_workers=8) as ex:
             list(ex.map(enrich, pending))
