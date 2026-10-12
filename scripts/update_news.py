@@ -221,8 +221,15 @@ def classify(title, source):
 
 
 # ---------- imagem de capa da matéria ----------
-def http_get(url, limit=400_000, timeout=8):
-    req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept-Language": "pt-BR,pt;q=0.9"})
+# evita a tela de consentimento de cookies do Google (runner fora do Brasil)
+GNEWS_COOKIE = "CONSENT=YES+cb.20240101-00-p0.pt+FX+000; SOCS=CAESEwgDEgk0ODE3Nzk3MjQaAnB0IAEaBgiA_LyaBg"
+
+
+def http_get(url, limit=400_000, timeout=8, cookie=None):
+    headers = {"User-Agent": UA, "Accept-Language": "pt-BR,pt;q=0.9"}
+    if cookie:
+        headers["Cookie"] = cookie
+    req = urllib.request.Request(url, headers=headers)
     with urllib.request.urlopen(req, timeout=timeout) as r:
         return r.geturl(), r.read(limit).decode("utf-8", "ignore")
 
@@ -240,17 +247,26 @@ def gnews_real_url(url):
             return found.group(0).decode()
     except Exception:
         pass
-    _, page = http_get(f"https://news.google.com/rss/articles/{art}")
-    sig = re.search(r'data-n-a-sg="([^"]+)"', page)
-    ts = re.search(r'data-n-a-ts="([^"]+)"', page)
+    sig = ts = None
+    landed = ""
+    for page_url in (f"https://news.google.com/articles/{art}", f"https://news.google.com/rss/articles/{art}"):
+        try:
+            landed, page = http_get(page_url, cookie=GNEWS_COOKIE)
+        except Exception as e:
+            landed = f"{page_url} ({e})"
+            continue
+        sig = re.search(r'data-n-a-sg="([^"]+)"', page)
+        ts = re.search(r'data-n-a-ts="([^"]+)"', page)
+        if sig and ts:
+            break
     if not (sig and ts):
-        raise ValueError("parâmetros do Google News não encontrados")
+        raise ValueError(f"parâmetros do Google News não encontrados (página: {landed[:90]})")
     inner = ('["garturlreq",[["X","X",["X","X"],null,null,1,1,"US:en",null,1,null,null,null,null,null,0,1],'
              f'"X","X",1,[1,1,1],1,1,null,0,0,null,0],"{art}",{ts.group(1)},"{sig.group(1)}"]')
     body = "f.req=" + urllib.parse.quote(json.dumps([[["Fbv4je", inner]]]))
     req = urllib.request.Request(
         "https://news.google.com/_/DotsSplashUi/data/batchexecute", data=body.encode(),
-        headers={"User-Agent": UA, "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8"})
+        headers={"User-Agent": UA, "Cookie": GNEWS_COOKIE, "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8"})
     with urllib.request.urlopen(req, timeout=10) as r:
         txt = r.read().decode("utf-8", "ignore")
     return json.loads(json.loads(txt.split("\n\n")[1])[0][2])[1]
