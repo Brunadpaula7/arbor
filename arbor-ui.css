@@ -473,13 +473,7 @@ body.filtros-open #scroll-tree{display:none!important}
 .ic-modo.is-ativo{background:var(--ui-verde);color:#fff}
 .ic-modo:focus-visible{outline:2px solid var(--ui-terracota);outline-offset:2px}
 .ic-form{max-width:760px}
-.ic-visita{margin-bottom:16px}
-.ic-visita[hidden],.ic-tel-dica[hidden]{display:none}
-.ic-visita .ui-contato-campo{margin-bottom:0}
-.ic-visita .ui-contato-campo:first-child{grid-column:auto}
-.ic-form .ui-contato-campo select{font:inherit;font-size:1rem;color:var(--ui-texto);background:var(--ui-papel);border:1px solid var(--ui-linha);border-radius:10px;padding:12px 14px;min-height:48px}
-.ic-form .ui-contato-campo select:focus,.ic-form .ui-contato-campo input[type=date]:focus{outline:none;border-color:var(--ui-verde);box-shadow:0 0 0 3px rgba(32,64,48,.12)}
-.ic-form .ui-contato-campo input[type=date]{min-height:48px}
+.ic-tel-dica[hidden]{display:none}
 .ic-tel-dica{color:var(--ui-terracota)}
-@media(max-width:560px){.ic-modos{display:flex}.ic-modo{flex:1;padding:10px 8px}.ic-visita{grid-template-columns:1fr}}
+@media(max-width:560px){.ic-modos{display:flex}.ic-modo{flex:1;padding:10px 8px}}
 @media(max-width:600px){.mobile-detail-cta{grid-template-columns:minmax(0,1fr) 52px 52px}.mobile-detail-cta .mobile-wa-btn{width:52px;min-width:52px;padding:0;border-radius:14px}}

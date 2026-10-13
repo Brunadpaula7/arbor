@@ -4,15 +4,10 @@
 (function () {
     'use strict';
     var SITE = 'https://www.arborimoveis.com.br/';
-    var PERIODOS = { qualquer: 'Qualquer horário', manha: 'Manhã', tarde: 'Tarde', noite: 'Noite' };
-
-    function dataBR(iso) { var p = String(iso || '').split('-'); return p.length === 3 ? p[2] + '/' + p[1] + '/' + p[0] : ''; }
-    function hojeISO() { var d = new Date(); d.setMinutes(d.getMinutes() - d.getTimezoneOffset()); return d.toISOString().slice(0, 10); }
 
     function definirModo(form, modo) {
         form.setAttribute('data-modo', modo);
         var visita = modo === 'visita';
-        form.querySelectorAll('.ic-visita').forEach(function (el) { el.hidden = !visita; });
         form.parentNode.querySelectorAll('.ic-modo').forEach(function (b) {
             var ativo = b.getAttribute('data-modo') === modo;
             b.classList.toggle('is-ativo', ativo);
@@ -45,7 +40,6 @@
         var codigo = String(imovel.codigo || ''), titulo = String(imovel.titulo || '').slice(0, 120);
         var url = SITE + '#id=' + encodeURIComponent(codigo);
 
-        form.elements.data.min = hojeISO();
         definirModo(form, 'mensagem');
         document.querySelectorAll('#imovel-contato .ic-modo').forEach(function (b) {
             b.addEventListener('click', function () { definirModo(form, b.getAttribute('data-modo')); });
@@ -62,21 +56,16 @@
             if (d.get('website')) return; // robô
             var visita = form.getAttribute('data-modo') === 'visita';
             var nome = String(d.get('nome') || '').trim(), email = String(d.get('email') || '').trim(),
-                telefone = String(d.get('telefone') || '').trim(), texto = String(d.get('mensagem') || '').trim(),
-                data = String(d.get('data') || ''), periodo = PERIODOS[d.get('periodo')] ? String(d.get('periodo')) : 'qualquer';
+                telefone = String(d.get('telefone') || '').trim(), texto = String(d.get('mensagem') || '').trim();
 
             if (!nome) return aviso('Informe seu nome.', 'erro');
             if (!C.emailValido(email)) return aviso('Informe um e-mail válido para retornarmos.', 'erro');
-            if (visita && telefone.replace(/\D/g, '').length < 10) return aviso('Informe seu WhatsApp com DDD para combinarmos o horário da visita.', 'erro');
+            if (visita && telefone.replace(/\D/g, '').length < 10) return aviso('Informe seu WhatsApp com DDD para combinarmos a visita.', 'erro');
             if (!visita && !texto) return aviso('Escreva sua mensagem sobre o imóvel.', 'erro');
-            if (visita && data && data < hojeISO()) return aviso('Escolha uma data a partir de hoje.', 'erro');
             if (!form.elements.aceite.checked) return aviso('Marque a concordância com a Política de Privacidade para enviar.', 'erro');
 
             var linhas = ['Imóvel: Cód. ' + codigo + (titulo ? ' — ' + titulo : ''), 'Link: ' + url];
-            if (visita) {
-                linhas.push('Interesse: DESEJO VISITAR');
-                linhas.push('Data preferida: ' + (data ? dataBR(data) : 'a combinar') + ' — ' + PERIODOS[periodo]);
-            }
+            if (visita) linhas.push('Interesse: DESEJO VISITAR');
             linhas.push('', texto || 'Gostaria de agendar uma visita a este imóvel.');
             var mensagem = linhas.join('\n');
 
@@ -88,7 +77,7 @@
             }).then(function () {
                 form.reset();
                 definirModo(form, 'mensagem');
-                aviso(visita ? 'Pedido de visita enviado. Nossa equipe retorna em breve para combinar o horário.' : 'Mensagem enviada. Obrigado! Retornaremos em breve.', 'ok');
+                aviso(visita ? 'Pedido de visita enviado. Nossa equipe retorna em breve para combinar a visita.' : 'Mensagem enviada. Obrigado! Retornaremos em breve.', 'ok');
             }).catch(function (err) {
                 if (err && err.message === 'muitas') return aviso('Muitas tentativas seguidas. Aguarde alguns minutos ou chame no WhatsApp.', 'erro');
                 aviso('Não conseguimos enviar pelo site agora. Abrimos o seu e-mail com a mensagem pronta para ' + C.destino + ' — é só enviar. Se preferir, chame no WhatsApp.', 'erro');
