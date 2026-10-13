@@ -196,8 +196,40 @@ body.filtros-open #scroll-tree{display:none!important}
 .system-msg a.ui-btn-outline{background:transparent!important;color:var(--ui-verde)!important;border:1px solid rgba(32,64,48,.45)!important}
 .system-msg a.ui-btn-primary{background:var(--ui-verde)!important;color:var(--ui-creme)!important}
 .ui-sobre{max-width:720px;font-size:1.08rem;line-height:1.8;color:var(--ui-suave)}
+.ui-sobre [hidden]{display:none!important}
+.ui-sobre p{margin:0 0 1.1em}
+.ui-sobre .ui-sobre-destaque{color:var(--ui-verde);font-weight:500;font-size:1.14rem}
 .ui-sobre-acoes{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}
 @media(max-width:700px){.ui-sobre-acoes .ui-btn{flex:1 1 100%}}
+
+/* ---------- contato (página Nossa essência) ---------- */
+.ui-contato{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,.62fr);gap:clamp(24px,5vw,64px);align-items:center;margin-top:56px;padding-top:44px;border-top:1px solid var(--ui-linha)}
+.ui-contato-corpo{min-width:0;max-width:720px}
+.ui-contato-fig{margin:0}
+@media(max-width:860px){.ui-contato{grid-template-columns:1fr}.ui-contato-fig{order:-1;max-width:240px}}
+.ui-contato h3{font-size:clamp(1.6rem,3vw,2.2rem);font-weight:300;color:var(--ui-verde);margin:8px 0 10px;line-height:1.15}
+.ui-contato h3 em{color:var(--ui-terracota)}
+.ui-contato-intro{color:var(--ui-suave);line-height:1.7;margin:0 0 24px}
+.ui-contato-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.ui-contato-grid .ui-contato-campo:first-child{grid-column:1/-1}
+.ui-contato-campo{display:flex;flex-direction:column;gap:6px;margin-bottom:16px}
+.ui-contato-grid .ui-contato-campo{margin-bottom:0}
+.ui-contato-grid{margin-bottom:16px}
+.ui-contato-campo>span{font-size:.78rem;letter-spacing:.06em;text-transform:uppercase;color:var(--ui-verde);font-weight:500}
+.ui-contato-campo small{text-transform:none;letter-spacing:0;color:var(--ui-suave);font-weight:400}
+.ui-contato-campo input,.ui-contato-campo textarea{font:inherit;font-size:1rem;color:var(--ui-texto);background:var(--ui-papel);border:1px solid var(--ui-linha);border-radius:10px;padding:13px 14px;min-height:48px;width:100%;box-sizing:border-box;transition:border-color .2s,box-shadow .2s}
+.ui-contato-campo textarea{resize:vertical;min-height:130px;line-height:1.6}
+.ui-contato-campo input:focus,.ui-contato-campo textarea:focus{outline:none;border-color:var(--ui-verde);box-shadow:0 0 0 3px rgba(32,64,48,.12)}
+.ui-contato-honey{position:absolute!important;left:-9999px;width:1px;height:1px;opacity:0}
+.ui-contato-aceite{display:flex;gap:10px;align-items:flex-start;font-size:.88rem;line-height:1.5;color:var(--ui-suave);margin-bottom:20px}
+.ui-contato-aceite input{margin-top:3px;flex:none;width:18px;height:18px;accent-color:var(--ui-verde)}
+.ui-contato-aceite a{color:var(--ui-verde);text-decoration:underline}
+.ui-contato-rodape{display:flex;flex-wrap:wrap;align-items:center;gap:16px}
+.ui-contato-rodape .ui-btn:disabled{opacity:.6;cursor:wait}
+.ui-contato-status{margin:0;font-size:.92rem;line-height:1.5;color:var(--ui-suave)}
+.ui-contato-status.is-ok{color:#2f6a46}
+.ui-contato-status.is-erro{color:var(--ui-terracota)}
+@media(max-width:700px){.ui-contato-grid{grid-template-columns:1fr}.ui-contato-rodape .ui-btn{flex:1 1 100%}}
 
 /* Início: verde com profundidade suave e base em curva (sem bordas irregulares) */
 .hero{background:radial-gradient(ellipse 55% 75% at 76% 42%,#2b5440 0%,#224634 45%,#1b3a2b 100%)!important;padding-bottom:110px!important}
@@ -319,3 +351,112 @@ body.filtros-open #scroll-tree{display:none!important}
 #noticias-view .jn-feed.jn-cidade{grid-template-columns:repeat(4,minmax(0,1fr))}
 @media(max-width:1000px){#noticias-view .jn-feed.jn-cidade{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:700px){#noticias-view .jn-feed.jn-cidade{grid-template-columns:minmax(0,1fr)}}
+
+
+/* ---------- Nossa essência: texto + aquarelas ---------- */
+.ui-essencia{max-width:1080px;font-size:1.08rem;line-height:1.8;color:var(--ui-suave)}
+.ui-essencia [hidden]{display:none!important}
+.ui-essencia p{margin:0 0 1.1em}
+.ui-essencia p:last-child{margin-bottom:0}
+.ui-essencia .ui-ess-lead{font-size:clamp(1.15rem,2vw,1.34rem);line-height:1.7;color:var(--ui-texto)}
+.ui-ess-bloco{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:clamp(24px,5vw,72px);align-items:center;margin:0 0 clamp(40px,6vw,72px)}
+.ui-ess-bloco.is-rev{grid-template-columns:minmax(0,.95fr) minmax(0,1.05fr)}
+.ui-ess-texto{min-width:0}
+.ui-ess-fig{position:relative;margin:0;display:flex;justify-content:center;isolation:isolate}
+.ui-ess-fig::before{content:"";position:absolute;inset:8% 4% 4%;z-index:-1;border-radius:46% 54% 50% 50%/55% 45% 55% 45%;background:radial-gradient(closest-side,rgba(188,149,112,.22),rgba(188,149,112,0) 72%);filter:blur(6px)}
+.ui-ess-fig img{display:block;width:100%;height:auto;max-width:520px}
+.ui-ess-fig--pequena img{max-width:340px}
+
+/* raízes · tronco · copa */
+.ui-ess-arvore{margin:0 0 clamp(40px,6vw,72px);padding:clamp(24px,4vw,44px) clamp(20px,4vw,48px);background:var(--ui-papel);border:1px solid var(--ui-linha);border-radius:18px}
+.ui-ess-arvore .ui-ess-lead{text-align:center;margin-bottom:10px}
+.ui-essencia .ui-ess-sub{margin:0 0 14px;text-align:center;font-size:.8rem;letter-spacing:.14em;text-transform:uppercase;color:var(--ui-verde)}
+.ui-essencia .ui-ess-intro{margin:0 auto 30px;max-width:640px;text-align:center;font-size:1rem;line-height:1.65;color:#5e6a63}
+.ui-essencia .ui-ess-parte p strong{display:block;margin-bottom:6px;font-weight:500;color:var(--ui-verde)}
+.ui-essencia .ui-ess-parte p{font-size:.95rem}
+.ui-essencia .ui-ess-citacao{margin:44px auto 0;max-width:640px;text-align:center;font-style:italic;font-size:1rem;line-height:1.6;color:#6d5a47}
+.ui-venn svg{width:100%;max-width:380px;height:auto;display:block;margin:0 auto}
+.ui-venn::before{display:none}
+/* raízes · tronco · copa: fatias da árvore da logo, na mesma escala — sobrepostas pelo centro formam a árvore inteira */
+.ui-ess-partes{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(16px,3vw,40px)}
+.ui-ess-parte{text-align:center;padding:0 6px}
+.ui-fatia-box{height:130px;display:flex;align-items:center;justify-content:center;margin-bottom:12px}
+.ui-ess-ico{display:block;height:auto;max-width:100%}
+.ui-ess-ico.is-copa{width:230px}.ui-ess-ico.is-tronco{width:150px}.ui-ess-ico.is-raizes{width:210px}
+.ui-ess-parte h3{margin:0 0 6px;font-size:1.45rem;font-weight:400;color:var(--ui-verde)}
+.ui-ess-parte p{margin:0;font-size:1rem;line-height:1.6}
+@media(max-width:700px){.ui-ess-partes{grid-template-columns:1fr;gap:22px}.ui-ess-parte{display:grid;grid-template-columns:104px 1fr;column-gap:16px;text-align:left;align-items:center}.ui-fatia-box{grid-row:1/3;height:80px;margin:0}.ui-ess-ico.is-copa,.ui-ess-ico.is-tronco,.ui-ess-ico.is-raizes{width:100%}}
+
+/* frase de destaque */
+.ui-ess-frase{margin:0 0 clamp(48px,7vw,88px);padding:clamp(22px,4vw,40px) 0;border-top:1px solid var(--ui-linha);border-bottom:1px solid var(--ui-linha);text-align:center;font-size:clamp(1.3rem,2.8vw,2rem);line-height:1.4;font-weight:300;color:var(--ui-verde);font-family:'Cormorant Garamond',Georgia,serif;font-style:italic}
+
+/* Arbor Concept */
+.ui-concept{margin:0 0 clamp(36px,5vw,56px);padding:clamp(20px,3vw,32px) 0 0;border-top:1px solid var(--ui-linha)}
+.ui-concept-cab{text-align:center;margin:0 auto clamp(22px,3.5vw,40px);max-width:640px}
+.ui-concept-logo{display:block;width:min(100%,420px);height:auto;margin:0 auto 14px}
+.ui-concept h3{font-size:clamp(1.15rem,2.2vw,1.55rem);font-weight:300;color:var(--ui-verde);margin:0;line-height:1.35;letter-spacing:0}
+.ui-concept h3 em{color:var(--ui-terracota)}
+.ui-concept .ui-sobre-destaque{font-family:'Cormorant Garamond',Georgia,serif;font-style:italic;font-weight:400;font-size:clamp(1.25rem,2.4vw,1.6rem);line-height:1.4}
+
+@media(max-width:860px){
+  .ui-ess-bloco,.ui-ess-bloco.is-rev{grid-template-columns:1fr}
+  .ui-ess-bloco.is-rev .ui-ess-fig{order:2}
+  .ui-ess-fig img{max-width:420px}
+}
+
+@media(min-width:701px){
+  .ui-ess-partes{grid-template-rows:auto auto auto;row-gap:0}
+  .ui-ess-parte{display:grid;grid-template-rows:subgrid;grid-row:span 3;align-content:start}
+  .ui-fatia-box{height:150px;align-self:end}
+  .ui-ess-parte h3{align-self:start}
+}
+
+/* Credenciados Arbor */
+.ui-cred{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,.95fr);gap:clamp(24px,5vw,64px);align-items:start;margin:0 0 clamp(36px,5vw,56px);padding:clamp(20px,3vw,32px) 0 0;border-top:1px solid var(--ui-linha)}
+.ui-cred-texto h3{margin:0 0 12px;font-size:clamp(1.7rem,3.2vw,2.5rem);font-weight:300;line-height:1.05;color:var(--ui-terracota);text-transform:uppercase;letter-spacing:.01em}
+.ui-cred-texto h3 em{font-style:normal;font-family:inherit;display:block}
+.ui-essencia .ui-cred-sub{margin:0 0 14px;font-size:.95rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--ui-terracota)}
+.ui-essencia .ui-cred-texto p{margin:0 0 .8em;font-size:1.02rem;line-height:1.6;color:var(--ui-texto)}
+.ui-essencia .ui-cred-texto .ui-cred-assinatura{margin:1em 0 0}
+.ui-cred-assinatura strong{color:var(--ui-terracota);font-weight:600}
+.ui-cred-selos{width:100%;list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:clamp(6px,1.4vw,14px)}
+.ui-cred-selos li{margin:0}
+.ui-cred-selos img{display:block;width:100%;height:auto}
+@media(max-width:760px){.ui-cred{grid-template-columns:1fr}}
+
+/* Princípios da Arbor */
+.ui-principios{margin:1.4em 0 1.6em;padding:0}
+.ui-essencia .ui-principios-sub{margin:6px 0 14px;font-size:.95rem;line-height:1.5;color:var(--ui-suave)}
+.ui-principios dl{margin:0}
+.ui-principio{padding:14px 0;border-top:1px solid var(--ui-linha)}
+.ui-principio:first-child{padding-top:12px}
+.ui-principio:last-child{padding-bottom:4px;border-bottom:1px solid var(--ui-linha)}
+.ui-principio dt{margin:0 0 3px;font-size:.82rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--ui-terracota)}
+.ui-principio dd{margin:0;font-size:1rem;line-height:1.55;color:var(--ui-texto)}
+
+/* Sistema próprio (tecnologia a serviço do atendimento) */
+.ui-sistema h3{margin:0 0 18px;font-size:clamp(1.5rem,2.8vw,2.1rem);font-weight:300;line-height:1.2;color:var(--ui-verde)}
+.ui-sistema h3 em{display:block;margin-top:4px;font-style:normal;color:var(--ui-terracota)}
+.ui-sistema .ui-ess-fig img{max-width:460px}
+.ui-sistema .ui-sobre-destaque{color:var(--ui-verde);font-weight:500;font-size:1.14rem}
+
+/* Diferenciais dentro da Jornada */
+.ui-dif .sub-head h3{font-size:clamp(1.7rem,3.2vw,2.5rem);font-weight:300;line-height:1.15;color:var(--ui-verde);margin:6px 0 0}
+.ui-dif .sub-head h3 em{color:var(--ui-terracota)}
+.ui-dif-intro{max-width:760px;margin:0 0 clamp(24px,4vw,40px);color:var(--grafite);line-height:1.75}
+.ui-dif-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(24px,3.4vw,44px) clamp(20px,3vw,40px)}
+.ui-dif-item{display:flex;flex-direction:column;align-items:flex-start;padding-top:18px;border-top:1px solid var(--ui-linha)}
+.ui-dif-fig{margin:0 0 6px;width:100%;display:flex;justify-content:center}
+.ui-dif-fig img{display:block;width:100%;max-width:250px;height:auto}
+.ui-dif-num{font-size:.74rem;letter-spacing:.2em;color:var(--ui-terracota);font-weight:600}
+.ui-dif-item h4{margin:4px 0 8px;font-size:1.3rem;font-weight:400;color:var(--ui-verde)}
+.ui-dif-item p{margin:0;font-size:.98rem;line-height:1.65;color:var(--grafite)}
+.ui-dif-frase{margin:clamp(32px,5vw,56px) 0 0;padding:clamp(20px,3.4vw,34px) 0;border-top:1px solid var(--ui-linha);border-bottom:1px solid var(--ui-linha);text-align:center;font-family:'Cormorant Garamond',Georgia,serif;font-style:italic;font-size:clamp(1.4rem,3vw,2.2rem);line-height:1.35;color:var(--ui-verde)}
+.ui-dif-frase .eyebrow{display:block;margin-bottom:8px;font-family:inherit;font-style:normal}
+@media(max-width:900px){.ui-dif-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:560px){.ui-dif-grid{grid-template-columns:1fr}.ui-dif-fig{justify-content:flex-start}.ui-dif-fig img{max-width:220px}}
+
+/* Jornada: uma ilustração por etapa */
+.j-ilus{display:block;width:100%;max-width:150px;height:auto;margin:4px auto 10px}
+.temp-zone .j-ilus-t{max-width:210px;margin:0 0 14px;border-radius:16px}
+@media(max-width:900px){.j-step .j-ilus{grid-column:2;grid-row:2;margin:8px 0 0;max-width:140px}}

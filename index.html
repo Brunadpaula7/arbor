@@ -810,7 +810,7 @@
             .j-step{ display:grid; grid-template-columns:48px minmax(0,1fr); column-gap:14px; align-items:center; }
             .j-num{ grid-column:1; grid-row:1; margin:0; }
             .j-step h4{ grid-column:2; grid-row:1; margin:0; }
-            .j-step > p{ grid-column:2; grid-row:2; margin:9px 0 0; }
+            .j-step > p{ grid-column:2; grid-row:3; margin:9px 0 0; }
             .j-step.is-active > p{ display:block; animation:jornadaDetailIn .32s ease both; }
             .jornada-detail{ display:none !important; }
             .temp-bar{ flex-direction:column; }
@@ -1748,7 +1748,7 @@
     <link rel="stylesheet" href="equipe.css?v=redondas-20261011">
     <link rel="stylesheet" href="site.css">
     <link rel="stylesheet" href="watercolor.css">
-    <link rel="stylesheet" href="arbor-ui.css?v=1">
+    <link rel="stylesheet" href="arbor-ui.css?v=34">
 </head>
 <body>
 <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs><filter id="wc-soft" x="-30%" y="-30%" width="160%" height="160%"><feTurbulence type="fractalNoise" baseFrequency="0.008 0.011" numOctaves="3" seed="11" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="70" xChannelSelector="R" yChannelSelector="G" result="d"/><feGaussianBlur in="d" stdDeviation="9"/></filter><filter id="wc-edge" x="-5%" y="-100%" width="110%" height="300%"><feTurbulence type="fractalNoise" baseFrequency="0.012 0.09" numOctaves="3" seed="4" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="34" xChannelSelector="R" yChannelSelector="G"/></filter></defs></svg>
@@ -1760,7 +1760,6 @@
         <li><a href="#imoveis" id="nav-imoveis-btn">Imóveis</a></li>
         <li><a href="#bairros" id="nav-bairros-btn">Bairros</a></li>
         <li><a href="#jornada" id="nav-jornada-btn">Jornada</a></li>
-        <li><a href="#diferenciais" id="nav-diferenciais-btn">Diferenciais</a></li>
         <li><a href="#noticias" id="nav-noticias-btn">Journal</a></li>
         <li><a href="#sobre" id="nav-sobre-btn">Sobre</a></li>
         <li data-arbor-equipe hidden><a href="#equipe" id="nav-equipe-btn">Equipe</a></li>
@@ -1774,7 +1773,6 @@
     <a href="#imoveis" class="mm-link">Imóveis</a>
     <a href="#bairros" class="mm-link">Bairros</a>
     <a href="#jornada" class="mm-link">Jornada</a>
-    <a href="#diferenciais" class="mm-link">Diferenciais</a>
     <a href="#noticias" class="mm-link">Journal</a>
     <a href="#sobre" class="mm-link">Sobre</a>
     <a href="#equipe" class="mm-link" data-arbor-equipe hidden>Equipe</a>
@@ -1977,56 +1975,178 @@
     <button class="back-btn" id="sobre-back-btn"><i data-lucide="arrow-left" style="width:14px"></i> Voltar à Home</button>
     <div class="sec-head">
         <span class="eyebrow">Nossa essência</span>
-        <h2>Presença e cuidado. <em>Em cada escolha.</em></h2>
-        <p>A Arbor aproxima pessoas e imóveis com uma leitura cuidadosa de localização, características e objetivos.</p>
+        <h2>Uma só raiz. <em>Um só propósito.</em></h2>
+        <p>Casas contam histórias. Algumas mudam destinos.</p>
     </div>
-    <div class="ui-sobre">
-        <p>Nosso trabalho é organizar as informações, acompanhar visitas e conduzir a negociação com clareza. Para quem compra, vende ou busca uma nova forma de morar.</p>
+    <div class="ui-essencia">
+
+        <div class="ui-ess-bloco">
+            <div class="ui-ess-texto">
+                <p class="ui-ess-lead">Mais do que um nome, <strong>Arbor</strong> traduz a estrutura que queremos construir no mercado: uma casa que acolhe, uma base que sustenta e um ecossistema que conecta pessoas, negócios e patrimônio.</p>
+            </div>
+            <figure class="ui-ess-fig"><img src="assets/ilustracoes/aquarela-casa.webp" alt="Aquarela de uma casa com uma árvore ao lado" loading="lazy" decoding="async" width="566" height="476"></figure>
+        </div>
+
+        <div class="ui-ess-arvore">
+            <p class="ui-ess-lead">Arbor significa árvore em latim.</p>
+            <p class="ui-ess-sub">Por que uma árvore? A árvore representa os pilares que sustentam a Arbor.</p>
+            <p class="ui-ess-intro">A árvore traduz, de forma simples, a maneira como a empresa se estrutura: raízes que sustentam, um tronco que organiza e uma copa que cresce.</p>
+            <div class="ui-ess-partes">
+                <div class="ui-ess-parte">
+                    <div class="ui-fatia-box"><img class="ui-ess-ico is-raizes" src="assets/ilustracoes/arv-raizes.webp?v=1" alt="" loading="lazy" decoding="async" width="469" height="154"></div>
+                    <h3>Raízes</h3>
+                    <p><strong>Confiança, reputação, relacionamento e história.</strong> É onde tudo começa. A base construída ao longo do tempo e as relações que dão força e continuidade à empresa.</p>
+                </div>
+                <div class="ui-ess-parte">
+                    <div class="ui-fatia-box"><img class="ui-ess-ico is-tronco" src="assets/ilustracoes/arv-tronco.webp?v=1" alt="" loading="lazy" decoding="async" width="275" height="122"></div>
+                    <h3>Tronco</h3>
+                    <p><strong>Gestão, estrutura, processos e solidez financeira.</strong> É o que mantém a empresa firme, organiza suas operações e transforma suas bases em uma estrutura sólida.</p>
+                </div>
+                <div class="ui-ess-parte">
+                    <div class="ui-fatia-box"><img class="ui-ess-ico is-copa" src="assets/ilustracoes/arv-copa.webp?v=1" alt="" loading="lazy" decoding="async" width="574" height="367"></div>
+                    <h3>Copa</h3>
+                    <p><strong>Expansão, presença de mercado, oportunidades e crescimento.</strong> É a parte que se projeta para o futuro, amplia horizontes e transforma uma base sólida em novas possibilidades.</p>
+                </div>
+            </div>
+            <p class="ui-ess-citacao">“Uma marca forte cresce quando cada parte da sua estrutura sustenta e fortalece a próxima.”</p>
+        </div>
+
+        <div class="ui-ess-bloco is-rev">
+            <figure class="ui-ess-fig"><img src="assets/ilustracoes/aquarela-equipe.webp" alt="Aquarela de uma equipe reunida em volta de uma mesa com plantas e projetos" loading="lazy" decoding="async" width="668" height="496"></figure>
+            <div class="ui-ess-texto">
+                <p>É essa ideia que orienta nossa maneira de trabalhar: compreender o momento de cada cliente, selecionar oportunidades com atenção e conduzir cada negociação com clareza e discrição.</p>
+                <div class="ui-principios">
+                    <span class="ui-eyebrow">Princípios da Arbor</span>
+                    <p class="ui-principios-sub">Aquilo que sustenta a nossa estrutura de negócios.</p>
+                    <dl>
+                        <div class="ui-principio"><dt>Excelência</dt><dd>Buscar o mais alto nível em cada entrega, interação e detalhe.</dd></div>
+                        <div class="ui-principio"><dt>Curadoria</dt><dd>Construir relações e oportunidades com critério, intenção e responsabilidade.</dd></div>
+                        <div class="ui-principio"><dt>Discrição</dt><dd>Respeitar informações, relações e negociações com confidencialidade.</dd></div>
+                        <div class="ui-principio"><dt>Inteligência</dt><dd>Compartilhar conhecimento, contexto e visão para gerar melhores decisões.</dd></div>
+                        <div class="ui-principio"><dt>Elegância</dt><dd>Conduzir relações, negociações e parcerias com sofisticação, respeito e maturidade.</dd></div>
+                    </dl>
+                </div>
+                <p>Esses princípios sustentam nossas escolhas — nos imóveis que apresentamos, nas informações que compartilhamos e nas relações que construímos.</p>
+            </div>
+        </div>
+
+        <blockquote class="ui-ess-frase">Porque uma estrutura forte também se constrói com pessoas.</blockquote>
+
+        <section class="ui-ess-bloco is-rev ui-sistema" aria-labelledby="sistema-titulo">
+            <figure class="ui-ess-fig"><img src="assets/ilustracoes/sistema.svg?v=4" alt="Ilustração de um robô de inteligência artificial conectado a notebook, tablet e celular por fluxos de automação" loading="lazy" decoding="async" width="496" height="280"></figure>
+            <div class="ui-ess-texto">
+                <h3 id="sistema-titulo">Criado para o nosso jeito de trabalhar. <em>Pensado para cuidar de cada história.</em></h3>
+                <p>Desenvolvemos um sistema próprio, adaptado à rotina e à forma de atuação do nosso time comercial.</p>
+                <p>Essa estrutura nos permite agilizar processos, organizar informações e personalizar o atendimento às necessidades de cada proprietário e cliente.</p>
+                <p>A automação abre espaço para a equipe se dedicar ao que exige presença: ouvir, compreender, orientar e acompanhar.</p>
+                <p class="ui-sobre-destaque">Criamos tecnologia para sustentar aquilo que está cada vez mais escasso no mercado imobiliário: atenção, preparo, retorno e continuidade no atendimento.</p>
+            </div>
+        </section>
+
+        <section class="ui-cred" aria-labelledby="cred-titulo">
+            <div class="ui-cred-texto">
+                <h3 id="cred-titulo">Credenciados <em>Arbor</em></h3>
+                <p class="ui-cred-sub">Não indicamos parceiros</p>
+                <p>Nós assinamos escolhas que carregam os mesmos propósitos que a Arbor.</p>
+                <p>Chamamos de Credenciados Arbor os profissionais e empresas que recebem a nossa chancela de excelência.</p>
+                <p>A nossa curadoria transforma confiança em conexão.</p>
+                <p class="ui-cred-assinatura">A nossa assinatura é <strong>Ir além da venda.</strong></p>
+            </div>
+            <ul class="ui-cred-selos">
+                <li><img src="assets/credenciados/solucoes-bancarias.webp?v=1" alt="Selo Credenciado Arbor — Soluções bancárias" loading="lazy" decoding="async" width="300" height="300"></li>
+                <li><img src="assets/credenciados/despachante.webp?v=1" alt="Selo Credenciado Arbor — Despachante" loading="lazy" decoding="async" width="300" height="300"></li>
+                <li><img src="assets/credenciados/movelaria.webp?v=1" alt="Selo Credenciado Arbor — Movelaria" loading="lazy" decoding="async" width="300" height="300"></li>
+                <li><img src="assets/credenciados/vistoria.webp?v=1" alt="Selo Credenciado Arbor — Vistoria" loading="lazy" decoding="async" width="300" height="300"></li>
+                <li><img src="assets/credenciados/escritorio-juridico.webp?v=1" alt="Selo Credenciado Arbor — Escritório jurídico" loading="lazy" decoding="async" width="300" height="300"></li>
+                <li><img src="assets/credenciados/escritorio-engenharia.webp?v=1" alt="Selo Credenciado Arbor — Escritório de engenharia" loading="lazy" decoding="async" width="300" height="300"></li>
+                <li><img src="assets/credenciados/arquitetura.webp?v=1" alt="Selo Credenciado Arbor — Arquitetura" loading="lazy" decoding="async" width="300" height="300"></li>
+                <li><img src="assets/credenciados/automacao.webp?v=1" alt="Selo Credenciado Arbor — Automação" loading="lazy" decoding="async" width="300" height="300"></li>
+            </ul>
+        </section>
+
+        <section class="ui-concept" aria-labelledby="concept-titulo">
+            <header class="ui-concept-cab">
+                <img class="ui-concept-logo" src="assets/ilustracoes/logo-arbor-concept.webp?v=3" alt="Arbor Concept" width="780" height="252" decoding="async">
+                <h3 id="concept-titulo">Onde arquitetura, marcas e <em>negócios</em> habitam a mesma estrutura.</h3>
+            </header>
+            <div class="ui-ess-bloco">
+                <div class="ui-ess-texto">
+                    <p>O Arbor Concept é a nossa casa viva: um conceito criado para receber, conectar e gerar novas oportunidades entre profissionais, marcas e pessoas ligadas ao morar. Ele já está em movimento, e o espaço permanente onde vamos ficar está sendo construído.</p>
+                </div>
+                <figure class="ui-ess-fig"><img src="assets/ilustracoes/aquarela-terraco.webp" alt="Aquarela de uma casa de dois andares com varanda, sala aberta e mesa de jantar externa" loading="lazy" decoding="async" width="586" height="534"></figure>
+            </div>
+
+            <div class="ui-ess-bloco is-rev">
+                <figure class="ui-ess-fig"><img src="assets/ilustracoes/aquarela-moodboard.webp" alt="Aquarela de uma sala com poltrona e painel de materiais e cores" loading="lazy" decoding="async" width="1008" height="638"></figure>
+                <div class="ui-ess-texto">
+                    <p>Cada ambiente é assinado por profissionais e marcas selecionadas, com autoria própria e a mesma identidade. Participam arquitetos, designers, artistas, paisagistas, construtoras, incorporadoras e marcas ligadas ao morar.</p>
+                    <p class="ui-sobre-destaque">Não é excesso. É uma casa com matéria, permanência e alma.</p>
+                </div>
+            </div>
+
+            <div class="ui-ess-bloco">
+                <div class="ui-ess-texto">
+                    <p>Não será uma mostra temporária nem um showroom tradicional, e sim um espaço permanente de relacionamento, conteúdo e negócios.</p>
+                </div>
+                <figure class="ui-ess-fig ui-ess-fig--pequena ui-venn">
+                    <svg viewBox="0 0 360 310" role="img" aria-labelledby="venn-t" font-family="inherit">
+                        <title id="venn-t">Três círculos que se cruzam: relacionamento, conteúdo e negócios</title>
+                        <image href="assets/ilustracoes/venn-aquarela.webp?v=1" x="0" y="0" width="360" height="310"/>
+                        <g fill="none" stroke="#204030" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <g transform="translate(180 52)"><circle cx="-14" cy="-3" r="4"/><circle cx="0" cy="-6" r="4.5"/><circle cx="14" cy="-3" r="4"/><path d="M-21 11c0-6 3-9 7-9M-8 12c0-7 3-10 8-10s8 3 8 10M21 11c0-6-3-9-7-9"/></g>
+                            <g transform="translate(92 198)"><path d="M-14-12h20a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H-6l-8 7v-7a4 4 0 0 1-4-4v-10a4 4 0 0 1 4-4z" transform="translate(2 -2)"/><path d="M-6-3h12M-6 3h7" transform="translate(2 -2)"/></g>
+                            <g transform="translate(268 198)"><path d="M-14 12V4M-5 12V-2M4 12V-8M13 12v-18"/><path d="M-18 14h34"/></g>
+                        </g>
+                        <g fill="#243c30" font-size="13" letter-spacing="1.6" text-anchor="middle" font-weight="500">
+                            <text x="180" y="92">RELACIONAMENTO</text>
+                            <text x="92" y="238">CONTEÚDO</text>
+                            <text x="268" y="238">NEGÓCIOS</text>
+                        </g>
+                        <text x="180" y="178" text-anchor="middle" font-family="'Cormorant Garamond',Georgia,serif" font-style="italic" font-size="19" fill="#974315">Arbor</text>
+                    </svg>
+                </figure>
+            </div>
+        </section>
+
         <div class="ui-sobre-acoes">
             <a class="ui-btn ui-btn-primary" href="#imoveis">Ver imóveis</a>
             <a class="ui-btn ui-btn-outline" href="https://wa.me/5562984854468" target="_blank" rel="noopener noreferrer">Falar com a Arbor</a>
+            <a class="ui-btn ui-btn-outline" href="#equipe" data-arbor-equipe hidden>Conheça nossa equipe</a>
         </div>
-    </div>
-</section>
 
-<section id="diferenciais-view" class="view-hidden page-view">
-    <button class="back-btn" id="diferenciais-back-btn"><i data-lucide="arrow-left" style="width:14px"></i> Voltar à Home</button>
-    <div class="diferenciais-page-intro reveal">
-        <span class="eyebrow">Diferenciais</span>
-        <h2>Menos ruído. <em>Mais clareza para decidir.</em></h2>
-        <p>Nosso diferencial não está em prometer acesso a mais imóveis. Está na forma como analisamos cada possibilidade, organizamos as informações e conduzimos a decisão. Comprar, vender ou investir envolve contexto, tempo, negociação e leitura de mercado — e é justamente aí que a Arbor atua.</p>
-    </div>
-
-    <div class="diferenciais-page-grid reveal">
-        <article class="dif-page-item">
-            <span class="dif-page-number">01</span>
-            <div><h3>Leitura de contexto</h3><p>Um imóvel nunca existe isoladamente. Rua, bairro, condomínio, oferta concorrente, perfil de demanda, liquidez e momento de mercado mudam completamente a qualidade de uma decisão. Nossa análise começa antes do imóvel.</p></div>
-        </article>
-        <article class="dif-page-item">
-            <span class="dif-page-number">02</span>
-            <div><h3>Curadoria de verdade</h3><p>Não usamos quantidade como argumento. Filtramos opções para apresentar aquilo que tem relação real com o objetivo, o orçamento e o momento de cada cliente. Menos visitas sem sentido; mais comparação útil.</p></div>
-        </article>
-        <article class="dif-page-item">
-            <span class="dif-page-number">03</span>
-            <div><h3>Informação antes da pressa</h3><p>Preço de anúncio é apenas uma parte da leitura. Histórico, condição do imóvel, custos, documentação, potencial de revenda e referências de mercado entram na análise para que a decisão não dependa apenas de impressão.</p></div>
-        </article>
-        <article class="dif-page-item">
-            <span class="dif-page-number">04</span>
-            <div><h3>Negociação bem conduzida</h3><p>Valor, forma de pagamento, prazo, condições, documentação e segurança da operação precisam conversar entre si. Buscamos construir acordos viáveis para as partes sem perder de vista o interesse de quem representamos.</p></div>
-        </article>
-        <article class="dif-page-item">
-            <span class="dif-page-number">05</span>
-            <div><h3>Visão além da compra</h3><p>Uma boa escolha precisa continuar fazendo sentido depois da assinatura. Consideramos rotina, manutenção, liquidez, possibilidade de valorização e facilidade de saída quando esses fatores forem relevantes para o cliente.</p></div>
-        </article>
-        <article class="dif-page-item">
-            <span class="dif-page-number">06</span>
-            <div><h3>Presença até o final</h3><p>A condução não termina quando comprador e vendedor chegam a um acordo. Acompanhamos as etapas seguintes para manter informação, organização e continuidade até a conclusão da operação.</p></div>
-        </article>
-    </div>
-
-    <div class="diferenciais-page-note reveal">
-        <span class="eyebrow">A forma Arbor</span>
-        <p>Não vendemos metragem. Vendemos decisões bem tomadas.</p>
+        <section class="ui-contato" aria-labelledby="contato-titulo">
+            <div class="ui-contato-corpo">
+                <span class="ui-eyebrow">Contato</span>
+                <h3 id="contato-titulo">Deixe sua <em>mensagem</em></h3>
+                <p class="ui-contato-intro">Conte o que você procura ou tire uma dúvida. Nossa equipe responde por e-mail ou telefone.</p>
+            <form id="form-contato" class="ui-contato-form" novalidate>
+                <div class="ui-contato-grid">
+                    <label class="ui-contato-campo"><span>Nome</span>
+                        <input type="text" name="nome" autocomplete="name" required maxlength="120">
+                    </label>
+                    <label class="ui-contato-campo"><span>E-mail</span>
+                        <input type="email" name="email" autocomplete="email" required maxlength="160">
+                    </label>
+                    <label class="ui-contato-campo"><span>Telefone / WhatsApp</span>
+                        <input type="tel" name="telefone" autocomplete="tel" inputmode="tel" maxlength="30">
+                    </label>
+                </div>
+                <label class="ui-contato-campo"><span>Mensagem</span>
+                    <textarea name="mensagem" rows="5" required maxlength="2000"></textarea>
+                </label>
+                <input type="text" name="website" class="ui-contato-honey" tabindex="-1" autocomplete="off" aria-hidden="true">
+                <label class="ui-contato-aceite">
+                    <input type="checkbox" name="aceite" required>
+                    <span>Concordo em compartilhar meus dados para receber retorno da Arbor, conforme a <a href="/politica-de-privacidade/" target="_blank" rel="noopener">Política de Privacidade</a>.</span>
+                </label>
+                <div class="ui-contato-rodape">
+                    <button type="submit" class="ui-btn ui-btn-primary" id="contato-enviar">Enviar mensagem</button>
+                    <p id="contato-status" class="ui-contato-status" role="status" aria-live="polite"></p>
+                </div>
+            </form>
+            </div>
+            <figure class="ui-ess-fig ui-contato-fig"><img src="assets/ilustracoes/aquarela-living.webp" alt="Aquarela de uma poltrona, mesa de centro e luminária" loading="lazy" decoding="async" width="496" height="428"></figure>
+        </section>
     </div>
 </section>
 
@@ -2123,12 +2243,12 @@
     <div class="jornada-block reveal">
         <div class="sub-head"><span class="eyebrow">Para quem compra</span><h3>Jornada de compra</h3></div>
         <div class="jornada-track">
-            <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 1: Entendendo o objetivo">1</button><h4>Entendendo o objetivo</h4><p>Perfil, momento de vida e o que o imóvel precisa resolver.</p></div>
-            <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 2: Curadoria">2</button><h4>Curadoria</h4><p>Seleção de imóveis alinhados ao perfil e ao orçamento.</p></div>
-            <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 3: Visitas">3</button><h4>Visitas</h4><p>Conhecendo os imóveis e comparando as opções de perto.</p></div>
-            <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 4: Proposta">4</button><h4>Proposta</h4><p>Negociação de valor e condições com o vendedor.</p></div>
-            <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 5: Documentação">5</button><h4>Documentação</h4><p>Checagem jurídica e análise dos documentos do imóvel.</p></div>
-            <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 6: Chaves">6</button><h4>Chaves</h4><p>Assinatura do contrato e entrega das chaves.</p></div>
+            <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 1: Entendendo o objetivo">1</button><h4>Entendendo o objetivo</h4><img class="j-ilus" src="assets/ilustracoes/j-c1.svg?v=1" alt="" loading="lazy" decoding="async" width="160" height="120"><p>Perfil, momento de vida e o que o imóvel precisa resolver.</p></div>
+            <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 2: Seleção">2</button><h4>Seleção</h4><img class="j-ilus" src="assets/ilustracoes/j-c2.svg?v=1" alt="" loading="lazy" decoding="async" width="160" height="120"><p>Imóveis escolhidos com critério, alinhados ao perfil e ao orçamento.</p></div>
+            <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 3: Visitas">3</button><h4>Visitas</h4><img class="j-ilus" src="assets/ilustracoes/j-c3.svg?v=1" alt="" loading="lazy" decoding="async" width="160" height="120"><p>Conhecendo os imóveis e comparando as opções de perto.</p></div>
+            <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 4: Proposta">4</button><h4>Proposta</h4><img class="j-ilus" src="assets/ilustracoes/j-c4.svg?v=1" alt="" loading="lazy" decoding="async" width="160" height="120"><p>Negociação de valor e condições com o vendedor.</p></div>
+            <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 5: Documentação">5</button><h4>Documentação</h4><img class="j-ilus" src="assets/ilustracoes/j-c5.svg?v=1" alt="" loading="lazy" decoding="async" width="160" height="120"><p>Checagem jurídica e análise dos documentos do imóvel.</p></div>
+            <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 6: Chaves">6</button><h4>Chaves</h4><img class="j-ilus" src="assets/ilustracoes/j-c6.svg?v=1" alt="" loading="lazy" decoding="async" width="160" height="120"><p>Assinatura do contrato e entrega das chaves.</p></div>
         </div>
         <div class="jornada-detail" hidden aria-live="polite">
             <span class="j-detail-kicker"></span><h4></h4><p></p>
@@ -2138,16 +2258,60 @@
     <div class="jornada-block reveal">
         <div class="sub-head"><span class="eyebrow">Para quem vende</span><h3>Jornada de venda</h3></div>
         <div class="jornada-track">
-            <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 1: Avaliação">1</button><h4>Avaliação</h4><p>Precificação fundamentada em dados reais, imóveis comparáveis e condições atuais de mercado.</p></div>
-            <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 2: Preparação">2</button><h4>Preparação</h4><p>Organização do imóvel, produção das fotos e construção de uma apresentação coerente com o posicionamento da propriedade.</p></div>
-            <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 3: Divulgação">3</button><h4>Divulgação</h4><p>Publicação nos canais adequados, ativação da rede de parceiros e organização dos agendamentos de visita.</p></div>
-            <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 4: Negociação">4</button><h4>Negociação</h4><p>Análise das propostas, alinhamento de valores e condições e condução das partes até um acordo seguro.</p></div>
-            <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 5: Contrato">5</button><h4>Contrato</h4><p>Conferência da documentação e formalização das condições definidas na negociação.</p></div>
-            <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 6: Entrega">6</button><h4>Entrega</h4><p>Acompanhamento do registro, repasse dos valores e entrega formal das chaves ao comprador.</p></div>
+            <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 1: Avaliação">1</button><h4>Avaliação</h4><img class="j-ilus" src="assets/ilustracoes/j-v1.svg?v=1" alt="" loading="lazy" decoding="async" width="160" height="120"><p>Precificação fundamentada em dados reais, imóveis comparáveis e condições atuais de mercado.</p></div>
+            <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 2: Preparação">2</button><h4>Preparação</h4><img class="j-ilus" src="assets/ilustracoes/j-v2.svg?v=1" alt="" loading="lazy" decoding="async" width="160" height="120"><p>Organização do imóvel, produção das fotos e construção de uma apresentação coerente com o posicionamento da propriedade.</p></div>
+            <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 3: Divulgação">3</button><h4>Divulgação</h4><img class="j-ilus" src="assets/ilustracoes/j-v3.svg?v=1" alt="" loading="lazy" decoding="async" width="160" height="120"><p>Publicação nos canais adequados, ativação da rede de parceiros e organização dos agendamentos de visita.</p></div>
+            <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 4: Negociação">4</button><h4>Negociação</h4><img class="j-ilus" src="assets/ilustracoes/j-v4.svg?v=1" alt="" loading="lazy" decoding="async" width="160" height="120"><p>Análise das propostas, alinhamento de valores e condições e condução das partes até um acordo seguro.</p></div>
+            <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 5: Contrato">5</button><h4>Contrato</h4><img class="j-ilus" src="assets/ilustracoes/j-v5.svg?v=1" alt="" loading="lazy" decoding="async" width="160" height="120"><p>Conferência da documentação e formalização das condições definidas na negociação.</p></div>
+            <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 6: Entrega">6</button><h4>Entrega</h4><img class="j-ilus" src="assets/ilustracoes/j-v6.svg?v=1" alt="" loading="lazy" decoding="async" width="160" height="120"><p>Acompanhamento do registro, repasse dos valores e entrega formal das chaves ao comprador.</p></div>
         </div>
         <div class="jornada-detail" hidden aria-live="polite">
             <span class="j-detail-kicker"></span><h4></h4><p></p>
         </div>
+    </div>
+
+    <div class="jornada-block ui-dif reveal" id="jornada-diferenciais">
+        <div class="sub-head"><span class="eyebrow">Nossos diferenciais</span><h3>O que faz a diferença <em>em cada etapa.</em></h3></div>
+        <p class="ui-dif-intro">Nosso diferencial não está em prometer acesso a mais imóveis. Está na forma como analisamos cada possibilidade, organizamos as informações e conduzimos a decisão. Comprar, vender ou investir envolve contexto, tempo, negociação e leitura de mercado — e é justamente aí que a Arbor atua.</p>
+        <div class="ui-dif-grid">
+            <article class="ui-dif-item reveal">
+                <figure class="ui-dif-fig"><img src="assets/ilustracoes/dif-1.svg?v=1" alt="Ilustração: Prédios de um bairro, um pino de localização e uma lupa" loading="lazy" decoding="async" width="240" height="170"></figure>
+                <span class="ui-dif-num">01</span>
+                <h4>Leitura de contexto</h4>
+                <p>Um imóvel nunca existe isoladamente. Rua, bairro, condomínio, oferta concorrente, perfil de demanda, liquidez e momento de mercado mudam completamente a qualidade de uma decisão. Nossa análise começa antes do imóvel.</p>
+            </article>
+            <article class="ui-dif-item reveal">
+                <figure class="ui-dif-fig"><img src="assets/ilustracoes/dif-2.svg?v=1" alt="Ilustração: Várias casas, com uma escolhida e marcada com um visto" loading="lazy" decoding="async" width="240" height="170"></figure>
+                <span class="ui-dif-num">02</span>
+                <h4>Seleção de verdade</h4>
+                <p>Não usamos quantidade como argumento. Filtramos opções para apresentar aquilo que tem relação real com o objetivo, o orçamento e o momento de cada cliente. Menos visitas sem sentido; mais comparação útil.</p>
+            </article>
+            <article class="ui-dif-item reveal">
+                <figure class="ui-dif-fig"><img src="assets/ilustracoes/dif-3.svg?v=1" alt="Ilustração: Documento com lista conferida e uma ampulheta" loading="lazy" decoding="async" width="240" height="170"></figure>
+                <span class="ui-dif-num">03</span>
+                <h4>Informação antes da pressa</h4>
+                <p>Preço de anúncio é apenas uma parte da leitura. Histórico, condição do imóvel, custos, documentação, potencial de revenda e referências de mercado entram na análise para que a decisão não dependa apenas de impressão.</p>
+            </article>
+            <article class="ui-dif-item reveal">
+                <figure class="ui-dif-fig"><img src="assets/ilustracoes/dif-4.svg?v=1" alt="Ilustração: Balança equilibrada com uma casa de um lado e moedas do outro" loading="lazy" decoding="async" width="240" height="170"></figure>
+                <span class="ui-dif-num">04</span>
+                <h4>Negociação bem conduzida</h4>
+                <p>Valor, forma de pagamento, prazo, condições, documentação e segurança da operação precisam conversar entre si. Buscamos construir acordos viáveis para as partes sem perder de vista o interesse de quem representamos.</p>
+            </article>
+            <article class="ui-dif-item reveal">
+                <figure class="ui-dif-fig"><img src="assets/ilustracoes/dif-5.svg?v=1" alt="Ilustração: Casa, caminho em subida e árvore crescida" loading="lazy" decoding="async" width="240" height="170"></figure>
+                <span class="ui-dif-num">05</span>
+                <h4>Visão além da compra</h4>
+                <p>Uma boa escolha precisa continuar fazendo sentido depois da assinatura. Consideramos rotina, manutenção, liquidez, possibilidade de valorização e facilidade de saída quando esses fatores forem relevantes para o cliente.</p>
+            </article>
+            <article class="ui-dif-item reveal">
+                <figure class="ui-dif-fig"><img src="assets/ilustracoes/dif-6.svg?v=1" alt="Ilustração: Caminho com etapas concluídas e bandeira de chegada" loading="lazy" decoding="async" width="240" height="170"></figure>
+                <span class="ui-dif-num">06</span>
+                <h4>Presença até o final</h4>
+                <p>A condução não termina quando comprador e vendedor chegam a um acordo. Acompanhamos as etapas seguintes para manter informação, organização e continuidade até a conclusão da operação.</p>
+            </article>
+        </div>
+        <blockquote class="ui-dif-frase"><span class="eyebrow">A forma Arbor</span>Boas decisões nascem de clareza, atenção e cuidado.</blockquote>
     </div>
 
     <div class="jornada-block reveal" style="margin-bottom:0;">
@@ -2158,16 +2322,19 @@
         <div class="temp-bar">
             <div class="temp-zone quente">
                 <span class="temp-label">1º Momento</span>
+                <img class="j-ilus j-ilus-t" src="assets/ilustracoes/j-t1.svg?v=1" alt="Ilustração de um prédio novo sendo lançado" loading="lazy" decoding="async" width="200" height="130">
                 <h4>Lançamento</h4>
                 <p>Compare preço de entrada, prazo de entrega e condições de pagamento do lançamento.</p>
             </div>
             <div class="temp-zone fria">
                 <span class="temp-label">Durante a obra</span>
+                <img class="j-ilus j-ilus-t" src="assets/ilustracoes/j-t2.svg?v=1" alt="Ilustração de um prédio em obra" loading="lazy" decoding="async" width="200" height="130">
                 <h4>Durante a construção</h4>
                 <p>Confira evolução da obra, saldo a pagar, reajustes e condições de eventual cessão.</p>
             </div>
             <div class="temp-zone quente">
                 <span class="temp-label">2º Momento</span>
+                <img class="j-ilus j-ilus-t" src="assets/ilustracoes/j-t3.svg?v=1" alt="Ilustração de um prédio entregue, com a chave" loading="lazy" decoding="async" width="200" height="130">
                 <h4>Entrega das chaves</h4>
                 <p>Avalie o imóvel entregue, os custos de ocupação e as alternativas de uso ou revenda.</p>
             </div>
@@ -3006,7 +3173,7 @@ const setupEventListeners = () => {
     $('nav-imoveis-btn').addEventListener('click', e => { e.preventDefault(); goCatalogo(); });
     setupCatalogoUI();
     $('nav-consultoria-btn').addEventListener('click', e => { e.preventDefault(); goHome('consultoria'); });
-    ['bairros-back-btn','jornada-back-btn','diferenciais-back-btn','noticias-back-btn','sobre-back-btn'].forEach(id => {
+    ['bairros-back-btn','jornada-back-btn','noticias-back-btn','sobre-back-btn'].forEach(id => {
         const btn = $(id);
         if (btn) btn.addEventListener('click', (e) => { e.preventDefault(); goHome(); });
     });
@@ -3604,7 +3771,7 @@ document.addEventListener('click', (e) => {
 
 $('jn-search').addEventListener('input', e => { jn.search=e.target.value; jn.visible=9; if(jn.loaded) renderJournal(); });
 
-const ALL_VIEWS = ['list-view', 'catalogo-view', 'detail-view', 'bairros-view', 'jornada-view', 'diferenciais-view', 'noticias-view','equipe-view','sobre-view'];
+const ALL_VIEWS = ['list-view', 'catalogo-view', 'detail-view', 'bairros-view', 'jornada-view', 'noticias-view','equipe-view','sobre-view'];
 const showView = (id) => {
     state.curView = id;
     ALL_VIEWS.forEach(v => $(v).classList.toggle('view-hidden', v !== id));
@@ -3654,7 +3821,12 @@ const handleRouting = () => {
     if (hash === '#sobre' || hash === '#essencia') { showView('sobre-view'); window.scrollTo(0,0); if (window.lucide) lucide.createIcons(); return; }
     if (hash === '#bairros') { showView('bairros-view'); window.scrollTo(0,0); if (window.lucide) lucide.createIcons(); return; }
     if (hash === '#jornada') { showView('jornada-view'); window.scrollTo(0,0); return; }
-    if (hash === '#diferenciais') { showView('diferenciais-view'); window.scrollTo(0,0); if (window.lucide) lucide.createIcons(); return; }
+    if (hash === '#diferenciais' || hash === '#jornada-diferenciais') {
+        // os diferenciais agora vivem dentro da Jornada
+        showView('jornada-view');
+        requestAnimationFrame(() => document.getElementById('jornada-diferenciais')?.scrollIntoView({ behavior: 'smooth', block: 'start' }));
+        return;
+    }
     if (hash === '#noticias' || ['#journal-news','#journal-guides','#journal-official'].includes(hash)) {
         showView('noticias-view'); loadJournal();
         if (hash === '#noticias') window.scrollTo(0,0);
@@ -4273,6 +4445,7 @@ window.addEventListener('DOMContentLoaded', init);
 <script src="equipe.js?v=catalogo-20261012"></script>
 <script src="empreendimentos.js?v=20261011"></script>
 <script src="journal-services.js"></script>
+<script src="contato.js?v=3"></script>
 </body>
 </html>
 
