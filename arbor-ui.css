@@ -196,6 +196,9 @@ body.filtros-open #scroll-tree{display:none!important}
 .system-msg a.ui-btn-outline{background:transparent!important;color:var(--ui-verde)!important;border:1px solid rgba(32,64,48,.45)!important}
 .system-msg a.ui-btn-primary{background:var(--ui-verde)!important;color:var(--ui-creme)!important}
 .ui-sobre{max-width:720px;font-size:1.08rem;line-height:1.8;color:var(--ui-suave)}
+.ui-sobre [hidden]{display:none!important}
+.ui-sobre p{margin:0 0 1.1em}
+.ui-sobre .ui-sobre-destaque{color:var(--ui-verde);font-weight:500;font-size:1.14rem}
 .ui-sobre-acoes{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}
 @media(max-width:700px){.ui-sobre-acoes .ui-btn{flex:1 1 100%}}
 
