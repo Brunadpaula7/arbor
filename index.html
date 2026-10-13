@@ -1748,7 +1748,7 @@
     <link rel="stylesheet" href="equipe.css?v=redondas-20261011">
     <link rel="stylesheet" href="site.css">
     <link rel="stylesheet" href="watercolor.css">
-    <link rel="stylesheet" href="arbor-ui.css?v=1">
+    <link rel="stylesheet" href="arbor-ui.css?v=2">
 </head>
 <body>
 <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs><filter id="wc-soft" x="-30%" y="-30%" width="160%" height="160%"><feTurbulence type="fractalNoise" baseFrequency="0.008 0.011" numOctaves="3" seed="11" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="70" xChannelSelector="R" yChannelSelector="G" result="d"/><feGaussianBlur in="d" stdDeviation="9"/></filter><filter id="wc-edge" x="-5%" y="-100%" width="110%" height="300%"><feTurbulence type="fractalNoise" baseFrequency="0.012 0.09" numOctaves="3" seed="4" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="34" xChannelSelector="R" yChannelSelector="G"/></filter></defs></svg>
@@ -1984,13 +1984,46 @@
         <p>A Arbor nasce da conexão entre patrimônio, relações e visão de futuro. Nosso trabalho é aproximar pessoas, imóveis e oportunidades com critério, inteligência e cuidado em cada escolha.</p>
         <p>Arbor significa árvore em latim. Suas raízes representam confiança e relações verdadeiras. O tronco traduz estrutura e consistência. A copa expressa crescimento, novas possibilidades e visão de futuro.</p>
         <p>É essa ideia que orienta nossa maneira de trabalhar: compreender o momento de cada cliente, selecionar oportunidades com atenção e conduzir cada negociação com clareza e discrição.</p>
-        <p class="ui-sobre-destaque">Excelência, curadoria, discrição, inteligência e elegância.</p>
+        <p class="ui-sobre-destaque">Excelência, lealdade, discrição, inteligência e elegância.</p>
         <p>Esses princípios sustentam nossas escolhas — nos imóveis que apresentamos, nas informações que compartilhamos e nas relações que construímos.</p>
         <p class="ui-sobre-destaque">Porque uma estrutura forte também se constrói com pessoas.</p>
         <div class="ui-sobre-acoes">
-            <a class="ui-btn ui-btn-primary" href="#equipe" data-arbor-equipe hidden>Conheça nossa equipe</a>
+            <a class="ui-btn ui-btn-primary" href="#imoveis">Ver imóveis</a>
+            <a class="ui-btn ui-btn-outline" href="https://wa.me/5562984854468" target="_blank" rel="noopener noreferrer">Falar com a Arbor</a>
+            <a class="ui-btn ui-btn-outline" href="#equipe" data-arbor-equipe hidden>Conheça nossa equipe</a>
         </div>
     </div>
+
+    <section class="ui-contato" aria-labelledby="contato-titulo">
+        <span class="ui-eyebrow">Contato</span>
+        <h3 id="contato-titulo">Deixe sua <em>mensagem</em></h3>
+        <p class="ui-contato-intro">Conte o que você procura ou tire uma dúvida. Nossa equipe responde por e-mail ou telefone.</p>
+        <form id="form-contato" class="ui-contato-form" novalidate>
+            <div class="ui-contato-grid">
+                <label class="ui-contato-campo"><span>Nome</span>
+                    <input type="text" name="nome" autocomplete="name" required maxlength="120">
+                </label>
+                <label class="ui-contato-campo"><span>E-mail</span>
+                    <input type="email" name="email" autocomplete="email" required maxlength="160">
+                </label>
+                <label class="ui-contato-campo"><span>Telefone / WhatsApp <small>(opcional)</small></span>
+                    <input type="tel" name="telefone" autocomplete="tel" inputmode="tel" maxlength="30">
+                </label>
+            </div>
+            <label class="ui-contato-campo"><span>Mensagem</span>
+                <textarea name="mensagem" rows="5" required maxlength="2000"></textarea>
+            </label>
+            <input type="text" name="_honey" class="ui-contato-honey" tabindex="-1" autocomplete="off" aria-hidden="true">
+            <label class="ui-contato-aceite">
+                <input type="checkbox" name="aceite" required>
+                <span>Concordo em compartilhar meus dados para receber retorno da Arbor, conforme a <a href="/politica-de-privacidade/" target="_blank" rel="noopener">Política de Privacidade</a>.</span>
+            </label>
+            <div class="ui-contato-rodape">
+                <button type="submit" class="ui-btn ui-btn-primary" id="contato-enviar">Enviar mensagem</button>
+                <p id="contato-status" class="ui-contato-status" role="status" aria-live="polite"></p>
+            </div>
+        </form>
+    </section>
 </section>
 
 <section id="diferenciais-view" class="view-hidden page-view">
@@ -2008,7 +2041,7 @@
         </article>
         <article class="dif-page-item">
             <span class="dif-page-number">02</span>
-            <div><h3>Curadoria de verdade</h3><p>Não usamos quantidade como argumento. Filtramos opções para apresentar aquilo que tem relação real com o objetivo, o orçamento e o momento de cada cliente. Menos visitas sem sentido; mais comparação útil.</p></div>
+            <div><h3>Seleção de verdade</h3><p>Não usamos quantidade como argumento. Filtramos opções para apresentar aquilo que tem relação real com o objetivo, o orçamento e o momento de cada cliente. Menos visitas sem sentido; mais comparação útil.</p></div>
         </article>
         <article class="dif-page-item">
             <span class="dif-page-number">03</span>
@@ -2128,7 +2161,7 @@
         <div class="sub-head"><span class="eyebrow">Para quem compra</span><h3>Jornada de compra</h3></div>
         <div class="jornada-track">
             <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 1: Entendendo o objetivo">1</button><h4>Entendendo o objetivo</h4><p>Perfil, momento de vida e o que o imóvel precisa resolver.</p></div>
-            <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 2: Curadoria">2</button><h4>Curadoria</h4><p>Seleção de imóveis alinhados ao perfil e ao orçamento.</p></div>
+            <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 2: Seleção">2</button><h4>Seleção</h4><p>Imóveis escolhidos com critério, alinhados ao perfil e ao orçamento.</p></div>
             <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 3: Visitas">3</button><h4>Visitas</h4><p>Conhecendo os imóveis e comparando as opções de perto.</p></div>
             <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 4: Proposta">4</button><h4>Proposta</h4><p>Negociação de valor e condições com o vendedor.</p></div>
             <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 5: Documentação">5</button><h4>Documentação</h4><p>Checagem jurídica e análise dos documentos do imóvel.</p></div>
@@ -4268,6 +4301,7 @@ window.addEventListener('DOMContentLoaded', init);
 <script src="equipe.js?v=catalogo-20261012"></script>
 <script src="empreendimentos.js?v=20261011"></script>
 <script src="journal-services.js"></script>
+<script src="contato.js?v=1"></script>
 </body>
 </html>
 
