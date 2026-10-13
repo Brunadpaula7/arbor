@@ -376,9 +376,9 @@ body.filtros-open #scroll-tree{display:none!important}
 .ui-arvore{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);gap:clamp(24px,5vw,64px);align-items:stretch}
 .ui-arvore-fig{width:100%;max-width:470px;justify-self:center}
 .ui-arv{display:block;width:100%;background:url(assets/ilustracoes/arvore-arbor.webp?v=1) no-repeat;background-size:100% auto}
-.ui-arv.is-copa{aspect-ratio:1149/725;background-position:0 0}
-.ui-arv.is-tronco{aspect-ratio:1149/237;background-position:0 70.25%}
-.ui-arv.is-raizes{aspect-ratio:1149/307;background-position:0 100%}
+.ui-arv.is-copa{height:0;padding-top:63.1%;background-position:0 0}
+.ui-arv.is-tronco{height:0;padding-top:20.63%;background-position:0 70.25%}
+.ui-arv.is-raizes{height:0;padding-top:26.72%;background-position:0 100%}
 .ui-arvore-textos{display:flex;flex-direction:column}
 .ui-ess-parte{position:relative;display:flex;flex-direction:column;justify-content:center;padding-left:52px}
 .ui-ess-parte.is-copa{flex:725 1 0}.ui-ess-parte.is-tronco{flex:237 1 0}.ui-ess-parte.is-raizes{flex:307 1 0}
