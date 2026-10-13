@@ -423,6 +423,7 @@ body.filtros-open #scroll-tree{display:none!important}
 .ui-cred-selos li{margin:0}
 .ui-cred-selos img{display:block;width:100%;height:auto}
 @media(max-width:760px){.ui-cred{grid-template-columns:1fr}}
+@media(min-width:761px){.ui-cred{grid-template-columns:minmax(0,.95fr) minmax(0,1fr)}.ui-cred-selos{order:-1}}
 
 /* Princípios da Arbor */
 .ui-principios{margin:1.4em 0 1.6em;padding:0}
