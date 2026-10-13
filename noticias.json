@@ -1,6 +1,33 @@
 {
- "updated": "2026-10-12T14:19:27Z",
+ "updated": "2026-10-12T22:23:03Z",
  "items": [
+  {
+   "title": "Mabel entrega rotatória do Hugol e anuncia marca de 500 km de asfalto novo em Goiânia",
+   "url": "https://www.jornalopcao.com.br/transito/prefeitura-entrega-rotatoria-do-hugol-e-anuncia-marca-de-500-km-de-asfalto-novo-em-goiania-878264/",
+   "source": "Jornal Opção",
+   "date": "2026-10-12T21:19:01Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://cdn.jornalopcao.com.br/assets/2026/10/12204923/1791838156-1787422329-whatsapp-image-2026-08-22-at-14-56-44.webp"
+  },
+  {
+   "title": "Prefeitura de Goiânia vai retirar rotatória do Parque Amazônia e instalar semáforos",
+   "url": "https://www.podergoias.com.br/materia/27652/prefeitura-de-goiania-vai-retirar-rotatoria-do-parque-amazonia-e-instalar-semaforos",
+   "source": "Poder Goiás",
+   "date": "2026-10-12T19:55:00Z",
+   "cat": "cidade",
+   "local": true,
+   "img": ""
+  },
+  {
+   "title": "Goiânia entrega monumentos históricos revitalizados no Bosque dos Buritis",
+   "url": "https://aredacao.com.br/goiania-entrega-monumentos-historicos-revitalizados-no-bosque-dos-buritis/",
+   "source": "A Redação",
+   "date": "2026-10-12T15:38:15Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://aredacao.com.br/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-10.14.51.jpeg"
+  },
   {
    "title": "Prefeitura de Goiânia entrega revitalização de monumentos históricos no Bosque dos Buritis",
    "url": "https://www.goiania.go.gov.br/agora/prefeitura-de-goiania-entrega-revitalizacao-de-monumentos-historicos-no-bosque-dos-buritis",
@@ -9,6 +36,15 @@
    "cat": "cidade",
    "local": true,
    "img": "https://www.goiania.go.gov.br/wp-content/uploads/2026/10/IMG-20261012-WA0077-scaled.jpg"
+  },
+  {
+   "title": "Vila Cultural Cora Coralina ganha nova iluminação e fachada revitalizada em Goiânia",
+   "url": "https://ohoje.com/2026/10/12/vila-cultural-cora-coralina-ganha-nova-iluminacao-e-fachada-revitalizada-em-goiania/",
+   "source": "O Hoje",
+   "date": "2026-10-12T12:30:26Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://ohoje.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-08.06.10.webp"
   },
   {
    "title": "Justiça impede demolição de imóvel ocupado há 20 anos em Aparecida de Goiânia",
@@ -354,8 +390,8 @@
   },
   {
    "title": "Cade nega consulta da Abrainc sobre dispensa de notificação prévia na compra de imóveis",
-   "url": "https://www.bol.uol.com.br/economia/2026/10/07/cade-nega-consulta-da-abrainc-sobre-dispensa-de-notificacao-previa-na-compra-de-imoveis.amp.htm",
-   "source": "BOL",
+   "url": "https://economia.uol.com.br/noticias/estadao-conteudo/2026/10/07/cade-nega-consulta-da-abrainc-sobre-dispensa-de-notificacao-previa-na-compra-de-imoveis.htm",
+   "source": "UOL Economia",
    "date": "2026-10-07T20:18:00Z",
    "cat": "mercado",
    "local": false,
@@ -441,6 +477,15 @@
    "cat": "financiamento",
    "local": false,
    "img": "https://imobireport.com.br/app/uploads/2026/10/Credito-imobiliario-cresce-apesar-dos-saques-de-poupanca-e-FGTS-5-scaled.jpeg"
+  },
+  {
+   "title": "CBIC e IBRAM discutem cooperação entre construção e mineração",
+   "url": "https://cbic.org.br/cbic-e-ibram-discutem-cooperacao-entre-construcao-e-mineracao/",
+   "source": "CBIC - Câmara Brasileira da Indústria da Construção",
+   "date": "2026-10-06T20:55:48Z",
+   "cat": "mercado",
+   "local": false,
+   "img": "https://cbic.org.br/wp-content/uploads/2026/10/whatsapp-image-2026-10-06-at-123732.jpeg"
   },
   {
    "title": "CBIC e Abrace Energia discutem agendas comuns e ampliam diálogo institucional",
@@ -620,7 +665,8 @@
    "date": "2026-10-02T14:05:05Z",
    "cat": "regras",
    "local": false,
-   "img": ""
+   "img": "",
+   "img_tried": true
   },
   {
    "title": "Goiânia: Prefeitura via Seinfra trabalha no recapeamento na Avenida Itália, no Jardim Europa",
@@ -842,8 +888,8 @@
   {
    "title": "Coexistência entre IBS e ITBI e os desafios da tributação imobiliária são tema de artigo do CTAT",
    "url": "https://cnm.org.br/comunicacao/noticias/coexistencia-entre-ibs-e-itbi-e-os-desafios-da-tributacao-imobiliaria-sao-tema-de-artigo-do-ctat",
-   "source": "Confederação Nacional de Municípios",
-   "date": "2026-09-29T12:22:41Z",
+   "source": "LegisWeb",
+   "date": "2026-09-29T14:11:49Z",
    "cat": "regras",
    "local": false,
    "img": "https://cnm.org.br/storage/noticias/2026/09/29092026_artigo%20ctat.jpeg"
@@ -1002,15 +1048,6 @@
    "img": "https://cdn.jornalopcao.com.br/assets/2026/09/25183121/1790361072-whatsapp-image-2026-09-25-at-15-04-12.webp"
   },
   {
-   "title": "MP-GO exige suspensão de projeto do Fundo Imobiliário e cobra lista de imóveis da Prefeitura de Goiânia",
-   "url": "https://diariodegoias.com.br/mp-go-exige-suspensao-de-projeto-do-fundo-imobiliario-e-cobra-lista-de-imoveis-da-prefeitura-de-goiania/548658/",
-   "source": "Diário de Goiás",
-   "date": "2026-09-25T07:00:00Z",
-   "cat": "mercado",
-   "local": true,
-   "img": "https://cdn.diariodegoias.com.br/wp-content/uploads/2021/09/mpgo.jpeg"
-  },
-  {
    "title": "Após representação de Aava, MP-GO recomenda mudanças em projeto de fundo imobiliário",
    "url": "https://transmissaopolitica.com.br/cidades/2026/09/25/projeto-fundo-imobiliario-goiania-mpgo-aava-santiago/",
    "source": "Transmissão Política",
@@ -1045,6 +1082,15 @@
    "cat": "cidade",
    "local": true,
    "img": "https://www.maisgoias.com.br/wp-content/uploads/2026/09/foto-37-1790375328.webp"
+  },
+  {
+   "title": "MP-GO exige suspensão de projeto do Fundo Imobiliário e cobra lista de imóveis da Prefeitura de Goiânia",
+   "url": "https://diariodegoias.com.br/mp-go-exige-suspensao-de-projeto-do-fundo-imobiliario-e-cobra-lista-de-imoveis-da-prefeitura-de-goiania/548658/",
+   "source": "Diário de Goiás",
+   "date": "2026-09-25T07:00:00Z",
+   "cat": "mercado",
+   "local": true,
+   "img": "https://cdn.diariodegoias.com.br/wp-content/uploads/2021/09/mpgo.jpeg"
   },
   {
    "title": "Prefeitura de Goiânia formaliza obra de nova UPA no Cidade Jardim por R$ 15,4 milhões",
@@ -1146,15 +1192,6 @@
    "img": "https://tribunadoplanalto.com.br/wp-content/uploads/2026/09/Camara-aprova-reducao-temporaria-do-ITBI-em-Aparecida-de-Goiania.jpg"
   },
   {
-   "title": "Novo parque de Goiânia preserva lago e mata nativa em projeto de expansão urbana",
-   "url": "https://portal.saladanoticia.com.br/noticia/71175/novo-parque-de-goiania-preserva-lago-e-mata-nativa-em-projeto-de-expansao-urbana",
-   "source": "Sala da Notícia",
-   "date": "2026-09-23T14:08:44Z",
-   "cat": "cidade",
-   "local": true,
-   "img": ""
-  },
-  {
    "title": "Plano&Plano confirma entrada no mercado imobiliário de Goiânia",
    "url": "https://www.bol.uol.com.br/economia/2026/09/23/planoplano-confirma-entrada-no-mercado-imobiliario-de-goiania.htm",
    "source": "BOL",
@@ -1191,6 +1228,15 @@
    "img": "https://cdn.jornalopcao.com.br/assets/2026/09/23135822/1790171897-206c9966-1448-46db-a4a1-4b9c79c2ba21-1-e1790169335874.webp"
   },
   {
+   "title": "Mercado imobiliário carioca mantém\nritmo de expansão",
+   "url": "https://oglobo.globo.com/conteudo-de-marca/morar-bem/noticia/2026/09/23/mercado-imobiliario-carioca-mantem-ritmo-de-expansao.ghtml",
+   "source": "O GLOBO",
+   "date": "2026-09-23T07:00:00Z",
+   "cat": "mercado",
+   "local": false,
+   "img": "https://s2-oglobo.glbimg.com/l6O5bprHiD4W-AKfmhvNDMgGdZw=/2208x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/F/O/eqa1xhQOaesreXNYSDYQ/gettyimages-1139890457.jpg"
+  },
+  {
    "title": "CBIC participa de seminário “Pense nas Pequenas Primeiro” promovido pela CNI e o Sebrae",
    "url": "https://cbic.org.br/cbic-participa-de-seminario-pense-nas-pequenas-primeiro-promovido-pela-cni-e-o-sebrae/",
    "source": "CBIC - Câmara Brasileira da Indústria da Construção",
@@ -1200,15 +1246,6 @@
    "img": "https://cbic.org.br/wp-content/uploads/2026/09/fotowide1920x1080.jpeg"
   },
   {
-   "title": "Mabel pressiona ANTT para antecipar Anel Viário de Goiânia e critica prazo até 2036",
-   "url": "https://www.jornalopcao.com.br/ultimas-noticias/mabel-pressiona-antt-para-antecipar-anel-viario-de-goiania-e-critica-prazo-ate-2036-870867/",
-   "source": "Jornal Opção",
-   "date": "2026-09-23T07:00:00Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://cdn.jornalopcao.com.br/assets/2026/09/23115017/1790164212-whatsapp-image-2026-09-22-at-18-26-15.webp"
-  },
-  {
    "title": "O que vai ter no Parque da Serrinha? Veja como será o novo espaço de Goiânia",
    "url": "https://www.maisgoias.com.br/meio-ambiente/comecam-as-obras-do-parque-da-serrinha-em-goiania-veja-imagens-de-como-ele-vai-ficar/",
    "source": "Mais Goiás",
@@ -1216,6 +1253,24 @@
    "cat": "cidade",
    "local": true,
    "img": "https://www.maisgoias.com.br/wp-content/uploads/2026/09/design-sem-nome-1790194496.webp"
+  },
+  {
+   "title": "Novo parque de Goiânia preserva lago e mata nativa em projeto de expansão urbana",
+   "url": "https://revistakdea360.com.br/noticia/92862/novo-parque-de-goiania-preserva-lago-e-mata-nativa-em-projeto-de-expansao-urbana",
+   "source": "Portal Revista Kdea 360",
+   "date": "2026-09-23T07:00:00Z",
+   "cat": "cidade",
+   "local": true,
+   "img": ""
+  },
+  {
+   "title": "Mabel pressiona ANTT para antecipar Anel Viário de Goiânia e critica prazo até 2036",
+   "url": "https://www.jornalopcao.com.br/ultimas-noticias/mabel-pressiona-antt-para-antecipar-anel-viario-de-goiania-e-critica-prazo-ate-2036-870867/",
+   "source": "Jornal Opção",
+   "date": "2026-09-23T07:00:00Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://cdn.jornalopcao.com.br/assets/2026/09/23115017/1790164212-whatsapp-image-2026-09-22-at-18-26-15.webp"
   },
   {
    "title": "Greve da Caixa afeta vendas de imóveis e financiamento de obras",
@@ -1233,7 +1288,7 @@
    "date": "2026-09-22T15:07:41Z",
    "cat": "regras",
    "local": true,
-   "img": ""
+   "img": "https://radiobandeirantesgoiania.com.br/wp-content/uploads/2026/09/whatsapp-image-2026-09-22-at-09-39-08.jpeg"
   },
   {
    "title": "Mercado imobiliário de Goiânia movimenta R$ 4,1 bilhões, mas burocracia trava habitação popular",
@@ -1297,60 +1352,6 @@
    "cat": "regras",
    "local": false,
    "img": "https://conjur.com.br/wp-content/uploads/2026/05/people-checking-bankbook-isolated-white-table-300x200-1.jpg"
-  },
-  {
-   "title": "Setor imobiliário pede adiamento da próxima etapa da reforma tributária",
-   "url": "https://paraibabusiness.com.br/setor-imobiliario-pede-adiamento-da-proxima-etapa-da-reforma-tributaria/",
-   "source": "Paraíba Business",
-   "date": "2026-09-21T07:00:00Z",
-   "cat": "regras",
-   "local": false,
-   "img": "https://paraibabusiness.com.br/atual/wp-content/uploads/2026/09/41a410ba5343c4af11fb5894af2c7167.webp"
-  },
-  {
-   "title": "ITBI: nova redação do art. 38 do CTN exige revisão da legislação municipal",
-   "url": "https://conjur.com.br/2026-set-21/itbi-nova-redacao-do-art-38-do-ctn-exige-revisao-da-legislacao-municipal/",
-   "source": "Consultor Jurídico",
-   "date": "2026-09-21T07:00:00Z",
-   "cat": "regras",
-   "local": false,
-   "img": "https://conjur.com.br/wp-content/uploads/2025/05/closeup-shot-person-thinking-buying-selling-house-300x200-1.jpg"
-  },
-  {
-   "title": "Prefeitura de Goiânia retira muretas e readequa circulação na Rua 83, no entorno da Praça Cívica",
-   "url": "https://revistafactual.com.br/goiania/2026/09/21/retirada-muretas-rua-83-praca-civica-goiania/",
-   "source": "Revista Factual",
-   "date": "2026-09-21T07:00:00Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://revistafactual.com.br/wp-content/uploads/2026/09/retirada-de-muretas-rua-83-praca-civica-foto-seinfra.jpeg"
-  },
-  {
-   "title": "Por que a avenida Goiás termina na Estação Ferroviária? Resposta está no projeto original de Goiânia",
-   "url": "https://www.maisgoias.com.br/cidades/goiania/por-que-a-avenida-goias-termina-na-estacao-ferroviaria-resposta-esta-no-projeto-original-de-goiania/",
-   "source": "Mais Goiás",
-   "date": "2026-09-20T07:00:00Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://uploads.maisgoias.com.br/2026/09/avenida-goias-alta-resolucao-1788288550.webp"
-  },
-  {
-   "title": "Começa a construção de 160 unidades habitacionais no Jardim Oratório em Mauá",
-   "url": "https://www.maua.sp.gov.br/Noticias/Ler/673",
-   "source": "Prefeitura de Mauá",
-   "date": "2026-09-19T18:54:36Z",
-   "cat": "mercado",
-   "local": false,
-   "img": ""
-  },
-  {
-   "title": "Apartamentos de até 34 m² já são maioria entre os lançamentos em São Paulo; entenda",
-   "url": "https://www.estadao.com.br/economia/negocios/apartamentos-de-ate-34-m-ja-sao-maioria-entre-os-lancamentos-em-sao-paulo-entenda/",
-   "source": "Estadão",
-   "date": "2026-09-19T07:00:00Z",
-   "cat": "lancamentos",
-   "local": false,
-   "img": "https://www.estadao.com.br/resizer/v2/TR3TC5AWKFFGFLBRUGBOF3WZXU.jpg?quality=80&auth=64d53420f4fdb7a7f846cc224a2ff8c04b5ea15144a2254fe5078ced5b9406ce&width=1200&height=630&smart=true"
   }
  ]
 }
