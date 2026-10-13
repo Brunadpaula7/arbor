@@ -2906,6 +2906,15 @@ function limparMarcaAntigaImovel(valor) {
         .replace(/\bim[oó]veis\s+sob\s+medida\b/giu, 'Arbor');
 }
 
+/* O ERP anexa ao fim da descrição o código e a data por extenso
+   ("AR-19 Atualizado em doze de outubro de dois mil e vinte e seis") — não vai para o site nem para o PDF. */
+function limparRodapeDescricao(valor) {
+    return String(valor ?? '')
+        .replace(/\s*(?:\b[A-Z]{2,4}-?\d+\b[.,;:–—-]*\s*)?[Aa]tualizad[oa]\s+em\s+[\p{L}\d\s\/-]*\.?$/u, '')
+        .replace(/\s*\b[A-Z]{2,4}-\d+\b[.,;:]?\s*$/u, '')
+        .trim();
+}
+
 const normalizeListing = item => {
     let photos = Array.isArray(item.fotos) ? item.fotos : (typeof item.fotos === 'string' ? item.fotos.split(',').map(p => p.trim()) : []);
     photos = photos.filter(p => p.startsWith('http'));
@@ -2948,7 +2957,7 @@ const normalizeListing = item => {
         iptu: numBR(pickField(item, ['iptu', 'valor_iptu', 'valorIptu', 'iptu_anual', 'iptuAnual', 'taxaIptu', 'taxa_iptu', 'iptuValor', 'yearlyTax', 'propertyTax', 'propertyTaxValue', 'annualPropertyTax', 'yearlyPropertyTax', 'yearlyTaxes', 'taxes', 'tax', 'municipalTax', 'iptuMensal', 'monthlyTax', 'monthlyPropertyTax'])),
         mobiliado: escapeHTML(pickField(item, ['mobiliado', 'furnished'])),
         photos: photos.map(escapeHTML),
-        desc: escapeHTML(ocultarInfoUnidade(limparMarcaAntigaImovel(item.descricao)) || "Consultoria técnica exclusiva."),
+        desc: escapeHTML(ocultarInfoUnidade(limparRodapeDescricao(limparMarcaAntigaImovel(item.descricao))) || "Consultoria técnica exclusiva."),
         caracteristicas: normalizarListaCaracteristicas(pickArrayField(item, ['features', 'caracteristicas', 'características', 'amenities', 'comodidades', 'infraestrutura', 'characteristics', 'diferenciais'])).map(limparMarcaAntigaImovel).map(escapeHTML),
         garantiaLocacao: escapeHTML(item.garantia_locacao || ""),
         destaque: !!item.destaque,
