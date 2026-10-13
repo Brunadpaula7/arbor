@@ -502,10 +502,6 @@
         .k-desc p{ margin-bottom:18px; }
         .k-desc p:last-child{ margin-bottom:0; }
         .caracteristicas-section{ margin:0; padding:0; border:0; background:transparent; }
-        .caracteristicas-meta{ font-size:0.82rem; color:rgba(17,17,17,.55); }
-        .caracteristicas-tags{ display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:10px; }
-        .caract-tag{ display:flex; align-items:flex-start; gap:10px; min-height:100%; font-size:0.84rem; line-height:1.45; color:var(--onix); background:rgba(255,255,255,.3); border:1px solid var(--line); padding:12px 14px; border-radius:16px; }
-        .caract-tag::before{ content:''; width:8px; height:8px; border-radius:50%; background:var(--verde); margin-top:0.42rem; flex:0 0 8px; }
         .detail-quick-list{ display:grid; gap:12px; }
         .detail-quick-item{ display:grid; grid-template-columns:120px 1fr; gap:14px; padding:12px 0; border-bottom:1px solid var(--line); }
         .detail-quick-item:last-child{ padding-bottom:0; border-bottom:0; }
@@ -1143,23 +1139,6 @@
             border-radius:26px;
             background:rgba(255,255,255,.2);
         }
-        .caracteristicas-section .detail-section-head{
-            display:grid;
-            grid-template-columns:minmax(0,1fr) auto;
-            gap:8px 28px;
-            align-items:end;
-        }
-        .caracteristicas-section .detail-section-head .eyebrow{ grid-column:1 / -1; }
-        .caracteristicas-section .detail-section-head h2{ margin:0; }
-        .caracteristicas-section .caracteristicas-meta{ text-align:right; }
-        .caracteristicas-tags{
-            grid-template-columns:repeat(3,minmax(0,1fr));
-            gap:10px;
-        }
-        .caract-tag{
-            background:rgba(255,255,255,.34);
-            padding:13px 14px;
-        }
 
         .detail-gallery-section{
             overflow:hidden;
@@ -1199,7 +1178,6 @@
             .detail-primary-actions{ grid-template-columns:1fr; }
             .detail-primary-note{ grid-column:auto; }
             .detail-info-grid{ grid-template-columns:minmax(0,1.25fr) minmax(280px,.75fr); }
-            .caracteristicas-tags{ grid-template-columns:repeat(2,minmax(0,1fr)); }
         }
 
         @media (max-width:820px){
@@ -1364,12 +1342,6 @@
                 font-size:.8rem;
                 line-height:1.3;
             }
-            .caracteristicas-section .detail-section-head{
-                display:flex;
-                align-items:flex-start;
-            }
-            .caracteristicas-section .caracteristicas-meta{ text-align:left; }
-            .caracteristicas-tags{ grid-template-columns:1fr; }
             .detail-gallery-section .detail-gallery{
                 display:flex;
                 overflow-x:auto;
@@ -1643,12 +1615,6 @@
             line-height:1.45;
             letter-spacing:.005em;
         }
-        .caract-tag{
-            font-family:var(--font-text);
-            font-size:.9rem;
-            line-height:1.5;
-            letter-spacing:.004em;
-        }
 
         .sobre-copy p,
         .bairro-body p,
@@ -1748,7 +1714,7 @@
     <link rel="stylesheet" href="equipe.css?v=redondas-20261011">
     <link rel="stylesheet" href="site.css">
     <link rel="stylesheet" href="watercolor.css">
-    <link rel="stylesheet" href="arbor-ui.css?v=46">
+    <link rel="stylesheet" href="arbor-ui.css?v=49">
 </head>
 <body>
 <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs><filter id="wc-soft" x="-30%" y="-30%" width="160%" height="160%"><feTurbulence type="fractalNoise" baseFrequency="0.008 0.011" numOctaves="3" seed="11" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="70" xChannelSelector="R" yChannelSelector="G" result="d"/><feGaussianBlur in="d" stdDeviation="9"/></filter><filter id="wc-edge" x="-5%" y="-100%" width="110%" height="300%"><feTurbulence type="fractalNoise" baseFrequency="0.012 0.09" numOctaves="3" seed="4" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="34" xChannelSelector="R" yChannelSelector="G"/></filter></defs></svg>
@@ -4207,6 +4173,44 @@ const setupDetailSlideshow = () => {
     dvTimer = setTimeout(tick, DV_INTERVALO);
 };
 
+/* Características do imóvel: separadas em "da unidade", "do condomínio" e "do entorno",
+   em chips compactos, mostrando as primeiras e expandindo as demais sob demanda. */
+const CARACT_VISIVEIS = 8;
+const CARACT_ENTORNO = /perto de|rua asfaltada|p[uú]blicos essenciais|espa[cç]o verde|parque/i;
+const CARACT_CONDOMINIO = /piscina|academia|fitness|sal[aã]o|playground|quadra|sauna|\bspa\b|massagem|guarita|ronda|vigil|vigia|seguran[cç]a|portaria|recep[cç][aã]o|elevador|biciclet|gerador|interfone|circuito|coleta|energia solar|cinema|reuni[aã]o|espa[cç]o pet|cooper|espelhos|pra[cç]a|lazer|manobrista|audit[oó]rio|condom[ií]nio|garage band|espa[cç]o gourmet|espa[cç]o de beleza|carregador|reservat[oó]rio|zelador|administra[cç][aã]o|pay per use|bar$|loja/i;
+const CARACT_CONDOMINIO_CASA = /portaria|guarita|seguran[cç]a|ronda|vigil|vigia|condom[ií]nio|sal[aã]o de festas|playground|academia|quadra|recep[cç][aã]o|zelador/i;
+const classificarCaracteristicas = p => {
+    const casa = /casa|sobrado|ch[aá]cara|terreno|lote/i.test(String(p.tipo || ''));
+    const regra = casa ? CARACT_CONDOMINIO_CASA : CARACT_CONDOMINIO;
+    const grupos = { unidade: [], condominio: [], entorno: [] };
+    (p.caracteristicas || []).forEach(c => {
+        const t = String(c);
+        (CARACT_ENTORNO.test(t) ? grupos.entorno : regra.test(t) ? grupos.condominio : grupos.unidade).push(c);
+    });
+    return grupos;
+};
+const renderCaracteristicas = p => {
+    const g = classificarCaracteristicas(p);
+    const blocos = [['Da unidade', g.unidade], ['Do condomínio', g.condominio], ['Do entorno', g.entorno]].filter(([, l]) => l.length);
+    if (!blocos.length) return '';
+    const chip = (c, oculto) => `<li class="cx-chip"${oculto ? ' hidden data-cx-extra' : ''}>${featureIcon(c)}<span>${escapeHTML(String(c))}</span></li>`;
+    return `
+            <section class="detail-section-card caracteristicas-section" aria-labelledby="cx-titulo">
+                <div class="detail-section-head">
+                    <span class="eyebrow">Características</span>
+                    <h2 id="cx-titulo">O que o imóvel oferece</h2>
+                </div>
+                <div class="cx-grupos">
+                    ${blocos.map(([titulo, lista]) => `
+                    <div class="cx-grupo">
+                        <h3 class="cx-titulo">${titulo} <span>${lista.length}</span></h3>
+                        <ul class="cx-lista">${lista.map((c, i) => chip(c, i >= CARACT_VISIVEIS)).join('')}</ul>
+                        ${lista.length > CARACT_VISIVEIS ? `<button type="button" class="cx-mais" data-cx-mais aria-expanded="false">Ver todas (${lista.length})</button>` : ''}
+                    </div>`).join('')}
+                </div>
+            </section>`;
+};
+
 const renderDetailContent = (p) => {
     const hasField = value => value !== undefined && value !== null && String(value).trim() !== '' && String(value).trim() !== '0';
     const detailTitle = getPropertyDisplayName(p);
@@ -4318,17 +4322,7 @@ const renderDetailContent = (p) => {
                 </aside>
             </section>
 
-            ${p.caracteristicas && p.caracteristicas.length ? `
-            <section class="detail-section-card caracteristicas-section">
-                <div class="detail-section-head">
-                    <span class="eyebrow">Características</span>
-                    <h2>Diferenciais do imóvel</h2>
-                    <p class="caracteristicas-meta">${p.caracteristicas.length} característica${p.caracteristicas.length > 1 ? 's' : ''} identificada${p.caracteristicas.length > 1 ? 's' : ''}.</p>
-                </div>
-                <div class="caracteristicas-tags">
-                    ${p.caracteristicas.map(c => `<span class="caract-tag">${featureIcon(c)}${c}</span>`).join('')}
-                </div>
-            </section>` : ''}
+            ${renderCaracteristicas(p)}
 
             <section class="detail-section-card detail-gallery-section">
                 <div class="detail-section-head">
@@ -4409,6 +4403,12 @@ const renderDetailContent = (p) => {
     });
     setupDetailSlideshow();
     renderResponsavel(p);
+    document.querySelectorAll('#detail-view [data-cx-mais]').forEach(btn => btn.addEventListener('click', () => {
+        const grupo = btn.closest('.cx-grupo'), aberto = btn.getAttribute('aria-expanded') === 'true';
+        grupo.querySelectorAll('[data-cx-extra]').forEach(li => { li.hidden = aberto; });
+        btn.setAttribute('aria-expanded', aberto ? 'false' : 'true');
+        btn.textContent = aberto ? `Ver todas (${grupo.querySelectorAll('.cx-chip').length})` : 'Ver menos';
+    }));
     window.ArborImovelContato?.montar({ codigo: p.id, titulo: detailTitle });
     if ($('btn-print-doc')) $('btn-print-doc').addEventListener('click', () => buildPresentationPDF(state.activeProp));
     if ($('btn-print-doc-mobile')) $('btn-print-doc-mobile').addEventListener('click', () => buildPresentationPDF(state.activeProp));
