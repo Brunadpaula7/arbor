@@ -1,4 +1,5 @@
-/* Formulário de contato (página "Nossa essência").
+/* Contato com a Arbor: formulário da página "Nossa essência" e envio compartilhado
+   com o formulário de cada imóvel (imovel-contato.js).
    Envia para o servidor da Arbor (Cloudflare Worker), que entrega a mensagem
    em contato@arborimoveis.com.br pelo mesmo sistema de e-mails da Arbor.
    Se o servidor não responder, abre o e-mail do visitante com a mensagem pronta. */
@@ -6,6 +7,30 @@
     'use strict';
     var DESTINO = 'contato@arborimoveis.com.br';
     var ENDPOINT = 'https://arbor-backend.arborimoveis-bruna.workers.dev/api/public/contato';
+
+    function emailValido(v) { return /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v); }
+
+    /* Envia ao servidor. Resolve se a Arbor recebeu; rejeita com Error('muitas') ou Error('falha'). */
+    function enviar(dados) {
+        return fetch(ENDPOINT, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+            body: JSON.stringify(dados)
+        }).then(function (r) {
+            return r.json().catch(function () { return {}; }).then(function (j) {
+                if (r.status === 429) throw new Error('muitas');
+                if (!r.ok || j.ok === false) throw new Error('falha');
+            });
+        });
+    }
+
+    /* Plano B: abre o e-mail do visitante já preenchido para contato@, para a mensagem não se perder. */
+    function abrirEmail(assunto, corpo) {
+        window.location.href = 'mailto:' + DESTINO + '?subject=' + encodeURIComponent(assunto) + '&body=' + encodeURIComponent(String(corpo).slice(0, 1500));
+    }
+
+    window.ArborContato = { enviar: enviar, abrirEmail: abrirEmail, emailValido: emailValido, destino: DESTINO };
+
     var form = document.getElementById('form-contato');
     if (!form) return;
 
@@ -16,8 +41,6 @@
         status.textContent = texto;
         status.className = 'ui-contato-status' + (tipo ? ' is-' + tipo : '');
     }
-
-    function emailValido(v) { return /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v); }
 
     form.addEventListener('submit', function (e) {
         e.preventDefault();
@@ -36,24 +59,16 @@
         botao.disabled = true;
         aviso('Enviando…');
 
-        fetch(ENDPOINT, {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
-            body: JSON.stringify({ nome: nome, email: email, telefone: telefone, mensagem: mensagem, aceite: true, website: '' })
-        }).then(function (r) {
-            return r.json().catch(function () { return {}; }).then(function (j) {
-                if (r.status === 429) throw new Error('muitas');
-                if (!r.ok || j.ok === false) throw new Error('falha');
+        enviar({ nome: nome, email: email, telefone: telefone, mensagem: mensagem, aceite: true, website: '' })
+            .then(function () {
                 form.reset();
                 aviso('Mensagem enviada. Obrigado! Retornaremos em breve.', 'ok');
-            });
-        }).catch(function (err) {
-            if (err && err.message === 'muitas') return aviso('Muitas tentativas seguidas. Aguarde alguns minutos ou chame no WhatsApp.', 'erro');
-            // O servidor não recebeu: abre o e-mail do visitante já preenchido para contato@, para a mensagem não se perder.
-            var corpo = 'Nome: ' + nome + '\nE-mail: ' + email + '\nTelefone / WhatsApp: ' + (telefone || '—') + '\n\n' + mensagem;
-            var link = 'mailto:' + DESTINO + '?subject=' + encodeURIComponent('Mensagem pelo site Arbor — ' + nome) + '&body=' + encodeURIComponent(corpo.slice(0, 1500));
-            aviso('Não conseguimos enviar pelo site agora. Abrimos o seu e-mail com a mensagem pronta para ' + DESTINO + ' — é só enviar. Se preferir, chame no WhatsApp.', 'erro');
-            window.location.href = link;
-        }).then(function () { botao.disabled = false; });
+            })
+            .catch(function (err) {
+                if (err && err.message === 'muitas') return aviso('Muitas tentativas seguidas. Aguarde alguns minutos ou chame no WhatsApp.', 'erro');
+                aviso('Não conseguimos enviar pelo site agora. Abrimos o seu e-mail com a mensagem pronta para ' + DESTINO + ' — é só enviar. Se preferir, chame no WhatsApp.', 'erro');
+                abrirEmail('Mensagem pelo site Arbor — ' + nome, 'Nome: ' + nome + '\nE-mail: ' + email + '\nTelefone / WhatsApp: ' + (telefone || '—') + '\n\n' + mensagem);
+            })
+            .then(function () { botao.disabled = false; });
     });
 })();

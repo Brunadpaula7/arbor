@@ -1748,7 +1748,7 @@
     <link rel="stylesheet" href="equipe.css?v=redondas-20261011">
     <link rel="stylesheet" href="site.css">
     <link rel="stylesheet" href="watercolor.css">
-    <link rel="stylesheet" href="arbor-ui.css?v=42">
+    <link rel="stylesheet" href="arbor-ui.css?v=45">
 </head>
 <body>
 <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs><filter id="wc-soft" x="-30%" y="-30%" width="160%" height="160%"><feTurbulence type="fractalNoise" baseFrequency="0.008 0.011" numOctaves="3" seed="11" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="70" xChannelSelector="R" yChannelSelector="G" result="d"/><feGaussianBlur in="d" stdDeviation="9"/></filter><filter id="wc-edge" x="-5%" y="-100%" width="110%" height="300%"><feTurbulence type="fractalNoise" baseFrequency="0.012 0.09" numOctaves="3" seed="4" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="34" xChannelSelector="R" yChannelSelector="G"/></filter></defs></svg>
@@ -4308,7 +4308,8 @@ const renderDetailContent = (p) => {
                         </div>
                     </div>
                     <div class="detail-primary-actions">
-                        <a href="${whatsappHref}" target="_blank" rel="noopener noreferrer" class="btn btn-fill">Falar com a Arbor <i data-lucide="message-circle" style="width:16px"></i></a>
+                        <button type="button" class="btn btn-fill" data-ic-abrir="visita">Desejo visitar <i data-lucide="calendar-check" style="width:16px"></i></button>
+                        <a href="${whatsappHref}" target="_blank" rel="noopener noreferrer" class="btn btn-line">Falar com a Arbor <i data-lucide="message-circle" style="width:16px"></i></a>
                         <button id="btn-print-doc" class="btn btn-line">Gerar ficha em PDF <i data-lucide="file-down" style="width:16px"></i></button>
                         <p class="detail-primary-note">Atendimento consultivo para visita, proposta, negociação e documentação.</p>
                     </div>
@@ -4342,6 +4343,57 @@ const renderDetailContent = (p) => {
                 </div>
             </section>
 
+            <section class="detail-section-card imovel-contato" id="imovel-contato" aria-labelledby="imovel-contato-titulo">
+                <div class="detail-section-head">
+                    <span class="eyebrow">Tenho interesse</span>
+                    <h2 id="imovel-contato-titulo">Fale com a Arbor sobre este imóvel</h2>
+                    <p class="ic-ref">Cód. ${escapeHTML(String(p.id))}${detailTitle ? ' · ' + escapeHTML(detailTitle) : ''}</p>
+                </div>
+                <div class="ic-modos" role="group" aria-label="Tipo de contato">
+                    <button type="button" class="ic-modo is-ativo" data-modo="mensagem" aria-pressed="true">Enviar mensagem</button>
+                    <button type="button" class="ic-modo" data-modo="visita" aria-pressed="false">Desejo visitar</button>
+                </div>
+                <form id="form-imovel" class="ui-contato-form ic-form" novalidate data-modo="mensagem">
+                    <div class="ui-contato-grid">
+                        <label class="ui-contato-campo"><span>Nome</span>
+                            <input type="text" name="nome" autocomplete="name" required maxlength="120">
+                        </label>
+                        <label class="ui-contato-campo"><span>E-mail</span>
+                            <input type="email" name="email" autocomplete="email" required maxlength="160">
+                        </label>
+                        <label class="ui-contato-campo"><span>Telefone / WhatsApp</span>
+                            <input type="tel" name="telefone" autocomplete="tel" inputmode="tel" maxlength="30">
+                            <small class="ic-tel-dica" hidden>Para combinarmos o horário da visita.</small>
+                        </label>
+                    </div>
+                    <div class="ui-contato-grid ic-visita" hidden>
+                        <label class="ui-contato-campo"><span>Data preferida <small>(opcional)</small></span>
+                            <input type="date" name="data">
+                        </label>
+                        <label class="ui-contato-campo"><span>Período</span>
+                            <select name="periodo">
+                                <option value="qualquer">Qualquer horário</option>
+                                <option value="manha">Manhã</option>
+                                <option value="tarde">Tarde</option>
+                                <option value="noite">Noite</option>
+                            </select>
+                        </label>
+                    </div>
+                    <label class="ui-contato-campo"><span>Mensagem</span>
+                        <textarea name="mensagem" rows="4" required maxlength="1200"></textarea>
+                    </label>
+                    <input type="text" name="website" class="ui-contato-honey" tabindex="-1" autocomplete="off" aria-hidden="true">
+                    <label class="ui-contato-aceite">
+                        <input type="checkbox" name="aceite" required>
+                        <span>Concordo em compartilhar meus dados para receber retorno da Arbor, conforme a <a href="/politica-de-privacidade/" target="_blank" rel="noopener">Política de Privacidade</a>.</span>
+                    </label>
+                    <div class="ui-contato-rodape">
+                        <button type="submit" class="ui-btn ui-btn-primary" id="ic-enviar">Enviar mensagem</button>
+                        <p id="imovel-status" class="ui-contato-status" role="status" aria-live="polite"></p>
+                    </div>
+                </form>
+            </section>
+
             ${(() => {
                 const similares = getSimilarProperties(p, 3);
                 if (!similares.length) return '';
@@ -4353,7 +4405,8 @@ const renderDetailContent = (p) => {
             })()}
 
             <div class="mobile-detail-cta" aria-label="Ações do imóvel">
-                <a href="${whatsappHref}" target="_blank" rel="noopener noreferrer" class="btn btn-fill">Falar com a Arbor <i data-lucide="message-circle" style="width:16px"></i></a>
+                <button type="button" class="btn btn-fill" data-ic-abrir="visita">Desejo visitar <i data-lucide="calendar-check" style="width:16px"></i></button>
+                <a href="${whatsappHref}" target="_blank" rel="noopener noreferrer" class="btn btn-line mobile-wa-btn" aria-label="Falar com a Arbor no WhatsApp"><i data-lucide="message-circle" style="width:18px"></i></a>
                 <button id="btn-print-doc-mobile" class="btn btn-line mobile-pdf-btn" aria-label="Gerar ficha em PDF"><i data-lucide="file-down" style="width:18px"></i></button>
             </div>
             <div class="print-footer">Arbor Imóveis</div>
@@ -4369,6 +4422,7 @@ const renderDetailContent = (p) => {
     });
     setupDetailSlideshow();
     renderResponsavel(p);
+    window.ArborImovelContato?.montar({ codigo: p.id, titulo: detailTitle });
     if ($('btn-print-doc')) $('btn-print-doc').addEventListener('click', () => buildPresentationPDF(state.activeProp));
     if ($('btn-print-doc-mobile')) $('btn-print-doc-mobile').addEventListener('click', () => buildPresentationPDF(state.activeProp));
     document.querySelectorAll('#detail-view .gallery-img-container').forEach(el => {
@@ -4521,7 +4575,8 @@ window.addEventListener('DOMContentLoaded', init);
 <script src="equipe.js?v=catalogo-20261012"></script>
 <script src="empreendimentos.js?v=20261011"></script>
 <script src="journal-services.js"></script>
-<script src="contato.js?v=3"></script>
+<script src="contato.js?v=4"></script>
+<script src="imovel-contato.js?v=1"></script>
 </body>
 </html>
 
