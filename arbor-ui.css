@@ -374,7 +374,7 @@ body.filtros-open #scroll-tree{display:none!important}
 .ui-ess-intro{margin:0 auto 30px;max-width:640px;text-align:center;font-size:1rem;line-height:1.65;color:#5e6a63}
 .ui-ess-parte p strong{display:block;margin-bottom:6px;font-weight:500;color:var(--ui-verde)}
 .ui-ess-parte p{font-size:.95rem!important}
-.ui-ess-citacao{margin:30px auto 0;max-width:640px;text-align:center;font-style:italic;font-size:1rem;line-height:1.6;color:#6d5a47}
+.ui-ess-citacao{margin:44px auto 0;max-width:640px;text-align:center;font-style:italic;font-size:1rem;line-height:1.6;color:#6d5a47}
 .ui-venn svg{width:100%;max-width:380px;height:auto;display:block;margin:0 auto}
 .ui-venn::before{display:none}
 /* raízes · tronco · copa: fatias da árvore da logo, na mesma escala — sobrepostas pelo centro formam a árvore inteira */
