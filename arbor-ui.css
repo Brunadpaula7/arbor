@@ -429,11 +429,13 @@ body.filtros-open #scroll-tree{display:none!important}
 .ui-principios{margin:1.4em 0 1.6em;padding:0}
 .ui-essencia .ui-principios-sub{margin:6px 0 14px;font-size:.95rem;line-height:1.5;color:var(--ui-suave)}
 .ui-principios dl{margin:0}
-.ui-principio{padding:14px 0;border-top:1px solid var(--ui-linha)}
-.ui-principio:first-child{padding-top:12px}
-.ui-principio:last-child{padding-bottom:4px;border-bottom:1px solid var(--ui-linha)}
-.ui-principio dt{margin:0 0 3px;font-size:.82rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--ui-terracota)}
-.ui-principio dd{margin:0;font-size:1rem;line-height:1.55;color:var(--ui-texto)}
+.ui-principio{line-height:1.45;padding:8px 0;border-top:1px solid var(--ui-linha)}
+.ui-principio:first-child{padding-top:8px}
+.ui-principio:last-child{padding-bottom:8px;border-bottom:1px solid var(--ui-linha)}
+.ui-principio dt{display:inline;margin:0 8px 0 0;font-size:.76rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--ui-terracota)}
+.ui-principio dd{display:inline;margin:0;font-size:.95rem;line-height:1.45;color:var(--ui-texto)}
+.ui-principios{margin:1em 0 1.1em}
+.ui-essencia .ui-principios-sub{margin:4px 0 8px;font-size:.9rem}
 
 /* Sistema próprio (tecnologia a serviço do atendimento) */
 .ui-sistema h3{margin:0 0 18px;font-size:clamp(1.5rem,2.8vw,2.1rem);font-weight:300;line-height:1.2;color:var(--ui-verde)}
