@@ -384,7 +384,9 @@ body.filtros-open #scroll-tree{display:none!important}
 
 /* Arbor Concept */
 .ui-concept{margin:0 0 clamp(36px,5vw,56px);padding:clamp(26px,4.5vw,60px) clamp(20px,4.5vw,56px) clamp(8px,2vw,24px);background:linear-gradient(180deg,var(--ui-papel),#f9f4e8);border:1px solid var(--ui-linha);border-radius:22px}
-.ui-concept h3{font-size:clamp(1.6rem,3.2vw,2.5rem);font-weight:300;color:var(--ui-verde);margin:8px 0 16px;line-height:1.18;letter-spacing:-.01em}
+.ui-concept-cab{text-align:center;margin:0 auto clamp(22px,3.5vw,40px);max-width:640px}
+.ui-concept-logo{display:block;width:min(100%,420px);height:auto;margin:0 auto 14px}
+.ui-concept h3{font-size:clamp(1.15rem,2.2vw,1.55rem);font-weight:300;color:var(--ui-verde);margin:0;line-height:1.35;letter-spacing:0}
 .ui-concept h3 em{color:var(--ui-terracota)}
 .ui-concept .ui-sobre-destaque{font-family:'Cormorant Garamond',Georgia,serif;font-style:italic;font-weight:400;font-size:clamp(1.25rem,2.4vw,1.6rem);line-height:1.4}
 
