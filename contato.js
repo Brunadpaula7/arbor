@@ -1,6 +1,7 @@
 /* Formulário de contato (página "Nossa essência").
    Envia para o servidor da Arbor (Cloudflare Worker), que entrega a mensagem
-   em contato@arborimoveis.com.br pelo mesmo sistema de e-mails da Arbor. */
+   em contato@arborimoveis.com.br pelo mesmo sistema de e-mails da Arbor.
+   Se o servidor não responder, abre o e-mail do visitante com a mensagem pronta. */
 (function () {
     'use strict';
     var DESTINO = 'contato@arborimoveis.com.br';
@@ -48,7 +49,11 @@
             });
         }).catch(function (err) {
             if (err && err.message === 'muitas') return aviso('Muitas tentativas seguidas. Aguarde alguns minutos ou chame no WhatsApp.', 'erro');
-            aviso('Não foi possível enviar agora. Escreva para ' + DESTINO + ' ou chame no WhatsApp.', 'erro');
+            // O servidor não recebeu: abre o e-mail do visitante já preenchido para contato@, para a mensagem não se perder.
+            var corpo = 'Nome: ' + nome + '\nE-mail: ' + email + '\nTelefone / WhatsApp: ' + (telefone || '—') + '\n\n' + mensagem;
+            var link = 'mailto:' + DESTINO + '?subject=' + encodeURIComponent('Mensagem pelo site Arbor — ' + nome) + '&body=' + encodeURIComponent(corpo.slice(0, 1500));
+            aviso('Não conseguimos enviar pelo site agora. Abrimos o seu e-mail com a mensagem pronta para ' + DESTINO + ' — é só enviar. Se preferir, chame no WhatsApp.', 'erro');
+            window.location.href = link;
         }).then(function () { botao.disabled = false; });
     });
 })();
