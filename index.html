@@ -2979,6 +2979,10 @@ const parseFeedXML = (xmlText) => {
     }
 
     const listings = [...doc.querySelectorAll('Listing')];
+    // PublishDate do feed: é a referência da rotação diária das fotos. A ficha PDF a
+    // envia ao backend para receber as fotos na mesma ordem que esta página exibe.
+    const publishDate = (doc.querySelector('Header > PublishDate')?.textContent || '').trim();
+    state.feedPublishDate = /^\d{4}-\d{2}-\d{2}T[\d:.]+Z$/.test(publishDate) ? publishDate : '';
     if (listings.length) return parseVRSyncNodes(listings);
 
     const imoveis = [...doc.querySelectorAll('Imovel')];
@@ -3890,15 +3894,35 @@ const preloadPdfImage = async (url, deadline = Date.now() + 30000) => {
     if (!img) console.warn('[Ficha PDF] Não foi possível carregar uma foto.');
     return img;
 };
-const collectPdfPhotos = async values => {
-    const urls = [...new Set((Array.isArray(values) ? values : []).map(pdfPhotoUrl).filter(Boolean))];
+// Fotos pelo backend da Arbor: só código do imóvel publicado + posição da foto (na ordem
+// do feed que esta página exibiu, identificada pelo PublishDate), com CORS liberado para o canvas do PDF. Se o backend não tiver a rota ou
+// recusar, a ficha tenta o link original da foto.
+const pdfBackendPhotoUrl = (codigo, posicao) => {
+    if (!ARBOR_DATA_URL || !/^AR-\d{1,6}$/i.test(String(codigo || '')) || posicao > 99) return '';
+    const ref = state.feedPublishDate ? `?ref=${encodeURIComponent(state.feedPublishDate)}` : '';
+    return `${new URL(ARBOR_DATA_URL).origin}/api/site/foto/${encodeURIComponent(String(codigo).toUpperCase())}/${posicao}${ref}`;
+};
+const loadPdfPhoto = async ({ url, posicao }, codigo, deadline) => {
+    const viaBackend = pdfBackendPhotoUrl(codigo, posicao);
+    if (viaBackend) {
+        const remaining = deadline - Date.now();
+        const img = remaining > 0 ? await loadPdfImageOnce(viaBackend, Math.min(15000, remaining)) : null;
+        if (img) return img;
+    }
+    return preloadPdfImage(url, deadline);
+};
+const collectPdfPhotos = async (values, codigo) => {
+    const vistos = new Set();
+    const urls = (Array.isArray(values) ? values : [])
+        .map((v, posicao) => ({ url: pdfPhotoUrl(v), posicao }))
+        .filter(f => f.url && !vistos.has(f.url) && vistos.add(f.url));
     const photos = [];
     const deadline = Date.now() + 60000;
     // Preservar a ordem da galeria e tentar outras quando uma foto falhar.
     for (let cursor = 0; cursor < urls.length && photos.length < 5 && Date.now() < deadline;) {
         const batch = urls.slice(cursor, cursor + 5 - photos.length);
         cursor += batch.length;
-        const imgs = await Promise.all(batch.map(url => preloadPdfImage(url, deadline)));
+        const imgs = await Promise.all(batch.map(f => loadPdfPhoto(f, codigo, deadline)));
         for (const img of imgs) {
             if (!img) continue;
             try {
@@ -4052,7 +4076,7 @@ const buildPresentationPDF = async p => {
     const root=document.createElement('div');root.id='pdf-render-root';document.body.appendChild(root);
     try{
         await window.ArborEmpreendimentos?.pronto;
-        const photos=await collectPdfPhotos(p.photos);
+        const photos=await collectPdfPhotos(p.photos,p.id);
         const logo=await pdfArborLogo();
         const logoImg=new Image();logoImg.src='assets/arbor-logo-lema-creme.png';await logoImg.decode().catch(()=>{});
         const logoSrc=logoImg.naturalWidth?logoImg.src:logo;
