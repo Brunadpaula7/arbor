@@ -376,10 +376,10 @@ body.filtros-open #scroll-tree{display:none!important}
 .ui-ess-partes{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(16px,3vw,40px)}
 .ui-ess-parte{text-align:center;padding:0 6px}
 .ui-fatia-box{height:150px;display:flex;align-items:center;justify-content:center;margin-bottom:12px}
-.ui-arv{display:block;width:min(100%,230px);height:0;background:url(assets/ilustracoes/arvore-arbor.webp?v=1) no-repeat;background-size:100% auto}
-.ui-arv.is-copa{padding-top:63.1%;background-position:0 0}
-.ui-arv.is-tronco{padding-top:20.63%;background-position:0 70.25%}
-.ui-arv.is-raizes{padding-top:26.72%;background-position:0 100%}
+.ui-arv{display:block;width:min(100%,230px);background:url(assets/ilustracoes/arvore-arbor.webp?v=1) no-repeat;background-size:100% auto}
+.ui-arv.is-copa{aspect-ratio:1149/725;background-position:0 0}
+.ui-arv.is-tronco{aspect-ratio:1149/237;background-position:0 70.25%}
+.ui-arv.is-raizes{aspect-ratio:1149/307;background-position:0 100%}
 .ui-ess-parte h3{margin:0 0 6px;font-size:1.45rem;font-weight:400;color:var(--ui-verde)}
 .ui-ess-parte p{margin:0;font-size:1rem;line-height:1.6}
 @media(max-width:700px){.ui-ess-partes{grid-template-columns:1fr;gap:22px}.ui-ess-parte{display:grid;grid-template-columns:104px 1fr;column-gap:16px;text-align:left;align-items:center}.ui-fatia-box{grid-row:1/3;height:80px;margin:0}.ui-arv{width:104px}}
