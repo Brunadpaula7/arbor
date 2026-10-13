@@ -810,7 +810,7 @@
             .j-step{ display:grid; grid-template-columns:48px minmax(0,1fr); column-gap:14px; align-items:center; }
             .j-num{ grid-column:1; grid-row:1; margin:0; }
             .j-step h4{ grid-column:2; grid-row:1; margin:0; }
-            .j-step > p{ grid-column:2; grid-row:2; margin:9px 0 0; }
+            .j-step > p{ grid-column:2; grid-row:3; margin:9px 0 0; }
             .j-step.is-active > p{ display:block; animation:jornadaDetailIn .32s ease both; }
             .jornada-detail{ display:none !important; }
             .temp-bar{ flex-direction:column; }
@@ -1748,7 +1748,7 @@
     <link rel="stylesheet" href="equipe.css?v=redondas-20261011">
     <link rel="stylesheet" href="site.css">
     <link rel="stylesheet" href="watercolor.css">
-    <link rel="stylesheet" href="arbor-ui.css?v=32">
+    <link rel="stylesheet" href="arbor-ui.css?v=34">
 </head>
 <body>
 <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs><filter id="wc-soft" x="-30%" y="-30%" width="160%" height="160%"><feTurbulence type="fractalNoise" baseFrequency="0.008 0.011" numOctaves="3" seed="11" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="70" xChannelSelector="R" yChannelSelector="G" result="d"/><feGaussianBlur in="d" stdDeviation="9"/></filter><filter id="wc-edge" x="-5%" y="-100%" width="110%" height="300%"><feTurbulence type="fractalNoise" baseFrequency="0.012 0.09" numOctaves="3" seed="4" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="34" xChannelSelector="R" yChannelSelector="G"/></filter></defs></svg>
@@ -1760,7 +1760,6 @@
         <li><a href="#imoveis" id="nav-imoveis-btn">Imóveis</a></li>
         <li><a href="#bairros" id="nav-bairros-btn">Bairros</a></li>
         <li><a href="#jornada" id="nav-jornada-btn">Jornada</a></li>
-        <li><a href="#diferenciais" id="nav-diferenciais-btn">Diferenciais</a></li>
         <li><a href="#noticias" id="nav-noticias-btn">Journal</a></li>
         <li><a href="#sobre" id="nav-sobre-btn">Sobre</a></li>
         <li data-arbor-equipe hidden><a href="#equipe" id="nav-equipe-btn">Equipe</a></li>
@@ -1774,7 +1773,6 @@
     <a href="#imoveis" class="mm-link">Imóveis</a>
     <a href="#bairros" class="mm-link">Bairros</a>
     <a href="#jornada" class="mm-link">Jornada</a>
-    <a href="#diferenciais" class="mm-link">Diferenciais</a>
     <a href="#noticias" class="mm-link">Journal</a>
     <a href="#sobre" class="mm-link">Sobre</a>
     <a href="#equipe" class="mm-link" data-arbor-equipe hidden>Equipe</a>
@@ -2152,47 +2150,6 @@
     </div>
 </section>
 
-<section id="diferenciais-view" class="view-hidden page-view">
-    <button class="back-btn" id="diferenciais-back-btn"><i data-lucide="arrow-left" style="width:14px"></i> Voltar à Home</button>
-    <div class="diferenciais-page-intro reveal">
-        <span class="eyebrow">Diferenciais</span>
-        <h2>Menos ruído. <em>Mais clareza para decidir.</em></h2>
-        <p>Nosso diferencial não está em prometer acesso a mais imóveis. Está na forma como analisamos cada possibilidade, organizamos as informações e conduzimos a decisão. Comprar, vender ou investir envolve contexto, tempo, negociação e leitura de mercado — e é justamente aí que a Arbor atua.</p>
-    </div>
-
-    <div class="diferenciais-page-grid reveal">
-        <article class="dif-page-item">
-            <span class="dif-page-number">01</span>
-            <div><h3>Leitura de contexto</h3><p>Um imóvel nunca existe isoladamente. Rua, bairro, condomínio, oferta concorrente, perfil de demanda, liquidez e momento de mercado mudam completamente a qualidade de uma decisão. Nossa análise começa antes do imóvel.</p></div>
-        </article>
-        <article class="dif-page-item">
-            <span class="dif-page-number">02</span>
-            <div><h3>Seleção de verdade</h3><p>Não usamos quantidade como argumento. Filtramos opções para apresentar aquilo que tem relação real com o objetivo, o orçamento e o momento de cada cliente. Menos visitas sem sentido; mais comparação útil.</p></div>
-        </article>
-        <article class="dif-page-item">
-            <span class="dif-page-number">03</span>
-            <div><h3>Informação antes da pressa</h3><p>Preço de anúncio é apenas uma parte da leitura. Histórico, condição do imóvel, custos, documentação, potencial de revenda e referências de mercado entram na análise para que a decisão não dependa apenas de impressão.</p></div>
-        </article>
-        <article class="dif-page-item">
-            <span class="dif-page-number">04</span>
-            <div><h3>Negociação bem conduzida</h3><p>Valor, forma de pagamento, prazo, condições, documentação e segurança da operação precisam conversar entre si. Buscamos construir acordos viáveis para as partes sem perder de vista o interesse de quem representamos.</p></div>
-        </article>
-        <article class="dif-page-item">
-            <span class="dif-page-number">05</span>
-            <div><h3>Visão além da compra</h3><p>Uma boa escolha precisa continuar fazendo sentido depois da assinatura. Consideramos rotina, manutenção, liquidez, possibilidade de valorização e facilidade de saída quando esses fatores forem relevantes para o cliente.</p></div>
-        </article>
-        <article class="dif-page-item">
-            <span class="dif-page-number">06</span>
-            <div><h3>Presença até o final</h3><p>A condução não termina quando comprador e vendedor chegam a um acordo. Acompanhamos as etapas seguintes para manter informação, organização e continuidade até a conclusão da operação.</p></div>
-        </article>
-    </div>
-
-    <div class="diferenciais-page-note reveal">
-        <span class="eyebrow">A forma Arbor</span>
-        <p>Não vendemos metragem. Vendemos decisões bem tomadas.</p>
-    </div>
-</section>
-
 <section id="bairros-view" class="view-hidden page-view">
     <button class="back-btn" id="bairros-back-btn"><i data-lucide="arrow-left" style="width:14px"></i> Voltar à Home</button>
     <div class="sec-head reveal">
@@ -2286,12 +2243,12 @@
     <div class="jornada-block reveal">
         <div class="sub-head"><span class="eyebrow">Para quem compra</span><h3>Jornada de compra</h3></div>
         <div class="jornada-track">
-            <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 1: Entendendo o objetivo">1</button><h4>Entendendo o objetivo</h4><p>Perfil, momento de vida e o que o imóvel precisa resolver.</p></div>
-            <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 2: Seleção">2</button><h4>Seleção</h4><p>Imóveis escolhidos com critério, alinhados ao perfil e ao orçamento.</p></div>
-            <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 3: Visitas">3</button><h4>Visitas</h4><p>Conhecendo os imóveis e comparando as opções de perto.</p></div>
-            <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 4: Proposta">4</button><h4>Proposta</h4><p>Negociação de valor e condições com o vendedor.</p></div>
-            <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 5: Documentação">5</button><h4>Documentação</h4><p>Checagem jurídica e análise dos documentos do imóvel.</p></div>
-            <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 6: Chaves">6</button><h4>Chaves</h4><p>Assinatura do contrato e entrega das chaves.</p></div>
+            <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 1: Entendendo o objetivo">1</button><h4>Entendendo o objetivo</h4><img class="j-ilus" src="assets/ilustracoes/j-c1.svg?v=1" alt="" loading="lazy" decoding="async" width="160" height="120"><p>Perfil, momento de vida e o que o imóvel precisa resolver.</p></div>
+            <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 2: Seleção">2</button><h4>Seleção</h4><img class="j-ilus" src="assets/ilustracoes/j-c2.svg?v=1" alt="" loading="lazy" decoding="async" width="160" height="120"><p>Imóveis escolhidos com critério, alinhados ao perfil e ao orçamento.</p></div>
+            <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 3: Visitas">3</button><h4>Visitas</h4><img class="j-ilus" src="assets/ilustracoes/j-c3.svg?v=1" alt="" loading="lazy" decoding="async" width="160" height="120"><p>Conhecendo os imóveis e comparando as opções de perto.</p></div>
+            <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 4: Proposta">4</button><h4>Proposta</h4><img class="j-ilus" src="assets/ilustracoes/j-c4.svg?v=1" alt="" loading="lazy" decoding="async" width="160" height="120"><p>Negociação de valor e condições com o vendedor.</p></div>
+            <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 5: Documentação">5</button><h4>Documentação</h4><img class="j-ilus" src="assets/ilustracoes/j-c5.svg?v=1" alt="" loading="lazy" decoding="async" width="160" height="120"><p>Checagem jurídica e análise dos documentos do imóvel.</p></div>
+            <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 6: Chaves">6</button><h4>Chaves</h4><img class="j-ilus" src="assets/ilustracoes/j-c6.svg?v=1" alt="" loading="lazy" decoding="async" width="160" height="120"><p>Assinatura do contrato e entrega das chaves.</p></div>
         </div>
         <div class="jornada-detail" hidden aria-live="polite">
             <span class="j-detail-kicker"></span><h4></h4><p></p>
@@ -2301,16 +2258,60 @@
     <div class="jornada-block reveal">
         <div class="sub-head"><span class="eyebrow">Para quem vende</span><h3>Jornada de venda</h3></div>
         <div class="jornada-track">
-            <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 1: Avaliação">1</button><h4>Avaliação</h4><p>Precificação fundamentada em dados reais, imóveis comparáveis e condições atuais de mercado.</p></div>
-            <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 2: Preparação">2</button><h4>Preparação</h4><p>Organização do imóvel, produção das fotos e construção de uma apresentação coerente com o posicionamento da propriedade.</p></div>
-            <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 3: Divulgação">3</button><h4>Divulgação</h4><p>Publicação nos canais adequados, ativação da rede de parceiros e organização dos agendamentos de visita.</p></div>
-            <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 4: Negociação">4</button><h4>Negociação</h4><p>Análise das propostas, alinhamento de valores e condições e condução das partes até um acordo seguro.</p></div>
-            <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 5: Contrato">5</button><h4>Contrato</h4><p>Conferência da documentação e formalização das condições definidas na negociação.</p></div>
-            <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 6: Entrega">6</button><h4>Entrega</h4><p>Acompanhamento do registro, repasse dos valores e entrega formal das chaves ao comprador.</p></div>
+            <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 1: Avaliação">1</button><h4>Avaliação</h4><img class="j-ilus" src="assets/ilustracoes/j-v1.svg?v=1" alt="" loading="lazy" decoding="async" width="160" height="120"><p>Precificação fundamentada em dados reais, imóveis comparáveis e condições atuais de mercado.</p></div>
+            <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 2: Preparação">2</button><h4>Preparação</h4><img class="j-ilus" src="assets/ilustracoes/j-v2.svg?v=1" alt="" loading="lazy" decoding="async" width="160" height="120"><p>Organização do imóvel, produção das fotos e construção de uma apresentação coerente com o posicionamento da propriedade.</p></div>
+            <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 3: Divulgação">3</button><h4>Divulgação</h4><img class="j-ilus" src="assets/ilustracoes/j-v3.svg?v=1" alt="" loading="lazy" decoding="async" width="160" height="120"><p>Publicação nos canais adequados, ativação da rede de parceiros e organização dos agendamentos de visita.</p></div>
+            <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 4: Negociação">4</button><h4>Negociação</h4><img class="j-ilus" src="assets/ilustracoes/j-v4.svg?v=1" alt="" loading="lazy" decoding="async" width="160" height="120"><p>Análise das propostas, alinhamento de valores e condições e condução das partes até um acordo seguro.</p></div>
+            <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 5: Contrato">5</button><h4>Contrato</h4><img class="j-ilus" src="assets/ilustracoes/j-v5.svg?v=1" alt="" loading="lazy" decoding="async" width="160" height="120"><p>Conferência da documentação e formalização das condições definidas na negociação.</p></div>
+            <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 6: Entrega">6</button><h4>Entrega</h4><img class="j-ilus" src="assets/ilustracoes/j-v6.svg?v=1" alt="" loading="lazy" decoding="async" width="160" height="120"><p>Acompanhamento do registro, repasse dos valores e entrega formal das chaves ao comprador.</p></div>
         </div>
         <div class="jornada-detail" hidden aria-live="polite">
             <span class="j-detail-kicker"></span><h4></h4><p></p>
         </div>
+    </div>
+
+    <div class="jornada-block ui-dif reveal" id="jornada-diferenciais">
+        <div class="sub-head"><span class="eyebrow">Nossos diferenciais</span><h3>O que faz a diferença <em>em cada etapa.</em></h3></div>
+        <p class="ui-dif-intro">Nosso diferencial não está em prometer acesso a mais imóveis. Está na forma como analisamos cada possibilidade, organizamos as informações e conduzimos a decisão. Comprar, vender ou investir envolve contexto, tempo, negociação e leitura de mercado — e é justamente aí que a Arbor atua.</p>
+        <div class="ui-dif-grid">
+            <article class="ui-dif-item reveal">
+                <figure class="ui-dif-fig"><img src="assets/ilustracoes/dif-1.svg?v=1" alt="Ilustração: Prédios de um bairro, um pino de localização e uma lupa" loading="lazy" decoding="async" width="240" height="170"></figure>
+                <span class="ui-dif-num">01</span>
+                <h4>Leitura de contexto</h4>
+                <p>Um imóvel nunca existe isoladamente. Rua, bairro, condomínio, oferta concorrente, perfil de demanda, liquidez e momento de mercado mudam completamente a qualidade de uma decisão. Nossa análise começa antes do imóvel.</p>
+            </article>
+            <article class="ui-dif-item reveal">
+                <figure class="ui-dif-fig"><img src="assets/ilustracoes/dif-2.svg?v=1" alt="Ilustração: Várias casas, com uma escolhida e marcada com um visto" loading="lazy" decoding="async" width="240" height="170"></figure>
+                <span class="ui-dif-num">02</span>
+                <h4>Seleção de verdade</h4>
+                <p>Não usamos quantidade como argumento. Filtramos opções para apresentar aquilo que tem relação real com o objetivo, o orçamento e o momento de cada cliente. Menos visitas sem sentido; mais comparação útil.</p>
+            </article>
+            <article class="ui-dif-item reveal">
+                <figure class="ui-dif-fig"><img src="assets/ilustracoes/dif-3.svg?v=1" alt="Ilustração: Documento com lista conferida e uma ampulheta" loading="lazy" decoding="async" width="240" height="170"></figure>
+                <span class="ui-dif-num">03</span>
+                <h4>Informação antes da pressa</h4>
+                <p>Preço de anúncio é apenas uma parte da leitura. Histórico, condição do imóvel, custos, documentação, potencial de revenda e referências de mercado entram na análise para que a decisão não dependa apenas de impressão.</p>
+            </article>
+            <article class="ui-dif-item reveal">
+                <figure class="ui-dif-fig"><img src="assets/ilustracoes/dif-4.svg?v=1" alt="Ilustração: Balança equilibrada com uma casa de um lado e moedas do outro" loading="lazy" decoding="async" width="240" height="170"></figure>
+                <span class="ui-dif-num">04</span>
+                <h4>Negociação bem conduzida</h4>
+                <p>Valor, forma de pagamento, prazo, condições, documentação e segurança da operação precisam conversar entre si. Buscamos construir acordos viáveis para as partes sem perder de vista o interesse de quem representamos.</p>
+            </article>
+            <article class="ui-dif-item reveal">
+                <figure class="ui-dif-fig"><img src="assets/ilustracoes/dif-5.svg?v=1" alt="Ilustração: Casa, caminho em subida e árvore crescida" loading="lazy" decoding="async" width="240" height="170"></figure>
+                <span class="ui-dif-num">05</span>
+                <h4>Visão além da compra</h4>
+                <p>Uma boa escolha precisa continuar fazendo sentido depois da assinatura. Consideramos rotina, manutenção, liquidez, possibilidade de valorização e facilidade de saída quando esses fatores forem relevantes para o cliente.</p>
+            </article>
+            <article class="ui-dif-item reveal">
+                <figure class="ui-dif-fig"><img src="assets/ilustracoes/dif-6.svg?v=1" alt="Ilustração: Caminho com etapas concluídas e bandeira de chegada" loading="lazy" decoding="async" width="240" height="170"></figure>
+                <span class="ui-dif-num">06</span>
+                <h4>Presença até o final</h4>
+                <p>A condução não termina quando comprador e vendedor chegam a um acordo. Acompanhamos as etapas seguintes para manter informação, organização e continuidade até a conclusão da operação.</p>
+            </article>
+        </div>
+        <blockquote class="ui-dif-frase"><span class="eyebrow">A forma Arbor</span>Boas decisões nascem de clareza, atenção e cuidado.</blockquote>
     </div>
 
     <div class="jornada-block reveal" style="margin-bottom:0;">
@@ -2321,16 +2322,19 @@
         <div class="temp-bar">
             <div class="temp-zone quente">
                 <span class="temp-label">1º Momento</span>
+                <img class="j-ilus j-ilus-t" src="assets/ilustracoes/j-t1.svg?v=1" alt="Ilustração de um prédio novo sendo lançado" loading="lazy" decoding="async" width="200" height="130">
                 <h4>Lançamento</h4>
                 <p>Compare preço de entrada, prazo de entrega e condições de pagamento do lançamento.</p>
             </div>
             <div class="temp-zone fria">
                 <span class="temp-label">Durante a obra</span>
+                <img class="j-ilus j-ilus-t" src="assets/ilustracoes/j-t2.svg?v=1" alt="Ilustração de um prédio em obra" loading="lazy" decoding="async" width="200" height="130">
                 <h4>Durante a construção</h4>
                 <p>Confira evolução da obra, saldo a pagar, reajustes e condições de eventual cessão.</p>
             </div>
             <div class="temp-zone quente">
                 <span class="temp-label">2º Momento</span>
+                <img class="j-ilus j-ilus-t" src="assets/ilustracoes/j-t3.svg?v=1" alt="Ilustração de um prédio entregue, com a chave" loading="lazy" decoding="async" width="200" height="130">
                 <h4>Entrega das chaves</h4>
                 <p>Avalie o imóvel entregue, os custos de ocupação e as alternativas de uso ou revenda.</p>
             </div>
@@ -3160,7 +3164,7 @@ const setupEventListeners = () => {
     $('nav-imoveis-btn').addEventListener('click', e => { e.preventDefault(); goCatalogo(); });
     setupCatalogoUI();
     $('nav-consultoria-btn').addEventListener('click', e => { e.preventDefault(); goHome('consultoria'); });
-    ['bairros-back-btn','jornada-back-btn','diferenciais-back-btn','noticias-back-btn','sobre-back-btn'].forEach(id => {
+    ['bairros-back-btn','jornada-back-btn','noticias-back-btn','sobre-back-btn'].forEach(id => {
         const btn = $(id);
         if (btn) btn.addEventListener('click', (e) => { e.preventDefault(); goHome(); });
     });
@@ -3758,7 +3762,7 @@ document.addEventListener('click', (e) => {
 
 $('jn-search').addEventListener('input', e => { jn.search=e.target.value; jn.visible=9; if(jn.loaded) renderJournal(); });
 
-const ALL_VIEWS = ['list-view', 'catalogo-view', 'detail-view', 'bairros-view', 'jornada-view', 'diferenciais-view', 'noticias-view','equipe-view','sobre-view'];
+const ALL_VIEWS = ['list-view', 'catalogo-view', 'detail-view', 'bairros-view', 'jornada-view', 'noticias-view','equipe-view','sobre-view'];
 const showView = (id) => {
     state.curView = id;
     ALL_VIEWS.forEach(v => $(v).classList.toggle('view-hidden', v !== id));
@@ -3808,7 +3812,12 @@ const handleRouting = () => {
     if (hash === '#sobre' || hash === '#essencia') { showView('sobre-view'); window.scrollTo(0,0); if (window.lucide) lucide.createIcons(); return; }
     if (hash === '#bairros') { showView('bairros-view'); window.scrollTo(0,0); if (window.lucide) lucide.createIcons(); return; }
     if (hash === '#jornada') { showView('jornada-view'); window.scrollTo(0,0); return; }
-    if (hash === '#diferenciais') { showView('diferenciais-view'); window.scrollTo(0,0); if (window.lucide) lucide.createIcons(); return; }
+    if (hash === '#diferenciais' || hash === '#jornada-diferenciais') {
+        // os diferenciais agora vivem dentro da Jornada
+        showView('jornada-view');
+        requestAnimationFrame(() => document.getElementById('jornada-diferenciais')?.scrollIntoView({ behavior: 'smooth', block: 'start' }));
+        return;
+    }
     if (hash === '#noticias' || ['#journal-news','#journal-guides','#journal-official'].includes(hash)) {
         showView('noticias-view'); loadJournal();
         if (hash === '#noticias') window.scrollTo(0,0);
