@@ -372,18 +372,12 @@ body.filtros-open #scroll-tree{display:none!important}
 .ui-ess-arvore .ui-ess-lead{text-align:center;margin-bottom:28px}
 .ui-ess-partes{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(16px,3vw,40px)}
 .ui-ess-parte{text-align:center;padding:0 6px}
-.ui-ess-parte svg{width:76px;height:76px;color:var(--ui-terracota);margin-bottom:8px}
-.ui-ess-parte svg{filter:url(#aq);overflow:visible}
-.ui-ess-parte svg .gnd{stroke:#bc9570;stroke-width:1.2;opacity:.55}
-.ui-ess-parte svg .off{fill:#bc9570;fill-opacity:.12;stroke:#bc9570;stroke-width:1;stroke-opacity:.45}
-.ui-ess-parte svg .on{fill:#8a5a36;fill-opacity:.4;stroke:#8a5a36;stroke-width:1.6}
-.ui-ico-copa .on{fill:#7d8a55;stroke:#5f6c3d}
-.ui-ico-raizes .on{fill:none;stroke:#974315;stroke-width:2;stroke-opacity:1}
+.ui-ess-parte .ui-ess-ico{display:block;margin:0 auto 12px;height:86px;width:auto;max-width:100%;object-fit:contain}
 .ui-venn svg{width:100%;max-width:380px;height:auto;display:block;margin:0 auto}
 .ui-venn::before{display:none}
 .ui-ess-parte h3{margin:0 0 6px;font-size:1.45rem;font-weight:400;color:var(--ui-verde)}
 .ui-ess-parte p{margin:0;font-size:1rem;line-height:1.6}
-@media(max-width:700px){.ui-ess-partes{grid-template-columns:1fr;gap:22px}.ui-ess-parte{display:grid;grid-template-columns:68px 1fr;column-gap:14px;text-align:left;align-items:center}.ui-ess-parte svg{grid-row:1/3;width:64px;height:64px;margin:0}}
+@media(max-width:700px){.ui-ess-partes{grid-template-columns:1fr;gap:22px}.ui-ess-parte{display:grid;grid-template-columns:68px 1fr;column-gap:14px;text-align:left;align-items:center}.ui-ess-parte .ui-ess-ico{grid-row:1/3;height:auto;width:68px;margin:0}}
 
 /* frase de destaque */
 .ui-ess-frase{margin:0 0 clamp(48px,7vw,88px);padding:clamp(22px,4vw,40px) 0;border-top:1px solid var(--ui-linha);border-bottom:1px solid var(--ui-linha);text-align:center;font-size:clamp(1.3rem,2.8vw,2rem);line-height:1.4;font-weight:300;color:var(--ui-verde);font-family:'Cormorant Garamond',Georgia,serif;font-style:italic}

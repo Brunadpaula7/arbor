@@ -1748,7 +1748,7 @@
     <link rel="stylesheet" href="equipe.css?v=redondas-20261011">
     <link rel="stylesheet" href="site.css">
     <link rel="stylesheet" href="watercolor.css">
-    <link rel="stylesheet" href="arbor-ui.css?v=5">
+    <link rel="stylesheet" href="arbor-ui.css?v=6">
 </head>
 <body>
 <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs><filter id="wc-soft" x="-30%" y="-30%" width="160%" height="160%"><feTurbulence type="fractalNoise" baseFrequency="0.008 0.011" numOctaves="3" seed="11" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="70" xChannelSelector="R" yChannelSelector="G" result="d"/><feGaussianBlur in="d" stdDeviation="9"/></filter><filter id="wc-edge" x="-5%" y="-100%" width="110%" height="300%"><feTurbulence type="fractalNoise" baseFrequency="0.012 0.09" numOctaves="3" seed="4" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="34" xChannelSelector="R" yChannelSelector="G"/></filter></defs></svg>
@@ -1990,21 +1990,20 @@
         </div>
 
         <div class="ui-ess-arvore">
-            <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs><filter id="aq" x="-10%" y="-10%" width="120%" height="120%"><feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="3" seed="4" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="2.4"/></filter><filter id="aqv" x="-5%" y="-5%" width="110%" height="110%"><feTurbulence type="fractalNoise" baseFrequency="0.03" numOctaves="3" seed="7" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="6"/></filter></defs></svg>
             <p class="ui-ess-lead">Arbor significa árvore em latim.</p>
             <div class="ui-ess-partes">
                 <div class="ui-ess-parte">
-                    <svg viewBox="0 0 64 64" fill="none" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="ui-ico-raizes"><g class="off" ><circle cx="32" cy="15" r="10"/><circle cx="20" cy="24" r="8.5"/><circle cx="44" cy="24" r="8.5"/><circle cx="32" cy="26" r="7"/></g><path class="off" d="M29 26C29.6 34 29 39 26 45H38C35 39 34.4 34 35 26Z"/><g class="on"><path d="M32 45V60M32 47C27 50 21 52 14 53M32 47C37 50 43 52 50 53M32 51C29 54 27 57 24 60M32 51C35 54 37 57 40 60"/></g><path class="gnd" d="M9 45h46"/></svg>
+                    <img class="ui-ess-ico" src="assets/ilustracoes/arvore-raizes.webp" alt="" loading="lazy" decoding="async" width="341" height="254">
                     <h3>Raízes</h3>
                     <p>Representam confiança e relações verdadeiras.</p>
                 </div>
                 <div class="ui-ess-parte">
-                    <svg viewBox="0 0 64 64" fill="none" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="ui-ico-tronco"><g class="off" ><circle cx="32" cy="15" r="10"/><circle cx="20" cy="24" r="8.5"/><circle cx="44" cy="24" r="8.5"/><circle cx="32" cy="26" r="7"/></g><path class="on" d="M29 26C29.6 34 29 39 26 45H38C35 39 34.4 34 35 26Z"/><g class="off"><path d="M32 45V60M32 47C27 50 21 52 14 53M32 47C37 50 43 52 50 53M32 51C29 54 27 57 24 60M32 51C35 54 37 57 40 60"/></g><path class="gnd" d="M9 45h46"/></svg>
+                    <img class="ui-ess-ico" src="assets/ilustracoes/arvore-tronco.webp" alt="" loading="lazy" decoding="async" width="271" height="238">
                     <h3>Tronco</h3>
                     <p>Traduz estrutura e consistência.</p>
                 </div>
                 <div class="ui-ess-parte">
-                    <svg viewBox="0 0 64 64" fill="none" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="ui-ico-copa"><g class="on" ><circle cx="32" cy="15" r="10"/><circle cx="20" cy="24" r="8.5"/><circle cx="44" cy="24" r="8.5"/><circle cx="32" cy="26" r="7"/></g><path class="off" d="M29 26C29.6 34 29 39 26 45H38C35 39 34.4 34 35 26Z"/><g class="off"><path d="M32 45V60M32 47C27 50 21 52 14 53M32 47C37 50 43 52 50 53M32 51C29 54 27 57 24 60M32 51C35 54 37 57 40 60"/></g><path class="gnd" d="M9 45h46"/></svg>
+                    <img class="ui-ess-ico" src="assets/ilustracoes/arvore-copa.webp" alt="" loading="lazy" decoding="async" width="374" height="271">
                     <h3>Copa</h3>
                     <p>Expressa crescimento, novas possibilidades e visão de futuro.</p>
                 </div>
@@ -2047,6 +2046,7 @@
                 <figure class="ui-ess-fig ui-ess-fig--pequena ui-venn">
                     <svg viewBox="0 0 360 310" role="img" aria-labelledby="venn-t" font-family="inherit">
                         <title id="venn-t">Três círculos que se cruzam: relacionamento, conteúdo e negócios</title>
+                        <defs><filter id="aqv" x="-5%" y="-5%" width="110%" height="110%"><feTurbulence type="fractalNoise" baseFrequency="0.03" numOctaves="3" seed="7" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="6"/></filter></defs>
                         <g filter="url(#aqv)"><circle cx="180" cy="105" r="88" fill="#bc9570" fill-opacity=".30" stroke="#bc9570" stroke-width="1.6"/>
                         <circle cx="120" cy="205" r="88" fill="#974315" fill-opacity=".22" stroke="#974315" stroke-width="1.6"/>
                         <circle cx="240" cy="205" r="88" fill="#7d8a55" fill-opacity=".30" stroke="#204030" stroke-width="1.6"/></g>
