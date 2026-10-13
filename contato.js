@@ -1,11 +1,10 @@
 /* Formulário de contato (página "Nossa essência").
-   O site é estático (GitHub Pages), então o envio usa o FormSubmit, que encaminha
-   a mensagem para o e-mail abaixo. Na primeira mensagem enviada, o FormSubmit manda
-   um e-mail de ativação para este endereço: é preciso clicar no link uma única vez. */
+   Envia para o servidor da Arbor (Cloudflare Worker), que entrega a mensagem
+   em contato@arborimoveis.com.br pelo mesmo sistema de e-mails da Arbor. */
 (function () {
     'use strict';
     var DESTINO = 'contato@arborimoveis.com.br';
-    var ENDPOINT = 'https://formsubmit.co/ajax/' + DESTINO;
+    var ENDPOINT = 'https://arbor-backend.arborimoveis-bruna.workers.dev/api/public/contato';
     var form = document.getElementById('form-contato');
     if (!form) return;
 
@@ -22,7 +21,7 @@
     form.addEventListener('submit', function (e) {
         e.preventDefault();
         var d = new FormData(form);
-        if (d.get('_honey')) return; // robô: ignora sem avisar
+        if (d.get('website')) return; // robô: ignora sem avisar
 
         var nome = String(d.get('nome') || '').trim();
         var email = String(d.get('email') || '').trim();
@@ -39,22 +38,16 @@
         fetch(ENDPOINT, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
-            body: JSON.stringify({
-                _subject: 'Nova mensagem pelo site Arbor — ' + nome,
-                _template: 'table',
-                _captcha: 'false',
-                Nome: nome,
-                email: email,
-                Telefone: telefone || 'não informado',
-                Mensagem: mensagem
-            })
+            body: JSON.stringify({ nome: nome, email: email, telefone: telefone, mensagem: mensagem, aceite: true, website: '' })
         }).then(function (r) {
             return r.json().catch(function () { return {}; }).then(function (j) {
-                if (!r.ok || j.success === 'false' || j.success === false) throw new Error('falha');
+                if (r.status === 429) throw new Error('muitas');
+                if (!r.ok || j.ok === false) throw new Error('falha');
                 form.reset();
                 aviso('Mensagem enviada. Obrigado! Retornaremos em breve.', 'ok');
             });
-        }).catch(function () {
+        }).catch(function (err) {
+            if (err && err.message === 'muitas') return aviso('Muitas tentativas seguidas. Aguarde alguns minutos ou chame no WhatsApp.', 'erro');
             aviso('Não foi possível enviar agora. Escreva para ' + DESTINO + ' ou chame no WhatsApp.', 'erro');
         }).then(function () { botao.disabled = false; });
     });
