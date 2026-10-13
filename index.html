@@ -810,7 +810,7 @@
             .j-step{ display:grid; grid-template-columns:48px minmax(0,1fr); column-gap:14px; align-items:center; }
             .j-num{ grid-column:1; grid-row:1; margin:0; }
             .j-step h4{ grid-column:2; grid-row:1; margin:0; }
-            .j-step > p{ grid-column:2; grid-row:2; margin:9px 0 0; }
+            .j-step > p{ grid-column:2; grid-row:3; margin:9px 0 0; }
             .j-step.is-active > p{ display:block; animation:jornadaDetailIn .32s ease both; }
             .jornada-detail{ display:none !important; }
             .temp-bar{ flex-direction:column; }
@@ -1748,7 +1748,7 @@
     <link rel="stylesheet" href="equipe.css?v=redondas-20261011">
     <link rel="stylesheet" href="site.css">
     <link rel="stylesheet" href="watercolor.css">
-    <link rel="stylesheet" href="arbor-ui.css?v=32">
+    <link rel="stylesheet" href="arbor-ui.css?v=33">
 </head>
 <body>
 <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs><filter id="wc-soft" x="-30%" y="-30%" width="160%" height="160%"><feTurbulence type="fractalNoise" baseFrequency="0.008 0.011" numOctaves="3" seed="11" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="70" xChannelSelector="R" yChannelSelector="G" result="d"/><feGaussianBlur in="d" stdDeviation="9"/></filter><filter id="wc-edge" x="-5%" y="-100%" width="110%" height="300%"><feTurbulence type="fractalNoise" baseFrequency="0.012 0.09" numOctaves="3" seed="4" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="34" xChannelSelector="R" yChannelSelector="G"/></filter></defs></svg>
@@ -2243,12 +2243,12 @@
     <div class="jornada-block reveal">
         <div class="sub-head"><span class="eyebrow">Para quem compra</span><h3>Jornada de compra</h3></div>
         <div class="jornada-track">
-            <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 1: Entendendo o objetivo">1</button><h4>Entendendo o objetivo</h4><p>Perfil, momento de vida e o que o imóvel precisa resolver.</p></div>
-            <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 2: Seleção">2</button><h4>Seleção</h4><p>Imóveis escolhidos com critério, alinhados ao perfil e ao orçamento.</p></div>
-            <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 3: Visitas">3</button><h4>Visitas</h4><p>Conhecendo os imóveis e comparando as opções de perto.</p></div>
-            <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 4: Proposta">4</button><h4>Proposta</h4><p>Negociação de valor e condições com o vendedor.</p></div>
-            <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 5: Documentação">5</button><h4>Documentação</h4><p>Checagem jurídica e análise dos documentos do imóvel.</p></div>
-            <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 6: Chaves">6</button><h4>Chaves</h4><p>Assinatura do contrato e entrega das chaves.</p></div>
+            <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 1: Entendendo o objetivo">1</button><h4>Entendendo o objetivo</h4><img class="j-ilus" src="assets/ilustracoes/j-c1.svg?v=1" alt="" loading="lazy" decoding="async" width="160" height="120"><p>Perfil, momento de vida e o que o imóvel precisa resolver.</p></div>
+            <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 2: Seleção">2</button><h4>Seleção</h4><img class="j-ilus" src="assets/ilustracoes/j-c2.svg?v=1" alt="" loading="lazy" decoding="async" width="160" height="120"><p>Imóveis escolhidos com critério, alinhados ao perfil e ao orçamento.</p></div>
+            <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 3: Visitas">3</button><h4>Visitas</h4><img class="j-ilus" src="assets/ilustracoes/j-c3.svg?v=1" alt="" loading="lazy" decoding="async" width="160" height="120"><p>Conhecendo os imóveis e comparando as opções de perto.</p></div>
+            <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 4: Proposta">4</button><h4>Proposta</h4><img class="j-ilus" src="assets/ilustracoes/j-c4.svg?v=1" alt="" loading="lazy" decoding="async" width="160" height="120"><p>Negociação de valor e condições com o vendedor.</p></div>
+            <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 5: Documentação">5</button><h4>Documentação</h4><img class="j-ilus" src="assets/ilustracoes/j-c5.svg?v=1" alt="" loading="lazy" decoding="async" width="160" height="120"><p>Checagem jurídica e análise dos documentos do imóvel.</p></div>
+            <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 6: Chaves">6</button><h4>Chaves</h4><img class="j-ilus" src="assets/ilustracoes/j-c6.svg?v=1" alt="" loading="lazy" decoding="async" width="160" height="120"><p>Assinatura do contrato e entrega das chaves.</p></div>
         </div>
         <div class="jornada-detail" hidden aria-live="polite">
             <span class="j-detail-kicker"></span><h4></h4><p></p>
@@ -2258,12 +2258,12 @@
     <div class="jornada-block reveal">
         <div class="sub-head"><span class="eyebrow">Para quem vende</span><h3>Jornada de venda</h3></div>
         <div class="jornada-track">
-            <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 1: Avaliação">1</button><h4>Avaliação</h4><p>Precificação fundamentada em dados reais, imóveis comparáveis e condições atuais de mercado.</p></div>
-            <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 2: Preparação">2</button><h4>Preparação</h4><p>Organização do imóvel, produção das fotos e construção de uma apresentação coerente com o posicionamento da propriedade.</p></div>
-            <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 3: Divulgação">3</button><h4>Divulgação</h4><p>Publicação nos canais adequados, ativação da rede de parceiros e organização dos agendamentos de visita.</p></div>
-            <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 4: Negociação">4</button><h4>Negociação</h4><p>Análise das propostas, alinhamento de valores e condições e condução das partes até um acordo seguro.</p></div>
-            <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 5: Contrato">5</button><h4>Contrato</h4><p>Conferência da documentação e formalização das condições definidas na negociação.</p></div>
-            <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 6: Entrega">6</button><h4>Entrega</h4><p>Acompanhamento do registro, repasse dos valores e entrega formal das chaves ao comprador.</p></div>
+            <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 1: Avaliação">1</button><h4>Avaliação</h4><img class="j-ilus" src="assets/ilustracoes/j-v1.svg?v=1" alt="" loading="lazy" decoding="async" width="160" height="120"><p>Precificação fundamentada em dados reais, imóveis comparáveis e condições atuais de mercado.</p></div>
+            <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 2: Preparação">2</button><h4>Preparação</h4><img class="j-ilus" src="assets/ilustracoes/j-v2.svg?v=1" alt="" loading="lazy" decoding="async" width="160" height="120"><p>Organização do imóvel, produção das fotos e construção de uma apresentação coerente com o posicionamento da propriedade.</p></div>
+            <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 3: Divulgação">3</button><h4>Divulgação</h4><img class="j-ilus" src="assets/ilustracoes/j-v3.svg?v=1" alt="" loading="lazy" decoding="async" width="160" height="120"><p>Publicação nos canais adequados, ativação da rede de parceiros e organização dos agendamentos de visita.</p></div>
+            <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 4: Negociação">4</button><h4>Negociação</h4><img class="j-ilus" src="assets/ilustracoes/j-v4.svg?v=1" alt="" loading="lazy" decoding="async" width="160" height="120"><p>Análise das propostas, alinhamento de valores e condições e condução das partes até um acordo seguro.</p></div>
+            <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 5: Contrato">5</button><h4>Contrato</h4><img class="j-ilus" src="assets/ilustracoes/j-v5.svg?v=1" alt="" loading="lazy" decoding="async" width="160" height="120"><p>Conferência da documentação e formalização das condições definidas na negociação.</p></div>
+            <div class="j-step reveal"><button type="button" class="j-num" aria-expanded="false" aria-label="Ver etapa 6: Entrega">6</button><h4>Entrega</h4><img class="j-ilus" src="assets/ilustracoes/j-v6.svg?v=1" alt="" loading="lazy" decoding="async" width="160" height="120"><p>Acompanhamento do registro, repasse dos valores e entrega formal das chaves ao comprador.</p></div>
         </div>
         <div class="jornada-detail" hidden aria-live="polite">
             <span class="j-detail-kicker"></span><h4></h4><p></p>
@@ -2322,16 +2322,19 @@
         <div class="temp-bar">
             <div class="temp-zone quente">
                 <span class="temp-label">1º Momento</span>
+                <img class="j-ilus j-ilus-t" src="assets/ilustracoes/j-t1.svg?v=1" alt="Ilustração de um prédio novo sendo lançado" loading="lazy" decoding="async" width="200" height="130">
                 <h4>Lançamento</h4>
                 <p>Compare preço de entrada, prazo de entrega e condições de pagamento do lançamento.</p>
             </div>
             <div class="temp-zone fria">
                 <span class="temp-label">Durante a obra</span>
+                <img class="j-ilus j-ilus-t" src="assets/ilustracoes/j-t2.svg?v=1" alt="Ilustração de um prédio em obra" loading="lazy" decoding="async" width="200" height="130">
                 <h4>Durante a construção</h4>
                 <p>Confira evolução da obra, saldo a pagar, reajustes e condições de eventual cessão.</p>
             </div>
             <div class="temp-zone quente">
                 <span class="temp-label">2º Momento</span>
+                <img class="j-ilus j-ilus-t" src="assets/ilustracoes/j-t3.svg?v=1" alt="Ilustração de um prédio entregue, com a chave" loading="lazy" decoding="async" width="200" height="130">
                 <h4>Entrega das chaves</h4>
                 <p>Avalie o imóvel entregue, os custos de ocupação e as alternativas de uso ou revenda.</p>
             </div>

@@ -455,3 +455,8 @@ body.filtros-open #scroll-tree{display:none!important}
 .ui-dif-frase .eyebrow{display:block;margin-bottom:8px;font-family:inherit;font-style:normal}
 @media(max-width:900px){.ui-dif-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:560px){.ui-dif-grid{grid-template-columns:1fr}.ui-dif-fig{justify-content:flex-start}.ui-dif-fig img{max-width:220px}}
+
+/* Jornada: uma ilustração por etapa */
+.j-ilus{display:block;width:100%;max-width:150px;height:auto;margin:4px auto 10px}
+.temp-zone .j-ilus-t{max-width:210px;margin:0 0 14px;border-radius:16px}
+@media(max-width:900px){.j-step .j-ilus{grid-column:2;grid-row:2;margin:8px 0 0;max-width:140px}}
