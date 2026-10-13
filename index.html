@@ -1748,7 +1748,7 @@
     <link rel="stylesheet" href="equipe.css?v=redondas-20261011">
     <link rel="stylesheet" href="site.css">
     <link rel="stylesheet" href="watercolor.css">
-    <link rel="stylesheet" href="arbor-ui.css?v=40">
+    <link rel="stylesheet" href="arbor-ui.css?v=41">
 </head>
 <body>
 <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs><filter id="wc-soft" x="-30%" y="-30%" width="160%" height="160%"><feTurbulence type="fractalNoise" baseFrequency="0.008 0.011" numOctaves="3" seed="11" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="70" xChannelSelector="R" yChannelSelector="G" result="d"/><feGaussianBlur in="d" stdDeviation="9"/></filter><filter id="wc-edge" x="-5%" y="-100%" width="110%" height="300%"><feTurbulence type="fractalNoise" baseFrequency="0.012 0.09" numOctaves="3" seed="4" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="34" xChannelSelector="R" yChannelSelector="G"/></filter></defs></svg>
@@ -2392,6 +2392,7 @@
             </div>
         </div>
     </div>
+    <section class="jn-guides" id="jornada-guias" aria-label="Guias de consulta: cartórios, registros e impostos"></section>
 </section>
 
 <section id="noticias-view" class="view-hidden page-view">
@@ -2401,7 +2402,6 @@
         <span class="eyebrow">Journal Arbor</span>
         <h2>Imóveis, cidade<br><em>e boas decisões.</em></h2>
         <p class="jn-lead-text">Notícias do mercado, orientações sobre documentação e acesso aos canais oficiais de IPTU e ITBI de Goiânia e região.</p>
-        <div class="jn-meta" aria-live="polite"><span class="jn-dot" aria-hidden="true"></span><span id="jn-updated">Carregando notícias…</span></div>
     <nav class="jn-jump" aria-label="Seções do Journal"><a href="#journal-news">Notícias</a><a href="#journal-guides">Cartórios e impostos</a><a href="#journal-official">Prefeituras e IPTU</a></nav>
     </header>
     <div class="jn-toolbar" id="journal-news"><label for="jn-search"><span class="sr-only">Buscar notícias</span><input id="jn-search" type="search" placeholder="Busque por cidade, IPTU, ITBI ou assunto…"></label></div>
@@ -2468,6 +2468,11 @@
 <script>
 const $ = id => document.getElementById(id);
 const escapeHTML = s => s ? String(s).replace(/[&<>'"]/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":"&#39;",'"':"&quot;"}[m])) : '';
+// Guias de consulta: o mesmo conteúdo do Journal também aparece na Jornada (fonte única)
+(function(){
+    const origem = document.getElementById('journal-guides'), destino = document.getElementById('jornada-guias');
+    if (origem && destino) destino.innerHTML = origem.innerHTML;
+})();
 const formatBRL = v => v > 0 ? new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL', maximumFractionDigits: 0 }).format(v) : 'Sob Consulta';
 
 /* Converte valores numéricos vindos do feed em formatos variados (ex: "R$ 1.234,56", "1234.56", "1.234", 1234)
@@ -3802,13 +3807,8 @@ const loadJournal = async () => {
             const key = jnNormalize(i.title).trim(); if (seen.has(key)) return false; seen.add(key); return true;
         }).map(i=>({...i,source:String(i.source||'Fonte original')})).sort((a,b)=>Date.parse(b.date)-Date.parse(a.date));
         jn.loaded = true;
-        const u = data.updated ? new Date(data.updated) : null;
-        $('jn-updated').textContent = u && !isNaN(u)
-            ? 'Atualizado em ' + u.toLocaleDateString('pt-BR', { day:'2-digit', month:'long', year:'numeric', timeZone:'America/Sao_Paulo' }) + ' às ' + u.toLocaleTimeString('pt-BR', { hour:'2-digit', minute:'2-digit', timeZone:'America/Sao_Paulo' })
-            : 'Data da atualização não informada';
         renderJournal();
     } catch (e) {
-        $('jn-updated').textContent = 'Notícias indisponíveis no momento';
         const error = jnState('Não foi possível carregar as notícias agora', 'Os guias e os canais oficiais continuam disponíveis abaixo.');
         const retry = jnEl('button','btn btn-line','Tentar novamente'); retry.type='button'; retry.id='jn-retry';
         retry.addEventListener('click',loadJournal); error.appendChild(retry); board.replaceChildren(error);
