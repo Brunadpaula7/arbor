@@ -373,8 +373,12 @@ body.filtros-open #scroll-tree{display:none!important}
 .ui-ess-partes{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(16px,3vw,40px)}
 .ui-ess-parte{text-align:center;padding:0 6px}
 .ui-ess-parte svg{width:76px;height:76px;color:var(--ui-terracota);margin-bottom:8px}
-.ui-ess-parte svg .off{opacity:.28;stroke:var(--ui-verde)}
-.ui-ess-parte svg .on{fill:var(--ui-terracota);fill-opacity:.14;stroke-width:1.9}
+.ui-ess-parte svg{filter:url(#aq);overflow:visible}
+.ui-ess-parte svg .gnd{stroke:#bc9570;stroke-width:1.2;opacity:.55}
+.ui-ess-parte svg .off{fill:#bc9570;fill-opacity:.12;stroke:#bc9570;stroke-width:1;stroke-opacity:.45}
+.ui-ess-parte svg .on{fill:#8a5a36;fill-opacity:.4;stroke:#8a5a36;stroke-width:1.6}
+.ui-ico-copa .on{fill:#7d8a55;stroke:#5f6c3d}
+.ui-ico-raizes .on{fill:none;stroke:#974315;stroke-width:2;stroke-opacity:1}
 .ui-venn svg{width:100%;max-width:380px;height:auto;display:block;margin:0 auto}
 .ui-venn::before{display:none}
 .ui-ess-parte h3{margin:0 0 6px;font-size:1.45rem;font-weight:400;color:var(--ui-verde)}

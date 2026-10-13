@@ -1748,7 +1748,7 @@
     <link rel="stylesheet" href="equipe.css?v=redondas-20261011">
     <link rel="stylesheet" href="site.css">
     <link rel="stylesheet" href="watercolor.css">
-    <link rel="stylesheet" href="arbor-ui.css?v=4">
+    <link rel="stylesheet" href="arbor-ui.css?v=5">
 </head>
 <body>
 <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs><filter id="wc-soft" x="-30%" y="-30%" width="160%" height="160%"><feTurbulence type="fractalNoise" baseFrequency="0.008 0.011" numOctaves="3" seed="11" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="70" xChannelSelector="R" yChannelSelector="G" result="d"/><feGaussianBlur in="d" stdDeviation="9"/></filter><filter id="wc-edge" x="-5%" y="-100%" width="110%" height="300%"><feTurbulence type="fractalNoise" baseFrequency="0.012 0.09" numOctaves="3" seed="4" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="34" xChannelSelector="R" yChannelSelector="G"/></filter></defs></svg>
@@ -1990,10 +1990,21 @@
         </div>
 
         <div class="ui-ess-arvore">
+            <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs><filter id="aq" x="-10%" y="-10%" width="120%" height="120%"><feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="3" seed="4" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="2.4"/></filter><filter id="aqv" x="-5%" y="-5%" width="110%" height="110%"><feTurbulence type="fractalNoise" baseFrequency="0.03" numOctaves="3" seed="7" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="6"/></filter></defs></svg>
             <p class="ui-ess-lead">Arbor significa árvore em latim.</p>
             <div class="ui-ess-partes">
                 <div class="ui-ess-parte">
-                    <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><g class="on"><circle cx="32" cy="15" r="10"/><circle cx="20" cy="23" r="8"/><circle cx="44" cy="23" r="8"/></g><path class="off" d="M29.5 26C30 34 29.5 39 27 44H37C34.5 39 34 34 34.5 26Z"/><g class="off"><path d="M32 44V59M32 46C27 49 22 51 15 52M32 46C37 49 42 51 49 52M32 50C29 53 27 56 25 59M32 50C35 53 37 56 39 59"/></g><path class="off" d="M10 44h44"/></svg>
+                    <svg viewBox="0 0 64 64" fill="none" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="ui-ico-raizes"><g class="off" ><circle cx="32" cy="15" r="10"/><circle cx="20" cy="24" r="8.5"/><circle cx="44" cy="24" r="8.5"/><circle cx="32" cy="26" r="7"/></g><path class="off" d="M29 26C29.6 34 29 39 26 45H38C35 39 34.4 34 35 26Z"/><g class="on"><path d="M32 45V60M32 47C27 50 21 52 14 53M32 47C37 50 43 52 50 53M32 51C29 54 27 57 24 60M32 51C35 54 37 57 40 60"/></g><path class="gnd" d="M9 45h46"/></svg>
+                    <h3>Raízes</h3>
+                    <p>Representam confiança e relações verdadeiras.</p>
+                </div>
+                <div class="ui-ess-parte">
+                    <svg viewBox="0 0 64 64" fill="none" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="ui-ico-tronco"><g class="off" ><circle cx="32" cy="15" r="10"/><circle cx="20" cy="24" r="8.5"/><circle cx="44" cy="24" r="8.5"/><circle cx="32" cy="26" r="7"/></g><path class="on" d="M29 26C29.6 34 29 39 26 45H38C35 39 34.4 34 35 26Z"/><g class="off"><path d="M32 45V60M32 47C27 50 21 52 14 53M32 47C37 50 43 52 50 53M32 51C29 54 27 57 24 60M32 51C35 54 37 57 40 60"/></g><path class="gnd" d="M9 45h46"/></svg>
+                    <h3>Tronco</h3>
+                    <p>Traduz estrutura e consistência.</p>
+                </div>
+                <div class="ui-ess-parte">
+                    <svg viewBox="0 0 64 64" fill="none" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="ui-ico-copa"><g class="on" ><circle cx="32" cy="15" r="10"/><circle cx="20" cy="24" r="8.5"/><circle cx="44" cy="24" r="8.5"/><circle cx="32" cy="26" r="7"/></g><path class="off" d="M29 26C29.6 34 29 39 26 45H38C35 39 34.4 34 35 26Z"/><g class="off"><path d="M32 45V60M32 47C27 50 21 52 14 53M32 47C37 50 43 52 50 53M32 51C29 54 27 57 24 60M32 51C35 54 37 57 40 60"/></g><path class="gnd" d="M9 45h46"/></svg>
                     <h3>Copa</h3>
                     <p>Expressa crescimento, novas possibilidades e visão de futuro.</p>
                 </div>
@@ -2036,9 +2047,9 @@
                 <figure class="ui-ess-fig ui-ess-fig--pequena ui-venn">
                     <svg viewBox="0 0 360 310" role="img" aria-labelledby="venn-t" font-family="inherit">
                         <title id="venn-t">Três círculos que se cruzam: relacionamento, conteúdo e negócios</title>
-                        <circle cx="180" cy="105" r="88" fill="#bc9570" fill-opacity=".14" stroke="#bc9570" stroke-width="1.4"/>
-                        <circle cx="120" cy="205" r="88" fill="#974315" fill-opacity=".10" stroke="#974315" stroke-width="1.4"/>
-                        <circle cx="240" cy="205" r="88" fill="#204030" fill-opacity=".10" stroke="#204030" stroke-width="1.4"/>
+                        <g filter="url(#aqv)"><circle cx="180" cy="105" r="88" fill="#bc9570" fill-opacity=".30" stroke="#bc9570" stroke-width="1.6"/>
+                        <circle cx="120" cy="205" r="88" fill="#974315" fill-opacity=".22" stroke="#974315" stroke-width="1.6"/>
+                        <circle cx="240" cy="205" r="88" fill="#7d8a55" fill-opacity=".30" stroke="#204030" stroke-width="1.6"/></g>
                         <g fill="none" stroke="#204030" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
                             <g transform="translate(180 52)"><circle cx="-14" cy="-3" r="4"/><circle cx="0" cy="-6" r="4.5"/><circle cx="14" cy="-3" r="4"/><path d="M-21 11c0-6 3-9 7-9M-8 12c0-7 3-10 8-10s8 3 8 10M21 11c0-6-3-9-7-9"/></g>
                             <g transform="translate(92 198)"><path d="M-14-12h20a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H-6l-8 7v-7a4 4 0 0 1-4-4v-10a4 4 0 0 1 4-4z" transform="translate(2 -2)"/><path d="M-6-3h12M-6 3h7" transform="translate(2 -2)"/></g>
