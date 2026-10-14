@@ -1,6 +1,24 @@
 {
- "updated": "2026-10-14T14:19:42Z",
+ "updated": "2026-10-14T19:09:46Z",
  "items": [
+  {
+   "title": "Aparecida amplia paisagismo de 20 avenidas com mão de obra de reeducandos",
+   "url": "https://aredacao.com.br/aparecida-amplia-paisagismo-de-20-avenidas-com-mao-de-obra-de-reeducandos/",
+   "source": "A Redação",
+   "date": "2026-10-14T17:43:21Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://aredacao.com.br/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-14-at-13.45.57-300x200.jpeg"
+  },
+  {
+   "title": "Obras em rotatória deixam trânsito lento no Parque Amazônia, em Goiânia",
+   "url": "https://www.cbngoiania.com.br/tarde-cbn/obras-em-rotatoria-deixam-transito-lento-no-parque-amazonia-em-goiania-1.3468194",
+   "source": "CBN Goiânia",
+   "date": "2026-10-14T17:38:54Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://www.cbngoiania.com.br/image/policy:1.3467762:1791917187/image.jpg?f=3x2"
+  },
   {
    "title": "Atlético-MG x Montevideo City Torque: horário e onde assistir à Sul-Americana",
    "url": "https://www.maisgoias.com.br/esportes/futebol/copa-sul-americana/atletico-mg-x-montevideo-city-torque-horario-e-onde-assistir-a-sul-americana/",
@@ -29,6 +47,15 @@
    "img": "https://www.cbngoiania.com.br/image/policy:1.3468018:1791975435/image.jpg?f=3x2"
   },
   {
+   "title": "Atualização do SBPE produz resultados",
+   "url": "https://secovi.com.br/atualizacao-do-sbpe-produz-resultados/",
+   "source": "SECOVI-SP",
+   "date": "2026-10-14T08:02:09Z",
+   "cat": "financiamento",
+   "local": false,
+   "img": "https://secovi.com.br/wp-content/uploads/2026/10/20261014-coluna.png"
+  },
+  {
    "title": "Coluna do Pablo Kossa: Ocupação de imóveis abandonados do Setor Central pode transformar a região",
    "url": "https://www.podergoias.com.br/materia/27641/coluna-do-pablo-kossa-ocupacao-de-imoveis-abandonados-do-setor-central-pode-transformar-a-regiao",
    "source": "Poder Goiás",
@@ -41,7 +68,7 @@
    "title": "MPF propõe liberação das obras do BRT Norte-Sul em Goiânia para evitar paralisia e proteger recursos públicos",
    "url": "https://www.jornalopcao.com.br/ultimas-noticias/mpf-propoe-liberacao-das-obras-do-brt-norte-sul-em-goiania-para-evitar-paralisia-e-proteger-recursos-publicos-878615/",
    "source": "Jornal Opção",
-   "date": "2026-10-13T22:42:04Z",
+   "date": "2026-10-13T22:42:00Z",
    "cat": "cidade",
    "local": true,
    "img": "https://cdn.jornalopcao.com.br/assets/2024/10/IMG_0577-scaled.jpg"
@@ -90,6 +117,15 @@
    "cat": "cidade",
    "local": true,
    "img": "https://revistafactual.com.br/wp-content/uploads/2026/10/obras-reconfiguracao-rotatoria-do-hugol-foto-joabe-mendonca.jpeg"
+  },
+  {
+   "title": "MP-GO pede a preservação de três das quatro gameleiras da Praça da Cirrose, em Goiânia",
+   "url": "https://opopular.com.br/cidades/mp-go-pede-a-preservac-o-de-tres-das-quatro-gameleiras-da-praca-da-cirrose-em-goiania-1.3467757",
+   "source": "O Popular",
+   "date": "2026-10-13T18:49:02Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://opopular.com.br/image/policy:1.3467759:1791916808/image.jpg"
   },
   {
    "title": "Ribeirão Preto é 2ª região de SP que mais cresce em lançamentos imobiliários",
@@ -517,6 +553,15 @@
    "img": "https://s2-g1.glbimg.com/EAQk28G8LTEereBAJqOHc0CN56Q=/5712x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/g/O/uXA4VpSpqYPOWwccwhag/foto-1-primeira-parcela-e-cota-unica-do-iptu-vencem-na-proxima-sexta-feira-10-.jpeg"
   },
   {
+   "title": "Estado de Goiás publica edital de licitação para estruturação e operação de fundo imobiliário",
+   "url": "https://goias.gov.br/administracao/estado-de-goias-publica-edital-de-licitacao-para-estruturacao-e-operacao-de-fundo-imobiliario/",
+   "source": "Goias",
+   "date": "2026-10-09T07:00:00Z",
+   "cat": "mercado",
+   "local": true,
+   "img": ""
+  },
+  {
    "title": "A contratação de alienação fiduciária de bens imóveis por instrumento particular",
    "url": "https://www.migalhas.com.br/coluna/migalhas-edilicias/461592/a-contratacao-de-alienacao-fiduciaria-de-bens-imoveis-por-instrumento",
    "source": "Migalhas",
@@ -623,15 +668,6 @@
    "cat": "financiamento",
    "local": false,
    "img": "https://clickpetroleoegas.com.br/wp-content/uploads/2026/10/financiamento-casa-juros-outubro-mh08-1.jpg"
-  },
-  {
-   "title": "Governo de Goiás investe R$ 14,4 milhões na revitalização do Parque da Serrinha",
-   "url": "https://www.arrozdefyesta.net/vem-ai/governo-de-goias-investe-r-14-4-milhoes-na-revitalizacao-do-parque-da-serrinha",
-   "source": "Arroz de Fyesta",
-   "date": "2026-10-08T09:01:47Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://www.arrozdefyesta.net/images/assets/noticias/2026/10/6ac74c9927ff9.jpg"
   },
   {
    "title": "Feira de Imóveis da Ademi-PR retorna após cinco anos em novo formato com ação integrada de incorporadoras e imobiliárias",
@@ -760,15 +796,6 @@
    "img": "https://imobireport.com.br/app/uploads/2026/10/Credito-imobiliario-cresce-apesar-dos-saques-de-poupanca-e-FGTS-5-scaled.jpeg"
   },
   {
-   "title": "CBIC e IBRAM discutem cooperação entre construção e mineração",
-   "url": "https://cbic.org.br/cbic-e-ibram-discutem-cooperacao-entre-construcao-e-mineracao/",
-   "source": "CBIC - Câmara Brasileira da Indústria da Construção",
-   "date": "2026-10-06T20:55:48Z",
-   "cat": "mercado",
-   "local": false,
-   "img": "https://cbic.org.br/wp-content/uploads/2026/10/whatsapp-image-2026-10-06-at-123732.jpeg"
-  },
-  {
    "title": "CBIC e Abrace Energia discutem agendas comuns e ampliam diálogo institucional",
    "url": "https://cbic.org.br/cbic-e-abrace-energia-discutem-agendas-comuns-e-ampliam-dialogo-institucional/",
    "source": "CBIC - Câmara Brasileira da Indústria da Construção",
@@ -776,6 +803,15 @@
    "cat": "mercado",
    "local": false,
    "img": "https://cbic.org.br/wp-content/uploads/2026/10/whatsapp-image-2026-10-06-at-160535.jpeg"
+  },
+  {
+   "title": "CBIC e IBRAM discutem cooperação entre construção e mineração",
+   "url": "https://cbic.org.br/cbic-e-ibram-discutem-cooperacao-entre-construcao-e-mineracao/",
+   "source": "CBIC - Câmara Brasileira da Indústria da Construção",
+   "date": "2026-10-06T20:55:48Z",
+   "cat": "mercado",
+   "local": false,
+   "img": "https://cbic.org.br/wp-content/uploads/2026/10/whatsapp-image-2026-10-06-at-123732.jpeg"
   },
   {
    "title": "STJ afasta IPTU sobre mais de mil lotes em área de preservação",
@@ -803,6 +839,15 @@
    "cat": "cidade",
    "local": true,
    "img": "https://sdnews.com.br/imagem-social/posts/2026/10/17208_parque-da-serrinha-sera-transformado-em-novo-complexo-de-lazer-turismo-e-preservacao-em-goiania-1b3357f0.jpeg.jpg?v=og4-1791308442-l0"
+  },
+  {
+   "title": "Governo de Goiás investe R$ 14,4 milhões na revitalização do Parque da Serrinha",
+   "url": "https://www.arrozdefyesta.net/vem-ai/governo-de-goias-investe-r-14-4-milhoes-na-revitalizacao-do-parque-da-serrinha",
+   "source": "A Redação",
+   "date": "2026-10-06T17:16:21Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://www.arrozdefyesta.net/images/assets/noticias/2026/10/6ac74c9927ff9.jpg"
   },
   {
    "title": "Guia do corretor de imóveis: como atuar no mercado imobiliário brasileiro?",
@@ -938,8 +983,7 @@
    "date": "2026-10-02T14:05:05Z",
    "cat": "regras",
    "local": false,
-   "img": "",
-   "img_tried": true
+   "img": ""
   },
   {
    "title": "Goiânia: Prefeitura via Seinfra trabalha no recapeamento na Avenida Itália, no Jardim Europa",
@@ -978,6 +1022,15 @@
    "img": "https://cdn.gynnoticias.com.br/storage/webdisco/2026/10/02/800x600/dff591d794aae197ca8a6d414431852e.png"
   },
   {
+   "title": "Financiamento imobiliário na Caixa: o que fazer após a greve?",
+   "url": "https://portas.com.br/noticias/fim-da-greve-da-caixa-abre-caminho-para-destravar-financiamentos-imobiliarios/",
+   "source": "Portas",
+   "date": "2026-10-02T07:00:00Z",
+   "cat": "financiamento",
+   "local": false,
+   "img": "https://uploads.portas.com.br/2026/09/Fim-da-greve-da-Caixa-abre-caminho-para-destravar-financiamentos-imobiliarios-1536x1024.jpg"
+  },
+  {
    "title": "Comissão Municipal do Minha Casa Minha Vida é empossada",
    "url": "https://www.pelotas.com.br/noticia/comissao-municipal-do-minha-casa-minha-vida-e-empossada",
    "source": "Prefeitura de Pelotas",
@@ -994,15 +1047,6 @@
    "cat": "regras",
    "local": false,
    "img": "https://s2-valor.glbimg.com/lTrfKrCMg6Zpy6_UX3a8f3o4x6s=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/o/w/DnqyGAQwyvqe2nhbMfYw/e1905efc-e703-402d-a569-888498f69b40.png"
-  },
-  {
-   "title": "Financiamento imobiliário na Caixa: o que fazer após a greve?",
-   "url": "https://portas.com.br/noticias/fim-da-greve-da-caixa-abre-caminho-para-destravar-financiamentos-imobiliarios/",
-   "source": "Portas",
-   "date": "2026-10-02T07:00:00Z",
-   "cat": "financiamento",
-   "local": false,
-   "img": "https://uploads.portas.com.br/2026/09/Fim-da-greve-da-Caixa-abre-caminho-para-destravar-financiamentos-imobiliarios-1536x1024.jpg"
   },
   {
    "title": "Flamboyant anuncia expansão e cria ecossistema integrado em Goiânia",
@@ -1030,7 +1074,8 @@
    "date": "2026-10-01T17:01:00Z",
    "cat": "cidade",
    "local": true,
-   "img": ""
+   "img": "",
+   "img_tried": true
   },
   {
    "title": "Trabalho social é retomado no Residencial Santa Edwiges I",
@@ -1157,6 +1202,15 @@
    "cat": "financiamento",
    "local": false,
    "img": "https://www.idinheiro.com.br/wp-content/uploads/2023/03/apto-com-consorcio-imobiliario-barato.jpg"
+  },
+  {
+   "title": "Concurso Aparecida de Goiânia: edital de educação na praça!",
+   "url": "https://concursos.estrategia.com/portal/concurso-prefeitura-aparecida-de-goiania/",
+   "source": "Estratégia Concursos",
+   "date": "2026-09-30T07:00:00Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://dhg1h5j42swfq.cloudfront.net/2024/02/06121338/prefeitura-de-aparecida-de-goiania.jpg"
   },
   {
    "title": "Prefeitura recebe cessão de área do Aeroporto de Goiânia para iniciar duplicação da Rua da Divisa",
@@ -1302,60 +1356,6 @@
    "cat": "regras",
    "local": false,
    "img": "https://media.investnews.com.br/uploads/2026/09/imoveisreformatributaria.jpg"
-  },
-  {
-   "title": "Atualizações sobre o Tema 1348: o contribuinte pode deixar de pagar ITBI na integralização de imóveis ao capital social",
-   "url": "https://www.rotajuridica.com.br/artigos/atualizacoes-sobre-o-tema-1348-o-contribuinte-pode-deixar-de-pagar-itbi-na-integralizacao-de-imoveis-ao-capital-social/",
-   "source": "Rota Jurídica",
-   "date": "2026-09-28T07:00:00Z",
-   "cat": "regras",
-   "local": false,
-   "img": "https://www.rotajuridica.com.br/wp-content/uploads/2026/09/Copia-de-1.jpg-1-scaled.jpeg"
-  },
-  {
-   "title": "Adensamento comercial e residencial ocorre sem planejamento",
-   "url": "https://opopular.com.br/economia/adensamento-comercial-e-residencial-ocorre-sem-planejamento-1.3461276",
-   "source": "O Popular",
-   "date": "2026-09-28T03:54:53Z",
-   "cat": "mercado",
-   "local": true,
-   "img": "https://opopular.com.br/image/policy:1.3274645:1790563655/image.jpg"
-  },
-  {
-   "title": "Depois de ver as apostas de uso da tecnologia no mercado imobiliário, ainda defendo pessoas e liderança",
-   "url": "https://portas.com.br/para-corretores/tecnologia-pessoas-lideranca-mercado-imobiliario/",
-   "source": "Portas",
-   "date": "2026-09-27T07:00:00Z",
-   "cat": "mercado",
-   "local": false,
-   "img": "https://uploads.portas.com.br/2026/09/inteligencia-artificial-corretores-2048x1365.jpg"
-  },
-  {
-   "title": "Obra muda acesso entre Rua 240 e T-2 para reduzir congestionamento em Goiânia",
-   "url": "https://www.jornalopcao.com.br/goiania/obra-muda-acesso-entre-rua-240-e-t-2-para-reduzir-congestionamento-em-goiania-872374/",
-   "source": "Jornal Opção",
-   "date": "2026-09-26T07:00:00Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://cdn.jornalopcao.com.br/assets/2026/09/26181950/1790446789-whatsapp-image-2026-09-26-at-14-11-46-1.webp"
-  },
-  {
-   "title": "ITBI cai de 2,5% para 1,5% em Aparecida para compra e regularização de imóveis; saiba até quando",
-   "url": "https://www.jornalopcao.com.br/economia/itbi-aparecida-de-goiania-aliquota-1-5-871930/",
-   "source": "Jornal Opção",
-   "date": "2026-09-25T18:26:00Z",
-   "cat": "regras",
-   "local": true,
-   "img": "https://cdn.jornalopcao.com.br/assets/2026/09/25180732/1790359646-cidade-administrativa-enio-medeiros-e1696935550192.webp"
-  },
-  {
-   "title": "Prefeitura de Aparecida sanciona corte no ITBI para 1,5% e abre mutirão de regularização de imóveis",
-   "url": "https://diariodegoias.com.br/prefeitura-de-aparecida-sanciona-corte-no-itbi-para-15-e-abre-mutirao-de-regularizacao-de-imoveis/548682/",
-   "source": "Diário de Goiás",
-   "date": "2026-09-25T14:25:52Z",
-   "cat": "regras",
-   "local": true,
-   "img": "https://cdn.diariodegoias.com.br/wp-content/uploads/2026/07/14175324/aparecida-de-goiania-arquivo-secom-e1752494437887.webp"
   }
  ]
 }
