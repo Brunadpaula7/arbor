@@ -1,6 +1,42 @@
 {
- "updated": "2026-10-14T00:08:06Z",
+ "updated": "2026-10-14T14:19:42Z",
  "items": [
+  {
+   "title": "Atlético-MG x Montevideo City Torque: horário e onde assistir à Sul-Americana",
+   "url": "https://www.maisgoias.com.br/esportes/futebol/copa-sul-americana/atletico-mg-x-montevideo-city-torque-horario-e-onde-assistir-a-sul-americana/",
+   "source": "Mais Goiás",
+   "date": "2026-10-14T13:54:07Z",
+   "cat": "regras",
+   "local": true,
+   "img": "https://www.maisgoias.com.br/wp-content/uploads/2026/10/whatsapp-image-2026-10-14-at-10-50-06-1791985904.webp"
+  },
+  {
+   "title": "Praça turística de Caldas Novas vira banheiro a céu aberto, denunciam comerciantes",
+   "url": "https://www.maisgoias.com.br/cidades/caldas-novas/praca-turistica-de-caldas-novas-vira-banheiro-a-ceu-aberto-denunciam-comerciantes/",
+   "source": "Mais Goiás",
+   "date": "2026-10-14T13:18:46Z",
+   "cat": "regras",
+   "local": true,
+   "img": "https://uploads.maisgoias.com.br/2026/10/whatsapp-image-2026-10-13-at-19-06-14-1791929194.webp"
+  },
+  {
+   "title": "Trânsito na GO-020 é liberado após tombamento de carreta com óleo em Goiânia",
+   "url": "https://www.cbngoiania.com.br/cbn-goiania/transito-na-go-020-e-liberado-apos-tombamento-de-carreta-com-oleo-em-goiania-1.3468016",
+   "source": "CBN Goiânia",
+   "date": "2026-10-14T11:09:06Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://www.cbngoiania.com.br/image/policy:1.3468018:1791975435/image.jpg?f=3x2"
+  },
+  {
+   "title": "Coluna do Pablo Kossa: Ocupação de imóveis abandonados do Setor Central pode transformar a região",
+   "url": "https://www.podergoias.com.br/materia/27641/coluna-do-pablo-kossa-ocupacao-de-imoveis-abandonados-do-setor-central-pode-transformar-a-regiao",
+   "source": "Poder Goiás",
+   "date": "2026-10-14T04:35:00Z",
+   "cat": "mercado",
+   "local": true,
+   "img": ""
+  },
   {
    "title": "MPF propõe liberação das obras do BRT Norte-Sul em Goiânia para evitar paralisia e proteger recursos públicos",
    "url": "https://www.jornalopcao.com.br/ultimas-noticias/mpf-propoe-liberacao-das-obras-do-brt-norte-sul-em-goiania-para-evitar-paralisia-e-proteger-recursos-publicos-878615/",
@@ -23,10 +59,19 @@
    "title": "Secovi-SP faz balanço de normas, regulação e projetos de 2026 em reunião da VP de Tecnologia e Sustentabilidade",
    "url": "https://secovi.com.br/secovi-sp-faz-balanco-de-normas-regulacao-e-projetos-de-2026-em-reuniao-da-vp-de-tecnologia-e-sustentabilidade/",
    "source": "SECOVI-SP",
-   "date": "2026-10-13T21:17:38Z",
+   "date": "2026-10-13T21:19:14Z",
    "cat": "regras",
    "local": false,
    "img": "https://secovi.com.br/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-13-at-17.32.37.jpeg"
+  },
+  {
+   "title": "MPF emite nota técnica para orientar a retomada das obras do BRT Norte-Sul, em Goiânia",
+   "url": "https://www.mpf.mp.br/o-mpf/unidades/pr-go/noticias/mpf-emite-nota-tecnica-para-orientar-a-retomada-das-obras-do-brt-norte-sul-em-goiania",
+   "source": "Ministério Público Federal",
+   "date": "2026-10-13T20:57:00Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://www.mpf.mp.br/o-mpf/unidades/pr-go/noticias/mpf-emite-nota-tecnica-para-orientar-a-retomada-das-obras-do-brt-norte-sul-em-goiania/@@download/image/foto-onibus-5.jpg"
   },
   {
    "title": "CBIC reúne setor da construção em Goiânia para debater cenário econômico, habitação e investimentos no Centro-Oeste",
@@ -62,7 +107,8 @@
    "date": "2026-10-13T17:34:11Z",
    "cat": "cidade",
    "local": true,
-   "img": ""
+   "img": "",
+   "img_tried": true
   },
   {
    "title": "Parque Serrinha será novo cartão-postal de Goiânia",
@@ -71,7 +117,8 @@
    "date": "2026-10-13T17:03:39Z",
    "cat": "cidade",
    "local": true,
-   "img": ""
+   "img": "https://jornaldovale.com/wp-content/uploads/2026/10/9f9c210d946413f564ba2c16d49bfe52.jpeg",
+   "img_tried": true
   },
   {
    "title": "Vendas de Moradias Usadas nos EUA Surpreendem e Sobem 1,5% em Setembro",
@@ -126,6 +173,15 @@
    "cat": "mercado",
    "local": false,
    "img": "https://bznoticias.com.br/uploads/imagem_2026_10_13_104738930.png"
+  },
+  {
+   "title": "Carreta com óleo de motor tomba e congestiona trânsito na GO-020, em Goiânia",
+   "url": "https://www.jornalopcao.com.br/ultimas-noticias/carreta-com-oleo-de-motor-tomba-e-congestiona-transito-na-go-020-em-goiania-878337/",
+   "source": "Jornal Opção",
+   "date": "2026-10-13T13:15:00Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://cdn.jornalopcao.com.br/assets/2026/10/13134946/1791899378-image-6.webp"
   },
   {
    "title": "Consórcio da Caixa lidera indicador de contemplação imobiliária",
@@ -306,6 +362,15 @@
    "cat": "regras",
    "local": false,
    "img": "https://conjur.com.br/wp-content/uploads/2024/07/tambores-candomble-300x200-1.jpg"
+  },
+  {
+   "title": "Prefeitura inicia obras no asfalto da Avenida Vera Cruz, perto do Aeroporto de Goiânia; veja rotas alternativas",
+   "url": "https://daqui.opopular.com.br/geral/prefeitura-inicia-obras-no-asfalto-da-avenida-vera-cruz-perto-do-aeroporto-de-goiania-veja-rotas-alternativas-1.3278536",
+   "source": "Daqui",
+   "date": "2026-10-11T07:00:00Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://daqui.opopular.com.br/image/policy:1.3278294:1750244990/image.jpg?f=3x2"
   },
   {
    "title": "Parque Mutirama reabre após 18 meses de obras em Goiânia; entrada é gratuita",
@@ -513,6 +578,15 @@
    "cat": "cidade",
    "local": true,
    "img": "https://cdn.diariodegoias.com.br/wp-content/uploads/2026/07/16151444/atracoes-do-parque-mutirama-como-o-trenzinho-ja-estao-liberadas-por-enquanto-sob-programacao-agendada-foto-joabe-mendonca.webp"
+  },
+  {
+   "title": "Como as eleições influenciam o comportamento no mercado imobiliário",
+   "url": "https://exame.com/bussola/como-as-eleicoes-afetam-o-comportamento-do-consumidor-no-mercado-imobiliario/",
+   "source": "Exame",
+   "date": "2026-10-08T16:14:25Z",
+   "cat": "mercado",
+   "local": false,
+   "img": ""
   },
   {
    "title": "Com metade das obras públicas federais paralisadas no país, seminário reúne especialistas em Goiânia para discutir planejamento e gestão",
@@ -831,6 +905,15 @@
    "img": ""
   },
   {
+   "title": "Mercado imobiliário do ABC retoma fôlego e vendas avançam 14,82%",
+   "url": "https://www.reporterdiario.com.br/noticia/3905380/mercado-imobiliario-do-abc-retoma-folego-e-vendas-avancam-1482/",
+   "source": "Repórter Diário",
+   "date": "2026-10-02T18:41:02Z",
+   "cat": "mercado",
+   "local": false,
+   "img": ""
+  },
+  {
    "title": "Prefeitura de Goiânia autua construtora e intensifica fiscalização em canteiros de obras",
    "url": "https://panoramagocomunicacao.com.br/prefeitura-de-goiania-autua-construtora-e-intensifica-fiscalizacao-em-canteiros-de-obras/",
    "source": "Panoramagocomunicacao",
@@ -838,15 +921,6 @@
    "cat": "lancamentos",
    "local": true,
    "img": ""
-  },
-  {
-   "title": "Construtora é autuada após concreto entupir bueiro e galeria pluvial em Goiânia",
-   "url": "https://www.gynnoticias.com.br/cidades/construtora-e-autuada-apos-concreto-entupir-bueiro-e-galeria-pluvial-em-goiania/4756",
-   "source": "GYN Noticias",
-   "date": "2026-10-02T17:42:00Z",
-   "cat": "mercado",
-   "local": true,
-   "img": "https://cdn.gynnoticias.com.br/storage/webdisco/2026/10/02/800x600/dff591d794aae197ca8a6d414431852e.png"
   },
   {
    "title": "Sustentabilidade no mercado imobiliário: valorização e economia real",
@@ -864,7 +938,8 @@
    "date": "2026-10-02T14:05:05Z",
    "cat": "regras",
    "local": false,
-   "img": ""
+   "img": "",
+   "img_tried": true
   },
   {
    "title": "Goiânia: Prefeitura via Seinfra trabalha no recapeamento na Avenida Itália, no Jardim Europa",
@@ -892,6 +967,15 @@
    "cat": "mercado",
    "local": true,
    "img": "https://cdn.jornalopcao.com.br/assets/2026/10/02114146/1790941298-image.webp"
+  },
+  {
+   "title": "Construtora é autuada após concreto entupir bueiro e galeria pluvial em Goiânia",
+   "url": "https://www.gynnoticias.com.br/cidades/construtora-e-autuada-apos-concreto-entupir-bueiro-e-galeria-pluvial-em-goiania/4756",
+   "source": "GYN Noticias",
+   "date": "2026-10-02T07:00:00Z",
+   "cat": "mercado",
+   "local": true,
+   "img": "https://cdn.gynnoticias.com.br/storage/webdisco/2026/10/02/800x600/dff591d794aae197ca8a6d414431852e.png"
   },
   {
    "title": "Comissão Municipal do Minha Casa Minha Vida é empossada",
@@ -985,15 +1069,6 @@
    "img": "https://cdn.conexaohost.com.br/img/500x500/1/0/webp/arquivos/1918/conteudo/posts/701573.webp"
   },
   {
-   "title": "Prefeitura de Goiânia vai pagar parte do aluguel de quem morar no Centro por até 3 anos",
-   "url": "https://www.maisgoias.com.br/cidades/goiania/prefeitura-de-goiania-vai-pagar-parte-do-aluguel-de-quem-morar-no-centro-por-ate-3-anos/",
-   "source": "Mais Goiás",
-   "date": "2026-10-01T07:00:00Z",
-   "cat": "mercado",
-   "local": true,
-   "img": "https://uploads.maisgoias.com.br/2026/07/15170120/chatgpt-image-15-de-jul-de-2026-14_00_56.webp"
-  },
-  {
    "title": "Disparada nas taxas dos títulos afeta acesso a imóveis nos EUA",
    "url": "https://oglobo.globo.com/economia/financas/noticia/2026/10/01/taxas-dos-titulos-eua-hipotecas-eua-dolar-bolsa.ghtml",
    "source": "O GLOBO",
@@ -1001,6 +1076,15 @@
    "cat": "financiamento",
    "local": false,
    "img": "https://s2-oglobo.glbimg.com/pUOk0FUqw3R-HnbxCessTzhMRHc=/5857x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/f/a/RHv72NQd6kCBTBwtE9dw/463907378-1-.jpg"
+  },
+  {
+   "title": "Prefeitura de Goiânia vai pagar parte do aluguel de quem morar no Centro por até 3 anos",
+   "url": "https://www.maisgoias.com.br/cidades/goiania/prefeitura-de-goiania-vai-pagar-parte-do-aluguel-de-quem-morar-no-centro-por-ate-3-anos/",
+   "source": "Mais Goiás",
+   "date": "2026-10-01T07:00:00Z",
+   "cat": "mercado",
+   "local": true,
+   "img": "https://uploads.maisgoias.com.br/2026/07/15170120/chatgpt-image-15-de-jul-de-2026-14_00_56.webp"
   },
   {
    "title": "ADU promove reunião para discutir novo Plano diretor de Aparecida de Goiânia",
@@ -1272,87 +1356,6 @@
    "cat": "regras",
    "local": true,
    "img": "https://cdn.diariodegoias.com.br/wp-content/uploads/2026/07/14175324/aparecida-de-goiania-arquivo-secom-e1752494437887.webp"
-  },
-  {
-   "title": "Metro quadrado em alta: veja os setores de Goiânia onde os imóveis mais se valorizaram",
-   "url": "https://opopular.com.br/economia/metro-quadrado-em-alta-veja-os-setores-de-goiania-onde-os-imoveis-mais-se-valorizaram-1.3460518",
-   "source": "O Popular",
-   "date": "2026-09-25T14:13:26Z",
-   "cat": "mercado",
-   "local": true,
-   "img": "https://opopular.com.br/image/policy:1.3460521:1790344974/image.jpg"
-  },
-  {
-   "title": "Goiânia vende 7,3 mil imóveis em seis meses e estoque disponível encolhe 6%",
-   "url": "https://www.jornalopcao.com.br/goiania/mercado-imobiliario-goiania-vendas-estoque-marista-871938/",
-   "source": "Jornal Opção",
-   "date": "2026-09-25T07:00:00Z",
-   "cat": "mercado",
-   "local": true,
-   "img": "https://cdn.jornalopcao.com.br/assets/2026/09/25183121/1790361072-whatsapp-image-2026-09-25-at-15-04-12.webp"
-  },
-  {
-   "title": "Após representação de Aava, MP-GO recomenda mudanças em projeto de fundo imobiliário",
-   "url": "https://transmissaopolitica.com.br/cidades/2026/09/25/projeto-fundo-imobiliario-goiania-mpgo-aava-santiago/",
-   "source": "Transmissão Política",
-   "date": "2026-09-25T07:00:00Z",
-   "cat": "regras",
-   "local": false,
-   "img": "https://transmissaopolitica.com.br/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-25-at-08.06.39-scaled.jpeg"
-  },
-  {
-   "title": "Imóveis de luxo no Rio enfrentam mercado mais seletivo",
-   "url": "https://valor.globo.com/patrocinado/pulse-brand/noticia/2026/09/25/imoveis-de-luxo-no-rio-enfrentam-mercado-mais-seletivo-1.ghtml",
-   "source": "Valor Econômico",
-   "date": "2026-09-25T07:00:00Z",
-   "cat": "mercado",
-   "local": false,
-   "img": "https://s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/public/fb_marca.png"
-  },
-  {
-   "title": "Obras em rodovias estaduais exigem atenção redobrada de motoristas em Goiás",
-   "url": "https://www.jornalopcao.com.br/ultimas-noticias/obras-em-rodovias-estaduais-exigem-atencao-redobrada-de-motoristas-em-goias-871910/",
-   "source": "Jornal Opção",
-   "date": "2026-09-25T07:00:00Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://cdn.jornalopcao.com.br/assets/2026/09/25172538/1790357138-whatsapp-image-2026-09-25-at-14-10-49.webp"
-  },
-  {
-   "title": "Uma fazenda e um pomar com pés de laranja: como nasceu o Parque das Laranjeiras, em Goiânia",
-   "url": "https://www.maisgoias.com.br/cidades/goiania/parque-das-laranjeiras-bairro-de-goiania-que-nasceu-de-uma-fazenda-com-pomar-faz-50-anos/",
-   "source": "Mais Goiás",
-   "date": "2026-09-25T07:00:00Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://www.maisgoias.com.br/wp-content/uploads/2026/09/foto-37-1790375328.webp"
-  },
-  {
-   "title": "MP-GO exige suspensão de projeto do Fundo Imobiliário e cobra lista de imóveis da Prefeitura de Goiânia",
-   "url": "https://diariodegoias.com.br/mp-go-exige-suspensao-de-projeto-do-fundo-imobiliario-e-cobra-lista-de-imoveis-da-prefeitura-de-goiania/548658/",
-   "source": "Diário de Goiás",
-   "date": "2026-09-25T07:00:00Z",
-   "cat": "mercado",
-   "local": true,
-   "img": "https://cdn.diariodegoias.com.br/wp-content/uploads/2021/09/mpgo.jpeg"
-  },
-  {
-   "title": "Prefeitura de Goiânia formaliza obra de nova UPA no Cidade Jardim por R$ 15,4 milhões",
-   "url": "https://www.dm.com.br/saude-3/prefeitura-de-goiania-formaliza-obra-de-nova-upa-no-cidade-jardim-por-r-154-milhoes/",
-   "source": "Diário da Manhã",
-   "date": "2026-09-25T00:21:00Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://www.dm.com.br/wp-content/uploads/2026/09/Captura-de-tela-2026-09-24-211055.png"
-  },
-  {
-   "title": "Plano&Plano sai de São Paulo pela primeira vez e escolhe Goiânia para expansão",
-   "url": "https://businessmoment.com.br/plano-plano-goiania-expansao-fora-sao-paulo/",
-   "source": "Business Moment",
-   "date": "2026-09-24T07:00:00Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://businessmoment.com.br/wp-content/uploads/2026/09/f3a7eb80-19f3-4f24-8272-a3cd8402c3a7.webp"
   }
  ]
 }
