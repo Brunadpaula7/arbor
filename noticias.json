@@ -1,11 +1,191 @@
 {
- "updated": "2026-10-12T22:23:03Z",
+ "updated": "2026-10-14T00:08:06Z",
  "items": [
+  {
+   "title": "MPF propõe liberação das obras do BRT Norte-Sul em Goiânia para evitar paralisia e proteger recursos públicos",
+   "url": "https://www.jornalopcao.com.br/ultimas-noticias/mpf-propoe-liberacao-das-obras-do-brt-norte-sul-em-goiania-para-evitar-paralisia-e-proteger-recursos-publicos-878615/",
+   "source": "Jornal Opção",
+   "date": "2026-10-13T22:42:04Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://cdn.jornalopcao.com.br/assets/2024/10/IMG_0577-scaled.jpg"
+  },
+  {
+   "title": "Juiz tira inventariante de herança após herdeiras ficarem sem acesso a aluguéis dos imóveis, em Goiânia",
+   "url": "https://www.maisgoias.com.br/cidades/goiania/juiz-tira-inventariante-de-heranca-apos-herdeiras-ficarem-sem-acesso-a-alugueis-dos-imoveis-em-goiania/",
+   "source": "Mais Goiás",
+   "date": "2026-10-13T22:03:44Z",
+   "cat": "mercado",
+   "local": true,
+   "img": "https://uploads.maisgoias.com.br/2026/10/6003285-01-1790883384.webp"
+  },
+  {
+   "title": "Secovi-SP faz balanço de normas, regulação e projetos de 2026 em reunião da VP de Tecnologia e Sustentabilidade",
+   "url": "https://secovi.com.br/secovi-sp-faz-balanco-de-normas-regulacao-e-projetos-de-2026-em-reuniao-da-vp-de-tecnologia-e-sustentabilidade/",
+   "source": "SECOVI-SP",
+   "date": "2026-10-13T21:17:38Z",
+   "cat": "regras",
+   "local": false,
+   "img": "https://secovi.com.br/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-13-at-17.32.37.jpeg"
+  },
+  {
+   "title": "CBIC reúne setor da construção em Goiânia para debater cenário econômico, habitação e investimentos no Centro-Oeste",
+   "url": "https://cbic.org.br/cbic-reune-setor-da-construcao-em-goiania-para-debater-cenario-economico-habitacao-e-investimentos-no-centro-oeste/",
+   "source": "CBIC - Câmara Brasileira da Indústria da Construção",
+   "date": "2026-10-13T19:29:02Z",
+   "cat": "mercado",
+   "local": true,
+   "img": "https://cbic.org.br/wp-content/uploads/2026/10/wide-2.png"
+  },
+  {
+   "title": "Após obras, rotatória do Hugol é entregue para trazer melhorias ao trânsito da Região Noroeste, em Goiânia",
+   "url": "https://revistafactual.com.br/goiania/2026/10/13/apos-obras-rotatoria-do-hugol-e-entregue-para-trazer-melhorias-ao-transito-da-regiao-noroeste-em-goiania/",
+   "source": "Revista Factual",
+   "date": "2026-10-13T19:08:04Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://revistafactual.com.br/wp-content/uploads/2026/10/obras-reconfiguracao-rotatoria-do-hugol-foto-joabe-mendonca.jpeg"
+  },
+  {
+   "title": "Ribeirão Preto é 2ª região de SP que mais cresce em lançamentos imobiliários",
+   "url": "https://portalzumm.com.br/ribeirao-preto-e-2a-regiao-de-sp-que-mais-cresce-em-lancamentos-imobiliarios/",
+   "source": "Portal Zumm",
+   "date": "2026-10-13T18:00:21Z",
+   "cat": "lancamentos",
+   "local": false,
+   "img": "https://portalzumm.com.br/wp-content/uploads/2024/10/Perplan-Zona-Sul-de-Ribeirao-Preto.jpeg"
+  },
+  {
+   "title": "Rotatória do Hugol passa por mudanças para melhorar trânsito na Região Noroeste de Goiânia",
+   "url": "https://diaonline.ig.com.br/aproveite/cidades/goiania/rotatoria-hugol/",
+   "source": "Portal iG",
+   "date": "2026-10-13T17:34:11Z",
+   "cat": "cidade",
+   "local": true,
+   "img": ""
+  },
+  {
+   "title": "Parque Serrinha será novo cartão-postal de Goiânia",
+   "url": "https://jornaldovale.com/parque-serrinha-sera-novo-cartao-postal-de-goiania/",
+   "source": "JORNAL DO VALE",
+   "date": "2026-10-13T17:03:39Z",
+   "cat": "cidade",
+   "local": true,
+   "img": ""
+  },
+  {
+   "title": "Vendas de Moradias Usadas nos EUA Surpreendem e Sobem 1,5% em Setembro",
+   "url": "https://forbes.com.br/forbes-money/forbes-real-estate/2026/10/alta-vendas-imoveis-eua/",
+   "source": "Forbes Brasil",
+   "date": "2026-10-13T16:39:32Z",
+   "cat": "mercado",
+   "local": false,
+   "img": "https://forbes.com.br/wp-content/uploads/2026/10/Novo-Tamanho-Site-2026-10-13T132245.629-1200x675.jpg"
+  },
+  {
+   "title": "Incorporadoras disputam terrenos nobres e redesenham o luxo com poucas unidades",
+   "url": "https://portas.com.br/noticias/incorporadoras-disputam-terrenos-nobres-e-redesenham-o-luxo-com-poucas-unidades/",
+   "source": "Portas",
+   "date": "2026-10-13T15:23:20Z",
+   "cat": "lancamentos",
+   "local": false,
+   "img": "https://uploads.portas.com.br/2026/10/Incorporadoras-disputam-terrenos-nobres-e-redesenham-o-luxo-com-poucas-unidades-1000x467.webp"
+  },
+  {
+   "title": "Opus Incorporadora completa 20 anos: trajetória marcada por solidez e portfólio consistente",
+   "url": "https://stgnews.com.br/opus-incorporadora-completa-20-anos-trajetoria-marcada-por-solidez-e-portfolio-consistente/",
+   "source": "STG News",
+   "date": "2026-10-13T15:21:31Z",
+   "cat": "lancamentos",
+   "local": false,
+   "img": "https://stgnews.com.br/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-13-at-12.21.05.jpeg"
+  },
+  {
+   "title": "Prefeitura finaliza reconfiguração viária na GO-070 e destrava trânsito na Região Noroeste de Goiânia",
+   "url": "https://diariodegoias.com.br/prefeitura-finaliza-reconfiguracao-viaria-na-go-070-e-destrava-transito-na-regiao-noroeste-de-goiania/550914/",
+   "source": "Diário de Goiás",
+   "date": "2026-10-13T14:49:44Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://cdn.diariodegoias.com.br/wp-content/uploads/2026/10/13143038/rotatoria-do-hugol_joabe-mendonca.webp"
+  },
+  {
+   "title": "Reconfiguração da rotatória do Hugol melhora trânsito da Região Noroeste",
+   "url": "https://www.goiania.go.gov.br/agora/reconfiguracao-da-rotatoria-do-hugol-melhora-transito-da-regiao-noroeste",
+   "source": "Goiânia (Prefeitura)",
+   "date": "2026-10-13T14:30:44Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://www.goiania.go.gov.br/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-13-at-10.54.37.jpeg"
+  },
+  {
+   "title": "IBGE: custo da construção civil no RN sobe 6,89% em 2026",
+   "url": "https://bznoticias.com.br/noticia/ibge-custo-da-construcao-civil-no-rn-sobe-6-89-em-2026",
+   "source": "Portal da Abelhinha",
+   "date": "2026-10-13T13:51:07Z",
+   "cat": "mercado",
+   "local": false,
+   "img": "https://bznoticias.com.br/uploads/imagem_2026_10_13_104738930.png"
+  },
+  {
+   "title": "Consórcio da Caixa lidera indicador de contemplação imobiliária",
+   "url": "https://istoedinheiro.com.br/consorcio-caixa-lideranca-contemplacoes-imobiliarias",
+   "source": "ISTOÉ DINHEIRO",
+   "date": "2026-10-13T13:00:48Z",
+   "cat": "financiamento",
+   "local": false,
+   "img": "https://istoedinheiro.com.br/wp-content/uploads/sites/17/2025/01/caixa-economica-e1701436674346.jpeg"
+  },
+  {
+   "title": "Goiânia muda trânsito no Parque Amazônia com retirada de rotatória e instalação de semáforos",
+   "url": "https://panoramagocomunicacao.com.br/goiania-muda-transito-no-parque-amazonia-com-retirada-de-rotatoria-e-instalacao-de-semaforos/",
+   "source": "Panoramagocomunicacao",
+   "date": "2026-10-13T12:53:34Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://panoramagocomunicacao.com.br/wp-content/uploads/2026/10/metragem-para-o-portal-6-9-1024x683.png"
+  },
+  {
+   "title": "Prefeitura entrega rotatória do Hugol e anuncia 500 quilômetros de asfalto novo em Goiânia",
+   "url": "https://positivafm.com.br/noticias/43868/prefeitura-entrega-rotatoria-do-hugol-e-anuncia-500-quilometros-de-asfalto-novo-em-goiania",
+   "source": "POSITIVA FM",
+   "date": "2026-10-13T11:52:00Z",
+   "cat": "cidade",
+   "local": true,
+   "img": ""
+  },
+  {
+   "title": "Mabel entrega nova rotatória do Hugol e anuncia 500 km de asfalto em Goiânia",
+   "url": "https://www.g5news.com.br/geral/mabel-entrega-nova-rotatoria-do-hugol-e-anuncia-500-km-de-asfalto-em-goiania",
+   "source": "G5 News",
+   "date": "2026-10-13T10:43:30Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://i.g5news.com.br/9375e2b6-7b4f-4a5b-8ee4-56b1789bf1d9/2026/10/rotatoria-do-hugol-6a3c4a-1024.webp"
+  },
+  {
+   "title": "Rotatória da Avenida Transbrasiliana, em Goiânia, é retirada para instalação de semáforos; veja previsão de obras",
+   "url": "https://g1.globo.com/go/goias/noticia/2026/10/13/rotatoria-da-avenida-transbrasiliana-em-goiania-e-retirada-para-instalacao-de-semaforos-veja-previsao-de-obras.ghtml",
+   "source": "G1",
+   "date": "2026-10-13T10:04:44Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://s2-g1.glbimg.com/khz1y0mE4desevUQBjvq7TqdFdw=/1700x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/S/G/BVy1e8RV6p0CbLWl6ZJw/rotatoria-avenida-transbrasiliana.jpg"
+  },
+  {
+   "title": "Obra de creche abandonada desde 2020 levou a prejuízo de R$ 2,3 milhões em Goiânia",
+   "url": "https://opopular.com.br/cidades/obra-de-creche-abandonada-desde-2020-levou-a-prejuizo-de-r-2-3-milh-es-em-goiania-1.3467491",
+   "source": "O Popular",
+   "date": "2026-10-12T23:09:44Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://opopular.com.br/image/policy:1.3467490:1791846326/image.jpg"
+  },
   {
    "title": "Mabel entrega rotatória do Hugol e anuncia marca de 500 km de asfalto novo em Goiânia",
    "url": "https://www.jornalopcao.com.br/transito/prefeitura-entrega-rotatoria-do-hugol-e-anuncia-marca-de-500-km-de-asfalto-novo-em-goiania-878264/",
    "source": "Jornal Opção",
-   "date": "2026-10-12T21:19:01Z",
+   "date": "2026-10-12T21:19:00Z",
    "cat": "cidade",
    "local": true,
    "img": "https://cdn.jornalopcao.com.br/assets/2026/10/12204923/1791838156-1787422329-whatsapp-image-2026-08-22-at-14-56-44.webp"
@@ -47,6 +227,15 @@
    "img": "https://ohoje.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-08.06.10.webp"
   },
   {
+   "title": "Justiça impede demolição de imóvel ocupado por moradora há 20 anos em Aparecida de Goiânia",
+   "url": "https://www.rotajuridica.com.br/justica-impede-demolicao-de-imovel-ocupado-ha-20-anos-em-aparecida-de-goiania/",
+   "source": "Rota Jurídica",
+   "date": "2026-10-12T10:08:06Z",
+   "cat": "mercado",
+   "local": true,
+   "img": "https://www.rotajuridica.com.br/wp-content/uploads/2026/10/casa-em-aparecida-scaled.jpg"
+  },
+  {
    "title": "Justiça impede demolição de imóvel ocupado há 20 anos em Aparecida de Goiânia",
    "url": "https://www.rotajuridica.com.br/justica-impede-demolicao-de-imovel-ocupado-ha-20-anos-em-aparecida-de-goiania/",
    "source": "Rota Jurídica",
@@ -68,7 +257,7 @@
    "title": "Semáforos substituem rotatória no Parque Amazônia, em Goiânia",
    "url": "https://revistafactual.com.br/goiania/2026/10/11/rotatoria-parque-amazonia-substituida-por-semaforos-avenidas-transbrasiliana-feira-de-santana-goiania/",
    "source": "Revista Factual",
-   "date": "2026-10-11T18:48:13Z",
+   "date": "2026-10-11T18:49:00Z",
    "cat": "cidade",
    "local": true,
    "img": "https://revistafactual.com.br/wp-content/uploads/2026/10/cruzamento-das-avenidas-transbrasiliana-e-feira-de-santana-no-parque-amazonia-goiania-foto-alex-malheiros.jpeg"
@@ -171,6 +360,15 @@
    "cat": "cidade",
    "local": true,
    "img": "https://daqui.opopular.com.br/image/policy:1.3397991:1776131936/image.jpg?f=3x2"
+  },
+  {
+   "title": "Caixa reduz juro do financiamento imobiliário atrelado à…",
+   "url": "https://trademap.com.br/noticias/news-2651001",
+   "source": "Trademap",
+   "date": "2026-10-09T22:27:37Z",
+   "cat": "financiamento",
+   "local": false,
+   "img": "https://trademap.com.br/social/v3/news.jpg"
   },
   {
    "title": "Galpões logísticos ganham espaço com avanço das vendas pela internet",
@@ -461,6 +659,15 @@
    "img": "https://www.gov.br/cade/pt-br/consulta-da-abrainc-sobre-compra-de-imoveis-e-indeferida-pelo-cade/site-2026-2.png/@@images/a44270b6-0b60-43ef-a50b-a59e58d67950.png"
   },
   {
+   "title": "Secovi-SP lança Núcleo de Infraestrutura e Logística",
+   "url": "https://secovi.com.br/secovi-sp-lanca-nucleo-de-infraestrutura-e-logistica-2/",
+   "source": "SECOVI-SP",
+   "date": "2026-10-07T08:03:16Z",
+   "cat": "regras",
+   "local": false,
+   "img": "https://secovi.com.br/wp-content/uploads/2026/10/20261007-coluna.png"
+  },
+  {
    "title": "Quanto custa financiar a casa própria em outubro? Compare juros cobrados pelos bancos",
    "url": "https://exame.com/mercado-imobiliario/quanto-custa-financiar-a-casa-propria-em-outubro-compare-juros-cobrados-pelos-bancos/",
    "source": "Exame",
@@ -566,7 +773,8 @@
    "date": "2026-10-05T21:21:58Z",
    "cat": "financiamento",
    "local": false,
-   "img": ""
+   "img": "",
+   "img_tried": true
   },
   {
    "title": "STF e ITBI na Integralização: Entenda o Julgamento Crucial",
@@ -578,15 +786,6 @@
    "img": "https://www.contabeis.com.br/assets/img/news/itbi-na-integralizacao-de-imoveis-o-que-esperar-do-julgamento-do-stf-previsto-para-terminar-em-19-de-outubro.png"
   },
   {
-   "title": "Redução do ITBI em Aparecida começou nesta segunda-feira com alíquota de 1,5%",
-   "url": "https://aparecida.go.gov.br/reducao-do-itbi-em-aparecida-comecou-nesta-segunda-feira-com-aliquota-de-15",
-   "source": "Prefeitura de Aparecida de Goiânia",
-   "date": "2026-10-05T20:44:46Z",
-   "cat": "regras",
-   "local": true,
-   "img": "https://aparecida.go.gov.br/wp-content/uploads/2026/10/whatsapp-image-2026-10-05-at-14-34-04.jpeg"
-  },
-  {
    "title": "Vendas financiadas de casas crescem 11,8% no Brasil e superam avanço dos apartamentos em 2026",
    "url": "https://revistakdea360.com.br/noticia/92521/vendas-financiadas-de-casas-crescem-11-8-no-brasil-e-superam-avanco-dos-apartamentos-em-2026",
    "source": "Portal Revista Kdea 360",
@@ -594,6 +793,15 @@
    "cat": "financiamento",
    "local": false,
    "img": "https://load.websg.app.br/revistakdea360.com.br/image?src=https://revistakdea360.com.br/images/noticias/92521/05102041_WhatsApp_I.jpeg&w=1200&h=675&output=jpg"
+  },
+  {
+   "title": "Redução do ITBI em Aparecida começou nesta segunda-feira com alíquota de 1,5%",
+   "url": "https://aparecida.go.gov.br/reducao-do-itbi-em-aparecida-comecou-nesta-segunda-feira-com-aliquota-de-15",
+   "source": "Prefeitura de Aparecida de Goiânia",
+   "date": "2026-10-05T07:00:00Z",
+   "cat": "regras",
+   "local": true,
+   "img": "https://aparecida.go.gov.br/wp-content/uploads/2026/10/whatsapp-image-2026-10-05-at-14-34-04.jpeg"
   },
   {
    "title": "Consórcios respondem por 21,8% dos imóveis financiados no País",
@@ -650,23 +858,13 @@
    "img": "https://uploads.portas.com.br/2026/09/Giorgio-Pasini-iStock.jpg"
   },
   {
-   "title": "Comissão Municipal do Minha Casa Minha Vida é empossada",
-   "url": "https://www.pelotas.com.br/noticia/comissao-municipal-do-minha-casa-minha-vida-e-empossada",
-   "source": "Prefeitura de Pelotas",
-   "date": "2026-10-02T15:24:00Z",
-   "cat": "financiamento",
-   "local": false,
-   "img": "https://publicador-api.pelotas.com.br/storage/84911650a63f260c4d297c9b0920d6550c604535.jpeg"
-  },
-  {
    "title": "STF forma maioria sobre imunidade de ITBI na integralização de imóveis de imobiliárias",
    "url": "https://tributarionosbastidores.com.br/2026/10/stf-forma-maioria-sobre-imunidade-de-itbi-na-integralizacao-de-imoveis-de-imobiliarias/",
    "source": "Tributário nos Bastidores",
    "date": "2026-10-02T14:05:05Z",
    "cat": "regras",
    "local": false,
-   "img": "",
-   "img_tried": true
+   "img": ""
   },
   {
    "title": "Goiânia: Prefeitura via Seinfra trabalha no recapeamento na Avenida Itália, no Jardim Europa",
@@ -696,13 +894,13 @@
    "img": "https://cdn.jornalopcao.com.br/assets/2026/10/02114146/1790941298-image.webp"
   },
   {
-   "title": "Financiamento imobiliário na Caixa: o que fazer após a greve?",
-   "url": "https://portas.com.br/noticias/fim-da-greve-da-caixa-abre-caminho-para-destravar-financiamentos-imobiliarios/",
-   "source": "Portas",
+   "title": "Comissão Municipal do Minha Casa Minha Vida é empossada",
+   "url": "https://www.pelotas.com.br/noticia/comissao-municipal-do-minha-casa-minha-vida-e-empossada",
+   "source": "Prefeitura de Pelotas",
    "date": "2026-10-02T07:00:00Z",
    "cat": "financiamento",
    "local": false,
-   "img": "https://uploads.portas.com.br/2026/09/Fim-da-greve-da-Caixa-abre-caminho-para-destravar-financiamentos-imobiliarios-1536x1024.jpg"
+   "img": "https://publicador-api.pelotas.com.br/storage/84911650a63f260c4d297c9b0920d6550c604535.jpeg"
   },
   {
    "title": "STF pode definir alcance de imunidade de ITBI na integralização de capital",
@@ -712,6 +910,15 @@
    "cat": "regras",
    "local": false,
    "img": "https://s2-valor.glbimg.com/lTrfKrCMg6Zpy6_UX3a8f3o4x6s=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/o/w/DnqyGAQwyvqe2nhbMfYw/e1905efc-e703-402d-a569-888498f69b40.png"
+  },
+  {
+   "title": "Financiamento imobiliário na Caixa: o que fazer após a greve?",
+   "url": "https://portas.com.br/noticias/fim-da-greve-da-caixa-abre-caminho-para-destravar-financiamentos-imobiliarios/",
+   "source": "Portas",
+   "date": "2026-10-02T07:00:00Z",
+   "cat": "financiamento",
+   "local": false,
+   "img": "https://uploads.portas.com.br/2026/09/Fim-da-greve-da-Caixa-abre-caminho-para-destravar-financiamentos-imobiliarios-1536x1024.jpg"
   },
   {
    "title": "Flamboyant anuncia expansão e cria ecossistema integrado em Goiânia",
@@ -749,6 +956,15 @@
    "cat": "mercado",
    "local": true,
    "img": "https://senadorcanedo.go.gov.br/wp-content/uploads/2026/10/sta-edw.jpeg"
+  },
+  {
+   "title": "Prefeitura de Goiânia trabalha no recapeamento na Avenida Itália, no Jardim Europa",
+   "url": "https://noticiatodahora.com.br/obras-de-recapeamento-na-avenida-italia-no-jardim-europa-seguem-em-andamento/",
+   "source": "Notícia Toda Hora",
+   "date": "2026-10-01T12:10:00Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://noticiatodahora.com.br/wp-content/uploads/2026/10/imagem.jpg"
   },
   {
    "title": "Redução do ITBI em Aparecida começa 5 de outubro",
@@ -895,13 +1111,13 @@
    "img": "https://cnm.org.br/storage/noticias/2026/09/29092026_artigo%20ctat.jpeg"
   },
   {
-   "title": "O boom dos condomínios em Goiânia e o futuro do mercado imobiliário",
-   "url": "https://noticias.r7.com/goias/o-boom-dos-condominios-em-goiania-e-o-futuro-do-mercado-imobiliario-29092026/",
-   "source": "R7",
-   "date": "2026-09-29T07:00:00Z",
-   "cat": "mercado",
+   "title": "Obras de construção em Goiânia usam teatro e humor para combater a violência contra a mulher",
+   "url": "https://www.bra1.com.br/geral/id-699915/obras_de_construcao_em_goiania_usam_teatro_e_humor_para_combater_a_violencia_contra_a_mulher",
+   "source": "Bra1",
+   "date": "2026-09-29T12:54:00Z",
+   "cat": "cidade",
    "local": true,
-   "img": "https://newr7-r7-prod.web.arc-cdn.net/resizer/v2/IKW7O7KY6JAMTOVZGYEP64QXQQ.jpg?smart=true&auth=8feadf0edbbdde97ca4d3db14db4535ba46e5801a44138f045277f0e4a61a21f&width=1200&height=630"
+   "img": "https://cdn.conexaohost.com.br/img/500x500/1/0/webp/arquivos/1918/conteudo/posts/699915.jpg"
   },
   {
    "title": "Fogo em apartamento de luxo começou em celular carregando próximo a colchão, dizem bombeiros",
@@ -911,6 +1127,15 @@
    "cat": "mercado",
    "local": false,
    "img": "https://s2-g1.glbimg.com/rew-Emx5LYPIVuvBZz6qbEOK1Eo=/1700x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/b/r/Nwj0aVSsSWx8XuoIDsvg/g1-2026-09-28t191708.520.jpg"
+  },
+  {
+   "title": "Financiamentos de imóveis na Caixa começam a ser destravados com volta de grevistas ao trabalho",
+   "url": "https://gauchazh.clicrbs.com.br/colunistas/giane-guerra/noticia/2026/09/financiamentos-de-imoveis-na-caixa-comecam-a-ser-destravados-com-volta-de-grevistas-ao-trabalho-cmulkbys600aj0174ml7k8o6o.html",
+   "source": "GZH",
+   "date": "2026-09-29T07:00:00Z",
+   "cat": "financiamento",
+   "local": false,
+   "img": "https://www.rbsdirect.com.br/filestore/2/4/6/1/1/5/5_15f5c4310a7b702/5511642_5bfd53f5126c102.jpg?w=1024&h=512&a=c&version=1575255600"
   },
   {
    "title": "Trindade recebe programa de recapeamento urbano com quase 40 ruas contempladas",
@@ -940,13 +1165,23 @@
    "img": ""
   },
   {
+   "title": "O boom dos condomínios em Goiânia e o futuro do mercado imobiliário",
+   "url": "https://noticias.r7.com/goias/o-boom-dos-condominios-em-goiania-e-o-futuro-do-mercado-imobiliario-29092026/",
+   "source": "R7",
+   "date": "2026-09-29T07:00:00Z",
+   "cat": "mercado",
+   "local": true,
+   "img": "https://newr7-r7-prod.web.arc-cdn.net/resizer/v2/IKW7O7KY6JAMTOVZGYEP64QXQQ.jpg?smart=true&auth=8feadf0edbbdde97ca4d3db14db4535ba46e5801a44138f045277f0e4a61a21f&width=1200&height=630"
+  },
+  {
    "title": "Excelsior Seguros destaca oportunidades no Seguro Habitacional e aproximação com corretores em Goiás |...",
    "url": "https://www.segs.com.br/seguros/456384-excelsior-seguros-destaca-oportunidades-no-seguro-habitacional-e-aproximacao-com-corretores-em-goias",
    "source": "SEGS Portal Nacional",
    "date": "2026-09-28T18:43:08Z",
    "cat": "mercado",
    "local": true,
-   "img": ""
+   "img": "",
+   "img_tried": true
   },
   {
    "title": "Imóvel do Pão de Açúcar no Setor Bueno muda de dono após venda de R$ 41 milhões",
@@ -974,6 +1209,15 @@
    "cat": "mercado",
    "local": false,
    "img": "https://uploads.portas.com.br/2026/09/Proibicao-bets-impacto-mercado-imobiliario-2048x1365.jpg"
+  },
+  {
+   "title": "O que muda no imposto sobre aluguel com a reforma tributária e quem paga a conta",
+   "url": "https://investnews.com.br/financas/o-que-muda-no-imposto-sobre-aluguel/",
+   "source": "InvestNews",
+   "date": "2026-09-28T07:00:00Z",
+   "cat": "regras",
+   "local": false,
+   "img": "https://media.investnews.com.br/uploads/2026/09/imoveisreformatributaria.jpg"
   },
   {
    "title": "Atualizações sobre o Tema 1348: o contribuinte pode deixar de pagar ITBI na integralização de imóveis ao capital social",
@@ -1109,249 +1353,6 @@
    "cat": "cidade",
    "local": true,
    "img": "https://businessmoment.com.br/wp-content/uploads/2026/09/f3a7eb80-19f3-4f24-8272-a3cd8402c3a7.webp"
-  },
-  {
-   "title": "Sophia Martins analisa imóveis menores e o m² cada vez mais valorizado no Brasil",
-   "url": "https://oglobo.globo.com/patrocinado/pulse-brand/noticia/2026/09/24/sophia-martins-analisa-imoveis-menores-e-o-m2-cada-vez-mais-valorizado-no-brasil-1.ghtml",
-   "source": "O GLOBO",
-   "date": "2026-09-24T07:00:00Z",
-   "cat": "mercado",
-   "local": false,
-   "img": "https://s2-oglobo.glbimg.com/bMUQukouG-KKVm3neLY5OhcvLKw=/1448x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/B/H/bgdVmPRnO5r0YRxqbmsg/publicador-api-oglobo-pulse-brand-100-bd8d1ced-8fa3-475a-a0f4-7e5577dccbe1.jpeg-20260924115213"
-  },
-  {
-   "title": "Além da estética, usabilidade ganha espaço nos apartamentos de alto padrão",
-   "url": "https://g1.globo.com/go/goias/especial-publicitario/consciente-construtora-e-incorporadora/noticia/2026/09/24/alem-da-estetica-usabilidade-ganha-espaco-nos-apartamentos-de-alto-padrao.ghtml",
-   "source": "G1",
-   "date": "2026-09-24T07:00:00Z",
-   "cat": "mercado",
-   "local": false,
-   "img": "https://s2-g1.glbimg.com/q2Nt46dZVLq7De6S4mRGVOAL8f4=/2000x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/d/M/FuBiRbRAShRTuAvVk4HA/01.jpg"
-  },
-  {
-   "title": "Greve na Caixa afeta incorporadoras e já preocupa setor imobiliário",
-   "url": "https://valor.globo.com/empresas/noticia/2026/09/24/greve-na-caixa-afeta-caixa-de-incorporadoras-e-j-preocupa-setor-imobilirio.ghtml",
-   "source": "Valor Econômico",
-   "date": "2026-09-24T07:00:00Z",
-   "cat": "lancamentos",
-   "local": false,
-   "img": "https://s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/public/fb_marca.png"
-  },
-  {
-   "title": "Greve da Caixa: veja como pagar contas, sacar benefícios e financiar imóvel",
-   "url": "https://www.infomoney.com.br/minhas-financas/greve-da-caixa-como-pagar-contas-sacar-beneficios-financiar-imovel/",
-   "source": "InfoMoney",
-   "date": "2026-09-24T07:00:00Z",
-   "cat": "financiamento",
-   "local": false,
-   "img": "https://www.infomoney.com.br/wp-content/uploads/2026/07/Caixa-Economica-Federal.jpg"
-  },
-  {
-   "title": "Demanda por habitação segue forte, mas crédito preocupa construção",
-   "url": "https://oespecialista.safra.com.br/demanda-por-habitacao-segue-forte-mas-credito-preocupa-construcao/",
-   "source": "Safra",
-   "date": "2026-09-24T07:00:00Z",
-   "cat": "financiamento",
-   "local": false,
-   "img": "https://oespecialista.safra.com.br/wp-content/uploads/2026/09/CCR_7337.jpeg?.jpg.png"
-  },
-  {
-   "title": "Cézar Haik: o futuro do mercado imobiliário não está sendo escrito só nos EUA",
-   "url": "https://portas.com.br/para-corretores/futuro-mercado-imobiliario-nao-esta-sendo-escrito-so-nos-eua/",
-   "source": "Portas",
-   "date": "2026-09-24T07:00:00Z",
-   "cat": "mercado",
-   "local": false,
-   "img": "https://uploads.portas.com.br/2026/09/blueprint-vegas-2026-painel-mate-pencz.jpg"
-  },
-  {
-   "title": "Greve, demora na vistoria e atraso do subsídio paralisam financiamentos de imóveis na Caixa Federal",
-   "url": "https://gauchazh.clicrbs.com.br/colunistas/giane-guerra/noticia/2026/09/greve-atraso-na-vistoria-e-no-subsidio-paralisam-financiamentos-de-imoveis-na-caixa-federal-cmueikmat012r013enq8xvzbd.html",
-   "source": "GZH",
-   "date": "2026-09-24T07:00:00Z",
-   "cat": "financiamento",
-   "local": false,
-   "img": "https://www.rbsdirect.com.br/filestore/2/4/6/1/1/5/5_15f5c4310a7b702/5511642_5bfd53f5126c102.jpg?w=1024&h=512&a=c&version=1575255600"
-  },
-  {
-   "title": "Goiânia vende mais de 7 mil imóveis e vira a 4ª capital com mais negócios no País",
-   "url": "https://tribunadoplanalto.com.br/goiania-vende-mais-de-7-mil-imoveis-e-vira-a-4a-capital-com-mais-negocios-no-pais/",
-   "source": "Tribuna do Planalto",
-   "date": "2026-09-23T21:23:00Z",
-   "cat": "mercado",
-   "local": true,
-   "img": "https://tribunadoplanalto.com.br/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-06-at-10.03.10.jpeg"
-  },
-  {
-   "title": "Câmara aprova redução temporária do ITBI em Aparecida de Goiânia",
-   "url": "https://tribunadoplanalto.com.br/camara-aprova-reducao-temporaria-do-itbi-em-aparecida-de-goiania/",
-   "source": "Tribuna do Planalto",
-   "date": "2026-09-23T14:11:00Z",
-   "cat": "regras",
-   "local": true,
-   "img": "https://tribunadoplanalto.com.br/wp-content/uploads/2026/09/Camara-aprova-reducao-temporaria-do-ITBI-em-Aparecida-de-Goiania.jpg"
-  },
-  {
-   "title": "Plano&Plano confirma entrada no mercado imobiliário de Goiânia",
-   "url": "https://www.bol.uol.com.br/economia/2026/09/23/planoplano-confirma-entrada-no-mercado-imobiliario-de-goiania.htm",
-   "source": "BOL",
-   "date": "2026-09-23T07:00:00Z",
-   "cat": "mercado",
-   "local": true,
-   "img": ""
-  },
-  {
-   "title": "Bueno e Marista concentram 31,8% dos imóveis à venda em Goiânia; metro quadrado chega a R$ 11,6 mil",
-   "url": "https://www.jornalopcao.com.br/ultimas-noticias/bueno-e-marista-concentram-318-dos-imoveis-a-venda-em-goiania-metro-quadrado-chega-a-r-116-mil-870840/",
-   "source": "Jornal Opção",
-   "date": "2026-09-23T07:00:00Z",
-   "cat": "mercado",
-   "local": true,
-   "img": "https://cdn.jornalopcao.com.br/assets/2019/09/setor-bueno-ft.-Fabio-Costa.jpg"
-  },
-  {
-   "title": "“Não serão doses homeopáticas”: Ademi defende pacote de medidas para revitalizar Centro de Goiânia",
-   "url": "https://www.jornalopcao.com.br/cidades/centro-de-goiania-recebeu-doses-cavalares-para-dar-errado-e-virar-terra-de-vampiro-diz-presidente-da-ademi-go-871108/",
-   "source": "Jornal Opção",
-   "date": "2026-09-23T07:00:00Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://cdn.jornalopcao.com.br/assets/2026/08/28192908/1787945336-centro-de-goiania-foto-fernando-leite-15-scaled-1-scaled.webp"
-  },
-  {
-   "title": "Câmara de Aparecida aprova redução temporária do ITBI para 1,5%",
-   "url": "https://www.jornalopcao.com.br/ultimas-noticias/camara-de-aparecida-aprova-reducao-temporaria-do-itbi-para-15-870912/",
-   "source": "Jornal Opção",
-   "date": "2026-09-23T07:00:00Z",
-   "cat": "regras",
-   "local": true,
-   "img": "https://cdn.jornalopcao.com.br/assets/2026/09/23135822/1790171897-206c9966-1448-46db-a4a1-4b9c79c2ba21-1-e1790169335874.webp"
-  },
-  {
-   "title": "Mercado imobiliário carioca mantém\nritmo de expansão",
-   "url": "https://oglobo.globo.com/conteudo-de-marca/morar-bem/noticia/2026/09/23/mercado-imobiliario-carioca-mantem-ritmo-de-expansao.ghtml",
-   "source": "O GLOBO",
-   "date": "2026-09-23T07:00:00Z",
-   "cat": "mercado",
-   "local": false,
-   "img": "https://s2-oglobo.glbimg.com/l6O5bprHiD4W-AKfmhvNDMgGdZw=/2208x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/F/O/eqa1xhQOaesreXNYSDYQ/gettyimages-1139890457.jpg"
-  },
-  {
-   "title": "CBIC participa de seminário “Pense nas Pequenas Primeiro” promovido pela CNI e o Sebrae",
-   "url": "https://cbic.org.br/cbic-participa-de-seminario-pense-nas-pequenas-primeiro-promovido-pela-cni-e-o-sebrae/",
-   "source": "CBIC - Câmara Brasileira da Indústria da Construção",
-   "date": "2026-09-23T07:00:00Z",
-   "cat": "mercado",
-   "local": false,
-   "img": "https://cbic.org.br/wp-content/uploads/2026/09/fotowide1920x1080.jpeg"
-  },
-  {
-   "title": "O que vai ter no Parque da Serrinha? Veja como será o novo espaço de Goiânia",
-   "url": "https://www.maisgoias.com.br/meio-ambiente/comecam-as-obras-do-parque-da-serrinha-em-goiania-veja-imagens-de-como-ele-vai-ficar/",
-   "source": "Mais Goiás",
-   "date": "2026-09-23T07:00:00Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://www.maisgoias.com.br/wp-content/uploads/2026/09/design-sem-nome-1790194496.webp"
-  },
-  {
-   "title": "Novo parque de Goiânia preserva lago e mata nativa em projeto de expansão urbana",
-   "url": "https://revistakdea360.com.br/noticia/92862/novo-parque-de-goiania-preserva-lago-e-mata-nativa-em-projeto-de-expansao-urbana",
-   "source": "Portal Revista Kdea 360",
-   "date": "2026-09-23T07:00:00Z",
-   "cat": "cidade",
-   "local": true,
-   "img": ""
-  },
-  {
-   "title": "Mabel pressiona ANTT para antecipar Anel Viário de Goiânia e critica prazo até 2036",
-   "url": "https://www.jornalopcao.com.br/ultimas-noticias/mabel-pressiona-antt-para-antecipar-anel-viario-de-goiania-e-critica-prazo-ate-2036-870867/",
-   "source": "Jornal Opção",
-   "date": "2026-09-23T07:00:00Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://cdn.jornalopcao.com.br/assets/2026/09/23115017/1790164212-whatsapp-image-2026-09-22-at-18-26-15.webp"
-  },
-  {
-   "title": "Greve da Caixa afeta vendas de imóveis e financiamento de obras",
-   "url": "https://www.estadao.com.br/economia/coluna-da-broad/greve-da-caixa-afeta-vendas-de-imoveis-e-financiamento-de-obras/",
-   "source": "Estadão",
-   "date": "2026-09-23T07:00:00Z",
-   "cat": "financiamento",
-   "local": false,
-   "img": "https://www.estadao.com.br/resizer/v2/R5NZ2IPKX5E4XMAGQCUYN6AMOY.jpg?quality=80&auth=ba0dc0285bdf99b3fb048524a6983a8fbe80dab1d6d3712f0636b798b1f6a8f0&width=1200&height=630&focal=1123,746"
-  },
-  {
-   "title": "Prefeito Leandro Vilela encaminha à Câmara projeto que reduz ITBI para 1,5% em Aparecida",
-   "url": "https://radiobandeirantesgoiania.com.br/prefeito-leandro-vilela-encaminha-a-camara-projeto-que-reduz-itbi-para-15-em-aparecida/",
-   "source": "Rádio Bandeirantes Goiânia",
-   "date": "2026-09-22T15:07:41Z",
-   "cat": "regras",
-   "local": true,
-   "img": "https://radiobandeirantesgoiania.com.br/wp-content/uploads/2026/09/whatsapp-image-2026-09-22-at-09-39-08.jpeg"
-  },
-  {
-   "title": "Mercado imobiliário de Goiânia movimenta R$ 4,1 bilhões, mas burocracia trava habitação popular",
-   "url": "https://www.jornalopcao.com.br/economia/mercado-imobiliario-de-goiania-atinge-r-4-1-bilhoes-no-primeiro-semestre-mas-entrave-burocratico-na-habitacao-popular-acende-alerta-870777/",
-   "source": "Jornal Opção",
-   "date": "2026-09-22T07:00:00Z",
-   "cat": "mercado",
-   "local": true,
-   "img": "https://cdn.jornalopcao.com.br/assets/2026/08/19214918/1787176157-whatsapp-image-2026-08-19-at-17-45-36-2.webp"
-  },
-  {
-   "title": "Apartamentos lideram valorização em Goiânia, enquanto excesso de oferta pressiona preços dos lotes",
-   "url": "https://www.jornalopcao.com.br/ultimas-noticias/apartamentos-sobem-5-mas-lotes-perdem-valor-em-22-bairros-de-goiania-870741/",
-   "source": "Jornal Opção",
-   "date": "2026-09-22T07:00:00Z",
-   "cat": "mercado",
-   "local": true,
-   "img": "https://cdn.jornalopcao.com.br/assets/2026/03/05161803/1772727482-imoveis_goiania.webp"
-  },
-  {
-   "title": "Greve da Caixa: Financiamento imobiliário e direitos do consumidor",
-   "url": "https://istoedinheiro.com.br/greve-caixa-financiamento-imobiliario-direitos-consumidor",
-   "source": "ISTOÉ DINHEIRO",
-   "date": "2026-09-22T07:00:00Z",
-   "cat": "financiamento",
-   "local": false,
-   "img": "https://istoedinheiro.com.br/wp-content/uploads/sites/17/2026/09/tmkin3dleu7bg8ifbpqtxri1uzhuhamgdgew6rj2.jpg"
-  },
-  {
-   "title": "Greve da Caixa é mantida e trava financiamento da casa própria: o que fazer?",
-   "url": "https://exame.com/mercado-imobiliario/greve-da-caixa-e-mantida-e-trava-financiamento-da-casa-propria-o-que-fazer/",
-   "source": "Exame",
-   "date": "2026-09-22T07:00:00Z",
-   "cat": "financiamento",
-   "local": false,
-   "img": ""
-  },
-  {
-   "title": "XP vê freada no crédito imobiliário como temporária e mantém aposta em baixa renda",
-   "url": "https://www.infomoney.com.br/mercados/xp-ve-freada-no-credito-imobiliario-como-temporaria-e-mantem-aposta-em-baixa-renda/",
-   "source": "InfoMoney",
-   "date": "2026-09-22T07:00:00Z",
-   "cat": "financiamento",
-   "local": false,
-   "img": "https://www.infomoney.com.br/wp-content/uploads/2024/06/pexels-enginakyurt-2036686-1.jpg"
-  },
-  {
-   "title": "A nova estratégia do mercado em ofertas de imóveis de luxo no Brasil",
-   "url": "https://veja.abril.com.br/coluna/real-estate/a-nova-estrategia-do-mercado-para-vender-imoveis-de-luxo-no-brasil/",
-   "source": "VEJA",
-   "date": "2026-09-22T07:00:00Z",
-   "cat": "mercado",
-   "local": false,
-   "img": "https://veja.abril.com.br/wp-content/uploads/2018/04/economia-empreendimento-luxo-20180420-0001.jpg?quality=70&strip=info&resize=1200,630&crop=1"
-  },
-  {
-   "title": "STF expõe luta por imunidade de ITBI contra 'sanha arrecadatória'",
-   "url": "https://conjur.com.br/2026-set-22/tema-1-348-itbi-vitoria-do-contribuinte-e-limite-a-sanha-arrecadatoria-municipal/",
-   "source": "Consultor Jurídico",
-   "date": "2026-09-22T07:00:00Z",
-   "cat": "regras",
-   "local": false,
-   "img": "https://conjur.com.br/wp-content/uploads/2026/05/people-checking-bankbook-isolated-white-table-300x200-1.jpg"
   }
  ]
 }
