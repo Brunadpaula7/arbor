@@ -1,6 +1,42 @@
 {
- "updated": "2026-10-14T23:40:04Z",
+ "updated": "2026-10-15T13:56:02Z",
  "items": [
+  {
+   "title": "Cristiano Ronaldo fica a 19 gols da marca de mil na carreira",
+   "url": "https://www.dm.com.br/esportes/cristiano-ronaldo-fica-a-19-gols-da-marca-de-mil-na-carreira/",
+   "source": "DM",
+   "date": "2026-10-15T13:26:01Z",
+   "cat": "regras",
+   "local": true,
+   "img": "https://www.dm.com.br/wp-content/uploads/2025/08/728X90PX_RACISMO_CMG-1.gif"
+  },
+  {
+   "title": "Gaeco investiga fraude de R$ 850 mil em contratos de obras e reformas de escolas em Rio Verde",
+   "url": "https://www.jornalopcao.com.br/justica/ministerio-publico-realiza-operacao-contra-fraudes-em-obras-escolares-879036/",
+   "source": "Jornal Opção",
+   "date": "2026-10-15T13:02:15Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://cdn.jornalopcao.com.br/assets/2026/10/15124448/1792068283-whatsapp-image-2026-10-15-at-09-11-36.webp"
+  },
+  {
+   "title": "No alto padrão, vendas se concentram em imóveis até R$ 4 milhões",
+   "url": "https://pipelinevalor.globo.com/google/amp/mercado/noticia/no-alto-padrao-vendas-se-concentram-em-imoveis-ate-r-4-milhoes.ghtml",
+   "source": "Pipeline",
+   "date": "2026-10-15T11:00:05Z",
+   "cat": "mercado",
+   "local": false,
+   "img": "https://s2-pipelinevalor.glbimg.com/UTfVwx3vsrDeKrrD8BYGFq_9_Oc=/2126x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_b3309463db95468aa275bd532137e960/internal_photos/bs/2026/F/b/jYgtpfRjAAqIDvQe1JAQ/imovel-de-alto-padrao-em-pinheiros-negociado-pela-bossa-nova-sothebys-international-realty.jpg"
+  },
+  {
+   "title": "Acordo entre MPF e Prefeitura de Goiânia libera obras do BRT",
+   "url": "https://daqui.opopular.com.br/geral/acordo-entre-mpf-e-prefeitura-de-goiania-libera-obras-do-brt-1.3468410",
+   "source": "Daqui",
+   "date": "2026-10-15T00:52:51Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://daqui.opopular.com.br/image/policy:1.3397991:1776131936/image.jpg?f=3x2"
+  },
   {
    "title": "Chuva provoca alagamento no Anel Viário, em Aparecida de Goiânia",
    "url": "https://aredacao.com.br/chuva-provoca-alagamento-no-anel-viario-em-aparecida-de-goiania/",
@@ -9,15 +45,6 @@
    "cat": "cidade",
    "local": true,
    "img": "https://aredacao.com.br/wp-content/uploads/2026/10/Captura-de-Tela-2026-10-14-as-20.21.19-245x300.png"
-  },
-  {
-   "title": "Lago do Parque Ibirapuera transborda após forte chuva em SP",
-   "url": "https://aredacao.com.br/lago-do-parque-ibirapuera-transborda-apos-forte-chuva-em-sp/",
-   "source": "A Redação",
-   "date": "2026-10-14T22:25:07Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://aredacao.com.br/wp-content/uploads/2026/10/2015218024-pkb4c4dgsvfthlewcridfr5hwa.jpg-300x158.webp"
   },
   {
    "title": "Setor da construção civil reúne lideranças em Goiânia para debitar políticas habitacionais e futuros do FGTS",
@@ -45,6 +72,15 @@
    "cat": "cidade",
    "local": true,
    "img": "https://www.cbngoiania.com.br/image/policy:1.3467762:1791917187/image.jpg?f=3x2"
+  },
+  {
+   "title": "Alça do trevo da Havan sentido Goiânia–Anápolis terá quatro faixas | Notícias | Obras",
+   "url": "https://www.anapolis.go.gov.br/alca-do-trevo-da-havan-sentido-goiania-anapolis-tera-quatro-faixas/",
+   "source": "Prefeitura de Anápolis",
+   "date": "2026-10-14T17:33:00Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://www.anapolis.go.gov.br/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-14-at-14.33.55.jpeg"
   },
   {
    "title": "Atlético-MG x Montevideo City Torque: horário e onde assistir à Sul-Americana",
@@ -146,6 +182,15 @@
    "img": "https://cbic.org.br/wp-content/uploads/2026/10/wide-2.png"
   },
   {
+   "title": "Geração Z ganha espaço no mercado imobiliário e transforma perfil de quem compra imóveis",
+   "url": "https://revistakdea360.com.br/noticia/94269/geracao-z-ganha-espaco-no-mercado-imobiliario-e-transforma-perfil-de-quem-compra-imoveis",
+   "source": "Portal Revista Kdea 360",
+   "date": "2026-10-13T19:28:52Z",
+   "cat": "mercado",
+   "local": false,
+   "img": ""
+  },
+  {
    "title": "Após obras, rotatória do Hugol é entregue para trazer melhorias ao trânsito da Região Noroeste, em Goiânia",
    "url": "https://revistafactual.com.br/goiania/2026/10/13/apos-obras-rotatoria-do-hugol-e-entregue-para-trazer-melhorias-ao-transito-da-regiao-noroeste-em-goiania/",
    "source": "Revista Factual",
@@ -229,13 +274,13 @@
    "img": "https://cdn.diariodegoias.com.br/wp-content/uploads/2026/10/13143038/rotatoria-do-hugol_joabe-mendonca.webp"
   },
   {
-   "title": "Reconfiguração da rotatória do Hugol melhora trânsito da Região Noroeste",
-   "url": "https://www.goiania.go.gov.br/agora/reconfiguracao-da-rotatoria-do-hugol-melhora-transito-da-regiao-noroeste",
-   "source": "Goiânia (Prefeitura)",
-   "date": "2026-10-13T14:30:44Z",
+   "title": "Carreta tomba na GO-020 e deixa trânsito congestionado em Goiânia",
+   "url": "https://cbngoiania.com.br/cbn-goiania/carreta-tomba-na-go-020-e-deixa-transito-congestionado-em-goiania-1.3467589",
+   "source": "CBN Goiânia",
+   "date": "2026-10-13T14:45:04Z",
    "cat": "cidade",
    "local": true,
-   "img": "https://www.goiania.go.gov.br/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-13-at-10.54.37.jpeg"
+   "img": "https://cbngoiania.com.br/image/policy:1.3467594:1791891926/image.jpg?f=3x2"
   },
   {
    "title": "IBGE: custo da construção civil no RN sobe 6,89% em 2026",
@@ -742,15 +787,6 @@
    "img": "https://img.dhost.cloud/E_XgBwqipOc7DNqUTnXjEUdKpzg=/1280x720/smart/https://tdan.nyc3.digitaloceanspaces.com/images/fb4d9/e1a0907d480aaf80da592f5e77c7d3ee4fa.jpg"
   },
   {
-   "title": "O ITBI nasce no registro do imóvel, não na Junta Comercial",
-   "url": "https://www.migalhas.com.br/depeso/465744/o-itbi-nasce-no-registro-do-imovel-nao-na-junta-comercial",
-   "source": "Migalhas",
-   "date": "2026-10-07T19:20:40Z",
-   "cat": "regras",
-   "local": false,
-   "img": "https://medproc.migalhas.com.br/author.jpg._PROC_AC465744AT1AP11.jpg"
-  },
-  {
    "title": "Evento da Abrainc reúne autoridades e debate desafios da habitação",
    "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/evento-da-abrainc-reune-autoridades-e-debate-desafios-da-habitacao/",
    "source": "CNN Brasil",
@@ -832,6 +868,15 @@
    "img": "https://imobireport.com.br/app/uploads/2026/10/Credito-imobiliario-cresce-apesar-dos-saques-de-poupanca-e-FGTS-5-scaled.jpeg"
   },
   {
+   "title": "O ITBI nasce no registro do imóvel, não na Junta Comercial",
+   "url": "https://www.migalhas.com.br/depeso/465744/o-itbi-nasce-no-registro-do-imovel-nao-na-junta-comercial",
+   "source": "Migalhas",
+   "date": "2026-10-07T07:00:00Z",
+   "cat": "regras",
+   "local": false,
+   "img": "https://medproc.migalhas.com.br/author.jpg._PROC_AC465744AT1AP11.jpg"
+  },
+  {
    "title": "CBIC e Abrace Energia discutem agendas comuns e ampliam diálogo institucional",
    "url": "https://cbic.org.br/cbic-e-abrace-energia-discutem-agendas-comuns-e-ampliam-dialogo-institucional/",
    "source": "CBIC - Câmara Brasileira da Indústria da Construção",
@@ -848,15 +893,6 @@
    "cat": "mercado",
    "local": false,
    "img": "https://cbic.org.br/wp-content/uploads/2026/10/whatsapp-image-2026-10-06-at-123732.jpeg"
-  },
-  {
-   "title": "STJ afasta IPTU sobre mais de mil lotes em área de preservação",
-   "url": "https://www.migalhas.com.br/quentes/465995/stj-afasta-iptu-sobre-mais-de-mil-lotes-em-area-de-preservacao",
-   "source": "Migalhas",
-   "date": "2026-10-06T19:51:00Z",
-   "cat": "regras",
-   "local": false,
-   "img": "https://medproc.migalhas.com.br/https__img5.migalhas.com.br__SL__gf_base__SL__empresas__SL__miga__SL__imagens__SL__2026__SL__10__SL__06__SL__cropped_cxjkkgrz.2lf.jpg._PROC_CP75CCH31622400.jpg"
   },
   {
    "title": "Financiamentos imobiliários crescem em agosto",
@@ -911,6 +947,15 @@
    "cat": "financiamento",
    "local": false,
    "img": "https://s2-valor.glbimg.com/HAW9xKdPvphnPogkl_3vbF4BPec=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/X/Q/aJqMXjTECPVlTbeNOzAA/foto06leg-111-subcarto-e1.jpg"
+  },
+  {
+   "title": "STJ afasta IPTU sobre mais de mil lotes em área de preservação",
+   "url": "https://www.migalhas.com.br/quentes/465995/stj-afasta-iptu-sobre-mais-de-mil-lotes-em-area-de-preservacao",
+   "source": "Migalhas",
+   "date": "2026-10-06T07:00:00Z",
+   "cat": "regras",
+   "local": false,
+   "img": "https://medproc.migalhas.com.br/https__img5.migalhas.com.br__SL__gf_base__SL__empresas__SL__miga__SL__imagens__SL__2026__SL__10__SL__06__SL__cropped_cxjkkgrz.2lf.jpg._PROC_CP75CCH31622400.jpg"
   },
   {
    "title": "SINDUSCON Joinville: vendas superam lançamentos no mercado imobiliário da cidade",
@@ -1028,7 +1073,8 @@
    "date": "2026-10-02T14:05:05Z",
    "cat": "regras",
    "local": false,
-   "img": ""
+   "img": "",
+   "img_tried": true
   },
   {
    "title": "Goiânia: Prefeitura via Seinfra trabalha no recapeamento na Avenida Itália, no Jardim Europa",
@@ -1123,15 +1169,6 @@
    "img": "https://senadorcanedo.go.gov.br/wp-content/uploads/2026/10/sta-edw.jpeg"
   },
   {
-   "title": "Prefeitura de Goiânia trabalha no recapeamento na Avenida Itália, no Jardim Europa",
-   "url": "https://noticiatodahora.com.br/obras-de-recapeamento-na-avenida-italia-no-jardim-europa-seguem-em-andamento/",
-   "source": "Notícia Toda Hora",
-   "date": "2026-10-01T12:10:00Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://noticiatodahora.com.br/wp-content/uploads/2026/10/imagem.jpg"
-  },
-  {
    "title": "Encontro CBIC de Construtores e Incorporadores reúne setor da construção em Goiânia",
    "url": "https://cbic.org.br/encontro-cbic-de-construtores-e-incorporadores-reune-setor-da-construcao-em-goiania/",
    "source": "CBIC - Câmara Brasileira da Indústria da Construção",
@@ -1159,13 +1196,22 @@
    "img": "https://cdn.conexaohost.com.br/img/500x500/1/0/webp/arquivos/1918/conteudo/posts/701573.webp"
   },
   {
-   "title": "Disparada nas taxas dos títulos afeta acesso a imóveis nos EUA",
-   "url": "https://oglobo.globo.com/economia/financas/noticia/2026/10/01/taxas-dos-titulos-eua-hipotecas-eua-dolar-bolsa.ghtml",
-   "source": "O GLOBO",
+   "title": "CBIC participa de reunião da FIIC sobre desafios da construção na América Latina",
+   "url": "https://cbic.org.br/cbic-participa-de-reuniao-da-fiic-sobre-desafios-da-construcao-na-america-latina/",
+   "source": "CBIC - Câmara Brasileira da Indústria da Construção",
    "date": "2026-10-01T07:00:00Z",
-   "cat": "financiamento",
+   "cat": "mercado",
    "local": false,
-   "img": "https://s2-oglobo.glbimg.com/pUOk0FUqw3R-HnbxCessTzhMRHc=/5857x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/f/a/RHv72NQd6kCBTBwtE9dw/463907378-1-.jpg"
+   "img": "https://cbic.org.br/wp-content/uploads/2026/10/whatsapp-image-2026-10-01-at-145246-e1790886336443.jpeg"
+  },
+  {
+   "title": "Prefeitura de Goiânia trabalha no recapeamento na Avenida Itália, no Jardim Europa",
+   "url": "https://noticiatodahora.com.br/obras-de-recapeamento-na-avenida-italia-no-jardim-europa-seguem-em-andamento/",
+   "source": "Notícia Toda Hora",
+   "date": "2026-10-01T07:00:00Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://noticiatodahora.com.br/wp-content/uploads/2026/10/imagem.jpg"
   },
   {
    "title": "Prefeitura de Goiânia vai pagar parte do aluguel de quem morar no Centro por até 3 anos",
@@ -1175,6 +1221,15 @@
    "cat": "mercado",
    "local": true,
    "img": "https://uploads.maisgoias.com.br/2026/07/15170120/chatgpt-image-15-de-jul-de-2026-14_00_56.webp"
+  },
+  {
+   "title": "Disparada nas taxas dos títulos afeta acesso a imóveis nos EUA",
+   "url": "https://oglobo.globo.com/economia/financas/noticia/2026/10/01/taxas-dos-titulos-eua-hipotecas-eua-dolar-bolsa.ghtml",
+   "source": "O GLOBO",
+   "date": "2026-10-01T07:00:00Z",
+   "cat": "financiamento",
+   "local": false,
+   "img": "https://s2-oglobo.glbimg.com/pUOk0FUqw3R-HnbxCessTzhMRHc=/5857x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/f/a/RHv72NQd6kCBTBwtE9dw/463907378-1-.jpg"
   },
   {
    "title": "ADU promove reunião para discutir novo Plano diretor de Aparecida de Goiânia",
@@ -1301,60 +1356,6 @@
    "cat": "cidade",
    "local": true,
    "img": "https://cdn.conexaohost.com.br/img/500x500/1/0/webp/arquivos/1918/conteudo/posts/699915.jpg"
-  },
-  {
-   "title": "Fogo em apartamento de luxo começou em celular carregando próximo a colchão, dizem bombeiros",
-   "url": "https://g1.globo.com/go/goias/noticia/2026/09/29/fogo-em-apartamento-de-luxo-comecou-em-celular-carregando-proximo-a-colchao-dizem-bombeiros.ghtml",
-   "source": "G1",
-   "date": "2026-09-29T07:00:00Z",
-   "cat": "mercado",
-   "local": false,
-   "img": "https://s2-g1.glbimg.com/rew-Emx5LYPIVuvBZz6qbEOK1Eo=/1700x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/b/r/Nwj0aVSsSWx8XuoIDsvg/g1-2026-09-28t191708.520.jpg"
-  },
-  {
-   "title": "Financiamentos de imóveis na Caixa começam a ser destravados com volta de grevistas ao trabalho",
-   "url": "https://gauchazh.clicrbs.com.br/colunistas/giane-guerra/noticia/2026/09/financiamentos-de-imoveis-na-caixa-comecam-a-ser-destravados-com-volta-de-grevistas-ao-trabalho-cmulkbys600aj0174ml7k8o6o.html",
-   "source": "GZH",
-   "date": "2026-09-29T07:00:00Z",
-   "cat": "financiamento",
-   "local": false,
-   "img": "https://www.rbsdirect.com.br/filestore/2/4/6/1/1/5/5_15f5c4310a7b702/5511642_5bfd53f5126c102.jpg?w=1024&h=512&a=c&version=1575255600"
-  },
-  {
-   "title": "Trindade recebe programa de recapeamento urbano com quase 40 ruas contempladas",
-   "url": "https://trindade.go.gov.br/trindade-recebe-programa-de-recapeamento-urbano-com-quase-40-ruas-contempladas/",
-   "source": "Prefeitura Municipal de Trindade",
-   "date": "2026-09-29T07:00:00Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://trindade.go.gov.br/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-29-at-08.10.34-2-seopress-social.jpg"
-  },
-  {
-   "title": "Mude amplia atuação Nacional chegando a Goiânia com maior circuito de mobiliário urbano da praça",
-   "url": "https://www.abcdacomunicacao.com.br/mude-amplia-atuacao-nacional-chegando-a-goiania-com-maior-circuito-de-mobiliario-urbano-da-praca/",
-   "source": "ABC da Comunicação",
-   "date": "2026-09-29T07:00:00Z",
-   "cat": "cidade",
-   "local": true,
-   "img": ""
-  },
-  {
-   "title": "Novo corredor de R$ 22,1 milhões em Goiás terá pista dupla, ciclovia e ponte de 30 metros para ligar Aparecida de Goiânia à GO-020",
-   "url": "https://www.brasil247.com/tendencias/2026/09/29/novo-corredor-de-r-221-milhoes-em-goias-tera-pista-dupla-ciclovia-e-ponte-de-30-metros-para-ligar-aparecida-de-goiania-a-go-020/",
-   "source": "Brasil 247",
-   "date": "2026-09-29T07:00:00Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://www.brasil247.com/tendencias/wp-content/uploads/2026/09/6-Projeto-de-construcao-de-estrada-em-andamento.jpg"
-  },
-  {
-   "title": "O boom dos condomínios em Goiânia e o futuro do mercado imobiliário",
-   "url": "https://noticias.r7.com/goias/o-boom-dos-condominios-em-goiania-e-o-futuro-do-mercado-imobiliario-29092026/",
-   "source": "R7",
-   "date": "2026-09-29T07:00:00Z",
-   "cat": "mercado",
-   "local": true,
-   "img": "https://newr7-r7-prod.web.arc-cdn.net/resizer/v2/IKW7O7KY6JAMTOVZGYEP64QXQQ.jpg?smart=true&auth=8feadf0edbbdde97ca4d3db14db4535ba46e5801a44138f045277f0e4a61a21f&width=1200&height=630"
   }
  ]
 }
