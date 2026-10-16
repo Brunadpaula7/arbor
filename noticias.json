@@ -1,14 +1,68 @@
 {
- "updated": "2026-10-16T18:36:28Z",
+ "updated": "2026-10-16T23:14:20Z",
  "items": [
   {
-   "title": "ÓRA Vaca Brava terá fachada ativa, conceito de hospitalidade e conexão com o parque no Setor Bueno",
-   "url": "https://www.dm.com.br/cotidiano/ora-vaca-brava-tera-fachada-ativa-conceito-de-hospitalidade-e-conexao-com-o-parque-no-setor-bueno/",
-   "source": "DM",
-   "date": "2026-10-16T17:52:24Z",
+   "title": "Tragédia fez Praça Tamandaré deixar de ser ponto de jovens que tiravam racha de carro em Goiânia, em 1980",
+   "url": "https://www.maisgoias.com.br/cidades/goiania/tragedia-fez-praca-tamandare-deixar-de-ser-ponto-de-jovens-que-tiravam-racha-de-carro-em-goiania-em-1980/",
+   "source": "Mais Goiás",
+   "date": "2026-10-16T22:51:16Z",
    "cat": "cidade",
    "local": true,
-   "img": "https://www.dm.com.br/wp-content/uploads/2025/08/728X90PX_RACISMO_CMG-1.gif"
+   "img": "https://www.maisgoias.com.br/wp-content/uploads/2026/10/engarrafamento-vintage-na-praca-arborizada-1792175722.webp"
+  },
+  {
+   "title": "GO-020 terá obras noturnas em nova etapa de restauração",
+   "url": "https://diariodegoias.com.br/go-020-tera-obras-noturnas-em-nova-etapa-de-restauracao/551303/",
+   "source": "Diário de Goiás",
+   "date": "2026-10-16T20:52:49Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://cdn.diariodegoias.com.br/wp-content/uploads/2026/10/16204743/go-020.webp"
+  },
+  {
+   "title": "Aparecida recupera avenida após erosão causada pela chuva em 24 horas",
+   "url": "https://diariodegoias.com.br/aparecida-recupera-avenida-apos-erosao-causada-pela-chuva-em-24-horas/551300/",
+   "source": "Diário de Goiás",
+   "date": "2026-10-16T20:50:00Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://cdn.diariodegoias.com.br/wp-content/uploads/2026/10/16203559/aparecida-recupera-avenida-apos-erosao-causada-pela-chuva-em-24-horas.webp"
+  },
+  {
+   "title": "Teatro e humor levam conscientização sobre violência contra a mulher a 400 trabalhadores da construção civil em Goiânia",
+   "url": "https://www.enquantoissoemgoias.com/noticia/4249/giro-por-goias/teatro-e-humor-levam-conscientizacao-sobre-violencia-contra-a-mulher-a-400-trabalhadores-da-construcao-civil-em-goiania.html",
+   "source": "Enquanto isso em Goias",
+   "date": "2026-10-16T20:27:00Z",
+   "cat": "mercado",
+   "local": true,
+   "img": "https://www.enquantoissoemgoias.com/arquivos/noticias/4249/teatro-e-humor-levam-conscientizacao-sobre-violencia-contra-a-mulher-a-400-trabalhadores-da-construcao-civil-em-goiania.jpeg"
+  },
+  {
+   "title": "CONJUR debate impactos jurídicos para a construção civil e o mercado imobiliário em reunião em Goiânia",
+   "url": "https://cbic.org.br/conjur-debate-impactos-juridicos-para-a-construcao-civil-e-o-mercado-imobiliario-em-reuniao-em-goiania/",
+   "source": "CBIC - Câmara Brasileira da Indústria da Construção",
+   "date": "2026-10-16T20:07:27Z",
+   "cat": "mercado",
+   "local": true,
+   "img": "https://cbic.org.br/wp-content/uploads/2026/10/4-1.png"
+  },
+  {
+   "title": "Depois de Aparecida de Goiânia, Rio Verde reduz ITBI por 60 dias",
+   "url": "https://tribunadoplanalto.com.br/depois-de-aparecida-de-goiania-rio-verde-reduz-itbi-por-60-dias/",
+   "source": "Tribuna do Planalto",
+   "date": "2026-10-16T19:30:00Z",
+   "cat": "regras",
+   "local": true,
+   "img": "https://tribunadoplanalto.com.br/wp-content/uploads/2026/10/Depois-de-Aparecida-de-Goiania-Rio-Verde-reduz-ITBI-por-60-dias-e1792179015751.jpg"
+  },
+  {
+   "title": "Prefeitura de Goiânia marca licitação de obras na Rua da Divisa para dezembro",
+   "url": "https://www.podergoias.com.br/materia/27700/prefeitura-de-goiania-marca-licitacao-de-obras-na-rua-da-divisa-para-dezembro",
+   "source": "Poder Goiás",
+   "date": "2026-10-16T17:42:00Z",
+   "cat": "cidade",
+   "local": true,
+   "img": ""
   },
   {
    "title": "Praça Tamandaré recebe ação gratuita do Outubro Rosa neste sábado, 17; veja programação",
@@ -41,7 +95,7 @@
    "title": "Frota a biometano do BRT de Goiânia ganha infraestrutura permanente de reabastecimento",
    "url": "https://frotacia.com.br/frota-a-biometano-do-brt-de-goiania-ganha-infraestrutura-permanente-de-reabastecimento/",
    "source": "Frota&Cia",
-   "date": "2026-10-16T14:06:49Z",
+   "date": "2026-10-16T14:06:37Z",
    "cat": "cidade",
    "local": true,
    "img": "https://frotacia.com.br/wp-content/uploads/2026/10/Os-veiculos-do-sistema-ja-sao-abastecidos-na-infraestrutura-definitiva.jpg"
@@ -54,6 +108,15 @@
    "cat": "mercado",
    "local": false,
    "img": "https://www.segs.com.br/media/k2/items/cache/1ae38c57e7f96461bd1803589d82cf21_L.jpg"
+  },
+  {
+   "title": "Obras do BRT entre Goiânia e Aparecida devem ser retomadas",
+   "url": "https://g1.globo.com/go/goias/videos-bom-dia-go/video/obras-do-brt-entre-goiania-e-aparecida-devem-ser-retomadas-15060795.ghtml",
+   "source": "G1",
+   "date": "2026-10-16T11:42:38Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://s04.video.glbimg.com/x720/15060795.jpg"
   },
   {
    "title": "IHGG cria livraria para venda de obras de autores goianos",
@@ -599,6 +662,15 @@
    "img": "https://s2-g1.glbimg.com/khz1y0mE4desevUQBjvq7TqdFdw=/1700x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/S/G/BVy1e8RV6p0CbLWl6ZJw/rotatoria-avenida-transbrasiliana.jpg"
   },
   {
+   "title": "Imóveis do governo a serem negociados em fundo imobiliário têm até 684 mil metros quadrados; veja lista",
+   "url": "https://opopular.com.br/opiniao/blog-fabiana-pulcineli/imoveis-do-governo-a-serem-negociados-em-fundo-imobiliario-tem-ate-684-mil-metros-quadrados-veja-lista-1.3423416",
+   "source": "O Popular",
+   "date": "2026-10-13T07:00:00Z",
+   "cat": "mercado",
+   "local": true,
+   "img": "https://opopular.com.br/image/policy:1.3423417:1781799269/image.jpg"
+  },
+  {
    "title": "Obra de creche abandonada desde 2020 levou a prejuízo de R$ 2,3 milhões em Goiânia",
    "url": "https://opopular.com.br/cidades/obra-de-creche-abandonada-desde-2020-levou-a-prejuizo-de-r-2-3-milh-es-em-goiania-1.3467491",
    "source": "O Popular",
@@ -1114,6 +1186,15 @@
    "img": ""
   },
   {
+   "title": "Minha Casa Minha Vida chega a 2,7 milhões de unidades contratadas desde 2023; meta de 3 milhões continua",
+   "url": "https://portas.com.br/noticias/minha-casa-minha-vida-2-7-milhoes-unidades-contratadas/",
+   "source": "Portas",
+   "date": "2026-10-07T07:00:00Z",
+   "cat": "financiamento",
+   "local": false,
+   "img": "https://uploads.portas.com.br/2026/10/augusto-rabelo-secretario-mmcmv.jpeg"
+  },
+  {
    "title": "Crédito imobiliário cresce apesar dos saques de poupança e FGTS",
    "url": "https://imobireport.com.br/newsletter-do-imobi/credito-imobiliario-cresce-apesar-dos-saques-de-poupanca-e-fgts/",
    "source": "Imobi Report",
@@ -1275,88 +1356,6 @@
    "cat": "financiamento",
    "local": false,
    "img": "https://www.atribuna.com.br/image/policy:1.485488:1790977531/image.jpg?f=3x2"
-  },
-  {
-   "title": "Plano&Plano inaugura sede em Goiânia e anuncia primeiro empreendimento",
-   "url": "https://www.arrozdefyesta.net/vem-ai/plano-plano-inaugura-sede-em-goiania-e-anuncia-primeiro-empreendimento",
-   "source": "Arroz de Fyesta",
-   "date": "2026-10-03T01:38:33Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://www.arrozdefyesta.net/images/assets/noticias/2026/09/6aaf5618573d2.jpg"
-  },
-  {
-   "title": "Diferença de preço de imóveis em Goiânia chega a 40%, a depender do bairro | SEGS Portal Nacional de...",
-   "url": "https://www.segs.com.br/mais/economia/456652-diferenca-de-preco-de-imoveis-em-goiania-chega-a-40-a-depender-do-bairro",
-   "source": "SEGS Portal Nacional",
-   "date": "2026-10-02T21:55:32Z",
-   "cat": "mercado",
-   "local": true,
-   "img": "https://www.segs.com.br/media/k2/items/cache/5d953e71ad678b29a941e0be1410547c_L.jpg"
-  },
-  {
-   "title": "Isenção de IPTU é estendida a imóveis de associações de delegados",
-   "url": "https://cmbh.mg.gov.br/comunica%C3%A7%C3%A3o/not%C3%ADcias/2026/10/isen%C3%A7%C3%A3o-de-iptu-%C3%A9-estendida-im%C3%B3veis-de-associa%C3%A7%C3%B5es-de-delegados",
-   "source": "Portal CMBH |",
-   "date": "2026-10-02T19:46:48Z",
-   "cat": "regras",
-   "local": false,
-   "img": ""
-  },
-  {
-   "title": "Mercado imobiliário do ABC retoma fôlego e vendas avançam 14,82%",
-   "url": "https://www.reporterdiario.com.br/noticia/3905380/mercado-imobiliario-do-abc-retoma-folego-e-vendas-avancam-1482/",
-   "source": "Repórter Diário",
-   "date": "2026-10-02T18:41:02Z",
-   "cat": "mercado",
-   "local": false,
-   "img": ""
-  },
-  {
-   "title": "Prefeitura de Goiânia autua construtora e intensifica fiscalização em canteiros de obras",
-   "url": "https://expresso360.com.br/prefeitura-de-goiania-autua-construtora-e-intensifica-fiscalizacao-em-canteiros-de-obras/",
-   "source": "Panoramagocomunicacao",
-   "date": "2026-10-02T18:12:12Z",
-   "cat": "lancamentos",
-   "local": true,
-   "img": "https://expresso360.com.br/wp-content/uploads/2026/10/9891e30a-e704-4a4c-8efe-2e2e1b74da1d-576x1024.jpeg"
-  },
-  {
-   "title": "Sustentabilidade no mercado imobiliário: valorização e economia real",
-   "url": "https://portas.com.br/mercado-imobiliario/sustentabilidade-no-mercado-imobiliario-como-ela-gera-valor-real/",
-   "source": "Portas",
-   "date": "2026-10-02T17:00:00Z",
-   "cat": "mercado",
-   "local": false,
-   "img": "https://uploads.portas.com.br/2026/09/Giorgio-Pasini-iStock.jpg"
-  },
-  {
-   "title": "STF forma maioria sobre imunidade de ITBI na integralização de imóveis de imobiliárias",
-   "url": "https://tributarionosbastidores.com.br/2026/10/stf-forma-maioria-sobre-imunidade-de-itbi-na-integralizacao-de-imoveis-de-imobiliarias/",
-   "source": "Tributário nos Bastidores",
-   "date": "2026-10-02T14:05:05Z",
-   "cat": "regras",
-   "local": false,
-   "img": "",
-   "img_tried": true
-  },
-  {
-   "title": "Mercado imobiliário do ABC reage e vendas sobem 14,82%",
-   "url": "https://www.abcdoabc.com.br/mercado-imobiliario-do-abc-reage-e-vendas-sobem/",
-   "source": "Portal ABC do ABC",
-   "date": "2026-10-02T13:50:00Z",
-   "cat": "mercado",
-   "local": false,
-   "img": "https://wp.abcdoabc.com.br/wp-content/uploads/mercado-imobiliario_223ffbd7.jpg"
-  },
-  {
-   "title": "Paralisada desde 2025, Casa da Mulher Brasileira terá nova construtora em Goiânia",
-   "url": "https://www.jornalopcao.com.br/goiania/paralisada-desde-2025-casa-da-mulher-brasileira-tera-nova-construtora-em-goiania-874405/",
-   "source": "Jornal Opção",
-   "date": "2026-10-02T11:47:00Z",
-   "cat": "mercado",
-   "local": true,
-   "img": "https://cdn.jornalopcao.com.br/assets/2026/10/02114146/1790941298-image.webp"
   }
  ]
 }
