@@ -1,6 +1,42 @@
 {
- "updated": "2026-10-16T23:14:20Z",
+ "updated": "2026-10-17T12:41:04Z",
  "items": [
+  {
+   "title": "STJ mantém afastamento de IPTU sobre imóveis em área de preservação",
+   "url": "https://www.jota.info/tributos/stj-mantem-afastamento-de-iptu-sobre-imoveis-em-area-de-preservacao",
+   "source": "JOTA Info",
+   "date": "2026-10-17T09:22:07Z",
+   "cat": "regras",
+   "local": false,
+   "img": "https://images.jota.info/wp-content/uploads/2026/10/campo-verde-magnific-1.jpg"
+  },
+  {
+   "title": "Distratos atingem um em cada cinco imóveis de médio e alto padrão, o maior patamar desde 2020",
+   "url": "https://www.estadao.com.br/economia/negocios/distratos-atingem-um-em-cada-cinco-imoveis-de-medio-e-alto-padrao-o-maior-patamar-desde-2020/",
+   "source": "Estadão",
+   "date": "2026-10-17T08:30:00Z",
+   "cat": "mercado",
+   "local": false,
+   "img": "https://www.estadao.com.br/resizer/v2/B3ARNR6OHJBQTP24N7DMOZXOOU.jpg?quality=80&auth=8ee70f6ad059e2bc31c0abb3a6192f3a8a233403f6b72f0d4f80a181d49c5073&width=1200&height=630&smart=true"
+  },
+  {
+   "title": "Licitação para duplicação da GO-462 entre Goiânia e Santo Antônio de Goiás é marcada",
+   "url": "https://g1.globo.com/google/amp/go/goias/videos-ja-2-edicao/video/licitacao-para-duplicacao-da-go-462-entre-goiania-e-santo-antonio-de-goias-e-marcada-15097033.ghtml",
+   "source": "G1",
+   "date": "2026-10-17T00:33:10Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://s02.video.glbimg.com/x720/15097033.jpg"
+  },
+  {
+   "title": "Prefeitura de Goiânia vai adotar 'esquerda livre' no trânsito",
+   "url": "https://daqui.opopular.com.br/geral/prefeitura-de-goiania-vai-adotar-esquerda-livre-no-transito-1.3469397",
+   "source": "Daqui",
+   "date": "2026-10-17T00:03:48Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://daqui.opopular.com.br/image/policy:1.3266978:1792194874/image.jpg?f=3x2"
+  },
   {
    "title": "Tragédia fez Praça Tamandaré deixar de ser ponto de jovens que tiravam racha de carro em Goiânia, em 1980",
    "url": "https://www.maisgoias.com.br/cidades/goiania/tragedia-fez-praca-tamandare-deixar-de-ser-ponto-de-jovens-que-tiravam-racha-de-carro-em-goiania-em-1980/",
@@ -8,7 +44,16 @@
    "date": "2026-10-16T22:51:16Z",
    "cat": "cidade",
    "local": true,
-   "img": "https://www.maisgoias.com.br/wp-content/uploads/2026/10/engarrafamento-vintage-na-praca-arborizada-1792175722.webp"
+   "img": "https://uploads.maisgoias.com.br/2026/10/engarrafamento-vintage-na-praca-arborizada-1792175722.webp"
+  },
+  {
+   "title": "Do anúncio no jornal à venda na internet: tecnologia transforma o trabalho dos corretores de imóveis |...",
+   "url": "https://www.segs.com.br/demais/457503-do-anuncio-no-jornal-a-venda-na-internet-tecnologia-transforma-o-trabalho-dos-corretores-de-imoveis",
+   "source": "SEGS Portal Nacional",
+   "date": "2026-10-16T21:18:01Z",
+   "cat": "mercado",
+   "local": false,
+   "img": "https://www.segs.com.br/media/k2/items/cache/1ae38c57e7f96461bd1803589d82cf21_L.jpg"
   },
   {
    "title": "GO-020 terá obras noturnas em nova etapa de restauração",
@@ -92,6 +137,15 @@
    "img": ""
   },
   {
+   "title": "BB BI analisa a performance do setor imobiliário em setembro - Setorial Construção",
+   "url": "https://investalk.bb.com.br/noticias/mercado/setorial-construcao-202610",
+   "source": "InvesTalk",
+   "date": "2026-10-16T14:27:00Z",
+   "cat": "mercado",
+   "local": false,
+   "img": ""
+  },
+  {
    "title": "Frota a biometano do BRT de Goiânia ganha infraestrutura permanente de reabastecimento",
    "url": "https://frotacia.com.br/frota-a-biometano-do-brt-de-goiania-ganha-infraestrutura-permanente-de-reabastecimento/",
    "source": "Frota&Cia",
@@ -99,24 +153,6 @@
    "cat": "cidade",
    "local": true,
    "img": "https://frotacia.com.br/wp-content/uploads/2026/10/Os-veiculos-do-sistema-ja-sao-abastecidos-na-infraestrutura-definitiva.jpg"
-  },
-  {
-   "title": "Do anúncio no jornal à venda na internet: tecnologia transforma o trabalho dos corretores de imóveis |...",
-   "url": "https://www.segs.com.br/demais/457503-do-anuncio-no-jornal-a-venda-na-internet-tecnologia-transforma-o-trabalho-dos-corretores-de-imoveis",
-   "source": "SEGS Portal Nacional",
-   "date": "2026-10-16T13:23:59Z",
-   "cat": "mercado",
-   "local": false,
-   "img": "https://www.segs.com.br/media/k2/items/cache/1ae38c57e7f96461bd1803589d82cf21_L.jpg"
-  },
-  {
-   "title": "Obras do BRT entre Goiânia e Aparecida devem ser retomadas",
-   "url": "https://g1.globo.com/go/goias/videos-bom-dia-go/video/obras-do-brt-entre-goiania-e-aparecida-devem-ser-retomadas-15060795.ghtml",
-   "source": "G1",
-   "date": "2026-10-16T11:42:38Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://s04.video.glbimg.com/x720/15060795.jpg"
   },
   {
    "title": "IHGG cria livraria para venda de obras de autores goianos",
@@ -281,6 +317,15 @@
    "img": "https://www.goiania.go.gov.br/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-15-at-11.52.01.jpeg"
   },
   {
+   "title": "Obras do BRT entre Goiânia e Aparecida devem ser retomadas",
+   "url": "https://g1.globo.com/go/goias/videos-bom-dia-go/video/obras-do-brt-entre-goiania-e-aparecida-devem-ser-retomadas-15060795.ghtml",
+   "source": "G1",
+   "date": "2026-10-15T14:21:55Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://s04.video.glbimg.com/x720/15060795.jpg"
+  },
+  {
    "title": "Cristiano Ronaldo fica a 19 gols da marca de mil na carreira",
    "url": "https://www.dm.com.br/esportes/cristiano-ronaldo-fica-a-19-gols-da-marca-de-mil-na-carreira/",
    "source": "DM",
@@ -407,6 +452,15 @@
    "img": "https://medproc.migalhas.com.br/https__img5.migalhas.com.br__SL__gf_base__SL__empresas__SL__miga__SL__imagens__SL__2026__SL__10__SL__14__SL__cropped_5szsxynz.lf4.jpg._PROC_CP75CCH31622400.jpg"
   },
   {
+   "title": "Pod020: Murilo Ulhôa, detalha avanços do transporte coletivo em Goiânia e na Região Metropolitana",
+   "url": "https://portalgo020.com.br/2026/10/pod020-murilo-ulhoa-detalha-avancos-do-transporte-coletivo-na-grande-goiania.html",
+   "source": "Portal GO 020",
+   "date": "2026-10-14T11:13:41Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://portalgo020.com.br/wp-content/uploads/2026/10/murilo-pod020-e1792173565384.jpeg"
+  },
+  {
    "title": "Trânsito na GO-020 é liberado após tombamento de carreta com óleo em Goiânia",
    "url": "https://www.cbngoiania.com.br/cbn-goiania/transito-na-go-020-e-liberado-apos-tombamento-de-carreta-com-oleo-em-goiania-1.3468016",
    "source": "CBN Goiânia",
@@ -494,7 +548,8 @@
    "date": "2026-10-13T19:28:52Z",
    "cat": "mercado",
    "local": false,
-   "img": ""
+   "img": "",
+   "img_tried": true
   },
   {
    "title": "Após obras, rotatória do Hugol é entregue para trazer melhorias ao trânsito da Região Noroeste, em Goiânia",
@@ -632,6 +687,15 @@
    "cat": "cidade",
    "local": true,
    "img": "https://panoramagocomunicacao.com.br/wp-content/uploads/2026/10/metragem-para-o-portal-6-9-1024x683.png"
+  },
+  {
+   "title": "Financiamento imobiliário cresce 33% e supera R$ 1,2 bilhão em MS",
+   "url": "https://www.sindifiscalms.org.br/novidade/financiamento-imobiliario-cresce-33-e-supera-r-1-2-bilhao-em-ms/72275",
+   "source": "Sindifiscalms",
+   "date": "2026-10-13T12:30:00Z",
+   "cat": "financiamento",
+   "local": false,
+   "img": "https://www.sindifiscalms.org.br/files/captura-de-tela-2026-10-13-104007.png"
   },
   {
    "title": "Prefeitura entrega rotatória do Hugol e anuncia 500 quilômetros de asfalto novo em Goiânia",
@@ -807,6 +871,15 @@
    "img": "https://conjur.com.br/wp-content/uploads/2024/07/tambores-candomble-300x200-1.jpg"
   },
   {
+   "title": "Secovi-SP comenta valorização da varanda gourmet nos apartamentos da Baixada Santista",
+   "url": "https://secovi.com.br/secovi-sp-comenta-valorizacao-da-varanda-gourmet-nos-apartamentos-da-baixada-santista/",
+   "source": "SECOVI-SP",
+   "date": "2026-10-11T07:00:00Z",
+   "cat": "mercado",
+   "local": false,
+   "img": "https://secovi.com.br/wp-content/uploads/2026/10/Imagem11.jpg"
+  },
+  {
    "title": "Prefeitura inicia obras no asfalto da Avenida Vera Cruz, perto do Aeroporto de Goiânia; veja rotas alternativas",
    "url": "https://daqui.opopular.com.br/geral/prefeitura-inicia-obras-no-asfalto-da-avenida-vera-cruz-perto-do-aeroporto-de-goiania-veja-rotas-alternativas-1.3278536",
    "source": "Daqui",
@@ -954,7 +1027,7 @@
    "title": "STF volta a discutir IPTU por área: levantamento do g1 mostra como capitais usam a metragem",
    "url": "https://g1.globo.com/economia/noticia/2026/10/09/iptu-por-area-levantamento-do-g1-mostra-como-capitais-usam-a-metragem.ghtml",
    "source": "G1",
-   "date": "2026-10-09T08:00:00Z",
+   "date": "2026-10-09T07:00:00Z",
    "cat": "regras",
    "local": false,
    "img": "https://s2-g1.glbimg.com/EAQk28G8LTEereBAJqOHc0CN56Q=/5712x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/g/O/uXA4VpSpqYPOWwccwhag/foto-1-primeira-parcela-e-cota-unica-do-iptu-vencem-na-proxima-sexta-feira-10-.jpeg"
@@ -1240,6 +1313,15 @@
    "img": "https://sindusconsp.com.br/wp-content/uploads/2026/01/iStock-1390035410-1024x576.jpg"
   },
   {
+   "title": "Governo de Goiás investe R$ 14,4 milhões na revitalização do Parque da Serrinha",
+   "url": "https://www.arrozdefyesta.net/vem-ai/governo-de-goias-investe-r-14-4-milhoes-na-revitalizacao-do-parque-da-serrinha",
+   "source": "Notícia Toda Hora",
+   "date": "2026-10-06T19:20:00Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://www.arrozdefyesta.net/images/assets/noticias/2026/10/6ac74c9927ff9.jpg"
+  },
+  {
    "title": "Parque da Serrinha será transformado em novo complexo de lazer, turismo e preservação em Goiânia",
    "url": "https://sdnews.com.br/noticia/17208/parque-da-serrinha-sera-transformado-em-novo-complexo-de-lazer-turismo-e-preservacao-em-goiania.html",
    "source": "Portal Serra Dourada News",
@@ -1247,15 +1329,6 @@
    "cat": "cidade",
    "local": true,
    "img": "https://sdnews.com.br/imagem-social/posts/2026/10/17208_parque-da-serrinha-sera-transformado-em-novo-complexo-de-lazer-turismo-e-preservacao-em-goiania-1b3357f0.jpeg.jpg?v=og4-1791308442-l0"
-  },
-  {
-   "title": "Governo de Goiás investe R$ 14,4 milhões na revitalização do Parque da Serrinha",
-   "url": "https://www.arrozdefyesta.net/vem-ai/governo-de-goias-investe-r-14-4-milhoes-na-revitalizacao-do-parque-da-serrinha",
-   "source": "A Redação",
-   "date": "2026-10-06T17:16:21Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://www.arrozdefyesta.net/images/assets/noticias/2026/10/6ac74c9927ff9.jpg"
   },
   {
    "title": "Guia do corretor de imóveis: como atuar no mercado imobiliário brasileiro?",
@@ -1283,79 +1356,6 @@
    "cat": "financiamento",
    "local": false,
    "img": "https://s2-valor.glbimg.com/HAW9xKdPvphnPogkl_3vbF4BPec=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/X/Q/aJqMXjTECPVlTbeNOzAA/foto06leg-111-subcarto-e1.jpg"
-  },
-  {
-   "title": "STJ afasta IPTU sobre mais de mil lotes em área de preservação",
-   "url": "https://www.migalhas.com.br/quentes/465995/stj-afasta-iptu-sobre-mais-de-mil-lotes-em-area-de-preservacao",
-   "source": "Migalhas",
-   "date": "2026-10-06T07:00:00Z",
-   "cat": "regras",
-   "local": false,
-   "img": "https://medproc.migalhas.com.br/https__img5.migalhas.com.br__SL__gf_base__SL__empresas__SL__miga__SL__imagens__SL__2026__SL__10__SL__06__SL__cropped_cxjkkgrz.2lf.jpg._PROC_CP75CCH31622400.jpg"
-  },
-  {
-   "title": "SINDUSCON Joinville: vendas superam lançamentos no mercado imobiliário da cidade",
-   "url": "https://cbic.org.br/sinduscon-joinville-vendas-superam-lancamentos-no-mercado-imobiliario-da-cidade/",
-   "source": "CBIC - Câmara Brasileira da Indústria da Construção",
-   "date": "2026-10-06T02:40:18Z",
-   "cat": "lancamentos",
-   "local": false,
-   "img": "https://cbic.org.br/wp-content/uploads/2026/10/vendas-1.png"
-  },
-  {
-   "title": "Eleições 2026 e mercado imobiliário: o caminho entre as urnas, os juros, o crédito e a compra do imóvel",
-   "url": "https://www.abcdacomunicacao.com.br/eleicoes-2026-e-mercado-imobiliario-o-caminho-entre-as-urnas-os-juros-o-credito-e-a-compra-do-imovel/",
-   "source": "ABC da Comunicação",
-   "date": "2026-10-05T21:21:58Z",
-   "cat": "financiamento",
-   "local": false,
-   "img": "",
-   "img_tried": true
-  },
-  {
-   "title": "STF e ITBI na Integralização: Entenda o Julgamento Crucial",
-   "url": "https://www.contabeis.com.br/artigos/79852/stf-e-itbi-na-integralizacao-entenda-o-julgamento-crucial/",
-   "source": "Portal Contabeis",
-   "date": "2026-10-05T21:00:02Z",
-   "cat": "regras",
-   "local": false,
-   "img": "https://www.contabeis.com.br/assets/img/news/itbi-na-integralizacao-de-imoveis-o-que-esperar-do-julgamento-do-stf-previsto-para-terminar-em-19-de-outubro.png"
-  },
-  {
-   "title": "Vendas financiadas de casas crescem 11,8% no Brasil e superam avanço dos apartamentos em 2026",
-   "url": "https://revistakdea360.com.br/noticia/92521/vendas-financiadas-de-casas-crescem-11-8-no-brasil-e-superam-avanco-dos-apartamentos-em-2026",
-   "source": "Portal Revista Kdea 360",
-   "date": "2026-10-05T14:22:44Z",
-   "cat": "financiamento",
-   "local": false,
-   "img": "https://load.websg.app.br/revistakdea360.com.br/image?src=https://revistakdea360.com.br/images/noticias/92521/05102041_WhatsApp_I.jpeg&w=1200&h=675&output=jpg"
-  },
-  {
-   "title": "Redução do ITBI em Aparecida começou nesta segunda-feira com alíquota de 1,5%",
-   "url": "https://aparecida.go.gov.br/reducao-do-itbi-em-aparecida-comecou-nesta-segunda-feira-com-aliquota-de-15",
-   "source": "Prefeitura de Aparecida de Goiânia",
-   "date": "2026-10-05T07:00:00Z",
-   "cat": "regras",
-   "local": true,
-   "img": "https://aparecida.go.gov.br/wp-content/uploads/2026/10/whatsapp-image-2026-10-05-at-14-34-04.jpeg"
-  },
-  {
-   "title": "Parques de Goiânia refrigeram área até 7 vezes maior que sua superfície, diz pesquisa",
-   "url": "https://opopular.com.br/cidades/parques-refrigeram-area-ate-7-vezes-maior-que-sua-superficie-diz-pesquisa-1.3464086",
-   "source": "O Popular",
-   "date": "2026-10-04T23:12:25Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://opopular.com.br/image/policy:1.3464085:1791155375/image.jpg"
-  },
-  {
-   "title": "Consórcios respondem por 21,8% dos imóveis financiados no País",
-   "url": "https://www.atribuna.com.br/projetos/summit-construcao-civil/consorcios-respondem-por-21-8-dos-imoveis-financiados-no-pais-1.531726",
-   "source": "A Tribuna",
-   "date": "2026-10-03T23:35:00Z",
-   "cat": "financiamento",
-   "local": false,
-   "img": "https://www.atribuna.com.br/image/policy:1.485488:1790977531/image.jpg?f=3x2"
   }
  ]
 }
