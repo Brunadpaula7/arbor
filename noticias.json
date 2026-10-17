@@ -1,6 +1,33 @@
 {
- "updated": "2026-10-17T17:45:25Z",
+ "updated": "2026-10-17T22:52:09Z",
  "items": [
+  {
+   "title": "Goiânia e região metropolitana têm previsão de chuva e risco de tempestades neste domingo",
+   "url": "https://www.jornalopcao.com.br/ultimas-noticias/goiania-e-regiao-metropolitana-tem-previsao-de-chuva-e-risco-de-tempestades-neste-domingo-879922/",
+   "source": "Jornal Opção",
+   "date": "2026-10-17T21:05:06Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://cdn.jornalopcao.com.br/assets/2025/09/23212406/img_7804-scaled.webp"
+  },
+  {
+   "title": "Goiânia implanta primeira esquerda livre e avalia expansão para outros cruzamentos",
+   "url": "https://www.jornalopcao.com.br/ultimas-noticias/goiania-implanta-primeira-esquerda-livre-e-avalia-expansao-para-outros-cruzamentos-879896/",
+   "source": "Jornal Opção",
+   "date": "2026-10-17T18:58:43Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://cdn.jornalopcao.com.br/assets/2026/10/17183906/1792262346-whatsapp-image-2026-10-17-at-15-12-56.webp"
+  },
+  {
+   "title": "Goiânia implanta primeira esquerda livre para reduzir filas no trânsito",
+   "url": "https://diariodegoias.com.br/goiania-implanta-primeira-esquerda-livre-para-reduzir-filas-no-transito/551343/",
+   "source": "Diário de Goiás",
+   "date": "2026-10-17T18:18:42Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://cdn.diariodegoias.com.br/wp-content/uploads/2026/10/17181456/goiania-implanta-primeira-esquerda-livre-para-reduzir-filas-no-transito.webp"
+  },
   {
    "title": "Goiânia implanta primeira esquerda livre no cruzamento das avenidas T-3 e T-10",
    "url": "https://aredacao.com.br/goiania-implanta-primeira-esquerda-livre-no-cruzamento-das-avenidas-t-3-e-t-10/",
@@ -47,15 +74,6 @@
    "img": "https://s02.video.glbimg.com/x720/15098017.jpg"
   },
   {
-   "title": "TJ/SC: Desembargadora repreende advogado por fala sobre Minha Casa Minha Vida",
-   "url": "https://www.migalhas.com.br/quentes/466720/desembargadora-repreende-advogado-por-fala-sobre-minha-casa-minha-vida",
-   "source": "Migalhas",
-   "date": "2026-10-17T15:43:24Z",
-   "cat": "financiamento",
-   "local": false,
-   "img": "https://medproc.migalhas.com.br/https__img5.migalhas.com.br__SL__gf_base__SL__empresas__SL__miga__SL__imagens__SL__2026__SL__10__SL__17__SL__cropped_q233aqbz.get.jpeg._PROC_CP75CCH31622400.jpeg"
-  },
-  {
    "title": "Guto Miguel chega à final de duplas na Bolívia e busca mais um título de Challenger; veja onde assistir",
    "url": "https://www.maisgoias.com.br/esportes/tenis/guto-miguel-chega-a-final-de-duplas-na-bolivia-e-busca-mais-um-titulo-de-challenger-veja-onde-assistir/",
    "source": "Mais Goiás",
@@ -74,6 +92,15 @@
    "img": "https://www.maisgoias.com.br/wp-content/uploads/2026/10/obras-na-go-020-entre-goiania-e-bela-vista-de-goias-1792242986.webp"
   },
   {
+   "title": "TJ/SC: Desembargadora repreende advogado por fala sobre Minha Casa Minha Vida",
+   "url": "https://www.migalhas.com.br/quentes/466720/desembargadora-repreende-advogado-por-fala-sobre-minha-casa-minha-vida",
+   "source": "Migalhas",
+   "date": "2026-10-17T11:33:00Z",
+   "cat": "financiamento",
+   "local": false,
+   "img": "https://medproc.migalhas.com.br/https__img5.migalhas.com.br__SL__gf_base__SL__empresas__SL__miga__SL__imagens__SL__2026__SL__10__SL__17__SL__cropped_q233aqbz.get.jpeg._PROC_CP75CCH31622400.jpeg"
+  },
+  {
    "title": "STJ mantém afastamento de IPTU sobre imóveis em área de preservação",
    "url": "https://www.jota.info/tributos/stj-mantem-afastamento-de-iptu-sobre-imoveis-em-area-de-preservacao",
    "source": "JOTA Info",
@@ -90,6 +117,15 @@
    "cat": "mercado",
    "local": false,
    "img": "https://www.estadao.com.br/resizer/v2/B3ARNR6OHJBQTP24N7DMOZXOOU.jpg?quality=80&auth=8ee70f6ad059e2bc31c0abb3a6192f3a8a233403f6b72f0d4f80a181d49c5073&width=1200&height=630&smart=true"
+  },
+  {
+   "title": "Prefeitura vai implantar primeira \"esquerda livre\" no trânsito de Goiânia",
+   "url": "https://opopular.com.br/cidades/prefeitura-vai-implantar-primeira-esquerda-livre-no-transito-de-goiania-1.3469417",
+   "source": "O Popular",
+   "date": "2026-10-17T01:19:30Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://opopular.com.br/image/policy:1.3469416:1792199760/image.jpg"
   },
   {
    "title": "Licitação para duplicação da GO-462 entre Goiânia e Santo Antônio de Goiás é marcada",
@@ -126,15 +162,6 @@
    "cat": "mercado",
    "local": false,
    "img": "https://www.segs.com.br/media/k2/items/cache/1ae38c57e7f96461bd1803589d82cf21_L.jpg"
-  },
-  {
-   "title": "GO-020 terá obras noturnas em nova etapa de restauração",
-   "url": "https://diariodegoias.com.br/go-020-tera-obras-noturnas-em-nova-etapa-de-restauracao/551303/",
-   "source": "Diário de Goiás",
-   "date": "2026-10-16T20:52:49Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://cdn.diariodegoias.com.br/wp-content/uploads/2026/10/16204743/go-020.webp"
   },
   {
    "title": "Teatro e humor levam conscientização sobre violência contra a mulher a 400 trabalhadores da construção civil em Goiânia",
@@ -206,7 +233,8 @@
    "date": "2026-10-16T14:27:00Z",
    "cat": "mercado",
    "local": false,
-   "img": ""
+   "img": "",
+   "img_tried": true
   },
   {
    "title": "Frota a biometano do BRT de Goiânia ganha infraestrutura permanente de reabastecimento",
@@ -326,6 +354,15 @@
    "img": "https://cdn.jornalopcao.com.br/assets/2026/10/15185558/1792090558-whatsapp-image-2026-10-15-at-15-46-16-1.webp"
   },
   {
+   "title": "Pesquisa Mensal do Mercado Imobiliário – Agosto 2026",
+   "url": "https://secovi.com.br/pesquisa-mensal-do-mercado-imobiliario-agosto-2026/",
+   "source": "SECOVI-SP",
+   "date": "2026-10-15T19:23:11Z",
+   "cat": "mercado",
+   "local": false,
+   "img": "https://secovi.com.br/wp-content/uploads/2026/10/202608-pmi-600X500.jpg"
+  },
+  {
    "title": "CBIC promove encontro gratuito de construtores e incorporadores na Expoind 2026 em Goiânia",
    "url": "https://www.bra1.com.br/economia/id-708150/cbic_promove_encontro_gratuito_de_construtores_e_incorporadores_na_expoind_2026_em_goiania",
    "source": "Bra1",
@@ -354,12 +391,12 @@
   },
   {
    "title": "CBIC faz encontro regional de construtores e incorporadores na Expoind",
-   "url": "https://arenadenoticias.com.br/noticia/181532/cbic-faz-encontro-regional-de-construtores-e-incorporadores-na-expoind",
-   "source": "Arena de Notícias",
-   "date": "2026-10-15T18:03:42Z",
+   "url": "https://www.enquantoissoemgoias.com/noticia/4239/giro-por-goias/cbic-faz-encontro-regional-de-construtores-e-incorporadores-na-expoind.html",
+   "source": "Enquanto isso em Goias",
+   "date": "2026-10-15T18:05:00Z",
    "cat": "mercado",
-   "local": false,
-   "img": ""
+   "local": true,
+   "img": "https://www.enquantoissoemgoias.com/arquivos/noticias/4239/cbic-faz-encontro-regional-de-construtores-e-incorporadores-na-expoind.jpg"
   },
   {
    "title": "Acordo entre Prefeitura de Goiânia e MPF libera retomada das obras do BRT Norte-Sul",
@@ -934,6 +971,15 @@
    "img": "https://conjur.com.br/wp-content/uploads/2024/07/tambores-candomble-300x200-1.jpg"
   },
   {
+   "title": "Sorocaba lidera lançamentos residenciais no Interior paulista, aponta Secovi-SP",
+   "url": "https://secovi.com.br/sorocaba-lidera-lancamentos-residenciais-no-interior-paulista-aponta-secovi-sp/",
+   "source": "SECOVI-SP",
+   "date": "2026-10-11T07:00:00Z",
+   "cat": "lancamentos",
+   "local": false,
+   "img": "https://secovi.com.br/wp-content/uploads/2026/10/Imagem23.jpg"
+  },
+  {
    "title": "Secovi-SP comenta valorização da varanda gourmet nos apartamentos da Baixada Santista",
    "url": "https://secovi.com.br/secovi-sp-comenta-valorizacao-da-varanda-gourmet-nos-apartamentos-da-baixada-santista/",
    "source": "SECOVI-SP",
@@ -1051,15 +1097,6 @@
    "img": "https://www.diariogoianiense.com.br/uploads/images/2026/10/projeto-permite-prefeitura-mudar-destino-de-areas-de-loteamento1791570907.jpg"
   },
   {
-   "title": "SFH: entenda como funciona o Sistema Financeiro de Habitação",
-   "url": "https://www.serasa.com.br/credito/blog/sfh/",
-   "source": "Serasa",
-   "date": "2026-10-09T15:45:00Z",
-   "cat": "financiamento",
-   "local": false,
-   "img": "https://cdn.builder.io/api/v1/image/assets%2Fb212bb18f00a40869a6cd42f77cbeefc%2F6250421412bb4732a8c321988e359f8c"
-  },
-  {
    "title": "Poupança do SBPE tem saída de R$ 6,19 bilhões em setembro",
    "url": "https://portas.com.br/mercado-imobiliario/poupanca-sbpe-saida-setembro/",
    "source": "Portas",
@@ -1085,6 +1122,15 @@
    "cat": "regras",
    "local": false,
    "img": "https://medproc.migalhas.com.br/https__img5.migalhas.com.br__SL__gf_base__SL__empresas__SL__miga__SL__imagens__SL__2026__SL__10__SL__08__SL__cropped_v0mdtcmf.d2s.png._PROC_CP75CCH31622400.png"
+  },
+  {
+   "title": "SFH: entenda como funciona o Sistema Financeiro de Habitação",
+   "url": "https://www.serasa.com.br/credito/blog/sfh/",
+   "source": "Serasa",
+   "date": "2026-10-09T07:00:00Z",
+   "cat": "financiamento",
+   "local": false,
+   "img": "https://cdn.builder.io/api/v1/image/assets%2Fb212bb18f00a40869a6cd42f77cbeefc%2F6250421412bb4732a8c321988e359f8c"
   },
   {
    "title": "STF volta a discutir IPTU por área: levantamento do g1 mostra como capitais usam a metragem",
@@ -1311,51 +1357,6 @@
    "cat": "regras",
    "local": false,
    "img": "https://secovi.com.br/wp-content/uploads/2026/10/20261007-coluna.png"
-  },
-  {
-   "title": "Quanto custa financiar a casa própria em outubro? Compare juros cobrados pelos bancos",
-   "url": "https://exame.com/mercado-imobiliario/quanto-custa-financiar-a-casa-propria-em-outubro-compare-juros-cobrados-pelos-bancos/",
-   "source": "Exame",
-   "date": "2026-10-07T07:00:00Z",
-   "cat": "financiamento",
-   "local": false,
-   "img": ""
-  },
-  {
-   "title": "Minha Casa Minha Vida chega a 2,7 milhões de unidades contratadas desde 2023; meta de 3 milhões continua",
-   "url": "https://portas.com.br/noticias/minha-casa-minha-vida-2-7-milhoes-unidades-contratadas/",
-   "source": "Portas",
-   "date": "2026-10-07T07:00:00Z",
-   "cat": "financiamento",
-   "local": false,
-   "img": "https://uploads.portas.com.br/2026/10/augusto-rabelo-secretario-mmcmv.jpeg"
-  },
-  {
-   "title": "Crédito imobiliário cresce apesar dos saques de poupança e FGTS",
-   "url": "https://imobireport.com.br/newsletter-do-imobi/credito-imobiliario-cresce-apesar-dos-saques-de-poupanca-e-fgts/",
-   "source": "Imobi Report",
-   "date": "2026-10-07T07:00:00Z",
-   "cat": "financiamento",
-   "local": false,
-   "img": "https://imobireport.com.br/app/uploads/2026/10/Credito-imobiliario-cresce-apesar-dos-saques-de-poupanca-e-FGTS-5-scaled.jpeg"
-  },
-  {
-   "title": "O ITBI nasce no registro do imóvel, não na Junta Comercial",
-   "url": "https://www.migalhas.com.br/depeso/465744/o-itbi-nasce-no-registro-do-imovel-nao-na-junta-comercial",
-   "source": "Migalhas",
-   "date": "2026-10-07T07:00:00Z",
-   "cat": "regras",
-   "local": false,
-   "img": "https://medproc.migalhas.com.br/author.jpg._PROC_AC465744AT1AP11.jpg"
-  },
-  {
-   "title": "CBIC e IBRAM discutem cooperação entre construção e mineração",
-   "url": "https://cbic.org.br/cbic-e-ibram-discutem-cooperacao-entre-construcao-e-mineracao/",
-   "source": "CBIC - Câmara Brasileira da Indústria da Construção",
-   "date": "2026-10-06T20:55:48Z",
-   "cat": "mercado",
-   "local": false,
-   "img": "https://cbic.org.br/wp-content/uploads/2026/10/whatsapp-image-2026-10-06-at-123732.jpeg"
   }
  ]
 }
