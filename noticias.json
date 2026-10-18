@@ -1,6 +1,15 @@
 {
- "updated": "2026-10-18T12:58:05Z",
+ "updated": "2026-10-18T17:48:40Z",
  "items": [
+  {
+   "title": "Obras na GO-020 provocam mudanças no trânsito entre Goiânia e Bela Vista",
+   "url": "https://noticiatodahora.com.br/obras-na-go-020-provocam-mudancas-no-transito-entre-goiania-e-bela-vista/",
+   "source": "Notícia Toda Hora",
+   "date": "2026-10-18T14:05:00Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://noticiatodahora.com.br/wp-content/uploads/2026/10/obras-na-go-020-entre-goiania-e-bela-vista-de-goias-1792242986-960x640-1.webp"
+  },
   {
    "title": "Vila Nova x Novorizontino: onde assistir ao vivo o jogo pelo Campeonato Brasileiro Série B",
    "url": "https://diariodegoias.com.br/vila-nova-x-novorizontino-onde-assistir-ao-vivo-o-jogo-pelo-campeonato-brasileiro-serie-b-3/551358/",
@@ -27,15 +36,6 @@
    "cat": "cidade",
    "local": true,
    "img": "https://cdn.jornalopcao.com.br/assets/2026/10/16221727/1792189043-whatsapp-image-2026-10-16-at-19-17-01.webp"
-  },
-  {
-   "title": "Wagner Schadeck põe de pé em português a obra-prima de Karl Kraus, Os Últimos Dias da Humanidade",
-   "url": "https://www.jornalopcao.com.br/colunas-e-blogs/imprensa/wagner-schadeck-poe-de-pe-em-portugues-a-obra-prima-de-karl-kraus-os-ultimos-dias-da-humanidade-879878/",
-   "source": "Jornal Opção",
-   "date": "2026-10-18T00:00:03Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://cdn.jornalopcao.com.br/assets/2026/10/17173000/1792258195-karl-kraus-capa-tripla-de-os-ultimos-dias-da-humanidade1300.webp"
   },
   {
    "title": "Goiânia e região metropolitana têm previsão de chuva e risco de tempestades neste domingo",
@@ -296,8 +296,7 @@
    "date": "2026-10-16T14:27:00Z",
    "cat": "mercado",
    "local": false,
-   "img": "",
-   "img_tried": true
+   "img": ""
   },
   {
    "title": "Frota a biometano do BRT de Goiânia ganha infraestrutura permanente de reabastecimento",
@@ -936,8 +935,8 @@
   {
    "title": "Goiânia entrega monumentos históricos revitalizados no Bosque dos Buritis",
    "url": "https://aredacao.com.br/goiania-entrega-monumentos-historicos-revitalizados-no-bosque-dos-buritis/",
-   "source": "Diário da Manhã",
-   "date": "2026-10-12T18:14:00Z",
+   "source": "A Redação",
+   "date": "2026-10-12T15:38:15Z",
    "cat": "cidade",
    "local": true,
    "img": "https://aredacao.com.br/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-10.14.51.jpeg"
@@ -1331,15 +1330,6 @@
    "img": "https://media.gazetadopovo.com.br/2026/10/08110415/alexandre-eduardo-scisinio-foto-Evelyn-Soares-Associacao-dos-Magistrados-do-Estado-do-RJ.jpg"
   },
   {
-   "title": "Feira de Imóveis da Ademi-PR retorna após cinco anos em novo formato com ação integrada de incorporadoras e imobiliárias",
-   "url": "https://topview.com.br/grands/feira-de-imoveis-da-ademi-pr-retorna-apos-cinco-anos-em-novo-formato-com-acao-integrada-de-incorporadoras-e-imobiliarias/",
-   "source": "RIC Mais",
-   "date": "2026-10-07T21:45:36Z",
-   "cat": "lancamentos",
-   "local": false,
-   "img": "https://topview.com.br/grands/wp-content/uploads/2026/10/Curitiba1.jpg"
-  },
-  {
    "title": "Secovi-SP reúne diretores das regionais do Interior e debate mercado de loteamentos e pauta legislativa",
    "url": "https://secovi.com.br/secovi-sp-reune-diretores-das-regionais-do-interior-e-debate-mercado-de-loteamentos-e-pauta-legislativa/",
    "source": "SECOVI-SP",
@@ -1356,6 +1346,15 @@
    "cat": "regras",
    "local": false,
    "img": "https://uploads.portas.com.br/2026/10/Bancos-e-cartorios-preparam-automacao-do-financiamento-imobiliario-2048x1365.jpg"
+  },
+  {
+   "title": "Banco do Brasil coloca 75 imóveis à venda e pretende comercializar até 800 até o fim do ano",
+   "url": "https://www.tribunadosertao.com.br/geral/2026/10/07/992258-banco-do-brasil-coloca-75-imoveis-a-venda-e-pretende-comercializar-ate-800-ate-o-fim-do-ano",
+   "source": "Tribuna do Sertão",
+   "date": "2026-10-07T15:00:00Z",
+   "cat": "mercado",
+   "local": false,
+   "img": "https://img.dhost.cloud/vCwOcOzVAuuFzhcdXQ34xsS8Ntw=/1280x720/smart/https://tdan.nyc3.digitaloceanspaces.com/images/fc7e0/d5f403882d2084997aedd5594606e0fb1cf.jpg"
   }
  ]
 }
