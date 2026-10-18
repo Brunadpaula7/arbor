@@ -1,6 +1,15 @@
 {
- "updated": "2026-10-18T17:48:40Z",
+ "updated": "2026-10-18T22:45:20Z",
  "items": [
+  {
+   "title": "Goiânia ganha primeira esquerda livre no trânsito; veja como funciona a mudança",
+   "url": "https://curtamais.com.br/goiania/esquerda-livre-no-transito-goiania/",
+   "source": "Curta Mais - Goiânia",
+   "date": "2026-10-18T15:47:59Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://curtamais.com.br/goiania/wp-content/uploads/sites/2/2026/10/image-2026-10-18T124347.667.webp"
+  },
   {
    "title": "Obras na GO-020 provocam mudanças no trânsito entre Goiânia e Bela Vista",
    "url": "https://noticiatodahora.com.br/obras-na-go-020-provocam-mudancas-no-transito-entre-goiania-e-bela-vista/",
@@ -32,7 +41,7 @@
    "title": "Rumo aos 100 anos, Goiânia redesenha o trânsito em busca de um novo modelo de mobilidade",
    "url": "https://www.jornalopcao.com.br/reportagem-especial/rumo-aos-100-anos-goiania-redesenha-o-transito-em-busca-de-um-novo-modelo-de-mobilidade-879704/",
    "source": "Jornal Opção",
-   "date": "2026-10-18T00:00:18Z",
+   "date": "2026-10-18T00:00:00Z",
    "cat": "cidade",
    "local": true,
    "img": "https://cdn.jornalopcao.com.br/assets/2026/10/16221727/1792189043-whatsapp-image-2026-10-16-at-19-17-01.webp"
@@ -220,8 +229,8 @@
   {
    "title": "IA no mercado imobiliário: onde e o que construir?",
    "url": "https://www.terra.com.br/noticias/ia-no-mercado-imobiliario-onde-e-o-que-construir,3352e90f178347f0ddac577489ba3a0bommyvqre.html",
-   "source": "Terra",
-   "date": "2026-10-16T20:57:00Z",
+   "source": "Portal VV8",
+   "date": "2026-10-16T20:54:00Z",
    "cat": "mercado",
    "local": false,
    "img": "https://p2.trrsf.com/image/fget/cf/1200/630/middle/images.terra.com/2026/10/16/1513208856-74697189-11da-477d-b08a-c1384c3288e5.jpg"
@@ -1346,15 +1355,6 @@
    "cat": "regras",
    "local": false,
    "img": "https://uploads.portas.com.br/2026/10/Bancos-e-cartorios-preparam-automacao-do-financiamento-imobiliario-2048x1365.jpg"
-  },
-  {
-   "title": "Banco do Brasil coloca 75 imóveis à venda e pretende comercializar até 800 até o fim do ano",
-   "url": "https://www.tribunadosertao.com.br/geral/2026/10/07/992258-banco-do-brasil-coloca-75-imoveis-a-venda-e-pretende-comercializar-ate-800-ate-o-fim-do-ano",
-   "source": "Tribuna do Sertão",
-   "date": "2026-10-07T15:00:00Z",
-   "cat": "mercado",
-   "local": false,
-   "img": "https://img.dhost.cloud/vCwOcOzVAuuFzhcdXQ34xsS8Ntw=/1280x720/smart/https://tdan.nyc3.digitaloceanspaces.com/images/fc7e0/d5f403882d2084997aedd5594606e0fb1cf.jpg"
   }
  ]
 }
