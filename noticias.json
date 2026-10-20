@@ -1,6 +1,78 @@
 {
- "updated": "2026-10-20T14:04:57Z",
+ "updated": "2026-10-20T18:53:34Z",
  "items": [
+  {
+   "title": "Daniel Vilela anuncia novo batalhão da PM e parque em Aparecida durante inauguração de fórum",
+   "url": "https://www.jornalopcao.com.br/ultimas-noticias/em-inauguracao-do-novo-forum-de-aparecida-daniel-vilela-anuncia-2-obras-o-maior-parque-da-regiao-metropolitana-e-o-novo-batalhao-da-pm-880639/",
+   "source": "Jornal Opção",
+   "date": "2026-10-20T17:17:54Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://cdn.jornalopcao.com.br/assets/2026/10/20170058/1792515657-whatsapp-image-2026-10-20-at-13-23-33.webp"
+  },
+  {
+   "title": "Prédio redondo abandonado há 30 anos terá apartamentos de aluguel no Centro de Goiânia",
+   "url": "https://www.dm.com.br/cotidiano/predio-redondo-abandonado-ha-30-anos-tera-apartamentos-de-aluguel-no-centro-de-goiania/",
+   "source": "Diário da Manhã",
+   "date": "2026-10-20T16:35:00Z",
+   "cat": "mercado",
+   "local": true,
+   "img": "https://www.dm.com.br/wp-content/uploads/2026/10/Foto-reproducaoX-34.png"
+  },
+  {
+   "title": "Prédio abandonado há 30 anos no Centro de Goiânia terá obras retomadas",
+   "url": "https://radiobandeirantesgoiania.com.br/predio-abandonado-ha-30-anos-no-centro-de-goiania-tera-obras-retomadas/",
+   "source": "Radiobandeirantesgoiania",
+   "date": "2026-10-20T15:57:54Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://radiobandeirantesgoiania.com.br/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-20-at-11.08.04.jpeg"
+  },
+  {
+   "title": "Prédio abandonado há 30 anos no Centro de Goiânia terá obra retomada para apartamentos de Airbnb",
+   "url": "https://diariodegoias.com.br/predio-abandonado-ha-30-anos-no-centro-de-goiania-tera-obra-retomada-para-apartamentos-de-airbnb/551578/",
+   "source": "Diário de Goiás",
+   "date": "2026-10-20T15:35:01Z",
+   "cat": "mercado",
+   "local": true,
+   "img": "https://cdn.diariodegoias.com.br/wp-content/uploads/2026/10/20153211/predio-redondo-no-centro_.webp"
+  },
+  {
+   "title": "Mabel dá prazo a dono do prédio Redondo da Araguaia e ameaça demolir imóvel abandonado há décadas em Goiânia",
+   "url": "https://www.jornalopcao.com.br/cidades/mabel-da-prazo-para-dono-do-redondo-da-araguaia-e-ameaca-demolir-imovel-abandonado-ha-decadas-em-goiania-880598/",
+   "source": "Jornal Opção",
+   "date": "2026-10-20T15:14:09Z",
+   "cat": "mercado",
+   "local": true,
+   "img": "https://cdn.jornalopcao.com.br/assets/2026/10/20144912/1792507752-whatsapp-image-2026-10-20-at-11-48-39.webp"
+  },
+  {
+   "title": "Prédio abandonado há 30 anos terá obras retomadas em Goiânia, diz Mabel",
+   "url": "https://transmissaopolitica.com.br/cidades/2026/10/20/predio-redondo-araguaia-obras-goiania/",
+   "source": "Transmissão Política",
+   "date": "2026-10-20T14:35:00Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://transmissaopolitica.com.br/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-20-at-11.27.58.jpeg"
+  },
+  {
+   "title": "Prédio abandonado há 30 anos terá obra retomada no Centro de Goiânia, anuncia Mabel",
+   "url": "https://www.goiania.go.gov.br/agora/predio-abandonado-ha-30-anos-tera-obra-retomada-no-centro-de-goiania-anuncia-mabel",
+   "source": "Goiânia (Prefeitura)",
+   "date": "2026-10-20T14:31:55Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://www.goiania.go.gov.br/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-20-at-11.07.40.jpeg"
+  },
+  {
+   "title": "Transporte público de Goiânia e Região Metropolitana registra avanços nos últimos meses – Metrobus",
+   "url": "https://goias.gov.br/metrobus/transporte-publico-de-goiania-e-regiao-metropolitana-registra-avancos-nos-ultimos-meses/",
+   "source": "Goias",
+   "date": "2026-10-20T14:13:13Z",
+   "cat": "cidade",
+   "local": true,
+   "img": ""
+  },
   {
    "title": "Trânsito de Goiânia conta com 20 pontos de bloqueio viário durante comemorações do aniversário da capital",
    "url": "https://diariodegoias.com.br/transito-de-goiania-conta-com-20-pontos-de-bloqueio-viario-durante-comemoracoes-do-aniversario-da-capital/551560/",
@@ -18,6 +90,15 @@
    "cat": "lancamentos",
    "local": true,
    "img": "https://cdn.conexaohost.com.br/img/500x500/1/0/webp/arquivos/1918/conteudo/posts/711185.jpg"
+  },
+  {
+   "title": "Integralização em capital social afasta cobrança preventiva de ITBI",
+   "url": "https://conjur.com.br/2026-out-20/holding-familiar-e-imune-a-cobranca-de-itbi/",
+   "source": "Consultor Jurídico",
+   "date": "2026-10-20T12:44:41Z",
+   "cat": "regras",
+   "local": false,
+   "img": "https://conjur.com.br/wp-content/uploads/2026/08/business-man-show-money-bank-note-make-financial-plan-invite-people-sell-buy-house-car-monetary-properties-loan-credit-insurance-concept-300x200-1.jpg"
   },
   {
    "title": "Perimetral Norte pode ganhar viaduto e trincheira em Goiânia",
@@ -113,7 +194,7 @@
    "title": "Nova Basílica pode impulsionar turismo e mercado imobiliário de Trindade, diz ADU-GO",
    "url": "https://www.jornalopcao.com.br/ultimas-noticias/nova-basilica-pode-impulsionar-turismo-e-mercado-imobiliario-de-trindade-diz-adu-go-880362/",
    "source": "Jornal Opção",
-   "date": "2026-10-19T21:31:17Z",
+   "date": "2026-10-19T21:31:00Z",
    "cat": "mercado",
    "local": true,
    "img": "https://cdn.jornalopcao.com.br/assets/2026/10/19193707/1792438626-whatsapp-image-2026-10-19-at-16-36-55.webp"
@@ -153,6 +234,15 @@
    "cat": "mercado",
    "local": false,
    "img": "https://www.segs.com.br/images/jamp/page/fdf1e4781f4292d18e2f85a970910866_M.jpg"
+  },
+  {
+   "title": "CBIC alerta empresas sobre impactos do fim da escala 6×1 nos contratos de obras públicas",
+   "url": "https://cbic.org.br/cbic-alerta-empresas-sobre-impactos-do-fim-da-escala-6x1-nos-contratos-de-obras-publicas/",
+   "source": "CBIC - Câmara Brasileira da Indústria da Construção",
+   "date": "2026-10-19T20:19:40Z",
+   "cat": "mercado",
+   "local": false,
+   "img": "https://cbic.org.br/wp-content/uploads/2026/10/whatsapp-image-2026-10-19-at-50649-pm.jpeg"
   },
   {
    "title": "Construção civil cresce e enfrenta falta de mão de obra em Anápolis",
@@ -248,7 +338,7 @@
    "title": "Trânsito de Goiânia vira cena de 'Todo Mundo Odeia o Chris' em vídeo de motociclista",
    "url": "https://opopular.com.br/cidades/transito-de-goiania-vira-cena-de-todo-mundo-odeia-o-chris-em-video-de-motociclista-1.3470005",
    "source": "O Popular",
-   "date": "2026-10-19T13:05:02Z",
+   "date": "2026-10-19T13:04:14Z",
    "cat": "cidade",
    "local": true,
    "img": "https://opopular.com.br/image/policy:1.3470016:1792412497/image.jpg"
@@ -298,6 +388,15 @@
    "cat": "cidade",
    "local": true,
    "img": "https://panoramagocomunicacao.com.br/wp-content/uploads/2026/10/Foto-divulgacao.jpeg"
+  },
+  {
+   "title": "Hidrolândia lidera lançamentos imobiliários e atrai novos investimentos",
+   "url": "https://arenadenoticias.com.br/noticia/182134/hidrolandia-lidera-lancamentos-imobiliarios-e-atrai-novos-investimentos",
+   "source": "Arena de Notícias",
+   "date": "2026-10-18T20:22:13Z",
+   "cat": "lancamentos",
+   "local": true,
+   "img": "https://arenadenoticias.com.br/images/noticias/182134/937fe04035085c2d53017e1f66b34814.webp"
   },
   {
    "title": "Salas Incorporadora entrega Vitra Vila Aurora e apresenta novo conceito de inovação e sustentabilidade em Rondonópolis",
@@ -1128,7 +1227,8 @@
    "date": "2026-10-13T15:37:08Z",
    "cat": "cidade",
    "local": true,
-   "img": ""
+   "img": "",
+   "img_tried": true
   },
   {
    "title": "Opus Incorporadora completa 20 anos: trajetória marcada por solidez e portfólio consistente",
@@ -1256,106 +1356,6 @@
    "cat": "cidade",
    "local": true,
    "img": "https://opopular.com.br/image/policy:1.3467490:1791846326/image.jpg"
-  },
-  {
-   "title": "Mabel entrega rotatória do Hugol e anuncia marca de 500 km de asfalto novo em Goiânia",
-   "url": "https://www.jornalopcao.com.br/transito/prefeitura-entrega-rotatoria-do-hugol-e-anuncia-marca-de-500-km-de-asfalto-novo-em-goiania-878264/",
-   "source": "Jornal Opção",
-   "date": "2026-10-12T21:19:00Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://cdn.jornalopcao.com.br/assets/2026/10/12204923/1791838156-1787422329-whatsapp-image-2026-08-22-at-14-56-44.webp"
-  },
-  {
-   "title": "Prefeitura de Goiânia vai retirar rotatória do Parque Amazônia e instalar semáforos",
-   "url": "https://www.podergoias.com.br/materia/27652/prefeitura-de-goiania-vai-retirar-rotatoria-do-parque-amazonia-e-instalar-semaforos",
-   "source": "Poder Goiás",
-   "date": "2026-10-12T19:55:00Z",
-   "cat": "cidade",
-   "local": true,
-   "img": ""
-  },
-  {
-   "title": "Goiânia entrega monumentos históricos revitalizados no Bosque dos Buritis",
-   "url": "https://aredacao.com.br/goiania-entrega-monumentos-historicos-revitalizados-no-bosque-dos-buritis/",
-   "source": "Diário da Manhã",
-   "date": "2026-10-12T18:14:00Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://aredacao.com.br/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-10.14.51.jpeg"
-  },
-  {
-   "title": "Prefeitura de Goiânia entrega revitalização de monumentos históricos no Bosque dos Buritis",
-   "url": "https://www.goiania.go.gov.br/agora/prefeitura-de-goiania-entrega-revitalizacao-de-monumentos-historicos-no-bosque-dos-buritis",
-   "source": "Rádio Bandeirantes Goiânia",
-   "date": "2026-10-12T15:05:45Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://www.goiania.go.gov.br/wp-content/uploads/2026/10/IMG-20261012-WA0077-scaled.jpg"
-  },
-  {
-   "title": "Vila Cultural Cora Coralina ganha nova iluminação e fachada revitalizada em Goiânia",
-   "url": "https://ohoje.com/2026/10/12/vila-cultural-cora-coralina-ganha-nova-iluminacao-e-fachada-revitalizada-em-goiania/",
-   "source": "O Hoje",
-   "date": "2026-10-12T12:30:26Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://ohoje.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-08.06.10.webp"
-  },
-  {
-   "title": "Justiça impede demolição de imóvel ocupado por moradora há 20 anos em Aparecida de Goiânia",
-   "url": "https://www.rotajuridica.com.br/justica-impede-demolicao-de-imovel-ocupado-ha-20-anos-em-aparecida-de-goiania/",
-   "source": "Rota Jurídica",
-   "date": "2026-10-12T10:08:06Z",
-   "cat": "mercado",
-   "local": true,
-   "img": "https://www.rotajuridica.com.br/wp-content/uploads/2026/10/casa-em-aparecida-scaled.jpg"
-  },
-  {
-   "title": "Justiça impede demolição de imóvel ocupado há 20 anos em Aparecida de Goiânia",
-   "url": "https://www.rotajuridica.com.br/justica-impede-demolicao-de-imovel-ocupado-ha-20-anos-em-aparecida-de-goiania/",
-   "source": "Rota Jurídica",
-   "date": "2026-10-12T10:08:06Z",
-   "cat": "mercado",
-   "local": true,
-   "img": "https://www.rotajuridica.com.br/wp-content/uploads/2026/10/casa-em-aparecida-scaled.jpg"
-  },
-  {
-   "title": "Prefeitura de Goiânia retira barreira de concreto de cruzamento entre Av. 85 e Praça Cívica",
-   "url": "https://www.goiania.go.gov.br/agora/prefeitura-de-goiania-retira-barreira-de-concreto-de-cruzamento-entre-av-85-e-praca-civica",
-   "source": "Goiânia (Prefeitura)",
-   "date": "2026-10-11T23:47:55Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://www.goiania.go.gov.br/wp-content/uploads/2026/10/IMG-20261011-WA01041.jpg"
-  },
-  {
-   "title": "Semáforos substituem rotatória no Parque Amazônia, em Goiânia",
-   "url": "https://revistafactual.com.br/goiania/2026/10/11/rotatoria-parque-amazonia-substituida-por-semaforos-avenidas-transbrasiliana-feira-de-santana-goiania/",
-   "source": "Revista Factual",
-   "date": "2026-10-11T18:48:13Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://revistafactual.com.br/wp-content/uploads/2026/10/cruzamento-das-avenidas-transbrasiliana-e-feira-de-santana-no-parque-amazonia-goiania-foto-alex-malheiros.jpeg"
-  },
-  {
-   "title": "Imóvel do Pão de Açúcar em Goiânia é vendido por R$ 41 milhões",
-   "url": "https://www.podergoias.com.br/materia/27644/imovel-do-pao-de-acucar-em-goiania-e-vendido-por-r-41-milhoes",
-   "source": "Poder Goiás",
-   "date": "2026-10-11T12:15:00Z",
-   "cat": "mercado",
-   "local": true,
-   "img": "",
-   "img_tried": true
-  },
-  {
-   "title": "Vila Cultural Cora Coralina, no Centro de Goiânia, é revitalizada",
-   "url": "https://diaonline.ig.com.br/aproveite/cidades/goiania/vila-cultural-cora-coralina-revitalizacao/",
-   "source": "Portal iG",
-   "date": "2026-10-11T12:07:51Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://diaonline.ig.com.br/aproveite/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-11-at-07.26.54-fotor-2026101185821.jpg"
   }
  ]
 }
