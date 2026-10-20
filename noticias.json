@@ -1,6 +1,78 @@
 {
- "updated": "2026-10-20T00:05:45Z",
+ "updated": "2026-10-20T14:04:57Z",
  "items": [
+  {
+   "title": "Trânsito de Goiânia conta com 20 pontos de bloqueio viário durante comemorações do aniversário da capital",
+   "url": "https://diariodegoias.com.br/transito-de-goiania-conta-com-20-pontos-de-bloqueio-viario-durante-comemoracoes-do-aniversario-da-capital/551560/",
+   "source": "Diário de Goiás",
+   "date": "2026-10-20T13:42:41Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://cdn.diariodegoias.com.br/wp-content/uploads/2026/10/20134024/bloqueios-transito-goiania_set.webp"
+  },
+  {
+   "title": "Lançamento do condomínio de luxo La Vie D'Or deve impulsionar economia de Goiânia",
+   "url": "https://www.bra1.com.br/economia/id-711185/lancamento_do_condominio_de_luxo_la_vie_de_39or_deve_impulsionar_economia_de_goiania",
+   "source": "Bra1",
+   "date": "2026-10-20T12:52:00Z",
+   "cat": "lancamentos",
+   "local": true,
+   "img": "https://cdn.conexaohost.com.br/img/500x500/1/0/webp/arquivos/1918/conteudo/posts/711185.jpg"
+  },
+  {
+   "title": "Perimetral Norte pode ganhar viaduto e trincheira em Goiânia",
+   "url": "https://ohoje.com/2026/10/20/perimetral-norte-pode-ganhar-viaduto-e-trincheira-em-goiania/",
+   "source": "O Hoje",
+   "date": "2026-10-20T12:00:27Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://ohoje.com/wp-content/uploads/2026/10/Capa-de-materia-2-2.webp"
+  },
+  {
+   "title": "Goiás tem R$ 6 bilhões em projetos de expansão da rede elétrica; ministro detalha obras e prazos",
+   "url": "https://www.jornalopcao.com.br/ultimas-noticias/goias-tem-r-6-bilhoes-em-projetos-de-expansao-da-rede-eletrica-ministro-detalha-obras-e-prazos-880427/",
+   "source": "Jornal Opção",
+   "date": "2026-10-20T12:00:00Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://cdn.jornalopcao.com.br/assets/2026/10/19214603/1792446343-ministro-alexandre-silveira_foto-tauan-alencar_mme-1-scaled.webp"
+  },
+  {
+   "title": "História do Setor Oeste é marcada por mudanças urbanas em Goiânia",
+   "url": "https://ohoje.com/2026/10/20/historia-do-setor-oeste-e-marcada-por-mudancas-urbanas-em-goiania/",
+   "source": "O Hoje",
+   "date": "2026-10-20T11:32:34Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://ohoje.com/wp-content/uploads/2026/10/9-abre-1-lago-das-rosas-Foto-Gabriel-Louza-O-HOJE.webp"
+  },
+  {
+   "title": "85% das Imobiliárias brasileiras atuam simultaneamente em vendas e locação",
+   "url": "https://imobireport.com.br/newsletter-do-imobi/85-das-imobiliarias-brasileiras-atuam-simultaneamente-em-vendas-e-locacao/",
+   "source": "Imobi Report",
+   "date": "2026-10-20T10:00:55Z",
+   "cat": "mercado",
+   "local": false,
+   "img": "https://imobireport.com.br/app/uploads/2026/10/85-das-Imobiliarias-brasileiras-atuam-simultaneamente-em-vendas-e-locacao-scaled.jpeg"
+  },
+  {
+   "title": "STF livra empresa imobiliária do pagamento de ITBI",
+   "url": "https://valor.globo.com/legislacao/noticia/2026/10/20/stf-livra-empresa-imobiliaria-do-pagamento-de-itbi.ghtml",
+   "source": "Valor Econômico",
+   "date": "2026-10-20T08:00:01Z",
+   "cat": "regras",
+   "local": false,
+   "img": "https://s2-valor.glbimg.com/9E9QxdHCezboPkcdWm4nVyk98T8=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2026/d/m/oNn3IgTAyQeAapXM3o1A/foto20leg-101-ab2-e1.jpg"
+  },
+  {
+   "title": "Veja como fica o trânsito da Avenida Goiás até domingo, com mudanças para festejos do aniversário da capital",
+   "url": "https://opopular.com.br/cidades/veja-como-fica-o-transito-da-avenida-goias-ate-domingo-com-mudancas-para-festejos-do-aniversario-da-capital-1.3470349",
+   "source": "O Popular",
+   "date": "2026-10-20T01:14:01Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://opopular.com.br/image/policy:1.3470350:1792458406/image.jpg"
+  },
   {
    "title": "imóveis de alto padrão Imóveis de luxo: quando corretores e incorporadoras podem ser responsabilizados?",
    "url": "https://novonoticias.com.br/blogs/hora-do-direito/imoveis-de-luxo-quando-corretores-e-incorporadoras-podem-ser-responsabilizados/",
@@ -9,6 +81,15 @@
    "cat": "lancamentos",
    "local": false,
    "img": "https://assets.novonoticias.com.br/uploads/2026/10/imoveis-de-alto-padrao.png"
+  },
+  {
+   "title": "Distratos chegam a 21% das vendas de imóveis de médio e alto padrão",
+   "url": "https://paraibabusiness.com.br/distratos-chegam-a-21-das-vendas-de-imoveis-de-medio-e-alto-padrao/",
+   "source": "Paraíba Business",
+   "date": "2026-10-19T23:00:00Z",
+   "cat": "mercado",
+   "local": false,
+   "img": "https://paraibabusiness.com.br/atual/wp-content/uploads/2026/03/WhatsApp-Image-2026-03-24-at-16.17.03.jpeg"
   },
   {
    "title": "Veja onde pegar livros gratuitos e doar obras em Goiânia",
@@ -25,7 +106,7 @@
    "source": "A Redação",
    "date": "2026-10-19T21:42:27Z",
    "cat": "regras",
-   "local": true,
+   "local": false,
    "img": "https://aredacao.com.br/wp-content/uploads/2026/10/32_0135-300x200.jpeg"
   },
   {
@@ -81,15 +162,6 @@
    "cat": "mercado",
    "local": true,
    "img": "https://s01.video.glbimg.com/x720/15102756.jpg"
-  },
-  {
-   "title": "Prefeitura deve recapear asfalto em 15 trechos diferentes no Setor Jaó",
-   "url": "https://www.jornalopcao.com.br/transito/prefeitura-deve-recapear-asfalto-em-15-trechos-diferentes-no-setor-jao-880317/",
-   "source": "Jornal Opção",
-   "date": "2026-10-19T18:06:14Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://cdn.jornalopcao.com.br/assets/2023/10/WhatsApp-Image-2023-10-09-at-12.09.17.jpeg"
   },
   {
    "title": "Goiânia aos 93 anos: mercado imobiliário aquecido amplia debate sobre onde morar e investir",
@@ -176,7 +248,7 @@
    "title": "Trânsito de Goiânia vira cena de 'Todo Mundo Odeia o Chris' em vídeo de motociclista",
    "url": "https://opopular.com.br/cidades/transito-de-goiania-vira-cena-de-todo-mundo-odeia-o-chris-em-video-de-motociclista-1.3470005",
    "source": "O Popular",
-   "date": "2026-10-19T13:04:14Z",
+   "date": "2026-10-19T13:05:02Z",
    "cat": "cidade",
    "local": true,
    "img": "https://opopular.com.br/image/policy:1.3470016:1792412497/image.jpg"
@@ -264,6 +336,15 @@
    "img": "https://cdn.diariodegoias.com.br/wp-content/uploads/2026/10/18110415/55593120961_6dee7aa851_k.webp"
   },
   {
+   "title": "FR. Incorporadora mantém selo por inventário de emissões de gases de efeito estufa",
+   "url": "https://gazetadasemana.com.br/noticia/304464/fr-incorporadora-mantem-selo-por-inventario-de-emissoes-de-gases-de-efeito-estufa",
+   "source": "Gazeta da Semana",
+   "date": "2026-10-18T09:07:26Z",
+   "cat": "lancamentos",
+   "local": false,
+   "img": ""
+  },
+  {
    "title": "Goiânia e região metropolitana têm previsão de chuva e risco de tempestades",
    "url": "https://www.dm.com.br/brasil/goiania-e-regiao-metropolitana-tem-previsao-de-chuva-e-risco-de-tempestades/",
    "source": "DM",
@@ -289,6 +370,15 @@
    "cat": "cidade",
    "local": true,
    "img": "https://cdn.jornalopcao.com.br/assets/2025/09/23212406/img_7804-scaled.webp"
+  },
+  {
+   "title": "Goiânia implanta primeira esquerda livre para reduzir filas e melhorar fluidez do trânsito",
+   "url": "https://revistafactual.com.br/goiania/2026/10/17/primeira-esquerda-livre-goiania/",
+   "source": "Revista Factual",
+   "date": "2026-10-17T20:08:24Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://revistafactual.com.br/wp-content/uploads/2026/10/esquerda-livre-avenidas-t-3-com-t-10-goiania-foto-joabe-mendonca.jpeg"
   },
   {
    "title": "Goiânia implanta primeira esquerda livre e avalia expansão para outros cruzamentos",
@@ -723,6 +813,15 @@
    "img": "https://uploads.portas.com.br/2026/10/vivaz-Santa-Cecilia-Reproducao.jpg"
   },
   {
+   "title": "Incorporadoras disputam terrenos nobres e redesenham o luxo com poucas unidades",
+   "url": "https://portas.com.br/noticias/incorporadoras-disputam-terrenos-nobres-e-redesenham-o-luxo-com-poucas-unidades/",
+   "source": "Portas",
+   "date": "2026-10-15T17:58:16Z",
+   "cat": "lancamentos",
+   "local": false,
+   "img": "https://uploads.portas.com.br/2026/10/Incorporadoras-disputam-terrenos-nobres-e-redesenham-o-luxo-com-poucas-unidades-1000x467.webp"
+  },
+  {
    "title": "Acordo entre Prefeitura de Goiânia e MPF libera retomada das obras do BRT Norte-Sul",
    "url": "https://www.podergoias.com.br/materia/27684/acordo-entre-prefeitura-de-goiania-e-mpf-libera-retomada-das-obras-do-brt-norte-sul",
    "source": "Poder Goiás",
@@ -1023,13 +1122,13 @@
    "img": "https://forbes.com.br/wp-content/uploads/2026/10/Novo-Tamanho-Site-2026-10-13T132245.629-1200x675.jpg"
   },
   {
-   "title": "Incorporadoras disputam terrenos nobres e redesenham o luxo com poucas unidades",
-   "url": "https://portas.com.br/noticias/incorporadoras-disputam-terrenos-nobres-e-redesenham-o-luxo-com-poucas-unidades/",
-   "source": "Portas",
-   "date": "2026-10-13T15:23:20Z",
-   "cat": "lancamentos",
-   "local": false,
-   "img": "https://uploads.portas.com.br/2026/10/Incorporadoras-disputam-terrenos-nobres-e-redesenham-o-luxo-com-poucas-unidades-1000x467.webp"
+   "title": "Governo de Goiás revitaliza a Vila Cultural Cora Coralina, em Goiânia – Secretaria de Estado da Cultura",
+   "url": "https://goias.gov.br/cultura/governo-de-goias-revitaliza-a-vila-cultural-cora-coralina-em-goiania/",
+   "source": "Goias",
+   "date": "2026-10-13T15:37:08Z",
+   "cat": "cidade",
+   "local": true,
+   "img": ""
   },
   {
    "title": "Opus Incorporadora completa 20 anos: trajetória marcada por solidez e portfólio consistente",
@@ -1174,8 +1273,7 @@
    "date": "2026-10-12T19:55:00Z",
    "cat": "cidade",
    "local": true,
-   "img": "",
-   "img_tried": true
+   "img": ""
   },
   {
    "title": "Goiânia entrega monumentos históricos revitalizados no Bosque dos Buritis",
@@ -1258,105 +1356,6 @@
    "cat": "cidade",
    "local": true,
    "img": "https://diaonline.ig.com.br/aproveite/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-11-at-07.26.54-fotor-2026101185821.jpg"
-  },
-  {
-   "title": "Goiânia vai substituir rotatória por semáforos em cruzamento no Parque Amazônia",
-   "url": "https://www.jornalopcao.com.br/ultimas-noticias/goiania-vai-substituir-rotatoria-por-semaforos-em-cruzamento-no-parque-amazonia-878033/",
-   "source": "Jornal Opção",
-   "date": "2026-10-11T11:59:00Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://cdn.jornalopcao.com.br/assets/2026/10/11113259/1791718365-whatsapp-image-2026-10-11-at-08-05-52-620x412.webp"
-  },
-  {
-   "title": "Juiz afasta cobrança de IPTU sobre terreiro em construção",
-   "url": "https://conjur.com.br/2026-out-11/embargada-falta-de-edificacao-nao-justifica-cobranca-de-iptu-sobre-terreno-de-entidade-religiosa/",
-   "source": "Consultor Jurídico",
-   "date": "2026-10-11T10:52:39Z",
-   "cat": "regras",
-   "local": false,
-   "img": "https://conjur.com.br/wp-content/uploads/2024/07/tambores-candomble-300x200-1.jpg"
-  },
-  {
-   "title": "Setor imobiliário deve manter resiliência pós eleições",
-   "url": "https://www.cnnbrasil.com.br/colunas/duda-herriot/economia/money/negocios/setor-imobiliario-deve-manter-resiliencia-pos-eleicoes/",
-   "source": "CNN Brasil",
-   "date": "2026-10-11T07:00:00Z",
-   "cat": "mercado",
-   "local": false,
-   "img": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2021/10/stack-of-coins-and-paper-houses.jpg?w=1200&h=630&crop=1"
-  },
-  {
-   "title": "Sorocaba lidera lançamentos residenciais no Interior paulista, aponta Secovi-SP",
-   "url": "https://secovi.com.br/sorocaba-lidera-lancamentos-residenciais-no-interior-paulista-aponta-secovi-sp/",
-   "source": "SECOVI-SP",
-   "date": "2026-10-11T07:00:00Z",
-   "cat": "lancamentos",
-   "local": false,
-   "img": "https://secovi.com.br/wp-content/uploads/2026/10/Imagem23.jpg"
-  },
-  {
-   "title": "Secovi-SP comenta valorização da varanda gourmet nos apartamentos da Baixada Santista",
-   "url": "https://secovi.com.br/secovi-sp-comenta-valorizacao-da-varanda-gourmet-nos-apartamentos-da-baixada-santista/",
-   "source": "SECOVI-SP",
-   "date": "2026-10-11T07:00:00Z",
-   "cat": "mercado",
-   "local": false,
-   "img": "https://secovi.com.br/wp-content/uploads/2026/10/Imagem11.jpg"
-  },
-  {
-   "title": "Prefeitura inicia obras no asfalto da Avenida Vera Cruz, perto do Aeroporto de Goiânia; veja rotas alternativas",
-   "url": "https://daqui.opopular.com.br/geral/prefeitura-inicia-obras-no-asfalto-da-avenida-vera-cruz-perto-do-aeroporto-de-goiania-veja-rotas-alternativas-1.3278536",
-   "source": "Daqui",
-   "date": "2026-10-11T07:00:00Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://daqui.opopular.com.br/image/policy:1.3278294:1750244990/image.jpg?f=3x2"
-  },
-  {
-   "title": "Parque Mutirama reabre após 18 meses de obras em Goiânia; entrada é gratuita",
-   "url": "https://diaonline.ig.com.br/2026/10/10/parque-mutirama-reabre-apos-18-meses-de-obras-em-goiania-entrada-e-gratuita/",
-   "source": "Portal iG",
-   "date": "2026-10-10T18:59:44Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://diaonline.ig.com.br/wp-content/uploads/2026/10/parque-mutirama-reabre-goiania.jpg"
-  },
-  {
-   "title": "Empresa responsável por obras do BRT Norte-Sul ameaça desistir do contrato em Goiânia",
-   "url": "https://www.cbngoiania.com.br/cbn-goiania/empresa-responsavel-por-obras-do-brt-norte-sul-ameaca-desistir-do-contrato-em-goiania-1.3466822",
-   "source": "CBN Goiânia",
-   "date": "2026-10-10T16:49:00Z",
-   "cat": "regras",
-   "local": true,
-   "img": "https://www.cbngoiania.com.br/image/policy:1.3169346:1791650608/image.jpg?f=3x2"
-  },
-  {
-   "title": "Goiânia inicia obras para substituir rotatória por semáforos no Parque Amazônia",
-   "url": "https://meganesia.com.br/transito-goiania-substitui-rotatoria-por-semaforos-parque-amazonia/amp/",
-   "source": "Portal Meganésia",
-   "date": "2026-10-10T15:48:29Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://meganesia.com.br/wp-content/uploads/2026/10/goiania-inicia-obras-para-substituir-rotatoria-por-semaf-1791647276486.webp"
-  },
-  {
-   "title": "Prefeitura de Goiânia inicia obra para readequar cruzamento no Parque Amazônia",
-   "url": "https://aredacao.com.br/prefeitura-de-goiania-inicia-obra-para-readequar-cruzamento-no-parque-amazonia/",
-   "source": "A Redação",
-   "date": "2026-10-10T07:00:00Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://aredacao.com.br/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-10-at-10.17.53.jpeg"
-  },
-  {
-   "title": "Goiânia vai substituir rotatória por semáforos e criar alças de retorno no Parque Amazônia; veja onde",
-   "url": "https://www.maisgoias.com.br/cidades/goiania/goiania-vai-substituir-rotatoria-por-semaforos-no-parque-amazonia/",
-   "source": "Mais Goiás",
-   "date": "2026-10-10T07:00:00Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://www.maisgoias.com.br/wp-content/uploads/2026/10/whatsapp-image-2026-10-10-at-10-29-02-1791643125.webp"
   }
  ]
 }
