@@ -1,13 +1,40 @@
 {
- "updated": "2026-10-21T19:06:23Z",
+ "updated": "2026-10-21T23:53:34Z",
  "items": [
+  {
+   "title": "Brasil termina Mundial de ginástica artística em quinto lugar",
+   "url": "https://diariodegoias.com.br/brasil-quinto-lugar-mundial-ginastica-artistica/551783/",
+   "source": "Diário de Goiás",
+   "date": "2026-10-21T22:31:54Z",
+   "cat": "regras",
+   "local": true,
+   "img": "https://cdn.diariodegoias.com.br/wp-content/uploads/2026/10/21223029/gettyimages-2301030009.webp"
+  },
+  {
+   "title": "Prefeitura de Aparecida intensifica zeladoria no Cemitério Jardim da Esperança com mão de obra de reeducandos",
+   "url": "https://aredacao.com.br/prefeitura-de-aparecida-intensifica-zeladoria-no-cemiterio-jardim-da-esperanca-com-mao-de-obra-de-reeducandos/",
+   "source": "A Redação",
+   "date": "2026-10-21T21:33:27Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://aredacao.com.br/wp-content/uploads/2026/10/2-18-300x191.jpg"
+  },
+  {
+   "title": "De lavrador a nome de avenida: a história de amor e dedicação de Sidnei Honorato à Vila Sofia, em Jataí",
+   "url": "https://www.maisgoias.com.br/cidades/de-lavrador-a-nome-de-avenida-a-historia-de-amor-e-dedicacao-de-sidnei-honorato-a-vila-sofia/",
+   "source": "Mais Goiás",
+   "date": "2026-10-21T21:27:13Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://www.maisgoias.com.br/wp-content/uploads/2026/10/design-sem-nome-3-1792614006.webp"
+  },
   {
    "title": "Fundo imobiliário de cooperativas deve movimentar até R$ 1 bilhão no mercado",
    "url": "https://aredacao.com.br/fundo-imobiliario-de-cooperativas-deve-movimentar-ate-r-1-bilhao-no-mercado/",
    "source": "A Redação",
    "date": "2026-10-21T18:38:14Z",
    "cat": "mercado",
-   "local": true,
+   "local": false,
    "img": "https://aredacao.com.br/wp-content/uploads/2026/10/fundo-300x200.jpg"
   },
   {
@@ -38,6 +65,15 @@
    "img": "https://static.ndmais.com.br/2026/03/beira-rio-itajai-1-1200x675.jpeg"
   },
   {
+   "title": "Saiba onde estão as interdições e desvios no trânsito para o desfile do aniversário de Goiânia",
+   "url": "https://www.goiania.go.gov.br/agora/saiba-onde-estao-as-interdicoes-e-desvios-no-transito-para-o-desfile-do-aniversario-de-goiania",
+   "source": "Goiânia (Prefeitura)",
+   "date": "2026-10-21T17:43:00Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://www.goiania.go.gov.br/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-21-at-14.39.18.jpeg"
+  },
+  {
    "title": "Sandro Mabel fala à revista Zelo e anuncia mudanças no trânsito de Goiânia",
    "url": "https://revistazelo.com.br/sandro-mabel-fala-a-revista-zelo-e-anuncia-mudancas-no-transito-de-goiania/",
    "source": "Zelo - Portal de Noticias",
@@ -45,6 +81,15 @@
    "cat": "cidade",
    "local": true,
    "img": ""
+  },
+  {
+   "title": "Distratos de imóveis disparam 65,5% no 3º trimestre e somam R$ 1,1 bilhão",
+   "url": "https://portas.com.br/noticias/distratos-mcmv/",
+   "source": "Portas",
+   "date": "2026-10-21T17:08:54Z",
+   "cat": "mercado",
+   "local": false,
+   "img": "https://uploads.portas.com.br/2026/10/distratosJinda-NoiphoiStock.jpg"
   },
   {
    "title": "Longe das telas: como condomínios de Goiânia resgatam brincadeiras com crianças ao ar livre",
@@ -63,6 +108,15 @@
    "cat": "mercado",
    "local": true,
    "img": "https://ojornalismo.com.br/wp-content/uploads/2026/10/design-sem-nome-1792532454-960x640-1.webp"
+  },
+  {
+   "title": "Crédito Imobiliário: 60% dos Compradores Dizem Que a Vontade de Financiar Aumentou com Novo Modelo",
+   "url": "https://forbes.com.br/forbes-money/forbes-real-estate/2026/10/pesquisa-datazap-novo-modelo-credito-imobiliario/",
+   "source": "Forbes Brasil",
+   "date": "2026-10-21T14:00:00Z",
+   "cat": "financiamento",
+   "local": false,
+   "img": "https://forbes.com.br/wp-content/uploads/2026/10/Novo-Tamanho-Site-2026-10-20T173159.118-1200x675.jpg"
   },
   {
    "title": "Estoque de imóveis econômicos em São Paulo chega a 59 mil unidades e exige atenção",
@@ -86,7 +140,7 @@
    "title": "Prefeitura contrata obra de R$ 9,56 milhões para concluir Casa da Mulher Brasileira em Goiânia",
    "url": "https://www.jornalopcao.com.br/ultimas-noticias/prefeitura-contrata-obra-de-r-956-milhoes-para-concluir-casa-da-mulher-brasileira-em-goiania-880908/",
    "source": "Jornal Opção",
-   "date": "2026-10-21T13:11:58Z",
+   "date": "2026-10-21T13:11:00Z",
    "cat": "cidade",
    "local": true,
    "img": "https://cdn.jornalopcao.com.br/assets/2026/10/21131129/1792588283-image-7.webp"
@@ -161,8 +215,7 @@
    "date": "2026-10-21T05:08:41Z",
    "cat": "regras",
    "local": true,
-   "img": "",
-   "img_tried": true
+   "img": ""
   },
   {
    "title": "Marcelo Menezes homenageia Goiânia com série fotográfica “URBANO”",
@@ -207,7 +260,8 @@
    "date": "2026-10-20T22:23:00Z",
    "cat": "financiamento",
    "local": false,
-   "img": ""
+   "img": "",
+   "img_tried": true
   },
   {
    "title": "UEG abre inscrições para mobilidade acadêmica em seis instituições públicas de Goiás",
@@ -315,8 +369,7 @@
    "date": "2026-10-20T18:08:00Z",
    "cat": "regras",
    "local": false,
-   "img": "",
-   "img_tried": true
+   "img": ""
   },
   {
    "title": "Prédio redondo abandonado há 30 anos terá apartamentos de aluguel no Centro de Goiânia",
@@ -758,7 +811,8 @@
    "date": "2026-10-18T16:45:00Z",
    "cat": "mercado",
    "local": true,
-   "img": ""
+   "img": "",
+   "img_tried": true
   },
   {
    "title": "Salas Incorporadora entrega Vitra Vila Aurora e apresenta novo conceito de inovação e sustentabilidade em Rondonópolis",
@@ -1299,60 +1353,6 @@
    "cat": "cidade",
    "local": true,
    "img": "https://s04.video.glbimg.com/x720/15060795.jpg"
-  },
-  {
-   "title": "Cristiano Ronaldo fica a 19 gols da marca de mil na carreira",
-   "url": "https://www.dm.com.br/esportes/cristiano-ronaldo-fica-a-19-gols-da-marca-de-mil-na-carreira/",
-   "source": "DM",
-   "date": "2026-10-15T13:26:01Z",
-   "cat": "regras",
-   "local": false,
-   "img": "https://www.dm.com.br/wp-content/uploads/2025/08/728X90PX_RACISMO_CMG-1.gif"
-  },
-  {
-   "title": "No alto padrão, vendas se concentram em imóveis até R$ 4 milhões",
-   "url": "https://pipelinevalor.globo.com/google/amp/mercado/noticia/no-alto-padrao-vendas-se-concentram-em-imoveis-ate-r-4-milhoes.ghtml",
-   "source": "Pipeline",
-   "date": "2026-10-15T11:00:05Z",
-   "cat": "mercado",
-   "local": false,
-   "img": "https://s2-pipelinevalor.glbimg.com/UTfVwx3vsrDeKrrD8BYGFq_9_Oc=/2126x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_b3309463db95468aa275bd532137e960/internal_photos/bs/2026/F/b/jYgtpfRjAAqIDvQe1JAQ/imovel-de-alto-padrao-em-pinheiros-negociado-pela-bossa-nova-sothebys-international-realty.jpg"
-  },
-  {
-   "title": "Acordo entre MPF e Prefeitura de Goiânia libera obras do BRT",
-   "url": "https://daqui.opopular.com.br/geral/acordo-entre-mpf-e-prefeitura-de-goiania-libera-obras-do-brt-1.3468410",
-   "source": "Daqui",
-   "date": "2026-10-15T00:52:51Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://daqui.opopular.com.br/image/policy:1.3397991:1776131936/image.jpg?f=3x2"
-  },
-  {
-   "title": "Chuva provoca alagamento no Anel Viário, em Aparecida de Goiânia",
-   "url": "https://aredacao.com.br/chuva-provoca-alagamento-no-anel-viario-em-aparecida-de-goiania/",
-   "source": "A Redação",
-   "date": "2026-10-14T23:27:52Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://aredacao.com.br/wp-content/uploads/2026/10/Captura-de-Tela-2026-10-14-as-20.21.19-245x300.png"
-  },
-  {
-   "title": "Vila Cultural Cora Coralina passa por revitalização em Goiânia",
-   "url": "https://focala.com.br/noticias/vila-cultural-cora-coralina-passa-por-revitalizacao-em-goiania",
-   "source": "Foca Lá",
-   "date": "2026-10-14T21:38:56Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://focala.com.br/storage/contents/covers/01M4Y5N9P3TKGCGEYD3H48FAK1.webp"
-  },
-  {
-   "title": "Supremo forma maioria por imunidade de ITBI na integralização de capital de empresas imobiliárias; CNM acompanha análise",
-   "url": "https://cnm.org.br/comunicacao/noticias/supremo-forma-maioria-por-imunidade-de-itbi-na-integralizacao-de-capital-de-empresas-imobiliarias-cnm-acompanha-analise",
-   "source": "Confederação Nacional de Municípios",
-   "date": "2026-10-14T21:20:35Z",
-   "cat": "regras",
-   "local": false,
-   "img": "https://cnm.org.br/storage/noticias/2026/10/post-cnm-1792010722293.png"
   }
  ]
 }
