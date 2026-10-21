@@ -1,6 +1,60 @@
 {
- "updated": "2026-10-21T14:19:57Z",
+ "updated": "2026-10-21T19:06:23Z",
  "items": [
+  {
+   "title": "Fundo imobiliário de cooperativas deve movimentar até R$ 1 bilhão no mercado",
+   "url": "https://aredacao.com.br/fundo-imobiliario-de-cooperativas-deve-movimentar-ate-r-1-bilhao-no-mercado/",
+   "source": "A Redação",
+   "date": "2026-10-21T18:38:14Z",
+   "cat": "mercado",
+   "local": true,
+   "img": "https://aredacao.com.br/wp-content/uploads/2026/10/fundo-300x200.jpg"
+  },
+  {
+   "title": "Prédio abandonado que terá obras retomadas em Goiânia foi inspirado em construção icônica de Los Angeles",
+   "url": "https://www.maisgoias.com.br/entretenimento/curiosidades/predio-abandonado-que-tera-obras-retomadas-em-goiania-foi-inspirado-em-construcao-iconica-de-los-angeles/",
+   "source": "Mais Goiás",
+   "date": "2026-10-21T18:25:54Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://www.maisgoias.com.br/wp-content/uploads/2026/10/esqueleto-circular-no-cruzamento-urbano-1792604761.webp"
+  },
+  {
+   "title": "Sicredi permite financiamento de imóveis com o uso de FGTS",
+   "url": "https://jornaldebeltrao.com.br/negocios/cooperativismo/sicredi-permite-financiamento-de-imoveis-com-o-uso-de-fgts/",
+   "source": "Jornal de Beltrão",
+   "date": "2026-10-21T18:01:32Z",
+   "cat": "financiamento",
+   "local": false,
+   "img": "https://cdn.jornaldebeltrao.com.br/wp-content/uploads/2026/10/geral-sicredi-3.webp"
+  },
+  {
+   "title": "'Cidade rica' de SC cresce 209%, supera R$ 3 bilhões em vendas em 2026 e vira novo “diamante” do mercado imobiliário",
+   "url": "https://ndmais.com.br/economia/cidade-rica-de-sc-cresce-209-supera-r-3-bilhoes-em-vendas-em-2026-e-vira-novo-diamante-do-mercado-imobiliario/",
+   "source": "ND Mais",
+   "date": "2026-10-21T17:49:26Z",
+   "cat": "mercado",
+   "local": false,
+   "img": "https://static.ndmais.com.br/2026/03/beira-rio-itajai-1-1200x675.jpeg"
+  },
+  {
+   "title": "Sandro Mabel fala à revista Zelo e anuncia mudanças no trânsito de Goiânia",
+   "url": "https://revistazelo.com.br/sandro-mabel-fala-a-revista-zelo-e-anuncia-mudancas-no-transito-de-goiania/",
+   "source": "Zelo - Portal de Noticias",
+   "date": "2026-10-21T17:24:00Z",
+   "cat": "cidade",
+   "local": true,
+   "img": ""
+  },
+  {
+   "title": "Longe das telas: como condomínios de Goiânia resgatam brincadeiras com crianças ao ar livre",
+   "url": "https://www.jornalopcao.com.br/ultimas-noticias/longe-das-telas-como-condominios-de-goiania-resgatam-brincadeiras-com-criancas-ao-ar-livre-880997/",
+   "source": "Jornal Opção",
+   "date": "2026-10-21T15:43:40Z",
+   "cat": "mercado",
+   "local": true,
+   "img": "https://cdn.jornalopcao.com.br/assets/2026/10/21154317/1792597389-whatsapp-image-2026-09-22-at-08-54-12.webp"
+  },
   {
    "title": "Prédio redondo abandonado há 30 anos no Centro de Goiânia deve virar apartamentos para aluguel",
    "url": "https://ojornalismo.com.br/noticia/218463/predio-redondo-abandonado-ha-30-anos-no-centro-de-goiania-deve-virar-apartamentos-para-aluguel/",
@@ -47,6 +101,24 @@
    "img": "https://conjur.com.br/wp-content/uploads/2025/09/tierra-mallorca-rgJ1J8SDEAY-unsplash-1-300x225-1.jpg"
   },
   {
+   "title": "Daniel Vilela anuncia novo batalhão da PM e promete maior parque da Grande Goiânia em Aparecida",
+   "url": "https://www.g5news.com.br/politica/daniel-vilela-anuncia-novo-batalhao-da-pm-e-promete-maior-parque-da-grande-goiania-em-aparecida",
+   "source": "G5News",
+   "date": "2026-10-21T12:05:41Z",
+   "cat": "cidade",
+   "local": true,
+   "img": ""
+  },
+  {
+   "title": "Expoind 2026 terá encontro regional de construtores e incorporadores do CBIC novo template",
+   "url": "https://portalradar.com.br/expoind-2026-tera-encontro-regional-de-construtores-e-incorporadores-do-cbic/",
+   "source": "Portal Radar",
+   "date": "2026-10-21T12:01:58Z",
+   "cat": "mercado",
+   "local": false,
+   "img": "https://portalradar.com.br/wp-content/uploads/2026/10/Construcao-civil.jpg"
+  },
+  {
    "title": "Prédio redondo abandonado no centro de goiânia será transformado em moradias",
    "url": "https://meganesia.com.br/predio-redondo-abandonado-centro-goiania/amp/",
    "source": "Portal Meganésia",
@@ -65,15 +137,6 @@
    "img": "https://ohoje.com/wp-content/uploads/2026/10/jd-america-goiania-21-10.webp"
   },
   {
-   "title": "Expoind 2026 terá encontro regional de construtores e incorporadores do CBIC novo template",
-   "url": "https://portalradar.com.br/expoind-2026-tera-encontro-regional-de-construtores-e-incorporadores-do-cbic/",
-   "source": "Portal Radar",
-   "date": "2026-10-21T10:18:45Z",
-   "cat": "mercado",
-   "local": false,
-   "img": "https://portalradar.com.br/wp-content/uploads/2026/10/Construcao-civil.jpg"
-  },
-  {
    "title": "Uma muda por apartamento: construtora adota prática que virou lei municipal",
    "url": "https://paraibabusiness.com.br/uma-muda-por-apartamento-construtora-adota-pratica-que-virou-lei-municipal/",
    "source": "Paraíba Business",
@@ -83,13 +146,23 @@
    "img": "https://paraibabusiness.com.br/atual/wp-content/uploads/2026/10/d2983124eabe6974605cef77f0f8f031.webp"
   },
   {
+   "title": "Cinco livros para conhecer a história de Goiânia, de edifícios art déco a parques e artistas",
+   "url": "https://ohoje.com/2026/10/21/cinco-livros-para-conhecer-a-historia-de-goiania-de-edificios-art-deco-a-parques-e-artistas/",
+   "source": "O Hoje",
+   "date": "2026-10-21T09:22:14Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://ohoje.com/wp-content/uploads/2026/10/livros_horizontal.webp"
+  },
+  {
    "title": "Laila Cristina da Silva estreia nas passarelas no Mirror Experience Tour — Goiânia Edition",
    "url": "https://gazetadasemana.com.br/coluna/15517/laila-cristina-da-silva-estreia-nas-passarelas-no-mirror-experience-tour-goiania-edition",
    "source": "Gazeta da Semana",
    "date": "2026-10-21T05:08:41Z",
    "cat": "regras",
    "local": true,
-   "img": ""
+   "img": "",
+   "img_tried": true
   },
   {
    "title": "Marcelo Menezes homenageia Goiânia com série fotográfica “URBANO”",
@@ -101,6 +174,15 @@
    "img": "https://www.arrozdefyesta.net/images/assets/noticias/2026/10/6ad81a13c594c.jpg"
   },
   {
+   "title": "Depois do 'Redondo da Araguaia', Prefeitura de Goiânia trabalha solução para outros imóveis abandonados",
+   "url": "https://opopular.com.br/cidades/depois-do-redondo-da-araguaia-prefeitura-de-goiania-trabalha-soluc-o-para-outros-imoveis-abandonados-1.3470754",
+   "source": "O Popular",
+   "date": "2026-10-21T01:06:52Z",
+   "cat": "mercado",
+   "local": true,
+   "img": "https://opopular.com.br/image/policy:1.3470753:1792544403/image.jpg"
+  },
+  {
    "title": "TJGO inaugura novo Fórum Cível de Aparecida de Goiânia",
    "url": "https://www.dm.com.br/cotidiano/tjgo-inaugura-novo-forum-civel-de-aparecida-de-goiania/",
    "source": "DM",
@@ -108,6 +190,24 @@
    "cat": "cidade",
    "local": true,
    "img": "https://www.dm.com.br/wp-content/uploads/2025/08/728X90PX_RACISMO_CMG-1.gif"
+  },
+  {
+   "title": "Fórum Cível de Aparecida de Goiânia é a 75ª obra e a maior da gestão Leandro Crispim",
+   "url": "https://www.tjgo.jus.br/index.php/agencia-de-noticias/noticias-ccs/240-carrossel-tj/37819-forum-civel-de-aparecida-de-goiania-e-a-75a-obra-e-a-maior-da-gestao-leandro-crispim",
+   "source": "Tribunal de Justiça do Estado de Goiás",
+   "date": "2026-10-20T22:32:14Z",
+   "cat": "cidade",
+   "local": true,
+   "img": ""
+  },
+  {
+   "title": "FIN: Pessoas físicas puxam aumento de crédito em 2025; destaque ao financiamento imobiliário",
+   "url": "https://economia.uol.com.br/noticias/estadao-conteudo/2026/10/20/fin-pessoas-fisicas-puxam-aumento-de-credito-em-2025-destaque-ao-financiamento-imobiliario.htm",
+   "source": "UOL Economia",
+   "date": "2026-10-20T22:23:00Z",
+   "cat": "financiamento",
+   "local": false,
+   "img": ""
   },
   {
    "title": "UEG abre inscrições para mobilidade acadêmica em seis instituições públicas de Goiás",
@@ -215,7 +315,8 @@
    "date": "2026-10-20T18:08:00Z",
    "cat": "regras",
    "local": false,
-   "img": ""
+   "img": "",
+   "img_tried": true
   },
   {
    "title": "Prédio redondo abandonado há 30 anos terá apartamentos de aluguel no Centro de Goiânia",
@@ -306,6 +407,15 @@
    "cat": "cidade",
    "local": true,
    "img": "https://cdn.diariodegoias.com.br/wp-content/uploads/2026/10/20134024/bloqueios-transito-goiania_set.webp"
+  },
+  {
+   "title": "Aluguel no Brasil está 76% acima do que os consumidores podem pagar, aponta estudo",
+   "url": "https://www.bra1.com.br/economia/id-711203/aluguel_no_brasil_esta_76__acima_do_que_os_consumidores_podem_pagar__aponta_estudo",
+   "source": "Bra1",
+   "date": "2026-10-20T13:22:00Z",
+   "cat": "mercado",
+   "local": false,
+   "img": "https://cdn.conexaohost.com.br/img/500x500/1/0/webp/arquivos/1918/conteudo/posts/711203.webp"
   },
   {
    "title": "Lançamento do condomínio de luxo La Vie D'Or deve impulsionar economia de Goiânia",
@@ -640,6 +750,15 @@
    "cat": "lancamentos",
    "local": true,
    "img": "https://arenadenoticias.com.br/images/noticias/182134/937fe04035085c2d53017e1f66b34814.webp"
+  },
+  {
+   "title": "Mercado imobiliário responde à nova demanda por moradia em Hidrolândia",
+   "url": "https://www.girogonoticias.com.br/noticia/65429/mercado-imobiliario-responde-a-nova-demanda-por-moradia-em-hidrolandia",
+   "source": "GiroGO Noticias",
+   "date": "2026-10-18T16:45:00Z",
+   "cat": "mercado",
+   "local": true,
+   "img": ""
   },
   {
    "title": "Salas Incorporadora entrega Vitra Vila Aurora e apresenta novo conceito de inovação e sustentabilidade em Rondonópolis",
@@ -1234,123 +1353,6 @@
    "cat": "regras",
    "local": false,
    "img": "https://cnm.org.br/storage/noticias/2026/10/post-cnm-1792010722293.png"
-  },
-  {
-   "title": "Setor da construção civil reúne lideranças em Goiânia para debitar políticas habitacionais e futuros do FGTS",
-   "url": "https://www.bra1.com.br/economia/id-707429/setor_da_construcao_civil_reune_liderancas_em_goiania_para_debitar_politicas_habitacionais_e_futuros_do_fgts",
-   "source": "Bra1",
-   "date": "2026-10-14T18:45:00Z",
-   "cat": "financiamento",
-   "local": true,
-   "img": "https://cdn.conexaohost.com.br/img/500x500/1/0/webp/arquivos/1918/conteudo/posts/707429.jpg"
-  },
-  {
-   "title": "Obras em rotatória deixam trânsito lento no Parque Amazônia, em Goiânia",
-   "url": "https://www.cbngoiania.com.br/tarde-cbn/obras-em-rotatoria-deixam-transito-lento-no-parque-amazonia-em-goiania-1.3468194",
-   "source": "CBN Goiânia",
-   "date": "2026-10-14T17:38:54Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://www.cbngoiania.com.br/image/policy:1.3467762:1791917187/image.jpg?f=3x2"
-  },
-  {
-   "title": "Alça do trevo da Havan sentido Goiânia–Anápolis terá quatro faixas | Notícias | Obras",
-   "url": "https://www.anapolis.go.gov.br/alca-do-trevo-da-havan-sentido-goiania-anapolis-tera-quatro-faixas/",
-   "source": "Prefeitura de Anápolis",
-   "date": "2026-10-14T17:33:00Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://www.anapolis.go.gov.br/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-14-at-14.33.55.jpeg"
-  },
-  {
-   "title": "Valor do imóvel pode subir ao redor de 5% com fim da 6x1, diz Abrainc",
-   "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/valor-do-imovel-pode-subir-ao-redor-de-5-com-fim-da-6x1-diz-abrainc/",
-   "source": "CNN Brasil",
-   "date": "2026-10-14T17:09:58Z",
-   "cat": "mercado",
-   "local": false,
-   "img": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2022/02/construcao_civil-e1739386343443.jpg?w=1170&h=630&crop=1"
-  },
-  {
-   "title": "Atlético-MG x Montevideo City Torque: horário e onde assistir à Sul-Americana",
-   "url": "https://www.maisgoias.com.br/esportes/futebol/copa-sul-americana/atletico-mg-x-montevideo-city-torque-horario-e-onde-assistir-a-sul-americana/",
-   "source": "Mais Goiás",
-   "date": "2026-10-14T13:54:07Z",
-   "cat": "regras",
-   "local": true,
-   "img": "https://www.maisgoias.com.br/wp-content/uploads/2026/10/whatsapp-image-2026-10-14-at-10-50-06-1791985904.webp"
-  },
-  {
-   "title": "Praça turística de Caldas Novas vira banheiro a céu aberto, denunciam comerciantes",
-   "url": "https://www.maisgoias.com.br/cidades/caldas-novas/praca-turistica-de-caldas-novas-vira-banheiro-a-ceu-aberto-denunciam-comerciantes/",
-   "source": "Mais Goiás",
-   "date": "2026-10-14T13:18:46Z",
-   "cat": "regras",
-   "local": true,
-   "img": "https://uploads.maisgoias.com.br/2026/10/whatsapp-image-2026-10-13-at-19-06-14-1791929194.webp"
-  },
-  {
-   "title": "STF limita efeitos de decisão que proibiu definir alíquota de IPTU pela área do imóvel",
-   "url": "https://www.migalhas.com.br/quentes/466445/stf-limita-efeitos-de-decisao-que-proibiu-aliquota-de-iptu-pela-area",
-   "source": "Migalhas",
-   "date": "2026-10-14T11:51:32Z",
-   "cat": "regras",
-   "local": false,
-   "img": "https://medproc.migalhas.com.br/https__img5.migalhas.com.br__SL__gf_base__SL__empresas__SL__miga__SL__imagens__SL__2026__SL__10__SL__14__SL__cropped_5szsxynz.lf4.jpg._PROC_CP75CCH31622400.jpg"
-  },
-  {
-   "title": "Pod020: Murilo Ulhôa, detalha avanços do transporte coletivo em Goiânia e na Região Metropolitana",
-   "url": "https://portalgo020.com.br/2026/10/pod020-murilo-ulhoa-detalha-avancos-do-transporte-coletivo-na-grande-goiania.html",
-   "source": "Portal GO 020",
-   "date": "2026-10-14T11:13:41Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://portalgo020.com.br/wp-content/uploads/2026/10/murilo-pod020-e1792173565384.jpeg"
-  },
-  {
-   "title": "Trânsito na GO-020 é liberado após tombamento de carreta com óleo em Goiânia",
-   "url": "https://www.cbngoiania.com.br/cbn-goiania/transito-na-go-020-e-liberado-apos-tombamento-de-carreta-com-oleo-em-goiania-1.3468016",
-   "source": "CBN Goiânia",
-   "date": "2026-10-14T11:09:06Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://www.cbngoiania.com.br/image/policy:1.3468018:1791975435/image.jpg?f=3x2"
-  },
-  {
-   "title": "Atualização do SBPE produz resultados",
-   "url": "https://secovi.com.br/atualizacao-do-sbpe-produz-resultados/",
-   "source": "SECOVI-SP",
-   "date": "2026-10-14T08:02:09Z",
-   "cat": "financiamento",
-   "local": false,
-   "img": "https://secovi.com.br/wp-content/uploads/2026/10/20261014-coluna.png"
-  },
-  {
-   "title": "Coluna do Pablo Kossa: Ocupação de imóveis abandonados do Setor Central pode transformar a região",
-   "url": "https://www.podergoias.com.br/materia/27641/coluna-do-pablo-kossa-ocupacao-de-imoveis-abandonados-do-setor-central-pode-transformar-a-regiao",
-   "source": "Poder Goiás",
-   "date": "2026-10-14T04:35:00Z",
-   "cat": "mercado",
-   "local": true,
-   "img": ""
-  },
-  {
-   "title": "Juiz tira inventariante de herança após herdeiras ficarem sem acesso a aluguéis dos imóveis, em Goiânia",
-   "url": "https://www.maisgoias.com.br/cidades/goiania/juiz-tira-inventariante-de-heranca-apos-herdeiras-ficarem-sem-acesso-a-alugueis-dos-imoveis-em-goiania/",
-   "source": "Mais Goiás",
-   "date": "2026-10-13T22:03:44Z",
-   "cat": "mercado",
-   "local": true,
-   "img": "https://uploads.maisgoias.com.br/2026/10/6003285-01-1790883384.webp"
-  },
-  {
-   "title": "Secovi-SP faz balanço de normas, regulação e projetos de 2026 em reunião da VP de Tecnologia e Sustentabilidade",
-   "url": "https://secovi.com.br/secovi-sp-faz-balanco-de-normas-regulacao-e-projetos-de-2026-em-reuniao-da-vp-de-tecnologia-e-sustentabilidade/",
-   "source": "SECOVI-SP",
-   "date": "2026-10-13T21:19:14Z",
-   "cat": "regras",
-   "local": false,
-   "img": "https://secovi.com.br/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-13-at-17.32.37.jpeg"
   }
  ]
 }
