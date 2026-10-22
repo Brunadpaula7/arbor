@@ -1,6 +1,51 @@
 {
- "updated": "2026-10-22T14:20:02Z",
+ "updated": "2026-10-22T19:02:43Z",
  "items": [
+  {
+   "title": "Gameleiras da Praça da Cirrose passam por poda após contato com rede elétrica",
+   "url": "https://aredacao.com.br/gameleiras-da-praca-da-cirrose-passam-por-poda-apos-contato-com-rede-eletrica/",
+   "source": "A Redação",
+   "date": "2026-10-22T18:07:50Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://aredacao.com.br/wp-content/uploads/2026/09/GAMELEIRAS-CIRROSE-2-300x200.jpeg"
+  },
+  {
+   "title": "Goiânia pode dar fim aos congestionamentos? Documentário do Mais Goiás investiga soluções para o trânsito; assista",
+   "url": "https://www.maisgoias.com.br/cidades/goiania/goiania-pode-dar-fim-aos-congestionamentos-documentario-do-mais-goias-investiga-solucoes-para-o-transito-assista/",
+   "source": "Mais Goiás",
+   "date": "2026-10-22T16:31:00Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://www.maisgoias.com.br/wp-content/uploads/2026/10/cogestionamento-na-avenda-t-63-em-goiania-1792684108.webp"
+  },
+  {
+   "title": "Prefeitura de Goiânia autoriza regularização de 481 imóveis no Condomínio Rio Branco",
+   "url": "https://www.diariodeaparecida.com.br/2026/10/22/prefeitura-de-goiania-autoriza-regularizacao-de-481-imoveis-no-condominio-rio-branco/",
+   "source": "Diario de Aparecida",
+   "date": "2026-10-22T16:18:55Z",
+   "cat": "mercado",
+   "local": true,
+   "img": "https://i0.wp.com/www.diariodeaparecida.com.br/wp-content/uploads/2026/10/mabel-1.jpeg?fit=1280%2C851&ssl=1"
+  },
+  {
+   "title": "Galhos de gameleiras provocam faíscas e chamas, e Comurg inicia manejo na Praça da Cirrose",
+   "url": "https://www.jornalopcao.com.br/ultimas-noticias/galhos-de-gameleiras-provocam-faiscas-e-chamas-e-comurg-inicia-manejo-na-praca-da-cirrose-881371/",
+   "source": "Jornal Opção",
+   "date": "2026-10-22T15:36:16Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://cdn.jornalopcao.com.br/assets/2026/10/22153514/1792683309-images-49.webp"
+  },
+  {
+   "title": "Projeto de duplicação da Rua da Divisa reacende debate ambiental em Goiânia",
+   "url": "https://g1.globo.com/google/amp/go/goias/videos-bom-dia-go/video/projeto-de-duplicacao-da-rua-da-divisa-reacende-debate-ambiental-em-goiania-15112357.ghtml",
+   "source": "G1",
+   "date": "2026-10-22T14:52:36Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://s02.video.glbimg.com/x720/15112357.jpg"
+  },
   {
    "title": "Conta de luz fica mais cara em Goiás: reajuste residencial de 7,36% entra em vigor nesta quinta (22)",
    "url": "https://diariodegoias.com.br/conta-de-luz-fica-mais-cara-em-goias-reajuste-residencial-de-736-entra-em-vigor-nesta-quinta-22/551835/",
@@ -9,6 +54,15 @@
    "cat": "mercado",
    "local": true,
    "img": "https://cdn.diariodegoias.com.br/wp-content/uploads/2023/10/equatorial-energia.jpg"
+  },
+  {
+   "title": "Juiz antecipa maioria do STF e afasta ITBI sobre imóveis integralizados em holding familiar",
+   "url": "https://ibdfam.org.br/noticias/14351/Juiz+antecipa+maioria+do+STF+e+afasta+ITBI+sobre+im%C3%B3veis+integralizados+em+holding+familiar",
+   "source": "IBDFAM - Instituto Brasileiro de Direito de Família",
+   "date": "2026-10-22T13:59:15Z",
+   "cat": "regras",
+   "local": false,
+   "img": ""
   },
   {
    "title": "Corpo é encontrado às margens Avenida Botafogo, em Goiânia",
@@ -34,7 +88,7 @@
    "source": "A Redação",
    "date": "2026-10-22T13:32:57Z",
    "cat": "regras",
-   "local": true,
+   "local": false,
    "img": "https://aredacao.com.br/wp-content/uploads/2026/07/portugal-1-300x178.jpg"
   },
   {
@@ -53,7 +107,7 @@
    "date": "2026-10-22T11:29:41Z",
    "cat": "mercado",
    "local": true,
-   "img": ""
+   "img": "https://sdnews.com.br/imagem-social/posts/2026/10/17352_goiania-sandro-mabel-autoriza-regularizacao-de-481-imoveis-no-condominio-rio-branco-bb41a46e.jpeg.jpg?v=og4-1792668838-l0"
   },
   {
    "title": "Mabel autoriza regularização de 481 imóveis no Condomínio Rio Branco",
@@ -71,7 +125,7 @@
    "date": "2026-10-22T11:24:42Z",
    "cat": "cidade",
    "local": true,
-   "img": ""
+   "img": "https://sdnews.com.br/imagem-social/posts/2026/10/17351_goiania-joquei-clube-de-goias-anuncia-programa-de-voluntariado-e-reforca-planos-de-revitalizacao-dur-b9fb92bc.jpeg.jpg?v=og4-1792668507-l0"
   },
   {
    "title": "O que pesa na compra do imóvel: juros barram financiamento e risco de enchente vira prioridade",
@@ -152,7 +206,7 @@
    "date": "2026-10-21T17:24:00Z",
    "cat": "cidade",
    "local": true,
-   "img": ""
+   "img": "https://revistazelo.com.br/wp-content/uploads/2026/10/Transito-de-Goiania.webp"
   },
   {
    "title": "Distratos de imóveis disparam 65,5% no 3º trimestre e somam R$ 1,1 bilhão",
@@ -757,8 +811,7 @@
    "date": "2026-10-19T19:11:36Z",
    "cat": "lancamentos",
    "local": false,
-   "img": "",
-   "img_tried": true
+   "img": ""
   },
   {
    "title": "Construção civil cresce e enfrenta falta de mão de obra em Anápolis",
@@ -821,8 +874,7 @@
    "date": "2026-10-19T13:33:00Z",
    "cat": "cidade",
    "local": true,
-   "img": "",
-   "img_tried": true
+   "img": ""
   },
   {
    "title": "Complexo viário com custo de R$ 60 milhões: prefeitura avaliar construir estrutura na Avenida Perimetral Norte, em Goiânia",
@@ -1250,6 +1302,15 @@
    "img": "https://aredacao.com.br/wp-content/uploads/2026/10/mercadoes-300x225.jpg"
   },
   {
+   "title": "Vendas de imóveis novos em SP crescem 36,9% em agosto",
+   "url": "https://portas.com.br/noticias/vendas-de-imoveis-em-sp-sobem-37-em-agosto-mas-valores-caem/",
+   "source": "Portas",
+   "date": "2026-10-16T14:29:52Z",
+   "cat": "mercado",
+   "local": false,
+   "img": "https://uploads.portas.com.br/2026/10/Modelo-corte-foto-Portas-8.jpg"
+  },
+  {
    "title": "Governo de Goiás supera marca de 1 mil imóveis regularizados pelo programa “Meu Imóvel é Legal”",
    "url": "https://goias.gov.br/administracao/governo-de-goias-supera-marca-de-1-mil-imoveis-regularizados-pelo-programa-meu-imovel-e-legal/",
    "source": "Goias",
@@ -1293,69 +1354,6 @@
    "cat": "cidade",
    "local": true,
    "img": "https://opopular.com.br/image/policy:1.3468951:1792114180/image.jpg"
-  },
-  {
-   "title": "Prefeitura de Goiânia aprova R$ 41 milhões para concluir obra da UPA Guanabara",
-   "url": "https://daqui.opopular.com.br/geral/prefeitura-de-goiania-aprova-r-41-milh-es-para-concluir-obra-da-upa-guanabara-1.3468927",
-   "source": "Daqui",
-   "date": "2026-10-16T00:38:26Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://daqui.opopular.com.br/image/policy:1.3401040:1776811922/image.jpg?f=3x2"
-  },
-  {
-   "title": "Justiça define prazo de 60 dias para Prefeitura de Goiânia estruturar lotes de famílias da Avenida Rio Verde",
-   "url": "https://www.cbngoiania.com.br/tarde-cbn/justica-define-prazo-de-60-dias-para-prefeitura-de-goiania-estruturar-lotes-de-familias-da-avenida-rio-verde-1.3468844",
-   "source": "CBN Goiânia",
-   "date": "2026-10-15T22:09:35Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://www.cbngoiania.com.br/image/policy:1.3468847:1792101481/image.jpg?f=3x2"
-  },
-  {
-   "title": "Escassez de terrenos, legalização e margens apertadas desafiam a expansão do varejo, apontam executivos em evento do Secovi-SP",
-   "url": "https://secovi.com.br/escassez-de-terrenos-legalizacao-e-margens-apertadas-desafiam-a-expansao-do-varejo-apontam-executivos-em-evento-do-secovi-sp/",
-   "source": "SECOVI-SP",
-   "date": "2026-10-15T21:28:22Z",
-   "cat": "mercado",
-   "local": false,
-   "img": "https://secovi.com.br/wp-content/uploads/2026/10/55591817668_edc1aeae30_c.jpg"
-  },
-  {
-   "title": "Reforma tributária exige revisão de contratos de locação, alertam especialistas em evento do Secovi-SP",
-   "url": "https://secovi.com.br/reforma-tributaria-exige-revisao-de-contratos-de-locacao-alertam-especialistas-em-evento-do-secovi-sp/",
-   "source": "SECOVI-SP",
-   "date": "2026-10-15T21:08:16Z",
-   "cat": "regras",
-   "local": false,
-   "img": "https://secovi.com.br/wp-content/uploads/2026/10/55591818103_20548faaa5_c.jpg"
-  },
-  {
-   "title": "Evento do Secovi-SP mostra como IA e dados podem reduzir erros na expansão do varejo",
-   "url": "https://secovi.com.br/evento-do-secovi-sp-mostra-como-ia-e-dados-podem-reduzir-erros-na-expansao-do-varejo/",
-   "source": "SECOVI-SP",
-   "date": "2026-10-15T21:03:15Z",
-   "cat": "mercado",
-   "local": false,
-   "img": "https://secovi.com.br/wp-content/uploads/2026/10/55591896234_dbc80dc053_c.jpg"
-  },
-  {
-   "title": "Secovi-SP aponta disputa por terrenos e custo de ocupação como principais desafios imobiliários do varejo",
-   "url": "https://secovi.com.br/secovi-sp-aponta-disputa-por-terrenos-e-custo-de-ocupacao-como-principais-desafios-imobiliarios-do-varejo/",
-   "source": "SECOVI-SP",
-   "date": "2026-10-15T20:23:07Z",
-   "cat": "mercado",
-   "local": false,
-   "img": "https://secovi.com.br/wp-content/uploads/2026/10/55592107855_98842e4cfa_c.jpg"
-  },
-  {
-   "title": "Fundo imobiliário ligado ao Sicoob prevê movimentar R$ 1 bilhão em negócios",
-   "url": "https://diariodegoias.com.br/fundo-imobiliario-ligado-ao-sicoob-preve-movimentar-r-1-bilhao-em-negocios/551176/",
-   "source": "Diário de Goiás",
-   "date": "2026-10-15T20:18:49Z",
-   "cat": "mercado",
-   "local": true,
-   "img": "https://cdn.diariodegoias.com.br/wp-content/uploads/2026/10/15201451/o-kingdom-park-foi-construido-em-goiania-go-em-conta-com-175-metros-de-altura-1649868082587_v2_900x506.webp"
   }
  ]
 }
