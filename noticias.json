@@ -1,14 +1,77 @@
 {
- "updated": "2026-10-22T19:02:43Z",
+ "updated": "2026-10-22T23:52:56Z",
  "items": [
   {
-   "title": "Gameleiras da Praça da Cirrose passam por poda após contato com rede elétrica",
-   "url": "https://aredacao.com.br/gameleiras-da-praca-da-cirrose-passam-por-poda-apos-contato-com-rede-eletrica/",
-   "source": "A Redação",
-   "date": "2026-10-22T18:07:50Z",
+   "title": "Libertadores: Flamengo decide vaga no Maracanã e pode reeditar final histórica contra o Palmeiras; veja onde assistir",
+   "url": "https://www.jornalopcao.com.br/futebol/libertadores-flamengo-decide-vaga-no-maracana-e-pode-reeditar-final-historica-contra-o-palmeiras-veja-onde-assistir-881489/",
+   "source": "Jornal Opção",
+   "date": "2026-10-22T22:17:32Z",
+   "cat": "regras",
+   "local": true,
+   "img": "https://cdn.jornalopcao.com.br/assets/2026/10/22214223/1792705338-000_d3fn6vm_0.webp"
+  },
+  {
+   "title": "CII debate financiamento habitacional, Reforma Tributária e perspectivas do mercado imobiliário",
+   "url": "https://cbic.org.br/cii-debate-financiamento-habitacional-reforma-tributaria-e-perspectivas-do-mercado-imobiliario/",
+   "source": "CBIC - Câmara Brasileira da Indústria da Construção",
+   "date": "2026-10-22T20:57:14Z",
+   "cat": "regras",
+   "local": false,
+   "img": "https://cbic.org.br/wp-content/uploads/2026/10/whatsapp-image-2026-10-22-at-11504-pm.jpeg"
+  },
+  {
+   "title": "Esporte e cultura urbana ocupam ruas do Centro de Goiânia no dia 24 de outubro",
+   "url": "https://www.goiania.go.gov.br/agora/esporte-e-cultura-urbana-ocupam-ruas-do-centro-de-goiania-no-dia-24-de-outubro",
+   "source": "Goiânia (Prefeitura)",
+   "date": "2026-10-22T20:18:18Z",
    "cat": "cidade",
    "local": true,
-   "img": "https://aredacao.com.br/wp-content/uploads/2026/09/GAMELEIRAS-CIRROSE-2-300x200.jpeg"
+   "img": "https://www.goiania.go.gov.br/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-22-at-17.09.51.jpeg"
+  },
+  {
+   "title": "Prefeitura de Goiânia ultrapassa 70 demolições de imóveis abandonados",
+   "url": "https://www.goiania.go.gov.br/agora/prefeitura-de-goiania-ultrapassa-70-demolicoes-de-imoveis-abandonados",
+   "source": "Goiânia (Prefeitura)",
+   "date": "2026-10-22T19:38:07Z",
+   "cat": "mercado",
+   "local": true,
+   "img": "https://www.goiania.go.gov.br/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-22-at-13.23.50.jpeg"
+  },
+  {
+   "title": "Goiânia ganha novo parque maior que o Vaca Brava com área de 110 mil m²",
+   "url": "https://curtamais.com.br/goiania/goiania-ganha-novo-parque-lago/",
+   "source": "Curta Mais - Goiânia",
+   "date": "2026-10-22T19:25:17Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://curtamais.com.br/goiania/wp-content/uploads/sites/2/2026/10/novo-parque-de-goiania-preserva-lago-e-mata-nativa-em-projeto-de-expansao-urbana-sILQtf.webp"
+  },
+  {
+   "title": "Juiz antecipa maioria do STF e afasta ITBI sobre imóveis integralizados em holding familiar",
+   "url": "https://ibdfam.org.br/noticias/14351/Juiz+antecipa+maioria+do+STF+e+afasta+ITBI+sobre+im%C3%B3veis+integralizados+em+holding+familiar",
+   "source": "IBDFAM - Instituto Brasileiro de Direito de Família",
+   "date": "2026-10-22T19:00:25Z",
+   "cat": "regras",
+   "local": false,
+   "img": ""
+  },
+  {
+   "title": "Não incide ITBI na integralização de imóveis em holding",
+   "url": "https://www.migalhas.com.br/depeso/467027/nao-incide-itbi-na-integralizacao-de-imoveis-em-holding",
+   "source": "Migalhas",
+   "date": "2026-10-22T18:45:27Z",
+   "cat": "regras",
+   "local": false,
+   "img": "https://medproc.migalhas.com.br/author.jpg._PROC_AC467027AT1AP11.jpg?v=20261022150721"
+  },
+  {
+   "title": "Sandro Mabel fala à revista Zelo e anuncia mudanças no trânsito de Goiânia",
+   "url": "https://revistazelo.com.br/sandro-mabel-fala-a-revista-zelo-e-anuncia-mudancas-no-transito-de-goiania/",
+   "source": "Zelo - Portal de Noticias",
+   "date": "2026-10-22T17:00:00Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://revistazelo.com.br/wp-content/uploads/2026/10/Transito-de-Goiania.webp"
   },
   {
    "title": "Goiânia pode dar fim aos congestionamentos? Documentário do Mais Goiás investiga soluções para o trânsito; assista",
@@ -29,15 +92,6 @@
    "img": "https://i0.wp.com/www.diariodeaparecida.com.br/wp-content/uploads/2026/10/mabel-1.jpeg?fit=1280%2C851&ssl=1"
   },
   {
-   "title": "Galhos de gameleiras provocam faíscas e chamas, e Comurg inicia manejo na Praça da Cirrose",
-   "url": "https://www.jornalopcao.com.br/ultimas-noticias/galhos-de-gameleiras-provocam-faiscas-e-chamas-e-comurg-inicia-manejo-na-praca-da-cirrose-881371/",
-   "source": "Jornal Opção",
-   "date": "2026-10-22T15:36:16Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://cdn.jornalopcao.com.br/assets/2026/10/22153514/1792683309-images-49.webp"
-  },
-  {
    "title": "Projeto de duplicação da Rua da Divisa reacende debate ambiental em Goiânia",
    "url": "https://g1.globo.com/google/amp/go/goias/videos-bom-dia-go/video/projeto-de-duplicacao-da-rua-da-divisa-reacende-debate-ambiental-em-goiania-15112357.ghtml",
    "source": "G1",
@@ -54,15 +108,6 @@
    "cat": "mercado",
    "local": true,
    "img": "https://cdn.diariodegoias.com.br/wp-content/uploads/2023/10/equatorial-energia.jpg"
-  },
-  {
-   "title": "Juiz antecipa maioria do STF e afasta ITBI sobre imóveis integralizados em holding familiar",
-   "url": "https://ibdfam.org.br/noticias/14351/Juiz+antecipa+maioria+do+STF+e+afasta+ITBI+sobre+im%C3%B3veis+integralizados+em+holding+familiar",
-   "source": "IBDFAM - Instituto Brasileiro de Direito de Família",
-   "date": "2026-10-22T13:59:15Z",
-   "cat": "regras",
-   "local": false,
-   "img": ""
   },
   {
    "title": "Corpo é encontrado às margens Avenida Botafogo, em Goiânia",
@@ -99,6 +144,15 @@
    "cat": "financiamento",
    "local": false,
    "img": "https://guaiba.com.br/wp-content/uploads/2021/11/Aluguel.jpg"
+  },
+  {
+   "title": "Aniversário de Goiânia terá interdições e desvios no trânsito; veja as ruas afetadas",
+   "url": "https://www.goias365.com.br/aniversario-de-goiania-tera-interdicoes-e-desvios-no-transito-veja-as-ruas-afetadas/",
+   "source": "Goiás365",
+   "date": "2026-10-22T11:42:22Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://www.goias365.com.br/wp-content/uploads/2026/10/desvios-no-transito-para-desfile-de-aniversario-de-Goiania-SET.jpeg"
   },
   {
    "title": "Goiânia: Sandro Mabel autoriza regularização de 481 imóveis no Condomínio Rio Branco",
@@ -200,15 +254,6 @@
    "img": "https://www.goiania.go.gov.br/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-21-at-14.39.18.jpeg"
   },
   {
-   "title": "Sandro Mabel fala à revista Zelo e anuncia mudanças no trânsito de Goiânia",
-   "url": "https://revistazelo.com.br/sandro-mabel-fala-a-revista-zelo-e-anuncia-mudancas-no-transito-de-goiania/",
-   "source": "Zelo - Portal de Noticias",
-   "date": "2026-10-21T17:24:00Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://revistazelo.com.br/wp-content/uploads/2026/10/Transito-de-Goiania.webp"
-  },
-  {
    "title": "Distratos de imóveis disparam 65,5% no 3º trimestre e somam R$ 1,1 bilhão",
    "url": "https://portas.com.br/noticias/distratos-mcmv/",
    "source": "Portas",
@@ -287,7 +332,8 @@
    "date": "2026-10-21T12:05:41Z",
    "cat": "cidade",
    "local": true,
-   "img": ""
+   "img": "",
+   "img_tried": true
   },
   {
    "title": "Expoind 2026 terá encontro regional de construtores e incorporadores do CBIC novo template",
@@ -397,7 +443,8 @@
    "date": "2026-10-20T22:23:00Z",
    "cat": "financiamento",
    "local": false,
-   "img": ""
+   "img": "",
+   "img_tried": true
   },
   {
    "title": "UEG abre inscrições para mobilidade acadêmica em seis instituições públicas de Goiás",
@@ -454,8 +501,8 @@
    "img": "https://cbic.org.br/wp-content/uploads/2026/10/pr-wide.png"
   },
   {
-   "title": "Redondo da Araguaia: prédio inacabado há cerca de 25 anos deve ter obra retomada e virar apartamento de aluguel, diz prefeitura",
-   "url": "https://g1.globo.com/go/goias/noticia/2026/10/20/redondo-do-araguaia-predio-inacabado-ha-cerca-de-25-anos-deve-ter-obra-retomada-e-virar-apartamento-de-aluguel-diz-prefeitura.ghtml",
+   "title": "Redondo do Araguaia: prédio inacabado há cerca de 25 anos deve ter obra retomada e virar apartamento de aluguel, diz prefeitura",
+   "url": "https://g1.globo.com/google/amp/go/goias/noticia/2026/10/20/redondo-do-araguaia-predio-inacabado-ha-cerca-de-25-anos-deve-ter-obra-retomada-e-virar-apartamento-de-aluguel-diz-prefeitura.ghtml",
    "source": "G1",
    "date": "2026-10-20T19:27:58Z",
    "cat": "mercado",
@@ -463,8 +510,8 @@
    "img": "https://s2-g1.glbimg.com/3lBaHzFsKP1M5o1RIIqc7Y0C7T8=/1700x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/B/U/ia3O3eT8eKHWINumFE0w/g1-2026-10-20t162009.579.jpg"
   },
   {
-   "title": "Redondo do Araguaia: prédio inacabado há cerca de 25 anos deve ter obra retomada e virar apartamento de aluguel, diz prefeitura",
-   "url": "https://g1.globo.com/google/amp/go/goias/noticia/2026/10/20/redondo-do-araguaia-predio-inacabado-ha-cerca-de-25-anos-deve-ter-obra-retomada-e-virar-apartamento-de-aluguel-diz-prefeitura.ghtml",
+   "title": "Redondo da Araguaia: prédio inacabado há cerca de 25 anos deve ter obra retomada e virar apartamento de aluguel, diz prefeitura",
+   "url": "https://g1.globo.com/go/goias/noticia/2026/10/20/redondo-do-araguaia-predio-inacabado-ha-cerca-de-25-anos-deve-ter-obra-retomada-e-virar-apartamento-de-aluguel-diz-prefeitura.ghtml",
    "source": "G1",
    "date": "2026-10-20T19:27:58Z",
    "cat": "mercado",
@@ -505,7 +552,8 @@
    "date": "2026-10-20T18:08:00Z",
    "cat": "regras",
    "local": false,
-   "img": ""
+   "img": "",
+   "img_tried": true
   },
   {
    "title": "Nova lei em Santos obriga plantio de árvores; em Goiânia, construtora já adota medida voluntariamente",
@@ -1309,51 +1357,6 @@
    "cat": "mercado",
    "local": false,
    "img": "https://uploads.portas.com.br/2026/10/Modelo-corte-foto-Portas-8.jpg"
-  },
-  {
-   "title": "Governo de Goiás supera marca de 1 mil imóveis regularizados pelo programa “Meu Imóvel é Legal”",
-   "url": "https://goias.gov.br/administracao/governo-de-goias-supera-marca-de-1-mil-imoveis-regularizados-pelo-programa-meu-imovel-e-legal/",
-   "source": "Goias",
-   "date": "2026-10-16T14:29:37Z",
-   "cat": "mercado",
-   "local": true,
-   "img": ""
-  },
-  {
-   "title": "BB BI analisa a performance do setor imobiliário em setembro - Setorial Construção",
-   "url": "https://investalk.bb.com.br/noticias/mercado/setorial-construcao-202610",
-   "source": "InvesTalk",
-   "date": "2026-10-16T14:27:00Z",
-   "cat": "mercado",
-   "local": false,
-   "img": ""
-  },
-  {
-   "title": "Frota a biometano do BRT de Goiânia ganha infraestrutura permanente de reabastecimento",
-   "url": "https://frotacia.com.br/frota-a-biometano-do-brt-de-goiania-ganha-infraestrutura-permanente-de-reabastecimento/",
-   "source": "Frota&Cia",
-   "date": "2026-10-16T14:06:37Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://frotacia.com.br/wp-content/uploads/2026/10/Os-veiculos-do-sistema-ja-sao-abastecidos-na-infraestrutura-definitiva.jpg"
-  },
-  {
-   "title": "IHGG cria livraria para venda de obras de autores goianos",
-   "url": "https://aredacao.com.br/ihgg-cria-livraria-para-venda-de-obras-de-autores-goianos/",
-   "source": "A Redação",
-   "date": "2026-10-16T10:44:48Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://aredacao.com.br/wp-content/uploads/2026/10/IHGG-15.10.2026-Editora-da-UFG-livros-300x164.jpeg"
-  },
-  {
-   "title": "Prefeitura de Goiânia prevê R$ 41 milhões para OS concluir obra e gerir UPA inacabada desde 2020",
-   "url": "https://opopular.com.br/cidades/prefeitura-de-goiania-preve-r-41-milh-es-para-os-concluir-obra-e-gerir-upa-inacabada-desde-2020-1.3468952",
-   "source": "O Popular",
-   "date": "2026-10-16T01:34:23Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://opopular.com.br/image/policy:1.3468951:1792114180/image.jpg"
   }
  ]
 }
