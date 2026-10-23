@@ -1714,7 +1714,7 @@
     <link rel="stylesheet" href="equipe.css?v=redondas-20261011">
     <link rel="stylesheet" href="site.css">
     <link rel="stylesheet" href="watercolor.css">
-    <link rel="stylesheet" href="arbor-ui.css?v=50">
+    <link rel="stylesheet" href="arbor-ui.css?v=52">
 </head>
 <body>
 <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs><filter id="wc-soft" x="-30%" y="-30%" width="160%" height="160%"><feTurbulence type="fractalNoise" baseFrequency="0.008 0.011" numOctaves="3" seed="11" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="70" xChannelSelector="R" yChannelSelector="G" result="d"/><feGaussianBlur in="d" stdDeviation="9"/></filter><filter id="wc-edge" x="-5%" y="-100%" width="110%" height="300%"><feTurbulence type="fractalNoise" baseFrequency="0.012 0.09" numOctaves="3" seed="4" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="34" xChannelSelector="R" yChannelSelector="G"/></filter></defs></svg>
@@ -1843,7 +1843,35 @@
                 <p>Conte o que você procura. Nossa equipe ajuda a organizar os próximos passos.</p>
                 <div class="ui-convite-acoes">
                     <a href="https://wa.me/5562984854468" target="_blank" rel="noopener noreferrer" class="ui-btn ui-btn-primary">Falar no WhatsApp</a>
+                    <button type="button" class="ui-btn ui-btn-primary" id="convite-abrir" aria-expanded="false" aria-controls="convite-form-wrap">Enviar mensagem</button>
                     <a href="mailto:contato@arborimoveis.com.br" class="ui-btn ui-btn-outline">Enviar e-mail</a>
+                </div>
+                <div class="ui-convite-form" id="convite-form-wrap" hidden>
+                    <form id="form-convite" class="ui-contato-form" novalidate>
+                        <div class="ui-contato-grid">
+                            <label class="ui-contato-campo"><span>Nome</span>
+                                <input type="text" name="nome" autocomplete="name" required maxlength="120">
+                            </label>
+                            <label class="ui-contato-campo"><span>E-mail</span>
+                                <input type="email" name="email" autocomplete="email" required maxlength="160">
+                            </label>
+                            <label class="ui-contato-campo"><span>Telefone / WhatsApp</span>
+                                <input type="tel" name="telefone" autocomplete="tel" inputmode="tel" maxlength="30">
+                            </label>
+                        </div>
+                        <label class="ui-contato-campo"><span>Mensagem</span>
+                            <textarea name="mensagem" rows="4" required maxlength="2000" placeholder="Conte o que você procura ou tire uma dúvida."></textarea>
+                        </label>
+                        <input type="text" name="website" class="ui-contato-honey" tabindex="-1" autocomplete="off" aria-hidden="true">
+                        <label class="ui-contato-aceite">
+                            <input type="checkbox" name="aceite" required>
+                            <span>Concordo em compartilhar meus dados para receber retorno da Arbor, conforme a <a href="/politica-de-privacidade/" target="_blank" rel="noopener">Política de Privacidade</a>.</span>
+                        </label>
+                        <div class="ui-contato-rodape">
+                            <button type="submit" class="ui-btn ui-btn-primary" id="convite-enviar">Enviar mensagem</button>
+                            <p id="convite-status" class="ui-contato-status" role="status" aria-live="polite"></p>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
@@ -4562,7 +4590,7 @@ window.addEventListener('DOMContentLoaded', init);
 <script src="equipe.js?v=catalogo-20261012"></script>
 <script src="empreendimentos.js?v=20261011"></script>
 <script src="journal-services.js"></script>
-<script src="contato.js?v=4"></script>
+<script src="contato.js?v=5"></script>
 <script src="imovel-contato.js?v=1"></script>
 </body>
 </html>
