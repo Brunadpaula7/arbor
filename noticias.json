@@ -1,6 +1,33 @@
 {
- "updated": "2026-10-22T23:52:56Z",
+ "updated": "2026-10-23T14:03:15Z",
  "items": [
+  {
+   "title": "Cobrança de IBS e CBS nas operações com imóveis é tema de bate-papo da CNM sobre Reforma Tributária",
+   "url": "https://cnm.org.br/comunicacao/noticias/cobranca-de-ibs-e-cbs-nas-operacoes-com-imoveis-e-tema-de-bate-papo-da-cnm-sobre-reforma-tributaria",
+   "source": "Confederação Nacional de Municípios",
+   "date": "2026-10-23T13:42:41Z",
+   "cat": "regras",
+   "local": false,
+   "img": "https://cnm.org.br/storage/noticias/2026/10/23102026_batepapo.png"
+  },
+  {
+   "title": "Instituto Elon Soares e Secovi Goiás fecham parceria para treinar profissionais de prédios de graça",
+   "url": "https://www.bra1.com.br/economia/id-713068/instituto_elon_soares_e_secovi_goias_fecham_parceria_para_treinar_profissionais_de_predios_de_graca",
+   "source": "Bra1",
+   "date": "2026-10-23T11:05:00Z",
+   "cat": "mercado",
+   "local": true,
+   "img": "https://cdn.conexaohost.com.br/img/500x500/1/0/webp/arquivos/1918/conteudo/posts/713068.webp"
+  },
+  {
+   "title": "Financiar imóvel de R$ 300 mil pode custar R$ 100 mil a mais dependendo do banco",
+   "url": "https://paraibabusiness.com.br/financiar-imovel-de-r-300-mil-pode-custar-r-100-mil-a-mais-dependendo-do-banco/",
+   "source": "Paraíba Business",
+   "date": "2026-10-23T01:00:00Z",
+   "cat": "financiamento",
+   "local": false,
+   "img": "https://paraibabusiness.com.br/atual/wp-content/uploads/2026/10/b71bf7bd3c38f8b4be39d9e0d57f35d2.webp"
+  },
   {
    "title": "Libertadores: Flamengo decide vaga no Maracanã e pode reeditar final histórica contra o Palmeiras; veja onde assistir",
    "url": "https://www.jornalopcao.com.br/futebol/libertadores-flamengo-decide-vaga-no-maracana-e-pode-reeditar-final-historica-contra-o-palmeiras-veja-onde-assistir-881489/",
@@ -9,6 +36,15 @@
    "cat": "regras",
    "local": true,
    "img": "https://cdn.jornalopcao.com.br/assets/2026/10/22214223/1792705338-000_d3fn6vm_0.webp"
+  },
+  {
+   "title": "Casal cobra devolução de imóvel comprado por Pedro, do Flamengo",
+   "url": "https://diariodoestadogo.com.br/casal-cobra-devolucao-de-imovel-comprado-por-pedro-do-flamengo/",
+   "source": "Diário do Estado",
+   "date": "2026-10-22T22:00:29Z",
+   "cat": "mercado",
+   "local": false,
+   "img": "https://diariodoestadogo.com.br/wp-content/uploads/2026/10/casal-cobra-devolucao-de-imovel-comprado-por-pedro2C-do-flamengo.webp"
   },
   {
    "title": "CII debate financiamento habitacional, Reforma Tributária e perspectivas do mercado imobiliário",
@@ -90,6 +126,15 @@
    "cat": "mercado",
    "local": true,
    "img": "https://i0.wp.com/www.diariodeaparecida.com.br/wp-content/uploads/2026/10/mabel-1.jpeg?fit=1280%2C851&ssl=1"
+  },
+  {
+   "title": "Secovi-SP e SindusCon-SP abrem XII Encontro de Construtores e Incorporadores",
+   "url": "https://secovi.com.br/secovi-sp-e-sinduscon-sp-abrem-xii-encontro-de-construtores-e-incorporadores/",
+   "source": "SECOVI-SP",
+   "date": "2026-10-22T14:53:54Z",
+   "cat": "mercado",
+   "local": false,
+   "img": "https://secovi.com.br/wp-content/uploads/2026/10/SLJ_0640-1.jpg"
   },
   {
    "title": "Projeto de duplicação da Rua da Divisa reacende debate ambiental em Goiânia",
@@ -225,6 +270,15 @@
    "cat": "cidade",
    "local": true,
    "img": "https://www.maisgoias.com.br/wp-content/uploads/2026/10/esqueleto-circular-no-cruzamento-urbano-1792604761.webp"
+  },
+  {
+   "title": "Goiânia terá 22 pontos de bloqueio no trânsito para desfile de aniversário da Capital",
+   "url": "https://www.gynnoticias.com.br/cidades/goiania-tera-22-pontos-de-bloqueio-no-transito-para-desfile-de-aniversario-da-capital/5205",
+   "source": "GYN Noticias",
+   "date": "2026-10-21T18:24:00Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://cdn.gynnoticias.com.br/storage/webdisco/2026/10/21/1200x900/d32de31c07911f80175e8e9a32467a05.jpeg"
   },
   {
    "title": "Sicredi permite financiamento de imóveis com o uso de FGTS",
@@ -443,8 +497,7 @@
    "date": "2026-10-20T22:23:00Z",
    "cat": "financiamento",
    "local": false,
-   "img": "",
-   "img_tried": true
+   "img": ""
   },
   {
    "title": "UEG abre inscrições para mobilidade acadêmica em seis instituições públicas de Goiás",
@@ -501,8 +554,8 @@
    "img": "https://cbic.org.br/wp-content/uploads/2026/10/pr-wide.png"
   },
   {
-   "title": "Redondo do Araguaia: prédio inacabado há cerca de 25 anos deve ter obra retomada e virar apartamento de aluguel, diz prefeitura",
-   "url": "https://g1.globo.com/google/amp/go/goias/noticia/2026/10/20/redondo-do-araguaia-predio-inacabado-ha-cerca-de-25-anos-deve-ter-obra-retomada-e-virar-apartamento-de-aluguel-diz-prefeitura.ghtml",
+   "title": "Redondo da Araguaia: prédio inacabado há cerca de 25 anos deve ter obra retomada e virar apartamento de aluguel, diz prefeitura",
+   "url": "https://g1.globo.com/go/goias/noticia/2026/10/20/redondo-do-araguaia-predio-inacabado-ha-cerca-de-25-anos-deve-ter-obra-retomada-e-virar-apartamento-de-aluguel-diz-prefeitura.ghtml",
    "source": "G1",
    "date": "2026-10-20T19:27:58Z",
    "cat": "mercado",
@@ -510,8 +563,8 @@
    "img": "https://s2-g1.glbimg.com/3lBaHzFsKP1M5o1RIIqc7Y0C7T8=/1700x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/B/U/ia3O3eT8eKHWINumFE0w/g1-2026-10-20t162009.579.jpg"
   },
   {
-   "title": "Redondo da Araguaia: prédio inacabado há cerca de 25 anos deve ter obra retomada e virar apartamento de aluguel, diz prefeitura",
-   "url": "https://g1.globo.com/go/goias/noticia/2026/10/20/redondo-do-araguaia-predio-inacabado-ha-cerca-de-25-anos-deve-ter-obra-retomada-e-virar-apartamento-de-aluguel-diz-prefeitura.ghtml",
+   "title": "Redondo do Araguaia: prédio inacabado há cerca de 25 anos deve ter obra retomada e virar apartamento de aluguel, diz prefeitura",
+   "url": "https://g1.globo.com/google/amp/go/goias/noticia/2026/10/20/redondo-do-araguaia-predio-inacabado-ha-cerca-de-25-anos-deve-ter-obra-retomada-e-virar-apartamento-de-aluguel-diz-prefeitura.ghtml",
    "source": "G1",
    "date": "2026-10-20T19:27:58Z",
    "cat": "mercado",
@@ -562,7 +615,8 @@
    "date": "2026-10-20T18:03:41Z",
    "cat": "regras",
    "local": true,
-   "img": ""
+   "img": "",
+   "img_tried": true
   },
   {
    "title": "Prédio redondo abandonado há 30 anos terá apartamentos de aluguel no Centro de Goiânia",
@@ -854,8 +908,8 @@
   },
   {
    "title": "FR. Incorporadora mantém selo por inventário de emissões de gases de efeito estufa",
-   "url": "https://gazetadasemana.com.br/noticia/304464/fr-incorporadora-mantem-selo-por-inventario-de-emissoes-de-gases-de-efeito-estufa/amp",
-   "source": "Gazeta da Semana",
+   "url": "https://revistakdea360.com.br/noticia/94942/fr-incorporadora-mantem-selo-por-inventario-de-emissoes-de-gases-de-efeito-estufa/amp",
+   "source": "Portal Revista Kdea 360",
    "date": "2026-10-19T19:11:36Z",
    "cat": "lancamentos",
    "local": false,
@@ -1303,60 +1357,6 @@
    "cat": "mercado",
    "local": true,
    "img": "https://www.enquantoissoemgoias.com/arquivos/noticias/4249/teatro-e-humor-levam-conscientizacao-sobre-violencia-contra-a-mulher-a-400-trabalhadores-da-construcao-civil-em-goiania.jpeg"
-  },
-  {
-   "title": "CONJUR debate impactos jurídicos para a construção civil e o mercado imobiliário em reunião em Goiânia",
-   "url": "https://cbic.org.br/conjur-debate-impactos-juridicos-para-a-construcao-civil-e-o-mercado-imobiliario-em-reuniao-em-goiania/",
-   "source": "CBIC - Câmara Brasileira da Indústria da Construção",
-   "date": "2026-10-16T20:07:27Z",
-   "cat": "mercado",
-   "local": true,
-   "img": "https://cbic.org.br/wp-content/uploads/2026/10/4-1.png"
-  },
-  {
-   "title": "Depois de Aparecida de Goiânia, Rio Verde reduz ITBI por 60 dias",
-   "url": "https://tribunadoplanalto.com.br/depois-de-aparecida-de-goiania-rio-verde-reduz-itbi-por-60-dias/",
-   "source": "Tribuna do Planalto",
-   "date": "2026-10-16T19:30:00Z",
-   "cat": "regras",
-   "local": true,
-   "img": "https://tribunadoplanalto.com.br/wp-content/uploads/2026/10/Depois-de-Aparecida-de-Goiania-Rio-Verde-reduz-ITBI-por-60-dias-e1792179015751.jpg"
-  },
-  {
-   "title": "Prefeitura de Goiânia marca licitação de obras na Rua da Divisa para dezembro",
-   "url": "https://www.podergoias.com.br/materia/27700/prefeitura-de-goiania-marca-licitacao-de-obras-na-rua-da-divisa-para-dezembro",
-   "source": "Poder Goiás",
-   "date": "2026-10-16T17:42:00Z",
-   "cat": "cidade",
-   "local": true,
-   "img": ""
-  },
-  {
-   "title": "Tema 1.348: STF forma maioria favorável aos contribuintes sobre imunidade do ITBI na integralização de capital",
-   "url": "https://www.migalhas.com.br/depeso/466657/tema-1-348-stf-forma-maioria-aos-contribuintes-sobre-imunidade",
-   "source": "Migalhas",
-   "date": "2026-10-16T16:19:54Z",
-   "cat": "regras",
-   "local": false,
-   "img": "https://medproc.migalhas.com.br/author.jpg._PROC_AC466657AT1AP11.jpg"
-  },
-  {
-   "title": "Obras dos Mercadões Goianos avançam e prometem impulsionar o comércio no Entorno do DF",
-   "url": "https://aredacao.com.br/obras-dos-mercadoes-goianos-avancam-e-prometem-impulsionar-o-comercio-no-entorno-do-df/",
-   "source": "A Redação",
-   "date": "2026-10-16T15:00:43Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://aredacao.com.br/wp-content/uploads/2026/10/mercadoes-300x225.jpg"
-  },
-  {
-   "title": "Vendas de imóveis novos em SP crescem 36,9% em agosto",
-   "url": "https://portas.com.br/noticias/vendas-de-imoveis-em-sp-sobem-37-em-agosto-mas-valores-caem/",
-   "source": "Portas",
-   "date": "2026-10-16T14:29:52Z",
-   "cat": "mercado",
-   "local": false,
-   "img": "https://uploads.portas.com.br/2026/10/Modelo-corte-foto-Portas-8.jpg"
   }
  ]
 }
