@@ -1,6 +1,60 @@
 {
- "updated": "2026-10-23T14:03:15Z",
+ "updated": "2026-10-23T18:52:55Z",
  "items": [
+  {
+   "title": "Correios leva 12 imóveis a licitação em sete estados, com possibilidade de financiamento e uso do FGTS",
+   "url": "https://www.aguaboanews.com.br/noticias/exibir.asp?id=47544&noticia=correios-leva-12-imoveis-a-licitacao-em-sete-estados-com-possibilidade-de-financiamento-e-uso-do-fgts",
+   "source": "Agua Boa News",
+   "date": "2026-10-23T18:23:00Z",
+   "cat": "financiamento",
+   "local": false,
+   "img": "https://www.aguaboanews.com.br/imgsite/noticias/amp-Imovel-Correios-em-MT.png"
+  },
+  {
+   "title": "Eixo Centro-Universitário ganha primeiro empreendimento ultracompacto após mudança nas regras de IPTU e ITBI",
+   "url": "https://www.administradores.com.br/artigos/eixo-centro-universitario-ganha-primeiro-empreendimento-ultracompacto-apos-mudanca-nas-regras-de-iptu-e-itbi",
+   "source": "Administradores",
+   "date": "2026-10-23T17:51:00Z",
+   "cat": "regras",
+   "local": false,
+   "img": "https://cdn.administradores.com.br/app/uploads/2026/10/23104046/61o8nP9oDd0.jpg"
+  },
+  {
+   "title": "Com alta de 209% nas vendas, cidade do Litoral Norte de SC vira novo “diamante” do mercado imobiliário",
+   "url": "https://www.nsctotal.com.br/economia/com-alta-de-209-nas-vendas-cidade-do-litoral-norte-de-sc-vira-novo-diamante-do-mercado-imobiliario",
+   "source": "NSC Total",
+   "date": "2026-10-23T17:42:18Z",
+   "cat": "mercado",
+   "local": false,
+   "img": "https://img.nsctotal.com.br/wp-content/uploads/2026/10/itajai-diversas-3.jpg"
+  },
+  {
+   "title": "São Bernardo x Vila Nova: onde assistir ao vivo o jogo pelo Campeonato Brasileiro Série B",
+   "url": "https://diariodegoias.com.br/sao-bernardo-x-vila-nova-onde-assistir-ao-vivo-o-jogo-pelo-campeonato-brasileiro-serie-b/551957/",
+   "source": "Diário de Goiás",
+   "date": "2026-10-23T15:45:00Z",
+   "cat": "regras",
+   "local": true,
+   "img": "https://cdn.diariodegoias.com.br/wp-content/uploads/2026/10/23102607/treino-intenso-no-ginasio-rubro-negro.webp"
+  },
+  {
+   "title": "Mabel promete concluir revitalização da Avenida T-63 até janeiro de 2027",
+   "url": "https://diariodegoias.com.br/mabel-promete-concluir-revitalizacao-da-avenida-t-63-ate-janeiro-de-2027/552021/",
+   "source": "Diário de Goiás",
+   "date": "2026-10-23T15:33:39Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://cdn.diariodegoias.com.br/wp-content/uploads/2013/06/CORREDOR-T-63.jpg"
+  },
+  {
+   "title": "Goiás se prepara para eleição presidencial com três nomes da situação entre os cotados",
+   "url": "https://diariodegoias.com.br/goias-se-prepara-para-eleicao-presidencial-com-tres-nomes-da-situacao-entre-os-cotados/552000/",
+   "source": "Diário de Goiás",
+   "date": "2026-10-23T14:43:58Z",
+   "cat": "mercado",
+   "local": true,
+   "img": "https://cdn.diariodegoias.com.br/wp-content/uploads/2026/07/09231248/serrinha.webp"
+  },
   {
    "title": "Cobrança de IBS e CBS nas operações com imóveis é tema de bate-papo da CNM sobre Reforma Tributária",
    "url": "https://cnm.org.br/comunicacao/noticias/cobranca-de-ibs-e-cbs-nas-operacoes-com-imoveis-e-tema-de-bate-papo-da-cnm-sobre-reforma-tributaria",
@@ -9,6 +63,15 @@
    "cat": "regras",
    "local": false,
    "img": "https://cnm.org.br/storage/noticias/2026/10/23102026_batepapo.png"
+  },
+  {
+   "title": "Goiânia terá parque de 110 mil m², maior que o Vaca Brava, na Região Norte",
+   "url": "https://radiobandeirantesgoiania.com.br/goiania-tera-parque-de-110-mil-m%C2%B2-maior-que-o-vaca-brava-na-regiao-norte/",
+   "source": "Rádio Bandeirantes Goiânia",
+   "date": "2026-10-23T12:42:16Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://radiobandeirantesgoiania.com.br/wp-content/uploads/2026/10/novo-parque-de-goiania-preserva-lago-e-mata-nativa-em-projeto-de-expansao-urbana-sILQtf.webp"
   },
   {
    "title": "Instituto Elon Soares e Secovi Goiás fecham parceria para treinar profissionais de prédios de graça",
@@ -27,6 +90,15 @@
    "cat": "financiamento",
    "local": false,
    "img": "https://paraibabusiness.com.br/atual/wp-content/uploads/2026/10/b71bf7bd3c38f8b4be39d9e0d57f35d2.webp"
+  },
+  {
+   "title": "Mercado imobiliário aquecido, mas sob pressão: o que o presidente eleito vai receber?",
+   "url": "https://portas.com.br/noticias/mercado-imobiliario-aquecido-mas-sob-pressao-o-que-o-presidente-eleito-vai-receber/",
+   "source": "Portas",
+   "date": "2026-10-22T23:16:19Z",
+   "cat": "mercado",
+   "local": false,
+   "img": "https://uploads.portas.com.br/2026/10/mercado-imobiliario-em-2027-1000x750.jpg"
   },
   {
    "title": "Libertadores: Flamengo decide vaga no Maracanã e pode reeditar final histórica contra o Palmeiras; veja onde assistir",
@@ -81,15 +153,6 @@
    "cat": "cidade",
    "local": true,
    "img": "https://curtamais.com.br/goiania/wp-content/uploads/sites/2/2026/10/novo-parque-de-goiania-preserva-lago-e-mata-nativa-em-projeto-de-expansao-urbana-sILQtf.webp"
-  },
-  {
-   "title": "Juiz antecipa maioria do STF e afasta ITBI sobre imóveis integralizados em holding familiar",
-   "url": "https://ibdfam.org.br/noticias/14351/Juiz+antecipa+maioria+do+STF+e+afasta+ITBI+sobre+im%C3%B3veis+integralizados+em+holding+familiar",
-   "source": "IBDFAM - Instituto Brasileiro de Direito de Família",
-   "date": "2026-10-22T19:00:25Z",
-   "cat": "regras",
-   "local": false,
-   "img": ""
   },
   {
    "title": "Não incide ITBI na integralização de imóveis em holding",
@@ -153,6 +216,15 @@
    "cat": "mercado",
    "local": true,
    "img": "https://cdn.diariodegoias.com.br/wp-content/uploads/2023/10/equatorial-energia.jpg"
+  },
+  {
+   "title": "Juiz antecipa maioria do STF e afasta ITBI sobre imóveis integralizados em holding familiar",
+   "url": "https://ibdfam.org.br/noticias/14351",
+   "source": "IBDFAM - Instituto Brasileiro de Direito de Família",
+   "date": "2026-10-22T14:01:27Z",
+   "cat": "regras",
+   "local": false,
+   "img": ""
   },
   {
    "title": "Corpo é encontrado às margens Avenida Botafogo, em Goiânia",
@@ -252,6 +324,15 @@
    "cat": "mercado",
    "local": false,
    "img": "https://daqui.opopular.com.br/image/policy:1.3470484:1792504846/image.jpg?f=3x2"
+  },
+  {
+   "title": "Praça do Berimbau ganha primeira academia ao ar livre com aulas gratuitas em Goiânia",
+   "url": "https://opopular.com.br/cidades/praca-do-berimbau-ganha-primeira-academia-ao-ar-livre-com-aulas-gratuitas-em-goiania-1.3470917",
+   "source": "O Popular",
+   "date": "2026-10-21T19:55:32Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://opopular.com.br/image/policy:1.3470939:1792612940/image.jpg"
   },
   {
    "title": "Fundo imobiliário de cooperativas deve movimentar até R$ 1 bilhão no mercado",
@@ -487,8 +568,7 @@
    "date": "2026-10-20T22:32:14Z",
    "cat": "cidade",
    "local": true,
-   "img": "",
-   "img_tried": true
+   "img": ""
   },
   {
    "title": "FIN: Pessoas físicas puxam aumento de crédito em 2025; destaque ao financiamento imobiliário",
@@ -615,8 +695,7 @@
    "date": "2026-10-20T18:03:41Z",
    "cat": "regras",
    "local": true,
-   "img": "",
-   "img_tried": true
+   "img": ""
   },
   {
    "title": "Prédio redondo abandonado há 30 anos terá apartamentos de aluguel no Centro de Goiânia",
@@ -1276,87 +1355,6 @@
    "cat": "regras",
    "local": false,
    "img": "https://images.jota.info/wp-content/uploads/2026/10/campo-verde-magnific-1.jpg"
-  },
-  {
-   "title": "Distratos atingem um em cada cinco imóveis de médio e alto padrão, o maior patamar desde 2020",
-   "url": "https://www.estadao.com.br/economia/negocios/distratos-atingem-um-em-cada-cinco-imoveis-de-medio-e-alto-padrao-o-maior-patamar-desde-2020/",
-   "source": "Estadão",
-   "date": "2026-10-17T08:30:00Z",
-   "cat": "mercado",
-   "local": false,
-   "img": "https://www.estadao.com.br/resizer/v2/B3ARNR6OHJBQTP24N7DMOZXOOU.jpg?quality=80&auth=8ee70f6ad059e2bc31c0abb3a6192f3a8a233403f6b72f0d4f80a181d49c5073&width=1200&height=630&smart=true"
-  },
-  {
-   "title": "Prefeitura vai implantar primeira \"esquerda livre\" no trânsito de Goiânia",
-   "url": "https://opopular.com.br/cidades/prefeitura-vai-implantar-primeira-esquerda-livre-no-transito-de-goiania-1.3469417",
-   "source": "O Popular",
-   "date": "2026-10-17T01:19:30Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://opopular.com.br/image/policy:1.3469416:1792199760/image.jpg"
-  },
-  {
-   "title": "Licitação para duplicação da GO-462 entre Goiânia e Santo Antônio de Goiás é marcada",
-   "url": "https://g1.globo.com/google/amp/go/goias/videos-ja-2-edicao/video/licitacao-para-duplicacao-da-go-462-entre-goiania-e-santo-antonio-de-goias-e-marcada-15097033.ghtml",
-   "source": "G1",
-   "date": "2026-10-17T00:33:10Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://s02.video.glbimg.com/x720/15097033.jpg"
-  },
-  {
-   "title": "Prefeitura de Goiânia vai adotar 'esquerda livre' no trânsito",
-   "url": "https://daqui.opopular.com.br/geral/prefeitura-de-goiania-vai-adotar-esquerda-livre-no-transito-1.3469397",
-   "source": "Daqui",
-   "date": "2026-10-17T00:03:48Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://daqui.opopular.com.br/image/policy:1.3266978:1792194874/image.jpg?f=3x2"
-  },
-  {
-   "title": "Tragédia fez Praça Tamandaré deixar de ser ponto de jovens que tiravam racha de carro em Goiânia, em 1980",
-   "url": "https://www.maisgoias.com.br/cidades/goiania/tragedia-fez-praca-tamandare-deixar-de-ser-ponto-de-jovens-que-tiravam-racha-de-carro-em-goiania-em-1980/",
-   "source": "Mais Goiás",
-   "date": "2026-10-16T22:51:16Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://uploads.maisgoias.com.br/2026/10/engarrafamento-vintage-na-praca-arborizada-1792175722.webp"
-  },
-  {
-   "title": "Unimed Meia Maratona de Goiânia: veja dicas dos percursos e estrutura para os corredores",
-   "url": "https://opopular.com.br/esporte/unimed-meia-maratona-de-goiania-veja-dicas-dos-percursos-e-estrutura-para-os-corredores-1.3469316",
-   "source": "O Popular",
-   "date": "2026-10-16T22:00:12Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://opopular.com.br/image/policy:1.3469321:1792187948/image.jpg"
-  },
-  {
-   "title": "Do anúncio no jornal à venda na internet: tecnologia transforma o trabalho dos corretores de imóveis |...",
-   "url": "https://www.segs.com.br/demais/457503-do-anuncio-no-jornal-a-venda-na-internet-tecnologia-transforma-o-trabalho-dos-corretores-de-imoveis",
-   "source": "SEGS Portal Nacional",
-   "date": "2026-10-16T21:18:01Z",
-   "cat": "mercado",
-   "local": false,
-   "img": "https://www.segs.com.br/media/k2/items/cache/1ae38c57e7f96461bd1803589d82cf21_L.jpg"
-  },
-  {
-   "title": "IA no mercado imobiliário: onde e o que construir?",
-   "url": "https://www.terra.com.br/noticias/ia-no-mercado-imobiliario-onde-e-o-que-construir,3352e90f178347f0ddac577489ba3a0bommyvqre.html",
-   "source": "Valor Econômico",
-   "date": "2026-10-16T20:32:00Z",
-   "cat": "mercado",
-   "local": false,
-   "img": "https://p2.trrsf.com/image/fget/cf/1200/630/middle/images.terra.com/2026/10/16/1513208856-74697189-11da-477d-b08a-c1384c3288e5.jpg"
-  },
-  {
-   "title": "Teatro e humor levam conscientização sobre violência contra a mulher a 400 trabalhadores da construção civil em Goiânia",
-   "url": "https://www.enquantoissoemgoias.com/noticia/4249/giro-por-goias/teatro-e-humor-levam-conscientizacao-sobre-violencia-contra-a-mulher-a-400-trabalhadores-da-construcao-civil-em-goiania.html",
-   "source": "Enquanto isso em Goias",
-   "date": "2026-10-16T20:27:00Z",
-   "cat": "mercado",
-   "local": true,
-   "img": "https://www.enquantoissoemgoias.com/arquivos/noticias/4249/teatro-e-humor-levam-conscientizacao-sobre-violencia-contra-a-mulher-a-400-trabalhadores-da-construcao-civil-em-goiania.jpeg"
   }
  ]
 }
