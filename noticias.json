@@ -1,6 +1,24 @@
 {
- "updated": "2026-10-24T17:48:53Z",
+ "updated": "2026-10-24T22:52:45Z",
  "items": [
+  {
+   "title": "Cooperativismo habitacional facilita sonho da casa própria em Goiás com custos menores e gestão participativa",
+   "url": "https://revistafactual.com.br/economia/2026/10/24/cooperativismo-habitacional-em-goias-facilita-sonho-da-casa-propria-com-custos-menores-e-gestao-participativa/",
+   "source": "Revista Factual",
+   "date": "2026-10-24T22:11:09Z",
+   "cat": "mercado",
+   "local": true,
+   "img": "https://revistafactual.com.br/wp-content/uploads/2026/10/chaves-casa-foto-schluesseldienst-pixabay.jpg"
+  },
+  {
+   "title": "Governo de Goiás destina R$ 3,8 bilhões a obras e projetos em Goiânia",
+   "url": "https://aredacao.com.br/governo-de-goias-destina-r-38-bilhoes-a-obras-e-projetos-em-goiania/",
+   "source": "A Redação",
+   "date": "2026-10-24T21:12:08Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://aredacao.com.br/wp-content/uploads/2026/10/daniel-vilela-hugo-300x200.jpg"
+  },
   {
    "title": "Veja onde assistir os jogos da Terceira Divisão do Campeonato Goiano",
    "url": "https://www.maisgoias.com.br/esportes/futebol/futebol-goiano/times-do-interior/veja-onde-assistir-os-jogos-da-terceira-divisao-do-campeonato-goiano/",
@@ -50,7 +68,7 @@
    "title": "GO-020 se consolida como novo polo de investimentos e valorização imobiliária em Goiânia; entenda os motivos",
    "url": "https://www.jornalopcao.com.br/ultimas-noticias/go-020-se-consolida-como-novo-polo-de-investimentos-e-valorizacao-imobiliaria-em-goiania-entenda-os-motivos-882024/",
    "source": "Jornal Opção",
-   "date": "2026-10-24T13:34:51Z",
+   "date": "2026-10-24T13:34:00Z",
    "cat": "mercado",
    "local": true,
    "img": "https://cdn.jornalopcao.com.br/assets/2021/01/BR-153-com-GO-020-Viaduto-Aérea-Foto-Fernando-Leite-Jornal-Opção-3.jpeg"
@@ -112,8 +130,8 @@
   {
    "title": "De sede administrativa a referência em indústria e mercado imobiliário: as transformações econômicas de Goiânia ao longo dos seus 93 anos",
    "url": "https://g1.globo.com/go/goias/noticia/2026/10/24/de-sede-administrativa-a-referencia-em-industria-e-mercado-imobiliario-as-transformacoes-economicas-de-goiania-ao-longo-dos-seus-93-anos.ghtml",
-   "source": "G1",
-   "date": "2026-10-24T06:00:00Z",
+   "source": "Educativaipora",
+   "date": "2026-10-24T06:19:48Z",
    "cat": "mercado",
    "local": true,
    "img": "https://s2-g1.glbimg.com/40FCFx3lNZqWICFSAi2oY-GECoQ=/1700x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/S/J/vkWU3rQvqZAsdTH9YstQ/guilherme-alves-o-popular.jpg"
@@ -189,6 +207,15 @@
    "cat": "mercado",
    "local": false,
    "img": "https://img.nsctotal.com.br/wp-content/uploads/2026/10/itajai-diversas-3.jpg"
+  },
+  {
+   "title": "Intenção de compra de imóvel aumenta com novo cenário de financiamento",
+   "url": "https://portal.clientesa.com.br/intencao-de-compra-de-imovel-aumenta-com-novo-cenario-de-financiamento/",
+   "source": "Portal ClienteSA",
+   "date": "2026-10-23T17:10:02Z",
+   "cat": "financiamento",
+   "local": false,
+   "img": "https://portal.clientesa.com.br/wp-content/uploads/2025/03/Coriolano_Lacerda_OLX_ClienteSA.jpg"
   },
   {
    "title": "São Bernardo x Vila Nova: onde assistir ao vivo o jogo pelo Campeonato Brasileiro Série B",
@@ -317,6 +344,15 @@
    "img": "https://www.goiania.go.gov.br/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-22-at-17.09.51.jpeg"
   },
   {
+   "title": "CBIC divulga Boletim de Normas Técnicas de setembro e outubro de 2026",
+   "url": "https://cbic.org.br/cbic-divulga-boletim-de-normas-tecnicas-de-setembro-e-outubro-de-2026/",
+   "source": "CBIC - Câmara Brasileira da Indústria da Construção",
+   "date": "2026-10-22T20:07:14Z",
+   "cat": "regras",
+   "local": false,
+   "img": "https://cbic.org.br/wp-content/uploads/2026/08/boletim-normas-tecnicas-2026.jpeg"
+  },
+  {
    "title": "Prefeitura de Goiânia ultrapassa 70 demolições de imóveis abandonados",
    "url": "https://www.goiania.go.gov.br/agora/prefeitura-de-goiania-ultrapassa-70-demolicoes-de-imoveis-abandonados",
    "source": "Goiânia (Prefeitura)",
@@ -404,7 +440,8 @@
    "date": "2026-10-22T14:01:27Z",
    "cat": "regras",
    "local": false,
-   "img": ""
+   "img": "",
+   "img_tried": true
   },
   {
    "title": "Corpo é encontrado às margens Avenida Botafogo, em Goiânia",
@@ -486,6 +523,15 @@
    "cat": "financiamento",
    "local": false,
    "img": "https://s2-valor-investe.glbimg.com/eZAOl64HCQoi45-d-uAfqesguGQ=/1280x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_f035dd6fd91c438fa04ab718d608bbaa/internal_photos/bs/2025/6/w/9PBe1BRBKasyTpOSVLuw/ai-generated-9231988-1280.jpg"
+  },
+  {
+   "title": "Mercado imobiliário mantém crédito em alta em 2026, mas custo de obra pressiona",
+   "url": "https://paraibabusiness.com.br/mercado-imobiliario-mantem-credito-em-alta-em-2026-mas-custo-de-obra-pressiona/",
+   "source": "Paraíba Business",
+   "date": "2026-10-22T07:00:00Z",
+   "cat": "financiamento",
+   "local": false,
+   "img": "https://paraibabusiness.com.br/atual/wp-content/uploads/2026/10/6b1f0f439966518e9c4826f98003ed26.webp"
   },
   {
    "title": "Brasil termina Mundial de ginástica artística em quinto lugar",
@@ -894,8 +940,7 @@
    "date": "2026-10-20T18:03:41Z",
    "cat": "regras",
    "local": true,
-   "img": "",
-   "img_tried": true
+   "img": ""
   },
   {
    "title": "Núcleo Imobiliário completa dez anos e atende nove incorporadoras em gestão comercial",
@@ -1205,12 +1250,12 @@
   },
   {
    "title": "FR. Incorporadora mantém selo por inventário de emissões de gases de efeito estufa",
-   "url": "https://revistakdea360.com.br/noticia/94942/fr-incorporadora-mantem-selo-por-inventario-de-emissoes-de-gases-de-efeito-estufa/amp",
-   "source": "Portal Revista Kdea 360",
-   "date": "2026-10-19T19:11:36Z",
+   "url": "https://www.paulomelo.blog.br/2026/10/fr-incorporadora-mantem-selo-por.html",
+   "source": "Blog do PAULO MELO",
+   "date": "2026-10-19T20:08:00Z",
    "cat": "lancamentos",
    "local": false,
-   "img": ""
+   "img": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjV-ZJ4nkfpLwwf1012ySfcqktdIi5YM5v4takd1IxvRFUuOQfxdwfpDaPzIT_Er_THE6lkKJCaHvf0R74_pmffQ4VXRbypty1ezFw1J0KQCKJfdnE0Jo2EiEcaDACLU9V5SWVeDIzfWodjTtc-fhfLc1zfwDBg-ftK1DRuwj_d42TvVgmUOzgC5fy-ICo/w1600/Arquitetura%20contempor%C3%A2nea%20sob%20c%C3%A9u%20sereno.png"
   },
   {
    "title": "Construção civil cresce e enfrenta falta de mão de obra em Anápolis",
@@ -1310,52 +1355,6 @@
    "cat": "cidade",
    "local": true,
    "img": "https://opopular.com.br/image/policy:1.3470016:1792412497/image.jpg"
-  },
-  {
-   "title": "Feirão de empregos oferece mais de 10 mil oportunidades de trabalho em Goiânia e na Região Metropolitana",
-   "url": "https://goias.gov.br/feirao-de-empregos-oferece-mais-de-10-mil-oportunidades-de-trabalho-em-goiania-e-na-regiao-metropolitana/",
-   "source": "Goias",
-   "date": "2026-10-19T11:22:01Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "",
-   "img_tried": true
-  },
-  {
-   "title": "Empresária de imóveis de luxo aproxima seu condomínio em Abadiânia de moradores de Brasília durante corrida de Porsche",
-   "url": "https://www.bra1.com.br/economia/id-710361/empresaria_de_imoveis_de_luxo_aproxima_seu_condominio_em_abadiania_de_moradores_de_brasilia_durante_corrida_de_porsche",
-   "source": "Bra1",
-   "date": "2026-10-19T11:10:00Z",
-   "cat": "mercado",
-   "local": false,
-   "img": "https://cdn.conexaohost.com.br/img/500x500/1/0/webp/arquivos/1918/conteudo/posts/710361.webp"
-  },
-  {
-   "title": "Goiás x Náutico: onde assistir ao vivo o jogo pelo Campeonato Brasileiro Série B",
-   "url": "https://diariodegoias.com.br/goias-x-nautico-onde-assistir-ao-vivo-o-jogo-pelo-campeonato-brasileiro-serie-b/551429/",
-   "source": "Diário de Goiás",
-   "date": "2026-10-19T10:41:57Z",
-   "cat": "regras",
-   "local": true,
-   "img": "https://cdn.diariodegoias.com.br/wp-content/uploads/2026/10/19103844/40-3-scaled.webp"
-  },
-  {
-   "title": "CBIC promove encontro regional de construtores e incorporadores em Goiânia",
-   "url": "https://panoramagocomunicacao.com.br/cbic-promove-encontro-regional-de-construtores-e-incorporadores-em-goiania/",
-   "source": "Panoramagocomunicacao",
-   "date": "2026-10-19T01:45:40Z",
-   "cat": "mercado",
-   "local": true,
-   "img": "https://panoramagocomunicacao.com.br/wp-content/uploads/2026/10/Industria-da-construcao-03.jpg"
-  },
-  {
-   "title": "ÓRA Vaca Brava terá 43 pavimentos e aposta em hotelaria, biofilia e integração com o Parque Vaca Brava, em Goiânia",
-   "url": "https://panoramagocomunicacao.com.br/ora-vaca-brava-tera-43-pavimentos-e-aposta-em-hotelaria-biofilia-e-integracao-com-o-parque-vaca-brava-em-goiania/",
-   "source": "Panoramagocomunicacao",
-   "date": "2026-10-19T00:58:20Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://panoramagocomunicacao.com.br/wp-content/uploads/2026/10/Foto-divulgacao.jpeg"
   }
  ]
 }
