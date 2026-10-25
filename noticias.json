@@ -1,6 +1,33 @@
 {
- "updated": "2026-10-24T22:52:45Z",
+ "updated": "2026-10-25T13:33:15Z",
  "items": [
+  {
+   "title": "Celebrações do aniversário de Goiânia contaram com desfile cívico-militar, passeio motociclístico, feira gastronômica e shows",
+   "url": "https://diariodegoias.com.br/celebracoes-do-aniversario-de-goiania-contaram-com-desfile-civico-militar-passeio-motociclistico-feira-gastronomica-e-shows/552162/",
+   "source": "Diário de Goiás",
+   "date": "2026-10-25T12:59:34Z",
+   "cat": "regras",
+   "local": true,
+   "img": "https://cdn.diariodegoias.com.br/wp-content/uploads/2026/10/25125121/eventos-aniversario-de-goiania_secom.webp"
+  },
+  {
+   "title": "Será que estamos assistindo uma “nordestinização” do Brasil?",
+   "url": "https://www.jornalopcao.com.br/colunas-e-blogs/contradicao/sera-que-estamos-assistindo-uma-nordestinizacao-do-brasil-880813/",
+   "source": "Jornal Opção",
+   "date": "2026-10-25T00:00:24Z",
+   "cat": "regras",
+   "local": true,
+   "img": "https://cdn.jornalopcao.com.br/assets/2026/10/20222436/1792535069-praia-de-porto-de-galinhas-foto-reproducao-1300-p-867.webp"
+  },
+  {
+   "title": "Imprensa cobriu com mais acertos do que erros a eleição presidencial de 2026",
+   "url": "https://www.jornalopcao.com.br/colunas-e-blogs/imprensa/imprensa-cobriu-com-mais-acertos-do-que-erros-a-eleicao-presidencial-de-2026-882032/",
+   "source": "Jornal Opção",
+   "date": "2026-10-25T00:00:22Z",
+   "cat": "mercado",
+   "local": true,
+   "img": "https://cdn.jornalopcao.com.br/assets/2026/10/19132136/1792416087-flavio-bolsonaro-e-lula-no-debate-da-band-scaled.webp"
+  },
   {
    "title": "Cooperativismo habitacional facilita sonho da casa própria em Goiás com custos menores e gestão participativa",
    "url": "https://revistafactual.com.br/economia/2026/10/24/cooperativismo-habitacional-em-goias-facilita-sonho-da-casa-propria-com-custos-menores-e-gestao-participativa/",
@@ -191,15 +218,6 @@
    "img": "https://cdn.conexaohost.com.br/img/500x500/1/0/webp/arquivos/1918/conteudo/posts/713368.jpg"
   },
   {
-   "title": "Eixo Centro-Universitário ganha primeiro empreendimento ultracompacto após mudança nas regras de IPTU e ITBI",
-   "url": "https://www.administradores.com.br/artigos/eixo-centro-universitario-ganha-primeiro-empreendimento-ultracompacto-apos-mudanca-nas-regras-de-iptu-e-itbi",
-   "source": "Administradores",
-   "date": "2026-10-23T17:51:00Z",
-   "cat": "regras",
-   "local": false,
-   "img": "https://cdn.administradores.com.br/app/uploads/2026/10/23104046/61o8nP9oDd0.jpg"
-  },
-  {
    "title": "Com alta de 209% nas vendas, cidade do Litoral Norte de SC vira novo “diamante” do mercado imobiliário",
    "url": "https://www.nsctotal.com.br/economia/com-alta-de-209-nas-vendas-cidade-do-litoral-norte-de-sc-vira-novo-diamante-do-mercado-imobiliario",
    "source": "NSC Total",
@@ -207,6 +225,15 @@
    "cat": "mercado",
    "local": false,
    "img": "https://img.nsctotal.com.br/wp-content/uploads/2026/10/itajai-diversas-3.jpg"
+  },
+  {
+   "title": "Eixo Centro-Universitário ganha primeiro empreendimento ultracompacto após mudança nas regras de IPTU e ITBI",
+   "url": "https://www.administradores.com.br/artigos/eixo-centro-universitario-ganha-primeiro-empreendimento-ultracompacto-apos-mudanca-nas-regras-de-iptu-e-itbi",
+   "source": "Rolecomfish",
+   "date": "2026-10-23T17:26:00Z",
+   "cat": "regras",
+   "local": false,
+   "img": "https://cdn.administradores.com.br/app/uploads/2026/10/23104046/61o8nP9oDd0.jpg"
   },
   {
    "title": "Intenção de compra de imóvel aumenta com novo cenário de financiamento",
@@ -666,8 +693,7 @@
    "date": "2026-10-21T13:46:52Z",
    "cat": "lancamentos",
    "local": false,
-   "img": "",
-   "img_tried": true
+   "img": ""
   },
   {
    "title": "Goiânia inaugura unidade de saúde no Vale dos Sonhos com investimento de quase R$ 4 milhões",
@@ -703,8 +729,7 @@
    "date": "2026-10-21T12:05:41Z",
    "cat": "cidade",
    "local": true,
-   "img": "",
-   "img_tried": true
+   "img": ""
   },
   {
    "title": "Expoind 2026 terá encontro regional de construtores e incorporadores do CBIC novo template",
@@ -750,6 +775,15 @@
    "cat": "cidade",
    "local": true,
    "img": "https://ohoje.com/wp-content/uploads/2026/10/livros_horizontal.webp"
+  },
+  {
+   "title": "Condo Meeting em São José do Rio Preto - Governança Colaborativa e Longevidade em Condomínios",
+   "url": "https://secovi.com.br/evento/condo-meeting-em-sjrp-longevidade-em-condominios/",
+   "source": "SECOVI-SP",
+   "date": "2026-10-21T07:00:00Z",
+   "cat": "mercado",
+   "local": false,
+   "img": "https://secovi.com.br/wp-content/uploads/2026/09/Condomeeting_Card_SJRP_HEADER_PORTAL.webp"
   },
   {
    "title": "Laila Cristina da Silva estreia nas passarelas no Mirror Experience Tour — Goiânia Edition",
@@ -804,7 +838,8 @@
    "date": "2026-10-20T22:32:14Z",
    "cat": "cidade",
    "local": true,
-   "img": ""
+   "img": "",
+   "img_tried": true
   },
   {
    "title": "FIN: Pessoas físicas puxam aumento de crédito em 2025; destaque ao financiamento imobiliário",
@@ -935,8 +970,8 @@
   },
   {
    "title": "Nova lei em Santos obriga plantio de árvores; em Goiânia, construtora já adota medida voluntariamente",
-   "url": "https://revistakdea360.com.br/noticia/95190/nova-lei-em-santos-obriga-plantio-de-arvores-em-goiania-construtora-ja-adota-medida-voluntariamente",
-   "source": "Portal Revista Kdea 360",
+   "url": "https://gazetadasemana.com.br/noticia/304853/nova-lei-em-santos-obriga-plantio-de-arvores-em-goiania-construtora-ja-adota-medida-voluntariamente/amp",
+   "source": "Gazeta da Semana",
    "date": "2026-10-20T18:03:41Z",
    "cat": "regras",
    "local": true,
@@ -1319,42 +1354,6 @@
    "cat": "cidade",
    "local": true,
    "img": ""
-  },
-  {
-   "title": "Complexo viário com custo de R$ 60 milhões: prefeitura avaliar construir estrutura na Avenida Perimetral Norte, em Goiânia",
-   "url": "https://g1.globo.com/go/goias/noticia/2026/10/19/prefeitura-avalia-construir-complexo-viario-com-custo-de-r-60-milhoes-na-avenida-perimetral-norte-em-goiania.ghtml",
-   "source": "G1",
-   "date": "2026-10-19T13:28:02Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://s2-g1.glbimg.com/VSVzfoSsnXQLYPiBQQoqA6iXs6o=/1700x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/a/x/fvVXqIT0edeayYFjjZmw/padrao-foto-texto-g1-42-.png"
-  },
-  {
-   "title": "Prefeitura avalia construir complexo viário com custo de R$ 60 milhões na Avenida Perimetral Norte, em Goiânia",
-   "url": "https://g1.globo.com/go/goias/noticia/2026/10/19/prefeitura-avalia-construir-complexo-viario-com-custo-de-r-60-milhoes-na-avenida-perimetral-norte-em-goiania.ghtml",
-   "source": "G1",
-   "date": "2026-10-19T13:28:02Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://s2-g1.glbimg.com/VSVzfoSsnXQLYPiBQQoqA6iXs6o=/1700x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/a/x/fvVXqIT0edeayYFjjZmw/padrao-foto-texto-g1-42-.png"
-  },
-  {
-   "title": "Goiânia terá 20 pontos de bloqueios no trânsito para aniversário da capital; veja desvios",
-   "url": "https://opopular.com.br/cidades/goiania-tera-20-pontos-de-bloqueios-no-transito-para-aniversario-da-capital-veja-desvios-1.3470034",
-   "source": "O Popular",
-   "date": "2026-10-19T13:24:14Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://opopular.com.br/image/policy:1.3258332:1792415811/image.jpg"
-  },
-  {
-   "title": "Trânsito de Goiânia vira cena de 'Todo Mundo Odeia o Chris' em vídeo de motociclista",
-   "url": "https://opopular.com.br/cidades/transito-de-goiania-vira-cena-de-todo-mundo-odeia-o-chris-em-video-de-motociclista-1.3470005",
-   "source": "O Popular",
-   "date": "2026-10-19T13:04:14Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://opopular.com.br/image/policy:1.3470016:1792412497/image.jpg"
   }
  ]
 }
