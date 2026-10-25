@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T13:33:15Z",
+ "updated": "2026-10-25T18:06:37Z",
  "items": [
   {
    "title": "Celebrações do aniversário de Goiânia contaram com desfile cívico-militar, passeio motociclístico, feira gastronômica e shows",
@@ -729,7 +729,8 @@
    "date": "2026-10-21T12:05:41Z",
    "cat": "cidade",
    "local": true,
-   "img": ""
+   "img": "",
+   "img_tried": true
   },
   {
    "title": "Expoind 2026 terá encontro regional de construtores e incorporadores do CBIC novo template",
@@ -838,8 +839,7 @@
    "date": "2026-10-20T22:32:14Z",
    "cat": "cidade",
    "local": true,
-   "img": "",
-   "img_tried": true
+   "img": ""
   },
   {
    "title": "FIN: Pessoas físicas puxam aumento de crédito em 2025; destaque ao financiamento imobiliário",
@@ -970,8 +970,8 @@
   },
   {
    "title": "Nova lei em Santos obriga plantio de árvores; em Goiânia, construtora já adota medida voluntariamente",
-   "url": "https://gazetadasemana.com.br/noticia/304853/nova-lei-em-santos-obriga-plantio-de-arvores-em-goiania-construtora-ja-adota-medida-voluntariamente/amp",
-   "source": "Gazeta da Semana",
+   "url": "https://revistakdea360.com.br/noticia/95190/nova-lei-em-santos-obriga-plantio-de-arvores-em-goiania-construtora-ja-adota-medida-voluntariamente",
+   "source": "Portal Revista Kdea 360",
    "date": "2026-10-20T18:03:41Z",
    "cat": "regras",
    "local": true,
