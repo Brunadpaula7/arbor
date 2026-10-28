@@ -1,6 +1,87 @@
 {
- "updated": "2026-10-28T00:14:38Z",
+ "updated": "2026-10-28T15:43:02Z",
  "items": [
+  {
+   "title": "Mabel entrega obras de readequação viária no cruzamento das avenidas Transbrasiliana e Feira de Santana",
+   "url": "https://diariodegoias.com.br/mabel-entrega-obras-de-readequacao-viaria-no-cruzamento-das-avenidas-transbrasiliana-e-feira-de-santana/552574/",
+   "source": "Diário de Goiás",
+   "date": "2026-10-28T15:01:31Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://cdn.diariodegoias.com.br/wp-content/uploads/2026/10/28145259/entrega-de-obras-parque-amazonia_alex-malheiros.webp"
+  },
+  {
+   "title": "Prefeitura de Goiânia tem seleção para primeiro emprego com 100 vagas na área de logística e outras 920 oportunidades",
+   "url": "https://aredacao.com.br/prefeitura-de-goiania-tem-selecao-para-primeiro-emprego-com-100-vagas-na-area-de-logistica-e-outras-920-oportunidades/",
+   "source": "A Redação",
+   "date": "2026-10-28T14:55:38Z",
+   "cat": "regras",
+   "local": true,
+   "img": "https://aredacao.com.br/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-28-at-11.48.24-300x225.jpeg"
+  },
+  {
+   "title": "Construção Civil de Goiânia sofre lentidão em projetos de interesse social",
+   "url": "https://www.cbngoiania.com.br/cbn-goiania/cenario-economico/construc-o-civil-de-goiania-sofre-lentid-o-em-projetos-de-interesse-social-1.3474070",
+   "source": "CBN Goiânia",
+   "date": "2026-10-28T14:45:40Z",
+   "cat": "mercado",
+   "local": true,
+   "img": "https://www.cbngoiania.com.br/image/policy:1.1280713:1793198315/image.jpg?f=3x2"
+  },
+  {
+   "title": "Mabel leva melhorias ao trânsito do Parque Amazônia com substituição de rotatória por semáforo",
+   "url": "https://aredacao.com.br/mabel-leva-melhorias-ao-transito-do-parque-amazonia-com-substituicao-de-rotatoria-por-semaforo/",
+   "source": "A Redação",
+   "date": "2026-10-28T14:35:36Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://aredacao.com.br/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-28-at-10.14.34-300x193.jpeg"
+  },
+  {
+   "title": "Prefeitura de Aparecida de Goiânia dispensa condomínios horizontais em ZEIS de doar área pública; entenda",
+   "url": "https://tribunadoplanalto.com.br/prefeitura-de-aparecida-de-goiania-dispensa-condominios-horizontais-em-zeis-de-doar-area-publica-entenda/",
+   "source": "Tribuna do Planalto",
+   "date": "2026-10-28T13:19:00Z",
+   "cat": "mercado",
+   "local": true,
+   "img": "https://tribunadoplanalto.com.br/wp-content/uploads/2025/11/WhatsApp-Image-2025-11-24-at-17.06.03.jpeg"
+  },
+  {
+   "title": "Bradesco eleva taxa do crédito imobiliário após disparada dos juros",
+   "url": "https://veja.abril.com.br/economia/bradesco-eleva-taxa-do-credito-imobiliario-apos-disparada-dos-juros/",
+   "source": "VEJA",
+   "date": "2026-10-28T12:10:51Z",
+   "cat": "financiamento",
+   "local": false,
+   "img": "https://veja.abril.com.br/wp-content/uploads/2021/07/GettyImages-589004974.jpg?quality=70&strip=info&resize=1200,630&crop=1"
+  },
+  {
+   "title": "Mercado imobiliário em 2027 dependerá de juros e responsabilidade fiscal",
+   "url": "https://www.parabrisa.com.br/noticias?ler=35439",
+   "source": "Jornal do Parabrisa",
+   "date": "2026-10-28T10:14:38Z",
+   "cat": "financiamento",
+   "local": false,
+   "img": "https://www.parabrisa.com.br/public/fotos/noticias/n35439_d68a2320472d10b53d5b01fa8642c89d.png"
+  },
+  {
+   "title": "Goiás moderniza malha viária com 84 obras em andamento em todas as regiões",
+   "url": "https://www.jornalopcao.com.br/publieditorial/goias-moderniza-malha-viaria-com-84-obras-em-andamento-em-todas-as-regioes-882830/",
+   "source": "Jornal Opção",
+   "date": "2026-10-28T09:00:00Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://cdn.jornalopcao.com.br/assets/2026/10/26234140/1793058100-publi-2-3.webp"
+  },
+  {
+   "title": "Bradesco sobe juros do crédito imobiliário: por quê? E os outros bancos?",
+   "url": "https://www.infomoney.com.br/minhas-financas/bradesco-sobe-juros-do-credito-imobiliario-por-que-e-os-outros-bancos/",
+   "source": "InfoMoney",
+   "date": "2026-10-28T09:00:00Z",
+   "cat": "financiamento",
+   "local": false,
+   "img": "https://www.infomoney.com.br/wp-content/uploads/2026/10/Bradesco-e-Mercado-em-Ascensao.jpg?fit=1672%2C941&quality=70&strip=all"
+  },
   {
    "title": "Cristiano Ronaldo entra na pré-lista de Portugal após crise com o técnico Jorge Jesus",
    "url": "https://diariodegoias.com.br/cristiano-ronaldo-entra-na-pre-lista-de-portugal-apos-crise-com-o-tecnico-jorge-jesus/552502/",
@@ -18,15 +99,6 @@
    "cat": "mercado",
    "local": true,
    "img": "https://cdn.diariodegoias.com.br/wp-content/uploads/2026/10/27211138/aparecida-regulamenta-zonas-especiais-para-ampliar-oferta-de-moradias-populares.webp"
-  },
-  {
-   "title": "Daniel Vilela inaugura pavimentação da GO-460 em São Patrício",
-   "url": "https://aredacao.com.br/daniel-vilela-inaugura-pavimentacao-da-go-460-em-sao-patricio/",
-   "source": "A Redação",
-   "date": "2026-10-27T21:22:10Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://aredacao.com.br/wp-content/uploads/2026/10/3-23-300x191.jpg"
   },
   {
    "title": "6 astros sertanejos que usam nomes artísticos e você talvez não saiba",
@@ -101,6 +173,15 @@
    "img": "https://images.jota.info/wp-content/uploads/2023/11/itbi-freepik.jpg"
   },
   {
+   "title": "Gestão Vilela sanciona lei que amplia condições para habitação de interesse social em Aparecida",
+   "url": "https://aparecida.go.gov.br/gestao-vilela-sanciona-lei-que-amplia-condicoes-para-habitacao-de-interesse-social-em-aparecida",
+   "source": "Prefeitura de Aparecida de Goiânia",
+   "date": "2026-10-27T07:00:00Z",
+   "cat": "regras",
+   "local": true,
+   "img": "https://aparecida.go.gov.br/wp-content/uploads/2026/10/whatsapp-image-2026-10-28-at-08-20-47-2.jpeg"
+  },
+  {
    "title": "Após 30 anos abandonado, prédio redondo que virou símbolo do centro pode ganhar uma nova vida com apartamentos modernos e um projeto de transformação que promete mudar sua história",
    "url": "https://www.tupi.fm/entretenimento/apos-30-anos-abandonado-predio-redondo-que-virou-simbolo-do-centro-pode-ganhar-uma-nova-vida-com-apartamentos-modernos-e-um-projeto-de-transformacao-que-promete-mudar-sua-historia/",
    "source": "Super Rádio Tupi",
@@ -128,6 +209,15 @@
    "img": "https://curtamais.com.br/goiania/wp-content/uploads/sites/2/2026/10/Intercambio-Rodoviario-ao-Entardecer.webp"
   },
   {
+   "title": "CASA PRÓPRIA - Com apoio da Assistência Social, duas famílias recebem moradias em São João d’Aliança.",
+   "url": "https://ovetor.com.br/casa-propria-com-apoio-da-assistencia-social-duas-familias-recebem-moradias-em-sao-joao-dalianca/",
+   "source": "O VETOR",
+   "date": "2026-10-26T23:08:13Z",
+   "cat": "mercado",
+   "local": false,
+   "img": "https://ovetor.com.br/wp-content/uploads/2026/10/CASA-CAPA.jpeg"
+  },
+  {
    "title": "Goiânia lança licitação de R$ 5,2 milhões para requalificação viária da T-63",
    "url": "https://opopular.com.br/cidades/goiania-lanca-licitac-o-de-r-5-2-milh-es-para-requalificac-o-viaria-da-t-63-1.3473215",
    "source": "O Popular",
@@ -153,15 +243,6 @@
    "cat": "mercado",
    "local": true,
    "img": "https://senadorcanedo.go.gov.br/wp-content/uploads/2026/10/as.jpeg"
-  },
-  {
-   "title": "Eixo Centro-Universitário ganha primeiro empreendimento ultracompacto após mudança nas regras de IPTU e ITBI",
-   "url": "https://www.administradores.com.br/artigos/eixo-centro-universitario-ganha-primeiro-empreendimento-ultracompacto-apos-mudanca-nas-regras-de-iptu-e-itbi",
-   "source": "Blog do PAULO MELO",
-   "date": "2026-10-26T19:40:00Z",
-   "cat": "regras",
-   "local": false,
-   "img": "https://cdn.administradores.com.br/app/uploads/2026/10/23104046/61o8nP9oDd0.jpg"
   },
   {
    "title": "C’alma Chocolate inaugura loja no Setor Marista, em Goiânia",
@@ -524,6 +605,15 @@
    "img": "https://cdn.conexaohost.com.br/img/500x500/1/0/webp/arquivos/1918/conteudo/posts/713368.jpg"
   },
   {
+   "title": "Eixo Centro-Universitário ganha primeiro empreendimento ultracompacto após mudança nas regras de IPTU e ITBI",
+   "url": "https://www.administradores.com.br/artigos/eixo-centro-universitario-ganha-primeiro-empreendimento-ultracompacto-apos-mudanca-nas-regras-de-iptu-e-itbi",
+   "source": "Administradores",
+   "date": "2026-10-23T17:51:00Z",
+   "cat": "regras",
+   "local": false,
+   "img": "https://cdn.administradores.com.br/app/uploads/2026/10/23104046/61o8nP9oDd0.jpg"
+  },
+  {
    "title": "Com alta de 209% nas vendas, cidade do Litoral Norte de SC vira novo “diamante” do mercado imobiliário",
    "url": "https://www.nsctotal.com.br/economia/com-alta-de-209-nas-vendas-cidade-do-litoral-norte-de-sc-vira-novo-diamante-do-mercado-imobiliario",
    "source": "NSC Total",
@@ -704,15 +794,6 @@
    "img": "https://curtamais.com.br/goiania/wp-content/uploads/sites/2/2026/10/novo-parque-de-goiania-preserva-lago-e-mata-nativa-em-projeto-de-expansao-urbana-sILQtf.webp"
   },
   {
-   "title": "Juiz antecipa maioria do STF e afasta ITBI sobre imóveis integralizados em holding familiar",
-   "url": "https://ibdfam.org.br/noticias/14351/Juiz+antecipa+maioria+do+STF+e+afasta+ITBI+sobre+im%C3%B3veis+integralizados+em+holding+familiar",
-   "source": "IBDFAM",
-   "date": "2026-10-22T19:00:25Z",
-   "cat": "regras",
-   "local": false,
-   "img": "https://ibdfam.org.br/opengraph-image"
-  },
-  {
    "title": "Não incide ITBI na integralização de imóveis em holding",
    "url": "https://www.migalhas.com.br/depeso/467027/nao-incide-itbi-na-integralizacao-de-imoveis-em-holding",
    "source": "Migalhas",
@@ -756,6 +837,15 @@
    "cat": "mercado",
    "local": true,
    "img": "https://i0.wp.com/www.diariodeaparecida.com.br/wp-content/uploads/2026/10/mabel-1.jpeg?fit=1280%2C851&ssl=1"
+  },
+  {
+   "title": "Juiz antecipa maioria do STF e afasta ITBI sobre imóveis integralizados em holding familiar",
+   "url": "https://ibdfam.org.br/noticias/14351/Juiz+antecipa+maioria+do+STF+e+afasta+ITBI+sobre+im%C3%B3veis+integralizados+em+holding+familiar",
+   "source": "IBDFAM",
+   "date": "2026-10-22T15:00:00Z",
+   "cat": "regras",
+   "local": false,
+   "img": "https://ibdfam.org.br/opengraph-image"
   },
   {
    "title": "Secovi-SP e SindusCon-SP abrem XII Encontro de Construtores e Incorporadores",
@@ -1134,8 +1224,7 @@
    "date": "2026-10-21T05:08:41Z",
    "cat": "regras",
    "local": true,
-   "img": "",
-   "img_tried": true
+   "img": ""
   },
   {
    "title": "Marcelo Menezes homenageia Goiânia com série fotográfica “URBANO”",
@@ -1180,7 +1269,8 @@
    "date": "2026-10-20T22:23:00Z",
    "cat": "financiamento",
    "local": false,
-   "img": ""
+   "img": "",
+   "img_tried": true
   },
   {
    "title": "UEG abre inscrições para mobilidade acadêmica em seis instituições públicas de Goiás",
@@ -1262,97 +1352,6 @@
    "cat": "mercado",
    "local": false,
    "img": "https://s2-g1.glbimg.com/3lBaHzFsKP1M5o1RIIqc7Y0C7T8=/1700x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/B/U/ia3O3eT8eKHWINumFE0w/g1-2026-10-20t162009.579.jpg"
-  },
-  {
-   "title": "Teriva e Castel apresentam La Vie D'Or ao mercado imobiliário goiano nesta quarta-feira, 21 de outubro",
-   "url": "https://arenadenoticias.com.br/noticia/182174/teriva-e-castel-apresentam-la-vie-d-or-ao-mercado-imobiliario-goiano-nesta-quarta-feira-21-de-outubro",
-   "source": "Arena de Notícias",
-   "date": "2026-10-20T19:24:58Z",
-   "cat": "mercado",
-   "local": true,
-   "img": "https://arenadenoticias.com.br/images/noticias/182174/cfc656f616ce151beac51327a6ea17d3.webp"
-  },
-  {
-   "title": "Goiânia aos 93 anos: mercado imobiliário aquecido amplia debate sobre onde morar e investir",
-   "url": "https://panoramagocomunicacao.com.br/goiania-aos-93-anos-mercado-imobiliario-aquecido-amplia-debate-sobre-onde-morar-e-investir/",
-   "source": "Panoramagocomunicacao",
-   "date": "2026-10-20T19:12:49Z",
-   "cat": "mercado",
-   "local": true,
-   "img": "https://panoramagocomunicacao.com.br/wp-content/uploads/2026/10/Foto-divulgacao-2.jpeg"
-  },
-  {
-   "title": "Empresas imobiliárias não pagam ITBI ao receber imóveis de sócios, decide STF",
-   "url": "https://investnews.com.br/financas/holding-imobiliaria-itbi-receber-imoveis/",
-   "source": "InvestNews",
-   "date": "2026-10-20T18:47:20Z",
-   "cat": "regras",
-   "local": false,
-   "img": "https://media.investnews.com.br/uploads/2026/10/impostoimoveis-1200x630.jpg"
-  },
-  {
-   "title": "Empresas imobiliárias não precisam pagar ITBI ao transferir imóveis, decide STF",
-   "url": "https://investnews.com.br/financas/holding-imobiliaria-itbi-receber-imoveis/",
-   "source": "InvestNews",
-   "date": "2026-10-20T18:47:20Z",
-   "cat": "regras",
-   "local": false,
-   "img": "https://media.investnews.com.br/uploads/2026/10/impostoimoveis-1200x630.jpg"
-  },
-  {
-   "title": "STF mantém imunidade de ITBI em integralização de capital de imobiliárias",
-   "url": "https://economia.uol.com.br/noticias/estadao-conteudo/2026/10/20/stf-mantem-imunidade-de-itbi-em-integralizacao-de-capital-de-imobiliarias.htm",
-   "source": "UOL Economia",
-   "date": "2026-10-20T18:08:00Z",
-   "cat": "regras",
-   "local": false,
-   "img": "",
-   "img_tried": true
-  },
-  {
-   "title": "Nova lei em Santos obriga plantio de árvores; em Goiânia, construtora já adota medida voluntariamente",
-   "url": "https://revistakdea360.com.br/noticia/95190/nova-lei-em-santos-obriga-plantio-de-arvores-em-goiania-construtora-ja-adota-medida-voluntariamente",
-   "source": "Portal Revista Kdea 360",
-   "date": "2026-10-20T18:03:41Z",
-   "cat": "regras",
-   "local": true,
-   "img": ""
-  },
-  {
-   "title": "Núcleo Imobiliário completa dez anos e atende nove incorporadoras em gestão comercial",
-   "url": "https://www.administradores.com.br/noticias/nucleo-imobiliario-completa-dez-anos-e-atende-nove-incorporadoras-em-gestao-comercial",
-   "source": "Administradores",
-   "date": "2026-10-20T17:46:00Z",
-   "cat": "lancamentos",
-   "local": false,
-   "img": "https://cdn.administradores.com.br/app/uploads/2026/10/20144345/CAPAS-MATERIA-SITE-GRANDES-2000px-9-2.jpg"
-  },
-  {
-   "title": "Daniel e Leandro prestigiam inauguração do novo Fórum Cível de Aparecida de Goiânia",
-   "url": "https://www.diariodeaparecida.com.br/2026/10/20/daniel-e-leandro-prestigiam-inauguracao-do-novo-forum-civel-de-aparecida-de-goiania/",
-   "source": "Diario de Aparecida",
-   "date": "2026-10-20T17:44:18Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://i0.wp.com/www.diariodeaparecida.com.br/wp-content/uploads/2026/10/TJ-GO.jpeg?fit=1128%2C752&ssl=1"
-  },
-  {
-   "title": "Prédio redondo abandonado há 30 anos terá apartamentos de aluguel no Centro de Goiânia",
-   "url": "https://www.dm.com.br/cotidiano/predio-redondo-abandonado-ha-30-anos-tera-apartamentos-de-aluguel-no-centro-de-goiania/",
-   "source": "Diário da Manhã",
-   "date": "2026-10-20T16:35:00Z",
-   "cat": "mercado",
-   "local": true,
-   "img": "https://www.dm.com.br/wp-content/uploads/2026/10/Foto-reproducaoX-34.png"
-  },
-  {
-   "title": "Por maioria, STF garante imunidade de ITBI a empresas imobiliárias",
-   "url": "https://www.infomoney.com.br/politica/por-maioria-stf-garante-imunidade-de-itbi-a-empresas-imobiliarias/",
-   "source": "InfoMoney",
-   "date": "2026-10-20T16:31:47Z",
-   "cat": "regras",
-   "local": false,
-   "img": "https://www.infomoney.com.br/wp-content/uploads/2025/09/2025-09-12T143253Z_1_LYNXNPEL8B0NG_RTROPTP_4_POLITICA-JULGAMENTO-BOLSONARO-ATA.jpg"
   }
  ]
 }
