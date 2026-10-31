@@ -1,6 +1,87 @@
 {
- "updated": "2026-10-30T15:31:18Z",
+ "updated": "2026-10-31T00:21:36Z",
  "items": [
+  {
+   "title": "Ter a casa própria virou um privilégio?",
+   "url": "https://www.jornalopcao.com.br/colunas-e-blogs/faltou-dizer-colunas-e-blogs/ter-a-casa-propria-virou-um-privilegio-884392/",
+   "source": "Jornal Opção",
+   "date": "2026-10-30T23:49:06Z",
+   "cat": "mercado",
+   "local": true,
+   "img": "https://cdn.jornalopcao.com.br/assets/2026/10/30234522/1793403918-425196786-casa-nova-dicas.webp"
+  },
+  {
+   "title": "Busca por patrimônio mantém interesse por imóveis em alta e aparece nos resultados da Ademicon em Goiânia",
+   "url": "https://panoramagocomunicacao.com.br/busca-por-patrimonio-mantem-interesse-por-imoveis-em-alta-e-aparece-nos-resultados-da-ademicon-em-goiania/",
+   "source": "Panoramagocomunicacao",
+   "date": "2026-10-30T22:12:59Z",
+   "cat": "mercado",
+   "local": true,
+   "img": "https://panoramagocomunicacao.com.br/wp-content/uploads/2026/10/Foto-Alcimar-Nogueira-de-Medeiros-licenciado-da-Ademicon-scaled.jpeg"
+  },
+  {
+   "title": "Região Metropolitana de Goiânia pode ganhar novo município; entenda",
+   "url": "https://opopular.com.br/cidades/regi-o-metropolitana-de-goiania-pode-ganhar-novo-municipio-entenda-1.3471486",
+   "source": "O Popular",
+   "date": "2026-10-30T21:39:10Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://opopular.com.br/image/policy:1.3475184:1793396246/image.jpg"
+  },
+  {
+   "title": "Vistoria em imóvel mobiliado: o que checar antes de assinar o contrato de aluguel?",
+   "url": "https://www.dm.com.br/dicas/vistoria-em-imovel-mobiliado-o-que-checar-antes-de-assinar-o-contrato-de-aluguel/",
+   "source": "DM",
+   "date": "2026-10-30T21:27:42Z",
+   "cat": "mercado",
+   "local": true,
+   "img": "https://www.dm.com.br/wp-content/uploads/2025/08/728X90PX_RACISMO_CMG-1.gif"
+  },
+  {
+   "title": "Incorporadoras do MCMV: R$ 16 bi/ano em crédito de entrada ameaça margens",
+   "url": "https://valor.globo.com/patrocinado/pulse-brand/noticia/2026/10/30/incorporadoras-do-mcmv-r-16-biano-em-credito-de-entrada-ameaca-margens-1.ghtml",
+   "source": "Valor Econômico",
+   "date": "2026-10-30T20:21:58Z",
+   "cat": "lancamentos",
+   "local": false,
+   "img": "https://s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/public/fb_marca.png"
+  },
+  {
+   "title": "Ibama aplica R$ 890 mil em multas por cultivo de milho transgênico no entorno do Parque Nacional das Emas",
+   "url": "https://www.jornalopcao.com.br/ultimas-noticias/ibama-aplica-r-890-mil-em-multas-por-cultivo-de-milho-transgenico-no-entorno-do-parque-nacional-das-emas-884234/",
+   "source": "Jornal Opção",
+   "date": "2026-10-30T19:49:15Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://cdn.jornalopcao.com.br/assets/2026/10/30191242/1793387562-ibama-1.webp"
+  },
+  {
+   "title": "Reformas de imóveis em Goiás podem ficar até 15% mais caras em 2027, diz SindusCon-GO",
+   "url": "https://www.jornalopcao.com.br/ultimas-noticias/reformas-de-imoveis-em-goias-podem-ficar-ate-15-mais-caras-em-2027-diz-sinduscon-go-884194/",
+   "source": "Jornal Opção",
+   "date": "2026-10-30T18:32:01Z",
+   "cat": "mercado",
+   "local": true,
+   "img": "https://cdn.jornalopcao.com.br/assets/2025/11/03104349/casa-em-reforma.webp"
+  },
+  {
+   "title": "Aumento da taxa de juros no financiamento imobiliário: Bradesco, Itaú e Santander encarecem a casa própria",
+   "url": "https://ncnews.com.br/2026/10/30/financiamento-imobiliario-caro-alta-juros/",
+   "source": "Ncnews",
+   "date": "2026-10-30T18:27:57Z",
+   "cat": "financiamento",
+   "local": false,
+   "img": "https://ncnews.com.br/app/uploads/2026/10/Agencias-bancarias.webp"
+  },
+  {
+   "title": "Bancos elevam juros do financiamento imobiliário",
+   "url": "https://www.contabeis.com.br/noticias/80505/bancos-elevam-juros-do-financiamento-imobiliario/",
+   "source": "Portal Contabeis",
+   "date": "2026-10-30T17:30:02Z",
+   "cat": "financiamento",
+   "local": false,
+   "img": "https://images.unsplash.com/photo-1724304406928-c43b01912fa1?cs=srgb&ixid=M3wxMTAzOTcwfDB8MXxzZWFyY2h8M3x8ZmluYW5jaWFtZW50byUyMGltb2JpbGklQzMlQTFyaW98ZW58MXwwfHx8MTc5MzM2MzY4MXww&ixlib=rb-4.1.0&w=1200&fm=jpg&q=88&fit=crop&h=630&crop=focalpoint&fp-x=0.5&fp-y=0.5&fp-z=1"
+  },
   {
    "title": "Goiânia consolida protagonismo metropolitano e projeta novo ciclo de desenvolvimento aos 93 anos",
    "url": "https://www.diariodeaparecida.com.br/2026/10/30/goiania-consolida-protagonismo-metropolitano-e-projeta-novo-ciclo-de-desenvolvimento-aos-93-anos/",
@@ -47,13 +128,13 @@
    "img": "https://cdn.diariodegoias.com.br/wp-content/uploads/2026/10/30100436/55619729495_ccb6d9eef1_k.webp"
   },
   {
-   "title": "Goiás avança com 800 obras em andamento e investimentos de R$ 12,6 bilhões",
-   "url": "https://www.jornalopcao.com.br/publieditorial/goias-avanca-com-800-obras-em-andamento-e-investimentos-de-r-126-bilhoes-882818/",
-   "source": "Jornal Opção",
-   "date": "2026-10-30T09:00:00Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://cdn.jornalopcao.com.br/assets/2026/10/26233222/1793057542-publi-1-6.webp"
+   "title": "Imunidade de ITBI ao integralizar imóvel independe do ramo da empresa",
+   "url": "https://conjur.com.br/2026-out-30/tj-sp-inaugura-aplicacao-de-imunidade-de-itbi-para-imobiliarias/",
+   "source": "Consultor Jurídico",
+   "date": "2026-10-30T10:21:53Z",
+   "cat": "regras",
+   "local": false,
+   "img": "https://conjur.com.br/wp-content/uploads/2025/02/smiley-couple-signing-contract-new-house-300x200-1.jpg"
   },
   {
    "title": "Goiás moderniza malha viária com 84 obras em andamento em todas as regiões",
@@ -182,6 +263,15 @@
    "img": "https://cbic.org.br/wp-content/uploads/2026/10/videoframe96975-e1793296754555.png"
   },
   {
+   "title": "TJ/SP afasta ITBI na integralização de capital de imobiliária",
+   "url": "https://www.migalhas.com.br/quentes/467511/tj-sp-afasta-itbi-na-integralizacao-de-capital-de-imobiliaria",
+   "source": "Migalhas",
+   "date": "2026-10-29T18:01:00Z",
+   "cat": "regras",
+   "local": false,
+   "img": "https://medproc.migalhas.com.br/https__img5.migalhas.com.br__SL__gf_base__SL__empresas__SL__miga__SL__imagens__SL__2026__SL__10__SL__29__SL__cropped_n1hiywj5.urr.jpg._PROC_CP75CCH31622400.jpg?v=20261029141311"
+  },
+  {
    "title": "Confira a programação dos parques Mutirama e Zoológico neste fim de semana e feriado",
    "url": "https://www.goiania.go.gov.br/agora/confira-a-programacao-dos-parques-mutirama-e-zoologico-neste-fim-de-semana-e-feriado",
    "source": "Goiânia (Prefeitura)",
@@ -292,7 +382,7 @@
   {
    "title": "Artigo orienta gestores sobre a atualização patrimonial de imóveis e atuação no ITBI",
    "url": "https://cnm.org.br/comunicacao/noticias/artigo-orienta-gestores-sobre-a-atualizacao-patrimonial-de-imoveis-e-atuacao-no-itbi",
-   "source": "Confederação Nacional de Municípios",
+   "source": "Confederação Nacional de Municípios (CNM)",
    "date": "2026-10-29T13:31:10Z",
    "cat": "regras",
    "local": false,
@@ -441,6 +531,15 @@
    "cat": "financiamento",
    "local": false,
    "img": "https://www.parabrisa.com.br/public/fotos/noticias/n35439_d68a2320472d10b53d5b01fa8642c89d.png"
+  },
+  {
+   "title": "Goiás avança com 800 obras em andamento e investimentos de R$ 12,6 bilhões",
+   "url": "https://www.jornalopcao.com.br/publieditorial/goias-avanca-com-800-obras-em-andamento-e-investimentos-de-r-126-bilhoes-882818/",
+   "source": "Jornal Opção",
+   "date": "2026-10-28T09:00:00Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://cdn.jornalopcao.com.br/assets/2026/10/26233222/1793057542-publi-1-6.webp"
   },
   {
    "title": "Bradesco sobe juros do crédito imobiliário: por quê? E os outros bancos?",
@@ -702,6 +801,15 @@
    "cat": "regras",
    "local": true,
    "img": "https://www.maisgoias.com.br/wp-content/uploads/2026/10/large-762x429-1793025178.webp"
+  },
+  {
+   "title": "Correios leva 12 imóveis a licitação em sete estados, com possibilidade de financiamento e uso do FGTS",
+   "url": "https://www.aguaboanews.com.br/noticias/exibir.asp?id=47544&noticia=correios-leva-12-imoveis-a-licitacao-em-sete-estados-com-possibilidade-de-financiamento-e-uso-do-fgts",
+   "source": "Jornal Gazeta de Varginha",
+   "date": "2026-10-26T14:02:06Z",
+   "cat": "financiamento",
+   "local": false,
+   "img": "https://www.aguaboanews.com.br/imgsite/noticias/amp-Imovel-Correios-em-MT.png"
   },
   {
    "title": "Governo de Goiás inicia obras em novo trecho da GO-020 sentido Goiânia-Bela Vista",
@@ -1019,15 +1127,6 @@
    "img": "https://medproc.migalhas.com.br/author.jpg._PROC_AC467140AT1AP11.jpg?v=20261023160528"
   },
   {
-   "title": "Correios leva 12 imóveis a licitação em sete estados, com possibilidade de financiamento e uso do FGTS",
-   "url": "https://www.aguaboanews.com.br/noticias/exibir.asp?id=47544&noticia=correios-leva-12-imoveis-a-licitacao-em-sete-estados-com-possibilidade-de-financiamento-e-uso-do-fgts",
-   "source": "Agua Boa News",
-   "date": "2026-10-23T18:23:00Z",
-   "cat": "financiamento",
-   "local": false,
-   "img": "https://www.aguaboanews.com.br/imgsite/noticias/amp-Imovel-Correios-em-MT.png"
-  },
-  {
    "title": "Goiânia se prepara para receber mega evento de imóveis com 800 participantes e falas de famosos",
    "url": "https://www.bra1.com.br/economia/id-713368/goiania_se_prepara_para_receber_mega_evento_de_imoveis_com_800_participantes_e_falas_de_famosos",
    "source": "Bra1",
@@ -1102,7 +1201,7 @@
   {
    "title": "Cobrança de IBS e CBS nas operações com imóveis é tema de bate-papo da CNM sobre Reforma Tributária",
    "url": "https://cnm.org.br/comunicacao/noticias/cobranca-de-ibs-e-cbs-nas-operacoes-com-imoveis-e-tema-de-bate-papo-da-cnm-sobre-reforma-tributaria",
-   "source": "Confederação Nacional de Municípios",
+   "source": "Confederação Nacional de Municípios (CNM)",
    "date": "2026-10-23T13:46:10Z",
    "cat": "regras",
    "local": false,
@@ -1251,105 +1350,6 @@
    "cat": "cidade",
    "local": true,
    "img": "https://revistazelo.com.br/wp-content/uploads/2026/10/Transito-de-Goiania.webp"
-  },
-  {
-   "title": "Goiânia pode dar fim aos congestionamentos? Documentário do Mais Goiás investiga soluções para o trânsito; assista",
-   "url": "https://www.maisgoias.com.br/cidades/goiania/goiania-pode-dar-fim-aos-congestionamentos-documentario-do-mais-goias-investiga-solucoes-para-o-transito-assista/",
-   "source": "Mais Goiás",
-   "date": "2026-10-22T16:31:00Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://www.maisgoias.com.br/wp-content/uploads/2026/10/cogestionamento-na-avenda-t-63-em-goiania-1792684108.webp"
-  },
-  {
-   "title": "Prefeitura de Goiânia autoriza regularização de 481 imóveis no Condomínio Rio Branco",
-   "url": "https://www.diariodeaparecida.com.br/2026/10/22/prefeitura-de-goiania-autoriza-regularizacao-de-481-imoveis-no-condominio-rio-branco/",
-   "source": "Diario de Aparecida",
-   "date": "2026-10-22T16:18:55Z",
-   "cat": "mercado",
-   "local": true,
-   "img": "https://i0.wp.com/www.diariodeaparecida.com.br/wp-content/uploads/2026/10/mabel-1.jpeg?fit=1280%2C851&ssl=1"
-  },
-  {
-   "title": "Juiz antecipa maioria do STF e afasta ITBI sobre imóveis integralizados em holding familiar",
-   "url": "https://ibdfam.org.br/noticias/14351/Juiz+antecipa+maioria+do+STF+e+afasta+ITBI+sobre+im%C3%B3veis+integralizados+em+holding+familiar",
-   "source": "IBDFAM",
-   "date": "2026-10-22T15:00:00Z",
-   "cat": "regras",
-   "local": false,
-   "img": "https://ibdfam.org.br/opengraph-image"
-  },
-  {
-   "title": "Secovi-SP e SindusCon-SP abrem XII Encontro de Construtores e Incorporadores",
-   "url": "https://secovi.com.br/secovi-sp-e-sinduscon-sp-abrem-xii-encontro-de-construtores-e-incorporadores/",
-   "source": "SECOVI-SP",
-   "date": "2026-10-22T14:53:54Z",
-   "cat": "mercado",
-   "local": false,
-   "img": "https://secovi.com.br/wp-content/uploads/2026/10/SLJ_0640-1.jpg"
-  },
-  {
-   "title": "Projeto de duplicação da Rua da Divisa reacende debate ambiental em Goiânia",
-   "url": "https://g1.globo.com/google/amp/go/goias/videos-bom-dia-go/video/projeto-de-duplicacao-da-rua-da-divisa-reacende-debate-ambiental-em-goiania-15112357.ghtml",
-   "source": "G1",
-   "date": "2026-10-22T14:52:36Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://s02.video.glbimg.com/x720/15112357.jpg"
-  },
-  {
-   "title": "Conta de luz fica mais cara em Goiás: reajuste residencial de 7,36% entra em vigor nesta quinta (22)",
-   "url": "https://diariodegoias.com.br/conta-de-luz-fica-mais-cara-em-goias-reajuste-residencial-de-736-entra-em-vigor-nesta-quinta-22/551835/",
-   "source": "Diário de Goiás",
-   "date": "2026-10-22T14:17:50Z",
-   "cat": "mercado",
-   "local": true,
-   "img": "https://cdn.diariodegoias.com.br/wp-content/uploads/2023/10/equatorial-energia.jpg"
-  },
-  {
-   "title": "Corpo é encontrado às margens Avenida Botafogo, em Goiânia",
-   "url": "https://aredacao.com.br/corpo-e-encontrado-as-margens-avenida-botafogo-em-goiania/",
-   "source": "A Redação",
-   "date": "2026-10-22T13:58:37Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://aredacao.com.br/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-22-at-10.30.22-300x225.jpeg"
-  },
-  {
-   "title": "Alta do IGP-M pressiona reajustes de aluguel em Goiânia e coloca famílias em busca de imóveis menores",
-   "url": "https://www.podergoias.com.br/materia/27750/alta-do-igp-m-pressiona-reajustes-de-aluguel-em-goiania-e-coloca-familias-em-busca-de-imoveis-menores",
-   "source": "Poder Goiás",
-   "date": "2026-10-22T13:40:00Z",
-   "cat": "mercado",
-   "local": true,
-   "img": ""
-  },
-  {
-   "title": "Cristiano Ronaldo supera Messi e é jogador mais bem pago do mundo",
-   "url": "https://aredacao.com.br/cristiano-ronaldo-supera-messi-e-e-jogador-mais-bem-pago-do-mundo-vini-jr-fica-no-top-5/",
-   "source": "A Redação",
-   "date": "2026-10-22T13:32:57Z",
-   "cat": "regras",
-   "local": false,
-   "img": "https://aredacao.com.br/wp-content/uploads/2026/07/portugal-1-300x178.jpg"
-  },
-  {
-   "title": "Novo crédito imobiliário eleva intenção de compra, aponta estudo",
-   "url": "https://guaiba.com.br/novo-credito-imobiliario-eleva-intencao-de-compra-aponta-estudo/",
-   "source": "Rádio Guaíba",
-   "date": "2026-10-22T12:00:00Z",
-   "cat": "financiamento",
-   "local": false,
-   "img": "https://guaiba.com.br/wp-content/uploads/2021/11/Aluguel.jpg"
-  },
-  {
-   "title": "Aniversário de Goiânia terá interdições e desvios no trânsito; veja as ruas afetadas",
-   "url": "https://www.goias365.com.br/aniversario-de-goiania-tera-interdicoes-e-desvios-no-transito-veja-as-ruas-afetadas/",
-   "source": "Goiás365",
-   "date": "2026-10-22T11:42:22Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://www.goias365.com.br/wp-content/uploads/2026/10/desvios-no-transito-para-desfile-de-aniversario-de-Goiania-SET.jpeg"
   }
  ]
 }
