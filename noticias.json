@@ -1,6 +1,78 @@
 {
- "updated": "2026-11-04T01:01:54Z",
+ "updated": "2026-11-04T16:49:51Z",
  "items": [
+  {
+   "title": "Goiânia terá parque de R$ 9,5 milhões anunciado como o terceiro maior da cidade; conheça o projeto",
+   "url": "https://www.jornalopcao.com.br/ultimas-noticias/goiania-tera-parque-de-r-95-milhoes-anunciado-como-o-terceiro-maior-da-cidade-conheca-o-projeto-885428/",
+   "source": "Jornal Opção",
+   "date": "2026-11-04T16:10:56Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://cdn.jornalopcao.com.br/assets/2026/11/04154234/1793806953-whatsapp-image-2026-11-04-at-12-41-31.webp"
+  },
+  {
+   "title": "Museu da Imagem e do Som de Goiás inaugura exposição que explora som e arte contemporânea",
+   "url": "https://aredacao.com.br/museu-da-imagem-e-do-som-de-goias-inaugura-exposicao-que-explora-som-e-arte-contemporanea/",
+   "source": "A Redação",
+   "date": "2026-11-04T15:26:23Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://aredacao.com.br/wp-content/uploads/2026/11/07.-Leandro-Araujo-e-Renata-Bastos-300x169.png"
+  },
+  {
+   "title": "Prefeitura de Goiânia inaugura Cmei no Setor Pedro Ludovico com 150 vagas em tempo integral",
+   "url": "https://diariodegoias.com.br/prefeitura-de-goiania-inaugura-cmei-no-setor-pedro-ludovico-com-150-vagas-em-tempo-integral/553238/",
+   "source": "Diário de Goiás",
+   "date": "2026-11-04T15:00:52Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://cdn.diariodegoias.com.br/wp-content/uploads/2026/11/04145029/inauguracao-cmei-pedro-ludovico_joabe-mendonca.webp"
+  },
+  {
+   "title": "Mabel inaugura Cmei com 150 vagas em tempo integral no Setor Pedro Ludovico",
+   "url": "https://www.goiania.go.gov.br/agora/mabel-inaugura-cmei-com-150-vagas-em-tempo-integral-no-setor-pedro-ludovico",
+   "source": "Goiânia (Prefeitura)",
+   "date": "2026-11-04T13:37:52Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://www.goiania.go.gov.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-04-at-10.30.52.jpeg"
+  },
+  {
+   "title": "Prefeitura de Goiânia investe em parques e infraestrutura urbana",
+   "url": "https://ohoje.com/2026/11/04/prefeitura-de-goiania-investe-em-parques-e-infraestrutura-urbana/",
+   "source": "O Hoje",
+   "date": "2026-11-04T12:00:29Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://ohoje.com/wp-content/uploads/2026/11/DJI_20260221132930_0079_D.webp"
+  },
+  {
+   "title": "HC-UFG inaugura centro especializado de reabilitação de mulheres com câncer de mama",
+   "url": "https://diariodegoias.com.br/hc-ufg-inaugura-centro-especializado-de-reabilitacao-de-mulheres-com-cancer-de-mama/553221/",
+   "source": "Diário de Goiás",
+   "date": "2026-11-04T11:14:39Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://cdn.diariodegoias.com.br/wp-content/uploads/2026/11/04110336/cercor-hc-ufg_divulgacao.webp"
+  },
+  {
+   "title": "Prefeitura de SP identifica desvios em 700 imóveis sociais e prevê multas a construtoras; Pinheiros e Barra Funda lideram casos",
+   "url": "https://g1.globo.com/sp/sao-paulo/noticia/2026/11/04/prefeitura-de-sp-identifica-desvios-em-700-imoveis-sociais-e-preve-multas-a-construtoras-pinheiros-e-barra-funda-lideram-casos.ghtml",
+   "source": "G1",
+   "date": "2026-11-04T07:27:45Z",
+   "cat": "mercado",
+   "local": false,
+   "img": "https://s2-g1.glbimg.com/El3yYGlsFx8ftgndQAlNUDWy1E0=/5184x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/Y/E/BuvaYCSAGRaKKokorI8A/cidade-sp-08.jpg"
+  },
+  {
+   "title": "Goiânia aprova empreendimento imobiliário em nove meses após mudanças nos processos de licenciamento",
+   "url": "https://panoramagocomunicacao.com.br/goiania-aprova-empreendimento-imobiliario-em-nove-meses-apos-mudancas-nos-processos-de-licenciamento/",
+   "source": "Panoramagocomunicacao",
+   "date": "2026-11-04T04:08:40Z",
+   "cat": "lancamentos",
+   "local": true,
+   "img": "https://panoramagocomunicacao.com.br/wp-content/uploads/2026/11/Encontro-Seplana-e-Sefic-no-Jardins-Austria-FGR-2-.jpg"
+  },
   {
    "title": "Consórcio de São Paulo vai gerir fundo imobiliário de Goiás; custo global é de R$ 58,9 milhões",
    "url": "https://www.jornalopcao.com.br/ultimas-noticias/consorcio-de-sao-paulo-vai-gerir-fundo-imobiliario-de-goias-custo-global-e-de-r-589-milhoes-885271/",
@@ -9,15 +81,6 @@
    "cat": "financiamento",
    "local": true,
    "img": "https://cdn.jornalopcao.com.br/assets/2026/02/03000044/1770054888-palacio-pedro-ludovico.webp"
-  },
-  {
-   "title": "Goinfra altera horário de execução das obras na GO-020 em razão das chuvas",
-   "url": "https://aredacao.com.br/goinfra-altera-horario-de-execucao-das-obras-na-go-020-em-razao-das-chuvas/",
-   "source": "A Redação",
-   "date": "2026-11-03T22:05:42Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://aredacao.com.br/wp-content/uploads/2026/11/11-300x163.jpg"
   },
   {
    "title": "Grande Goiânia pode ganhar 18 novos parques com lagos, mirantes e áreas de lazer",
@@ -32,7 +95,7 @@
    "title": "Após denúncia de abandono, TJ-GO e Prefeitura de Goiânia articulam resgate de obra de Maria Guilhermina",
    "url": "https://www.jornalopcao.com.br/ultimas-noticias/apos-denuncia-de-abandono-tj-go-e-prefeitura-articulam-resgate-de-obra-de-maria-guilhermina-885185/",
    "source": "Jornal Opção",
-   "date": "2026-11-03T19:43:13Z",
+   "date": "2026-11-03T19:43:00Z",
    "cat": "cidade",
    "local": true,
    "img": "https://cdn.jornalopcao.com.br/assets/2026/11/03194055/1793734855-1793044202-maria-guilhermina-1-foto-herbert-moraes-2026-pk1300-p-865.webp"
@@ -74,15 +137,6 @@
    "img": "https://cdn.conexaohost.com.br/img/500x500/1/0/webp/arquivos/1918/conteudo/posts/719782.jpg"
   },
   {
-   "title": "“Vamos matar Trump”: Irã instala outdoor com ameaça ao presidente dos EUA em praça de Teerã",
-   "url": "https://www.jornalopcao.com.br/mundo/vamos-matar-trump-ira-instala-outdoor-com-ameaca-ao-presidente-dos-eua-em-praca-de-teera-885177/",
-   "source": "Jornal Opção",
-   "date": "2026-11-03T18:15:57Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://cdn.jornalopcao.com.br/assets/2026/11/03181500/1793729699-whatsapp-image-2026-11-03-at-15-14-49.webp"
-  },
-  {
    "title": "ABL Prime leva 26 corretores premiados ao maior evento imobiliário da América Latina, em São Paulo",
    "url": "https://panoramagocomunicacao.com.br/abl-prime-leva-26-corretores-premiados-ao-maior-evento-imobiliario-da-america-latina-em-sao-paulo/",
    "source": "Panoramagocomunicacao",
@@ -99,6 +153,15 @@
    "cat": "cidade",
    "local": true,
    "img": "https://www.goiania.go.gov.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-03-at-12.39.52.jpeg"
+  },
+  {
+   "title": "Prefeitura de SP aplica 21 sanções a incorporadoras por desvio em imóveis populares",
+   "url": "https://bpmoney.com.br/brasil/his-hmp-multas-irregularidades-apartamentos-sp-78-milhoes/",
+   "source": "BPMoney",
+   "date": "2026-11-03T16:14:51Z",
+   "cat": "lancamentos",
+   "local": false,
+   "img": "https://uploads.bpmoney.com.br/2026/11/img_9493.jpg-13-scaled.jpg"
   },
   {
    "title": "Mabel inaugura novo Centro de Saúde do Servidor em Goiânia",
@@ -315,15 +378,6 @@
    "cat": "financiamento",
    "local": false,
    "img": "https://www.acidadeon.com/wp-content/uploads/sites/2/2023/08/img_padrao.jpg"
-  },
-  {
-   "title": "Circulação durante a madrugada exige atenção redobrada e respeito às regras de trânsito",
-   "url": "https://www.goiania.go.gov.br/agora/circulacao-durante-a-madrugada-exige-atencao-redobrada-e-respeito-as-regras-de-transito",
-   "source": "Goiânia (Prefeitura)",
-   "date": "2026-11-01T15:00:00Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://www.goiania.go.gov.br/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-28-at-12.45.05-scaled.jpeg"
   },
   {
    "title": "Carros exóticos, motos e manobras radicais transformam praça de Goiânia em exposição automotiva",
@@ -632,6 +686,15 @@
    "img": "https://serranoticiario.com.br/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-22-at-20.04.32.jpeg"
   },
   {
+   "title": "Fundo imobiliário com recursos de cooperativas estreia com financiamento de loteamento em SP",
+   "url": "https://valor.globo.com/financas/noticia/2026/10/30/fundo-imobilirio-com-recursos-de-cooperativas-estreia-com-financiamento-de-loteamento-em-sp.ghtml",
+   "source": "Valor Econômico",
+   "date": "2026-10-30T16:13:38Z",
+   "cat": "financiamento",
+   "local": false,
+   "img": "https://s2-valor.glbimg.com/DEx1AFjkvZ5seotok4zTFSg-GIA=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2020/g/z/KZpp1XQzetAxXKXA7J4Q/chronis-yan-1m4wytqvd4o-unsplash.jpg"
+  },
+  {
    "title": "Bancos privados aumentam taxas do crédito da casa própria em resposta à alta nos juros futuros",
    "url": "https://diariodocomercio.com.br/financas/bancos-subir-credito-imobiliario/",
    "source": "Diário do Comércio",
@@ -657,6 +720,15 @@
    "cat": "mercado",
    "local": true,
    "img": "https://s02.video.glbimg.com/x720/15145405.jpg"
+  },
+  {
+   "title": "Financiamento imobiliário fica mais caro no Brasil. Bradesco, Itaú e Santander elevam juros após disparada das taxas futuras",
+   "url": "https://br.advfn.com/jornal/2026/10/financiamento-imobiliario-fica-mais-caro-no-brasil-bradesco-itau-e-santander-elevam-juros-apos-disparada-das-taxas-futuras",
+   "source": "ADVFN",
+   "date": "2026-10-30T14:01:03Z",
+   "cat": "financiamento",
+   "local": false,
+   "img": "https://br.advfn.com/jornal/files/2026/09/imovel-generico-2026-640x336.jpg"
   },
   {
    "title": "Bradesco, Itaú e Santander aumentam juros do financiamento imobiliário, com taxas chegando a 15% ao ano mais TR, enquanto Caixa não informa se também fará reajuste",
@@ -693,15 +765,6 @@
    "cat": "mercado",
    "local": false,
    "img": "https://uploads.portas.com.br/2026/10/Vendas-de-imoveis-em-BH-e-Nova-Lima-chegam-a-R-35-bilhoes-no-semestre-1536x864.jpg"
-  },
-  {
-   "title": "Bancos elevam taxas de financiamento imobiliário após disparada dos juros futuros",
-   "url": "https://valor.globo.com/financas/noticia/2026/10/29/bancos-elevam-taxas-de-financiamento-imobilirio-aps-disparada-dos-juros-futuros.ghtml",
-   "source": "Contec Brasil",
-   "date": "2026-10-30T12:01:12Z",
-   "cat": "financiamento",
-   "local": false,
-   "img": "https://s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/public/fb_marca.png"
   },
   {
    "title": "Rompimento de adutora provoca jato de água e complica trânsito na Avenida Leste-Oeste, em Goiânia",
@@ -765,6 +828,24 @@
    "cat": "financiamento",
    "local": false,
    "img": "https://s2-g1.glbimg.com/-z_5txXG3C1PkfVBZyHuVxOd7JM=/2000x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/l/d/SxPEQ2TZy61pG3o9uZMA/fotojet-38-.jpg"
+  },
+  {
+   "title": "Secovi-SP participa do 13º Construindo o Grande ABC, em São Bernardo do Campo",
+   "url": "https://secovi.com.br/secovi-sp-participa-do-13o-construindo-o-grande-abc-em-sao-bernardo-do-campo/",
+   "source": "SECOVI-SP",
+   "date": "2026-10-30T07:00:00Z",
+   "cat": "mercado",
+   "local": false,
+   "img": "https://secovi.com.br/wp-content/uploads/2026/10/55620598715_0605991350_c.jpg"
+  },
+  {
+   "title": "Diretor regional do Secovi-SP em Santos destaca chegada de compradores do ABC e da capital à Baixada Santista",
+   "url": "https://secovi.com.br/diretor-regional-do-secovi-sp-em-santos-destaca-chegada-de-compradores-do-abc-e-da-capital-a-baixada-santista/",
+   "source": "SECOVI-SP",
+   "date": "2026-10-30T07:00:00Z",
+   "cat": "mercado",
+   "local": false,
+   "img": "https://secovi.com.br/wp-content/uploads/2026/10/Imagem12.png"
   },
   {
    "title": "Goiás avança com 800 obras em andamento e investimentos de R$ 12,6 bilhões",
@@ -938,6 +1019,15 @@
    "img": "https://cdn.jornalopcao.com.br/assets/2026/10/29152835/1793287712-cq5dam-thumbnail-cropped-750-422.webp"
   },
   {
+   "title": "Feriado de Finados deve alterar trânsito de Goiânia e Aparecida; confira mudanças",
+   "url": "https://www.maisgoias.com.br/cidades/goiania/feriado-de-finados-deve-alterar-transito-de-goiania-e-aparecida-confira/",
+   "source": "Mais Goiás",
+   "date": "2026-10-29T15:14:16Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://www.maisgoias.com.br/wp-content/uploads/2026/10/whatsapp-image-2026-10-28-at-17-18-34-1793287033.webp"
+  },
+  {
    "title": "Feriado de Finados deve alterar trânsito de Goiânia e Aparecida; confira",
    "url": "https://www.maisgoias.com.br/cidades/goiania/feriado-de-finados-deve-alterar-transito-de-goiania-e-aparecida-confira/",
    "source": "Mais Goiás",
@@ -991,6 +1081,15 @@
    "cat": "financiamento",
    "local": false,
    "img": "https://www.infomoney.com.br/wp-content/uploads/2026/10/Itau-e-Ascensao-do-Mercado-Financeiro.jpg"
+  },
+  {
+   "title": "Bancos elevam taxas de financiamento imobiliário após disparada dos juros futuros",
+   "url": "https://valor.globo.com/financas/noticia/2026/10/29/bancos-elevam-taxas-de-financiamento-imobilirio-aps-disparada-dos-juros-futuros.ghtml",
+   "source": "Valor Econômico",
+   "date": "2026-10-29T14:19:21Z",
+   "cat": "financiamento",
+   "local": false,
+   "img": "https://s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/public/fb_marca.png"
   },
   {
    "title": "CCJ rejeita veto a projeto de Aava Santiago que institui Calçadão da Rua 8, no Centro de Goiânia",
@@ -1242,8 +1341,7 @@
    "date": "2026-10-27T19:24:48Z",
    "cat": "financiamento",
    "local": false,
-   "img": "",
-   "img_tried": true
+   "img": ""
   },
   {
    "title": "Conselho Jurídico da CBIC reuniu especialistas em Goiânia para discutir mudanças legislativas e seus impactos sobre o setor da construção",
@@ -1253,105 +1351,6 @@
    "cat": "regras",
    "local": true,
    "img": "https://cbic.org.br/wp-content/uploads/2026/10/img4151-scaled-e1793126353244.jpg"
-  },
-  {
-   "title": "Goiânia avança em estrutura para frota movida a biometano no BRT",
-   "url": "https://megawhat.uol.com.br/oleo-e-gas/biometano/goiania-avanca-em-estrutura-para-frota-movida-a-biometano-no-brt/",
-   "source": "MegaWhat",
-   "date": "2026-10-27T18:39:48Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://uploads.megawhat.energy/uploads/2026/10/biometano-brt-goias-1320x880.jpg"
-  },
-  {
-   "title": "Créditos gerados por NFS-E podem reduzir valor do IPTU em...",
-   "url": "https://www.portovelho.ro.gov.br/noticias/58703",
-   "source": "Prefeitura de Porto Velho",
-   "date": "2026-10-27T16:40:00Z",
-   "cat": "regras",
-   "local": false,
-   "img": "https://www.portovelho.ro.gov.br/uploads/capas/otimizada/conteudos/capas/01M5Z75KR50CNS35JWV8MQ8PDZ.webp"
-  },
-  {
-   "title": "Festival de Cinema Francês em Goiânia: veja onde assistir e os filmes em cartaz",
-   "url": "https://www.maisgoias.com.br/divirta-se/lazer/festival-de-cinema-frances-em-goiania-veja-onde-assistir-e-os-filmes-em-cartaz/",
-   "source": "Mais Goiás",
-   "date": "2026-10-27T14:11:56Z",
-   "cat": "regras",
-   "local": true,
-   "img": "https://uploads.maisgoias.com.br/2026/09/cinema-1788311349.webp"
-  },
-  {
-   "title": "Saneago Goiás Vôlei estreia na Superliga Masculina de Vôlei nesta terça; veja onde assistir",
-   "url": "https://www.maisgoias.com.br/esportes/volei/saneago-goias-volei-estreia-na-superliga-masculina-de-volei-nesta-terca-veja-onde-assistir/",
-   "source": "Mais Goiás",
-   "date": "2026-10-27T12:53:40Z",
-   "cat": "regras",
-   "local": true,
-   "img": "https://www.maisgoias.com.br/wp-content/uploads/2026/10/capa-site-mais-goias-2026-10-27t095105-180-1793105475.webp"
-  },
-  {
-   "title": "Ceará x Goiás: onde assistir ao vivo o jogo pelo Campeonato Brasileiro Série B",
-   "url": "https://diariodegoias.com.br/ceara-x-goias-onde-assistir-ao-vivo-o-jogo-pelo-campeonato-brasileiro-serie-b/552401/",
-   "source": "Diário de Goiás",
-   "date": "2026-10-27T10:21:39Z",
-   "cat": "regras",
-   "local": true,
-   "img": "https://cdn.diariodegoias.com.br/wp-content/uploads/2026/10/27101513/43-2-scaled.webp"
-  },
-  {
-   "title": "Decisão do STF sobre ITBI pode impactar mais de 6 mil ações em tribunais estaduais",
-   "url": "https://www.jota.info/tributos/decisao-do-stf-sobre-itbi-pode-impactar-mais-de-6-mil-acoes-em-tribunais-estaduais",
-   "source": "JOTA Info",
-   "date": "2026-10-27T09:55:57Z",
-   "cat": "regras",
-   "local": false,
-   "img": "https://images.jota.info/wp-content/uploads/2023/11/itbi-freepik.jpg"
-  },
-  {
-   "title": "Gestão Vilela sanciona lei que amplia condições para habitação de interesse social em Aparecida",
-   "url": "https://aparecida.go.gov.br/gestao-vilela-sanciona-lei-que-amplia-condicoes-para-habitacao-de-interesse-social-em-aparecida",
-   "source": "Prefeitura de Aparecida de Goiânia",
-   "date": "2026-10-27T07:00:00Z",
-   "cat": "regras",
-   "local": true,
-   "img": "https://aparecida.go.gov.br/wp-content/uploads/2026/10/whatsapp-image-2026-10-28-at-08-20-47-2.jpeg"
-  },
-  {
-   "title": "Após 30 anos abandonado, prédio redondo que virou símbolo do centro pode ganhar uma nova vida com apartamentos modernos e um projeto de transformação que promete mudar sua história",
-   "url": "https://www.tupi.fm/entretenimento/apos-30-anos-abandonado-predio-redondo-que-virou-simbolo-do-centro-pode-ganhar-uma-nova-vida-com-apartamentos-modernos-e-um-projeto-de-transformacao-que-promete-mudar-sua-historia/",
-   "source": "Super Rádio Tupi",
-   "date": "2026-10-27T04:53:35Z",
-   "cat": "mercado",
-   "local": false,
-   "img": "https://www.tupi.fm/wp-content/uploads/2026/10/Transformacao-Urbana_-Torre-Circular-Antes-e-Depois_1280x720-1000x600.jpg"
-  },
-  {
-   "title": "Construção civil calcula alta nos custos com mão de obra de 3,6% até 12%",
-   "url": "https://opopular.com.br/economia/construc-o-civil-calcula-alta-nos-custos-com-m-o-de-obra-de-3-6-ate-12-1.3473450",
-   "source": "O Popular",
-   "date": "2026-10-27T01:01:27Z",
-   "cat": "mercado",
-   "local": true,
-   "img": "https://opopular.com.br/image/policy:1.3473449:1793062709/image.jpg"
-  },
-  {
-   "title": "Ampliação da Avenida Goiás Norte, em Goiânia, encontra obstáculos",
-   "url": "https://daqui.opopular.com.br/geral/ampliac-o-da-avenida-goias-norte-em-goiania-encontra-obstaculos-1.3473421",
-   "source": "Daqui",
-   "date": "2026-10-27T00:09:35Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://daqui.opopular.com.br/image/policy:1.3473355:1793052269/image.jpg?f=3x2"
-  },
-  {
-   "title": "Goiânia ganha 3 novos viadutos",
-   "url": "https://curtamais.com.br/goiania/goiania-ganha-novos-viadutos/",
-   "source": "Curta Mais - Goiânia",
-   "date": "2026-10-26T23:57:26Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://curtamais.com.br/goiania/wp-content/uploads/sites/2/2026/10/Intercambio-Rodoviario-ao-Entardecer.webp"
   }
  ]
 }
