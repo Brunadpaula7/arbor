@@ -1,6 +1,42 @@
 {
- "updated": "2026-11-04T16:49:51Z",
+ "updated": "2026-11-05T01:17:13Z",
  "items": [
+  {
+   "title": "Secovi-Goiás quer IHGG colaborando com o Congresso Nacional do Mercado Imobiliário",
+   "url": "https://aredacao.com.br/secovi-goias-quer-ihgg-colaborando-com-o-congresso-nacional-do-mercado-imobiliario/",
+   "source": "A Redação",
+   "date": "2026-11-04T19:33:30Z",
+   "cat": "mercado",
+   "local": true,
+   "img": "https://aredacao.com.br/wp-content/uploads/2026/11/IHGG-03.11.2026-reuniao-no-Secovi-GO.jpeg"
+  },
+  {
+   "title": "Região Norte ganhará novo parque público com 110 mil m²",
+   "url": "https://www.goiania.go.gov.br/agora/regiao-norte-ganhara-novo-parque-publico-com-110-mil-m%c2%b2",
+   "source": "Goiânia (Prefeitura)",
+   "date": "2026-11-04T17:57:43Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://www.goiania.go.gov.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-04-at-13.18.43.jpeg"
+  },
+  {
+   "title": "Novo parque de Goiânia será construído no Jardim Curitiba, terá mirante e investimento da Saneago",
+   "url": "https://www.jornalopcao.com.br/ultimas-noticias/novo-parque-de-goiania-sera-construido-no-jardim-curitiba-tera-mirante-e-investimento-da-saneago-885470/",
+   "source": "Jornal Opção",
+   "date": "2026-11-04T17:31:00Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://cdn.jornalopcao.com.br/assets/2026/11/04162920/1793809760-whatsapp-image-2026-11-04-at-13-18-41.webp"
+  },
+  {
+   "title": "EZTEC (EZTC3) vende menos do que lança; quem acumula estoque de imóveis?",
+   "url": "https://www.suno.com.br/noticias/estoque-de-imoveis-eztec-eztc3/",
+   "source": "Suno - Investimentos Inteligentes",
+   "date": "2026-11-04T16:41:20Z",
+   "cat": "lancamentos",
+   "local": false,
+   "img": "https://files.sunoresearch.com.br/n/uploads/2026/11/593d73ae-cidade-maia-eztec-jpg.webp"
+  },
   {
    "title": "Goiânia terá parque de R$ 9,5 milhões anunciado como o terceiro maior da cidade; conheça o projeto",
    "url": "https://www.jornalopcao.com.br/ultimas-noticias/goiania-tera-parque-de-r-95-milhoes-anunciado-como-o-terceiro-maior-da-cidade-conheca-o-projeto-885428/",
@@ -29,6 +65,15 @@
    "img": "https://cdn.diariodegoias.com.br/wp-content/uploads/2026/11/04145029/inauguracao-cmei-pedro-ludovico_joabe-mendonca.webp"
   },
   {
+   "title": "ÓRA Vaca Brava é o primeiro lançamento imobiliário do ano no Setor Bueno",
+   "url": "https://stgnews.com.br/ora-vaca-brava-e-o-primeiro-lancamento-imobiliario-do-ano-no-setor-bueno/",
+   "source": "STG News",
+   "date": "2026-11-04T14:39:42Z",
+   "cat": "lancamentos",
+   "local": false,
+   "img": "https://stgnews.com.br/wp-content/uploads/2026/11/Foto-6-Fotomontagem-vista-ORA-Vaca-Brava-compressed-scaled.webp"
+  },
+  {
    "title": "Mabel inaugura Cmei com 150 vagas em tempo integral no Setor Pedro Ludovico",
    "url": "https://www.goiania.go.gov.br/agora/mabel-inaugura-cmei-com-150-vagas-em-tempo-integral-no-setor-pedro-ludovico",
    "source": "Goiânia (Prefeitura)",
@@ -47,13 +92,13 @@
    "img": "https://ohoje.com/wp-content/uploads/2026/11/DJI_20260221132930_0079_D.webp"
   },
   {
-   "title": "HC-UFG inaugura centro especializado de reabilitação de mulheres com câncer de mama",
-   "url": "https://diariodegoias.com.br/hc-ufg-inaugura-centro-especializado-de-reabilitacao-de-mulheres-com-cancer-de-mama/553221/",
-   "source": "Diário de Goiás",
-   "date": "2026-11-04T11:14:39Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://cdn.diariodegoias.com.br/wp-content/uploads/2026/11/04110336/cercor-hc-ufg_divulgacao.webp"
+   "title": "Apartamentos garden somam 3.120 lançamentos no Rio em seis anos",
+   "url": "https://portas.com.br/noticias/apartamentos-garden-somam-3-120-lancamentos-no-rio-em-seis-anos/",
+   "source": "Portas",
+   "date": "2026-11-04T10:58:37Z",
+   "cat": "lancamentos",
+   "local": false,
+   "img": "https://uploads.portas.com.br/2026/11/Apartamentos-garden-somam-3.120-lancamentos-no-Rio-em-seis-anos-1536x1023.jpg"
   },
   {
    "title": "Prefeitura de SP identifica desvios em 700 imóveis sociais e prevê multas a construtoras; Pinheiros e Barra Funda lideram casos",
@@ -306,6 +351,15 @@
    "cat": "mercado",
    "local": true,
    "img": "https://www.diariodepernambuco.com.br/dptrends/wp-content/uploads/2026/10/aos-63-anos-leonardo-reune-fazenda-e-mansao-em-goias-en.jpg"
+  },
+  {
+   "title": "Juros da casa própria subiram. O que acontece com quem comprou imóvel na planta?",
+   "url": "https://exame.com/invest/mercados/juros-da-casa-propria-subiram-o-que-acontece-com-quem-comprou-imovel-na-planta/",
+   "source": "Exame",
+   "date": "2026-11-02T11:01:30Z",
+   "cat": "financiamento",
+   "local": false,
+   "img": ""
   },
   {
    "title": "Goiás x CRB: onde assistir ao vivo o jogo pelo Campeonato Brasileiro Série B",
@@ -767,6 +821,15 @@
    "img": "https://uploads.portas.com.br/2026/10/Vendas-de-imoveis-em-BH-e-Nova-Lima-chegam-a-R-35-bilhoes-no-semestre-1536x864.jpg"
   },
   {
+   "title": "Bancos elevam taxas de financiamento imobiliário após disparada dos juros futuros",
+   "url": "https://valor.globo.com/financas/noticia/2026/10/29/bancos-elevam-taxas-de-financiamento-imobilirio-aps-disparada-dos-juros-futuros.ghtml",
+   "source": "Contec Brasil",
+   "date": "2026-10-30T12:01:12Z",
+   "cat": "financiamento",
+   "local": false,
+   "img": "https://s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/public/fb_marca.png"
+  },
+  {
    "title": "Rompimento de adutora provoca jato de água e complica trânsito na Avenida Leste-Oeste, em Goiânia",
    "url": "https://www.jornalopcao.com.br/ultimas-noticias/rompimento-de-adutora-provoca-jato-de-agua-e-complica-transito-na-avenida-leste-oeste-em-goiania-883996/",
    "source": "Jornal Opção",
@@ -1083,15 +1146,6 @@
    "img": "https://www.infomoney.com.br/wp-content/uploads/2026/10/Itau-e-Ascensao-do-Mercado-Financeiro.jpg"
   },
   {
-   "title": "Bancos elevam taxas de financiamento imobiliário após disparada dos juros futuros",
-   "url": "https://valor.globo.com/financas/noticia/2026/10/29/bancos-elevam-taxas-de-financiamento-imobilirio-aps-disparada-dos-juros-futuros.ghtml",
-   "source": "Valor Econômico",
-   "date": "2026-10-29T14:19:21Z",
-   "cat": "financiamento",
-   "local": false,
-   "img": "https://s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/public/fb_marca.png"
-  },
-  {
    "title": "CCJ rejeita veto a projeto de Aava Santiago que institui Calçadão da Rua 8, no Centro de Goiânia",
    "url": "https://www.goiania.go.leg.br/sala-de-imprensa/noticias-dos-gabinetes/Noticias-dos-Gabinetes_noticias/ccj-rejeita-veto-a-projeto-de-aava-santiago-que-institui-calcadao-da-rua-8-no-centro-de-goiania",
    "source": "Câmara Municipal de Goiânia",
@@ -1297,60 +1351,6 @@
    "cat": "mercado",
    "local": false,
    "img": "https://secovi.com.br/wp-content/uploads/2026/10/20261028-coluna.png"
-  },
-  {
-   "title": "Cristiano Ronaldo entra na pré-lista de Portugal após crise com o técnico Jorge Jesus",
-   "url": "https://diariodegoias.com.br/cristiano-ronaldo-entra-na-pre-lista-de-portugal-apos-crise-com-o-tecnico-jorge-jesus/552502/",
-   "source": "Diário de Goiás",
-   "date": "2026-10-27T22:44:52Z",
-   "cat": "regras",
-   "local": true,
-   "img": "https://cdn.diariodegoias.com.br/wp-content/uploads/2026/10/06195305/1790949957-o118wbuzpn.webp"
-  },
-  {
-   "title": "Aparecida regulamenta zonas especiais para ampliar oferta de moradias populares",
-   "url": "https://diariodegoias.com.br/aparecida-regulamenta-zonas-especiais-para-ampliar-oferta-de-moradias-populares/552492/",
-   "source": "Diário de Goiás",
-   "date": "2026-10-27T22:10:00Z",
-   "cat": "mercado",
-   "local": true,
-   "img": "https://cdn.diariodegoias.com.br/wp-content/uploads/2026/10/27211138/aparecida-regulamenta-zonas-especiais-para-ampliar-oferta-de-moradias-populares.webp"
-  },
-  {
-   "title": "A imunidade do ITBI e os fundos imobiliários depois do Tema 1.348",
-   "url": "https://conjur.com.br/2026-out-27/a-imunidade-do-itbi-e-os-fundos-imobiliarios-depois-do-tema-1-348/",
-   "source": "Consultor Jurídico",
-   "date": "2026-10-27T20:24:54Z",
-   "cat": "regras",
-   "local": false,
-   "img": "https://conjur.com.br/wp-content/uploads/2026/07/business-man-show-money-bank-note-make-financial-plan-invite-people-sell-buy-house-car-monetary-properties-loan-credit-insurance-concept-scaled.jpg"
-  },
-  {
-   "title": "6 astros sertanejos que usam nomes artísticos e você talvez não saiba",
-   "url": "https://www.jornalopcao.com.br/ultimas-noticias/6-astros-sertanejos-que-usam-nomes-artisticos-e-voce-talvez-nao-saiba-883066/",
-   "source": "Jornal Opção",
-   "date": "2026-10-27T20:04:23Z",
-   "cat": "regras",
-   "local": true,
-   "img": "https://cdn.jornalopcao.com.br/assets/2026/10/27191422/1793128458-15656517945d51f352bfd73_1565651794_3x2_md.webp"
-  },
-  {
-   "title": "Bradesco dá salto inédito no juro da casa própria e taxa vai a 15% ao ano",
-   "url": "https://exame.com/mercado-imobiliario/bradesco-da-salto-inedito-no-juro-da-casa-propria-e-taxa-minima-vai-a-15-ao-ano/",
-   "source": "Exame",
-   "date": "2026-10-27T19:24:48Z",
-   "cat": "financiamento",
-   "local": false,
-   "img": ""
-  },
-  {
-   "title": "Conselho Jurídico da CBIC reuniu especialistas em Goiânia para discutir mudanças legislativas e seus impactos sobre o setor da construção",
-   "url": "https://cbic.org.br/conselho-juridico-da-cbic-reuniu-especialistas-em-goiania-para-discutir-mudancas-legislativas-e-seus-impactos-sobre-o-setor-da-construcao/",
-   "source": "CBIC - Câmara Brasileira da Indústria da Construção",
-   "date": "2026-10-27T18:44:49Z",
-   "cat": "regras",
-   "local": true,
-   "img": "https://cbic.org.br/wp-content/uploads/2026/10/img4151-scaled-e1793126353244.jpg"
   }
  ]
 }
