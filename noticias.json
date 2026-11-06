@@ -1,11 +1,65 @@
 {
- "updated": "2026-11-05T17:05:00Z",
+ "updated": "2026-11-06T01:21:46Z",
  "items": [
+  {
+   "title": "Entre recordes e títulos: o legado de Cristiano Ronaldo em 23 anos pela seleção portuguesa",
+   "url": "https://aredacao.com.br/entre-recordes-e-titulos-o-legado-de-cristiano-ronaldo-em-23-anos-pela-selecao-portuguesa/",
+   "source": "A Redação",
+   "date": "2026-11-06T00:58:19Z",
+   "cat": "regras",
+   "local": true,
+   "img": "https://aredacao.com.br/wp-content/uploads/2026/11/Captura-de-Tela-2026-11-05-as-21.57.33-300x202.png"
+  },
+  {
+   "title": "ÓRA Vaca Brava terá 44 pavimentos e 424 unidades em novo empreendimento imobiliário no Setor Bueno, em Goiânia",
+   "url": "https://panoramagocomunicacao.com.br/ora-vaca-brava-tera-44-pavimentos-e-424-unidades-em-novo-empreendimento-imobiliario-no-setor-bueno-em-goiania/",
+   "source": "Panoramagocomunicacao",
+   "date": "2026-11-06T00:03:54Z",
+   "cat": "lancamentos",
+   "local": true,
+   "img": "https://panoramagocomunicacao.com.br/wp-content/uploads/2026/11/Foto-6-Fotomontagem-vista-ORA-Vaca-Brava-scaled.jpeg"
+  },
+  {
+   "title": "Modelo brasileiro é encontrado morto em apartamento que morava em Paris, diz família",
+   "url": "https://aredacao.com.br/modelo-brasileiro-e-encontrado-morto-em-apartamento-que-morava-em-paris-diz-familia/",
+   "source": "A Redação",
+   "date": "2026-11-05T23:27:36Z",
+   "cat": "mercado",
+   "local": true,
+   "img": "https://aredacao.com.br/wp-content/uploads/2026/11/images-2-2-300x200.jpeg"
+  },
+  {
+   "title": "Homem é encontrado morto em calçada da avenida Castelo Branco, em Goiânia",
+   "url": "https://www.maisgoias.com.br/cidades/goiania/homem-e-encontrado-morto-em-calcada-da-avenida-castelo-branco-em-goiania/",
+   "source": "Mais Goiás",
+   "date": "2026-11-05T22:27:08Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://www.maisgoias.com.br/wp-content/uploads/2026/11/encontrado-x-morte-1793912509.webp"
+  },
+  {
+   "title": "Namorado usou cartões, fez empréstimos e tentou vender apartamento de mulher em Goiânia, diz vítima",
+   "url": "https://www.maisgoias.com.br/cidades/goiania/nova-vitima-do-golpista-do-amor-relata-prejuizo-de-ate-r-300-mil-em-goiania/",
+   "source": "Mais Goiás",
+   "date": "2026-11-05T21:24:35Z",
+   "cat": "mercado",
+   "local": true,
+   "img": "https://www.maisgoias.com.br/wp-content/uploads/2026/11/foto-2026-11-05t182214-872-1793913738.webp"
+  },
+  {
+   "title": "Muito além do mercado imobiliário",
+   "url": "https://panoramagocomunicacao.com.br/muito-alem-do-mercado-imobiliario/",
+   "source": "Panoramagocomunicacao",
+   "date": "2026-11-05T21:24:00Z",
+   "cat": "mercado",
+   "local": false,
+   "img": "https://us-central1-pulsebrand-plataforma.cloudfunctions.net/trackPixel?c=f2d73e59-7e13-46f7-ad2c-862690507dee&v=1dfc88c5-1b32-444d-b76c-f56ebd85b757&p=d18de97f-42da-4abc-aee8-d8c8d34c11e4"
+  },
   {
    "title": "“O espaço existe”: primeira mulher a presidir o Sinduscon-GO fala sobre desafios e protagonismo feminino na construção civil",
    "url": "https://www.jornalopcao.com.br/ultimas-noticias/carolina-lacerda-primeira-mulher-presidir-sinduscon-go-885829/",
    "source": "Jornal Opção",
-   "date": "2026-11-05T15:50:47Z",
+   "date": "2026-11-05T15:50:00Z",
    "cat": "mercado",
    "local": true,
    "img": "https://cdn.jornalopcao.com.br/assets/2026/11/05144758/1793890065-design-sem-nome-90.webp"
@@ -20,12 +74,21 @@
    "img": "https://cdn.diariodegoias.com.br/wp-content/uploads/2026/11/05150708/aeronave-inutilizada-em-garimpo-ilegal_bruno-mancinelle_casa-de-governo.webp"
   },
   {
+   "title": "Side Capital capta R$ 280 milhões e vai atrás de imóveis ícones",
+   "url": "https://neofeed.com.br/negocios/side-capital-capta-r-280-milhoes-e-vai-atras-de-imoveis-icones/",
+   "source": "NeoFeed",
+   "date": "2026-11-05T14:57:00Z",
+   "cat": "mercado",
+   "local": false,
+   "img": "https://neofeed.com.br/wp-content/uploads/2026/10/Lindenberg-edificio-Vila-Nova-Conceicao.jpg"
+  },
+  {
    "title": "Cristiano Ronaldo anuncia aposentadoria da seleção de Portugal: ‘Estará sempre em mim’",
    "url": "https://aredacao.com.br/cristiano-ronaldo-anuncia-aposentadoria-da-selecao-de-portugal-estara-sempre-em-mim/",
    "source": "A Redação",
    "date": "2026-11-05T14:23:23Z",
    "cat": "regras",
-   "local": true,
+   "local": false,
    "img": "https://aredacao.com.br/wp-content/uploads/2026/11/cris-300x205.jpg"
   },
   {
@@ -155,15 +218,6 @@
    "img": "https://stgnews.com.br/wp-content/uploads/2026/11/Foto-6-Fotomontagem-vista-ORA-Vaca-Brava-compressed-scaled.webp"
   },
   {
-   "title": "Mabel inaugura Cmei com 150 vagas em tempo integral no Setor Pedro Ludovico",
-   "url": "https://www.goiania.go.gov.br/agora/mabel-inaugura-cmei-com-150-vagas-em-tempo-integral-no-setor-pedro-ludovico",
-   "source": "Goiânia (Prefeitura)",
-   "date": "2026-11-04T13:37:52Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://www.goiania.go.gov.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-04-at-10.30.52.jpeg"
-  },
-  {
    "title": "Prefeitura de Goiânia investe em parques e infraestrutura urbana",
    "url": "https://ohoje.com/2026/11/04/prefeitura-de-goiania-investe-em-parques-e-infraestrutura-urbana/",
    "source": "O Hoje",
@@ -273,15 +327,6 @@
    "img": "https://panoramagocomunicacao.com.br/wp-content/uploads/2026/11/Turma-ABL-Prime-no-Conecta.jpg"
   },
   {
-   "title": "Prefeito Sandro Mabel inaugura novo Centro de Saúde do Servidor",
-   "url": "https://www.goiania.go.gov.br/agora/prefeito-sandro-mabel-inaugura-novo-centro-de-saude-do-servidor",
-   "source": "Goiânia (Prefeitura)",
-   "date": "2026-11-03T17:16:41Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://www.goiania.go.gov.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-03-at-12.39.52.jpeg"
-  },
-  {
    "title": "Prefeitura de SP aplica 21 sanções a incorporadoras por desvio em imóveis populares",
    "url": "https://bpmoney.com.br/brasil/his-hmp-multas-irregularidades-apartamentos-sp-78-milhoes/",
    "source": "BPMoney",
@@ -388,6 +433,15 @@
    "cat": "financiamento",
    "local": true,
    "img": "https://portal6.com.br/wp-content/uploads/2026/10/856159-20261101-000814-d282a5.webp"
+  },
+  {
+   "title": "Crédito imobiliário cresce apesar dos saques de poupança e FGTS",
+   "url": "https://imobireport.com.br/newsletter-do-imobi/credito-imobiliario-cresce-apesar-dos-saques-de-poupanca-e-fgts/",
+   "source": "Imobi Report",
+   "date": "2026-11-03T08:00:00Z",
+   "cat": "financiamento",
+   "local": false,
+   "img": "https://imobireport.com.br/app/uploads/2026/10/Credito-imobiliario-cresce-apesar-dos-saques-de-poupanca-e-FGTS-5-scaled.jpeg"
   },
   {
    "title": "Autuações por desvio de imóvel popular a maior renda atingem Pinheiros, Jardins e mais bairros de SP",
@@ -786,15 +840,6 @@
    "img": "https://ncnews.com.br/app/uploads/2026/10/Agencias-bancarias.webp"
   },
   {
-   "title": "Goiás avança com 800 obras em andamento e investimentos de R$ 12,6 bilhões",
-   "url": "https://www.jornalopcao.com.br/publieditorial/goias-avanca-com-800-obras-em-andamento-e-investimentos-de-r-126-bilhoes-882818/",
-   "source": "Revista Bula",
-   "date": "2026-10-30T18:15:54Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://cdn.jornalopcao.com.br/assets/2026/10/26233222/1793057542-publi-1-6.webp"
-  },
-  {
    "title": "Juro do financiamento imobiliário subiu. Quem tem crédito aprovado paga a nova taxa?",
    "url": "https://exame.com/mercado-imobiliario/juro-do-financiamento-imobiliario-subiu-quem-tem-credito-aprovado-paga-a-nova-taxa/",
    "source": "Exame",
@@ -1000,6 +1045,15 @@
    "cat": "mercado",
    "local": false,
    "img": "https://secovi.com.br/wp-content/uploads/2026/10/55620598715_0605991350_c.jpg"
+  },
+  {
+   "title": "Goiás avança com 800 obras em andamento e investimentos de R$ 12,6 bilhões",
+   "url": "https://www.jornalopcao.com.br/publieditorial/goias-avanca-com-800-obras-em-andamento-e-investimentos-de-r-126-bilhoes-882818/",
+   "source": "Jornal Opção",
+   "date": "2026-10-30T07:00:00Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://cdn.jornalopcao.com.br/assets/2026/10/26233222/1793057542-publi-1-6.webp"
   },
   {
    "title": "Diretor regional do Secovi-SP em Santos destaca chegada de compradores do ABC e da capital à Baixada Santista",
@@ -1298,60 +1352,6 @@
    "cat": "financiamento",
    "local": false,
    "img": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDsn00s-0pdAD-mVR6DpKIoT0yX1i1eBKv2T_JdYEj2FOGcBy6EeTutXGd8OFKGI-TKdXLWQoqs-vXvnNqkkGns7JitwiXPetoS638rKQIHJ6pFK2WR_nA2p76-62iCCSBZvoURW5EwBSK4nv-cTctxZy5ER8YCGKuphaSoMRuM8Yn-j7D_j3ybqimYkyf/w1600/Daniel%20Claudino.jpg"
-  },
-  {
-   "title": "Cristiano Ronaldo é eleito o melhor vencedor da história da Bola de Ouro",
-   "url": "https://aredacao.com.br/cristiano-ronaldo-e-eleito-o-maior-vencedor-da-historia-da-bola-de-ouro/",
-   "source": "A Redação",
-   "date": "2026-10-28T21:50:53Z",
-   "cat": "regras",
-   "local": false,
-   "img": "https://aredacao.com.br/wp-content/uploads/2026/10/Boat-300x150.webp"
-  },
-  {
-   "title": "Condo Meeting discute efeitos da reforma tributária e governança em supercondomínios",
-   "url": "https://secovi.com.br/condo-meeting-discute-efeitos-da-reforma-tributaria-e-governanca-em-supercondominios/",
-   "source": "SECOVI-SP",
-   "date": "2026-10-28T20:53:01Z",
-   "cat": "regras",
-   "local": false,
-   "img": "https://secovi.com.br/wp-content/uploads/2026/10/SLJ_1229-scaled.jpg"
-  },
-  {
-   "title": "A Grande Goiânia e o desafio da integração: por uma Governança Metropolitana",
-   "url": "https://www.jornalopcao.com.br/ultimas-noticias/a-grande-goiania-e-o-desafio-da-integracao-por-uma-governanca-metropolitana-883405/",
-   "source": "Jornal Opção",
-   "date": "2026-10-28T20:32:00Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://cdn.jornalopcao.com.br/assets/2026/10/28203202/1793219517-goiania-002_jeverson-de-souza-1215x911-1.webp"
-  },
-  {
-   "title": "Prédio redondo abandonado há 30 anos em Goiânia pode virar apartamentos para aluguel por temporada",
-   "url": "https://www.opovo.com.br/trends/predio-redondo-abandonado-ha-30-anos-em-goiania-pode-virar-apartamentos-para-aluguel-por-temporada/",
-   "source": "O POVO",
-   "date": "2026-10-28T19:52:00Z",
-   "cat": "mercado",
-   "local": true,
-   "img": "https://www.opovo.com.br/trends/wp-content/uploads/2026/10/predio-redondo-abandonado-ha-30-anos-em-goiania-pode-vi.webp"
-  },
-  {
-   "title": "Paulo Afonso Ferreira é homenageado por CBIC, Ademi-GO, Sinduscon-GO e FIEG durante visita técnica ao Flamboyant",
-   "url": "https://cbic.org.br/paulo-afonso-ferreira-e-homenageado-por-cbic-ademi-go-sinduscon-go-e-fieg-durante-visita-tecnica-ao-flamboyant/",
-   "source": "CBIC - Câmara Brasileira da Indústria da Construção",
-   "date": "2026-10-28T19:33:56Z",
-   "cat": "mercado",
-   "local": false,
-   "img": "https://cbic.org.br/wp-content/uploads/2026/10/556180495335586a05ab9o-1024x576.png"
-  },
-  {
-   "title": "Minha Casa, Minha Vida entrega mais 336 moradias em Rio Verde (GO) — Ministério das Cidades",
-   "url": "https://www.gov.br/cidades/pt-br/assuntos/noticias-1/noticia-mcid-n-2366",
-   "source": "Gov",
-   "date": "2026-10-28T19:01:00Z",
-   "cat": "financiamento",
-   "local": false,
-   "img": "https://www.gov.br/cidades/pt-br/assuntos/noticias-1/noticia-mcid-n-2366/whatsapp-image-2026-10-28-at-15-57-53.jpeg/@@images/f253b3af-1be5-4ffe-9e10-2db754350d7b.jpeg"
   }
  ]
 }
