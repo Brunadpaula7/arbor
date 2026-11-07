@@ -1,6 +1,33 @@
 {
- "updated": "2026-11-07T00:36:36Z",
+ "updated": "2026-11-07T15:24:16Z",
  "items": [
+  {
+   "title": "Prefeito Sandro Mabel assina decreto para regularização fundiária do Residencial Guanabara",
+   "url": "https://www.goiania.go.gov.br/agora/prefeito-sandro-mabel-assina-decreto-para-regularizacao-fundiaria-do-residencial-guanabara",
+   "source": "Goiânia (Prefeitura)",
+   "date": "2026-11-07T15:11:53Z",
+   "cat": "regras",
+   "local": true,
+   "img": "https://www.goiania.go.gov.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-07-at-08.00.00.jpeg"
+  },
+  {
+   "title": "Condomínio inspirado pelo agro ganha escala nacional com investimento previsto de R$ 1,2 bilhão",
+   "url": "https://www.comprerural.com/condominio-inspirado-pelo-agro-expansao-fazenda-villagio/",
+   "source": "CompreRural",
+   "date": "2026-11-07T14:00:00Z",
+   "cat": "mercado",
+   "local": false,
+   "img": ""
+  },
+  {
+   "title": "Com o fim da escala 6x1, preço do imóvel subirá 5,5% em média, diz Abrainc",
+   "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/com-o-fim-da-escala-6x1-preco-do-imovel-subira-55-em-media-diz-abrainc/",
+   "source": "CNN Brasil",
+   "date": "2026-11-07T06:52:48Z",
+   "cat": "mercado",
+   "local": false,
+   "img": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/BR_CNN_110626_ZOOM_LUIZ_FRANCA_frame_36646.jpg?w=1200&h=630&crop=1"
+  },
   {
    "title": "Vila Nova x Criciúma: onde assistir ao vivo o jogo pelo Campeonato Brasileiro Série B",
    "url": "https://diariodegoias.com.br/vila-nova-x-criciuma-onde-assistir-ao-vivo-o-jogo-pelo-campeonato-brasileiro-serie-b/553530/",
@@ -54,6 +81,15 @@
    "cat": "lancamentos",
    "local": false,
    "img": "https://admin.itatiaia.com.br/wp-content/uploads/sites/27/2026/11/cheerful-young-african-american-woman-copywriter-sitting-front-open-laptop-with-mug-copybook-desk-feeling-inspired-working-new-motivation-article-people-occupation-creativity.jpg?resize=1280%2C720&w=1280&h=720&quality=75&crop=1"
+  },
+  {
+   "title": "Birigui implanta Cadastro Imobiliário Brasileiro e se antecipa à Reforma Tributária",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNQ29GRXh4QzQweVZiQ1p2ZzFocFRvQWhibUFfTUNvVWpJRUZVTUdSNmFPQm1sT0R6b2o4QTRzM2tvd21WS1ZEbGlXbXpNQnlhMm05clQ4M2FJOFpTOGw4MmxlSWJmX0Jtdm9SNjJ0UUNwbG9nVGlIM2hPeUlzdWZFMXRSZTNzUmloVzY4TQ?oc=5",
+   "source": "Prefeitura de Birigui",
+   "date": "2026-11-06T19:02:33Z",
+   "cat": "regras",
+   "local": false,
+   "img": ""
   },
   {
    "title": "“Uma vela só não alumia uma favela, mas vai iluminar o caminho da casa dela.” Por que nunca desistir?",
@@ -191,6 +227,15 @@
    "img": ""
   },
   {
+   "title": "5º Congresso de Direito Imobiliário e Urbanístico da OAB-GO debate crescimento urbano e proteção dos direitos dos cidadãos",
+   "url": "https://www.oabgo.org.br/5o-congresso-de-direito-imobiliario-e-urbanistico-da-oab-go-debate-crescimento-urbano-e-protecao-dos-direitos-dos-cidadaos/",
+   "source": "OAB Goiás",
+   "date": "2026-11-06T10:24:24Z",
+   "cat": "regras",
+   "local": true,
+   "img": "https://www.oabgo.org.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-05-at-22.52.53.jpeg"
+  },
+  {
    "title": "Locação de imóveis e reforma tributária: O que muda nos contratos imobiliários",
    "url": "https://www.migalhas.com.br/depeso/467950/locacao-de-imoveis-e-reforma-tributaria-o-que-muda-nos-contratos",
    "source": "Migalhas",
@@ -198,15 +243,6 @@
    "cat": "regras",
    "local": false,
    "img": "https://medproc.migalhas.com.br/author.jpg._PROC_AC467950AT1AP11.jpg?v=20261105161104"
-  },
-  {
-   "title": "Com o fim da escala 6x1, preço do imóvel subirá 5,5% em média, diz Abrainc",
-   "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/com-o-fim-da-escala-6x1-preco-do-imovel-subira-55-em-media-diz-abrainc/",
-   "source": "CNN Brasil",
-   "date": "2026-11-06T08:42:50Z",
-   "cat": "mercado",
-   "local": false,
-   "img": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/BR_CNN_110626_ZOOM_LUIZ_FRANCA_frame_36646.jpg?w=1200&h=630&crop=1"
   },
   {
    "title": "Itaú Unibanco faz Orange Week com 129 imóveis e lances a partir de R$ 35,3 mil",
@@ -428,7 +464,7 @@
   {
    "title": "ÓRA Vaca Brava é o primeiro lançamento imobiliário do ano no Setor Bueno",
    "url": "https://stgnews.com.br/ora-vaca-brava-e-o-primeiro-lancamento-imobiliario-do-ano-no-setor-bueno/",
-   "source": "Stgnews",
+   "source": "STG News",
    "date": "2026-11-04T14:39:42Z",
    "cat": "lancamentos",
    "local": false,
@@ -522,7 +558,8 @@
    "date": "2026-11-03T18:57:12Z",
    "cat": "financiamento",
    "local": false,
-   "img": ""
+   "img": "",
+   "img_tried": true
   },
   {
    "title": "Mercado imobiliário de Goiânia está aquecido e com vendas recordes",
@@ -699,7 +736,7 @@
    "title": "Grande Goiânia pode ganhar pelo menos 18 parques",
    "url": "https://daqui.opopular.com.br/geral/grande-goiania-pode-ganhar-pelo-menos-18-parques-1.3476076",
    "source": "Daqui",
-   "date": "2026-11-02T23:41:26Z",
+   "date": "2026-11-02T23:42:11Z",
    "cat": "cidade",
    "local": true,
    "img": "https://daqui.opopular.com.br/image/policy:1.3476031:1793656057/image.jpg?f=3x2"
@@ -1083,15 +1120,6 @@
    "img": "https://cdn.jornalopcao.com.br/assets/2025/11/03104349/casa-em-reforma.webp"
   },
   {
-   "title": "Aumento da taxa de juros no financiamento imobiliário: Bradesco, Itaú e Santander encarecem a casa própria",
-   "url": "https://ncnews.com.br/2026/10/30/financiamento-imobiliario-caro-alta-juros/",
-   "source": "Ncnews",
-   "date": "2026-10-30T18:27:57Z",
-   "cat": "financiamento",
-   "local": false,
-   "img": "https://ncnews.com.br/app/uploads/2026/10/Agencias-bancarias.webp"
-  },
-  {
    "title": "Juro do financiamento imobiliário subiu. Quem tem crédito aprovado paga a nova taxa?",
    "url": "https://exame.com/mercado-imobiliario/juro-do-financiamento-imobiliario-subiu-quem-tem-credito-aprovado-paga-a-nova-taxa/",
    "source": "Exame",
@@ -1135,24 +1163,6 @@
    "cat": "financiamento",
    "local": false,
    "img": "https://serranoticiario.com.br/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-22-at-20.04.32.jpeg"
-  },
-  {
-   "title": "Fundo imobiliário com recursos de cooperativas estreia com financiamento de loteamento em SP",
-   "url": "https://valor.globo.com/financas/noticia/2026/10/30/fundo-imobilirio-com-recursos-de-cooperativas-estreia-com-financiamento-de-loteamento-em-sp.ghtml",
-   "source": "Valor Econômico",
-   "date": "2026-10-30T16:13:38Z",
-   "cat": "financiamento",
-   "local": false,
-   "img": "https://s2-valor.glbimg.com/DEx1AFjkvZ5seotok4zTFSg-GIA=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2020/g/z/KZpp1XQzetAxXKXA7J4Q/chronis-yan-1m4wytqvd4o-unsplash.jpg"
-  },
-  {
-   "title": "Bancos privados aumentam taxas do crédito da casa própria em resposta à alta nos juros futuros",
-   "url": "https://diariodocomercio.com.br/financas/bancos-subir-credito-imobiliario/",
-   "source": "Diário do Comércio",
-   "date": "2026-10-30T15:32:00Z",
-   "cat": "financiamento",
-   "local": false,
-   "img": "https://diariodocomercio.com.br/wp-content/uploads/2026/05/taxa-juros.jpg"
   },
   {
    "title": "Eventual tributação de LCI e LIG pode encarecer crédito imobiliário em 0,7 ponto percentual, estima Abrainc",
@@ -1290,6 +1300,33 @@
    "img": "https://s2-g1.glbimg.com/-z_5txXG3C1PkfVBZyHuVxOd7JM=/2000x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/l/d/SxPEQ2TZy61pG3o9uZMA/fotojet-38-.jpg"
   },
   {
+   "title": "Fundo imobiliário com recursos de cooperativas estreia com financiamento de loteamento em SP",
+   "url": "https://valor.globo.com/financas/noticia/2026/10/30/fundo-imobilirio-com-recursos-de-cooperativas-estreia-com-financiamento-de-loteamento-em-sp.ghtml",
+   "source": "Valor Econômico",
+   "date": "2026-10-30T07:00:00Z",
+   "cat": "financiamento",
+   "local": false,
+   "img": "https://s2-valor.glbimg.com/DEx1AFjkvZ5seotok4zTFSg-GIA=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2020/g/z/KZpp1XQzetAxXKXA7J4Q/chronis-yan-1m4wytqvd4o-unsplash.jpg"
+  },
+  {
+   "title": "Aumento da taxa de juros no financiamento imobiliário: Bradesco, Itaú e Santander encarecem a casa própria",
+   "url": "https://ncnews.com.br/2026/10/30/financiamento-imobiliario-caro-alta-juros/",
+   "source": "Ncnews",
+   "date": "2026-10-30T07:00:00Z",
+   "cat": "financiamento",
+   "local": false,
+   "img": "https://ncnews.com.br/app/uploads/2026/10/Agencias-bancarias.webp"
+  },
+  {
+   "title": "Bancos privados aumentam taxas do crédito da casa própria em resposta à alta nos juros futuros",
+   "url": "https://diariodocomercio.com.br/financas/bancos-subir-credito-imobiliario/",
+   "source": "Diário do Comércio",
+   "date": "2026-10-30T07:00:00Z",
+   "cat": "financiamento",
+   "local": false,
+   "img": "https://diariodocomercio.com.br/wp-content/uploads/2026/05/taxa-juros.jpg"
+  },
+  {
    "title": "Secovi-SP participa do 13º Construindo o Grande ABC, em São Bernardo do Campo",
    "url": "https://secovi.com.br/secovi-sp-participa-do-13o-construindo-o-grande-abc-em-sao-bernardo-do-campo/",
    "source": "SECOVI-SP",
@@ -1310,47 +1347,11 @@
   {
    "title": "Goiás avança com 800 obras em andamento e investimentos de R$ 12,6 bilhões",
    "url": "https://www.maisgoias.com.br/cidades/goias-avanca-com-800-obras-em-andamento-e-investimentos-de-r-126-bilhoes/",
-   "source": "Jornal Opção",
+   "source": "Revista Bula",
    "date": "2026-10-30T07:00:00Z",
    "cat": "cidade",
    "local": true,
    "img": "https://uploads.maisgoias.com.br/2026/11/publi-1-2-1793889875.webp"
-  },
-  {
-   "title": "Meia tarifa na Região Metropolitana de Goiânia começa por 2 linhas na região noroeste da capital",
-   "url": "https://opopular.com.br/cidades/meia-tarifa-na-regi-o-metropolitana-de-goiania-comeca-por-2-linhas-na-regi-o-noroeste-da-capital-1.3474822",
-   "source": "O Popular",
-   "date": "2026-10-30T02:35:38Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://opopular.com.br/image/policy:1.3474821:1793318329/image.jpg"
-  },
-  {
-   "title": "Aos 63 anos, cantor sertanejo acumula patrimônio de R$ 200 milhões com criações de gado e imóvel dos sonhos",
-   "url": "https://caras.com.br/casa-dos-famosos/aos-63-anos-leonardo-acumula-patrimonio-fazenda-mansao-goias.phtml",
-   "source": "CARAS Brasil",
-   "date": "2026-10-30T02:28:14Z",
-   "cat": "mercado",
-   "local": false,
-   "img": "https://caras.com.br/wp-content/uploads/2026/10/leonardo-patrimonio.jpg"
-  },
-  {
-   "title": "Bancos elevam juros e deixam financiamento da casa própria mais caro",
-   "url": "https://misturebas.com.br/2026/10/29/bancos-elevam-juros-financiamento/",
-   "source": "Misturebas News",
-   "date": "2026-10-30T01:09:46Z",
-   "cat": "financiamento",
-   "local": false,
-   "img": "https://misturebas.com.br/site-2022/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-29-at-21.56.41-e1793321847392.jpeg"
-  },
-  {
-   "title": "MPBA recomenda revisão do Plano Diretor de Macaúbas após quase duas décadas sem atualização",
-   "url": "https://estadomaior.com.br/noticia/204382/mpba-recomenda-revisao-do-plano-diretor-de-macaubas-apos-quase-duas-decadas-sem-atualizacao",
-   "source": "Estadomaior",
-   "date": "2026-10-30T00:25:00Z",
-   "cat": "regras",
-   "local": false,
-   "img": "https://estadomaior.com.br/img/eaf056640b2ae98015e3c9d6e456c08174c98018.png"
   }
  ]
 }
