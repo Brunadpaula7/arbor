@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T15:46:32Z",
+ "updated": "2026-11-09T00:30:50Z",
  "items": [
   {
    "title": "Alta dos juros imobiliários pode encarecer compra de imóveis em Goiás",
@@ -35,7 +35,8 @@
    "date": "2026-11-08T08:55:28Z",
    "cat": "cidade",
    "local": true,
-   "img": ""
+   "img": "",
+   "img_tried": true
   },
   {
    "title": "Imóveis a preço de custo em bairros nobres: cooperativas aproveitam aquecimento do mercado goiano",
@@ -288,11 +289,12 @@
    "date": "2026-11-06T12:39:13Z",
    "cat": "mercado",
    "local": false,
-   "img": ""
+   "img": "",
+   "img_tried": true
   },
   {
    "title": "Busca por espaço e qualidade de vida impulsiona novo conceito urbanístico na Grande Goiânia",
-   "url": "https://gazetadasemana.com.br/noticia/307227/busca-por-espaco-e-qualidade-de-vida-impulsiona-novo-conceito-urbanistico-na-grande-goiania/amp",
+   "url": "https://gazetadasemana.com.br/noticia/307227/busca-por-espaco-e-qualidade-de-vida-impulsiona-novo-conceito-urbanistico-na-grande-goiania",
    "source": "Gazeta da Semana",
    "date": "2026-11-06T12:36:05Z",
    "cat": "regras",
@@ -333,8 +335,7 @@
    "date": "2026-11-06T11:02:00Z",
    "cat": "financiamento",
    "local": false,
-   "img": "",
-   "img_tried": true
+   "img": ""
   },
   {
    "title": "5º Congresso de Direito Imobiliário e Urbanístico da OAB-GO debate crescimento urbano e proteção dos direitos dos cidadãos",
@@ -346,6 +347,15 @@
    "img": "https://www.oabgo.org.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-05-at-22.52.53.jpeg"
   },
   {
+   "title": "A reforma tributária e seus impactos no setor imobiliário",
+   "url": "https://www.migalhas.com.br/depeso/467925/a-reforma-tributaria-e-seus-impactos-no-setor-imobiliario",
+   "source": "Migalhas",
+   "date": "2026-11-06T10:10:24Z",
+   "cat": "regras",
+   "local": false,
+   "img": "https://medproc.migalhas.com.br/author.jpg._PROC_AC467925AT1AP11.jpg?v=20261105160214"
+  },
+  {
    "title": "Locação de imóveis e reforma tributária: O que muda nos contratos imobiliários",
    "url": "https://www.migalhas.com.br/depeso/467950/locacao-de-imoveis-e-reforma-tributaria-o-que-muda-nos-contratos",
    "source": "Migalhas",
@@ -353,6 +363,15 @@
    "cat": "regras",
    "local": false,
    "img": "https://medproc.migalhas.com.br/author.jpg._PROC_AC467950AT1AP11.jpg?v=20261105161104"
+  },
+  {
+   "title": "Localização do Número do Cadastro do Imóvel / Número do Contribuinte",
+   "url": "https://prefeitura.sp.gov.br/web/fazenda/w/servicos/iptu/2472",
+   "source": "Prefeitura de São Paulo",
+   "date": "2026-11-06T08:00:00Z",
+   "cat": "mercado",
+   "local": false,
+   "img": ""
   },
   {
    "title": "Com o fim da escala 6x1, preço do imóvel subirá 5,5% em média, diz Abrainc",
@@ -1337,24 +1356,6 @@
    "cat": "financiamento",
    "local": false,
    "img": "https://s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/public/fb_marca.png"
-  },
-  {
-   "title": "Rompimento de adutora provoca jato de água e complica trânsito na Avenida Leste-Oeste, em Goiânia",
-   "url": "https://www.jornalopcao.com.br/ultimas-noticias/rompimento-de-adutora-provoca-jato-de-agua-e-complica-transito-na-avenida-leste-oeste-em-goiania-883996/",
-   "source": "Jornal Opção",
-   "date": "2026-10-30T11:50:13Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://cdn.jornalopcao.com.br/assets/2026/10/30114908/1793360941-image-8.webp"
-  },
-  {
-   "title": "Vila Nova x Juventude: onde assistir ao vivo o jogo pelo Campeonato Brasileiro Série B",
-   "url": "https://diariodegoias.com.br/vila-nova-x-juventude-onde-assistir-ao-vivo-o-jogo-pelo-campeonato-brasileiro-serie-b/552728/",
-   "source": "Diário de Goiás",
-   "date": "2026-10-30T11:07:53Z",
-   "cat": "regras",
-   "local": true,
-   "img": "https://cdn.diariodegoias.com.br/wp-content/uploads/2026/10/30100436/55619729495_ccb6d9eef1_k.webp"
   }
  ]
 }
