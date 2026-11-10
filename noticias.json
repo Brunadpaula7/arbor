@@ -1,6 +1,42 @@
 {
- "updated": "2026-11-09T19:28:29Z",
+ "updated": "2026-11-10T03:08:49Z",
  "items": [
+  {
+   "title": "Saiba onde estão as obras federais paralisadas em Goiás e quanto custaria para terminá-las",
+   "url": "https://diariodegoias.com.br/saiba-onde-estao-as-obras-federais-paralisadas-em-goias-e-quanto-custaria-para-termina-las/553781/",
+   "source": "Diário de Goiás",
+   "date": "2026-11-09T22:15:00Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://cdn.diariodegoias.com.br/wp-content/uploads/2026/11/09190608/obras-federais-paralisadas.webp"
+  },
+  {
+   "title": "Especialistas discutem impactos emocionais da infertilidade e avanços da reprodução assistida em Goiânia",
+   "url": "https://diariodegoias.com.br/especialistas-discutem-impactos-emocionais-da-infertilidade-e-avancos-da-reproducao-assistida-em-goiania/553857/",
+   "source": "Diário de Goiás",
+   "date": "2026-11-09T22:01:56Z",
+   "cat": "regras",
+   "local": true,
+   "img": "https://cdn.diariodegoias.com.br/wp-content/uploads/2026/11/09215751/profissionais-de-diferentes-areas-participaram-do-i-encontro-de-reproducao-humana-e-atencao-psicossocial-realizado-em-goiania.webp"
+  },
+  {
+   "title": "Goiânia estabelece novas regras para altura de prédios em áreas adensáveis previstas no Plano Diretor, que considera infraestrutura de transporte coletivo",
+   "url": "https://diariodotransporte.com.br/2026/11/09/goiania-estabelece-novas-regras-para-altura-de-predios-em-areas-adensaveis-previstas-no-plano-diretor-que-considera-infraestrutura-de-transporte-coletivo/",
+   "source": "Diário do Transporte",
+   "date": "2026-11-09T20:34:22Z",
+   "cat": "regras",
+   "local": true,
+   "img": "https://i0.wp.com/diariodotransporte.com.br/wp-content/uploads/2026/11/goiano.jpg?fit=942%2C648&ssl=1"
+  },
+  {
+   "title": "Conexão FNDI: O futuro do ecossistema imobiliário",
+   "url": "https://portas.com.br/noticias/eventos-agendas/conexao-fndi-o-futuro-do-ecossistema-imobiliario/",
+   "source": "Portas",
+   "date": "2026-11-09T18:32:55Z",
+   "cat": "mercado",
+   "local": false,
+   "img": "https://uploads.portas.com.br/2026/11/Ponte-estaiada.jpg"
+  },
   {
    "title": "“Município está engessado”: ex-deputado defende regularização no Plano Diretor da cidade de Goiás, apesar de alertas de especialistas sobre riscos",
    "url": "https://www.jornalopcao.com.br/ultimas-noticias/o-municipio-esta-engessado-ex-deputado-defende-regularizacao-de-chacreamentos-no-plano-diretor-da-cidade-de-goias-apesar-de-alertas-de-especialistas-sobre-riscos-ambientais-886980/",
@@ -18,6 +54,15 @@
    "cat": "mercado",
    "local": true,
    "img": "https://www.maisgoias.com.br/wp-content/uploads/2026/11/ourico-em-apartamento-no-setor-marista-1794244907.webp"
+  },
+  {
+   "title": "Lançamentos em 2027: incorporadores de JP veem ajuste, não retração",
+   "url": "https://paraibabusiness.com.br/eztec-e-moura-dubeux-sinalizam-menos-lancamentos-em-2027-joao-pessoa-espera-impacto-menor/",
+   "source": "Paraíba Business",
+   "date": "2026-11-09T17:00:00Z",
+   "cat": "lancamentos",
+   "local": false,
+   "img": "https://paraibabusiness.com.br/atual/wp-content/uploads/2026/11/6927fa2fd937a4d7c3ac9ed8bc16a454.webp"
   },
   {
    "title": "Motoristas reclamam de alagamentos e trânsito tumultuado na Rua da Divisa, em Goiânia",
@@ -374,7 +419,7 @@
   },
   {
    "title": "Busca por espaço e qualidade de vida impulsiona novo conceito urbanístico na Grande Goiânia",
-   "url": "https://gazetadasemana.com.br/noticia/307227/busca-por-espaco-e-qualidade-de-vida-impulsiona-novo-conceito-urbanistico-na-grande-goiania",
+   "url": "https://gazetadasemana.com.br/noticia/307227/busca-por-espaco-e-qualidade-de-vida-impulsiona-novo-conceito-urbanistico-na-grande-goiania/amp",
    "source": "Gazeta da Semana",
    "date": "2026-11-06T12:36:05Z",
    "cat": "regras",
@@ -416,7 +461,8 @@
    "date": "2026-11-06T11:02:00Z",
    "cat": "financiamento",
    "local": false,
-   "img": ""
+   "img": "",
+   "img_tried": true
   },
   {
    "title": "5º Congresso de Direito Imobiliário e Urbanístico da OAB-GO debate crescimento urbano e proteção dos direitos dos cidadãos",
@@ -579,7 +625,8 @@
    "date": "2026-11-05T15:22:00Z",
    "cat": "cidade",
    "local": true,
-   "img": ""
+   "img": "",
+   "img_tried": true
   },
   {
    "title": "Side Capital capta R$ 280 milhões e vai atrás de imóveis ícones",
@@ -1252,15 +1299,6 @@
    "img": "https://ohoje.com/wp-content/uploads/2026/10/Capa-de-materia-15.webp"
   },
   {
-   "title": "IA ganha espaço na compra de imóveis, mas afeta o papel dos corretores?",
-   "url": "https://www.infomoney.com.br/minhas-financas/ia-ganha-espaco-na-compra-de-imoveis-mas-afeta-o-papel-dos-corretores/",
-   "source": "InfoMoney",
-   "date": "2026-10-31T09:00:00Z",
-   "cat": "mercado",
-   "local": false,
-   "img": "https://www.infomoney.com.br/wp-content/uploads/2026/10/microsoft-copilot-7R3PqLcVnzQ-unsplash.jpg?fit=985%2C549&quality=70&strip=all"
-  },
-  {
    "title": "Luxo supercompacto: apartamentos com cerca de 30 m² ganham espaço no mercado em Goiânia",
    "url": "https://g1.globo.com/go/goias/noticia/2026/10/31/luxo-supercompacto-apartamentos-com-cerca-de-30-m-ganham-espaco-no-mercado-em-goiania.ghtml",
    "source": "G1",
@@ -1268,15 +1306,6 @@
    "cat": "mercado",
    "local": true,
    "img": "https://s2-g1.glbimg.com/mwwHD-TVExpyfgpy9IbeDR0Ni0U=/1700x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/B/Z/iQf2U0QLqJUI9YDtnlOw/pink-pool-goiania.jpg"
-  },
-  {
-   "title": "Novo PAC em Goiás traz 40 bilhões em investimentos, mas deixa obras importantes fora do programa",
-   "url": "https://www.jornalopcao.com.br/reportagem-especial/novo-pac-previa-r-40-bilhoes-para-goias-em-quatro-anos-mas-deixa-obras-estrategicas-de-fora-veja-a-situacao-delas-884232/",
-   "source": "Jornal Opção",
-   "date": "2026-10-31T07:00:00Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://cdn.jornalopcao.com.br/assets/2026/10/01141734/1793542649-images-10.webp"
   },
   {
    "title": "Casa própria mais cara: Bradesco, Itaú e Santander aumentam taxa de juros do financiamento imobiliário",
@@ -1288,6 +1317,15 @@
    "img": "https://s2-extra.glbimg.com/XcY6FQr6Z4lAvqb5dzvq0ZubA-w=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_1f551ea7087a47f39ead75f64041559a/internal_photos/bs/2026/o/z/0eqwOuT6OLdsD4ugADBw/comprar-alugar-imovel-1280.jpg"
   },
   {
+   "title": "IA ganha espaço na compra de imóveis, mas afeta o papel dos corretores?",
+   "url": "https://www.infomoney.com.br/minhas-financas/ia-ganha-espaco-na-compra-de-imoveis-mas-afeta-o-papel-dos-corretores/",
+   "source": "InfoMoney",
+   "date": "2026-10-31T07:00:00Z",
+   "cat": "mercado",
+   "local": false,
+   "img": "https://www.infomoney.com.br/wp-content/uploads/2026/10/microsoft-copilot-7R3PqLcVnzQ-unsplash.jpg?fit=985%2C549&quality=70&strip=all"
+  },
+  {
    "title": "Goiânia terá mudanças no trânsito em cinco cemitérios no dia de finados",
    "url": "https://www.dm.com.br/cotidiano/goiania-tera-mudancas-no-transito-em-cinco-cemiterios-no-dia-de-finados/",
    "source": "Diário da Manhã",
@@ -1295,6 +1333,15 @@
    "cat": "cidade",
    "local": true,
    "img": "https://www.dm.com.br/wp-content/uploads/2026/10/Copia-de-f1-169.png"
+  },
+  {
+   "title": "Novo PAC em Goiás traz 40 bilhões em investimentos, mas deixa obras importantes fora do programa",
+   "url": "https://www.jornalopcao.com.br/reportagem-especial/novo-pac-previa-r-40-bilhoes-para-goias-em-quatro-anos-mas-deixa-obras-estrategicas-de-fora-veja-a-situacao-delas-884232/",
+   "source": "Jornal Opção",
+   "date": "2026-10-31T07:00:00Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://cdn.jornalopcao.com.br/assets/2026/10/01141734/1793542649-images-10.webp"
   },
   {
    "title": "Ter a casa própria virou um privilégio?",
@@ -1313,51 +1360,6 @@
    "cat": "financiamento",
    "local": false,
    "img": "https://vozdabahia.com.br/wp-content/uploads/2024/10/IMAGEM_NOTICIA_9-21.webp"
-  },
-  {
-   "title": "Região Metropolitana de Goiânia pode ganhar novo município; entenda",
-   "url": "https://opopular.com.br/cidades/regi-o-metropolitana-de-goiania-pode-ganhar-novo-municipio-entenda-1.3471486",
-   "source": "O Popular",
-   "date": "2026-10-30T21:39:10Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://opopular.com.br/image/policy:1.3475184:1793396246/image.jpg"
-  },
-  {
-   "title": "Vistoria em imóvel mobiliado: o que checar antes de assinar o contrato de aluguel?",
-   "url": "https://www.dm.com.br/dicas/vistoria-em-imovel-mobiliado-o-que-checar-antes-de-assinar-o-contrato-de-aluguel/",
-   "source": "DM",
-   "date": "2026-10-30T21:27:42Z",
-   "cat": "mercado",
-   "local": false,
-   "img": "https://www.dm.com.br/wp-content/uploads/2025/08/728X90PX_RACISMO_CMG-1.gif"
-  },
-  {
-   "title": "Distratos chegam a 21% das vendas de imóveis de médio e alto padrão",
-   "url": "https://paraibabusiness.com.br/distratos-chegam-a-21-das-vendas-de-imoveis-de-medio-e-alto-padrao-2/",
-   "source": "Paraíba Business",
-   "date": "2026-10-30T21:00:00Z",
-   "cat": "mercado",
-   "local": false,
-   "img": "https://paraibabusiness.com.br/atual/wp-content/uploads/2025/10/Vista-costeira-com-arranha-ceus-e-praia.png"
-  },
-  {
-   "title": "Crédito imobiliário encarece com Itaú, Bradesco e Santander",
-   "url": "https://www.spacemoney.com.br/credito/credito-imobiliario-juros-bancos/",
-   "source": "SpaceMoney",
-   "date": "2026-10-30T18:33:35Z",
-   "cat": "financiamento",
-   "local": false,
-   "img": "https://www.spacemoney.com.br/wp-content/uploads/2026/10/pexels-photo-7841821-8.webp"
-  },
-  {
-   "title": "Reformas de imóveis em Goiás podem ficar até 15% mais caras em 2027, diz SindusCon-GO",
-   "url": "https://www.jornalopcao.com.br/ultimas-noticias/reformas-de-imoveis-em-goias-podem-ficar-ate-15-mais-caras-em-2027-diz-sinduscon-go-884194/",
-   "source": "Jornal Opção",
-   "date": "2026-10-30T18:32:00Z",
-   "cat": "mercado",
-   "local": true,
-   "img": "https://cdn.jornalopcao.com.br/assets/2025/11/03104349/casa-em-reforma.webp"
   }
  ]
 }
