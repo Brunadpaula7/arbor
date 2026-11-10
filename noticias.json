@@ -1,6 +1,42 @@
 {
- "updated": "2026-11-10T03:08:49Z",
+ "updated": "2026-11-10T16:45:54Z",
  "items": [
+  {
+   "title": "Manutenção da Selic não reverte alta dos juros do crédito imobiliário",
+   "url": "https://imobireport.com.br/newsletter-do-imobi/manter-juros-em-1375-nao-muda-cenario-do-credito-credito-imobiliario/",
+   "source": "Imobi Report",
+   "date": "2026-11-10T14:19:36Z",
+   "cat": "financiamento",
+   "local": false,
+   "img": "https://imobireport.com.br/app/uploads/2026/11/Manter-juros-nao-muda-cenario-do-credito-credito-imobiliario-scaled.jpeg"
+  },
+  {
+   "title": "Prefeitura de Goiânia atua em obras e limpeza após forte chuva",
+   "url": "https://ohoje.com/2026/11/10/prefeitura-de-goiania-atua-em-obras-e-limpeza-apos-forte-chuva/",
+   "source": "O Hoje",
+   "date": "2026-11-10T12:00:22Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://ohoje.com/wp-content/uploads/2026/11/Capa-de-materia-3-1.webp"
+  },
+  {
+   "title": "Decisão judicial sobre imóvel de Pedro do Flamengo gera polêmica",
+   "url": "https://diariodoestadogo.com.br/decisao-judicial-sobre-imovel-de-pedro-do-flamengo-gera-polemica/",
+   "source": "Diário do Estado",
+   "date": "2026-11-10T10:01:04Z",
+   "cat": "mercado",
+   "local": false,
+   "img": "https://diariodoestadogo.com.br/wp-content/uploads/2026/11/decisao-judicial-sobre-imovel-de-pedro-do-flamengo-gera-polemica.jpg"
+  },
+  {
+   "title": "Alta de 25% nos lançamentos imobiliários atrai empresa da família Hang a São Paulo",
+   "url": "https://brazileconomy.com.br/empresas/constru-economy/2026/11/alta-de-25-nos-lancamentos-imobiliarios-atrai-empresa-da-familia-hang-a-sao-paulo/",
+   "source": "Brazileconomy",
+   "date": "2026-11-10T04:21:36Z",
+   "cat": "lancamentos",
+   "local": false,
+   "img": "https://brazileconomy.com.br/wp-content/uploads/2026/11/Jordan-Hang-Divulgacao-1-1024x565.jpg"
+  },
   {
    "title": "Saiba onde estão as obras federais paralisadas em Goiás e quanto custaria para terminá-las",
    "url": "https://diariodegoias.com.br/saiba-onde-estao-as-obras-federais-paralisadas-em-goias-e-quanto-custaria-para-termina-las/553781/",
@@ -782,6 +818,15 @@
    "img": "https://uploads.portas.com.br/2026/11/Apartamentos-garden-somam-3.120-lancamentos-no-Rio-em-seis-anos-1536x1023.jpg"
   },
   {
+   "title": "Universidades corporativas ganham espaço no mercado imobiliário e redefinem a formação dos corretores no Brasil",
+   "url": "https://cndl.org.br/varejosa/universidades-corporativas-ganham-espaco-no-mercado-imobiliario-e-redefinem-a-formacao-dos-corretores-no-brasil/",
+   "source": "Confederação Nacional de Dirigentes Lojistas",
+   "date": "2026-11-04T08:00:00Z",
+   "cat": "mercado",
+   "local": false,
+   "img": "https://cndl.org.br/varejosa/wp-content/uploads/2024/08/Menos-de-20-dos-MEIs-recorrem-aos-servicos-de-contadores-revela-pesquisa.jpg"
+  },
+  {
    "title": "Prefeitura de SP identifica desvios em 700 imóveis sociais e prevê multas a construtoras; Pinheiros e Barra Funda lideram casos",
    "url": "https://g1.globo.com/sp/sao-paulo/noticia/2026/11/04/prefeitura-de-sp-identifica-desvios-em-700-imoveis-sociais-e-preve-multas-a-construtoras-pinheiros-e-barra-funda-lideram-casos.ghtml",
    "source": "G1",
@@ -1187,8 +1232,7 @@
    "date": "2026-11-01T12:43:00Z",
    "cat": "cidade",
    "local": true,
-   "img": "",
-   "img_tried": true
+   "img": ""
   },
   {
    "title": "Busca por patrimônio mantém interesse por imóveis em alta e aparece nos resultados da Ademicon em Goiânia",
@@ -1308,33 +1352,6 @@
    "img": "https://s2-g1.glbimg.com/mwwHD-TVExpyfgpy9IbeDR0Ni0U=/1700x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/B/Z/iQf2U0QLqJUI9YDtnlOw/pink-pool-goiania.jpg"
   },
   {
-   "title": "Casa própria mais cara: Bradesco, Itaú e Santander aumentam taxa de juros do financiamento imobiliário",
-   "url": "https://extra.globo.com/economia/noticia/2026/10/casa-propria-mais-cara-bradesco-itau-e-santander-aumentam-taxa-de-juros-do-financiamento-imobiliario.ghtml",
-   "source": "Extra online",
-   "date": "2026-10-31T07:00:00Z",
-   "cat": "financiamento",
-   "local": false,
-   "img": "https://s2-extra.glbimg.com/XcY6FQr6Z4lAvqb5dzvq0ZubA-w=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_1f551ea7087a47f39ead75f64041559a/internal_photos/bs/2026/o/z/0eqwOuT6OLdsD4ugADBw/comprar-alugar-imovel-1280.jpg"
-  },
-  {
-   "title": "IA ganha espaço na compra de imóveis, mas afeta o papel dos corretores?",
-   "url": "https://www.infomoney.com.br/minhas-financas/ia-ganha-espaco-na-compra-de-imoveis-mas-afeta-o-papel-dos-corretores/",
-   "source": "InfoMoney",
-   "date": "2026-10-31T07:00:00Z",
-   "cat": "mercado",
-   "local": false,
-   "img": "https://www.infomoney.com.br/wp-content/uploads/2026/10/microsoft-copilot-7R3PqLcVnzQ-unsplash.jpg?fit=985%2C549&quality=70&strip=all"
-  },
-  {
-   "title": "Goiânia terá mudanças no trânsito em cinco cemitérios no dia de finados",
-   "url": "https://www.dm.com.br/cotidiano/goiania-tera-mudancas-no-transito-em-cinco-cemiterios-no-dia-de-finados/",
-   "source": "Diário da Manhã",
-   "date": "2026-10-31T07:00:00Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://www.dm.com.br/wp-content/uploads/2026/10/Copia-de-f1-169.png"
-  },
-  {
    "title": "Novo PAC em Goiás traz 40 bilhões em investimentos, mas deixa obras importantes fora do programa",
    "url": "https://www.jornalopcao.com.br/reportagem-especial/novo-pac-previa-r-40-bilhoes-para-goias-em-quatro-anos-mas-deixa-obras-estrategicas-de-fora-veja-a-situacao-delas-884232/",
    "source": "Jornal Opção",
@@ -1342,24 +1359,6 @@
    "cat": "cidade",
    "local": true,
    "img": "https://cdn.jornalopcao.com.br/assets/2026/10/01141734/1793542649-images-10.webp"
-  },
-  {
-   "title": "Ter a casa própria virou um privilégio?",
-   "url": "https://www.jornalopcao.com.br/colunas-e-blogs/faltou-dizer-colunas-e-blogs/ter-a-casa-propria-virou-um-privilegio-884392/",
-   "source": "Jornal Opção",
-   "date": "2026-10-30T23:49:00Z",
-   "cat": "mercado",
-   "local": true,
-   "img": "https://cdn.jornalopcao.com.br/assets/2026/10/30234522/1793403918-425196786-casa-nova-dicas.webp"
-  },
-  {
-   "title": "Bradesco, Itaú e Santander aumentam juros do financiamento imobiliário; veja o que muda",
-   "url": "https://vozdabahia.com.br/bradesco-itau-santander-aumentam-juros-financiamento-imobiliario/",
-   "source": "Voz da Bahia",
-   "date": "2026-10-30T23:44:00Z",
-   "cat": "financiamento",
-   "local": false,
-   "img": "https://vozdabahia.com.br/wp-content/uploads/2024/10/IMAGEM_NOTICIA_9-21.webp"
   }
  ]
 }
