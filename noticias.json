@@ -1,6 +1,132 @@
 {
- "updated": "2026-11-10T16:45:54Z",
+ "updated": "2026-11-11T00:59:22Z",
  "items": [
+  {
+   "title": "A conta que me fez começar a comprar imóveis",
+   "url": "https://investidorsardinha.r7.com/opiniao/a-conta-que-me-fez-comecar-a-comprar-imoveis/",
+   "source": "Investidor Sardinha",
+   "date": "2026-11-11T00:00:00Z",
+   "cat": "mercado",
+   "local": false,
+   "img": ""
+  },
+  {
+   "title": "Zé Neto e Cristiano retornam a Goiânia com turnê de 15 anos de carreira",
+   "url": "https://aredacao.com.br/ze-neto-e-cristiano-retornam-a-goiania-com-turne-de-15-anos-de-carreira/",
+   "source": "A Redação",
+   "date": "2026-11-10T23:05:57Z",
+   "cat": "regras",
+   "local": true,
+   "img": "https://aredacao.com.br/wp-content/uploads/2026/11/IMG_7338-300x157.jpeg"
+  },
+  {
+   "title": "Setor imobiliário deve manter resiliência pós eleições",
+   "url": "https://www.cnnbrasil.com.br/colunas/duda-herriot/economia/money/negocios/setor-imobiliario-deve-manter-resiliencia-pos-eleicoes/",
+   "source": "CNN Brasil",
+   "date": "2026-11-10T22:22:32Z",
+   "cat": "mercado",
+   "local": false,
+   "img": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2021/10/stack-of-coins-and-paper-houses.jpg?w=1200&h=630&crop=1"
+  },
+  {
+   "title": "Projeto Fachada Limpa prevê a revitalização de trinta e quatro imóveis na Rua 3, no Centro de Goiânia",
+   "url": "https://www.cbngoiania.com.br/tarde-cbn/projeto-fachada-limpa-preve-a-revitalizac-o-de-trinta-e-quatro-imoveis-na-rua-3-no-centro-de-goiania-1.3479156",
+   "source": "CBN Goiânia",
+   "date": "2026-11-10T22:20:10Z",
+   "cat": "mercado",
+   "local": true,
+   "img": "https://www.cbngoiania.com.br/image/policy:1.3479160:1794348173/image.jpg?f=3x2"
+  },
+  {
+   "title": "Primeira indústria do novo Daiaplam, IBG Gases será inaugurada em dezembro com investimento de R$ 150 milhões",
+   "url": "https://www.jornalopcao.com.br/ultimas-noticias/primeira-industria-do-novo-daiaplam-ibg-gases-sera-inaugurada-em-dezembro-com-investimento-de-r-150-milhoes-887435/",
+   "source": "Jornal Opção",
+   "date": "2026-11-10T21:57:25Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://cdn.jornalopcao.com.br/assets/2024/12/IMG_0092-2-scaled.jpeg"
+  },
+  {
+   "title": "Mabel usa inteligência artificial para mostrar como ficará o Centro de Goiânia após revitalização",
+   "url": "https://www.jornalopcao.com.br/ultimas-noticias/mabel-usa-inteligencia-artificial-para-mostrar-como-ficara-o-centro-de-goiania-apos-revitalizacao-887451/",
+   "source": "Jornal Opção",
+   "date": "2026-11-10T21:00:54Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://cdn.jornalopcao.com.br/assets/2026/11/10205857/1794344333-whatsapp-image-2026-11-10-at-17-45-55.webp"
+  },
+  {
+   "title": "Lançamentos imobiliários crescem 25% em São Paulo e atraem empresa catarinense que projeta gerir R$ 300 milhões em VGV – ABC da Comunicação",
+   "url": "https://www.abcdacomunicacao.com.br/lancamentos-imobiliarios-crescem-25-em-sao-paulo-e-atraem-empresa-catarinense-que-projeta-gerir-r-300-milhoes-em-vgv/",
+   "source": "ABC da Comunicação",
+   "date": "2026-11-10T20:10:22Z",
+   "cat": "lancamentos",
+   "local": false,
+   "img": ""
+  },
+  {
+   "title": "Eixo Brasília-Anápolis-Goiânia entra no mapa do imóvel de bem-estar",
+   "url": "https://panoramagocomunicacao.com.br/eixo-brasilia-anapolis-goiania-entra-no-mapa-do-imovel-de-bem-estar/",
+   "source": "Panoramagocomunicacao",
+   "date": "2026-11-10T18:49:41Z",
+   "cat": "mercado",
+   "local": true,
+   "img": "https://us-central1-pulsebrand-plataforma.cloudfunctions.net/trackPixel?c=5cc08917-e935-4a3a-8720-ff2710fcce68&v=ecfe09ab-2041-414f-aa1b-8fb62c4117ea&p=d18de97f-42da-4abc-aee8-d8c8d34c11e4"
+  },
+  {
+   "title": "Mercado imobiliário prevê 2027 de ajustes e menos lançamentos no ES",
+   "url": "https://www.folhavitoria.com.br/economia/mercado-imobiliario-preve-2027-de-ajustes-e-menos-lancamentos-no-es/",
+   "source": "Folha Vitória",
+   "date": "2026-11-10T18:37:20Z",
+   "cat": "lancamentos",
+   "local": false,
+   "img": "https://uploads.folhavitoria.com.br/imagens/2026/11/WhatsApp-Image-2026-11-10-at-15.27.18.jpeg"
+  },
+  {
+   "title": "Mercado imobiliário de Goiânia aquece com evento de 800 corretores e promessas de crescimento",
+   "url": "https://www.bra1.com.br/economia/id-723879/mercado_imobiliario_de_goiania_aquece_com_evento_de_800_corretores_e_promessas_de_crescimento",
+   "source": "Bra1",
+   "date": "2026-11-10T18:19:00Z",
+   "cat": "mercado",
+   "local": true,
+   "img": "https://cdn.conexaohost.com.br/img/500x500/1/0/webp/arquivos/1918/conteudo/posts/723879.webp"
+  },
+  {
+   "title": "Goiânia terá maior parque indoor do Centro-Oeste com montanha-russa e ingressos a partir de R$ 5,90",
+   "url": "https://gazetaculturismo.com.br/neverland-park-goiania-tera-maior-parque-indoor-do-centro-oeste-com-montanha-russa-e-ingressos-a-partir-de-r-590/35499/",
+   "source": "Gazeta Culturismo",
+   "date": "2026-11-10T18:15:09Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://cdn.gazetaculturismo.com.br/wp-content/uploads/2026/11/goiania-tera-maior-parque-indoor-do-centro-oeste-com-montanha-russa-e-ingressos-a-partir-de-r-590.webp"
+  },
+  {
+   "title": "Projeto Fachada Limpa recebe apoio de comerciantes e gera expectativa de revitalização do Centro de Goiânia",
+   "url": "https://ojornalismo.com.br/noticia/219564/projeto-fachada-limpa-recebe-apoio-de-comerciantes-e-gera-expectativa-de-revitalizacao-do-centro-de-goiania/",
+   "source": "ojornalismo",
+   "date": "2026-11-10T18:00:44Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://ojornalismo.com.br/wp-content/uploads/2026/11/whatsapp-image-2026-11-10-at-15-00-44-1.webp"
+  },
+  {
+   "title": "Comerciantes apoiam projeto de revitalização de fachadas no Centro de Goiânia",
+   "url": "https://aredacao.com.br/comerciantes-apoiam-projeto-de-revitalizacao-de-fachadas-no-centro-de-goiania/",
+   "source": "A Redação",
+   "date": "2026-11-10T17:29:37Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://aredacao.com.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-10-at-13.56.57-e1794330928907.jpeg"
+  },
+  {
+   "title": "Prefeitura vai custear revitalização de 34 fachadas no Centro de Goiânia; veja quando começam as obras",
+   "url": "https://www.jornalopcao.com.br/ultimas-noticias/prefeitura-vai-custear-revitalizacao-de-34-fachadas-no-centro-de-goiania-veja-quando-comecam-as-obras-887364/",
+   "source": "Jornal Opção",
+   "date": "2026-11-10T17:00:00Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://cdn.jornalopcao.com.br/assets/2024/04/WhatsApp-Image-2024-04-03-at-10.43.53-AM.jpeg"
+  },
   {
    "title": "Manutenção da Selic não reverte alta dos juros do crédito imobiliário",
    "url": "https://imobireport.com.br/newsletter-do-imobi/manter-juros-em-1375-nao-muda-cenario-do-credito-credito-imobiliario/",
@@ -152,7 +278,8 @@
    "date": "2026-11-09T06:17:13Z",
    "cat": "cidade",
    "local": true,
-   "img": ""
+   "img": "",
+   "img_tried": true
   },
   {
    "title": "Reordenamento também precisa incluir a revitalização do Centro de Goiânia",
@@ -1233,132 +1360,6 @@
    "cat": "cidade",
    "local": true,
    "img": ""
-  },
-  {
-   "title": "Busca por patrimônio mantém interesse por imóveis em alta e aparece nos resultados da Ademicon em Goiânia",
-   "url": "https://panoramagocomunicacao.com.br/busca-por-patrimonio-mantem-interesse-por-imoveis-em-alta-e-aparece-nos-resultados-da-ademicon-em-goiania/",
-   "source": "Jornal Tudo Aqui",
-   "date": "2026-11-01T12:25:00Z",
-   "cat": "mercado",
-   "local": true,
-   "img": "https://panoramagocomunicacao.com.br/wp-content/uploads/2026/10/Foto-Alcimar-Nogueira-de-Medeiros-licenciado-da-Ademicon-scaled.jpeg"
-  },
-  {
-   "title": "Novo PAC previa R$ 40 bilhões para Goiás em quatro anos, mas deixa obras estratégicas de fora; veja a situação delas",
-   "url": "https://www.jornalopcao.com.br/reportagem-especial/novo-pac-previa-r-40-bilhoes-para-goias-em-quatro-anos-mas-deixa-obras-estrategicas-de-fora-veja-a-situacao-delas-884232/",
-   "source": "Jornal Opção",
-   "date": "2026-11-01T00:30:15Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://cdn.jornalopcao.com.br/assets/2026/10/01141734/1793542649-images-10.webp"
-  },
-  {
-   "title": "Residencial Triunfo e Orlando de Moraes conquistam títulos da Taça das Favelas Goiás 2026",
-   "url": "https://www.jornalopcao.com.br/esportes/residencial-triunfo-e-orlando-de-moraes-conquistam-titulos-da-taca-das-favelas-goias-2026-884650/",
-   "source": "Jornal Opção",
-   "date": "2026-10-31T21:16:00Z",
-   "cat": "mercado",
-   "local": true,
-   "img": "https://cdn.jornalopcao.com.br/assets/2026/10/31220758/1793484472-saveclip-app_872010435_18131438452794495_77986524415509821_n.webp"
-  },
-  {
-   "title": "Bancos privados disputam crédito imobiliário com juros a partir de 11,69% e financiamento de até 90%",
-   "url": "https://www.atribuna.com.br/galeria/comportamento/bancos-privados-disputam-credito-imobiliario-com-juros-a-partir-de-11-69-e-financiamento-de-ate-90-1.535165",
-   "source": "A Tribuna",
-   "date": "2026-10-31T20:18:00Z",
-   "cat": "financiamento",
-   "local": false,
-   "img": "https://www.atribuna.com.br/image/policy:1.511365:1793398560/image.jpg?f=3x2"
-  },
-  {
-   "title": "Goiânia terá bloqueios e mudanças no trânsito em cinco cemitérios no Dia de Finados",
-   "url": "https://diariodegoias.com.br/goiania-tera-bloqueios-e-mudancas-no-transito-em-cinco-cemiterios-no-dia-de-finados/552864/",
-   "source": "Diário de Goiás",
-   "date": "2026-10-31T18:30:00Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://cdn.diariodegoias.com.br/wp-content/uploads/2026/10/31171626/goiania-tera-bloqueios-e-mudancas-no-transito-em-cinco-cemiterios-no-dia-de-finados.webp"
-  },
-  {
-   "title": "Bancos elevam juros do crédito imobiliário e pressionam custo da casa própria",
-   "url": "https://contilnetnoticias.com.br/cotidiano/bancos-elevam-juros-do-credito-imobiliario-e-pressionam-custo-da-casa-propria/",
-   "source": "ContilNet Notícias",
-   "date": "2026-10-31T18:16:29Z",
-   "cat": "financiamento",
-   "local": false,
-   "img": "https://contilnetnoticias.com.br/wp-content/uploads/2026/10/real_moeda_dinheiro_mcajr_2904223671.webp"
-  },
-  {
-   "title": "Mercado imobiliário de Goiás mira crescimento em 2027 após alta de 42% nas vendas em Goiânia",
-   "url": "https://www.gynnoticias.com.br/goias/mercado-imobiliario-de-goias-mira-crescimento-em-2027-apos-alta-de-42-nas-vendas-em-goiania/5419",
-   "source": "GYN Noticias",
-   "date": "2026-10-31T18:00:00Z",
-   "cat": "mercado",
-   "local": true,
-   "img": "https://cdn.gynnoticias.com.br/storage/webdisco/2026/07/28/1200x900/7282ea509191bcc479dbb893d23d306f.jpg"
-  },
-  {
-   "title": "Na contramão do mercado, incorporadora compra obra da JPS em Camboinha",
-   "url": "https://paraibabusiness.com.br/na-contramao-do-mercado-incorporadora-compra-obra-da-jps-em-camboinha/",
-   "source": "Paraíba Business",
-   "date": "2026-10-31T18:00:00Z",
-   "cat": "lancamentos",
-   "local": false,
-   "img": "https://paraibabusiness.com.br/atual/wp-content/uploads/2026/10/237eba2a63aab3e7f83493c09e8f3897.webp"
-  },
-  {
-   "title": "França enfrenta nova onda de protestos em meio à tensão antes da eleição presidencial",
-   "url": "https://www.jornalopcao.com.br/mundo/franca-enfrenta-nova-onda-de-protestos-em-meio-a-tensao-antes-da-eleicao-presidencial-884524/",
-   "source": "Jornal Opção",
-   "date": "2026-10-31T15:34:54Z",
-   "cat": "mercado",
-   "local": true,
-   "img": "https://cdn.jornalopcao.com.br/assets/2026/10/31153422/1793460855-protestos-franca-2.webp"
-  },
-  {
-   "title": "Tasso Jayme retorna à presidência da SGPA e promete modernizar Parque de Exposições em Goiânia",
-   "url": "https://www.jornalopcao.com.br/agronegocio/tasso-jayme-retorna-a-presidencia-da-sgpa-e-promete-modernizar-parque-de-exposicoes-em-goiania-884501/",
-   "source": "Jornal Opção",
-   "date": "2026-10-31T15:03:32Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://cdn.jornalopcao.com.br/assets/2026/10/31144400/1793457836-179345781515671.webp"
-  },
-  {
-   "title": "Goiás avança na modernização da malha viária com 84 obras em andamento",
-   "url": "https://br.paipee.com/2026/10/31/goias-avanca-na-modernizacao-da-malha-viaria-com-84-obras-em-andamento/",
-   "source": "PAIPEE -",
-   "date": "2026-10-31T12:21:21Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://br.paipee.com/wp-content/uploads/2026/10/feature-2026-10-31T122119.993Z.jpg"
-  },
-  {
-   "title": "Prefeitura de Goiânia prevê investir R$ 100 milhões em obras na Perimetral Norte",
-   "url": "https://ohoje.com/2026/10/31/prefeitura-de-goiania-preve-investir-r-100-milhoes-em-obras-na-perimetral-norte/",
-   "source": "O Hoje",
-   "date": "2026-10-31T12:00:02Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://ohoje.com/wp-content/uploads/2026/10/Capa-de-materia-15.webp"
-  },
-  {
-   "title": "Luxo supercompacto: apartamentos com cerca de 30 m² ganham espaço no mercado em Goiânia",
-   "url": "https://g1.globo.com/go/goias/noticia/2026/10/31/luxo-supercompacto-apartamentos-com-cerca-de-30-m-ganham-espaco-no-mercado-em-goiania.ghtml",
-   "source": "G1",
-   "date": "2026-10-31T07:00:00Z",
-   "cat": "mercado",
-   "local": true,
-   "img": "https://s2-g1.glbimg.com/mwwHD-TVExpyfgpy9IbeDR0Ni0U=/1700x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/B/Z/iQf2U0QLqJUI9YDtnlOw/pink-pool-goiania.jpg"
-  },
-  {
-   "title": "Novo PAC em Goiás traz 40 bilhões em investimentos, mas deixa obras importantes fora do programa",
-   "url": "https://www.jornalopcao.com.br/reportagem-especial/novo-pac-previa-r-40-bilhoes-para-goias-em-quatro-anos-mas-deixa-obras-estrategicas-de-fora-veja-a-situacao-delas-884232/",
-   "source": "Jornal Opção",
-   "date": "2026-10-31T07:00:00Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://cdn.jornalopcao.com.br/assets/2026/10/01141734/1793542649-images-10.webp"
   }
  ]
 }
