@@ -490,3 +490,9 @@ body.filtros-open #scroll-tree{display:none!important}
 .ic-tel-dica{color:var(--ui-terracota)}
 @media(max-width:560px){.ic-modos{display:flex}.ic-modo{flex:1;padding:10px 8px}}
 @media(max-width:600px){.mobile-detail-cta{grid-template-columns:minmax(0,1fr) 52px 52px}.mobile-detail-cta .mobile-wa-btn{width:52px;min-width:52px;padding:0;border-radius:14px}}
+
+/* Convite da página inicial: formulário de mensagem que abre sob os botões */
+.ui-convite-form{max-width:640px;margin:28px auto 0;padding:clamp(20px,3vw,28px);text-align:left;background:var(--ui-papel);border:1px solid var(--ui-linha);border-radius:16px}
+.ui-convite-form[hidden]{display:none}
+.ui-convite-form .ui-contato-aceite{margin-bottom:16px}
+@media(max-width:560px){.ui-convite-form .ui-contato-grid{grid-template-columns:1fr}}
