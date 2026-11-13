@@ -1,6 +1,78 @@
 {
- "updated": "2026-11-12T17:20:33Z",
+ "updated": "2026-11-13T01:40:01Z",
  "items": [
+  {
+   "title": "Equipe de robótica do Colégio Arena visita obra de complexo comercial em Goiânia",
+   "url": "https://panoramagocomunicacao.com.br/equipe-de-robotica-do-colegio-arena-visita-obra-de-complexo-comercial-em-goiania/",
+   "source": "Panoramagocomunicacao",
+   "date": "2026-11-13T01:13:11Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://panoramagocomunicacao.com.br/wp-content/uploads/2026/11/image001.jpg"
+  },
+  {
+   "title": "Prefeitura de Goiânia envia projeto à Câmara para reduzir multas e ampliar isenção do IPTU Social",
+   "url": "https://www.jornalopcao.com.br/ultimas-noticias/prefeitura-de-goiania-envia-projeto-a-camara-para-reduzir-multas-e-ampliar-isencao-do-iptu-social-888147/",
+   "source": "Jornal Opção",
+   "date": "2026-11-12T21:28:38Z",
+   "cat": "regras",
+   "local": true,
+   "img": "https://cdn.jornalopcao.com.br/assets/2026/11/12212424/1794518661-whatsapp-image-2026-11-12-at-15-06-15.webp"
+  },
+  {
+   "title": "O MCMV pode crescer nas vendas e apertar o caixa das incorporadoras",
+   "url": "https://valor.globo.com/google/amp/patrocinado/pulse-brand/noticia/2026/11/12/o-mcmv-pode-crescer-nas-vendas-e-apertar-o-caixa-das-incorporadoras-1.ghtml",
+   "source": "Valor Econômico",
+   "date": "2026-11-12T20:24:00Z",
+   "cat": "lancamentos",
+   "local": false,
+   "img": "https://s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/public/fb_marca.png"
+  },
+  {
+   "title": "Inova Conference By URBS 2026 reúne especialistas e aponta cenário de resiliência e alta demanda no mercado imobiliário de Goiânia",
+   "url": "https://abcagora.com.br/2026/11/12/inova-urbs-mercado-imobiliario-goiania/",
+   "source": "ABC Agora",
+   "date": "2026-11-12T20:04:37Z",
+   "cat": "mercado",
+   "local": true,
+   "img": "https://abcagora.com.br/wp-content/uploads/2026/11/Inova-Conference-By-URBS-2026-reune-especialistas-e-aponta-cenario-de-resiliencia-e-alta-demanda-no-mercado-imobiliario-de-Goiania.webp"
+  },
+  {
+   "title": "Apartamentos em Goiânia têm valorização de até 20,33%, aponta Secovi Goiás",
+   "url": "https://aredacao.com.br/apartamentos-em-goiania-tem-valorizacao-de-ate-2033-aponta-secovi-goias/",
+   "source": "A Redação",
+   "date": "2026-11-12T20:01:57Z",
+   "cat": "mercado",
+   "local": true,
+   "img": "https://aredacao.com.br/wp-content/uploads/2026/03/goiania2.jpg"
+  },
+  {
+   "title": "Evento em Goiânia destaca força do mercado imobiliário e lança assistente virtual para corretores",
+   "url": "https://www.bra1.com.br/economia/id-725189/evento_em_goiania_destaca_forca_do_mercado_imobiliario_e_lanca_assistente_virtual_para_corretores",
+   "source": "Bra1",
+   "date": "2026-11-12T19:11:00Z",
+   "cat": "lancamentos",
+   "local": true,
+   "img": "https://cdn.conexaohost.com.br/img/500x500/1/0/webp/arquivos/1918/conteudo/posts/725189.webp"
+  },
+  {
+   "title": "Prefeitura de Goiânia propõe redução de multas, ampliação do IPTU Social e mais direitos aos contribuintes",
+   "url": "https://www.goiania.go.gov.br/agora/prefeitura-de-goiania-propoe-reducao-de-multas-ampliacao-do-iptu-social-e-mais-direitos-aos-contribuintes",
+   "source": "Goiânia (Prefeitura)",
+   "date": "2026-11-12T17:43:28Z",
+   "cat": "regras",
+   "local": true,
+   "img": "https://www.goiania.go.gov.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-12-at-13.32.49.jpeg"
+  },
+  {
+   "title": "Goiás prevê R$ 10 bilhões em investimentos ferroviários e aplica R$ 5,3 bilhões em obras em 2026",
+   "url": "https://tribunadoplanalto.com.br/goias-preve-r-10-bilhoes-em-investimentos-ferroviarios-e-aplica-r-53-bilhoes-em-obras-em-2026/",
+   "source": "Tribuna do Planalto",
+   "date": "2026-11-12T17:27:00Z",
+   "cat": "cidade",
+   "local": true,
+   "img": ""
+  },
   {
    "title": "Sem propostas, concessão do Parque da Serra de Caldas Novas será reavaliada pelo Estado",
    "url": "https://www.jornalopcao.com.br/ultimas-noticias/sem-propostas-concessao-do-parque-da-serra-de-caldas-novas-sera-reavaliada-pelo-estado-888023/",
@@ -18,6 +90,15 @@
    "cat": "lancamentos",
    "local": true,
    "img": "https://cdn.diariodegoias.com.br/wp-content/uploads/2023/09/paco-municipal-aparecida-foto-claudivino-antunes.jpg"
+  },
+  {
+   "title": "Aparecida de Goiânia é destaque em investimentos em Saneamento",
+   "url": "https://agencia.go.gov.br/especial/aparecida-de-goiania-e-premiada-por-investimentos-em-saneamento-em-2026/",
+   "source": "Agência Goiás de Notícias",
+   "date": "2026-11-12T14:47:00Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://agencia.go.gov.br/wp-content/uploads/2026/11/APARECIDA_DE_GOIANIA_EM_PANORAMICA_FOTO_PREFEITURA_DE_APARECIDA.jpeg"
   },
   {
    "title": "Prefeitura de Goiânia anuncia retomada das obras da casa da mulher brasileira",
@@ -68,19 +149,10 @@
    "title": "Correios licita 15 imóveis com possibilidade de parcelamento em até 12x, financiamento e uso do FGTS",
    "url": "https://www.rp10.com.br/2026/11/correios-licita-15-imoveis-com-possibilidade-de-parcelamento-em-ate-12x-financiamento-e-uso-do-fgts/",
    "source": "RP10",
-   "date": "2026-11-12T11:44:00Z",
+   "date": "2026-11-12T11:46:00Z",
    "cat": "financiamento",
    "local": false,
    "img": "https://www.rp10.com.br/wp-content/uploads/2026/11/correios.webp"
-  },
-  {
-   "title": "Resultado da parceria com a CMO Construtora, casa 226 da Pastoral da Moradia é entregue",
-   "url": "https://portal.saladanoticia.com.br/noticia/79913/resultado-da-parceria-com-a-cmo-construtora-casa-226-da-pastoral-da-moradia-e-entregue/amp",
-   "source": "Sala da Notícia",
-   "date": "2026-11-12T04:00:23Z",
-   "cat": "mercado",
-   "local": false,
-   "img": ""
   },
   {
    "title": "Meia-tarifa para viagens curtas aumenta demanda de passageiros em 80% na região metropolitana de Goiânia",
@@ -137,13 +209,22 @@
    "img": "https://s2-g1.glbimg.com/YAgGLn57jKJrqjhX9CaRZCY_etM=/752x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/G/o/jvLAbxREeBnqEOLH8gFg/download-2-.png"
   },
   {
+   "title": "Resultado da parceria com a CMO Construtora, casa 226 da Pastoral da Moradia é entregue",
+   "url": "https://revistakdea360.com.br/noticia/100799/resultado-da-parceria-com-a-cmo-construtora-casa-226-da-pastoral-da-moradia-e-entregue",
+   "source": "Portal Revista Kdea 360",
+   "date": "2026-11-11T21:25:30Z",
+   "cat": "mercado",
+   "local": false,
+   "img": ""
+  },
+  {
    "title": "Reforma tributária deve elevar custos da construção civil",
    "url": "https://portaldoval.com.br/noticia/26450/reforma-tributaria-deve-elevar-custos-da-construcao-civil",
    "source": "Portal do Val",
    "date": "2026-11-11T20:21:54Z",
    "cat": "regras",
    "local": false,
-   "img": ""
+   "img": "https://str1.lnmimg.net/img/2026/11/11/12edf29c604daa9c307125f79d7ce373.webp?w=700&h=378"
   },
   {
    "title": "Veja congestionamento formado na Marginal Botafogo por conta das obras, em Goiânia",
@@ -197,7 +278,8 @@
    "date": "2026-11-11T16:57:51Z",
    "cat": "cidade",
    "local": true,
-   "img": ""
+   "img": "",
+   "img_tried": true
   },
   {
    "title": "Anel viário da BR-153 pode sair do papel após 30 anos de espera em Goiânia; entenda",
@@ -256,8 +338,8 @@
   {
    "title": "Prefeitura de Goiânia prorroga prazo para exigência da Certidão de Conclusão de Obras para averbação de imóveis",
    "url": "https://www.goiania.go.gov.br/agora/prefeitura-de-goiania-prorroga-prazo-para-exigencia-da-certidao-de-conclusao-de-obras-para-averbacao-de-imoveis",
-   "source": "Goiânia (Prefeitura)",
-   "date": "2026-11-11T12:27:50Z",
+   "source": "Panoramagocomunicacao",
+   "date": "2026-11-11T12:27:52Z",
    "cat": "mercado",
    "local": true,
    "img": "https://www.goiania.go.gov.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-11-at-09.13.59.jpeg"
@@ -292,8 +374,8 @@
   {
    "title": "Sandro Mabel garante no Ministério dos Transportes a obra do anel viário de Goiânia",
    "url": "https://www.goiania.go.gov.br/agora/sandro-mabel-garante-no-ministerio-dos-transportes-a-obra-do-anel-viario-de-goiania",
-   "source": "Goiânia (Prefeitura)",
-   "date": "2026-11-11T11:13:48Z",
+   "source": "Panoramagocomunicacao",
+   "date": "2026-11-11T11:12:43Z",
    "cat": "cidade",
    "local": true,
    "img": "https://www.goiania.go.gov.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-11-at-07.09.53-1.jpeg"
@@ -414,7 +496,8 @@
    "date": "2026-11-10T20:09:56Z",
    "cat": "lancamentos",
    "local": false,
-   "img": ""
+   "img": "",
+   "img_tried": true
   },
   {
    "title": "Juros altos por mais tempo aumentam cautela no mercado imobiliário",
@@ -433,6 +516,15 @@
    "cat": "mercado",
    "local": false,
    "img": "https://secovi.com.br/wp-content/uploads/2026/11/2026-conexao-p4-s1-600x500-1.webp"
+  },
+  {
+   "title": "Redução da jornada de trabalho pode impactar construção de 30 mil habitações populares por ano, estima CBIC",
+   "url": "https://cbic.org.br/reducao-da-jornada-de-trabalho-pode-impactar-construcao-de-30-mil-habitacoes-populares-por-ano-estima-cbic/",
+   "source": "CBIC - Câmara Brasileira da Indústria da Construção",
+   "date": "2026-11-10T19:30:32Z",
+   "cat": "mercado",
+   "local": false,
+   "img": "https://cbic.org.br/wp-content/uploads/2026/11/minha-casa-minha-vida-e1794338869441.jpeg"
   },
   {
    "title": "Eixo Brasília-Anápolis-Goiânia entra no mapa do imóvel de bem-estar",
@@ -889,13 +981,12 @@
   },
   {
    "title": "FR. Incorporadora leva conscientização sobre o Novembro Azul aos canteiros de obras em Goiânia",
-   "url": "https://portal.saladanoticia.com.br/noticia/79260/fr-incorporadora-leva-conscientizacao-sobre-o-novembro-azul-aos-canteiros-de-obras-em-goiania/amp",
+   "url": "https://portal.saladanoticia.com.br/noticia/79260/fr-incorporadora-leva-conscientizacao-sobre-o-novembro-azul-aos-canteiros-de-obras-em-goiania",
    "source": "Sala da Notícia",
    "date": "2026-11-06T18:36:34Z",
    "cat": "lancamentos",
    "local": true,
-   "img": "",
-   "img_tried": true
+   "img": ""
   },
   {
    "title": "Residencial Lagoa III",
@@ -968,6 +1059,15 @@
    "cat": "mercado",
    "local": false,
    "img": "https://img.dhost.cloud/ucTwolon1Tm0Sehy5lW97e0K5cQ=/970x545/smart/https://al1-media.s3.us-west-004.backblazeb2.com/images/9e17f/78698f326e3926d0e1073d745d15db0a25d.jpg?name=com-mais-de-15-anos-de-experiencia-empresario-lidera-a-luz-broker-brazil-e-aposta-em-estrategias-de-negocios-que-conectam-o-mercado-imobiliario-o-setor-rural-e-o-universo-automotivo.jpg"
+  },
+  {
+   "title": "DUE Incorporadora E ATrinca Real Estate Anunciam Novo Empreendimento No Nordeste",
+   "url": "https://forbes.com.br/forbes-money/forbes-real-estate/2026/11/due-incorporadora-e-atrinca-real-estate-anunciam-novo-empreendimento-no-nordeste/",
+   "source": "Forbes Brasil",
+   "date": "2026-11-06T14:34:28Z",
+   "cat": "lancamentos",
+   "local": false,
+   "img": ""
   },
   {
    "title": "Como usar FGTS na casa própria com amortização e abatimento na Caixa",
@@ -1260,105 +1360,6 @@
    "cat": "regras",
    "local": true,
    "img": "https://cdn.jornalopcao.com.br/assets/2026/11/05133825/1793885883-avenida_vera_cruz_jardim_guanabara_goiania_outubro_de_2023_6-scaled.webp"
-  },
-  {
-   "title": "Adeus, CR7! Cristiano Ronaldo encerra trajetória histórica com a camisa de Portugal",
-   "url": "https://diariodegoias.com.br/adeus-cr7-cristiano-ronaldo-encerra-trajetoria-historica-com-a-camisa-de-portugal/553351/",
-   "source": "Diário de Goiás",
-   "date": "2026-11-05T12:48:45Z",
-   "cat": "regras",
-   "local": true,
-   "img": "https://cdn.diariodegoias.com.br/wp-content/uploads/2026/06/23221304/Cristiano-Ronaldo-Portugal-Copa-2026.avif"
-  },
-  {
-   "title": "Após quase 40 anos de espera, 130 famílias do Parque Anhanguera recebem escrituras gratuitas em Goiânia",
-   "url": "https://www.jornalopcao.com.br/ultimas-noticias/apos-quase-40-anos-de-espera-130-familias-do-parque-anhanguera-recebem-escrituras-gratuitas-em-goiania-885749/",
-   "source": "Jornal Opção",
-   "date": "2026-11-05T12:12:17Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://cdn.jornalopcao.com.br/assets/2026/11/05113051/1793878251-whatsapp-image-2026-11-05-at-07-41-50-1.webp"
-  },
-  {
-   "title": "Gameleira de até 60 anos que obstrui calçada será substituída no setor Campinas em Goiânia",
-   "url": "https://ohoje.com/2026/11/05/gameleira-de-ate-60-anos-que-obstrui-calcada-sera-substituida-no-setor-campinas-em-goiania/",
-   "source": "O Hoje",
-   "date": "2026-11-05T12:00:48Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://ohoje.com/wp-content/uploads/2026/11/Capa-de-materia3.webp"
-  },
-  {
-   "title": "Prefeitura de Goiânia entrega escrituras a moradores do Parque Anhanguera após quase 40 anos de espera",
-   "url": "https://www.goiania.go.gov.br/agora/prefeitura-de-goiania-entrega-escrituras-a-moradores-do-parque-anhanguera-apos-quase-40-anos-de-espera",
-   "source": "Goiânia (Prefeitura)",
-   "date": "2026-11-05T11:46:08Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://www.goiania.go.gov.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-05-at-07.41.15.jpeg"
-  },
-  {
-   "title": "Selic fica em 13,75%, mas não deve baratear o financiamento imobiliário; entenda",
-   "url": "https://www.infomoney.com.br/minhas-financas/selic-fica-em-1375-mas-nao-deve-baratear-o-financiamento-imobiliario-entenda/",
-   "source": "InfoMoney",
-   "date": "2026-11-05T09:00:00Z",
-   "cat": "financiamento",
-   "local": false,
-   "img": "https://www.infomoney.com.br/wp-content/uploads/2026/07/Designer-5.png?fit=1536%2C1024&quality=70&strip=all"
-  },
-  {
-   "title": "Secovi-Goiás quer IHGG colaborando com o Congresso Nacional do Mercado Imobiliário",
-   "url": "https://aredacao.com.br/secovi-goias-quer-ihgg-colaborando-com-o-congresso-nacional-do-mercado-imobiliario/",
-   "source": "A Redação",
-   "date": "2026-11-04T19:33:30Z",
-   "cat": "mercado",
-   "local": true,
-   "img": "https://aredacao.com.br/wp-content/uploads/2026/11/IHGG-03.11.2026-reuniao-no-Secovi-GO.jpeg"
-  },
-  {
-   "title": "EZTEC (EZTC3) vende menos do que lança; quem acumula estoque de imóveis?",
-   "url": "https://www.suno.com.br/noticias/estoque-de-imoveis-eztec-eztc3/",
-   "source": "Suno - Investimentos Inteligentes",
-   "date": "2026-11-04T16:41:20Z",
-   "cat": "lancamentos",
-   "local": false,
-   "img": "https://files.sunoresearch.com.br/n/uploads/2026/11/593d73ae-cidade-maia-eztec-jpg.webp"
-  },
-  {
-   "title": "Goiânia terá parque de R$ 9,5 milhões anunciado como o terceiro maior da cidade; conheça o projeto",
-   "url": "https://www.jornalopcao.com.br/ultimas-noticias/goiania-tera-parque-de-r-95-milhoes-anunciado-como-o-terceiro-maior-da-cidade-conheca-o-projeto-885428/",
-   "source": "Jornal Opção",
-   "date": "2026-11-04T16:10:56Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://cdn.jornalopcao.com.br/assets/2026/11/04154234/1793806953-whatsapp-image-2026-11-04-at-12-41-31.webp"
-  },
-  {
-   "title": "Museu da Imagem e do Som de Goiás inaugura exposição que explora som e arte contemporânea",
-   "url": "https://aredacao.com.br/museu-da-imagem-e-do-som-de-goias-inaugura-exposicao-que-explora-som-e-arte-contemporanea/",
-   "source": "A Redação",
-   "date": "2026-11-04T15:26:23Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://aredacao.com.br/wp-content/uploads/2026/11/07.-Leandro-Araujo-e-Renata-Bastos-300x169.png"
-  },
-  {
-   "title": "Prefeitura de Goiânia inaugura Cmei no Setor Pedro Ludovico com 150 vagas em tempo integral",
-   "url": "https://diariodegoias.com.br/prefeitura-de-goiania-inaugura-cmei-no-setor-pedro-ludovico-com-150-vagas-em-tempo-integral/553238/",
-   "source": "Diário de Goiás",
-   "date": "2026-11-04T15:00:52Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://cdn.diariodegoias.com.br/wp-content/uploads/2026/11/04145029/inauguracao-cmei-pedro-ludovico_joabe-mendonca.webp"
-  },
-  {
-   "title": "ÓRA Vaca Brava é o primeiro lançamento imobiliário do ano no Setor Bueno",
-   "url": "https://stgnews.com.br/ora-vaca-brava-e-o-primeiro-lancamento-imobiliario-do-ano-no-setor-bueno/",
-   "source": "STG News",
-   "date": "2026-11-04T14:39:42Z",
-   "cat": "lancamentos",
-   "local": false,
-   "img": "https://stgnews.com.br/wp-content/uploads/2026/11/Foto-6-Fotomontagem-vista-ORA-Vaca-Brava-compressed-scaled.webp"
   }
  ]
 }
