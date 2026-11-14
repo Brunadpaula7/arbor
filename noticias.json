@@ -1,6 +1,69 @@
 {
- "updated": "2026-11-14T01:15:53Z",
+ "updated": "2026-11-14T15:32:31Z",
  "items": [
+  {
+   "title": "Lago das Rosas, em Goiânia, ganha nova estrutura após revitalização de R$ 2,7 milhões; veja o que mudou",
+   "url": "https://www.jornalopcao.com.br/goiania/revitalizacao-lago-das-rosas-goiania-888728/",
+   "source": "Jornal Opção",
+   "date": "2026-11-14T15:28:28Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://cdn.jornalopcao.com.br/assets/2026/11/14152125/1794669684-whatsapp-image-2026-11-14-at-12-19-23.webp"
+  },
+  {
+   "title": "Parque Lago das Rosas passou por revitalização e foi entregue neste sábado (14) em Goiânia",
+   "url": "https://ohoje.com/2026/11/14/parque-lago-das-rosas-passou-por-revitalizacao-e-foi-entregue-neste-sabado-14-em-goiania/",
+   "source": "O Hoje",
+   "date": "2026-11-14T14:52:59Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://ohoje.com/wp-content/uploads/2026/11/Captura-de-tela-2026-11-14-115202.webp"
+  },
+  {
+   "title": "Mabel lança edital para concluir obras e reabrir UPA do Jardim Guanabara em Goiânia",
+   "url": "https://aredacao.com.br/mabel-lanca-edital-para-concluir-obras-e-reabrir-upa-do-jardim-guanabara-em-goiania/",
+   "source": "A Redação",
+   "date": "2026-11-14T13:56:08Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://aredacao.com.br/wp-content/uploads/2026/11/8-8-300x191.jpg"
+  },
+  {
+   "title": "Apartamentos ultracompactos ganham espaço no mercado imobiliário de Goiânia",
+   "url": "https://revistazelo.com.br/apartamentos-ultracompactos-ganham-espaco-no-mercado-imobiliario-de-goiania/",
+   "source": "Zelo - Portal de Noticias",
+   "date": "2026-11-14T12:18:00Z",
+   "cat": "mercado",
+   "local": true,
+   "img": "https://revistazelo.com.br/wp-content/uploads/2026/11/consciente_desk_OBLIQ-APTO-Living_tipo.webp"
+  },
+  {
+   "title": "Caixa estuda aumentar os juros do financiamento imobiliário, sem data nem taxa definidas",
+   "url": "https://soubrasilia.com/caixa-estuda-aumentar-juros-financiamento-imobiliario/",
+   "source": "Soubrasilia",
+   "date": "2026-11-14T10:36:58Z",
+   "cat": "financiamento",
+   "local": false,
+   "img": "https://soubrasilia.com/wp-content/uploads/2026/11/caixa-juros-financiamento-imobiliario-13nov2026.jpg"
+  },
+  {
+   "title": "Caixa estuda reajuste em juros do crédito imobiliário",
+   "url": "https://aciara.com.br/caixa-estuda-reajuste-em-juros-do-credito-imobiliario/",
+   "source": "Acia Araçatuba",
+   "date": "2026-11-14T04:32:24Z",
+   "cat": "financiamento",
+   "local": false,
+   "img": "https://aciara.com.br/wp-content/uploads/2026/11/01fin-100-funding-c6-img01.jpg"
+  },
+  {
+   "title": "Caixa estuda subir juros do financiamento imobiliário",
+   "url": "https://aciara.com.br/caixa-estuda-subir-juros-do-financiamento-imobiliario/",
+   "source": "Acia Araçatuba",
+   "date": "2026-11-14T04:32:24Z",
+   "cat": "financiamento",
+   "local": false,
+   "img": "https://aciara.com.br/wp-content/uploads/2026/11/INES.jpg"
+  },
   {
    "title": "Seleção de Portugal prepara homenagem a Cristiano Ronaldo na Liga das Nações",
    "url": "https://diariodegoias.com.br/selecao-de-portugal-prepara-homenagem-a-cristiano-ronaldo-na-liga-das-nacoes/554446/",
@@ -9,15 +72,6 @@
    "cat": "regras",
    "local": true,
    "img": "https://cdn.diariodegoias.com.br/wp-content/uploads/2026/11/14010400/cristiano-ronaldo-portugal-3-scaled-e1783372822333.webp"
-  },
-  {
-   "title": "TCE-GO inaugura memorial em homenagem a Henrique Santillo",
-   "url": "https://aredacao.com.br/tce-go-inaugura-memorial-em-homenagem-a-henrique-santillo/",
-   "source": "A Redação",
-   "date": "2026-11-13T23:44:59Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://aredacao.com.br/wp-content/uploads/2026/11/Henrique-Santillo-2-e1598872045405-620x423-1-300x205.jpeg"
   },
   {
    "title": "Caixa contrata R$ 72,5 bilhões em crédito imobiliário no trimestre e avalia subir juros",
@@ -95,10 +149,19 @@
    "title": "A Selic alta bateu? Caixa estuda aumentar juros no financiamento imobiliário",
    "url": "https://www.seudinheiro.com/2026/financas-pessoais/a-selic-alta-bateu-caixa-estuda-aumentar-juros-no-financiamento-imobiliario-julw/",
    "source": "Seu Dinheiro",
-   "date": "2026-11-13T20:25:12Z",
+   "date": "2026-11-13T20:22:00Z",
    "cat": "financiamento",
    "local": false,
    "img": "https://www.seudinheiro.com/uploads/2022/01/caixa-economica-federal1.jpg"
+  },
+  {
+   "title": "Apartamentos no Faiçalville são os mais rápidos para alugar em Goiânia",
+   "url": "https://www.maisgoias.com.br/cidades/goiania/bairro-de-goiania-onde-apartamentos-demoram-mais-para-vender-e-o-que-aluga-mais-rapido/",
+   "source": "Mais Goiás",
+   "date": "2026-11-13T20:03:03Z",
+   "cat": "mercado",
+   "local": true,
+   "img": "https://www.maisgoias.com.br/wp-content/uploads/2026/11/design-sem-nome-1794595898.webp"
   },
   {
    "title": "Câmara derruba veto de Mabel e Goiânia terá calçadão na Rua 8",
@@ -108,6 +171,15 @@
    "cat": "cidade",
    "local": true,
    "img": "https://cdn.diariodegoias.com.br/wp-content/uploads/2026/11/13194717/camara-derruba-veto-de-mabel-e-goiania-tera-calcadao-na-rua-8-scaled.webp"
+  },
+  {
+   "title": "CBIC apresenta indicadores do mercado imobiliário nacional no dia 23 de novembro",
+   "url": "https://cbic.org.br/cbic-apresenta-indicadores-do-mercado-imobiliario-nacional-nesta-segunda/",
+   "source": "CBIC - Câmara Brasileira da Indústria da Construção",
+   "date": "2026-11-13T19:48:36Z",
+   "cat": "mercado",
+   "local": false,
+   "img": "https://cbic.org.br/wp-content/uploads/2026/11/wide-22-1024x576.png"
   },
   {
    "title": "CBIC apresenta indicadores do mercado imobiliário nacional nesta segunda",
@@ -126,6 +198,15 @@
    "cat": "financiamento",
    "local": false,
    "img": "https://storage.googleapis.com/bucket.timesbrasil.com.br/sites/2026/09/be4dbc5f-caixa-libera-dinheiro-esquecido-do-antigo-pis-pasep-veja-como-sacar.webp"
+  },
+  {
+   "title": "Caixa estuda reajustar juros do financiamento imobiliário, diz vice-presidente de Habitação",
+   "url": "https://acritica.net/economia/caixa-estuda-reajuste-juros-financiamento-imobiliario/",
+   "source": "A Crítica de Campo Grande",
+   "date": "2026-11-13T19:16:00Z",
+   "cat": "financiamento",
+   "local": false,
+   "img": "https://uploads.acritica.net/2026/11/caixa-estuda-reajuste-juros-financiamento-imobiliario.jpg"
   },
   {
    "title": "Caixa pode aumentar juros no financiamento imobiliário, afirma Inês Magalhães",
@@ -202,8 +283,8 @@
   {
    "title": "Panobianco chega ao Parque Oeste Industrial e amplia oferta de serviços na região sudoeste de Goiânia",
    "url": "https://www.enquantoissoemgoias.com/noticia/4540/giro-por-goias/panobianco-chega-ao-parque-oeste-industrial-e-amplia-oferta-de-servicos-na-regiao-sudoeste-de-goiania.html",
-   "source": "Enquanto isso em Goias",
-   "date": "2026-11-13T17:09:00Z",
+   "source": "Arena de Notícias",
+   "date": "2026-11-13T17:09:39Z",
    "cat": "cidade",
    "local": true,
    "img": "https://www.enquantoissoemgoias.com/arquivos/noticias/4540/panobianco-chega-ao-parque-oeste-industrial-e-amplia-oferta-de-servicos-na-regiao-sudoeste-de-goiania.jpg"
@@ -382,8 +463,8 @@
   {
    "title": "HUB Ademi Qualifica discute análise de dados no mercado imobiliário em novo módulo",
    "url": "https://www.foconacional.com.br/2026/11/hub-ademi-qualifica-discute-analise-de.html",
-   "source": "Foco Nacional",
-   "date": "2026-11-12T19:01:00Z",
+   "source": "Sala da Notícia",
+   "date": "2026-11-12T19:08:13Z",
    "cat": "mercado",
    "local": false,
    "img": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgW-v1SKcb9J1QB-3DlnpnY0jiR1GfGS0niOVEfGE_fV97VLfHPycF6zRnqJBUDncvnV5SI19PK-zmrzvcn_UihafzhHnJOcDU0Fp2i3uHHnw433msbu3hqViDNg-i_8vV0wt01FuP1C0Gcz5XOhTkiWBW-s1jb-p8Zqzq-wwM1cH3jRduRzkbtJ56W0_9E/w1200/WhatsApp%20Image%202026-11-12%20at%2015.36.39.jpeg"
@@ -507,13 +588,13 @@
    "img": "https://www.rp10.com.br/wp-content/uploads/2026/11/correios.webp"
   },
   {
-   "title": "Resultado da parceria com a CMO Construtora, casa 226 da Pastoral da Moradia é entregue",
-   "url": "https://portal.saladanoticia.com.br/noticia/79913/resultado-da-parceria-com-a-cmo-construtora-casa-226-da-pastoral-da-moradia-e-entregue/amp",
-   "source": "Sala da Notícia",
-   "date": "2026-11-12T04:00:23Z",
-   "cat": "mercado",
+   "title": "Alta dos juros imobiliários pode encarecer parcela em até R$ 2,4 mil",
+   "url": "https://valorinveste.globo.com/produtos/credito/noticia/2026/11/12/alta-dos-juros-imobiliarios-pode-encarecer-parcela-em-ate-r-24-mil.ghtml",
+   "source": "Valor Investe",
+   "date": "2026-11-12T09:10:01Z",
+   "cat": "financiamento",
    "local": false,
-   "img": ""
+   "img": "https://s2-valor-investe.glbimg.com/EqxjCSzySyfskRGGRjx3cwrdifA=/3200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_f035dd6fd91c438fa04ab718d608bbaa/internal_photos/bs/2026/X/V/wh9CJzQrSoxdbQoE1nXQ/9614144.jpg"
   },
   {
    "title": "Meia-tarifa para viagens curtas aumenta demanda de passageiros em 80% na região metropolitana de Goiânia",
@@ -568,6 +649,15 @@
    "cat": "cidade",
    "local": true,
    "img": "https://s2-g1.glbimg.com/YAgGLn57jKJrqjhX9CaRZCY_etM=/752x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/G/o/jvLAbxREeBnqEOLH8gFg/download-2-.png"
+  },
+  {
+   "title": "Resultado da parceria com a CMO Construtora, casa 226 da Pastoral da Moradia é entregue",
+   "url": "https://jornaldobras.com.br/noticia/147775/resultado-da-parceria-com-a-cmo-construtora-casa-226-da-pastoral-da-moradia-e-entregue/amp",
+   "source": "Jornal do Brás",
+   "date": "2026-11-11T21:25:30Z",
+   "cat": "mercado",
+   "local": false,
+   "img": ""
   },
   {
    "title": "Reforma tributária deve elevar custos da construção civil",
@@ -703,8 +793,7 @@
    "date": "2026-11-11T12:01:40Z",
    "cat": "cidade",
    "local": true,
-   "img": "",
-   "img_tried": true
+   "img": ""
   },
   {
    "title": "Cabedelo institui programa Meu Imóvel Legal com desconto de 25% no ITBI",
@@ -1268,96 +1357,6 @@
    "cat": "mercado",
    "local": false,
    "img": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/BR_CNN_110626_ZOOM_MONEY_RENATO_CORREIA_frame_13582.jpg?w=1200&h=630&crop=1"
-  },
-  {
-   "title": "Goiânia vai ganhar novo complexo viário de R$ 60 milhões para melhorar trânsito na região Norte",
-   "url": "https://curtamais.com.br/goiania/complexo-viario-transito-regiao/",
-   "source": "Curta Mais - Goiânia",
-   "date": "2026-11-07T00:06:18Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://curtamais.com.br/goiania/wp-content/uploads/sites/2/2026/11/Avenida-Perimetral-Norte.webp"
-  },
-  {
-   "title": "Vila Nova x Criciúma: onde assistir ao vivo o jogo pelo Campeonato Brasileiro Série B",
-   "url": "https://diariodegoias.com.br/vila-nova-x-criciuma-onde-assistir-ao-vivo-o-jogo-pelo-campeonato-brasileiro-serie-b/553530/",
-   "source": "Diário de Goiás",
-   "date": "2026-11-06T23:45:19Z",
-   "cat": "regras",
-   "local": true,
-   "img": "https://cdn.diariodegoias.com.br/wp-content/uploads/2026/11/06233741/55628690047_62b860c2e0_k.webp"
-  },
-  {
-   "title": "Goiás tem 391 obras paradas, maioria na saúde, e será o primeiro estado a receber comitê para destravar construções",
-   "url": "https://www.jornalopcao.com.br/ultimas-noticias/goias-tem-391-obras-paradas-maioria-na-saude-e-sera-o-primeiro-estado-a-receber-comite-para-destravar-construcoes-886447/",
-   "source": "Jornal Opção",
-   "date": "2026-11-06T23:33:20Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://cdn.jornalopcao.com.br/assets/2024/02/tce-go-fachada-1.jpg"
-  },
-  {
-   "title": "Feira de Imóveis da Ademi-PR reúne 72 empreendimentos com condições especiais neste fim de semana no Shopping Crystal",
-   "url": "https://topview.com.br/grands/feira-de-imoveis-da-ademi-pr-reune-72-empreendimentos-com-condicoes-especiais-neste-fim-de-semana-no-shopping-crystal/",
-   "source": "RIC Mais",
-   "date": "2026-11-06T22:08:18Z",
-   "cat": "lancamentos",
-   "local": false,
-   "img": "https://topview.com.br/grands/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-06-at-18.19.31.jpeg"
-  },
-  {
-   "title": "Goiânia terá asfalto novo em 79 vias do Leste Vila Nova e Oswaldo Rosa; veja quais ruas serão contempladas",
-   "url": "https://www.maisgoias.com.br/cidades/goiania/veja-lista-de-ruas-de-goiania-que-serao-recapeadas-em-nova-frente-de-obras-da-prefeitura/",
-   "source": "Mais Goiás",
-   "date": "2026-11-06T20:29:23Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://www.maisgoias.com.br/wp-content/uploads/2026/11/whatsapp-image-2026-11-06-at-09-58-47-1-1793993208.webp"
-  },
-  {
-   "title": "Como ler os números do mercado imobiliário: lançamentos, vendas e preços, e onde consultar CBIC, Abrainc e Secovi",
-   "url": "https://www.itatiaia.com.br/economia/negocios/como-ler-os-numeros-do-mercado-imobiliario-lancamentos-vendas-e-precos-e-onde-consultar-cbic-abrainc-e-secovi/",
-   "source": "Rádio Itatiaia",
-   "date": "2026-11-06T19:30:04Z",
-   "cat": "lancamentos",
-   "local": false,
-   "img": "https://admin.itatiaia.com.br/wp-content/uploads/sites/27/2026/11/cheerful-young-african-american-woman-copywriter-sitting-front-open-laptop-with-mug-copybook-desk-feeling-inspired-working-new-motivation-article-people-occupation-creativity.jpg?resize=1280%2C720&w=1280&h=720&quality=75&crop=1"
-  },
-  {
-   "title": "Birigui implanta Cadastro Imobiliário Brasileiro e se antecipa à Reforma Tributária",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNQ29GRXh4QzQweVZiQ1p2ZzFocFRvQWhibUFfTUNvVWpJRUZVTUdSNmFPQm1sT0R6b2o4QTRzM2tvd21WS1ZEbGlXbXpNQnlhMm05clQ4M2FJOFpTOGw4MmxlSWJmX0Jtdm9SNjJ0UUNwbG9nVGlIM2hPeUlzdWZFMXRSZTNzUmloVzY4TQ?oc=5",
-   "source": "Prefeitura de Birigui",
-   "date": "2026-11-06T19:02:33Z",
-   "cat": "regras",
-   "local": false,
-   "img": ""
-  },
-  {
-   "title": "FR. Incorporadora leva conscientização sobre o Novembro Azul aos canteiros de obras em Goiânia",
-   "url": "https://portal.saladanoticia.com.br/noticia/79260/fr-incorporadora-leva-conscientizacao-sobre-o-novembro-azul-aos-canteiros-de-obras-em-goiania",
-   "source": "Sala da Notícia",
-   "date": "2026-11-06T18:36:34Z",
-   "cat": "lancamentos",
-   "local": true,
-   "img": ""
-  },
-  {
-   "title": "Residencial Lagoa III",
-   "url": "https://www.fortaleza.ce.gov.br/noticias/residencial-lagoa-iii-prefeitura-de-fortaleza-publica-lista-de-candidatos-a-256-novas-moradias-do-minha-casa-minha-vida",
-   "source": "Prefeitura de Fortaleza",
-   "date": "2026-11-06T18:17:38Z",
-   "cat": "mercado",
-   "local": false,
-   "img": ""
-  },
-  {
-   "title": "“Uma vela só não alumia uma favela, mas vai iluminar o caminho da casa dela.” Por que nunca desistir?",
-   "url": "https://www.jornalopcao.com.br/colunas-e-blogs/faltou-dizer-colunas-e-blogs/um-vela-so-nao-lumeia-uma-favela-mas-vai-iluminar-o-caminho-da-casa-dela-por-que-nunca-desistir-886250/",
-   "source": "Jornal Opção",
-   "date": "2026-11-06T17:54:38Z",
-   "cat": "regras",
-   "local": true,
-   "img": "https://cdn.jornalopcao.com.br/assets/2026/11/06170853/1793984928-vela-sobre-a-favela-noturna.webp"
   }
  ]
 }
