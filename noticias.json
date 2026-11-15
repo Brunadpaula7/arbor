@@ -1,14 +1,86 @@
 {
- "updated": "2026-11-14T15:32:31Z",
+ "updated": "2026-11-15T00:43:59Z",
  "items": [
+  {
+   "title": "Prefeitura de Goiânia conclui obra na Marginal Botafogo e libera trecho neste sábado (14/11)",
+   "url": "https://aredacao.com.br/prefeitura-de-goiania-conclui-obra-na-marginal-botafogo-e-libera-trecho-neste-sabado-14-11/",
+   "source": "A Redação",
+   "date": "2026-11-14T22:47:37Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://aredacao.com.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-14-at-18.50.07-300x169.jpeg"
+  },
+  {
+   "title": "Financiamento da casa própria pode ficar mais caro com reajuste estudado pela Caixa",
+   "url": "https://www.gazetasp.com.br/economia/financiamento-da-casa-propria-pode-ficar-mais-caro-com-reajuste-estudado-pela-caixa/",
+   "source": "Gazeta de São Paulo",
+   "date": "2026-11-14T21:00:00Z",
+   "cat": "financiamento",
+   "local": false,
+   "img": "https://cdn.gazetasp.com.br/uploads/2026/09/agencia-caixa-economica-foto-marcelo-camargo-agencia-brasil.jpg"
+  },
+  {
+   "title": "Portugal: manifestantes protestam em mais de 30 cidades contra alta nos preços de moradias",
+   "url": "https://aredacao.com.br/portugal-manifestantes-protestam-em-mais-de-30-cidades-contra-alta-nos-precos-de-moradias/",
+   "source": "A Redação",
+   "date": "2026-11-14T20:06:49Z",
+   "cat": "mercado",
+   "local": true,
+   "img": "https://aredacao.com.br/wp-content/uploads/2026/11/protestoport-300x191.jpg"
+  },
+  {
+   "title": "Lago das Rosas é revitalizado e ganha novos espaços de lazer em Goiânia",
+   "url": "https://transmissaopolitica.com.br/cidades/2026/11/14/revitalizacao-lago-das-rosas-goiania/",
+   "source": "Transmissão Política",
+   "date": "2026-11-14T19:43:00Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://transmissaopolitica.com.br/wp-content/uploads/2026/11/mabel-lago-das-rosas.jpeg"
+  },
+  {
+   "title": "Principais incorporadoras de SP: 10 empresas que se destacam no mercado",
+   "url": "https://www.quintoandar.com.br/guias/cidades/principais-incorporadoras-de-sp/",
+   "source": "QuintoAndar",
+   "date": "2026-11-14T19:16:00Z",
+   "cat": "lancamentos",
+   "local": false,
+   "img": ""
+  },
+  {
+   "title": "Prefeito Leandro Vilela vistoria unidades de saúde e fiscaliza obra da UPA Brasicon em Aparecida de Goiânia",
+   "url": "https://aredacao.com.br/prefeito-leandro-vilela-vistoria-unidades-de-saude-e-fiscaliza-obra-da-upa-brasicon-em-aparecida-de-goiania/",
+   "source": "A Redação",
+   "date": "2026-11-14T18:48:27Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://aredacao.com.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-14-at-15.44.23.jpeg"
+  },
+  {
+   "title": "Parque Lago das Rosas é revitalizado após seis meses de obras em Goiânia",
+   "url": "https://diariodegoias.com.br/parque-lago-das-rosas-e-revitalizado-apos-seis-meses-de-obras-em-goiania/554481/",
+   "source": "Diário de Goiás",
+   "date": "2026-11-14T17:13:47Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://cdn.diariodegoias.com.br/wp-content/uploads/2026/11/14170949/parque-lago-das-rosas-e-revitalizado-apos-seis-meses-de-obras-em-goiania.webp"
+  },
   {
    "title": "Lago das Rosas, em Goiânia, ganha nova estrutura após revitalização de R$ 2,7 milhões; veja o que mudou",
    "url": "https://www.jornalopcao.com.br/goiania/revitalizacao-lago-das-rosas-goiania-888728/",
    "source": "Jornal Opção",
-   "date": "2026-11-14T15:28:28Z",
+   "date": "2026-11-14T15:28:00Z",
    "cat": "cidade",
    "local": true,
    "img": "https://cdn.jornalopcao.com.br/assets/2026/11/14152125/1794669684-whatsapp-image-2026-11-14-at-12-19-23.webp"
+  },
+  {
+   "title": "Parque Lago das Rosas é revitalizado no Setor Oeste, em Goiânia",
+   "url": "https://ohoje.com/2026/11/14/parque-lago-das-rosas-passou-por-revitalizacao-e-foi-entregue-neste-sabado-14-em-goiania/",
+   "source": "O Hoje",
+   "date": "2026-11-14T14:52:59Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://ohoje.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-14-at-12.47.53-1.webp"
   },
   {
    "title": "Parque Lago das Rosas passou por revitalização e foi entregue neste sábado (14) em Goiânia",
@@ -27,6 +99,15 @@
    "cat": "cidade",
    "local": true,
    "img": "https://aredacao.com.br/wp-content/uploads/2026/11/8-8-300x191.jpg"
+  },
+  {
+   "title": "Catalão: HU-UFCAT avança no planejamento institucional e aprova primeiro Plano Diretor Estratégico até 2028",
+   "url": "https://sdnews.com.br/noticia/17604/catalao-hu-ufcat-avanca-no-planejamento-institucional-e-aprova-primeiro-plano-diretor-estrategico-at.html",
+   "source": "Portal Serra Dourada News",
+   "date": "2026-11-14T13:16:56Z",
+   "cat": "regras",
+   "local": false,
+   "img": "https://sdnews.com.br/imagem-social/posts/2026/11/17604_catalao-hu-ufcat-avanca-no-planejamento-institucional-e-aprova-primeiro-plano-diretor-estrategico-at-633c3325.jpg.jpg?v=og4-1794662623-l0"
   },
   {
    "title": "Apartamentos ultracompactos ganham espaço no mercado imobiliário de Goiânia",
@@ -99,6 +180,15 @@
    "cat": "financiamento",
    "local": false,
    "img": "https://portaln10.com.br/wp-content/uploads/2025/11/Concurso-da-Caixa-oferece-salarios-de-ate-R-149-mil-e-vagas-para-engenheiros-arquitetos-e-medicos.jpg"
+  },
+  {
+   "title": "TJ/GO: Decisões mantém pagamentos de contratos imobiliários com Tabela Price",
+   "url": "https://www.migalhas.com.br/quentes/468599/tj-go-decisoes-mantem-pagamentos-de-contratos-com-tabela-price",
+   "source": "Migalhas",
+   "date": "2026-11-13T22:01:00Z",
+   "cat": "mercado",
+   "local": false,
+   "img": "https://medproc.migalhas.com.br/https__img5.migalhas.com.br__SL__gf_base__SL__empresas__SL__miga__SL__imagens__SL__2026__SL__11__SL__13__SL__cropped_aeyxjexi.yvz.jpg._PROC_CP75CCH31622400.jpg?v=20261113175525"
   },
   {
    "title": "Caixa avalia aumentar juros de financiamento imobiliário",
@@ -283,8 +373,8 @@
   {
    "title": "Panobianco chega ao Parque Oeste Industrial e amplia oferta de serviços na região sudoeste de Goiânia",
    "url": "https://www.enquantoissoemgoias.com/noticia/4540/giro-por-goias/panobianco-chega-ao-parque-oeste-industrial-e-amplia-oferta-de-servicos-na-regiao-sudoeste-de-goiania.html",
-   "source": "Arena de Notícias",
-   "date": "2026-11-13T17:09:39Z",
+   "source": "Enquanto isso em Goias",
+   "date": "2026-11-13T17:09:00Z",
    "cat": "cidade",
    "local": true,
    "img": "https://www.enquantoissoemgoias.com/arquivos/noticias/4540/panobianco-chega-ao-parque-oeste-industrial-e-amplia-oferta-de-servicos-na-regiao-sudoeste-de-goiania.jpg"
@@ -308,6 +398,15 @@
    "img": "https://cdn.diariodegoias.com.br/wp-content/uploads/2026/11/13113646/40-4-scaled.webp"
   },
   {
+   "title": "Caixa avalia alta de juros no crédito imobiliário com carteira de R$ 1,04 tri",
+   "url": "https://www.ativovirtual.com.br/avnews/artigos/caixa-avalia-alta-de-juros-no-credito-imobiliario-com-carteira-de-r-104-tri",
+   "source": "Ativovirtual",
+   "date": "2026-11-13T16:10:29Z",
+   "cat": "financiamento",
+   "local": false,
+   "img": "https://www.ativovirtual.com.br/avnews/assets/images/articles/20261113_130543-bc440d8c-lg.jpg"
+  },
+  {
    "title": "Proximidade ao metrô valoriza imóveis em São Paulo",
    "url": "https://portaldoval.com.br/noticia/26520/proximidade-ao-metro-valoriza-imoveis-em-sao-paulo",
    "source": "Portal do Val",
@@ -315,15 +414,6 @@
    "cat": "mercado",
    "local": false,
    "img": "https://str1.lnmimg.net/img/2026/11/13/b94fb8e6b36dc5dd7ef296981c99dec5.webp?w=700&h=382"
-  },
-  {
-   "title": "Caixa avalia alta de juros no crédito imobiliário com carteira de R$ 1,04 tri",
-   "url": "https://www.ativovirtual.com.br/avnews/artigos/caixa-avalia-alta-de-juros-no-credito-imobiliario-com-carteira-de-r-104-tri",
-   "source": "Ativovirtual",
-   "date": "2026-11-13T16:05:46Z",
-   "cat": "financiamento",
-   "local": false,
-   "img": "https://www.ativovirtual.com.br/avnews/assets/images/articles/20261113_130543-bc440d8c-lg.jpg"
   },
   {
    "title": "Caixa estuda aumentar juros do financiamento imobiliário, diz vice-presidente",
@@ -452,6 +542,15 @@
    "img": "https://aredacao.com.br/wp-content/uploads/2026/03/goiania2.jpg"
   },
   {
+   "title": "Correios realiza licitações de imóveis em novembro",
+   "url": "https://www.guairanews.com/2026/11/12/correios-licita-imoveis-novembro/",
+   "source": "Guairanews",
+   "date": "2026-11-12T19:12:10Z",
+   "cat": "mercado",
+   "local": false,
+   "img": "https://www.guairanews.com/wp-content/uploads/2026/11/Leilao-imobiliario-com-martelo-em-destaque.webp"
+  },
+  {
    "title": "Evento em Goiânia destaca força do mercado imobiliário e lança assistente virtual para corretores",
    "url": "https://www.bra1.com.br/economia/id-725189/evento_em_goiania_destaca_forca_do_mercado_imobiliario_e_lanca_assistente_virtual_para_corretores",
    "source": "Bra1",
@@ -463,7 +562,7 @@
   {
    "title": "HUB Ademi Qualifica discute análise de dados no mercado imobiliário em novo módulo",
    "url": "https://www.foconacional.com.br/2026/11/hub-ademi-qualifica-discute-analise-de.html",
-   "source": "Sala da Notícia",
+   "source": "Gazeta da Semana",
    "date": "2026-11-12T19:08:13Z",
    "cat": "mercado",
    "local": false,
@@ -597,6 +696,15 @@
    "img": "https://s2-valor-investe.glbimg.com/EqxjCSzySyfskRGGRjx3cwrdifA=/3200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_f035dd6fd91c438fa04ab718d608bbaa/internal_photos/bs/2026/X/V/wh9CJzQrSoxdbQoE1nXQ/9614144.jpg"
   },
   {
+   "title": "Resultado da parceria com a CMO Construtora, casa 226 da Pastoral da Moradia é entregue",
+   "url": "https://gazetadasemana.com.br/noticia/307954/resultado-da-parceria-com-a-cmo-construtora-casa-226-da-pastoral-da-moradia-e-entregue/amp",
+   "source": "Gazeta da Semana",
+   "date": "2026-11-12T05:50:16Z",
+   "cat": "mercado",
+   "local": false,
+   "img": ""
+  },
+  {
    "title": "Meia-tarifa para viagens curtas aumenta demanda de passageiros em 80% na região metropolitana de Goiânia",
    "url": "https://opopular.com.br/cidades/meia-tarifa-para-viagens-curtas-aumenta-demanda-de-passageiros-em-80-na-regi-o-metropolitana-de-goiania-1.3479695",
    "source": "O Popular",
@@ -649,15 +757,6 @@
    "cat": "cidade",
    "local": true,
    "img": "https://s2-g1.glbimg.com/YAgGLn57jKJrqjhX9CaRZCY_etM=/752x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/G/o/jvLAbxREeBnqEOLH8gFg/download-2-.png"
-  },
-  {
-   "title": "Resultado da parceria com a CMO Construtora, casa 226 da Pastoral da Moradia é entregue",
-   "url": "https://jornaldobras.com.br/noticia/147775/resultado-da-parceria-com-a-cmo-construtora-casa-226-da-pastoral-da-moradia-e-entregue/amp",
-   "source": "Jornal do Brás",
-   "date": "2026-11-11T21:25:30Z",
-   "cat": "mercado",
-   "local": false,
-   "img": ""
   },
   {
    "title": "Reforma tributária deve elevar custos da construção civil",
@@ -760,6 +859,15 @@
    "img": "https://cdn.diariodegoias.com.br/wp-content/uploads/2026/11/11141615/prazo-adequacoes-cco_sefin.webp"
   },
   {
+   "title": "Sandro Mabel garante no Ministério dos Transportes a obra do anel viário de Goiânia",
+   "url": "https://www.goiania.go.gov.br/agora/sandro-mabel-garante-no-ministerio-dos-transportes-a-obra-do-anel-viario-de-goiania",
+   "source": "Poder Goiás",
+   "date": "2026-11-11T13:34:00Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://www.goiania.go.gov.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-11-at-07.09.53-1.jpeg"
+  },
+  {
    "title": "Minha Casa, Minha Vida responde por 7 em 10 imóveis vendidos",
    "url": "https://sbtnews.sbt.com.br/noticia/brasil/minha-casa-minha-vida-ja-responde-por-7-em-10-imoveis-vendidos",
    "source": "SBT News",
@@ -812,15 +920,6 @@
    "cat": "cidade",
    "local": true,
    "img": "https://cdn.jornalopcao.com.br/assets/2026/11/11111348/1794395622-audiencias-vao-discutir-obras-na-br-364-entre-go-e-mt.webp"
-  },
-  {
-   "title": "Sandro Mabel garante no Ministério dos Transportes a obra do anel viário de Goiânia",
-   "url": "https://www.goiania.go.gov.br/agora/sandro-mabel-garante-no-ministerio-dos-transportes-a-obra-do-anel-viario-de-goiania",
-   "source": "Panoramagocomunicacao",
-   "date": "2026-11-11T11:12:43Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://www.goiania.go.gov.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-11-at-07.09.53-1.jpeg"
   },
   {
    "title": "Plataforma quer movimentar US$ 30 milhões e levar corretores brasileiros ao mercado imobiliário do Paraguai",
@@ -1257,106 +1356,6 @@
    "cat": "financiamento",
    "local": true,
    "img": "https://cdn.gynnoticias.com.br/storage/webdisco/2026/07/28/1200x900/7282ea509191bcc479dbb893d23d306f.jpg"
-  },
-  {
-   "title": "Fãs de K-pop lotam salas de cinema de Goiânia para assistir ao Stray Kids",
-   "url": "https://aredacao.com.br/fas-de-k-pop-lotam-salas-de-cinema-de-goiania-para-assistir-ao-stray-kids/",
-   "source": "A Redação",
-   "date": "2026-11-08T13:22:55Z",
-   "cat": "regras",
-   "local": true,
-   "img": "https://aredacao.com.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-07-at-19.56.13-300x235.jpeg"
-  },
-  {
-   "title": "Goiás x Ponte Preta: onde assistir ao vivo o jogo pelo Campeonato Brasileiro Série B",
-   "url": "https://diariodegoias.com.br/goias-x-ponte-preta-onde-assistir-ao-vivo-o-jogo-pelo-campeonato-brasileiro-serie-b/553636/",
-   "source": "Diário de Goiás",
-   "date": "2026-11-08T09:33:04Z",
-   "cat": "regras",
-   "local": true,
-   "img": "https://cdn.diariodegoias.com.br/wp-content/uploads/2026/08/28101112/35-scaled.webp"
-  },
-  {
-   "title": "Imóveis a preço de custo em bairros nobres: cooperativas aproveitam aquecimento do mercado goiano",
-   "url": "https://stgnews.com.br/imoveis-a-preco-de-custo-em-bairros-nobres-cooperativas-aproveitam-aquecimento-do-mercado-goiano/amp/",
-   "source": "STG News",
-   "date": "2026-11-08T00:46:42Z",
-   "cat": "mercado",
-   "local": true,
-   "img": "https://stgnews.com.br/wp-content/uploads/2026/11/Vigore-Marista-1.png"
-  },
-  {
-   "title": "Mercado imobiliário: imóvel próprio ainda lidera as compras no Brasil",
-   "url": "https://www.band.com.br/nacional/pr/mercado-imobiliario-imovel-proprio-ainda-lidera-as-compras-no-brasil",
-   "source": "Band",
-   "date": "2026-11-07T21:50:00Z",
-   "cat": "mercado",
-   "local": false,
-   "img": "https://img.band.com.br/image/2026/11/CHAMA-BE-MARCO_SN.00_00_06_20.Quadro001.jpg"
-  },
-  {
-   "title": "Goiás x Ponte Preta: onde assistir ao vivo, horário e escalações",
-   "url": "https://daqui.opopular.com.br/esporte/goias-x-ponte-preta-onde-assistir-ao-vivo-horario-e-escalac-es-1.3478026",
-   "source": "Daqui",
-   "date": "2026-11-07T20:45:53Z",
-   "cat": "regras",
-   "local": true,
-   "img": "https://daqui.opopular.com.br/image/policy:1.3477705:1793995120/image.jpg?f=3x2"
-  },
-  {
-   "title": "Prefeitura de Goiânia realiza ação integrada para desocupar imóvel e retirar acúmulo irregular de resíduos no Setor Central",
-   "url": "https://www.goiania.go.gov.br/agora/prefeitura-de-goiania-realiza-acao-integrada-para-desocupar-imovel-e-retirar-acumulo-irregular-de-residuos-no-setor-central",
-   "source": "Goiânia (Prefeitura)",
-   "date": "2026-11-07T20:05:53Z",
-   "cat": "mercado",
-   "local": true,
-   "img": "https://www.goiania.go.gov.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-07-at-16.29.06.jpeg"
-  },
-  {
-   "title": "Privatizada por Tarcísio, Sabesp torra patrimônio no mercado imobiliário sob sigilo",
-   "url": "https://horadopovo.com.br/privatizada-por-tarcisio-sabesp-torra-patrimonio-no-mercado-imobiliario-sob-sigilo/",
-   "source": "Hora do Povo",
-   "date": "2026-11-07T18:49:56Z",
-   "cat": "mercado",
-   "local": false,
-   "img": "https://horadopovo.com.br/wp-content/uploads/2026/02/FOTO-HP-2026-02-27T181124.007.png"
-  },
-  {
-   "title": "Decreto de regularização fundiária beneficia mais de 600 famílias no Residencial Guanabara, em Goiânia",
-   "url": "https://diariodegoias.com.br/decreto-de-regularizacao-fundiaria-beneficia-mais-de-600-familias-no-residencial-guanabara-em-goiania/553594/",
-   "source": "Diário de Goiás",
-   "date": "2026-11-07T17:17:52Z",
-   "cat": "regras",
-   "local": true,
-   "img": "https://cdn.diariodegoias.com.br/wp-content/uploads/2026/11/07134715/mabel-assina-decreto-de-regularizacao-residencial-guanabara_alex-malheiros.webp"
-  },
-  {
-   "title": "Prefeito Sandro Mabel assina decreto para regularização fundiária do Residencial Guanabara",
-   "url": "https://www.goiania.go.gov.br/agora/prefeito-sandro-mabel-assina-decreto-para-regularizacao-fundiaria-do-residencial-guanabara",
-   "source": "Goiânia (Prefeitura)",
-   "date": "2026-11-07T15:11:53Z",
-   "cat": "regras",
-   "local": true,
-   "img": "https://www.goiania.go.gov.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-07-at-08.00.00.jpeg"
-  },
-  {
-   "title": "Condomínio inspirado pelo agro ganha escala nacional com investimento previsto de R$ 1,2 bilhão",
-   "url": "https://www.comprerural.com/condominio-inspirado-pelo-agro-expansao-fazenda-villagio/",
-   "source": "CompreRural",
-   "date": "2026-11-07T14:00:00Z",
-   "cat": "mercado",
-   "local": false,
-   "img": "",
-   "img_tried": true
-  },
-  {
-   "title": "CBIC vê alta de custos e impacto ao acesso à moradia com fim da escala 6x1",
-   "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/cbic-ve-alta-de-custos-e-impacto-ao-acesso-a-moradia-com-fim-da-escala-6x1/",
-   "source": "CNN Brasil",
-   "date": "2026-11-07T02:46:19Z",
-   "cat": "mercado",
-   "local": false,
-   "img": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/06/BR_CNN_110626_ZOOM_MONEY_RENATO_CORREIA_frame_13582.jpg?w=1200&h=630&crop=1"
   }
  ]
 }
