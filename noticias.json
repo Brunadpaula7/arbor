@@ -1,14 +1,86 @@
 {
- "updated": "2026-11-16T00:43:54Z",
+ "updated": "2026-11-16T19:14:56Z",
  "items": [
   {
-   "title": "Mabel entrega revitalização do Parque Lago das Rosas, em Goiânia",
-   "url": "https://portalgo020.com.br/2026/11/mabel-entrega-revitalizacao-do-parque-lago-das-rosas-em-goiania.html",
+   "title": "Aparecida assina acordo para garantir moradia a famílias de áreas de risco",
+   "url": "https://diariodegoias.com.br/aparecida-assina-acordo-para-garantir-moradia-a-familias-de-areas-de-risco/554694/",
+   "source": "Diário de Goiás",
+   "date": "2026-11-16T18:20:00Z",
+   "cat": "mercado",
+   "local": true,
+   "img": "https://cdn.diariodegoias.com.br/wp-content/uploads/2026/11/16175353/aparecida-assina-acordo-para-garantir-moradia-a-familias-de-areas-de-risco.webp"
+  },
+  {
+   "title": "De uma imobiliária líder em BH ao Grupo LRP Imóveis",
+   "url": "https://panoramagocomunicacao.com.br/de-uma-imobiliaria-lider-em-bh-ao-grupo-lrp-imoveis/",
+   "source": "Panoramagocomunicacao",
+   "date": "2026-11-16T17:47:55Z",
+   "cat": "mercado",
+   "local": false,
+   "img": "https://us-central1-pulsebrand-plataforma.cloudfunctions.net/trackPixel?c=808fa840-143d-491a-b225-a396a127e0ee&v=d5e08ac1-bc1a-4ce3-a9e1-10d071115e06&p=d18de97f-42da-4abc-aee8-d8c8d34c11e4"
+  },
+  {
+   "title": "Bairros de Goiânia terão obras de manutenção e desligamentos de energia programados nesta semana",
+   "url": "https://aredacao.com.br/bairros-de-goiania-terao-obras-de-manutencao-e-desligamentos-de-energia-programados-nesta-semana/",
+   "source": "A Redação",
+   "date": "2026-11-16T15:48:43Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://aredacao.com.br/wp-content/uploads/2026/11/Desligamentos-Programados-2-300x200.jpeg"
+  },
+  {
+   "title": "Com espaço pet e parquinhos acessíveis, Parque Lago das Rosas é reinaugurado em Goiânia",
+   "url": "https://radiobandeirantesgoiania.com.br/com-espaco-pet-e-parquinhos-acessiveis-parque-lago-das-rosas-e-reinaugurado-em-goiania/",
+   "source": "Rádio Bandeirantes Goiânia",
+   "date": "2026-11-16T14:54:03Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://radiobandeirantesgoiania.com.br/wp-content/uploads/2026/11/Lago-das-Rosas-ganha-revitalizacao-12.jpeg"
+  },
+  {
+   "title": "Prefeitura antecipa ações de combate à dengue e inicia vistorias em imóveis abandonados",
+   "url": "https://www.goiania.go.gov.br/agora/prefeitura-antecipa-acoes-de-combate-a-dengue-e-inicia-vistorias-em-imoveis-abandonados",
+   "source": "Goiânia (Prefeitura)",
+   "date": "2026-11-16T11:52:15Z",
+   "cat": "mercado",
+   "local": true,
+   "img": "https://www.goiania.go.gov.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-16-at-07.36.43.jpeg"
+  },
+  {
+   "title": "Mais de mil imóveis abandonados entram na mira de fiscalização contra dengue em Goiânia",
+   "url": "https://www.jornalopcao.com.br/ultimas-noticias/goiania-inicia-vistoria-em-1-052-imoveis-abandonados-para-conter-dengue-zika-e-chikungunya-889065/",
+   "source": "Jornal Opção",
+   "date": "2026-11-16T11:17:14Z",
+   "cat": "mercado",
+   "local": true,
+   "img": "https://cdn.jornalopcao.com.br/assets/2026/11/16110135/1794826894-whatsapp-image-2026-11-16-at-07-37-00.webp"
+  },
+  {
+   "title": "Prefeitura de Goiânia conclui obra da Marginal Botafogo e libera trecho, após cinco dias",
+   "url": "https://portalgo020.com.br/2026/11/prefeitura-de-goiania-conclui-obra-da-marginal-botafogo-e-libera-trecho.html",
    "source": "Portal GO 020",
-   "date": "2026-11-15T21:49:31Z",
+   "date": "2026-11-16T11:13:47Z",
    "cat": "cidade",
    "local": true,
    "img": ""
+  },
+  {
+   "title": "Como usar o FGTS na compra do imóvel: entrada, amortização e parcelas na Caixa",
+   "url": "https://www.mixvale.com.br/2026/11/16/como-usar-o-fgts-na-compra-do-imovel-entrada-amortizacao-e-parcelas/",
+   "source": "Mix Vale",
+   "date": "2026-11-16T03:12:27Z",
+   "cat": "financiamento",
+   "local": false,
+   "img": "https://www.mixvale.com.br/wp-content/uploads/2026/10/aplicativo-fgts-reproducao-globo.jpg"
+  },
+  {
+   "title": "Juros altos fazem mercado imobiliário desacelerar vendas, mas não causar queda de preços",
+   "url": "https://www.bra1.com.br/economia/id-726721/juros_altos_fazem_mercado_imobiliario_desacelerar_vendas__mas_nao_causar_queda_de_precos",
+   "source": "Bra1",
+   "date": "2026-11-16T01:12:00Z",
+   "cat": "financiamento",
+   "local": false,
+   "img": "https://cdn.conexaohost.com.br/img/500x500/1/0/webp/arquivos/1918/conteudo/posts/726721.webp"
   },
   {
    "title": "Emisa Incorporadora aposta em modelo de locação de curta temporada no Centro de Goiânia",
@@ -18,15 +90,6 @@
    "cat": "lancamentos",
    "local": true,
    "img": "https://brasilinovador.com.br/wp-content/uploads/2026/09/brasil-inovador-11.jpg"
-  },
-  {
-   "title": "Feira Estadual da Reforma Agrária reúne produtores na Praça Universitária",
-   "url": "https://diariodegoias.com.br/feira-estadual-da-reforma-agraria-reune-produtores-na-praca-universitaria/554604/",
-   "source": "Diário de Goiás",
-   "date": "2026-11-15T18:23:13Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://cdn.diariodegoias.com.br/wp-content/uploads/2026/11/15182017/feira-da-reforma-agraria-altair-tavares-e1794766842346.webp"
   },
   {
    "title": "Aparecida de Goiânia firma acordo para retirar famílias de áreas de risco e garantir moradia",
@@ -92,15 +155,6 @@
    "img": "https://www.goiania.go.gov.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-14-at-12.18.35.jpeg"
   },
   {
-   "title": "Setor Sul terá asfalto novo em 139 vias, com investimento de R$ 8 milhões",
-   "url": "https://www.goiania.go.gov.br/agora/setor-sul-tera-asfalto-novo-em-139-vias-com-investimento-de-r-8-milhoes",
-   "source": "Goiânia (Prefeitura)",
-   "date": "2026-11-15T12:59:16Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://www.goiania.go.gov.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-14-at-09.32.57.jpeg"
-  },
-  {
    "title": "Conhecida pelos colégios, cidade de Goiás também ganhou espaço na construção civil com tijolos vendidos em Brasília",
    "url": "https://portal6.com.br/2026/11/15/conhecida-pelos-colegios-cidade-de-goias-tambem-ganhou-espaco-na-construcao-civil-com-tijolos-vendidos-em-brasilia/",
    "source": "Portal 6",
@@ -116,6 +170,16 @@
    "date": "2026-11-15T11:15:00Z",
    "cat": "mercado",
    "local": false,
+   "img": "",
+   "img_tried": true
+  },
+  {
+   "title": "Mabel entrega revitalização do Parque Lago das Rosas, em Goiânia",
+   "url": "https://portalgo020.com.br/2026/11/mabel-entrega-revitalizacao-do-parque-lago-das-rosas-em-goiania.html",
+   "source": "Portal GO 020",
+   "date": "2026-11-15T10:47:00Z",
+   "cat": "cidade",
+   "local": true,
    "img": ""
   },
   {
@@ -354,6 +418,15 @@
    "img": "https://www.maisgoias.com.br/wp-content/uploads/2026/11/foto-2026-11-13t181951-543-1794604793.webp"
   },
   {
+   "title": "Após eleições, Caixa estuda aumentar juros do financiamento da casa própria",
+   "url": "https://claudiodantas.com.br/caixa-juros-financiamento-casa-propria/",
+   "source": "Claudio Dantas",
+   "date": "2026-11-13T21:03:03Z",
+   "cat": "financiamento",
+   "local": false,
+   "img": "https://claudiodantas.com.br/wp-content/uploads/2026/02/edificio_sede_caixa_economica_federal_170120182635-1024x683.jpg"
+  },
+  {
    "title": "Construtoras em Goiás usam hortas e espaços públicos para ajudar vizinhos",
    "url": "https://www.bra1.com.br/geral/id-725854/construtoras_em_goias_usam_hortas_e_espacos_publicos_para_ajudar_vizinhos",
    "source": "Bra1",
@@ -468,7 +541,8 @@
    "date": "2026-11-13T18:45:03Z",
    "cat": "cidade",
    "local": true,
-   "img": ""
+   "img": "",
+   "img_tried": true
   },
   {
    "title": "Por que a Caixa estuda subir os juros do financiamento imobiliário",
@@ -631,6 +705,15 @@
    "cat": "lancamentos",
    "local": false,
    "img": "https://diariodorio.com/_midias/jpg/2026/11/13/696x464/1_whatsapp_image_2026_11_13_at_09_36_31-607010.jpeg"
+  },
+  {
+   "title": "Goiás mantém 800 obras em andamento e soma R$ 12,6 bilhões em investimentos",
+   "url": "https://pn7.com.br/goias-800-obras-investimentos-12-bilhoes/",
+   "source": "Portal PaNoRaMa",
+   "date": "2026-11-13T13:38:00Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://pn7.com.br/wp-content/uploads/2026/11/goias-800-obras-capa-pn7.webp"
   },
   {
    "title": "Saneago é premiada por investimentos no saneamento básico de Aparecida de Goiânia",
@@ -899,7 +982,7 @@
   {
    "title": "Mudança no perfil do comprador influencia projetos imobiliários de alto padrão",
    "url": "https://www.noticenter.com.br/noticia/42419/mudanca-no-perfil-do-comprador-influencia-projetos-imobiliarios-de-alto-padrao",
-   "source": "Noticenter",
+   "source": "Jornaldeblumenau",
    "date": "2026-11-11T22:28:00Z",
    "cat": "regras",
    "local": false,
@@ -971,10 +1054,10 @@
   {
    "title": "Mercado imobiliário reafirma força em investimentos e empreendedorismo durante evento Inova Conference BY Urbs 2026",
    "url": "https://www.enquantoissoemgoias.com/noticia/4512/giro-por-goias/mercado-imobiliario-reafirma-forca-em-investimentos-e-empreendedorismo-durante-evento-inova-conference-by-urbs-2026.html",
-   "source": "Arena de Notícias",
-   "date": "2026-11-11T18:16:52Z",
+   "source": "Enquanto isso em Goias",
+   "date": "2026-11-11T18:16:00Z",
    "cat": "mercado",
-   "local": false,
+   "local": true,
    "img": "https://www.enquantoissoemgoias.com/arquivos/noticias/4512/mercado-imobiliario-reafirma-forca-em-investimentos-e-empreendedorismo-durante-evento-inova-conference-by-urbs-2026.jpeg"
   },
   {
@@ -1276,88 +1359,6 @@
    "cat": "cidade",
    "local": true,
    "img": "https://cdn.gazetaculturismo.com.br/wp-content/uploads/2026/11/goiania-tera-maior-parque-indoor-do-centro-oeste-com-montanha-russa-e-ingressos-a-partir-de-r-590.webp"
-  },
-  {
-   "title": "Projeto Fachada Limpa recebe apoio de comerciantes e gera expectativa de revitalização do Centro de Goiânia",
-   "url": "https://ojornalismo.com.br/noticia/219564/projeto-fachada-limpa-recebe-apoio-de-comerciantes-e-gera-expectativa-de-revitalizacao-do-centro-de-goiania/",
-   "source": "ojornalismo",
-   "date": "2026-11-10T18:00:44Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://ojornalismo.com.br/wp-content/uploads/2026/11/whatsapp-image-2026-11-10-at-15-00-44-1.webp"
-  },
-  {
-   "title": "Comerciantes apoiam projeto de revitalização de fachadas no Centro de Goiânia",
-   "url": "https://aredacao.com.br/comerciantes-apoiam-projeto-de-revitalizacao-de-fachadas-no-centro-de-goiania/",
-   "source": "A Redação",
-   "date": "2026-11-10T17:29:37Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://aredacao.com.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-10-at-13.56.57-e1794330928907.jpeg"
-  },
-  {
-   "title": "Prefeitura vai custear revitalização de 34 fachadas no Centro de Goiânia; veja quando começam as obras",
-   "url": "https://www.jornalopcao.com.br/ultimas-noticias/prefeitura-vai-custear-revitalizacao-de-34-fachadas-no-centro-de-goiania-veja-quando-comecam-as-obras-887364/",
-   "source": "Jornal Opção",
-   "date": "2026-11-10T17:00:00Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://cdn.jornalopcao.com.br/assets/2024/04/WhatsApp-Image-2024-04-03-at-10.43.53-AM.jpeg"
-  },
-  {
-   "title": "Reforma tributária muda anúncio, contrato e rotina de corretores e imobiliárias",
-   "url": "https://secovi.com.br/reforma-tributaria-muda-anuncio-contrato-e-rotina-de-corretores-e-imobiliarias/",
-   "source": "SECOVI-SP",
-   "date": "2026-11-10T16:10:27Z",
-   "cat": "regras",
-   "local": false,
-   "img": "https://secovi.com.br/wp-content/uploads/2026/11/2026-conexao-p2-s1-600x500-1.webp"
-  },
-  {
-   "title": "FR. Incorporadora leva conscientização sobre o Novembro Azul aos canteiros de obras",
-   "url": "https://stgnews.com.br/fr-incorporadora-leva-conscientizacao-sobre-o-novembro-azul-aos-canteiros-de-obras/",
-   "source": "STG News",
-   "date": "2026-11-10T14:52:30Z",
-   "cat": "lancamentos",
-   "local": false,
-   "img": "https://stgnews.com.br/wp-content/uploads/2026/11/Capacete-Azul-e-Laco-de-Conscientizacao-1.jpg"
-  },
-  {
-   "title": "Manutenção da Selic não reverte alta dos juros do crédito imobiliário",
-   "url": "https://imobireport.com.br/newsletter-do-imobi/manter-juros-em-1375-nao-muda-cenario-do-credito-credito-imobiliario/",
-   "source": "Imobi Report",
-   "date": "2026-11-10T14:19:36Z",
-   "cat": "financiamento",
-   "local": false,
-   "img": "https://imobireport.com.br/app/uploads/2026/11/Manter-juros-nao-muda-cenario-do-credito-credito-imobiliario-scaled.jpeg"
-  },
-  {
-   "title": "Intermediação é o elo decisivo dos negócios imobiliários, diz Jorge Cury na abertura do Conexão Imobiliária Secovi-SP",
-   "url": "https://secovi.com.br/intermediacao-e-o-elo-decisivo-dos-negocios-imobiliarios-diz-jorge-cury-na-abertura-do-conexao-imobiliaria-secovi-sp/",
-   "source": "SECOVI-SP",
-   "date": "2026-11-10T14:05:06Z",
-   "cat": "mercado",
-   "local": false,
-   "img": "https://secovi.com.br/wp-content/uploads/2026/11/2026-conexao-a-1.webp"
-  },
-  {
-   "title": "Obra da Saneago pode afetar abastecimento em Bairros de Goiânia; saiba onde",
-   "url": "https://tribunadoplanalto.com.br/obra-da-saneago-pode-afetar-abastecimento-em-bairros-de-goiania-saiba-onde/",
-   "source": "Tribuna do Planalto",
-   "date": "2026-11-10T13:17:00Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "",
-   "img_tried": true
-  },
-  {
-   "title": "Prefeitura de Goiânia atua em obras e limpeza após forte chuva",
-   "url": "https://ohoje.com/2026/11/10/prefeitura-de-goiania-atua-em-obras-e-limpeza-apos-forte-chuva/",
-   "source": "O Hoje",
-   "date": "2026-11-10T12:00:22Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://ohoje.com/wp-content/uploads/2026/11/Capa-de-materia-3-1.webp"
   }
  ]
 }
