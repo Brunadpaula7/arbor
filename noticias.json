@@ -1,6 +1,15 @@
 {
- "updated": "2026-11-16T19:14:56Z",
+ "updated": "2026-11-17T03:23:13Z",
  "items": [
+  {
+   "title": "Aparecida firma acordo para retirar 176 famílias de áreas de risco e prevê entrega de 76 moradias",
+   "url": "https://www.jornalopcao.com.br/ultimas-noticias/aparecida-preve-destinar-moradias-a-76-familias-que-vivem-em-areas-de-risco-nos-setores-tocantins-e-vale-do-sol-889256/",
+   "source": "Jornal Opção",
+   "date": "2026-11-16T22:10:13Z",
+   "cat": "mercado",
+   "local": true,
+   "img": "https://cdn.jornalopcao.com.br/assets/2026/11/16220859/1794866937-whatsapp-image-2026-11-16-at-19-08-45.webp"
+  },
   {
    "title": "Aparecida assina acordo para garantir moradia a famílias de áreas de risco",
    "url": "https://diariodegoias.com.br/aparecida-assina-acordo-para-garantir-moradia-a-familias-de-areas-de-risco/554694/",
@@ -56,13 +65,23 @@
    "img": "https://cdn.jornalopcao.com.br/assets/2026/11/16110135/1794826894-whatsapp-image-2026-11-16-at-07-37-00.webp"
   },
   {
+   "title": "Prefeitura de Goiânia conclui obra da Marginal Botafogo e libera trecho",
+   "url": "https://portalgo020.com.br/2026/11/prefeitura-de-goiania-conclui-obra-da-marginal-botafogo-e-libera-trecho.html",
+   "source": "Portal GO 020",
+   "date": "2026-11-16T11:13:47Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://portalgo020.com.br/wp-content/uploads/2026/11/marginal-botafogo.jpeg"
+  },
+  {
    "title": "Prefeitura de Goiânia conclui obra da Marginal Botafogo e libera trecho, após cinco dias",
    "url": "https://portalgo020.com.br/2026/11/prefeitura-de-goiania-conclui-obra-da-marginal-botafogo-e-libera-trecho.html",
    "source": "Portal GO 020",
    "date": "2026-11-16T11:13:47Z",
    "cat": "cidade",
    "local": true,
-   "img": ""
+   "img": "https://portalgo020.com.br/wp-content/uploads/2026/11/marginal-botafogo.jpeg",
+   "img_tried": true
   },
   {
    "title": "Como usar o FGTS na compra do imóvel: entrada, amortização e parcelas na Caixa",
@@ -146,15 +165,6 @@
    "img": "https://www.goiania.go.gov.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-14-at-18.50.07.jpeg"
   },
   {
-   "title": "Lago das Rosas ganha revitalização com espaços de lazer, esporte e convivência",
-   "url": "https://www.goiania.go.gov.br/agora/lago-das-rosas-ganha-revitalizacao-com-espacos-de-lazer-esporte-e-convivencia",
-   "source": "Goiânia (Prefeitura)",
-   "date": "2026-11-15T13:07:14Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://www.goiania.go.gov.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-14-at-12.18.35.jpeg"
-  },
-  {
    "title": "Conhecida pelos colégios, cidade de Goiás também ganhou espaço na construção civil com tijolos vendidos em Brasília",
    "url": "https://portal6.com.br/2026/11/15/conhecida-pelos-colegios-cidade-de-goias-tambem-ganhou-espaco-na-construcao-civil-com-tijolos-vendidos-em-brasilia/",
    "source": "Portal 6",
@@ -170,8 +180,7 @@
    "date": "2026-11-15T11:15:00Z",
    "cat": "mercado",
    "local": false,
-   "img": "",
-   "img_tried": true
+   "img": "https://agorarn.com.br/files/uploads/2026/11/imoveis-novembro-2026.png"
   },
   {
    "title": "Mabel entrega revitalização do Parque Lago das Rosas, em Goiânia",
@@ -180,7 +189,8 @@
    "date": "2026-11-15T10:47:00Z",
    "cat": "cidade",
    "local": true,
-   "img": ""
+   "img": "https://portalgo020.com.br/wp-content/uploads/2026/11/lago-das-rosas.jpeg",
+   "img_tried": true
   },
   {
    "title": "Arquivo de mercado imobiliário goiano",
@@ -189,7 +199,8 @@
    "date": "2026-11-15T01:21:42Z",
    "cat": "mercado",
    "local": true,
-   "img": ""
+   "img": "",
+   "img_tried": true
   },
   {
    "title": "Prefeitura de Goiânia conclui obra na Marginal Botafogo e libera trecho neste sábado (14/11)",
@@ -716,6 +727,15 @@
    "img": "https://pn7.com.br/wp-content/uploads/2026/11/goias-800-obras-capa-pn7.webp"
   },
   {
+   "title": "Goiás avança com 800 obras em andamento e investimentos de R$ 12,6 bilhões",
+   "url": "https://www.maisgoias.com.br/cidades/goias-avanca-com-800-obras-em-andamento-e-investimentos-de-r-126-bilhoes-2/",
+   "source": "Mais Goiás",
+   "date": "2026-11-13T12:00:00Z",
+   "cat": "cidade",
+   "local": true,
+   "img": ""
+  },
+  {
    "title": "Saneago é premiada por investimentos no saneamento básico de Aparecida de Goiânia",
    "url": "https://www.jornalhoraextra.com.br/destaques/saneago-e-premiada-por-investimentos-no-saneamento-basico-de-aparecida-de-goiania",
    "source": "Ciberjornal",
@@ -808,7 +828,7 @@
   {
    "title": "HUB Ademi Qualifica discute análise de dados no mercado imobiliário em novo módulo",
    "url": "https://www.foconacional.com.br/2026/11/hub-ademi-qualifica-discute-analise-de.html",
-   "source": "Sala da Notícia",
+   "source": "Gazeta da Semana",
    "date": "2026-11-12T19:08:13Z",
    "cat": "mercado",
    "local": false,
@@ -1341,24 +1361,6 @@
    "cat": "lancamentos",
    "local": false,
    "img": "https://uploads.folhavitoria.com.br/imagens/2026/11/WhatsApp-Image-2026-11-10-at-15.27.18.jpeg"
-  },
-  {
-   "title": "Mercado imobiliário de Goiânia aquece com evento de 800 corretores e promessas de crescimento",
-   "url": "https://www.bra1.com.br/economia/id-723879/mercado_imobiliario_de_goiania_aquece_com_evento_de_800_corretores_e_promessas_de_crescimento",
-   "source": "Bra1",
-   "date": "2026-11-10T18:19:00Z",
-   "cat": "mercado",
-   "local": true,
-   "img": "https://cdn.conexaohost.com.br/img/500x500/1/0/webp/arquivos/1918/conteudo/posts/723879.webp"
-  },
-  {
-   "title": "Goiânia terá maior parque indoor do Centro-Oeste com montanha-russa e ingressos a partir de R$ 5,90",
-   "url": "https://gazetaculturismo.com.br/neverland-park-goiania-tera-maior-parque-indoor-do-centro-oeste-com-montanha-russa-e-ingressos-a-partir-de-r-590/35499/",
-   "source": "Gazeta Culturismo",
-   "date": "2026-11-10T18:15:09Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://cdn.gazetaculturismo.com.br/wp-content/uploads/2026/11/goiania-tera-maior-parque-indoor-do-centro-oeste-com-montanha-russa-e-ingressos-a-partir-de-r-590.webp"
   }
  ]
 }
