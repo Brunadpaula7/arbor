@@ -1,6 +1,69 @@
 {
- "updated": "2026-11-20T01:59:59Z",
+ "updated": "2026-11-20T17:31:41Z",
  "items": [
+  {
+   "title": "Entidades culturais apoiam revitalização do Jóquei Clube de Goiás",
+   "url": "https://aredacao.com.br/entidades-culturais-apoiam-revitalizacao-do-joquei-clube-de-goias/",
+   "source": "A Redação",
+   "date": "2026-11-20T15:42:15Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://aredacao.com.br/wp-content/uploads/2026/11/IHGG-20.11.2026-Joquei-Clube-visita-institucional-300x176.jpg"
+  },
+  {
+   "title": "Caixa avalia reajuste nos juros do crédito imobiliário e mercado aguarda",
+   "url": "https://fatopaulista.com.br/financiamento-caixa-avalia-reajuste-juros-credito-imobiliario/",
+   "source": "Fato Paulista",
+   "date": "2026-11-20T15:00:42Z",
+   "cat": "financiamento",
+   "local": false,
+   "img": "https://fatopaulista.com.br/wp-content/uploads/2026/11/caixa-avalia-reajuste-nos-juros-do-credito-imobiliario-e-1795186750595.webp"
+  },
+  {
+   "title": "Aparecida reforma Praça da Família com mão de obra de reeducandos do sistema prisional",
+   "url": "https://diariodegoias.com.br/aparecida-reforma-praca-da-familia-com-mao-de-obra-de-reeducandos-do-sistema-prisional/555180/",
+   "source": "Diário de Goiás",
+   "date": "2026-11-20T14:50:09Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://cdn.diariodegoias.com.br/wp-content/uploads/2026/11/20144737/aparecida-reforma-praca-da-familia-com-mao-de-obra-de-reeducandos-do-sistema-prisional.webp"
+  },
+  {
+   "title": "Setor Jaó poderá receber primeiro semáforo durante obras em Goiânia",
+   "url": "https://www.dm.com.br/cotidiano/setor-jao-podera-receber-primeiro-semaforo-durante-obras-em-goiania/",
+   "source": "Diário da Manhã",
+   "date": "2026-11-20T14:46:00Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://www.dm.com.br/wp-content/uploads/2026/11/Copia-de-f1-110.png"
+  },
+  {
+   "title": "Juros altos elevam distratos e inadimplência no setor imobiliário",
+   "url": "https://claudiodantas.com.br/juros-altos-elevam-distratos-e-inadimplencia-no-setor-imobiliario/",
+   "source": "Claudio Dantas",
+   "date": "2026-11-20T13:14:55Z",
+   "cat": "financiamento",
+   "local": false,
+   "img": "https://claudiodantas.com.br/wp-content/uploads/2026/11/images-41.jpg"
+  },
+  {
+   "title": "Setor Jaó pode ganhar primeiro semáforo com duplicação de rua em Goiânia",
+   "url": "https://www.podergoias.com.br/materia/28017/setor-jao-pode-ganhar-primeiro-semaforo-com-duplicacao-de-rua-em-goiania",
+   "source": "Poder Goiás",
+   "date": "2026-11-20T12:51:00Z",
+   "cat": "cidade",
+   "local": true,
+   "img": ""
+  },
+  {
+   "title": "Goiás avança com 800 obras em andamento e investimentos de R$ 12,6 bilhões",
+   "url": "https://www.maisgoias.com.br/cidades/goias-avanca-com-800-obras-em-andamento-e-investimentos-de-r-126-bilhoes-2-2/",
+   "source": "Mais Goiás",
+   "date": "2026-11-20T12:00:00Z",
+   "cat": "cidade",
+   "local": true,
+   "img": ""
+  },
   {
    "title": "Parque Atheneu, Setor Pedro Ludovico e Jardim Novo Mundo lideram notificações recentes de dengue em Goiânia, aponta SMS",
    "url": "https://www.jornalopcao.com.br/ultimas-noticias/parque-atheneu-setor-pedro-ludovico-e-jardim-novo-mundo-lideram-notificacoes-recentes-de-dengue-em-goiania-aponta-sms-891540/",
@@ -65,6 +128,15 @@
    "img": "https://agencia.go.gov.br/wp-content/uploads/2026/11/Eixo-viario-na-Regiao-Metropolitana-de-Goiania-rota_Goinfra.jpg"
   },
   {
+   "title": "Artigo trata do cálculo do ITBI em partilhas desiguais de divórcios e inventários",
+   "url": "https://cnm.org.br/comunicacao/noticias/artigo-trata-do-calculo-do-itbi-em-partilhas-desiguais-de-divorcios-e-inventarios",
+   "source": "Confederação Nacional de Municípios (CNM)",
+   "date": "2026-11-19T16:56:55Z",
+   "cat": "regras",
+   "local": false,
+   "img": "https://cnm.org.br/storage/noticias/2026/11/19112026_Artigo_CTAT.png"
+  },
+  {
    "title": "Aluguel sobe 5,6% em 2026 e metro quadrado chega a R$ 46,48 na capital",
    "url": "https://www.goias246.com.br/noticia/35390/cidades/aluguel-sobe-5-6-em-2026-e-metro-quadrado-chega-a-r-46-48-na-capital.html",
    "source": "Goiás 246",
@@ -119,6 +191,15 @@
    "img": "https://www.goias246.com.br/arquivos/noticias/35353/thumb/construcoes-de-moradias-iniciadas-nos-eua-avancam-9-9-em-outubro.jpg"
   },
   {
+   "title": "Imóveis recém-entregues podem custar menos que lançamentos em São Paulo",
+   "url": "https://portas.com.br/noticias/imoveis-recem-entregues-podem-custar-menos-que-lancamentos-em-sao-paulo/",
+   "source": "Portas",
+   "date": "2026-11-19T12:22:28Z",
+   "cat": "lancamentos",
+   "local": false,
+   "img": "https://uploads.portas.com.br/2026/11/Imoveis-recem-entregues-podem-custar-menos-que-lancamentos-em-Sao-Paulo-1536x1152.jpg"
+  },
+  {
    "title": "Famílias temem ficar sem moradia após despejo em Goiânia; Prefeitura tenta viabilizar apartamentos pelo Minha Casa, Minha Vida",
    "url": "https://www.jornalopcao.com.br/goiania/familias-solar-ville-desocupacao-goiania-889944/",
    "source": "Jornal Opção",
@@ -137,10 +218,10 @@
    "img": "https://aredacao.com.br/wp-content/uploads/2026/11/baioco.jpg"
   },
   {
-   "title": "Mercado imobiliário em 2027: Como transformar demanda em negócios que se sustentam",
+   "title": "Mercado imobiliário em 2027: como transformar demanda em negócios que se sustentam",
    "url": "https://www.migalhas.com.br/depeso/468892/mercado-imobiliario-em-2027-como-transformar-demanda-em-negocios",
-   "source": "Migalhas",
-   "date": "2026-11-19T10:25:39Z",
+   "source": "Rota Jurídica",
+   "date": "2026-11-19T10:36:10Z",
    "cat": "mercado",
    "local": false,
    "img": "https://medproc.migalhas.com.br/author.jpg._PROC_AC468892AT1AP11.jpg?v=20261119094907"
@@ -161,7 +242,8 @@
    "date": "2026-11-19T01:40:20Z",
    "cat": "lancamentos",
    "local": false,
-   "img": ""
+   "img": "",
+   "img_tried": true
   },
   {
    "title": "Construção civil cresce em Goiás, mas enfrenta falta de mão de obra",
@@ -247,8 +329,8 @@
   {
    "title": "Branded residences: Ornare fortalece presença no mercado imobiliário de alto padrão no Brasil",
    "url": "https://bluestudio.estadao.com.br/agencia-de-comunicacao/prnewswire/branded-residences-ornare-fortalece-presenca-no-mercado-imobiliario-de-alto-padrao-no-brasil/",
-   "source": "PR Newswire",
-   "date": "2026-11-18T12:00:00Z",
+   "source": "Estadão Blue Studio",
+   "date": "2026-11-18T12:37:55Z",
    "cat": "mercado",
    "local": false,
    "img": "https://bluestudio.estadao.com.br/agencia-de-comunicacao/wp-content/uploads/2026/11/1_53_2_2026-11-18_11.jpg"
@@ -314,8 +396,7 @@
    "date": "2026-11-17T20:41:27Z",
    "cat": "mercado",
    "local": true,
-   "img": "",
-   "img_tried": true
+   "img": ""
   },
   {
    "title": "Poda drástica de três árvores em Goiânia termina com condomínio e síndica indiciados",
@@ -388,8 +469,16 @@
    "date": "2026-11-17T19:14:00Z",
    "cat": "mercado",
    "local": false,
-   "img": "",
-   "img_tried": true
+   "img": "https://tribunadoplanalto.com.br/wp-content/uploads/2026/11/images-2026-11-17T161236.097.jpeg"
+  },
+  {
+   "title": "Vale esperar o STF? ITBI na integralização de imóveis e o Tema 1.348",
+   "url": "https://www.migalhas.com.br/depeso/468346/vale-esperar-o-stf-itbi-na-integralizacao-de-imoveis-e-o-tema-1-348",
+   "source": "Migalhas",
+   "date": "2026-11-17T17:05:00Z",
+   "cat": "regras",
+   "local": false,
+   "img": "https://medproc.migalhas.com.br/author.jpg._PROC_AC468346AT1AP11.jpg?v=20261117135725"
   },
   {
    "title": "Vale a pena financiar imóvel em tempos de juros altos? Veja os cuidados que você precisa ter",
@@ -638,6 +727,15 @@
    "img": "https://brasilinovador.com.br/wp-content/uploads/2026/09/brasil-inovador-11.jpg"
   },
   {
+   "title": "TJ/GO valida instalação de placas solares por maioria simples em condomínio",
+   "url": "https://www.migalhas.com.br/quentes/468258/tj-go-valida-instalacao-de-placas-solares-por-maioria-simples",
+   "source": "Migalhas",
+   "date": "2026-11-15T18:05:44Z",
+   "cat": "mercado",
+   "local": false,
+   "img": "https://medproc.migalhas.com.br/https__img5.migalhas.com.br__SL__gf_base__SL__empresas__SL__miga__SL__imagens__SL__2026__SL__11__SL__12__SL__cropped_2kkmnq3l.awi.jpg._PROC_CP75CCH31622400.jpg?v=20261112140629"
+  },
+  {
    "title": "Aparecida de Goiânia firma acordo para retirar famílias de áreas de risco e garantir moradia",
    "url": "https://www.jornalopcao.com.br/ultimas-noticias/aparecida-de-goiania-firma-acordo-para-retirar-familias-de-areas-de-risco-e-garantir-moradia-888985/",
    "source": "Jornal Opção",
@@ -800,6 +898,15 @@
    "cat": "cidade",
    "local": true,
    "img": "https://cdn.diariodegoias.com.br/wp-content/uploads/2026/11/14170949/parque-lago-das-rosas-e-revitalizado-apos-seis-meses-de-obras-em-goiania.webp"
+  },
+  {
+   "title": "Após reformas no Lago das Rosas, Prefeitura vai abrir licitação para revitalizar mureta e trampolim símbolos do art déco em Goiânia",
+   "url": "https://www.jornalopcao.com.br/ultimas-noticias/apos-reformas-no-lago-das-rosas-prefeitura-vai-abrir-licitacao-para-revitalizar-mureta-e-trampolim-simbolos-do-art-deco-em-goiania-888751/",
+   "source": "Jornal Opção",
+   "date": "2026-11-14T16:39:00Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://cdn.jornalopcao.com.br/assets/2026/11/14162603/1794673559-captura-de-tela-2026-11-14-132539.webp"
   },
   {
    "title": "Lago das Rosas, em Goiânia, ganha nova estrutura após revitalização de R$ 2,7 milhões; veja o que mudou",
@@ -1251,114 +1358,6 @@
    "cat": "lancamentos",
    "local": false,
    "img": "https://diariodorio.com/_midias/jpg/2026/11/13/696x464/1_whatsapp_image_2026_11_13_at_09_36_31-607010.jpeg"
-  },
-  {
-   "title": "Goiás mantém 800 obras em andamento e soma R$ 12,6 bilhões em investimentos",
-   "url": "https://pn7.com.br/goias-800-obras-investimentos-12-bilhoes/",
-   "source": "Portal PaNoRaMa",
-   "date": "2026-11-13T13:38:00Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://pn7.com.br/wp-content/uploads/2026/11/goias-800-obras-capa-pn7.webp"
-  },
-  {
-   "title": "Goiás avança com 800 obras em andamento e investimentos de R$ 12,6 bilhões",
-   "url": "https://www.maisgoias.com.br/cidades/goias-avanca-com-800-obras-em-andamento-e-investimentos-de-r-126-bilhoes-2/",
-   "source": "Mais Goiás",
-   "date": "2026-11-13T12:00:00Z",
-   "cat": "cidade",
-   "local": true,
-   "img": ""
-  },
-  {
-   "title": "Saneago é premiada por investimentos no saneamento básico de Aparecida de Goiânia",
-   "url": "https://www.jornalhoraextra.com.br/destaques/saneago-e-premiada-por-investimentos-no-saneamento-basico-de-aparecida-de-goiania",
-   "source": "Ciberjornal",
-   "date": "2026-11-13T08:26:30Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://www.jornalhoraextra.com.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-12-at-14.21.44.jpeg"
-  },
-  {
-   "title": "Equipe de robótica do Colégio Arena visita obra de complexo comercial em Goiânia",
-   "url": "https://panoramagocomunicacao.com.br/equipe-de-robotica-do-colegio-arena-visita-obra-de-complexo-comercial-em-goiania/",
-   "source": "Panoramagocomunicacao",
-   "date": "2026-11-13T01:13:11Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://panoramagocomunicacao.com.br/wp-content/uploads/2026/11/image001.jpg"
-  },
-  {
-   "title": "Prefeitura de Goiânia envia projeto à Câmara para reduzir multas e ampliar isenção do IPTU Social",
-   "url": "https://www.jornalopcao.com.br/ultimas-noticias/prefeitura-de-goiania-envia-projeto-a-camara-para-reduzir-multas-e-ampliar-isencao-do-iptu-social-888147/",
-   "source": "Jornal Opção",
-   "date": "2026-11-12T21:28:38Z",
-   "cat": "regras",
-   "local": true,
-   "img": "https://cdn.jornalopcao.com.br/assets/2026/11/12212424/1794518661-whatsapp-image-2026-11-12-at-15-06-15.webp"
-  },
-  {
-   "title": "Fim da escala 6×1: CBIC avalia que decisão de Flávio Dino traz flexibilizações, mas não afasta impactos na construção civil",
-   "url": "https://cbic.org.br/fim-da-escala-6x1-cbic-avalia-que-decisao-de-flavio-dino-traz-flexibilizacoes-mas-nao-afasta-impactos-na-construcao-civil/",
-   "source": "CBIC - Câmara Brasileira da Indústria da Construção",
-   "date": "2026-11-12T21:13:16Z",
-   "cat": "mercado",
-   "local": false,
-   "img": "https://cbic.org.br/wp-content/uploads/2020/04/STF2.jpeg"
-  },
-  {
-   "title": "Mais de 100 obras revelam o universo de Antonio Poteiro em Goiânia",
-   "url": "https://opopular.com.br/magazine/mais-de-100-obras-revelam-o-universo-de-antonio-poteiro-em-goiania-1.3480057",
-   "source": "O Popular",
-   "date": "2026-11-12T20:39:02Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://opopular.com.br/image/policy:1.3480056:1794515438/image.jpg"
-  },
-  {
-   "title": "O MCMV pode crescer nas vendas e apertar o caixa das incorporadoras",
-   "url": "https://valor.globo.com/google/amp/patrocinado/pulse-brand/noticia/2026/11/12/o-mcmv-pode-crescer-nas-vendas-e-apertar-o-caixa-das-incorporadoras-1.ghtml",
-   "source": "Valor Econômico",
-   "date": "2026-11-12T20:24:00Z",
-   "cat": "lancamentos",
-   "local": false,
-   "img": "https://s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/public/fb_marca.png"
-  },
-  {
-   "title": "Inova Conference By URBS 2026 reúne especialistas e aponta cenário de resiliência e alta demanda no mercado imobiliário de Goiânia",
-   "url": "https://abcagora.com.br/2026/11/12/inova-urbs-mercado-imobiliario-goiania/",
-   "source": "ABC Agora",
-   "date": "2026-11-12T20:04:37Z",
-   "cat": "mercado",
-   "local": true,
-   "img": "https://abcagora.com.br/wp-content/uploads/2026/11/Inova-Conference-By-URBS-2026-reune-especialistas-e-aponta-cenario-de-resiliencia-e-alta-demanda-no-mercado-imobiliario-de-Goiania.webp"
-  },
-  {
-   "title": "Apartamentos em Goiânia têm valorização de até 20,33%, aponta Secovi Goiás",
-   "url": "https://aredacao.com.br/apartamentos-em-goiania-tem-valorizacao-de-ate-2033-aponta-secovi-goias/",
-   "source": "A Redação",
-   "date": "2026-11-12T20:01:57Z",
-   "cat": "mercado",
-   "local": true,
-   "img": "https://aredacao.com.br/wp-content/uploads/2026/03/goiania2.jpg"
-  },
-  {
-   "title": "Correios realiza licitações de imóveis em novembro",
-   "url": "https://www.guairanews.com/2026/11/12/correios-licita-imoveis-novembro/",
-   "source": "Guairanews",
-   "date": "2026-11-12T19:12:10Z",
-   "cat": "mercado",
-   "local": false,
-   "img": "https://www.guairanews.com/wp-content/uploads/2026/11/Leilao-imobiliario-com-martelo-em-destaque.webp"
-  },
-  {
-   "title": "Evento em Goiânia destaca força do mercado imobiliário e lança assistente virtual para corretores",
-   "url": "https://www.bra1.com.br/economia/id-725189/evento_em_goiania_destaca_forca_do_mercado_imobiliario_e_lanca_assistente_virtual_para_corretores",
-   "source": "Bra1",
-   "date": "2026-11-12T19:11:00Z",
-   "cat": "lancamentos",
-   "local": true,
-   "img": "https://cdn.conexaohost.com.br/img/500x500/1/0/webp/arquivos/1918/conteudo/posts/725189.webp"
   }
  ]
 }
