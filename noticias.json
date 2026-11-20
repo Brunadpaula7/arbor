@@ -1,14 +1,68 @@
 {
- "updated": "2026-11-19T17:57:21Z",
+ "updated": "2026-11-20T01:59:59Z",
  "items": [
+  {
+   "title": "Parque Atheneu, Setor Pedro Ludovico e Jardim Novo Mundo lideram notificações recentes de dengue em Goiânia, aponta SMS",
+   "url": "https://www.jornalopcao.com.br/ultimas-noticias/parque-atheneu-setor-pedro-ludovico-e-jardim-novo-mundo-lideram-notificacoes-recentes-de-dengue-em-goiania-aponta-sms-891540/",
+   "source": "Jornal Opção",
+   "date": "2026-11-19T21:41:34Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://cdn.jornalopcao.com.br/assets/2024/01/WhatsApp-Image-2024-01-15-at-08.17.56.jpeg"
+  },
+  {
+   "title": "Goiânia estuda adotar modelo de drenagem urbana usado em Bruxelas",
+   "url": "https://ohoje.com/2026/11/19/goiania-estuda-adotar-modelo-de-drenagem-urbana-usado-em-bruxelas/",
+   "source": "O Hoje",
+   "date": "2026-11-19T19:25:20Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://ohoje.com/wp-content/uploads/2026/11/Foto-de-Capa-13-1.webp"
+  },
+  {
+   "title": "Governo de Goiás investe em obras para criar eixo viário na Região Metropolitana de Goiânia",
+   "url": "https://noticiatodahora.com.br/governo-de-goias-investe-em-obras-para-criar-eixo-viario-na-regiao-metropolitana-de-goiania/",
+   "source": "Notícia Toda Hora",
+   "date": "2026-11-19T19:20:00Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://noticiatodahora.com.br/wp-content/uploads/2026/11/imagem-249.jpg"
+  },
+  {
+   "title": "Requalificação Urbana e incentivos fiscais impulsionam novos projetos no Centro de Goiânia",
+   "url": "https://opopular.com.br/infomercial/requalificac-o-urbana-e-incentivos-fiscais-impulsionam-novos-projetos-no-centro-de-goiania-1.3482725",
+   "source": "O Popular",
+   "date": "2026-11-19T19:11:18Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://opopular.com.br/image/policy:1.3482816:1795122550/image.jpg"
+  },
+  {
+   "title": "Mabel conhece técnicas de drenagem em Bruxelas que podem ser aplicadas em Goiânia",
+   "url": "https://www.goiania.go.gov.br/agora/mabel-conhece-tecnicas-de-drenagem-em-bruxelas-que-podem-ser-aplicadas-em-goiania",
+   "source": "Goiânia (Prefeitura)",
+   "date": "2026-11-19T18:52:19Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://www.goiania.go.gov.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-19-at-15.44.23.jpeg"
+  },
   {
    "title": "Governo de Goiás executa obras que criam eixo viário na Região Metropolitana de Goiânia",
    "url": "https://aredacao.com.br/governo-de-goias-executa-obras-que-criam-eixo-viario-na-regiao-metropolitana-de-goiania/",
-   "source": "A Redação",
-   "date": "2026-11-19T17:16:52Z",
+   "source": "Transmissão Política",
+   "date": "2026-11-19T17:20:00Z",
    "cat": "cidade",
    "local": true,
    "img": "https://aredacao.com.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-19-at-13.54.49-300x199.jpeg"
+  },
+  {
+   "title": "Obras criam eixo viário na Região Metropolitana de Goiânia",
+   "url": "https://agencia.go.gov.br/obras-criam-eixo-viario-na-regiao-metropolitana-de-goiania/",
+   "source": "Agência Goiás de Notícias",
+   "date": "2026-11-19T17:17:00Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://agencia.go.gov.br/wp-content/uploads/2026/11/Eixo-viario-na-Regiao-Metropolitana-de-Goiania-rota_Goinfra.jpg"
   },
   {
    "title": "Aluguel sobe 5,6% em 2026 e metro quadrado chega a R$ 46,48 na capital",
@@ -20,22 +74,13 @@
    "img": "https://www.goias246.com.br/arquivos/noticias/35390/thumb/aluguel-sobe-5-6-em-2026-e-metro-quadrado-chega-a-r-46-48-na-capital.jpg"
   },
   {
-   "title": "Cresce demanda por apartamentos ultracompactos para moradia e locação em Goiânia",
-   "url": "https://portal.saladanoticia.com.br/noticia/81485/cresce-demanda-por-apartamentos-ultracompactos-para-moradia-e-locacao-em-goiania/amp",
-   "source": "Sala da Notícia",
-   "date": "2026-11-19T14:50:52Z",
-   "cat": "mercado",
-   "local": true,
-   "img": ""
-  },
-  {
    "title": "Aparecida de Goiânia terá novos parques em quatro regiões; veja onde serão",
    "url": "https://tribunadoplanalto.com.br/aparecida-de-goiania-tera-novos-parques-em-quatro-regioes-veja-onde-serao/",
    "source": "Tribuna do Planalto",
    "date": "2026-11-19T13:50:00Z",
    "cat": "cidade",
    "local": true,
-   "img": ""
+   "img": "https://tribunadoplanalto.com.br/wp-content/uploads/2026/11/Aparecida-de-Goiania-tera-novos-parques-em-quatro-regioes-veja-onde-serao.jpg"
   },
   {
    "title": "BofA corta projeção de lançamentos diante de crédito imobiliário mais caro",
@@ -45,6 +90,15 @@
    "cat": "lancamentos",
    "local": false,
    "img": "https://uploads.portas.com.br/2026/11/BofA-corta-projecao-de-lancamentos-diante-de-credito-imobiliario-mais-caro-2048x1365.jpg"
+  },
+  {
+   "title": "Cresce demanda por apartamentos ultracompactos para moradia e locação em Goiânia",
+   "url": "https://revistakdea360.com.br/noticia/102175/cresce-demanda-por-apartamentos-ultracompactos-para-moradia-e-locacao-em-goiania",
+   "source": "Portal Revista Kdea 360",
+   "date": "2026-11-19T13:02:40Z",
+   "cat": "mercado",
+   "local": true,
+   "img": ""
   },
   {
    "title": "Contribuintes de Anápolis terão 30 dias para aproveitar redução de 50% no ITBI pelo Programa Desengaveta",
@@ -99,6 +153,15 @@
    "cat": "lancamentos",
    "local": false,
    "img": "https://www.estadao.com.br/resizer/v2/NCA6F2JXOBGFLB62JF6A7AFHDA.jpg?quality=80&auth=1bae421d8e9b691b9c4a57cee277e3b1cdd290cf0e61683d636a3f03fc736ea2&width=1200&height=630&smart=true"
+  },
+  {
+   "title": "Zona Sul se destaca no mercado imobiliário de São Paulo e atrai novos empreendimentos",
+   "url": "https://portal.saladanoticia.com.br/noticia/81497/zona-sul-se-destaca-no-mercado-imobiliario-de-sao-paulo-e-atrai-novos-empreendimentos/amp",
+   "source": "Sala da Notícia",
+   "date": "2026-11-19T01:40:20Z",
+   "cat": "lancamentos",
+   "local": false,
+   "img": ""
   },
   {
    "title": "Construção civil cresce em Goiás, mas enfrenta falta de mão de obra",
@@ -184,8 +247,8 @@
   {
    "title": "Branded residences: Ornare fortalece presença no mercado imobiliário de alto padrão no Brasil",
    "url": "https://bluestudio.estadao.com.br/agencia-de-comunicacao/prnewswire/branded-residences-ornare-fortalece-presenca-no-mercado-imobiliario-de-alto-padrao-no-brasil/",
-   "source": "Estadão Blue Studio",
-   "date": "2026-11-18T12:37:55Z",
+   "source": "PR Newswire",
+   "date": "2026-11-18T12:00:00Z",
    "cat": "mercado",
    "local": false,
    "img": "https://bluestudio.estadao.com.br/agencia-de-comunicacao/wp-content/uploads/2026/11/1_53_2_2026-11-18_11.jpg"
@@ -516,7 +579,8 @@
    "date": "2026-11-16T11:29:54Z",
    "cat": "lancamentos",
    "local": true,
-   "img": ""
+   "img": "",
+   "img_tried": true
   },
   {
    "title": "Mais de mil imóveis abandonados entram na mira de fiscalização contra dengue em Goiânia",
@@ -1295,70 +1359,6 @@
    "cat": "lancamentos",
    "local": true,
    "img": "https://cdn.conexaohost.com.br/img/500x500/1/0/webp/arquivos/1918/conteudo/posts/725189.webp"
-  },
-  {
-   "title": "HUB Ademi Qualifica discute análise de dados no mercado imobiliário em novo módulo",
-   "url": "https://www.foconacional.com.br/2026/11/hub-ademi-qualifica-discute-analise-de.html",
-   "source": "Sala da Notícia",
-   "date": "2026-11-12T19:08:13Z",
-   "cat": "mercado",
-   "local": false,
-   "img": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgW-v1SKcb9J1QB-3DlnpnY0jiR1GfGS0niOVEfGE_fV97VLfHPycF6zRnqJBUDncvnV5SI19PK-zmrzvcn_UihafzhHnJOcDU0Fp2i3uHHnw433msbu3hqViDNg-i_8vV0wt01FuP1C0Gcz5XOhTkiWBW-s1jb-p8Zqzq-wwM1cH3jRduRzkbtJ56W0_9E/w1200/WhatsApp%20Image%202026-11-12%20at%2015.36.39.jpeg"
-  },
-  {
-   "title": "Prefeitura de Goiânia propõe redução de multas, ampliação do IPTU Social e mais direitos aos contribuintes",
-   "url": "https://www.goiania.go.gov.br/agora/prefeitura-de-goiania-propoe-reducao-de-multas-ampliacao-do-iptu-social-e-mais-direitos-aos-contribuintes",
-   "source": "Goiânia (Prefeitura)",
-   "date": "2026-11-12T17:43:28Z",
-   "cat": "regras",
-   "local": true,
-   "img": "https://www.goiania.go.gov.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-12-at-13.32.49.jpeg"
-  },
-  {
-   "title": "Goiás prevê R$ 10 bilhões em investimentos ferroviários e aplica R$ 5,3 bilhões em obras em 2026",
-   "url": "https://tribunadoplanalto.com.br/goias-preve-r-10-bilhoes-em-investimentos-ferroviarios-e-aplica-r-53-bilhoes-em-obras-em-2026/",
-   "source": "Tribuna do Planalto",
-   "date": "2026-11-12T17:27:00Z",
-   "cat": "cidade",
-   "local": true,
-   "img": ""
-  },
-  {
-   "title": "Aparecida lança programa de concessão de imóveis públicos para atrair empresas e gerar empregos",
-   "url": "https://diariodegoias.com.br/aparecida-lanca-programa-de-concessao-de-imoveis-publicos-para-atrair-empresas-e-gerar-empregos/554202/",
-   "source": "Diário de Goiás",
-   "date": "2026-11-12T15:00:05Z",
-   "cat": "lancamentos",
-   "local": true,
-   "img": "https://cdn.diariodegoias.com.br/wp-content/uploads/2023/09/paco-municipal-aparecida-foto-claudivino-antunes.jpg"
-  },
-  {
-   "title": "Novas regras internacionais reforçam compliance imobiliário",
-   "url": "https://portaldoval.com.br/noticia/26461/novas-regras-internacionais-reforcam-compliance-imobiliario",
-   "source": "Portal do Val",
-   "date": "2026-11-12T14:48:48Z",
-   "cat": "regras",
-   "local": false,
-   "img": "",
-   "img_tried": true
-  },
-  {
-   "title": "Aparecida de Goiânia é destaque em investimentos em Saneamento",
-   "url": "https://agencia.go.gov.br/especial/aparecida-de-goiania-e-premiada-por-investimentos-em-saneamento-em-2026/",
-   "source": "Agência Goiás de Notícias",
-   "date": "2026-11-12T14:47:00Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://agencia.go.gov.br/wp-content/uploads/2026/11/APARECIDA_DE_GOIANIA_EM_PANORAMICA_FOTO_PREFEITURA_DE_APARECIDA.jpeg"
-  },
-  {
-   "title": "Prefeitura de Goiânia anuncia retomada das obras da casa da mulher brasileira",
-   "url": "https://noticias.r7.com/goias/prefeitura-de-goiania-anuncia-retomada-das-obras-da-casa-da-mulher-brasileira-12112026/",
-   "source": "R7",
-   "date": "2026-11-12T14:07:33Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://newr7-r7-prod.web.arc-cdn.net/resizer/v2/44WZLCSWENE6TLVQ5LD4LYSFJE.jpg?smart=true&auth=cab5af7d6248df38742f1f21b9635a2da01eeac8c7bad0bdf55f850ad59adf62&width=1200&height=630"
   }
  ]
 }
