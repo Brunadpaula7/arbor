@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T17:31:41Z",
+ "updated": "2026-11-21T01:57:24Z",
  "items": [
   {
    "title": "Entidades culturais apoiam revitalização do Jóquei Clube de Goiás",
@@ -18,15 +18,6 @@
    "cat": "financiamento",
    "local": false,
    "img": "https://fatopaulista.com.br/wp-content/uploads/2026/11/caixa-avalia-reajuste-nos-juros-do-credito-imobiliario-e-1795186750595.webp"
-  },
-  {
-   "title": "Aparecida reforma Praça da Família com mão de obra de reeducandos do sistema prisional",
-   "url": "https://diariodegoias.com.br/aparecida-reforma-praca-da-familia-com-mao-de-obra-de-reeducandos-do-sistema-prisional/555180/",
-   "source": "Diário de Goiás",
-   "date": "2026-11-20T14:50:09Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://cdn.diariodegoias.com.br/wp-content/uploads/2026/11/20144737/aparecida-reforma-praca-da-familia-com-mao-de-obra-de-reeducandos-do-sistema-prisional.webp"
   },
   {
    "title": "Setor Jaó poderá receber primeiro semáforo durante obras em Goiânia",
@@ -54,6 +45,15 @@
    "cat": "cidade",
    "local": true,
    "img": ""
+  },
+  {
+   "title": "Prefeito Sandro Mabel avalia soluções de drenagem urbana em Bruxelas para implantar em Goiânia",
+   "url": "https://radiobandeirantesgoiania.com.br/prefeito-sandro-mabel-avalia-solucoes-de-drenagem-urbana-em-bruxelas-para-implantar-em-goiania/",
+   "source": "Rádio Bandeirantes Goiânia",
+   "date": "2026-11-20T12:14:18Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://radiobandeirantesgoiania.com.br/wp-content/uploads/2026/11/Sandro-Mabel-avalia-solucoes-de-drenagem-urbana-em-Bruxelas-para-implantar-em-Goiania-2.jpeg"
   },
   {
    "title": "Goiás avança com 800 obras em andamento e investimentos de R$ 12,6 bilhões",
@@ -165,8 +165,8 @@
   },
   {
    "title": "Cresce demanda por apartamentos ultracompactos para moradia e locação em Goiânia",
-   "url": "https://revistakdea360.com.br/noticia/102175/cresce-demanda-por-apartamentos-ultracompactos-para-moradia-e-locacao-em-goiania",
-   "source": "Portal Revista Kdea 360",
+   "url": "https://gazetadasemana.com.br/noticia/309288/cresce-demanda-por-apartamentos-ultracompactos-para-moradia-e-locacao-em-goiania/amp",
+   "source": "Gazeta da Semana",
    "date": "2026-11-19T13:02:40Z",
    "cat": "mercado",
    "local": true,
@@ -329,8 +329,8 @@
   {
    "title": "Branded residences: Ornare fortalece presença no mercado imobiliário de alto padrão no Brasil",
    "url": "https://bluestudio.estadao.com.br/agencia-de-comunicacao/prnewswire/branded-residences-ornare-fortalece-presenca-no-mercado-imobiliario-de-alto-padrao-no-brasil/",
-   "source": "Estadão Blue Studio",
-   "date": "2026-11-18T12:37:55Z",
+   "source": "PR Newswire",
+   "date": "2026-11-18T12:00:00Z",
    "cat": "mercado",
    "local": false,
    "img": "https://bluestudio.estadao.com.br/agencia-de-comunicacao/wp-content/uploads/2026/11/1_53_2_2026-11-18_11.jpg"
@@ -505,7 +505,8 @@
    "date": "2026-11-17T15:52:00Z",
    "cat": "cidade",
    "local": true,
-   "img": ""
+   "img": "",
+   "img_tried": true
   },
   {
    "title": "Black Friday da Housi leva condições especiais a incorporadoras, investidores e consumidores",
@@ -542,6 +543,15 @@
    "cat": "cidade",
    "local": true,
    "img": "https://revistazelo.com.br/wp-content/uploads/2026/11/Divulgacao-_-Legenda_-_Somos-agua_-2026-Instalacao-de-ceramica-e-textil-da-artista-visual-Ivonne-Ferrer-875x800.png"
+  },
+  {
+   "title": "Even reduz equipe de corretores e concentra operação em imóveis de luxo",
+   "url": "https://portas.com.br/noticias/even-reduz-equipe-de-corretores-e-concentra-operacao-em-imoveis-de-luxo/",
+   "source": "Portas",
+   "date": "2026-11-17T11:56:19Z",
+   "cat": "mercado",
+   "local": false,
+   "img": "https://uploads.portas.com.br/2026/11/Even-reduz-equipe-de-corretores-e-concentra-operacao-em-imoveis-de-luxo.jpg"
   },
   {
    "title": "Mil imóveis abandonados serão abertos em Goiânia",
@@ -586,8 +596,7 @@
    "date": "2026-11-16T20:18:21Z",
    "cat": "mercado",
    "local": false,
-   "img": "",
-   "img_tried": true
+   "img": ""
   },
   {
    "title": "Aparecida assina acordo para garantir moradia a famílias de áreas de risco",
@@ -653,6 +662,15 @@
    "img": "https://uploads.portas.com.br/2026/11/Credito-caro-acelera-concentracao-e-favorece-incorporadoras-listadas-2048x1365.jpg"
   },
   {
+   "title": "Aparecida de Goiânia fica no top 10 do Ranking do Saneamento 2026 e recebe prêmio nacional",
+   "url": "https://www.goias365.com.br/aparecida-de-goiania-fica-no-top-10-do-ranking-do-saneamento-2026-e-recebe-premio-nacional/",
+   "source": "Goiás365",
+   "date": "2026-11-16T11:58:25Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://www.goias365.com.br/wp-content/uploads/2026/11/Aparecida-de-Goiania-premiacao-nacional-saneamento-basico.jpeg"
+  },
+  {
    "title": "Prefeitura antecipa ações de combate à dengue e inicia vistorias em imóveis abandonados",
    "url": "https://www.goiania.go.gov.br/agora/prefeitura-antecipa-acoes-de-combate-a-dengue-e-inicia-vistorias-em-imoveis-abandonados",
    "source": "Goiânia (Prefeitura)",
@@ -668,8 +686,7 @@
    "date": "2026-11-16T11:29:54Z",
    "cat": "lancamentos",
    "local": true,
-   "img": "",
-   "img_tried": true
+   "img": ""
   },
   {
    "title": "Mais de mil imóveis abandonados entram na mira de fiscalização contra dengue em Goiânia",
@@ -878,8 +895,7 @@
    "date": "2026-11-14T19:16:00Z",
    "cat": "lancamentos",
    "local": false,
-   "img": "",
-   "img_tried": true
+   "img": ""
   },
   {
    "title": "Prefeito Leandro Vilela vistoria unidades de saúde e fiscaliza obra da UPA Brasicon em Aparecida de Goiânia",
@@ -907,6 +923,15 @@
    "cat": "cidade",
    "local": true,
    "img": "https://cdn.jornalopcao.com.br/assets/2026/11/14162603/1794673559-captura-de-tela-2026-11-14-132539.webp"
+  },
+  {
+   "title": "Parque Lago das Rosas passa por ampla revitalização em Goiânia",
+   "url": "https://jornalmetropolitan.com.br/parque-lago-das-rosas-revitalizacao-goiania/",
+   "source": "Jornal Metropolitan",
+   "date": "2026-11-14T16:33:08Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://jornalmetropolitan.com.br/wp-content/uploads/2026/11/parque-lago-das-rosas-passa-por-ampla-revitalizacao-em-g-1794672017189-780x470.webp"
   },
   {
    "title": "Lago das Rosas, em Goiânia, ganha nova estrutura após revitalização de R$ 2,7 milhões; veja o que mudou",
@@ -1331,33 +1356,6 @@
    "cat": "regras",
    "local": false,
    "img": "https://aredacao.com.br/wp-content/uploads/2026/11/Captura-de-Tela-2026-11-05-as-21.57.33-300x202.png"
-  },
-  {
-   "title": "Aparecida de Goiânia recebe prêmio nacional por destaque em saneamento básico",
-   "url": "https://noticiatodahora.com.br/aparecida-de-goiania-recebe-premio-nacional-por-destaque-em-saneamento-basico/",
-   "source": "Notícia Toda Hora",
-   "date": "2026-11-13T14:55:00Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://noticiatodahora.com.br/wp-content/uploads/2026/11/imagem-158.jpg"
-  },
-  {
-   "title": "Novo loteamento em Ribeirão Preto levanta debate sobre planejamento urbano e mobilidade",
-   "url": "https://cbnribeirao.com.br/novo-loteamento-em-ribeirao-preto-levanta-debate-sobre-planejamento-urbano-e-mobilidade/",
-   "source": "CBN Ribeirão",
-   "date": "2026-11-13T14:53:26Z",
-   "cat": "mercado",
-   "local": false,
-   "img": "https://media.cbnribeirao.com.br/wp-content/uploads/2026/10/orcamento-de-ribeirao-preto-para-2027-recebe-criticas-por-falta-de-detalhes-e-recursos-para-assistencia-social-formato-site-cbnribeirao.com.br.jpg"
-  },
-  {
-   "title": "Mercado imobiliário do Rio cresce 34% em lançamentos e 19% em vendas no terceiro trimestre",
-   "url": "https://diariodorio.com/economia/mercado-imobiliario/2026/11/13/mercado-imobiliario-do-rio-cresce-34-em-lancamentos-e-19-em-vendas-no-terceiro-trimestre.html",
-   "source": "Diário do Rio",
-   "date": "2026-11-13T13:46:00Z",
-   "cat": "lancamentos",
-   "local": false,
-   "img": "https://diariodorio.com/_midias/jpg/2026/11/13/696x464/1_whatsapp_image_2026_11_13_at_09_36_31-607010.jpeg"
   }
  ]
 }
