@@ -1,6 +1,33 @@
 {
- "updated": "2026-11-21T16:35:46Z",
+ "updated": "2026-11-22T00:56:09Z",
  "items": [
+  {
+   "title": "As duas comadres da praça e a verdade da fofoca",
+   "url": "https://www.jornalopcao.com.br/opcao-cultural/as-duas-comadres-da-praca-e-a-verdade-da-fofoca-889512/",
+   "source": "Jornal Opção",
+   "date": "2026-11-22T00:38:34Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://cdn.jornalopcao.com.br/assets/2026/11/17155655/1794931014-velhinhas-na-praca-imagem-gerada-por-ia.webp"
+  },
+  {
+   "title": "Aparecida de Goiânia: Gestão Leandro Vilela restaura Parque da Família com mão de obra de reeducandos do sistema prisional",
+   "url": "https://sdnews.com.br/noticia/17699/aparecida-de-goiania-gestao-leandro-vilela-restaura-parque-da-familia-com-mao-de-obra-de-reeducandos.html",
+   "source": "Portal Serra Dourada News",
+   "date": "2026-11-21T18:42:31Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://sdnews.com.br/imagem-social/posts/2026/11/17699_aparecida-de-goiania-gestao-leandro-vilela-restaura-parque-da-familia-com-mao-de-obra-de-reeducandos-6d666f78.jpeg.jpg?v=og4-1795286673-l0"
+  },
+  {
+   "title": "Caixa oferece 5 mil imóveis com até 90% de desconto de 23 a 27 de novembro; FGTS pode entrar no pagamento",
+   "url": "https://ndmais.com.br/economia/financas-pessoais/caixa-5-mil-imoveis-financiamento-fgts/",
+   "source": "ND Mais",
+   "date": "2026-11-21T18:03:58Z",
+   "cat": "financiamento",
+   "local": false,
+   "img": "https://static.ndmais.com.br/2026/11/caixa-imoveis-blue-friday-fgtsjpg-1200x675.jpg"
+  },
   {
    "title": "UBS do Residencial Lorena Park realiza mais de 7 mil atendimentos em dez meses de funcionamento",
    "url": "https://www.goiania.go.gov.br/agora/ubs-do-residencial-lorena-park-realiza-mais-de-7-mil-atendimentos-em-dez-meses-de-funcionamento",
@@ -20,15 +47,6 @@
    "img": "https://portal6.com.br/wp-content/uploads/2026/11/Douglas-Strabelli-e-Sagewood-Corporation.webp"
   },
   {
-   "title": "Carminha retorna em Avenida Brasil 2 com nova vida",
-   "url": "https://www.dm.com.br/entretenimento/carminha-retorna-em-avenida-brasil-2-com-nova-vida/",
-   "source": "DM",
-   "date": "2026-11-21T15:22:21Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://www.dm.com.br/wp-content/uploads/2025/08/728X90PX_RACISMO_CMG-1.gif"
-  },
-  {
    "title": "ITBI em Anápolis é reduzido pela metade até dezembro",
    "url": "https://diariodegoias.com.br/itbi-em-anapolis-e-reduzido-pela-metade-ate-dezembro/555224/",
    "source": "Diário de Goiás",
@@ -36,15 +54,6 @@
    "cat": "regras",
    "local": true,
    "img": "https://cdn.diariodegoias.com.br/wp-content/uploads/2026/11/21102102/itbi-anapolis.webp"
-  },
-  {
-   "title": "“Quem conhece Goiânia não consegue ficar longe”, diz visitante em pesquisa de demanda turística",
-   "url": "https://aredacao.com.br/quem-conhece-goiania-nao-consegue-ficar-longe-diz-visitante-em-pesquisa-de-demanda-turistica/",
-   "source": "A Redação",
-   "date": "2026-11-21T14:34:28Z",
-   "cat": "regras",
-   "local": true,
-   "img": "https://aredacao.com.br/wp-content/uploads/2026/11/11-12-300x191.jpg"
   },
   {
    "title": "Flamengo pode ser campeão brasileiro na casa do Palmeiras: Atlético-MG encara Boca na final da Sul-Americana; confira os jogos de hoje e onde assistir",
@@ -72,6 +81,15 @@
    "cat": "lancamentos",
    "local": false,
    "img": ""
+  },
+  {
+   "title": "“Quem conhece Goiânia não consegue ficar longe”, diz visitante em pesquisa de demanda turística",
+   "url": "https://www.goiania.go.gov.br/agora/quem-conhece-goiania-nao-consegue-ficar-longe-diz-visitante-em-pesquisa-de-demanda-turistica",
+   "source": "Goiânia (Prefeitura)",
+   "date": "2026-11-21T12:00:00Z",
+   "cat": "regras",
+   "local": true,
+   "img": "https://www.goiania.go.gov.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-18-at-14.04.39.jpeg"
   },
   {
    "title": "Justiça condena Vitacon por entregar imóveis inacabados com habite-se",
@@ -162,6 +180,15 @@
    "cat": "regras",
    "local": false,
    "img": "https://cdn-images.grupoahora.net.br/2026/11/DSC_1282.jpg"
+  },
+  {
+   "title": "Várzea Grande tem 58,5% de inadimplência no IPTU em 2026; veja como regularizar o débito",
+   "url": "https://www.varzeagrande.mt.gov.br/varzea-grande-tem-585-de-inadimplencia-no-iptu-em-2026-veja-como-regularizar-o-debito",
+   "source": "Prefeitura Municipal de Várzea Grande - Página Inicial",
+   "date": "2026-11-20T00:20:03Z",
+   "cat": "regras",
+   "local": false,
+   "img": "https://www.varzeagrande.mt.gov.br/storage/imagem/f34dd8e7e7b307710de7d1987e713814.jpg"
   },
   {
    "title": "Governo de Goiás executa obras que criam eixo viário na Região Metropolitana de Goiânia",
@@ -260,7 +287,8 @@
    "date": "2026-11-19T14:43:00Z",
    "cat": "financiamento",
    "local": false,
-   "img": ""
+   "img": "",
+   "img_tried": true
   },
   {
    "title": "Aparecida de Goiânia terá novos parques em quatro regiões; veja onde serão",
@@ -599,6 +627,15 @@
    "img": "https://tribunadoplanalto.com.br/wp-content/uploads/2026/11/images-2026-11-17T161236.097.jpeg"
   },
   {
+   "title": "Eztec vê excesso de oferta no alto padrão e prevê menos lançamentos em 2027",
+   "url": "https://portas.com.br/noticias/eztec-ve-excesso-de-oferta-no-alto-padrao-e-preve-menos-lancamentos-em-2027/",
+   "source": "Portas",
+   "date": "2026-11-17T17:53:02Z",
+   "cat": "lancamentos",
+   "local": false,
+   "img": "https://uploads.portas.com.br/2026/11/social-eztec-ve-excesso-de-oferta-no-alto-padrao-e-preve-menos-lancamentos-em-2027-330475.jpg"
+  },
+  {
    "title": "Vale esperar o STF? ITBI na integralização de imóveis e o Tema 1.348",
    "url": "https://www.migalhas.com.br/depeso/468346/vale-esperar-o-stf-itbi-na-integralizacao-de-imoveis-e-o-tema-1-348",
    "source": "Migalhas",
@@ -723,7 +760,8 @@
    "date": "2026-11-16T20:41:00Z",
    "cat": "financiamento",
    "local": false,
-   "img": ""
+   "img": "",
+   "img_tried": true
   },
   {
    "title": "Feirão da Habitação sediado e apoiado pela Prefeitura reúne mais de 5 mil visitantes e concretiza venda de quase 500 imóveis – Portal da Prefeitura de Uberlândia",
@@ -751,15 +789,6 @@
    "cat": "mercado",
    "local": false,
    "img": "https://us-central1-pulsebrand-plataforma.cloudfunctions.net/trackPixel?c=808fa840-143d-491a-b225-a396a127e0ee&v=d5e08ac1-bc1a-4ce3-a9e1-10d071115e06&p=d18de97f-42da-4abc-aee8-d8c8d34c11e4"
-  },
-  {
-   "title": "Caixa contrata R$ 72,5 bilhões em crédito imobiliário no trimestre e avalia subir juros",
-   "url": "https://portas.com.br/noticias/caixa-amplia-credito-imobiliario-terceiro-trimestre/",
-   "source": "Portas",
-   "date": "2026-11-16T16:32:56Z",
-   "cat": "financiamento",
-   "local": false,
-   "img": "https://uploads.portas.com.br/2026/11/Marcelo-CamargoAgencia-Brasil.jpg"
   },
   {
    "title": "Bairros de Goiânia terão obras de manutenção e desligamentos de energia programados nesta semana",
@@ -1032,7 +1061,8 @@
    "date": "2026-11-14T19:16:00Z",
    "cat": "lancamentos",
    "local": false,
-   "img": ""
+   "img": "",
+   "img_tried": true
   },
   {
    "title": "Prefeito Leandro Vilela vistoria unidades de saúde e fiscaliza obra da UPA Brasicon em Aparecida de Goiânia",
@@ -1224,15 +1254,6 @@
    "img": "https://www.maisgoias.com.br/wp-content/uploads/2026/11/foto-2026-11-13t181951-543-1794604793.webp"
   },
   {
-   "title": "Após eleições, Caixa estuda aumentar juros do financiamento da casa própria",
-   "url": "https://claudiodantas.com.br/caixa-juros-financiamento-casa-propria/",
-   "source": "Claudio Dantas",
-   "date": "2026-11-13T21:03:03Z",
-   "cat": "financiamento",
-   "local": false,
-   "img": "https://claudiodantas.com.br/wp-content/uploads/2026/02/edificio_sede_caixa_economica_federal_170120182635-1024x683.jpg"
-  },
-  {
    "title": "Construtoras em Goiás usam hortas e espaços públicos para ajudar vizinhos",
    "url": "https://www.bra1.com.br/geral/id-725854/construtoras_em_goias_usam_hortas_e_espacos_publicos_para_ajudar_vizinhos",
    "source": "Bra1",
@@ -1249,6 +1270,15 @@
    "cat": "mercado",
    "local": false,
    "img": "https://us-central1-pulsebrand-plataforma.cloudfunctions.net/trackPixel?c=cbedd0ae-6ff3-4a6e-9080-dc1a43bad87e&v=a51dbe73-eda7-4183-9fdf-fe9636e6063d&p=d18de97f-42da-4abc-aee8-d8c8d34c11e4"
+  },
+  {
+   "title": "Região de Goiânia com venda lenta de imóveis lidera mercado de aluguel rápido",
+   "url": "https://jornalmetropolitan.com.br/bairro-de-goiania-onde-apartamentos-demoram-mais-para-vender-e-o-que/",
+   "source": "Jornal Metropolitan",
+   "date": "2026-11-13T20:43:24Z",
+   "cat": "mercado",
+   "local": true,
+   "img": "https://jornalmetropolitan.com.br/wp-content/uploads/2026/11/regiao-de-goiania-com-venda-lenta-de-imoveis-lidera-merc-1794600509416-780x470.webp"
   },
   {
    "title": "Apartamento de 60 m² no Marista pode custar mais que o dobro no Setor Sul",
@@ -1314,15 +1344,6 @@
    "img": "https://www.moneytimes.com.br/uploads/2024/02/casa-propria-imoveis-comprar-cenario-perspectivas-2024-sao-paulo-precos-financiamento-imobiliario-retranca.jpg"
   },
   {
-   "title": "Caixa estuda reajustar juros do financiamento imobiliário, diz vice-presidente de Habitação",
-   "url": "https://acritica.net/economia/caixa-estuda-reajuste-juros-financiamento-imobiliario/",
-   "source": "A Crítica de Campo Grande",
-   "date": "2026-11-13T19:16:00Z",
-   "cat": "financiamento",
-   "local": false,
-   "img": "https://uploads.acritica.net/2026/11/caixa-estuda-reajuste-juros-financiamento-imobiliario.jpg"
-  },
-  {
    "title": "Caixa pode aumentar juros no financiamento imobiliário, afirma Inês Magalhães",
    "url": "https://www.tribunadosertao.com.br/geral/2026/11/13/1021342-caixa-pode-aumentar-juros-no-financiamento-imobiliario-afirma-ines-magalhaes",
    "source": "Tribuna do Sertão",
@@ -1340,24 +1361,6 @@
    "local": true,
    "img": "",
    "img_tried": true
-  },
-  {
-   "title": "CBIC participa do Conexão FNDI, que reúne lideranças do mercado imobiliário em São Paulo",
-   "url": "https://cbic.org.br/cbic-participa-do-conexao-fndi-que-reune-liderancas-do-mercado-imobiliario-em-sao-paulo/",
-   "source": "CBIC - Câmara Brasileira da Indústria da Construção",
-   "date": "2026-11-13T18:38:34Z",
-   "cat": "mercado",
-   "local": false,
-   "img": "https://cbic.org.br/wp-content/uploads/2026/11/whatsapp-image-2026-11-12-at-43128-pm.jpeg"
-  },
-  {
-   "title": "Caixa estuda aumentar juros da casa própria; entenda a conta por trás da decisão",
-   "url": "https://exame.com/mercado-imobiliario/caixa-estuda-aumentar-juros-da-casa-propria-entenda-a-conta-por-tras-da-decisao/",
-   "source": "Exame",
-   "date": "2026-11-13T18:21:03Z",
-   "cat": "financiamento",
-   "local": false,
-   "img": ""
   }
  ]
 }
