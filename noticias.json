@@ -1,14 +1,14 @@
 {
- "updated": "2026-11-22T00:56:09Z",
+ "updated": "2026-11-22T16:52:46Z",
  "items": [
   {
-   "title": "As duas comadres da praça e a verdade da fofoca",
-   "url": "https://www.jornalopcao.com.br/opcao-cultural/as-duas-comadres-da-praca-e-a-verdade-da-fofoca-889512/",
-   "source": "Jornal Opção",
-   "date": "2026-11-22T00:38:34Z",
-   "cat": "cidade",
+   "title": "Goiás é produtor e será um dos mais atingidos, alerta presidente do IMB sobre perdas logísticas",
+   "url": "https://diariodegoias.com.br/goias-e-produtor-e-sera-um-dos-mais-atingidos-alerta-presidente-do-imb-sobre-perdas-logisticas/555316/",
+   "source": "Diário de Goiás",
+   "date": "2026-11-22T14:54:20Z",
+   "cat": "regras",
    "local": true,
-   "img": "https://cdn.jornalopcao.com.br/assets/2026/11/17155655/1794931014-velhinhas-na-praca-imagem-gerada-por-ia.webp"
+   "img": "https://cdn.diariodegoias.com.br/wp-content/uploads/2024/07/Erik-Figueiredo-presidente-IMB_Edinan-Ferreira.jpg"
   },
   {
    "title": "Aparecida de Goiânia: Gestão Leandro Vilela restaura Parque da Família com mão de obra de reeducandos do sistema prisional",
@@ -236,6 +236,15 @@
    "img": "https://ohoje.com/wp-content/uploads/2026/11/Foto-de-Capa-13-1.webp"
   },
   {
+   "title": "BB BI analisa a performance do setor imobiliário em outubro - Setorial Construção",
+   "url": "https://investalk.bb.com.br/noticias/mercado/setorial-construcao-202611",
+   "source": "InvesTalk",
+   "date": "2026-11-19T19:21:00Z",
+   "cat": "mercado",
+   "local": false,
+   "img": "https://cdninvestalk.azureedge.net/uploads/whatsapp_foto340_construcaocivil_thumb_b2caf57d42.png"
+  },
+  {
    "title": "Governo de Goiás investe em obras para criar eixo viário na Região Metropolitana de Goiânia",
    "url": "https://noticiatodahora.com.br/governo-de-goias-investe-em-obras-para-criar-eixo-viario-na-regiao-metropolitana-de-goiania/",
    "source": "Notícia Toda Hora",
@@ -252,6 +261,15 @@
    "cat": "cidade",
    "local": true,
    "img": "https://opopular.com.br/image/policy:1.3482816:1795122550/image.jpg"
+  },
+  {
+   "title": "Timon fará sorteio de 200 moradias do Minha Casa Minha Vida no dia 11 de dezembro",
+   "url": "https://timon.ma.gov.br/timon-fara-sorteio-de-200-moradias-do-minha-casa-minha-vida-no-dia-11-de-dezembro/",
+   "source": "Prefeitura de Timon",
+   "date": "2026-11-19T17:23:31Z",
+   "cat": "financiamento",
+   "local": false,
+   "img": "https://timon.ma.gov.br/wp-content/uploads/2026/11/IMG_2733-300x169.jpg"
   },
   {
    "title": "Obras criam eixo viário na Região Metropolitana de Goiânia",
@@ -279,6 +297,15 @@
    "cat": "mercado",
    "local": true,
    "img": "https://www.goias246.com.br/arquivos/noticias/35390/thumb/aluguel-sobe-5-6-em-2026-e-metro-quadrado-chega-a-r-46-48-na-capital.jpg"
+  },
+  {
+   "title": "Obras de 192 apartamentos do Minha Casa Minha Vida avançam em Timon",
+   "url": "https://timon.ma.gov.br/obras-de-192-apartamentos-do-minha-casa-minha-vida-avancam-em-timon/",
+   "source": "Prefeitura de Timon",
+   "date": "2026-11-19T14:57:53Z",
+   "cat": "financiamento",
+   "local": false,
+   "img": "https://timon.ma.gov.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-19-at-11.10.51-300x200.jpeg"
   },
   {
    "title": "Minha Casa, Minha Vida inicia a construção de mais 2 mil moradias — Ministério das Cidades",
@@ -1061,8 +1088,7 @@
    "date": "2026-11-14T19:16:00Z",
    "cat": "lancamentos",
    "local": false,
-   "img": "",
-   "img_tried": true
+   "img": ""
   },
   {
    "title": "Prefeito Leandro Vilela vistoria unidades de saúde e fiscaliza obra da UPA Brasicon em Aparecida de Goiânia",
@@ -1173,6 +1199,15 @@
    "img": "https://soubrasilia.com/wp-content/uploads/2026/11/caixa-juros-financiamento-imobiliario-13nov2026.jpg"
   },
   {
+   "title": "Caixa estuda subir juros do financiamento imobiliário",
+   "url": "https://aciara.com.br/caixa-estuda-subir-juros-do-financiamento-imobiliario/",
+   "source": "Acia Araçatuba",
+   "date": "2026-11-14T08:00:00Z",
+   "cat": "financiamento",
+   "local": false,
+   "img": "https://aciara.com.br/wp-content/uploads/2026/11/INES.jpg"
+  },
+  {
    "title": "Caixa estuda reajuste em juros do crédito imobiliário",
    "url": "https://aciara.com.br/caixa-estuda-reajuste-em-juros-do-credito-imobiliario/",
    "source": "Acia Araçatuba",
@@ -1180,15 +1215,6 @@
    "cat": "financiamento",
    "local": false,
    "img": "https://aciara.com.br/wp-content/uploads/2026/11/01fin-100-funding-c6-img01.jpg"
-  },
-  {
-   "title": "Caixa estuda subir juros do financiamento imobiliário",
-   "url": "https://aciara.com.br/caixa-estuda-subir-juros-do-financiamento-imobiliario/",
-   "source": "Acia Araçatuba",
-   "date": "2026-11-14T04:32:24Z",
-   "cat": "financiamento",
-   "local": false,
-   "img": "https://aciara.com.br/wp-content/uploads/2026/11/INES.jpg"
   },
   {
    "title": "Seleção de Portugal prepara homenagem a Cristiano Ronaldo na Liga das Nações",
@@ -1252,15 +1278,6 @@
    "cat": "cidade",
    "local": true,
    "img": "https://www.maisgoias.com.br/wp-content/uploads/2026/11/foto-2026-11-13t181951-543-1794604793.webp"
-  },
-  {
-   "title": "Construtoras em Goiás usam hortas e espaços públicos para ajudar vizinhos",
-   "url": "https://www.bra1.com.br/geral/id-725854/construtoras_em_goias_usam_hortas_e_espacos_publicos_para_ajudar_vizinhos",
-   "source": "Bra1",
-   "date": "2026-11-13T20:47:00Z",
-   "cat": "mercado",
-   "local": true,
-   "img": "https://cdn.conexaohost.com.br/img/500x500/1/0/webp/arquivos/1918/conteudo/posts/725854.webp"
   },
   {
    "title": "Mikael Fermiano aposta em modelo boutique no mercado imobiliário de alto padrão",
@@ -1342,25 +1359,6 @@
    "cat": "financiamento",
    "local": false,
    "img": "https://www.moneytimes.com.br/uploads/2024/02/casa-propria-imoveis-comprar-cenario-perspectivas-2024-sao-paulo-precos-financiamento-imobiliario-retranca.jpg"
-  },
-  {
-   "title": "Caixa pode aumentar juros no financiamento imobiliário, afirma Inês Magalhães",
-   "url": "https://www.tribunadosertao.com.br/geral/2026/11/13/1021342-caixa-pode-aumentar-juros-no-financiamento-imobiliario-afirma-ines-magalhaes",
-   "source": "Tribuna do Sertão",
-   "date": "2026-11-13T19:16:00Z",
-   "cat": "financiamento",
-   "local": false,
-   "img": "https://img.dhost.cloud/2k77S-J-Hdb88gfRSQGtP57LCjg=/1280x720/smart/https://tdan.nyc3.digitaloceanspaces.com/images/a4fb1/ac4d67ffb5f817fc6e1d23c10c1d6043059.jpg"
-  },
-  {
-   "title": "Mabel vai ao Ministério dos Transportes em Brasília e cobra obra do anel viário de Goiânia; ministro sinaliza positivamente",
-   "url": "https://www.g5news.com.br/politica/mabel-vai-ao-ministerio-dos-transportes-em-brasilia-e-cobra-obra-do-anel-viario-de-goiania-ministro",
-   "source": "G5News",
-   "date": "2026-11-13T18:45:03Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "",
-   "img_tried": true
   }
  ]
 }
