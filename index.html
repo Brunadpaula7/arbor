@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+    <base href="/">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ARBOR IMÓVEIS — Goiânia</title>
@@ -3098,6 +3099,23 @@ const parseLegacyZapNodes = (imoveis) => imoveis.map(node => {
     };
 });
 
+const typologyRoutes = {
+    'apartamentos': { label: 'Apartamentos', types: ["Residential / Apartment"] },
+    'flats': { label: 'Flats', types: ["Residential / Flat"] },
+    'coberturas': { label: 'Coberturas', types: ["Residential / Penthouse"] },
+    'casas-em-condominio': { label: 'Casas em condomínio', types: ["Residential / Condo","Residential / Condominium"] },
+    'sobrados': { label: 'Sobrados', types: ["Residential / Sobrado","Residential / Townhouse"] },
+    'lotes': { label: 'Lotes e terrenos', types: ["Residential / Land Lot","Commercial / Land Lot","Land / Lot"] },
+    'imoveis-comerciais': { label: 'Imóveis comerciais', types: ["Commercial / Building","Commercial / Business","Commercial / Office","Commercial / Store","Commercial / Warehouse"] },
+    'imoveis-rurais': { label: 'Imóveis rurais', types: ["Residential / Agricultural"] },
+    'studios': { label: 'Studios', types: ["Residential / Studio"] }
+};
+const currentTypology = () => {
+    const slug = location.pathname.replace(/^\/|\/$/g, '');
+    return Object.hasOwn(typologyRoutes, slug) ? slug : '';
+};
+const typologyOption = slug => 'tipologia:' + slug;
+
 const init = async () => {
     setupEventListeners();
     setupReveal();
@@ -3133,6 +3151,14 @@ const finishInit = (data) => {
     state.all = data.map(normalizeListing);
     const hoods = [...new Set(state.all.map(p => p.hood))].sort();
     hoods.forEach(h => { if(h) { const opt = document.createElement('option'); opt.value = h; opt.textContent = h; $('filter-hood').appendChild(opt); } });
+    const selectTipo = $('filter-tipo');
+    for (const [slug, category] of Object.entries(typologyRoutes)) {
+        const option = document.createElement('option');
+        option.value = typologyOption(slug);
+        option.textContent = category.label;
+        selectTipo.appendChild(option);
+    }
+    selectTipo.value = state.filters.tipo;
     const tipos = [...new Set(state.all.map(p => p.tipo))].filter(Boolean).sort();
     tipos.forEach(t => { const opt = document.createElement('option'); opt.value = t; opt.textContent = formatTipoImovelBR(t); $('filter-tipo').appendChild(opt); });
     state.filtered = [...state.all];
@@ -3256,7 +3282,11 @@ const applyFilters = () => {
     if (f.search) res = res.filter(p => normalizeCategoryText([p.title, getPropertyEnterpriseName(p), p.hood, p.city, p.tipo].join(' ')).includes(normalizeCategoryText(f.search)));
     if (f.codigo) res = res.filter(p => normalizeCategoryText(p.id).includes(normalizeCategoryText(f.codigo)));
     if (f.hood) res = res.filter(p => normalizeCategoryText(p.hood) === normalizeCategoryText(f.hood));
-    if (f.tipo) res = res.filter(p => p.tipo === f.tipo);
+    if (f.tipo) {
+        const slug = f.tipo.startsWith('tipologia:') ? f.tipo.slice('tipologia:'.length) : '';
+        const category = Object.hasOwn(typologyRoutes, slug) ? typologyRoutes[slug] : null;
+        res = res.filter(p => category ? category.types.includes(p.tipo) : p.tipo === f.tipo);
+    }
     if (f.beds) res = res.filter(p => p.beds >= Number(f.beds));
     if (f.priceRange) { const [min, max] = f.priceRange.split('-').map(Number); res = res.filter(p => p.price >= min && p.price <= max); }
     if (f.sort === 'price-asc') res.sort((a,b) => a.price - b.price);
@@ -3798,7 +3828,10 @@ const showView = (id) => {
    e, opcionalmente, rola até uma seção específica dentro dela. */
 const goHome = (targetId) => {
     showView('list-view');
-    if (window.location.hash && window.location.hash !== '#') {
+    if (currentTypology()) {
+        history.replaceState(null, '', '/');
+        $('btn-reset').click();
+    } else if (window.location.hash && window.location.hash !== '#') {
         history.replaceState(null, '', window.location.pathname + window.location.search);
     }
     setTimeout(() => {
@@ -3813,6 +3846,18 @@ const goHome = (targetId) => {
 
 const handleRouting = () => {
     const hash = window.location.hash;
+    const slug = currentTypology();
+    if (!hash && slug) {
+        window.ArborEquipe?.sairDoPerfil?.();
+        $('btn-reset').click();
+        state.filters.tipo = typologyOption(slug);
+        $('filter-tipo').value = state.filters.tipo;
+        applyFilters();
+        showView('catalogo-view');
+        state.fromHash = location.pathname;
+        window.scrollTo(0, 0);
+        return;
+    }
     if (window.ArborEquipe?.rotear(hash)) return;
     if (hash.startsWith('#id=')) {
         const idParam = decodeURIComponent(hash.replace('#id=', ''));
@@ -4395,7 +4440,7 @@ const renderDetailContent = (p) => {
     `;
 
     if (window.lucide) lucide.createIcons();
-    $('detail-back-btn').addEventListener('click', (e) => { e.preventDefault(); if (state.fromHash === '#imoveis') goCatalogo(); else if (state.fromHash) location.hash = state.fromHash; else goHome(); });
+    $('detail-back-btn').addEventListener('click', (e) => { e.preventDefault(); if (state.fromHash === '#imoveis') goCatalogo(); else if (state.fromHash.startsWith('/')) location.assign(state.fromHash); else if (state.fromHash) location.hash = state.fromHash; else goHome(); });
     state.dvIdx = 0;
     if ($('detail-main-img')) $('detail-main-img').addEventListener('click', () => {
         document.querySelector('#detail-view .detail-hero-card')?.classList.add('dv-lb');
