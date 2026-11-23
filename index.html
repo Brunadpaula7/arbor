@@ -3100,6 +3100,7 @@ const parseLegacyZapNodes = (imoveis) => imoveis.map(node => {
 });
 
 const typologyRoutes = {
+    'alugueis': { label: 'Aluguéis', matches: property => isRentalProperty(property) },
     'apartamentos': { label: 'Apartamentos', types: ["Residential / Apartment"] },
     'flats': { label: 'Flats', types: ["Residential / Flat"] },
     'coberturas': { label: 'Coberturas', types: ["Residential / Penthouse"] },
@@ -3285,7 +3286,10 @@ const applyFilters = () => {
     if (f.tipo) {
         const slug = f.tipo.startsWith('tipologia:') ? f.tipo.slice('tipologia:'.length) : '';
         const category = Object.hasOwn(typologyRoutes, slug) ? typologyRoutes[slug] : null;
-        res = res.filter(p => category ? category.types.includes(p.tipo) : p.tipo === f.tipo);
+        res = res.filter(p => {
+            if (!category) return p.tipo === f.tipo;
+            return category.matches ? category.matches(p) : category.types.includes(p.tipo);
+        });
     }
     if (f.beds) res = res.filter(p => p.beds >= Number(f.beds));
     if (f.priceRange) { const [min, max] = f.priceRange.split('-').map(Number); res = res.filter(p => p.price >= min && p.price <= max); }
