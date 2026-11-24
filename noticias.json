@@ -1,10 +1,100 @@
 {
- "updated": "2026-11-23T20:51:31Z",
+ "updated": "2026-11-24T05:07:52Z",
  "items": [
+  {
+   "title": "Trânsito de Goiânia já matou ao menos 184 pessoas este ano",
+   "url": "https://opopular.com.br/cidades/transito-de-goiania-ja-matou-ao-menos-184-pessoas-este-ano-1.3484040",
+   "source": "O Popular",
+   "date": "2026-11-24T01:01:42Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://opopular.com.br/image/policy:1.3484042:1795481546/image.jpg"
+  },
+  {
+   "title": "Editora UFG lança coleção de obras completas de Carmo Bernardes em Goiânia",
+   "url": "https://aredacao.com.br/editora-ufg-lanca-colecao-de-obras-completas-de-carmo-bernardes-em-goiania/",
+   "source": "A Redação",
+   "date": "2026-11-23T23:40:01Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://aredacao.com.br/wp-content/uploads/2026/11/unnamed-1-300x180.png"
+  },
+  {
+   "title": "Fundo imobiliário de Goiás mira primeiros investimentos privados até junho de 2027",
+   "url": "https://www.jornalopcao.com.br/ultimas-noticias/fundo-imobiliario-de-goias-mira-primeiros-investimentos-privados-ate-junho-de-2027-899377/",
+   "source": "Jornal Opção",
+   "date": "2026-11-23T23:00:29Z",
+   "cat": "mercado",
+   "local": true,
+   "img": "https://cdn.jornalopcao.com.br/assets/2026/11/23225911/1795474750-whatsapp-image-2026-11-23-at-18-16-09.webp"
+  },
+  {
+   "title": "Anápolis inaugura espaço para acolher idosos em situação de vulnerabilidade social",
+   "url": "https://www.jornalopcao.com.br/ultimas-noticias/anapolis-inaugura-espaco-para-acolher-idosos-em-situacao-de-vulnerabilidade-social-899342/",
+   "source": "Jornal Opção",
+   "date": "2026-11-23T22:59:21Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://cdn.jornalopcao.com.br/assets/2026/11/23205211/1795467130-whatsapp-image-2026-11-23-at-17-45-24.webp"
+  },
+  {
+   "title": "Fundo de Investimento Imobiliário de Goiás busca movimentar bilhões",
+   "url": "https://www.diariogoianiense.com.br/noticia/fundo-de-investimento-imobiliario-de-goias-busca-movimentar-bilhoes",
+   "source": "Diário Goianiense",
+   "date": "2026-11-23T22:58:00Z",
+   "cat": "mercado",
+   "local": true,
+   "img": "https://www.diariogoianiense.com.br/uploads/images/2026/11/goias-pode-movimentar-r-12-3-bilhoes-com-imoveis-publicos-e-gerar-ate-r-1-8-bilhao-em-receitas1795474915.jpg"
+  },
+  {
+   "title": "Início das obras do BRT Norte-Sul movimenta o trânsito em Goiânia",
+   "url": "https://jornalmetropolitan.com.br/obras-brt-norte-sul-goiania/",
+   "source": "Jornal Metropolitan",
+   "date": "2026-11-23T22:32:08Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://jornalmetropolitan.com.br/wp-content/uploads/2026/11/inicio-das-obras-do-brt-norte-sul-movimenta-o-transito-e-1795472827481-780x470.webp"
+  },
+  {
+   "title": "Obras de trecho do BRT Norte-Sul começam em Goiânia",
+   "url": "https://www.jornalopcao.com.br/ultimas-noticias/obras-de-trecho-do-brt-norte-sul-comecam-em-goiania-899345/",
+   "source": "Jornal Opção",
+   "date": "2026-11-23T22:17:37Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://cdn.jornalopcao.com.br/assets/2026/11/23213007/1795469405-obras-brt-goiania.webp"
+  },
+  {
+   "title": "Mercado imobiliário de Hidrolândia cresce quase 49% e movimenta R$ 668 milhões em 2026",
+   "url": "https://www.jornalopcao.com.br/economia/mercado-imobiliario-de-hidrolandia-cresce-quase-49-e-movimenta-r-668-milhoes-em-2026-899270/",
+   "source": "Jornal Opção",
+   "date": "2026-11-23T22:10:10Z",
+   "cat": "mercado",
+   "local": true,
+   "img": "https://cdn.jornalopcao.com.br/assets/2026/11/23212334/1795469013-1787767256-whatsapp-image-2026-08-26-at-14-04-59.webp"
+  },
+  {
+   "title": "Daniel Vilela realiza primeira reunião de trabalho do Fundo de Investimento Imobiliário",
+   "url": "https://aredacao.com.br/daniel-vilela-realiza-primeira-reuniao-de-trabalho-do-fundo-de-investimento-imobiliario/",
+   "source": "A Redação",
+   "date": "2026-11-23T22:05:55Z",
+   "cat": "mercado",
+   "local": false,
+   "img": "https://aredacao.com.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-23-at-18.16.11.jpeg"
+  },
+  {
+   "title": "Agentes de trânsito de Goiânia vão poder usar armas não letais",
+   "url": "https://opopular.com.br/cidades/agentes-de-transito-de-goiania-v-o-poder-usar-armas-n-o-letais-1.3483964",
+   "source": "O Popular",
+   "date": "2026-11-23T22:02:01Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://opopular.com.br/image/policy:1.3483999:1795475236/image.jpg"
+  },
   {
    "title": "Lançamentos de imóveis crescem 1% e vendas avançam 2,7% no terceiro trimestre - Portal IN - Pompeu Vasconcelos",
    "url": "https://www.portalin.com.br/business/lancamentos-de-imoveis-crescem-1-e-vendas-avancam-27-no-terceiro-trimestre/",
-   "source": "Balada IN",
+   "source": "Portal IN - Pompeu Vasconcelos",
    "date": "2026-11-23T19:32:00Z",
    "cat": "lancamentos",
    "local": false,
@@ -18,6 +108,15 @@
    "cat": "cidade",
    "local": true,
    "img": "https://portal6.com.br/wp-content/uploads/2026/11/recapeamento-em-Aparecida-de-Goiania.webp"
+  },
+  {
+   "title": "Minha Casa, Minha Vida atinge participação recorde de 58,6% nos lançamentos imobiliários, aponta CBIC",
+   "url": "https://cbic.org.br/minha-casa-minha-vida-atinge-participacao-recorde-de-586-nos-lancamentos-imobiliarios-aponta-cbic/",
+   "source": "CBIC - Câmara Brasileira da Indústria da Construção",
+   "date": "2026-11-23T18:55:48Z",
+   "cat": "lancamentos",
+   "local": false,
+   "img": "https://cbic.org.br/wp-content/uploads/2026/11/captura-de-tela-2026-11-23-as-154409-scaled.png"
   },
   {
    "title": "Lançamentos de imóveis crescem 1% no 3º tri e vendas sobem 2,7%, diz CBIC",
@@ -35,7 +134,8 @@
    "date": "2026-11-23T17:00:00Z",
    "cat": "financiamento",
    "local": false,
-   "img": ""
+   "img": "",
+   "img_tried": true
   },
   {
    "title": "Mercado imobiliário de Campinas reforça cuidados com a instalação de vidros",
@@ -233,7 +333,8 @@
    "date": "2026-11-21T13:53:03Z",
    "cat": "cidade",
    "local": true,
-   "img": ""
+   "img": "",
+   "img_tried": true
   },
   {
    "title": "Caminho alternativo para caminhões vai ligar BR-060 à BR-153 na Grande Goiânia; veja as 6 obras",
@@ -252,7 +353,8 @@
    "date": "2026-11-21T12:04:56Z",
    "cat": "lancamentos",
    "local": false,
-   "img": ""
+   "img": "",
+   "img_tried": true
   },
   {
    "title": "“Quem conhece Goiânia não consegue ficar longe”, diz visitante em pesquisa de demanda turística",
@@ -345,6 +447,15 @@
    "img": "https://radiobandeirantesgoiania.com.br/wp-content/uploads/2026/11/Sandro-Mabel-avalia-solucoes-de-drenagem-urbana-em-Bruxelas-para-implantar-em-Goiania-2.jpeg"
   },
   {
+   "title": "Goiás avança com 800 obras em andamento e investimentos de R$ 12,6 bilhões",
+   "url": "https://www.maisgoias.com.br/cidades/goias-avanca-com-800-obras-em-andamento-e-investimentos-de-r-126-bilhoes-2-2/",
+   "source": "Mais Goiás",
+   "date": "2026-11-20T12:00:00Z",
+   "cat": "cidade",
+   "local": true,
+   "img": ""
+  },
+  {
    "title": "Panorama imobiliário mostra mudanças no ritmo de vendas",
    "url": "https://grupoahora.net.br/conteudos/2026/11/20/panorama-imobiliario-mostra-mudancas-no-ritmo-de-vendas/",
    "source": "Grupo A Hora",
@@ -388,6 +499,15 @@
    "cat": "cidade",
    "local": true,
    "img": "https://www.goiania.go.gov.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-19-at-15.44.23.jpeg"
+  },
+  {
+   "title": "Ministério das Cidades entrega 624 moradias do Minha Casa, Minha Vida em Botucatu (SP)",
+   "url": "https://www.gov.br/cidades/pt-br/assuntos/noticias-1/noticia-mcid-n-2412",
+   "source": "Gov",
+   "date": "2026-11-19T19:41:20Z",
+   "cat": "financiamento",
+   "local": false,
+   "img": ""
   },
   {
    "title": "Goiânia estuda adotar modelo de drenagem urbana usado em Bruxelas",
@@ -578,7 +698,8 @@
    "date": "2026-11-19T11:57:44Z",
    "cat": "mercado",
    "local": true,
-   "img": ""
+   "img": "",
+   "img_tried": true
   },
   {
    "title": "Famílias temem ficar sem moradia após despejo em Goiânia; Prefeitura tenta viabilizar apartamentos pelo Minha Casa, Minha Vida",
@@ -945,6 +1066,15 @@
    "img": "https://sdnews.com.br/imagem-social/posts/2026/11/17642_goiania-praca-da-vila-nova-ganha-novos-bancos-jardins-e-areas-de-convivencia-2a0d719c.jpeg.jpg?v=og4-1794925638-l0"
   },
   {
+   "title": "Crédito imobiliário reage com FGTS, mas juro impõe cautela às construtoras",
+   "url": "https://oespecialista.safra.com.br/credito-imobiliario-fgts-juros-construcao/",
+   "source": "Safra",
+   "date": "2026-11-17T14:20:27Z",
+   "cat": "financiamento",
+   "local": false,
+   "img": "https://oespecialista.safra.com.br/wp-content/uploads/2026/11/construtoras-analise-safra-3t26.jpg?.jpg.png"
+  },
+  {
    "title": "Museu de Arte de Goiânia recebe duas exposições internacionais com obras de artistas das Américas",
    "url": "https://revistazelo.com.br/museu-de-arte-de-goiania-recebe-duas-exposicoes-internacionais-com-obras-de-artistas-das-americas/",
    "source": "Zelo - Portal de Noticias",
@@ -1233,133 +1363,6 @@
    "cat": "mercado",
    "local": true,
    "img": "https://portal6.com.br/wp-content/uploads/2026/11/Silvania.webp"
-  },
-  {
-   "title": "Banco do Brasil oferece 11 imóveis em sete cidades do RN; veja como fazer proposta",
-   "url": "https://agorarn.com.br/economia/banco-brasil-11-imoveis-rn-sete-cidades/",
-   "source": "Agora RN",
-   "date": "2026-11-15T11:15:00Z",
-   "cat": "mercado",
-   "local": false,
-   "img": "https://agorarn.com.br/files/uploads/2026/11/imoveis-novembro-2026.png"
-  },
-  {
-   "title": "Mabel entrega revitalização do Parque Lago das Rosas, em Goiânia",
-   "url": "https://portalgo020.com.br/2026/11/mabel-entrega-revitalizacao-do-parque-lago-das-rosas-em-goiania.html",
-   "source": "Portal GO 020",
-   "date": "2026-11-15T10:47:00Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://portalgo020.com.br/wp-content/uploads/2026/11/lago-das-rosas.jpeg",
-   "img_tried": true
-  },
-  {
-   "title": "Prefeitura de Goiânia conclui obra da Marginal Botafogo e libera trecho neste sábado (14/11)",
-   "url": "https://www.goiania.go.gov.br/agora/prefeitura-de-goiania-conclui-obra-da-marginal-botafogo-e-libera-trecho-neste-sabado-14-11",
-   "source": "Enquanto isso em Goias",
-   "date": "2026-11-15T01:34:00Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://www.goiania.go.gov.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-14-at-18.50.07.jpeg"
-  },
-  {
-   "title": "Arquivo de mercado imobiliário goiano",
-   "url": "https://revistazelo.com.br/tag/mercado-imobiliario-goiano/",
-   "source": "Zelo - Portal de Noticias",
-   "date": "2026-11-15T01:21:42Z",
-   "cat": "mercado",
-   "local": true,
-   "img": ""
-  },
-  {
-   "title": "Prefeitura de Goiânia conclui obra na Marginal Botafogo e libera trecho neste sábado (14/11)",
-   "url": "https://aredacao.com.br/prefeitura-de-goiania-conclui-obra-na-marginal-botafogo-e-libera-trecho-neste-sabado-14-11/",
-   "source": "A Redação",
-   "date": "2026-11-14T22:47:37Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://aredacao.com.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-14-at-18.50.07-300x169.jpeg"
-  },
-  {
-   "title": "Financiamento da casa própria pode ficar mais caro com reajuste estudado pela Caixa",
-   "url": "https://www.gazetasp.com.br/economia/financiamento-da-casa-propria-pode-ficar-mais-caro-com-reajuste-estudado-pela-caixa/",
-   "source": "Gazeta de São Paulo",
-   "date": "2026-11-14T21:00:00Z",
-   "cat": "financiamento",
-   "local": false,
-   "img": "https://cdn.gazetasp.com.br/uploads/2026/09/agencia-caixa-economica-foto-marcelo-camargo-agencia-brasil.jpg"
-  },
-  {
-   "title": "Portugal: manifestantes protestam em mais de 30 cidades contra alta nos preços de moradias",
-   "url": "https://aredacao.com.br/portugal-manifestantes-protestam-em-mais-de-30-cidades-contra-alta-nos-precos-de-moradias/",
-   "source": "A Redação",
-   "date": "2026-11-14T20:06:49Z",
-   "cat": "mercado",
-   "local": false,
-   "img": "https://aredacao.com.br/wp-content/uploads/2026/11/protestoport-300x191.jpg"
-  },
-  {
-   "title": "Lago das Rosas é revitalizado e ganha novos espaços de lazer em Goiânia",
-   "url": "https://transmissaopolitica.com.br/cidades/2026/11/14/revitalizacao-lago-das-rosas-goiania/",
-   "source": "Transmissão Política",
-   "date": "2026-11-14T19:43:00Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://transmissaopolitica.com.br/wp-content/uploads/2026/11/mabel-lago-das-rosas.jpeg"
-  },
-  {
-   "title": "Principais incorporadoras de SP: 10 empresas que se destacam no mercado",
-   "url": "https://www.quintoandar.com.br/guias/cidades/principais-incorporadoras-de-sp/",
-   "source": "QuintoAndar",
-   "date": "2026-11-14T19:16:00Z",
-   "cat": "lancamentos",
-   "local": false,
-   "img": ""
-  },
-  {
-   "title": "Prefeito Leandro Vilela vistoria unidades de saúde e fiscaliza obra da UPA Brasicon em Aparecida de Goiânia",
-   "url": "https://aredacao.com.br/prefeito-leandro-vilela-vistoria-unidades-de-saude-e-fiscaliza-obra-da-upa-brasicon-em-aparecida-de-goiania/",
-   "source": "A Redação",
-   "date": "2026-11-14T18:48:27Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://aredacao.com.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-14-at-15.44.23.jpeg"
-  },
-  {
-   "title": "Parque Lago das Rosas é revitalizado após seis meses de obras em Goiânia",
-   "url": "https://diariodegoias.com.br/parque-lago-das-rosas-e-revitalizado-apos-seis-meses-de-obras-em-goiania/554481/",
-   "source": "Diário de Goiás",
-   "date": "2026-11-14T17:13:47Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://cdn.diariodegoias.com.br/wp-content/uploads/2026/11/14170949/parque-lago-das-rosas-e-revitalizado-apos-seis-meses-de-obras-em-goiania.webp"
-  },
-  {
-   "title": "Após reformas no Lago das Rosas, Prefeitura vai abrir licitação para revitalizar mureta e trampolim símbolos do art déco em Goiânia",
-   "url": "https://www.jornalopcao.com.br/ultimas-noticias/apos-reformas-no-lago-das-rosas-prefeitura-vai-abrir-licitacao-para-revitalizar-mureta-e-trampolim-simbolos-do-art-deco-em-goiania-888751/",
-   "source": "Jornal Opção",
-   "date": "2026-11-14T16:39:00Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://cdn.jornalopcao.com.br/assets/2026/11/14162603/1794673559-captura-de-tela-2026-11-14-132539.webp"
-  },
-  {
-   "title": "Parque Lago das Rosas passa por ampla revitalização em Goiânia",
-   "url": "https://jornalmetropolitan.com.br/parque-lago-das-rosas-revitalizacao-goiania/",
-   "source": "Jornal Metropolitan",
-   "date": "2026-11-14T16:33:08Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://jornalmetropolitan.com.br/wp-content/uploads/2026/11/parque-lago-das-rosas-passa-por-ampla-revitalizacao-em-g-1794672017189-780x470.webp"
-  },
-  {
-   "title": "Lago das Rosas, em Goiânia, ganha nova estrutura após revitalização de R$ 2,7 milhões; veja o que mudou",
-   "url": "https://www.jornalopcao.com.br/goiania/revitalizacao-lago-das-rosas-goiania-888728/",
-   "source": "Jornal Opção",
-   "date": "2026-11-14T15:28:00Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://cdn.jornalopcao.com.br/assets/2026/11/14152125/1794669684-whatsapp-image-2026-11-14-at-12-19-23.webp"
   }
  ]
 }
