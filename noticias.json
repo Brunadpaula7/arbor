@@ -1,14 +1,122 @@
 {
- "updated": "2026-11-24T19:55:17Z",
+ "updated": "2026-11-25T03:56:04Z",
  "items": [
+  {
+   "title": "Nerópolis recebe segunda edição da Passarinhada no Parque Rosa dos Ventos",
+   "url": "https://aredacao.com.br/neropolis-recebe-segunda-edicao-da-passarinhada-no-parque-rosa-dos-ventos/",
+   "source": "A Redação",
+   "date": "2026-11-25T02:29:26Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://aredacao.com.br/wp-content/uploads/2026/11/13_31_11_37_Passarinhada2-300x200.png"
+  },
+  {
+   "title": "Cerrado Galeria inaugura duas exposições individuais em Goiânia",
+   "url": "https://aredacao.com.br/cerrado-galeria-inaugura-duas-exposicoes-individuais-em-goiania/",
+   "source": "A Redação",
+   "date": "2026-11-25T00:13:50Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://aredacao.com.br/wp-content/uploads/2026/11/1-20-300x191.jpg"
+  },
+  {
+   "title": "Minha Casa Minha Vida ganha impulso com lançamentos em Goiânia",
+   "url": "https://www.jornalhoraextra.com.br/destaques/minha-casa-minha-vida-ganha-impulso-com-lancamentos-em-goiania",
+   "source": "Jornal Hora Extra",
+   "date": "2026-11-24T23:55:39Z",
+   "cat": "lancamentos",
+   "local": true,
+   "img": "https://www.jornalhoraextra.com.br/wp-content/uploads/2026/11/MCMV-ag-Brasil.jpg"
+  },
+  {
+   "title": "Prefeito de Goiânia visita pontos críticos atingidos por temporal na capital e anuncia obras na saúde e trânsito",
+   "url": "https://www.cbngoiania.com.br/tarde-cbn/prefeito-de-goiania-visita-pontos-criticos-atingidos-por-temporal-na-capital-e-anuncia-obras-na-saude-e-transito-1.3484452",
+   "source": "CBN Goiânia",
+   "date": "2026-11-24T22:55:39Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://www.cbngoiania.com.br/image/policy:1.3192449:1795560752/image.jpg?f=3x2"
+  },
+  {
+   "title": "Obras de novo trecho do BRT , em Goiânia, começam com investimento de R$ 92 milhões",
+   "url": "https://uniaobrasil.org.br/obras-de-novo-trecho-do-brt-em-goiania-comecam-com-investimento-de-r-92-milhoes/",
+   "source": "União Brasil",
+   "date": "2026-11-24T21:57:16Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://uniaobrasil.org.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-23-at-18.00.19.jpeg"
+  },
+  {
+   "title": "Santa Casa de Anápolis inaugura ressonância magnética de R$ 5 milhões viabilizada por Vanderlan",
+   "url": "https://diariodegoias.com.br/santa-casa-de-anapolis-inaugura-ressonancia-magnetica-de-r-5-milhoes-viabilizada-por-vanderlan/555527/",
+   "source": "Diário de Goiás",
+   "date": "2026-11-24T21:34:41Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://cdn.diariodegoias.com.br/wp-content/uploads/2026/11/24213311/santa-casa-de-anapolis-inaugura-ressonancia-magnetica-de-r-5-milhoes-viabilizada-por-vanderlan.webp"
+  },
+  {
+   "title": "Obras do BRT Norte-Sul são retomadas em Goiânia após acordo; veja trechos",
+   "url": "https://portalgo020.com.br/2026/11/obras-do-brt-norte-sul-sao-retomadas-em-goiania-apos-acordo-veja-trechos.html",
+   "source": "Portal GO 020",
+   "date": "2026-11-24T21:19:17Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://portalgo020.com.br/wp-content/uploads/2026/11/AVENIDA-BRT-NORTE-SUL.jpeg"
+  },
+  {
+   "title": "Prefeitura de Cáceres esclarece atualização imobiliária e mudanças no cálculo do IPTU",
+   "url": "https://www.caceres.mt.gov.br/Noticias/Prefeitura-de-caceres-esclarece-atualizacao-imobiliaria-e-mudancas-no-calculo-do-iptu-11434/",
+   "source": "Prefeitura Municipal de Cáceres",
+   "date": "2026-11-24T21:10:22Z",
+   "cat": "regras",
+   "local": false,
+   "img": "https://www.caceres.mt.gov.br/fotos_bancoimagens/16109.jpg"
+  },
+  {
+   "title": "CBIC é admitida como amicus curiae em julgamentos do STJ sobre distrato imobiliário",
+   "url": "https://cbic.org.br/cbic-e-admitida-como-amicus-curiae-em-julgamentos-do-stj-sobre-distrato-imobiliario/",
+   "source": "CBIC - Câmara Brasileira da Indústria da Construção",
+   "date": "2026-11-24T20:47:09Z",
+   "cat": "regras",
+   "local": false,
+   "img": "https://cbic.org.br/wp-content/uploads/2021/03/stj.jpeg"
+  },
+  {
+   "title": "Goiânia em números: população, economia e desenvolvimento urbano da capital de Goiás",
+   "url": "https://folhadegoias.info/goiania-indicadores-populacao-area-ibge.html",
+   "source": "Folha de Goiás",
+   "date": "2026-11-24T20:31:17Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://folhadegoias.info/wp-content/uploads/2026/11/indicadores-goiania.jpg"
+  },
+  {
+   "title": "Mabel retoma agenda em Goiânia e vistoria obra do Cais Vila Nova após viagem à Europa",
+   "url": "https://diariodegoias.com.br/mabel-retoma-agenda-em-goiania-e-vistoria-obra-do-cais-vila-nova-apos-viagem-a-europa/555518/",
+   "source": "Diário de Goiás",
+   "date": "2026-11-24T20:11:32Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://cdn.diariodegoias.com.br/wp-content/uploads/2026/11/24200736/sandro-mabel-vistoriou-o-cais-vila-nova-apos-retornar-de-viagem-oficial-a-belgica-e-a-portugal-foto-prefeitura-de-goiania.webp"
+  },
   {
    "title": "Aparecida oferece descontos do Refis e redução do ITBI até segunda-feira (30)",
    "url": "https://www.dm.com.br/economia/aparecida-oferece-descontos-do-refis-e-reducao-do-itbi-ate-segunda-feira-30/",
    "source": "DM",
    "date": "2026-11-24T19:42:30Z",
    "cat": "regras",
-   "local": true,
+   "local": false,
    "img": "https://www.dm.com.br/wp-content/uploads/2025/08/728X90PX_RACISMO_CMG-1.gif"
+  },
+  {
+   "title": "Obras do BRT Norte-Sul são retomadas entre avenidas de Goiânia",
+   "url": "https://g1.globo.com/google/amp/go/goias/videos-ja-1-edicao/video/obras-do-brt-norte-sul-sao-retomadas-entre-avenidas-de-goiania-15277419.ghtml",
+   "source": "G1",
+   "date": "2026-11-24T18:47:47Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://s04.video.glbimg.com/x720/15277419.jpg"
   },
   {
    "title": "Expresso 360 | Pesquisa do Secovi Goiás aponta crescimento de quase 49% no mercado imobiliário de Hidrolândia e cidade ocupa o 1º lugar no ranking de evolução do setor, em 2026",
@@ -29,13 +137,22 @@
    "img": "https://cdn.jornalopcao.com.br/assets/2026/11/24124603/1795524362-chacara-sao-pedro-aparecida-de-goiania-moradia-3.webp"
   },
   {
-   "title": "Seinfra inicia obras do novo trecho do BRT Norte-Sul nas avenidas Bela Vista, 4ª Radial e Piratininga",
-   "url": "https://diariodegoias.com.br/seinfra-inicia-obras-do-novo-trecho-do-brt-norte-sul-nas-avenidas-bela-vista-4a-radial-e-piratininga/555467/",
-   "source": "Diário de Goiás",
-   "date": "2026-11-24T14:08:12Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://cdn.diariodegoias.com.br/wp-content/uploads/2026/11/24140306/obras-brt-norte-sul_seinfra.webp"
+   "title": "Minha Casa, Minha Vida - Rural: mais 218 moradias em 2 estados — Ministério das Cidades",
+   "url": "https://www.gov.br/cidades/pt-br/assuntos/noticias-1/noticia-mcid-n-2419",
+   "source": "Gov",
+   "date": "2026-11-24T14:20:00Z",
+   "cat": "financiamento",
+   "local": false,
+   "img": ""
+  },
+  {
+   "title": "Cajamar mantém IPTU congelado pelo oitavo ano consecutivo – Notícias",
+   "url": "https://cajamar.sp.gov.br/noticias/2026/11/24/cajamar-mantem-iptu-congelado-pelo-oitavo-ano-consecutivo/",
+   "source": "Prefeitura de Cajamar",
+   "date": "2026-11-24T14:07:00Z",
+   "cat": "regras",
+   "local": false,
+   "img": "https://cajamar.sp.gov.br/noticias/wp-content/uploads/sites/2/2026/11/iptu-2027-congelado-em-cajamar-1280x668.png"
   },
   {
    "title": "Holding e Operação Imobiliária: o que muda com a Reforma Tributária? | Podcast Conexão Fiscal com Jefferson Valentin",
@@ -44,7 +161,8 @@
    "date": "2026-11-24T13:53:00Z",
    "cat": "regras",
    "local": false,
-   "img": ""
+   "img": "",
+   "img_tried": true
   },
   {
    "title": "Mercado imobiliário cresce pouco e estoque de imóveis avança 11,3%",
@@ -54,6 +172,15 @@
    "cat": "mercado",
    "local": false,
    "img": "https://paraibabusiness.com.br/atual/wp-content/uploads/2026/11/40dea815858feb2539b962238503735b.webp"
+  },
+  {
+   "title": "Juros ampliam custo de imóveis e exigem planejamento",
+   "url": "https://portaldoval.com.br/noticia/26805/juros-ampliam-custo-de-imoveis-e-exigem-planejamento",
+   "source": "Portal do Val",
+   "date": "2026-11-24T13:24:53Z",
+   "cat": "financiamento",
+   "local": false,
+   "img": ""
   },
   {
    "title": "Contribuintes de Aparecida têm até segunda-feira (30) para aproveitar descontos do Refis e do ITBI",
@@ -72,6 +199,15 @@
    "cat": "mercado",
    "local": true,
    "img": "https://cdn.tribunadoplanalto.com.br/2026/11/24121609/Mercado-imobiliario-de-Hidrolandia-cresce-e-lidera-ranking-em-2026.jpeg"
+  },
+  {
+   "title": "Governo de Goiás discute estratégias para transformar imóveis estaduais ociosos em investimentos",
+   "url": "https://blogantoniocarlos.com.br/governo-de-goias-discute-estrategias-para-transformar-imoveis-estaduais-ociosos-em-investimentos/",
+   "source": "Blog Antônio Carlos",
+   "date": "2026-11-24T12:15:42Z",
+   "cat": "mercado",
+   "local": true,
+   "img": "https://blogantoniocarlos.com.br/wp-content/uploads/2026/11/SEAD_REUNIAO_DE_TRABALHO_DO_FUNDO_DE_INVESTIMETNO_IMOBILIARIO_POR_ANDRE_SADDI.jpeg"
   },
   {
    "title": "Obras de novo trecho do BRT Norte-Sul começam com investimento de R$ 92 milhões",
@@ -200,6 +336,15 @@
    "img": "https://opopular.com.br/image/policy:1.3483999:1795475236/image.jpg"
   },
   {
+   "title": "Minha Casa, Minha Vida puxa vendas e lançamentos no 3º trimestre, mas CBIC vê 2027 difícil",
+   "url": "https://bpmoney.com.br/economia/minha-casa-minha-vida-sustenta-mercado-imobiliario-3-tri-cbic-2027/",
+   "source": "BPMoney",
+   "date": "2026-11-23T19:58:26Z",
+   "cat": "lancamentos",
+   "local": false,
+   "img": "https://uploads.bpmoney.com.br/2026/04/Sem-titulo.png"
+  },
+  {
    "title": "Lançamentos de imóveis crescem 1% e vendas avançam 2,7% no terceiro trimestre - Portal IN - Pompeu Vasconcelos",
    "url": "https://www.portalin.com.br/business/lancamentos-de-imoveis-crescem-1-e-vendas-avancam-27-no-terceiro-trimestre/",
    "source": "Portal IN - Pompeu Vasconcelos",
@@ -260,7 +405,8 @@
    "date": "2026-11-23T17:00:00Z",
    "cat": "financiamento",
    "local": false,
-   "img": ""
+   "img": "",
+   "img_tried": true
   },
   {
    "title": "Mercado imobiliário de Campinas reforça cuidados com a instalação de vidros",
@@ -509,6 +655,15 @@
    "img": "https://www.estadao.com.br/resizer/v2/DYYFVGE37JC4VIN3SMCOEIMQS4.jpg?quality=80&auth=5f01a546d669149019207fad5e5e5e2dd932f89200317630c64e92be4c3c82b3&width=1200&height=630&smart=true"
   },
   {
+   "title": "VÍDEOS: últimas notícias sobre trânsito em Goiás",
+   "url": "https://g1.globo.com/go/goias/edicao/2020/09/29/videos-ultimas-noticias-sobre-transito-em-goias.ghtml",
+   "source": "G1",
+   "date": "2026-11-20T22:43:00Z",
+   "cat": "cidade",
+   "local": true,
+   "img": ""
+  },
+  {
    "title": "Várzea Grande tem 58,5% de inadimplência no IPTU em 2026; veja como regularizar o débito",
    "url": "https://www.varzeagrande.mt.gov.br/varzea-grande-tem-585-de-inadimplencia-no-iptu-em-2026-veja-como-regularizar-o-debito",
    "source": "Prefeitura Municipal de Várzea Grande - Página Inicial",
@@ -715,7 +870,8 @@
    "date": "2026-11-19T16:36:00Z",
    "cat": "regras",
    "local": true,
-   "img": ""
+   "img": "",
+   "img_tried": true
   },
   {
    "title": "Plenário aprova desconto no IPTU para vencedores de concurso natalino",
@@ -937,6 +1093,15 @@
    "img": ""
   },
   {
+   "title": "Mais 104 famílias são eleitas no programa “Minha Casa, Minha Vida - Compra Assistida”",
+   "url": "https://www.pjf.mg.gov.br/noticias/view.php?modo=link2&idnoticia2=90007",
+   "source": "Prefeitura de Juiz de Fora (PJF)",
+   "date": "2026-11-18T14:20:00Z",
+   "cat": "regras",
+   "local": false,
+   "img": ""
+  },
+  {
    "title": "Síndica e condomínio são indiciados após poda drástica de árvores no Setor Oeste, em Goiânia",
    "url": "https://opopular.com.br/cidades/sindica-e-condominio-s-o-indiciados-apos-poda-drastica-de-arvores-no-setor-oeste-em-goiania-1.3482177",
    "source": "O Popular",
@@ -961,17 +1126,7 @@
    "date": "2026-11-18T13:31:29Z",
    "cat": "lancamentos",
    "local": false,
-   "img": "",
-   "img_tried": true
-  },
-  {
-   "title": "Residencial Cidade Jardim chega a Bela Vista de Goiás e amplia opções de moradia",
-   "url": "https://www.educativaipora.com.br/news-residencial-cidade-jardim-chega-a-bela-vista-de-goias-e-amplia-opcoes-de-moradia",
-   "source": "Educativaipora",
-   "date": "2026-11-18T13:13:20Z",
-   "cat": "mercado",
-   "local": true,
-   "img": "https://s2-g1.glbimg.com/gyAiIXujcGdkkpE9djJSt2_DCQM=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/y/c/91GpJjRyAQv883B3qjuw/bela-vista-002-8k.jpg"
+   "img": ""
   },
   {
    "title": "Incorporadoras elevam lucro e dívida no terceiro trimestre",
@@ -999,6 +1154,15 @@
    "cat": "mercado",
    "local": true,
    "img": "https://cdn.conexaohost.com.br/img/500x500/1/0/webp/arquivos/1918/conteudo/posts/728048.webp"
+  },
+  {
+   "title": "Residencial Cidade Jardim chega a Bela Vista de Goiás e amplia opções de moradia",
+   "url": "https://www.educativaipora.com.br/news-residencial-cidade-jardim-chega-a-bela-vista-de-goias-e-amplia-opcoes-de-moradia",
+   "source": "G1",
+   "date": "2026-11-18T11:00:00Z",
+   "cat": "mercado",
+   "local": true,
+   "img": "https://s2-g1.glbimg.com/gyAiIXujcGdkkpE9djJSt2_DCQM=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/y/c/91GpJjRyAQv883B3qjuw/bela-vista-002-8k.jpg"
   },
   {
    "title": "Flamboyant Urbanismo aposta em ecossistema de wellness para orientar futuro imobiliário de Goiânia",
@@ -1165,16 +1329,6 @@
    "img": "https://portal6.com.br/wp-content/uploads/2026/11/IsabellaC-8-4.webp"
   },
   {
-   "title": "VÍDEOS: últimas notícias sobre trânsito em Goiás",
-   "url": "https://g1.globo.com/go/goias/edicao/2020/09/29/videos-ultimas-noticias-sobre-transito-em-goias.ghtml",
-   "source": "G1",
-   "date": "2026-11-17T15:52:00Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "",
-   "img_tried": true
-  },
-  {
    "title": "Black Friday da Housi leva condições especiais a incorporadoras, investidores e consumidores",
    "url": "https://portal.saladanoticia.com.br/noticia/81331/black-friday-da-housi-leva-condicoes-especiais-a-incorporadoras-investidores-e-consumidores",
    "source": "Sala da Notícia",
@@ -1209,159 +1363,6 @@
    "cat": "financiamento",
    "local": false,
    "img": "https://oespecialista.safra.com.br/wp-content/uploads/2026/11/construtoras-analise-safra-3t26.jpg?.jpg.png"
-  },
-  {
-   "title": "Museu de Arte de Goiânia recebe duas exposições internacionais com obras de artistas das Américas",
-   "url": "https://revistazelo.com.br/museu-de-arte-de-goiania-recebe-duas-exposicoes-internacionais-com-obras-de-artistas-das-americas/",
-   "source": "Zelo - Portal de Noticias",
-   "date": "2026-11-17T13:31:00Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://revistazelo.com.br/wp-content/uploads/2026/11/Divulgacao-_-Legenda_-_Somos-agua_-2026-Instalacao-de-ceramica-e-textil-da-artista-visual-Ivonne-Ferrer-875x800.png"
-  },
-  {
-   "title": "Even reduz equipe de corretores e concentra operação em imóveis de luxo",
-   "url": "https://portas.com.br/noticias/even-reduz-equipe-de-corretores-e-concentra-operacao-em-imoveis-de-luxo/",
-   "source": "Portas",
-   "date": "2026-11-17T11:56:19Z",
-   "cat": "mercado",
-   "local": false,
-   "img": "https://uploads.portas.com.br/2026/11/Even-reduz-equipe-de-corretores-e-concentra-operacao-em-imoveis-de-luxo.jpg"
-  },
-  {
-   "title": "Mil imóveis abandonados serão abertos em Goiânia",
-   "url": "https://daqui.opopular.com.br/geral/mil-imoveis-abandonados-ser-o-abertos-em-goiania-1.3481653",
-   "source": "Daqui",
-   "date": "2026-11-17T10:48:10Z",
-   "cat": "mercado",
-   "local": true,
-   "img": "https://daqui.opopular.com.br/image/policy:1.3481645:1794910052/image.jpg?f=3x2"
-  },
-  {
-   "title": "Mais de mil imóveis abandonados serão abertos em Goiânia em ação contra a dengue",
-   "url": "https://opopular.com.br/cidades/mais-de-mil-imoveis-abandonados-ser-o-abertos-em-goiania-em-ac-o-contra-a-dengue-1.3481643",
-   "source": "O Popular",
-   "date": "2026-11-17T10:21:13Z",
-   "cat": "mercado",
-   "local": true,
-   "img": "https://opopular.com.br/image/policy:1.3481645:1794910052/image.jpg"
-  },
-  {
-   "title": "STF garante imunidade de ITBI na integralização de imóveis ao capital social de empresas imobiliárias (Tema 1.348)",
-   "url": "https://www.mayerbrown.com/pt/insights/publications/2026/11/brazilian-supreme-court-upholds-itbi-tax-immunity-for-real-estate-contributions-to-the-share-capital-of-real-estate-companies-theme-1348",
-   "source": "Mayer Brown",
-   "date": "2026-11-17T08:23:06Z",
-   "cat": "regras",
-   "local": false,
-   "img": "https://www.mayerbrown.com/cdn-cgi/image/width=400,quality=90,format=jpeg/-/media/images/tile-images-for-insights-and-news/tile_bucket-300x400_44.jpg?rev=-1"
-  },
-  {
-   "title": "Aparecida firma acordo para retirar 176 famílias de áreas de risco e prevê entrega de 76 moradias",
-   "url": "https://www.jornalopcao.com.br/ultimas-noticias/aparecida-preve-destinar-moradias-a-76-familias-que-vivem-em-areas-de-risco-nos-setores-tocantins-e-vale-do-sol-889256/",
-   "source": "Jornal Opção",
-   "date": "2026-11-16T22:10:13Z",
-   "cat": "mercado",
-   "local": true,
-   "img": "https://cdn.jornalopcao.com.br/assets/2026/11/16220859/1794866937-whatsapp-image-2026-11-16-at-19-08-45.webp"
-  },
-  {
-   "title": "Goiânia vai vistoriar cerca de 100 mil imóveis abandonados ou desocupados para combater possíveis focos de dengue",
-   "url": "https://www.cbngoiania.com.br/tarde-cbn/goiania-vai-vistoriar-cerca-de-100-mil-imoveis-abandonados-ou-desocupados-para-combater-possiveis-focos-de-dengue-1.3481539",
-   "source": "CBN Goiânia",
-   "date": "2026-11-16T22:06:06Z",
-   "cat": "mercado",
-   "local": true,
-   "img": "https://www.cbngoiania.com.br/image/policy:1.3481542:1794865919/image.jpg?f=3x2"
-  },
-  {
-   "title": "Minha Casa, Minha Vida entrega 150 novas moradias em Camocim (CE) — Ministério das Cidades",
-   "url": "https://www.gov.br/cidades/pt-br/assuntos/noticias-1/noticia-mcid-no-2404",
-   "source": "Gov",
-   "date": "2026-11-16T20:41:00Z",
-   "cat": "financiamento",
-   "local": false,
-   "img": ""
-  },
-  {
-   "title": "Feirão da Habitação sediado e apoiado pela Prefeitura reúne mais de 5 mil visitantes e concretiza venda de quase 500 imóveis – Portal da Prefeitura de Uberlândia",
-   "url": "https://www.uberlandia.mg.gov.br/2026/11/16/feirao-da-habitacao-sediado-e-apoiado-pela-prefeitura-reune-mais-de-5-mil-visitantes-e-concretiza-venda-de-quase-500-imoveis/",
-   "source": "Portal da Prefeitura de Uberlândia",
-   "date": "2026-11-16T20:18:21Z",
-   "cat": "mercado",
-   "local": false,
-   "img": ""
-  },
-  {
-   "title": "Aparecida assina acordo para garantir moradia a famílias de áreas de risco",
-   "url": "https://diariodegoias.com.br/aparecida-assina-acordo-para-garantir-moradia-a-familias-de-areas-de-risco/554694/",
-   "source": "Diário de Goiás",
-   "date": "2026-11-16T18:20:00Z",
-   "cat": "mercado",
-   "local": true,
-   "img": "https://cdn.diariodegoias.com.br/wp-content/uploads/2026/11/16175353/aparecida-assina-acordo-para-garantir-moradia-a-familias-de-areas-de-risco.webp"
-  },
-  {
-   "title": "De uma imobiliária líder em BH ao Grupo LRP Imóveis",
-   "url": "https://panoramagocomunicacao.com.br/de-uma-imobiliaria-lider-em-bh-ao-grupo-lrp-imoveis/",
-   "source": "Panoramagocomunicacao",
-   "date": "2026-11-16T17:47:55Z",
-   "cat": "mercado",
-   "local": false,
-   "img": "https://us-central1-pulsebrand-plataforma.cloudfunctions.net/trackPixel?c=808fa840-143d-491a-b225-a396a127e0ee&v=d5e08ac1-bc1a-4ce3-a9e1-10d071115e06&p=d18de97f-42da-4abc-aee8-d8c8d34c11e4"
-  },
-  {
-   "title": "Bairros de Goiânia terão obras de manutenção e desligamentos de energia programados nesta semana",
-   "url": "https://aredacao.com.br/bairros-de-goiania-terao-obras-de-manutencao-e-desligamentos-de-energia-programados-nesta-semana/",
-   "source": "A Redação",
-   "date": "2026-11-16T15:48:43Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://aredacao.com.br/wp-content/uploads/2026/11/Desligamentos-Programados-2-300x200.jpeg"
-  },
-  {
-   "title": "Com espaço pet e parquinhos acessíveis, Parque Lago das Rosas é reinaugurado em Goiânia",
-   "url": "https://radiobandeirantesgoiania.com.br/com-espaco-pet-e-parquinhos-acessiveis-parque-lago-das-rosas-e-reinaugurado-em-goiania/",
-   "source": "Rádio Bandeirantes Goiânia",
-   "date": "2026-11-16T14:54:03Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://radiobandeirantesgoiania.com.br/wp-content/uploads/2026/11/Lago-das-Rosas-ganha-revitalizacao-12.jpeg"
-  },
-  {
-   "title": "Fiscal de Obras de Campo Limpo de Goiás (GO): o que estudar, vagas e prova",
-   "url": "https://noticias.meupreparatorio.com.br/concursos/campo-limpo-de-goias-go-fiscal-de-obras-posturas-cadastro-imobiliario-o-que-estudar-vagas-e-prova",
-   "source": "Meu Preparatório",
-   "date": "2026-11-16T13:47:53Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://noticias.meupreparatorio.com.br/concursos/campo-limpo-de-goias-go-fiscal-de-obras-posturas-cadastro-imobiliario-o-que-estudar-vagas-e-prova/opengraph-image"
-  },
-  {
-   "title": "Crédito caro acelera concentração e favorece incorporadoras listadas",
-   "url": "https://portas.com.br/noticias/credito-caro-acelera-concentracao-e-favorece-incorporadoras-listadas/",
-   "source": "Portas",
-   "date": "2026-11-16T13:36:04Z",
-   "cat": "lancamentos",
-   "local": false,
-   "img": "https://uploads.portas.com.br/2026/11/Credito-caro-acelera-concentracao-e-favorece-incorporadoras-listadas-2048x1365.jpg"
-  },
-  {
-   "title": "Aparecida de Goiânia fica no top 10 do Ranking do Saneamento 2026 e recebe prêmio nacional",
-   "url": "https://www.goias365.com.br/aparecida-de-goiania-fica-no-top-10-do-ranking-do-saneamento-2026-e-recebe-premio-nacional/",
-   "source": "Goiás365",
-   "date": "2026-11-16T11:58:25Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://www.goias365.com.br/wp-content/uploads/2026/11/Aparecida-de-Goiania-premiacao-nacional-saneamento-basico.jpeg"
-  },
-  {
-   "title": "Prefeitura antecipa ações de combate à dengue e inicia vistorias em imóveis abandonados",
-   "url": "https://www.goiania.go.gov.br/agora/prefeitura-antecipa-acoes-de-combate-a-dengue-e-inicia-vistorias-em-imoveis-abandonados",
-   "source": "Goiânia (Prefeitura)",
-   "date": "2026-11-16T11:52:15Z",
-   "cat": "mercado",
-   "local": true,
-   "img": "https://www.goiania.go.gov.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-16-at-07.36.43.jpeg"
   }
  ]
 }
