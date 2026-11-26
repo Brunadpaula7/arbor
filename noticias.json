@@ -1,6 +1,60 @@
 {
- "updated": "2026-11-25T18:57:47Z",
+ "updated": "2026-11-26T03:21:34Z",
  "items": [
+  {
+   "title": "Com presença de Mabel, Goiânia Resiliente debate soluções para drenagem e adaptação climática",
+   "url": "https://aredacao.com.br/com-presenca-de-mabel-goiania-resiliente-debate-solucoes-para-drenagem-e-adaptacao-climatica/",
+   "source": "A Redação",
+   "date": "2026-11-25T22:23:14Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://aredacao.com.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-25-at-18.41.07.jpeg"
+  },
+  {
+   "title": "Goiânia lança aluguel social de até R$ 700 para mulheres vítimas de violência",
+   "url": "https://diariodegoias.com.br/goiania-lanca-aluguel-social-de-ate-r-700-para-mulheres-vitimas-de-violencia/555646/",
+   "source": "Diário de Goiás",
+   "date": "2026-11-25T21:13:42Z",
+   "cat": "lancamentos",
+   "local": true,
+   "img": "https://cdn.diariodegoias.com.br/wp-content/uploads/2026/11/25211120/goiania-lanca-aluguel-social-de-ate-r-700-para-mulheres-vitimas-de-violencia.webp"
+  },
+  {
+   "title": "Goiânia inicia aluguel social para mulheres vítimas de violência com 60 vagas",
+   "url": "https://www.jornalopcao.com.br/ultimas-noticias/goiania-inicia-aluguel-social-para-mulheres-vitimas-de-violencia-com-60-vagas-899955/",
+   "source": "Jornal Opção",
+   "date": "2026-11-25T20:54:50Z",
+   "cat": "mercado",
+   "local": true,
+   "img": "https://cdn.jornalopcao.com.br/assets/2026/11/25195113/1795636272-aluguel-social-prefeitura-de-goiania-mulheres-vitima-violencia-domestica.webp"
+  },
+  {
+   "title": "Temporal provoca alagamentos, bloqueios no trânsito e quedas de árvores em Goiânia",
+   "url": "https://aredacao.com.br/temporal-provoca-alagamentos-bloqueios-no-transito-e-quedas-de-arvores-em-goiania/",
+   "source": "A Redação",
+   "date": "2026-11-25T20:49:07Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://aredacao.com.br/wp-content/uploads/2026/11/marginal-botafogo.jpg"
+  },
+  {
+   "title": "Mulheres vítimas de violência terão aluguel social para reconstruir suas vidas em Goiânia",
+   "url": "https://www.goiania.go.gov.br/agora/mulheres-vitimas-de-violencia-terao-aluguel-social-para-reconstruir-suas-vidas-em-goiania",
+   "source": "Goiânia (Prefeitura)",
+   "date": "2026-11-25T20:49:00Z",
+   "cat": "mercado",
+   "local": true,
+   "img": "https://www.goiania.go.gov.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-25-at-16.32.25-1.jpeg"
+  },
+  {
+   "title": "Saneamento básico: um direito que não pode esperar",
+   "url": "https://www.jornalopcao.com.br/metropole/saneamento-basico-um-direito-que-nao-pode-esperar-899982/",
+   "source": "Jornal Opção",
+   "date": "2026-11-25T20:43:04Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://cdn.jornalopcao.com.br/assets/2026/11/25204240/1795639359-xgigbrjrdt1i6b7bjpwaeykaie9e-zyrnytvxx7-zy7_abpkyxynpn-lnioa2f_opk89h9brhzeeiwlz9f1oyo0fez3pdvajvgz8br0ckazfovtnczfdsrze329nbb_pfqgfbp7qo9ct0d21gcn8zskuz5jzvjy7ljoaegudwpcmrj0-wk95i.webp"
+  },
   {
    "title": "Vendas de novas moradias nos EUA disparam e atingem maior nível em 10 meses",
    "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/vendas-de-novas-moradias-nos-eua-disparam-e-atingem-maior-nivel-em-10-meses/",
@@ -17,7 +71,8 @@
    "date": "2026-11-25T18:38:11Z",
    "cat": "mercado",
    "local": true,
-   "img": ""
+   "img": "",
+   "img_tried": true
   },
   {
    "title": "Transparência: Painel do ITBI permite consultar valores de imóveis e baixar dados em Excel",
@@ -36,15 +91,6 @@
    "cat": "mercado",
    "local": true,
    "img": "https://jornalmetropolitan.com.br/wp-content/uploads/2026/11/hidrolandia-lidera-ranking-goiano-de-evolucao-imobiliari-1795629127174-780x470.webp"
-  },
-  {
-   "title": "Daniel Vilela inaugura pavimentação e restauração da GO-217 em Mairipotaba",
-   "url": "https://aredacao.com.br/daniel-vilela-inaugura-pavimentacao-e-restauracao-da-go-217-em-mairipotaba/",
-   "source": "A Redação",
-   "date": "2026-11-25T17:48:59Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://aredacao.com.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-25-at-14.10.46-300x162.jpeg"
   },
   {
    "title": "Boom imobiliário coloca Hidrolândia diante do desafio de crescer com planejamento",
@@ -77,7 +123,7 @@
    "title": "Teto de juros do financiamento imobiliário \"vai ser resolvido\", acredita presidente do Bradesco",
    "url": "https://secovi.com.br/teto-de-juros-do-financiamento-imobiliario-vai-ser-resolvido-acredita-presidente-do-bradesco/",
    "source": "SECOVI-SP",
-   "date": "2026-11-25T15:42:04Z",
+   "date": "2026-11-25T15:42:19Z",
    "cat": "financiamento",
    "local": false,
    "img": "https://secovi.com.br/wp-content/uploads/2026/11/SLJ_3371.jpg"
@@ -90,6 +136,15 @@
    "cat": "cidade",
    "local": true,
    "img": "https://s01.video.glbimg.com/x720/15279632.jpg"
+  },
+  {
+   "title": "Mais de 100 requerimentos são registrados em três semanas do programa de regularização de ITBI",
+   "url": "https://tubarao.sc.gov.br/mais-de-100-requerimentos-sao-registrados-em-tres-semanas-do-programa-de-regularizacao-de-itbi/",
+   "source": "Prefeitura de Tubarão",
+   "date": "2026-11-25T12:58:49Z",
+   "cat": "regras",
+   "local": false,
+   "img": ""
   },
   {
    "title": "Prefeitura de Goianira quer pagar R$ 500 mil a mais por pavimentação; TCM barra",
@@ -111,8 +166,8 @@
   },
   {
    "title": "Black Friday movimenta mercado imobiliário de Goiânia com condições especiais na compra de imóveis",
-   "url": "https://gazetadasemana.com.br/noticia/310125/black-friday-movimenta-mercado-imobiliario-de-goiania-com-condicoes-especiais-na-compra-de-imoveis",
-   "source": "Gazeta da Semana",
+   "url": "https://portal.saladanoticia.com.br/noticia/82462/black-friday-movimenta-mercado-imobiliario-de-goiania-com-condicoes-especiais-na-compra-de-imoveis",
+   "source": "Sala da Notícia",
    "date": "2026-11-25T10:04:32Z",
    "cat": "mercado",
    "local": true,
@@ -254,6 +309,15 @@
    "img": "https://cdn.jornalopcao.com.br/assets/2026/11/24124603/1795524362-chacara-sao-pedro-aparecida-de-goiania-moradia-3.webp"
   },
   {
+   "title": "Veja como deve ficar o Jóquei Clube de Goiás após revitalização",
+   "url": "https://opopular.com.br/cidades/veja-como-deve-ficar-o-joquei-clube-de-goias-apos-revitalizac-o-1.3484194",
+   "source": "O Popular",
+   "date": "2026-11-24T15:07:13Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://opopular.com.br/image/policy:1.3484211:1795531739/image.jpg"
+  },
+  {
    "title": "Aluguel fica até 25% mais caro em bairros de Goiânia; veja os locais com maiores aumentos",
    "url": "https://portal6.com.br/2026/11/24/aluguel-fica-ate-25-mais-caro-em-bairros-de-goiania-veja-os-locais-com-maiores-aumentos/",
    "source": "Portal 6",
@@ -314,7 +378,8 @@
    "date": "2026-11-24T13:24:53Z",
    "cat": "financiamento",
    "local": false,
-   "img": ""
+   "img": "",
+   "img_tried": true
   },
   {
    "title": "Contribuintes de Aparecida têm até segunda-feira (30) para aproveitar descontos do Refis e do ITBI",
@@ -342,15 +407,6 @@
    "cat": "mercado",
    "local": true,
    "img": "https://blogantoniocarlos.com.br/wp-content/uploads/2026/11/SEAD_REUNIAO_DE_TRABALHO_DO_FUNDO_DE_INVESTIMETNO_IMOBILIARIO_POR_ANDRE_SADDI.jpeg"
-  },
-  {
-   "title": "Obras de novo trecho do BRT Norte-Sul começam com investimento de R$ 92 milhões",
-   "url": "https://www.goiania.go.gov.br/agora/obras-de-novo-trecho-do-brt-norte-sul-comecam-com-investimento-de-r-92-milhoes",
-   "source": "Goiânia (Prefeitura)",
-   "date": "2026-11-24T11:38:50Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://www.goiania.go.gov.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-23-at-18.00.22.jpeg"
   },
   {
    "title": "Novo trecho do BRT Norte-Sul em Goiânia terá oito estações e trincheira; veja detalhes",
@@ -539,8 +595,7 @@
    "date": "2026-11-23T17:00:00Z",
    "cat": "financiamento",
    "local": false,
-   "img": "",
-   "img_tried": true
+   "img": ""
   },
   {
    "title": "Mercado imobiliário de Campinas reforça cuidados com a instalação de vidros",
@@ -933,6 +988,15 @@
    "img": "https://www.goiania.go.gov.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-19-at-15.44.23.jpeg"
   },
   {
+   "title": "Sandro Mabel conhece técnicas de drenagem em Bruxelas que podem ser aplicadas em Goiânia",
+   "url": "https://aredacao.com.br/sandro-mabel-conhece-tecnicas-de-drenagem-em-bruxelas-que-podem-ser-aplicadas-em-goiania/",
+   "source": "A Redação",
+   "date": "2026-11-19T20:06:26Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://aredacao.com.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-19-at-15.44.23.jpeg"
+  },
+  {
    "title": "Ministério das Cidades entrega 624 moradias do Minha Casa, Minha Vida em Botucatu (SP)",
    "url": "https://www.gov.br/cidades/pt-br/assuntos/noticias-1/noticia-mcid-n-2412",
    "source": "Gov",
@@ -1031,7 +1095,8 @@
    "date": "2026-11-19T16:36:00Z",
    "cat": "regras",
    "local": true,
-   "img": ""
+   "img": "",
+   "img_tried": true
   },
   {
    "title": "Plenário aprova desconto no IPTU para vencedores de concurso natalino",
@@ -1068,7 +1133,8 @@
    "date": "2026-11-19T14:43:00Z",
    "cat": "financiamento",
    "local": false,
-   "img": ""
+   "img": "",
+   "img_tried": true
   },
   {
    "title": "Goiás define consórcio para asfaltar estrada da Chapa das Covas",
@@ -1258,7 +1324,8 @@
    "date": "2026-11-18T14:20:00Z",
    "cat": "regras",
    "local": false,
-   "img": ""
+   "img": "",
+   "img_tried": true
   },
   {
    "title": "Síndica e condomínio são indiciados após poda drástica de árvores no Setor Oeste, em Goiânia",
@@ -1288,15 +1355,6 @@
    "img": ""
   },
   {
-   "title": "Residencial Cidade Jardim chega a Bela Vista de Goiás e amplia opções de moradia",
-   "url": "https://www.educativaipora.com.br/news-residencial-cidade-jardim-chega-a-bela-vista-de-goias-e-amplia-opcoes-de-moradia",
-   "source": "Educativaipora",
-   "date": "2026-11-18T13:13:20Z",
-   "cat": "mercado",
-   "local": true,
-   "img": "https://s2-g1.glbimg.com/gyAiIXujcGdkkpE9djJSt2_DCQM=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/y/c/91GpJjRyAQv883B3qjuw/bela-vista-002-8k.jpg"
-  },
-  {
    "title": "Incorporadoras elevam lucro e dívida no terceiro trimestre",
    "url": "https://portas.com.br/noticias/incorporadoras-elevam-lucro-e-divida-no-terceiro-trimestre/",
    "source": "Portas",
@@ -1304,60 +1362,6 @@
    "cat": "lancamentos",
    "local": false,
    "img": "https://uploads.portas.com.br/2026/11/Incorporadoras-elevam-lucro-e-divida-no-terceiro-trimestre-mas-analistas-veem-pressao-nas-vendas-2048x1365.jpg"
-  },
-  {
-   "title": "Branded residences: Ornare fortalece presença no mercado imobiliário de alto padrão no Brasil",
-   "url": "https://bluestudio.estadao.com.br/agencia-de-comunicacao/prnewswire/branded-residences-ornare-fortalece-presenca-no-mercado-imobiliario-de-alto-padrao-no-brasil/",
-   "source": "PR Newswire",
-   "date": "2026-11-18T12:00:00Z",
-   "cat": "mercado",
-   "local": false,
-   "img": "https://bluestudio.estadao.com.br/agencia-de-comunicacao/wp-content/uploads/2026/11/1_53_2_2026-11-18_11.jpg"
-  },
-  {
-   "title": "Construtoras em Goiás criam hortas e praças de graça para melhorar a vida dos vizinhos",
-   "url": "https://www.bra1.com.br/geral/id-728048/construtoras_em_goias_criam_hortas_e_pracas_de_graca_para_melhorar_a_vida_dos_vizinhos",
-   "source": "Bra1",
-   "date": "2026-11-18T11:21:00Z",
-   "cat": "mercado",
-   "local": true,
-   "img": "https://cdn.conexaohost.com.br/img/500x500/1/0/webp/arquivos/1918/conteudo/posts/728048.webp"
-  },
-  {
-   "title": "Flamboyant Urbanismo aposta em ecossistema de wellness para orientar futuro imobiliário de Goiânia",
-   "url": "https://panoramagocomunicacao.com.br/flamboyant-urbanismo-aposta-em-ecossistema-de-wellness-para-orientar-futuro-imobiliario-de-goiania/",
-   "source": "Panoramagocomunicacao",
-   "date": "2026-11-18T03:11:09Z",
-   "cat": "mercado",
-   "local": true,
-   "img": "https://panoramagocomunicacao.com.br/wp-content/uploads/2026/11/Divulgacao-Flamboyant-Urbanismo.jpg"
-  },
-  {
-   "title": "Caixa estuda elevar juros do financiamento imobiliário",
-   "url": "https://monitormercantil.com.br/caixa-estuda-elevar-juros-do-financiamento-imobiliario/",
-   "source": "Monitor Mercantil",
-   "date": "2026-11-17T23:39:34Z",
-   "cat": "financiamento",
-   "local": false,
-   "img": ""
-  },
-  {
-   "title": "Plataforma de IA voltada a corretores de imóveis chega ao mercado brasileiro",
-   "url": "https://paraibabusiness.com.br/plataforma-de-ia-voltada-a-corretores-de-imoveis-chega-ao-mercado-brasileiro/",
-   "source": "Paraíba Business",
-   "date": "2026-11-17T22:00:00Z",
-   "cat": "mercado",
-   "local": false,
-   "img": "https://paraibabusiness.com.br/atual/wp-content/uploads/2026/11/7051497af002cebd3225726bb03c93ef.webp"
-  },
-  {
-   "title": "Famílias que vivem em área de risco poderão receber apartamentos ou lotes em Aparecida de Goiânia",
-   "url": "https://daqui.opopular.com.br/geral/familias-que-vivem-em-area-de-risco-poder-o-receber-apartamentos-ou-lotes-em-aparecida-de-goiania-1.3481900",
-   "source": "Daqui",
-   "date": "2026-11-17T21:04:09Z",
-   "cat": "mercado",
-   "local": true,
-   "img": "https://daqui.opopular.com.br/image/policy:1.3481873:1794946315/image.jpg?f=3x2"
   }
  ]
 }
