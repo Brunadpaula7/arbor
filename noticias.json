@@ -1,23 +1,95 @@
 {
- "updated": "2026-11-26T18:49:09Z",
+ "updated": "2026-11-27T03:28:38Z",
  "items": [
+  {
+   "title": "Daniel Vilela inaugura centro de formação de educadores em Goiânia",
+   "url": "https://aredacao.com.br/daniel-vilela-inaugura-centro-de-formacao-de-educadores-em-goiania/",
+   "source": "A Redação",
+   "date": "2026-11-27T00:19:49Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://aredacao.com.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-26-at-20.08.54-300x200.jpeg"
+  },
+  {
+   "title": "Cine Santa Maria, uma sessão de quase 90 anos: o primeiro prédio de apartamentos de Goiânia é mais um art déco que apodrece no Centro da capital",
+   "url": "https://www.jornalopcao.com.br/colunas-e-blogs/bolha/cine-santa-maria-uma-sessao-de-quase-90-anos-o-primeiro-predio-de-apartamentos-de-goiania-e-mais-um-art-deco-que-apodrece-no-centro-da-capital-900336/",
+   "source": "Jornal Opção",
+   "date": "2026-11-26T21:59:29Z",
+   "cat": "mercado",
+   "local": true,
+   "img": "https://cdn.jornalopcao.com.br/assets/2026/11/26213916/1795729155-image.webp"
+  },
+  {
+   "title": "Reviravolta no caso Vitória: cadela não foi jogada de viaduto em Anápolis",
+   "url": "https://www.maisgoias.com.br/cidades/anapolis/policia-conclui-que-cadela-que-morreu-apos-cair-de-viaduto-em-anapolis-saltou-sozinha/",
+   "source": "Mais Goiás",
+   "date": "2026-11-26T21:11:19Z",
+   "cat": "cidade",
+   "local": true,
+   "img": ""
+  },
+  {
+   "title": "Consumidora que adquiriu consórcio achando ser financiamento imobiliário deve ser indenizada",
+   "url": "https://www.tjmg.jus.br/portal-tjmg/noticias/consumidora-que-adquiriu-consorcio-achando-ser-financiamento-imobiliario-deve-ser-indenizada.htm",
+   "source": "Portal TJMG",
+   "date": "2026-11-26T21:05:24Z",
+   "cat": "financiamento",
+   "local": false,
+   "img": ""
+  },
+  {
+   "title": "Grupo goiano participa de projeto de revitalização do centro de Belo Horizonte",
+   "url": "https://www.enquantoissoemgoias.com/noticia/4709/giro-por-goias/grupo-goiano-participa-de-projeto-de-revitalizacao-do-centro-de-belo-horizonte.html",
+   "source": "Enquanto isso em Goias",
+   "date": "2026-11-26T20:27:00Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://www.enquantoissoemgoias.com/arquivos/noticias/4709/grupo-goiano-participa-de-projeto-de-revitalizacao-do-centro-de-belo-horizonte.jpg"
+  },
   {
    "title": "Crescimento do setor imobiliário em Goiânia atrai profissionais de fora",
    "url": "https://blogdoamarildo.com.br/crescimento-do-setor-imobiliario-em-goiania-atrai-profissionais-de-fora/",
-   "source": "Blog do Amarildo",
-   "date": "2026-11-26T17:56:56Z",
+   "source": "Arena de Notícias",
+   "date": "2026-11-26T20:23:11Z",
    "cat": "mercado",
    "local": true,
    "img": "https://blogdoamarildo.com.br/wp-content/uploads/2026/11/Jardim-Botanico-Prefeitura-de-Goiania.jpg"
   },
   {
-   "title": "Homenageada na Câmara, arquiteta defende recuperação do Museu a Céu Aberto da Praça Universitária",
-   "url": "https://www.jornalopcao.com.br/ultimas-noticias/homenageada-na-camara-arquiteta-defende-recuperacao-do-museu-a-ceu-aberto-da-praca-universitaria-900190/",
+   "title": "Goiânia negocia consultoria sueca para mapear pontos de alagamento e planejar obras de drenagem",
+   "url": "https://www.jornalopcao.com.br/ultimas-noticias/goiania-negocia-consultoria-sueca-para-mapear-pontos-de-alagamento-e-planejar-obras-de-drenagem-900280/",
    "source": "Jornal Opção",
-   "date": "2026-11-26T16:44:36Z",
+   "date": "2026-11-26T20:07:16Z",
    "cat": "cidade",
    "local": true,
-   "img": "https://cdn.jornalopcao.com.br/assets/2026/11/26162203/1795710122-whatsapp-image-2026-11-26-at-13-20-47.webp"
+   "img": "https://cdn.jornalopcao.com.br/assets/2025/03/IMG_5410-scaled.jpg"
+  },
+  {
+   "title": "Corpo Cênico Basileu França ocupa as ruas do Centro de Goiânia com intervenção artística sobre o Cerrado",
+   "url": "https://goias.gov.br/inovacao/corpo-cenico-basileu-franca-ocupa-as-ruas-do-centro-de-goiania-com-intervencao-artistica-sobre-o-cerrado/",
+   "source": "Goias",
+   "date": "2026-11-26T19:17:02Z",
+   "cat": "regras",
+   "local": true,
+   "img": ""
+  },
+  {
+   "title": "Prefeitura de Goiânia monta operação especial de trânsito para clássico",
+   "url": "https://jornalmetropolitan.com.br/operacao-transito-classico-goiania/",
+   "source": "Jornal Metropolitan",
+   "date": "2026-11-26T19:03:13Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://jornalmetropolitan.com.br/wp-content/uploads/2026/11/prefeitura-de-goiania-monta-operacao-especial-de-transit-1795719678794-780x470.jpg"
+  },
+  {
+   "title": "Minha Casa Minha Vida aquece mercado em Goiânia com nova oferta",
+   "url": "https://www.bra1.com.br/economia/id-733585/minha_casa_minha_vida_aquece_mercado_em_goiania_com_nova_oferta",
+   "source": "Bra1",
+   "date": "2026-11-26T18:12:00Z",
+   "cat": "financiamento",
+   "local": true,
+   "img": "https://cdn.conexaohost.com.br/img/500x500/1/0/webp/arquivos/1918/conteudo/posts/733585.webp"
   },
   {
    "title": "Mansão bilionária à venda pode quebrar o recorde de Mark Zuckerberg e assumir o topo do mercado imobiliário de Miami",
@@ -65,13 +137,23 @@
    "img": "https://s2-g1.glbimg.com/RaFwziwtt65LvJ_bkxNZkEB8gN4=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/P/W/RjPBD8QvKVJXZerLzCow/09-festas-03.jpg"
   },
   {
+   "title": "Goiânia vira destino para quem quer ganhar muito com imóveis após trocar de profissão",
+   "url": "https://www.bra1.com.br/economia/id-733397/goiania_vira_destino_para_quem_quer_ganhar_muito_com_imoveis_apos_trocar_de_profissao",
+   "source": "Bra1",
+   "date": "2026-11-26T13:54:00Z",
+   "cat": "mercado",
+   "local": true,
+   "img": "https://cdn.conexaohost.com.br/img/500x500/1/0/webp/arquivos/1918/conteudo/posts/733397.webp"
+  },
+  {
    "title": "Fazenda Villagio Texas terá condomínio de alto padrão com centro equestre em Goiás",
    "url": "https://revistazelo.com.br/fazenda-villagio-texas-tera-condominio-de-alto-padrao-com-centro-equestre-em-goias/",
    "source": "Zelo - Portal de Noticias",
    "date": "2026-11-26T12:45:00Z",
    "cat": "mercado",
    "local": true,
-   "img": ""
+   "img": "",
+   "img_tried": true
   },
   {
    "title": "RET e SCP: Receita delimita uso de créditos tributários em empreendimentos imobiliários",
@@ -92,6 +174,15 @@
    "img": "https://jornalmetropolitan.com.br/wp-content/uploads/2026/11/prefeitura-de-goiania-planeja-investir-r-1-bilhao-em-obr-1795694287385-780x470.jpg"
   },
   {
+   "title": "Mabel anuncia quase R$ 1 bilhão para obras de drenagem em Goiânia",
+   "url": "https://www.goiania.go.gov.br/agora/mabel-anuncia-quase-r-1-bilhao-para-obras-de-drenagem-em-goiania",
+   "source": "Goiânia (Prefeitura)",
+   "date": "2026-11-26T11:57:44Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://www.goiania.go.gov.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-26-at-07.40.39.jpeg"
+  },
+  {
    "title": "Goiânia deve receber quase R$ 1 bilhão em obras de drenagem, anuncia prefeito",
    "url": "https://noticiatodahora.com.br/goiania-deve-receber-quase-r-1-bilhao-em-obras-de-drenagem-anuncia-prefeito/",
    "source": "Notícia Toda Hora",
@@ -101,15 +192,6 @@
    "img": "https://noticiatodahora.com.br/wp-content/uploads/2026/11/IMG-20261126-WA0012.jpg"
   },
   {
-   "title": "Mabel anuncia quase R$ 1 bilhão para obras de drenagem em Goiânia",
-   "url": "https://www.jornalopcao.com.br/goiania/mabel-anuncia-quase-r-1-bilhao-para-obras-de-drenagem-em-goiania-900056/",
-   "source": "Jornal Opção",
-   "date": "2026-11-26T11:04:07Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://cdn.jornalopcao.com.br/assets/2026/11/26110250/1795690969-whatsapp-image-2026-11-26-at-07-40-40.webp"
-  },
-  {
    "title": "CBIC e Ministério das Cidades discutem ampliação de investimentos em requalificação urbana",
    "url": "https://cbic.org.br/cbic-e-ministerio-das-cidades-discutem-ampliacao-de-investimentos-em-requalificacao-urbana/",
    "source": "CBIC - Câmara Brasileira da Indústria da Construção",
@@ -117,6 +199,15 @@
    "cat": "mercado",
    "local": false,
    "img": "https://cbic.org.br/wp-content/uploads/2026/11/img2552-scaled.jpg"
+  },
+  {
+   "title": "BRT Norte-Sul terá oito estações em novo trecho entre Goiânia e Aparecida",
+   "url": "https://ohoje.com/2026/11/25/brt-norte-sul-tera-oito-estacoes-em-novo-trecho-entre-goiania-e-aparecida/",
+   "source": "O Hoje",
+   "date": "2026-11-25T22:25:12Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://ohoje.com/wp-content/uploads/2026/11/11-abre-Divulgacao_Seinfra.webp"
   },
   {
    "title": "Com presença de Mabel, Goiânia Resiliente debate soluções para drenagem e adaptação climática",
@@ -260,7 +351,8 @@
    "date": "2026-11-25T12:58:49Z",
    "cat": "regras",
    "local": false,
-   "img": ""
+   "img": "",
+   "img_tried": true
   },
   {
    "title": "Prefeitura de Goianira quer pagar R$ 500 mil a mais por pavimentação; TCM barra",
@@ -269,7 +361,8 @@
    "date": "2026-11-25T12:29:50Z",
    "cat": "cidade",
    "local": true,
-   "img": ""
+   "img": "",
+   "img_tried": true
   },
   {
    "title": "Contribuintes têm até segunda (30) para aproveitar descontos do Refis e do ITBI em Aparecida",
@@ -323,7 +416,8 @@
    "date": "2026-11-24T22:58:00Z",
    "cat": "cidade",
    "local": true,
-   "img": ""
+   "img": "",
+   "img_tried": true
   },
   {
    "title": "Prefeito de Goiânia visita pontos críticos atingidos por temporal na capital e anuncia obras na saúde e trânsito",
@@ -513,7 +607,8 @@
    "date": "2026-11-24T13:24:53Z",
    "cat": "financiamento",
    "local": false,
-   "img": ""
+   "img": "",
+   "img_tried": true
   },
   {
    "title": "Contribuintes de Aparecida têm até segunda-feira (30) para aproveitar descontos do Refis e do ITBI",
@@ -729,7 +824,8 @@
    "date": "2026-11-23T17:00:00Z",
    "cat": "financiamento",
    "local": false,
-   "img": ""
+   "img": "",
+   "img_tried": true
   },
   {
    "title": "Mercado imobiliário de Campinas reforça cuidados com a instalação de vidros",
@@ -945,7 +1041,8 @@
    "date": "2026-11-21T13:53:03Z",
    "cat": "cidade",
    "local": true,
-   "img": ""
+   "img": "",
+   "img_tried": true
   },
   {
    "title": "Caminho alternativo para caminhões vai ligar BR-060 à BR-153 na Grande Goiânia; veja as 6 obras",
@@ -964,8 +1061,7 @@
    "date": "2026-11-21T12:04:56Z",
    "cat": "lancamentos",
    "local": false,
-   "img": "",
-   "img_tried": true
+   "img": ""
   },
   {
    "title": "“Quem conhece Goiânia não consegue ficar longe”, diz visitante em pesquisa de demanda turística",
@@ -1002,6 +1098,15 @@
    "cat": "cidade",
    "local": true,
    "img": "https://www.dm.com.br/wp-content/uploads/2026/11/Captura-de-tela-2026-11-20-214550.png"
+  },
+  {
+   "title": "Rota com mais de 130 quilômetros de pavimentação vai ligar a BR-060 à BR-153 na Grande Goiânia",
+   "url": "https://ohoje.com/2026/11/20/rota-com-mais-de-130-quilometros-de-pavimentacao-vai-ligar-a-br-060-a-br-153-na-grande-goiania/",
+   "source": "O Hoje",
+   "date": "2026-11-20T19:00:33Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://ohoje.com/wp-content/uploads/2026/11/Capa-de-materia3-3.webp"
   },
   {
    "title": "Capital Inicial traz nova turnê 'Música Urbana' a Goiânia neste sábado (21)",
@@ -1258,107 +1363,6 @@
    "cat": "financiamento",
    "local": false,
    "img": "https://timon.ma.gov.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-19-at-11.10.51-300x200.jpeg"
-  },
-  {
-   "title": "Minha Casa, Minha Vida inicia a construção de mais 2 mil moradias — Ministério das Cidades",
-   "url": "https://www.gov.br/cidades/pt-br/assuntos/noticias-1/noticia-mcid-n-2410",
-   "source": "Gov",
-   "date": "2026-11-19T14:43:00Z",
-   "cat": "financiamento",
-   "local": false,
-   "img": "",
-   "img_tried": true
-  },
-  {
-   "title": "Goiás define consórcio para asfaltar estrada da Chapa das Covas",
-   "url": "https://ultimosegundo.ig.com.br/eleicoes/estado/go/2026-11-19/goias-define-consorcio-para-asfaltar-estrada-da-chapa-das-covas.html.amp",
-   "source": "iG Último Segundo",
-   "date": "2026-11-19T14:00:00Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://i0.statig.com.br/bancodeimagens/0f/gx/xc/0fgxxcy66e51b6lf7g9gkq0gm.jpg"
-  },
-  {
-   "title": "Aparecida de Goiânia terá novos parques em quatro regiões; veja onde serão",
-   "url": "https://tribunadoplanalto.com.br/aparecida-de-goiania-tera-novos-parques-em-quatro-regioes-veja-onde-serao/",
-   "source": "Tribuna do Planalto",
-   "date": "2026-11-19T13:50:00Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://tribunadoplanalto.com.br/wp-content/uploads/2026/11/Aparecida-de-Goiania-tera-novos-parques-em-quatro-regioes-veja-onde-serao.jpg"
-  },
-  {
-   "title": "BofA corta projeção de lançamentos diante de crédito imobiliário mais caro",
-   "url": "https://portas.com.br/noticias/bofa-corta-projecao-de-lancamentos-diante-de-credito-imobiliario-mais-caro/",
-   "source": "Portas",
-   "date": "2026-11-19T13:15:43Z",
-   "cat": "lancamentos",
-   "local": false,
-   "img": "https://uploads.portas.com.br/2026/11/BofA-corta-projecao-de-lancamentos-diante-de-credito-imobiliario-mais-caro-2048x1365.jpg"
-  },
-  {
-   "title": "Cresce demanda por apartamentos ultracompactos para moradia e locação em Goiânia",
-   "url": "https://revistakdea360.com.br/noticia/102175/cresce-demanda-por-apartamentos-ultracompactos-para-moradia-e-locacao-em-goiania",
-   "source": "Portal Revista Kdea 360",
-   "date": "2026-11-19T13:02:40Z",
-   "cat": "mercado",
-   "local": true,
-   "img": ""
-  },
-  {
-   "title": "Contribuintes de Anápolis terão 30 dias para aproveitar redução de 50% no ITBI pelo Programa Desengaveta",
-   "url": "https://www.anapolis.go.gov.br/contribuintes-de-anapolis-terao-30-dias-para-aproveitar-reducao-de-50-no-itbi-pelo-programa-desengaveta/",
-   "source": "Prefeitura de Anápolis",
-   "date": "2026-11-19T13:00:00Z",
-   "cat": "regras",
-   "local": true,
-   "img": "https://www.anapolis.go.gov.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-19-at-09.58.32.jpeg"
-  },
-  {
-   "title": "Construções de moradias iniciadas nos EUA avançam 9,9% em outubro",
-   "url": "https://www.goias246.com.br/noticia/35353/economia-e-empresas/construcoes-de-moradias-iniciadas-nos-eua-avancam-9-9-em-outubro.html",
-   "source": "Goiás 246",
-   "date": "2026-11-19T12:25:00Z",
-   "cat": "mercado",
-   "local": true,
-   "img": "https://www.goias246.com.br/arquivos/noticias/35353/thumb/construcoes-de-moradias-iniciadas-nos-eua-avancam-9-9-em-outubro.jpg"
-  },
-  {
-   "title": "Imóveis recém-entregues podem custar menos que lançamentos em São Paulo",
-   "url": "https://portas.com.br/noticias/imoveis-recem-entregues-podem-custar-menos-que-lancamentos-em-sao-paulo/",
-   "source": "Portas",
-   "date": "2026-11-19T12:22:28Z",
-   "cat": "lancamentos",
-   "local": false,
-   "img": "https://uploads.portas.com.br/2026/11/Imoveis-recem-entregues-podem-custar-menos-que-lancamentos-em-Sao-Paulo-1536x1152.jpg"
-  },
-  {
-   "title": "Novo condomínio da linha Aldeia do Vale oferece terrenos amplos a 15 minutos de Goiânia",
-   "url": "https://www.maisgoias.com.br/cidades/novo-condominio-da-linha-aldeia-do-vale-oferece-terrenos-amplos-a-15-minutos-de-goiania/",
-   "source": "Mais Goiás",
-   "date": "2026-11-19T11:57:44Z",
-   "cat": "mercado",
-   "local": true,
-   "img": "",
-   "img_tried": true
-  },
-  {
-   "title": "Famílias temem ficar sem moradia após despejo em Goiânia; Prefeitura tenta viabilizar apartamentos pelo Minha Casa, Minha Vida",
-   "url": "https://www.jornalopcao.com.br/goiania/familias-solar-ville-desocupacao-goiania-889944/",
-   "source": "Jornal Opção",
-   "date": "2026-11-19T11:42:58Z",
-   "cat": "financiamento",
-   "local": true,
-   "img": "https://cdn.jornalopcao.com.br/assets/2026/11/19111458/1795086896-design-sem-nome-2026-11-19t081450-702.webp"
-  },
-  {
-   "title": "Comitiva de Goiás conhece obras de drenagem urbana em Bruxelas",
-   "url": "https://aredacao.com.br/comitiva-de-goias-conhece-obras-de-drenagem-urbana-em-bruxelas/",
-   "source": "A Redação",
-   "date": "2026-11-19T11:04:30Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://aredacao.com.br/wp-content/uploads/2026/11/baioco.jpg"
   }
  ]
 }
