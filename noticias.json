@@ -1,6 +1,69 @@
 {
- "updated": "2026-11-27T18:40:32Z",
+ "updated": "2026-11-28T03:04:05Z",
  "items": [
+  {
+   "title": "Vendas de imóveis de médio e alto padrão caem 12,4% no Brasil",
+   "url": "https://paraibabusiness.com.br/vendas-de-imoveis-de-medio-e-alto-padrao-caem-124-no-brasil/",
+   "source": "Paraíba Business",
+   "date": "2026-11-27T22:00:00Z",
+   "cat": "mercado",
+   "local": false,
+   "img": "https://paraibabusiness.com.br/atual/wp-content/uploads/2026/03/WhatsApp-Image-2026-03-25-at-10.40.09.jpeg"
+  },
+  {
+   "title": "Maria Guilhermina: entre a burocracia, o estacionamento e a urgência de salvar uma obra de arte",
+   "url": "https://www.jornalopcao.com.br/colunas-e-blogs/bolha/maria-guilhermina-entre-a-burocracia-o-estacionamento-e-a-urgencia-de-salvar-uma-obra-de-arte-900675/",
+   "source": "Jornal Opção",
+   "date": "2026-11-27T21:40:00Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://cdn.jornalopcao.com.br/assets/2026/11/27215053/1795816252-whatsapp-image-2026-11-27-at-17-58-12-1.webp"
+  },
+  {
+   "title": "Lançamentos de imóveis sobem mais de 56% no interior de SP",
+   "url": "https://arenadenoticias.com.br/noticia/187414/lancamentos-de-imoveis-sobem-mais-de-56-no-interior-de-sp",
+   "source": "Arena de Notícias",
+   "date": "2026-11-27T19:56:09Z",
+   "cat": "lancamentos",
+   "local": false,
+   "img": ""
+  },
+  {
+   "title": "Goiânia registra aumento nos serviços de limpeza de ruas, praças e áreas verdes",
+   "url": "https://www.goiania.go.gov.br/agora/goiania-registra-aumento-nos-servicos-de-limpeza-de-ruas-pracas-e-areas-verdes",
+   "source": "Goiânia (Prefeitura)",
+   "date": "2026-11-27T19:19:46Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://www.goiania.go.gov.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-19-at-10.17.54.jpeg"
+  },
+  {
+   "title": "Prefeitura revitaliza áreas públicas na Ricardo Paranhos e em cinco setores de Goiânia nesta semana",
+   "url": "https://www.goiania.go.gov.br/agora/prefeitura-revitaliza-areas-publicas-na-ricardo-paranhos-e-em-cinco-setores-de-goiania-nesta-semana",
+   "source": "Goiânia (Prefeitura)",
+   "date": "2026-11-27T19:12:15Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://www.goiania.go.gov.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-26-at-09.23.30.jpeg"
+  },
+  {
+   "title": "Goiânia: CCJ aprova projeto para reforçar segurança no trânsito perto de escolas",
+   "url": "https://transmissaopolitica.com.br/cidades/2026/11/27/goiania-ccj-seguranca-viaria-escolar/",
+   "source": "Transmissão Política",
+   "date": "2026-11-27T19:03:00Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://transmissaopolitica.com.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-27-at-15.30.35.jpeg"
+  },
+  {
+   "title": "Goiânia tem mais de 120 pontos de alagamento, diz Mabel ao anunciar obras de drenagem",
+   "url": "https://folhaz.com.br/noticias/goiania-mais-de-120-pontos-alagamento-mabel-anuncia-obras-drenagem/",
+   "source": "Folha Z",
+   "date": "2026-11-27T18:38:37Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://folhaz.com.br/wp-content/uploads/2026/11/enchente-goiania.jpg"
+  },
   {
    "title": "Mercado Aberto da Paranaíba dará lugar a praça no Centro de Goiânia",
    "url": "https://www.maisgoias.com.br/cidades/goiania/mercado-aberto-da-paranaiba-dara-lugar-a-praca-no-centro-de-goiania/",
@@ -13,7 +76,7 @@
   {
    "title": "Black Friday chega ao mercado imobiliário com um ano de condomínio e ITU grátis",
    "url": "https://www.enquantoissoemgoias.com/noticia/4724/giro-por-goias/black-friday-chega-ao-mercado-imobiliario-com-um-ano-de-condominio-e-itu-gratis.html",
-   "source": "Enquantoissoemgoias",
+   "source": "Enquanto isso em Goias",
    "date": "2026-11-27T17:24:00Z",
    "cat": "mercado",
    "local": true,
@@ -33,6 +96,15 @@
    "url": "https://portalnoticiasgoias.com.br/mercado-aberto-avenida-paranaiba-dara-lugar-praca-goiania/",
    "source": "Portalnoticiasgoias",
    "date": "2026-11-27T16:08:21Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://portalnoticiasgoias.com.br/wp-content/uploads/2026/11/mercado-aberto-avenida-paranaiba-vista-aerea.jpg"
+  },
+  {
+   "title": "Mercado Aberto da Avenida Paranaíba dará lugar a praça em Goiânia",
+   "url": "https://portalnoticiasgoias.com.br/mercado-aberto-avenida-paranaiba-dara-lugar-praca-goiania/",
+   "source": "Portal de Notícias Goiás",
+   "date": "2026-11-27T16:07:46Z",
    "cat": "cidade",
    "local": true,
    "img": "https://portalnoticiasgoias.com.br/wp-content/uploads/2026/11/mercado-aberto-avenida-paranaiba-vista-aerea.jpg"
@@ -101,10 +173,19 @@
    "img": "https://jornalmetropolitan.com.br/wp-content/uploads/2026/11/goiania-transformara-mercado-aberto-em-praca-publica-com-1795785187422-780x470.webp"
   },
   {
+   "title": "Caminho alternativo para caminhões vai ligar BR-060 à BR-153; veja as 6 obras em Goiânia",
+   "url": "https://www.maisgoias.com.br/cidades/goiania/caminho-alternativo-para-caminhoes-vai-ligar-br-060-a-br-153-veja-obras/",
+   "source": "Mais Goiás",
+   "date": "2026-11-27T13:14:00Z",
+   "cat": "cidade",
+   "local": true,
+   "img": ""
+  },
+  {
    "title": "Mercado Aberto dará lugar a praça pública em Goiânia; obras estão previstas para maio de 2027, diz Mabel",
    "url": "https://www.jornalopcao.com.br/goiania/mercado-aberto-goiania-praca-obras-2027-900447/",
    "source": "Jornal Opção",
-   "date": "2026-11-27T12:51:29Z",
+   "date": "2026-11-27T12:51:00Z",
    "cat": "cidade",
    "local": true,
    "img": "https://cdn.jornalopcao.com.br/assets/2026/11/27123057/1795782655-whatsapp-image-2026-11-27-at-09-28-12-2.webp"
@@ -135,6 +216,15 @@
    "cat": "cidade",
    "local": true,
    "img": "https://aredacao.com.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-26-at-20.08.54-300x200.jpeg"
+  },
+  {
+   "title": "Caixa oferece imóveis com até 90% de desconto na Blue Friday, que vai até 27 de novembro",
+   "url": "https://fdr.com.br/2026/11/26/caixa-oferece-imoveis-com-ate-90-de-desconto-na-blue-friday/",
+   "source": "FDR - Terra",
+   "date": "2026-11-27T00:00:19Z",
+   "cat": "financiamento",
+   "local": false,
+   "img": ""
   },
   {
    "title": "Cine Santa Maria, uma sessão de quase 90 anos: o primeiro prédio de apartamentos de Goiânia é mais um art déco que apodrece no Centro da capital",
@@ -192,6 +282,15 @@
    "img": "https://cdn.jornalopcao.com.br/assets/2025/03/IMG_5410-scaled.jpg"
   },
   {
+   "title": "Daniel Vilela anuncia criação do 71º Batalhão da PM e vistoria obras da GO-469 em Abadia de Goiás",
+   "url": "https://ohoje.com/2026/11/26/daniel-vilela-anuncia-criacao-do-71o-batalhao-da-pm-e-vistoria-obras-da-go-469-em-abadia-de-goias/",
+   "source": "O Hoje",
+   "date": "2026-11-26T19:31:28Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://ohoje.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-26-at-12.48.49.webp"
+  },
+  {
    "title": "Ademi-AL: Prêmio Master Ademi 2026 reconhece os destaques do mercado imobiliário alagoano",
    "url": "https://cbic.org.br/ademi-al-premio-master-ademi-2026-reconhece-os-destaques-do-mercado-imobiliario-alagoano/",
    "source": "CBIC - Câmara Brasileira da Indústria da Construção",
@@ -233,6 +332,16 @@
    "source": "GYN Noticias",
    "date": "2026-11-26T17:42:00Z",
    "cat": "lancamentos",
+   "local": false,
+   "img": "",
+   "img_tried": true
+  },
+  {
+   "title": "Prefeitura quer regularizar cadastro de 81 mil imóveis",
+   "url": "https://www.sjc.sp.gov.br/noticias/2026/novembro/26/prefeitura-quer-regularizar-cadastro-de-81-mil-imoveis/",
+   "source": "Prefeitura de São José dos Campos",
+   "date": "2026-11-26T16:41:00Z",
+   "cat": "mercado",
    "local": false,
    "img": ""
   },
@@ -288,7 +397,8 @@
    "date": "2026-11-26T13:54:34Z",
    "cat": "mercado",
    "local": false,
-   "img": ""
+   "img": "",
+   "img_tried": true
   },
   {
    "title": "Goiânia vira destino para quem quer ganhar muito com imóveis após trocar de profissão",
@@ -300,13 +410,23 @@
    "img": "https://cdn.conexaohost.com.br/img/500x500/1/0/webp/arquivos/1918/conteudo/posts/733397.webp"
   },
   {
+   "title": "Mabel anuncia investimento de quase R$ 1 bilhão em obras de drenagem para reduzir alagamentos em Goiânia",
+   "url": "https://ojornalismo.com.br/noticia/220516/mabel-anuncia-investimento-de-quase-r-1-bilhao-em-obras-de-drenagem-para-reduzir-alagamentos-em-goiania/",
+   "source": "ojornalismo",
+   "date": "2026-11-26T12:59:54Z",
+   "cat": "cidade",
+   "local": true,
+   "img": "https://ojornalismo.com.br/wp-content/uploads/2026/11/whatsapp-image-2026-11-26-at-09-59-54.webp"
+  },
+  {
    "title": "Fazenda Villagio Texas terá condomínio de alto padrão com centro equestre em Goiás",
    "url": "https://revistazelo.com.br/fazenda-villagio-texas-tera-condominio-de-alto-padrao-com-centro-equestre-em-goias/",
    "source": "Zelo - Portal de Noticias",
    "date": "2026-11-26T12:45:00Z",
    "cat": "mercado",
    "local": true,
-   "img": ""
+   "img": "",
+   "img_tried": true
   },
   {
    "title": "RET e SCP: Receita delimita uso de créditos tributários em empreendimentos imobiliários",
@@ -329,8 +449,8 @@
   {
    "title": "Mabel anuncia quase R$ 1 bilhão para obras de drenagem em Goiânia",
    "url": "https://www.goiania.go.gov.br/agora/mabel-anuncia-quase-r-1-bilhao-para-obras-de-drenagem-em-goiania",
-   "source": "Goiânia (Prefeitura)",
-   "date": "2026-11-26T11:57:44Z",
+   "source": "Transmissão Política",
+   "date": "2026-11-26T11:47:00Z",
    "cat": "cidade",
    "local": true,
    "img": "https://www.goiania.go.gov.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-26-at-07.40.39.jpeg"
@@ -343,15 +463,6 @@
    "cat": "cidade",
    "local": true,
    "img": "https://noticiatodahora.com.br/wp-content/uploads/2026/11/IMG-20261126-WA0012.jpg"
-  },
-  {
-   "title": "Goiânia tem mais de 120 pontos de alagamento, diz Mabel ao anunciar obras de drenagem",
-   "url": "https://folhaz.com.br/noticias/goiania-mais-de-120-pontos-alagamento-mabel-anuncia-obras-drenagem/",
-   "source": "Folha Z",
-   "date": "2026-11-26T08:00:00Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://folhaz.com.br/wp-content/uploads/2026/11/enchente-goiania.jpg"
   },
   {
    "title": "CBIC e Ministério das Cidades discutem ampliação de investimentos em requalificação urbana",
@@ -989,14 +1100,22 @@
    "img": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2021/08/18024_5F429516B64A5538-6.jpg?w=1200&h=630&crop=1"
   },
   {
+   "title": "Black Friday 2026: comprar um imóvel vale a pena? Veja o que avaliar antes",
+   "url": "https://www.cnnbrasil.com.br/economia/money/negocios/black-friday-2026-comprar-um-imovel-vale-a-pena-veja-o-que-avaliar-antes/",
+   "source": "CNN Brasil",
+   "date": "2026-11-23T17:00:26Z",
+   "cat": "mercado",
+   "local": false,
+   "img": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/11/closeup-shot-person-thinking-buying-selling-house_aa1828.jpg?w=1200&h=630&crop=1"
+  },
+  {
    "title": "Itaú passa a financiar imóveis pelo Minha Casa, Minha Vida",
    "url": "https://seucreditodigital.com.br/itau-financiamento-minha-casa-minha-vida/",
    "source": "Seu Crédito Digital",
    "date": "2026-11-23T17:00:00Z",
    "cat": "financiamento",
    "local": false,
-   "img": "",
-   "img_tried": true
+   "img": ""
   },
   {
    "title": "Mercado imobiliário de Campinas reforça cuidados com a instalação de vidros",
@@ -1095,7 +1214,8 @@
    "date": "2026-11-23T08:00:00Z",
    "cat": "mercado",
    "local": false,
-   "img": ""
+   "img": "",
+   "img_tried": true
   },
   {
    "title": "A imunidade do ITBI na integralização de imóveis e o Tema 1.348 do STF",
@@ -1232,8 +1352,7 @@
    "date": "2026-11-21T12:04:56Z",
    "cat": "lancamentos",
    "local": false,
-   "img": "",
-   "img_tried": true
+   "img": ""
   },
   {
    "title": "“Quem conhece Goiânia não consegue ficar longe”, diz visitante em pesquisa de demanda turística",
@@ -1243,123 +1362,6 @@
    "cat": "regras",
    "local": true,
    "img": "https://www.goiania.go.gov.br/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-18-at-14.04.39.jpeg"
-  },
-  {
-   "title": "Itaú vai financiar imóvel pelo Minha Casa, Minha Vida",
-   "url": "https://www.letsmoney.com.br/credito/itau-minha-casa-minha-vida-faixa-3/",
-   "source": "Let's Money",
-   "date": "2026-11-21T11:03:16Z",
-   "cat": "financiamento",
-   "local": false,
-   "img": "https://www.letsmoney.com.br/_next/image?url=https%3A%2F%2Fuploads.letsmoney.com.br%2F2026%2F06%2Fshutterstock_1818510428-scaled.jpg&w=1200&q=75"
-  },
-  {
-   "title": "Justiça condena Vitacon por entregar imóveis inacabados com habite-se",
-   "url": "https://www.estadao.com.br/economia/negocios/justica-condena-vitacon-por-entregar-imoveis-inacabados-com-habite-se/",
-   "source": "Estadão",
-   "date": "2026-11-21T08:30:00Z",
-   "cat": "mercado",
-   "local": false,
-   "img": "https://www.estadao.com.br/resizer/v2/DYYFVGE37JC4VIN3SMCOEIMQS4.jpg?quality=80&auth=5f01a546d669149019207fad5e5e5e2dd932f89200317630c64e92be4c3c82b3&width=1200&height=630&smart=true"
-  },
-  {
-   "title": "Parque Atheneu lidera notificações de dengue e Goiânia supera 35 mil casos em 2026",
-   "url": "https://www.dm.com.br/cotidiano/parque-atheneu-lidera-notificacoes-de-dengue-e-goiania-supera-35-mil-casos-em-2026/",
-   "source": "Diário da Manhã",
-   "date": "2026-11-21T01:00:00Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://www.dm.com.br/wp-content/uploads/2026/11/Captura-de-tela-2026-11-20-214550.png"
-  },
-  {
-   "title": "Rota com mais de 130 quilômetros de pavimentação vai ligar a BR-060 à BR-153 na Grande Goiânia",
-   "url": "https://ohoje.com/2026/11/20/rota-com-mais-de-130-quilometros-de-pavimentacao-vai-ligar-a-br-060-a-br-153-na-grande-goiania/",
-   "source": "O Hoje",
-   "date": "2026-11-20T19:00:33Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://ohoje.com/wp-content/uploads/2026/11/Capa-de-materia3-3.webp"
-  },
-  {
-   "title": "Capital Inicial traz nova turnê 'Música Urbana' a Goiânia neste sábado (21)",
-   "url": "https://opopular.com.br/magazine/capital-inicial-traz-nova-turne-musica-urbana-a-goiania-neste-sabado-21-1.3481799",
-   "source": "O Popular",
-   "date": "2026-11-20T18:03:46Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://opopular.com.br/image/policy:1.3481804:1794937220/image.jpg"
-  },
-  {
-   "title": "Várzea Grande tem 58,5% de inadimplência no IPTU em 2026; veja como regularizar o débito",
-   "url": "https://www.varzeagrande.mt.gov.br/varzea-grande-tem-585-de-inadimplencia-no-iptu-em-2026-veja-como-regularizar-o-debito",
-   "source": "Prefeitura Municipal de Várzea Grande - Página Inicial",
-   "date": "2026-11-20T17:00:14Z",
-   "cat": "regras",
-   "local": false,
-   "img": "https://www.varzeagrande.mt.gov.br/storage/imagem/f34dd8e7e7b307710de7d1987e713814.jpg"
-  },
-  {
-   "title": "Itaú vai financiar imóveis pelo Minha Casa Minha Vida; veja regras",
-   "url": "https://valorinveste.globo.com/produtos/imoveis/noticia/2026/11/20/itau-vai-financiar-imoveis-pelo-minha-casa-minha-vida-veja-regras.ghtml",
-   "source": "Valor Investe",
-   "date": "2026-11-20T16:05:04Z",
-   "cat": "regras",
-   "local": false,
-   "img": "https://s2-valor-investe.glbimg.com/bYctJklvVmg4N0l2H7UGuDcRBbo=/1600x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_f035dd6fd91c438fa04ab718d608bbaa/internal_photos/bs/2020/Q/P/WgxTjATpCFjzwBc32bsQ/itau.jpg"
-  },
-  {
-   "title": "Entidades culturais apoiam revitalização do Jóquei Clube de Goiás",
-   "url": "https://aredacao.com.br/entidades-culturais-apoiam-revitalizacao-do-joquei-clube-de-goias/",
-   "source": "A Redação",
-   "date": "2026-11-20T15:42:15Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://aredacao.com.br/wp-content/uploads/2026/11/IHGG-20.11.2026-Joquei-Clube-visita-institucional-300x176.jpg"
-  },
-  {
-   "title": "Caixa avalia reajuste nos juros do crédito imobiliário e mercado aguarda",
-   "url": "https://fatopaulista.com.br/financiamento-caixa-avalia-reajuste-juros-credito-imobiliario/",
-   "source": "Fato Paulista",
-   "date": "2026-11-20T15:00:42Z",
-   "cat": "financiamento",
-   "local": false,
-   "img": "https://fatopaulista.com.br/wp-content/uploads/2026/11/caixa-avalia-reajuste-nos-juros-do-credito-imobiliario-e-1795186750595.webp"
-  },
-  {
-   "title": "Setor Jaó poderá receber primeiro semáforo durante obras em Goiânia",
-   "url": "https://www.dm.com.br/cotidiano/setor-jao-podera-receber-primeiro-semaforo-durante-obras-em-goiania/",
-   "source": "Diário da Manhã",
-   "date": "2026-11-20T14:46:00Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://www.dm.com.br/wp-content/uploads/2026/11/Copia-de-f1-110.png"
-  },
-  {
-   "title": "Juros altos elevam distratos e inadimplência no setor imobiliário",
-   "url": "https://claudiodantas.com.br/juros-altos-elevam-distratos-e-inadimplencia-no-setor-imobiliario/",
-   "source": "Claudio Dantas",
-   "date": "2026-11-20T13:14:55Z",
-   "cat": "financiamento",
-   "local": false,
-   "img": "https://claudiodantas.com.br/wp-content/uploads/2026/11/images-41.jpg"
-  },
-  {
-   "title": "Setor Jaó pode ganhar primeiro semáforo com duplicação de rua em Goiânia",
-   "url": "https://www.podergoias.com.br/materia/28017/setor-jao-pode-ganhar-primeiro-semaforo-com-duplicacao-de-rua-em-goiania",
-   "source": "Poder Goiás",
-   "date": "2026-11-20T12:51:00Z",
-   "cat": "cidade",
-   "local": true,
-   "img": ""
-  },
-  {
-   "title": "Prefeito Sandro Mabel avalia soluções de drenagem urbana em Bruxelas para implantar em Goiânia",
-   "url": "https://radiobandeirantesgoiania.com.br/prefeito-sandro-mabel-avalia-solucoes-de-drenagem-urbana-em-bruxelas-para-implantar-em-goiania/",
-   "source": "Rádio Bandeirantes Goiânia",
-   "date": "2026-11-20T12:14:18Z",
-   "cat": "cidade",
-   "local": true,
-   "img": "https://radiobandeirantesgoiania.com.br/wp-content/uploads/2026/11/Sandro-Mabel-avalia-solucoes-de-drenagem-urbana-em-Bruxelas-para-implantar-em-Goiania-2.jpeg"
   }
  ]
 }
